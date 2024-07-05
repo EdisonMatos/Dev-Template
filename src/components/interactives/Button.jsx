@@ -17,7 +17,7 @@ export default function Button({
 }) {
   if (size === "small") {
     sizeFeatures = "rounded-[15px] px-[30px] py-[16px]";
-    textclassName = "text-paragraph3 font-secondFont";
+    textclassName = "text-paragraph4 font-secondFont";
     gap = "gap-[20px]";
   } else {
     sizeFeatures = "rounded-[15px] px-[30px] py-[16px]";
