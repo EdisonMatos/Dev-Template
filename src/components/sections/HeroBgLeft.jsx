@@ -3,7 +3,7 @@ import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import content from "../../content/content";
 import bgHeroImg from "../../assets/imgs/hero/bgHero.jpg";
 import Button from "../interactives/Button";
-import "../sections/waveTest.css";
+import "../../styles/divShapeWavesOpacity.css";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
