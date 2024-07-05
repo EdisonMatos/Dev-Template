@@ -36,7 +36,7 @@ export default function Button({
         onClick={onClick}
         className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary hover:bg-secondary hover:text-primary text-secondary hover:border-solid border-[1px] border-primary hover:border-primary`}
       >
-        <div className={`flex items-center text-center ${gap}`}>
+        <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
           <div className="">{icon}</div>
           <p className={`flex items-center ${textclassName}`}>{label}</p>
         </div>
