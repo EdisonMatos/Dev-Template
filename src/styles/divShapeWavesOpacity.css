@@ -56,6 +56,8 @@
   fill: #ffffff;
 }
 
+/* Hero */
+
 .custom-shape-divider-bottom-1720203688 {
   bottom: 0;
   left: 0;
@@ -82,5 +84,32 @@
   .custom-shape-divider-bottom-1720203688 svg {
     width: calc(145% + 1.3px);
     height: 41px;
+  }
+}
+
+.custom-shape-divider-bottom-1720203865 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1720203865 svg {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 78px;
+}
+
+.custom-shape-divider-bottom-1720203865 .shape-fill {
+  fill: #f6f6f6;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1720203865 svg {
+    width: calc(100% + 1.3px);
+    height: 47px;
   }
 }
