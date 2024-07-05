@@ -36,7 +36,7 @@ export default function ListGroupSocial() {
         scrolling ? "" : "text-secondary transition-color duration-1000"
       }`}
     >
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="home"
           className="relative font-semibold cursor-pointer"
@@ -47,9 +47,8 @@ export default function ListGroupSocial() {
           href="#"
         >
           <span
-            className={
-              scrolling ? "hover:text-primary" : "hover:text-secondary"
-            }
+            className={`h-[24px] inline-block
+              ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
           >
             {content.texts.navbar.menuItems[0]}
           </span>
@@ -60,7 +59,7 @@ export default function ListGroupSocial() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="service"
           className="relative font-semibold cursor-pointer"
@@ -71,9 +70,8 @@ export default function ListGroupSocial() {
           href="#"
         >
           <span
-            className={
-              scrolling ? "hover:text-primary" : "hover:text-secondary"
-            }
+            className={`h-[24px] inline-block
+              ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
           >
             {content.texts.navbar.menuItems[2]}
           </span>
@@ -84,7 +82,7 @@ export default function ListGroupSocial() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="about"
           className="relative font-semibold cursor-pointer"
@@ -95,9 +93,8 @@ export default function ListGroupSocial() {
           href="#"
         >
           <span
-            className={
-              scrolling ? "hover:text-primary" : "hover:text-secondary"
-            }
+            className={`h-[24px] inline-block
+              ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
           >
             {content.texts.navbar.menuItems[1]}
           </span>
@@ -108,7 +105,7 @@ export default function ListGroupSocial() {
           ></div>
         </Link>
       </li>
-      <li className="transition group">
+      <li className="transition group h-[24px]">
         <Link
           to="faq"
           className="relative font-semibold cursor-pointer"
@@ -119,9 +116,8 @@ export default function ListGroupSocial() {
           href="#"
         >
           <span
-            className={
-              scrolling ? "hover:text-primary" : "hover:text-secondary"
-            }
+            className={`h-[24px] inline-block
+              ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
           >
             {content.texts.navbar.menuItems[3]}
           </span>
