@@ -1,5 +1,5 @@
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
-import "./scrollDownIndicator.css";
+import "../../styles/scrollDownIndicator.css";
 
 export default function ScrollDownIndicator() {
   return (
