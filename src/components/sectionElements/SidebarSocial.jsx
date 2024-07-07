@@ -264,7 +264,7 @@ export default function SidebarSocial() {
 
                     {/* Início Foto do About */}
 
-                    <a
+                    {/* <a
                       v-ripple
                       className="bottom-0 left-0 flex items-center justify-center gap-2 p-3 m-3 transition-colors cursor-pointer phone2:absolute border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
                     >
@@ -273,7 +273,7 @@ export default function SidebarSocial() {
                         alt={content.texts.about.imagem.alt}
                         className="w-[100%]"
                       />
-                    </a>
+                    </a> */}
 
                     {/* Início Foto do About */}
                   </ul>
