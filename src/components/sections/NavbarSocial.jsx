@@ -123,7 +123,7 @@ export default function NavbarSocial() {
               <Button
                 label={content.texts.navbar.ctaButtonTextResponsive}
                 buttonLink={whatsappContactLink}
-                className={`${scrolling ? "" : "invert"}`}
+                className={`${scrolling ? "" : ""} bg-lighter border-lighter`}
                 size="small"
                 icon={
                   <svg

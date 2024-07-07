@@ -28,19 +28,25 @@ const content = {
         img: solidLogo,
         alt: "Logomarca",
       },
-      menuItems: ["Início", "Sobre Nós", "Serviços", "Perguntas Frequentes"],
+      menuItems: [
+        "Início",
+        "Aplicativo",
+        "Como funciona",
+        "Perguntas Frequentes",
+      ],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
       title: (
         <div>
-          Odontologia <br />e Harmonização
+          Suas encomendas <br />
+          na sua porta
         </div>
       ),
       subtitle:
-        "Descubra a harmonia entre saúde e estética com a Dra. Monique Adrielle!",
-      ctaButtonText: "Agendar consulta gratuita",
+        "Trazemos a solução para todos que precisam receber encomendas em lugares de difícil acesso",
+      ctaButtonText: "Fale conosco",
       images: {
         background: {},
         static: {
