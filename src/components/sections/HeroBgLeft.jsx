@@ -64,7 +64,7 @@ export default function HeroBgLeft() {
                     <a
                       href="#"
                       target="_blank"
-                      className="hover:scale-110 transition"
+                      className="transition hover:scale-110"
                     >
                       <img
                         src={imgAppStore}
@@ -75,7 +75,7 @@ export default function HeroBgLeft() {
                     <a
                       href="#"
                       target="_blank"
-                      className="hover:scale-110 transition"
+                      className="transition hover:scale-110"
                     >
                       <img
                         src={imgGooglePlay}
@@ -87,7 +87,7 @@ export default function HeroBgLeft() {
                 </div>
               </div>
             </div>
-            <div className="w-[45%] bg-yellow-500 relative">
+            <div className="w-[45%] bg-yellow-500 relative hidden desktop1:block">
               <img
                 src={imgPhone}
                 alt="Foto de aplicativo"

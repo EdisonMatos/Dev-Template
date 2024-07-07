@@ -20,7 +20,7 @@ export default function AppFeatures1() {
           <img src={imgAppFeatures1} alt="Lojas online" />
         </MotionDivDownToUp>
 
-        <div className="desktop1:w-[450px] desktop2:w-[570px]">
+        <div className="desktop1:w-[450px] desktop2:w-[570px] text-center desktop1:text-left">
           <MotionDivDownToUp className="mb-[54px]">
             <SectionTitles className="mb-[18px] desktop1:mb-[8px] text-[48px] leading-none desktop1:w-[80%]">
               Compre em qualquer site

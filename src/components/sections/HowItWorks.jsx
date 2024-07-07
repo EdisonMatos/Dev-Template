@@ -14,7 +14,7 @@ export default function HowItWorks() {
         sectionHeaderSubtitle="Com apenas alguns passos, o seu problema está resolvido"
       />
       <SectionWrapper>
-        <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] font-mainFont">
+        <div className="flex flex-col items-center desktop1:flex-wrap desktop1:flex-row justify-between w-full gap-[36px] tablet1:gap-[24px] font-mainFont mt-[42px] desktop1:mt-0">
           <div className="flex flex-col justify-center items-center w-[270px]">
             <div className="bg-lighter mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[25px] w-[25px] text-white text-title3 font-semibold">
               1

@@ -20,7 +20,7 @@ function FooterSocial() {
               <img
                 src={content.texts.navbar.logo.img}
                 alt={content.texts.navbar.logo.alt}
-                className="w-[80%] tablet1:w-[50%] desktop1:w-[80%] invert"
+                className="w-[60%] tablet1:w-[50%] desktop1:w-[80%] invert"
               ></img>
             </div>
             <div className="flex full gap-x-[12px] items-center opacity-70">
@@ -110,7 +110,7 @@ function FooterSocial() {
                 <a
                   href="#"
                   target="_blank"
-                  className="hover:scale-110 transition"
+                  className="transition hover:scale-110"
                 >
                   <img
                     src={imgAppStore}
@@ -121,7 +121,7 @@ function FooterSocial() {
                 <a
                   href="#"
                   target="_blank"
-                  className="hover:scale-110 transition"
+                  className="transition hover:scale-110"
                 >
                   <img
                     src={imgGooglePlay}
