@@ -5,13 +5,14 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import HeroBgLeft from "../components/sections/HeroBgLeft";
 import FooterSocial from "../components/sections/FooterSocial";
 import NavbarSocial from "../components/sections/NavbarSocial";
+import AppFeatures from "../components/sections/AppFeatures";
 
 export default function Index() {
   return (
     <div>
       <NavbarSocial />
       <HeroBgLeft />
-      <About />
+      <AppFeatures />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />
