@@ -3,6 +3,8 @@ import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import content from "../../content/content";
 import bgHeroImg from "../../assets/imgs/hero/bgHero.jpg";
 import Button from "../interactives/Button";
+import imgAppStore from "../../assets/imgs/hero/appStore.png";
+import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -27,14 +29,14 @@ export default function HeroBgLeft() {
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
                 <div className="flex text-center tablet1:text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
-                  <p className="text-secondary pb-[54px] tablet1:w-[50%]">
+                  <p className="text-secondary pb-[54px] tablet1:w-[50%] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
                 </div>
               </MotionDivLeftToRight>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivLeftToRight>
-                  <div className="flex justify-center tablet1:justify-start w-full desktop1:w-[50%] desktop1:mb-[10px]">
+                  <div className="flex justify-center tablet1:justify-start w-full desktop1:w-[50%] mb-[46px]">
                     <Button
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
@@ -55,7 +57,36 @@ export default function HeroBgLeft() {
                   </div>
                 </MotionDivLeftToRight>
               </div>
-              <div></div>
+              <div className="">
+                <p className="mb-[20px]">Baixe nosso app:</p>
+                <div className="">
+                  {" "}
+                  <div className="flex items-start gap-[20px]">
+                    <a
+                      href="#"
+                      target="_blank"
+                      className="hover:scale-110 transition"
+                    >
+                      <img
+                        src={imgAppStore}
+                        alt="Botão para a App Store"
+                        className=""
+                      />
+                    </a>
+                    <a
+                      href="#"
+                      target="_blank"
+                      className="hover:scale-110 transition"
+                    >
+                      <img
+                        src={imgGooglePlay}
+                        alt="Botão para a Google Play"
+                        className=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
