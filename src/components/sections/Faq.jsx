@@ -11,11 +11,13 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function Faq() {
   return (
-    <SectionArea id="faq" className="bg-quinary">
+    <SectionArea id="faq" className="bg-[#1E3254]">
       <SectionHeader
         className="text-center"
         sectionHeaderTitle={content.texts.faq.title}
         sectionHeaderSubtitle={content.texts.faq.subtitle}
+        titleColor="text-white"
+        subtitleColor="text-white opacity-70"
       />
 
       <SectionWrapper className="flex justify-center">
@@ -25,12 +27,12 @@ export default function Faq() {
           </div>
         </MotionDivDownToUp>
         <MotionDivDownToUp>
-          <Paragraphs className="text-center">
+          <Paragraphs className="text-center text-white">
             Para demais dúvidas,{" "}
             <a
               href={whatsappContactLink}
               target="_blank"
-              className="transition text-tertiary hover:underline"
+              className="transition underline"
             >
               {" "}
               fale com nossa equipe clicando aqui

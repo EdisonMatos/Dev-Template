@@ -443,51 +443,20 @@ const content = {
         "Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!",
       questions: {
         question1: {
-          question:
-            "É necessário preparo (desgaste) dos dentes para aplicação de lentes de resina?",
-          answer: (
-            <p>
-              Nem sempre é necessário realizar um preparo (desgaste) para
-              aplicar lentes de resina. Em alguns casos, pode ser necessário um
-              desgaste mínimo para garantir a melhor adaptação da lente.
-              <br />
-              <br />
-              Diferente das facetas de porcelana, que frequentemente requerem um
-              preparo mais extenso da superfície dental, as lentes de resina são
-              mais conservadoras e preservam mais a estrutura natural dos
-              dentes. Por isso, é essencial uma análise clínica individualizada
-              para determinar o melhor plano de tratamento.
-              <br />
-              <br />
-              Agende sua consulta gratuita para que possamos traçar o plano de
-              tratamento ideal para você.
-            </p>
-          ),
+          question: "Pergunta 1",
+          answer: "Resposta",
         },
         question2: {
-          question: "Lentes de resina podem causar mau hálito?",
-          answer: (
-            <p>
-              Lentes de resina, por si só, não causam mau hálito. No entanto, se
-              não forem adequadamente mantidas, podem contribuir para o acúmulo
-              de placa bacteriana e restos de alimentos, o que pode levar ao mau
-              hálito. <br />
-              <br />É essencial manter uma boa higiene bucal, incluindo
-              escovação regular, uso do fio dental e visitas periódicas ao
-              dentista, para garantir que as lentes de resina permaneçam limpas
-              e saudáveis, prevenindo assim o mau hálito.
-            </p>
-          ),
+          question: "Pergunta 2",
+          answer: "Resposta 2",
         },
         question3: {
-          question: "Qual é a duração do efeito do botox?",
-          answer:
-            "O efeito do botox geralmente dura entre 5 a 6 meses. Após esse período, o músculo volta a funcionar normalmente, e pode ser necessário fazer uma nova aplicação para manter os resultados.",
+          question: "Pergunta 3",
+          answer: "Resposta 3",
         },
         question4: {
-          question: "A plástica gengival é dolorosa?",
-          answer:
-            "Não, a plástica gengival não é dolorosa. Durante o procedimento, é utilizada anestesia local para garantir que você não sinta desconforto. Após a cirurgia, qualquer desconforto pode ser controlado com medicamentos prescritos, garantindo um pós-operatório tranquilo.",
+          question: "Pergunta 4",
+          answer: "Resposta 4",
         },
       },
     },

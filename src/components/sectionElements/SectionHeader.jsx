@@ -7,7 +7,8 @@ export default function SectionHeader(props) {
   const sectionHeaderTitle = props.sectionHeaderTitle;
   const sectionHeaderSubtitle = props.sectionHeaderSubtitle;
   const className = props.className;
-  const textColor = props.textColor;
+  const titleColor = props.titleColor;
+  const subtitleColor = props.subtitleColor;
 
   SectionHeader.propTypes = {
     sectionHeaderTitle: PropTypes.any,
@@ -19,10 +20,10 @@ export default function SectionHeader(props) {
     <div
       className={`w-[90%] tablet1:w-[80%] desktop1:w-[60%] max-w-[729px] ${className}`}
     >
-      <SectionTitles className={textColor}>
+      <SectionTitles className={titleColor}>
         <MotionDivDownToUp>{sectionHeaderTitle}</MotionDivDownToUp>
       </SectionTitles>
-      <SectionSubtitles className={textColor}>
+      <SectionSubtitles className={subtitleColor}>
         <MotionDivDownToUp>{sectionHeaderSubtitle}</MotionDivDownToUp>
       </SectionSubtitles>
     </div>
