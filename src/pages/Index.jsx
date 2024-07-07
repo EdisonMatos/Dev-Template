@@ -7,6 +7,7 @@ import FooterSocial from "../components/sections/FooterSocial";
 import NavbarSocial from "../components/sections/NavbarSocial";
 import AppFeatures1 from "../components/sections/AppFeatures1";
 import AppFeatures2 from "../components/sections/AppFeatures2";
+import HowItWorks from "../components/sections/HowItWorks";
 
 export default function Index() {
   return (
@@ -15,6 +16,7 @@ export default function Index() {
       <HeroBgLeft />
       <AppFeatures1 />
       <AppFeatures2 />
+      <HowItWorks />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />
