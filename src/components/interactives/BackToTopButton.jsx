@@ -30,7 +30,7 @@ const BackToTopButton = () => {
     <button
       className={`${
         isVisible ? "block animate-fade-in" : "hidden"
-      } fixed bottom-8 left-8 p-4 bg-primary border-primary border-solid border-[1px] text-secondary rounded-full z-10 focus:outline-none hover:border-secondary hover:invert transition`}
+      } fixed bottom-8 left-8 p-4 bg-lighter border-lighter border-solid border-[1px] text-secondary rounded-full z-10 focus:outline-none hover:border-lighter hover:invert transition`}
       onClick={scrollToTop}
     >
       <FaArrowUp />

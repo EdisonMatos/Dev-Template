@@ -12,7 +12,7 @@ import imgAppFeatures2 from "../../assets/imgs/features/appFeatures2.png";
 
 export default function AppFeatures1() {
   return (
-    <div className="w-full flex flex-col items-center pb-[40px] pt-[20px] tablet1:pb-[64px] tablet1:pt-[32px] desktop1:pb-[96px] desktop1:pt-[48px]">
+    <div className="w-full flex flex-col items-center py-[20px]  tablet1:py-[32px]  desktop1:py-[48px]">
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] flex justify-center desktop1:w-[415px] desktop2:w-[485px] ">
           <img src={imgAppFeatures2} alt="Lojas online" />

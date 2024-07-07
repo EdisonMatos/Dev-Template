@@ -4,7 +4,10 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 
 export default function HowItWorks() {
   return (
-    <SectionArea id="service" className="">
+    <div
+      id="service"
+      className="w-full flex flex-col items-center pb-[40px] tablet1:pb-[64px] desktop1:pb-[96px]"
+    >
       <SectionHeader
         className="text-center"
         sectionHeaderTitle="Como funciona?"
@@ -15,6 +18,6 @@ export default function HowItWorks() {
           Hello, world
         </div>
       </SectionWrapper>
-    </SectionArea>
+    </div>
   );
 }
