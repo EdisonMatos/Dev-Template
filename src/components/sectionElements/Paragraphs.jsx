@@ -7,11 +7,5 @@ export default function Paragraphs({ children, className }) {
     className: PropTypes.string,
   };
   const childrenArray = Children.toArray(children);
-  return (
-    <div
-      className={`font-secondFont text-paragraph4 text-paragraphLight ${className}`}
-    >
-      {childrenArray}
-    </div>
-  );
+  return <div className={`font-secondFont ${className}`}>{childrenArray}</div>;
 }
