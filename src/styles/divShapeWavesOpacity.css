@@ -76,7 +76,7 @@
 }
 
 .custom-shape-divider-bottom-1720203688 .shape-fill {
-  fill: #f6f6f6;
+  fill: #ffffff;
 }
 
 /** For mobile devices **/
@@ -112,4 +112,24 @@
     width: calc(100% + 1.3px);
     height: 47px;
   }
+}
+
+.custom-shape-divider-top-1720358016 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1720358016 svg {
+  position: relative;
+  display: block;
+  width: calc(129% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-top-1720358016 .shape-fill {
+  fill: #ffffff;
 }
