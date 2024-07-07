@@ -1,8 +1,8 @@
 const infos = {
-  name: "Harmonic Odontologia Estética",
-  slogan: "Ressignificando sorrisos",
-  phone: "(71) 98179-5510",
-  mail: "monique@harmonicodonto.com.br",
+  name: "Localpost",
+  slogan: "Suas encomendas na sua porta",
+  phone: "(21) 99999-9999",
+  mail: "contato@localpost.com.br",
   footerInfos: {
     endereco: (
       <p>
@@ -20,6 +20,7 @@ const infos = {
         Das 8h às 12h - 14h às 18h
       </p>
     ),
+    midSectionName: "DOWNLOAD",
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos em breve poder recebê-lo como nosso paciente, proporcionando a reconstrução do seu sorriso e elevando sua autoestima!",

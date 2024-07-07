@@ -9,6 +9,7 @@ import TecnicalInfo from "../components/ladinginPageSections/TecnicalInfo";
 import TrustedBy from "../components/ladinginPageSections/TrustedBy";
 import Vantagens from "../components/ladinginPageSections/Vantagens";
 import bgHeroImg from "../landingPage/hero/bgHero10.jpg";
+import TesteCarouselDivsV1 from "../components/sections/TesteCarouselDivsV1";
 
 export default function IndexPaper() {
   return (
@@ -19,6 +20,7 @@ export default function IndexPaper() {
       <div className="bg-black bg-opacity-90">
         <HeroBgCenter />
         <Vantagens />
+        <TesteCarouselDivsV1 />
         <SocialProof />
         <SeoInfo />
         <TecnicalInfo />
