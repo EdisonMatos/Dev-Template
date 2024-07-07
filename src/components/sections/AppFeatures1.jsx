@@ -25,7 +25,7 @@ export default function AppFeatures1() {
             <SectionTitles className="mb-[18px] desktop1:mb-[8px] text-[48px] leading-none desktop1:w-[80%]">
               Compre em qualquer site
             </SectionTitles>
-            <Paragraphs className="font-semibold text-[19px]">
+            <Paragraphs className="font-semibold text-[19px] opacity-65">
               Você não precisa mais deixar de comprar no estabelecimento que
               você mais gosta
             </Paragraphs>
@@ -34,7 +34,7 @@ export default function AppFeatures1() {
             <Paragraphs className="mb-[8px] font-bold text-[#000000] text-[21px]">
               Liberdade
             </Paragraphs>
-            <Paragraphs className="text-[17px]">
+            <Paragraphs className="text-[16px] opacity-65">
               Agora sua localização não interfere mais nas suas compras
             </Paragraphs>
           </MotionDivDownToUp>
@@ -42,7 +42,7 @@ export default function AppFeatures1() {
             <Paragraphs className="mb-[8px] font-bold text-[#000000] text-[21px]">
               Praticidade
             </Paragraphs>
-            <Paragraphs className="text-[17px]">
+            <Paragraphs className="text-[16px] opacity-65">
               Tudo pensado para que o processo seja totalmente fácil
             </Paragraphs>
           </MotionDivDownToUp>
