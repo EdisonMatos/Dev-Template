@@ -133,7 +133,7 @@ export default function ListGroupSocial() {
           <Button
             label={content.texts.navbar.ctaButtonText}
             buttonLink={whatsappContactLink}
-            className={`${scrolling ? "" : ""} bg-lighter border-lighter`}
+            className={`${scrolling ? "" : ""} bg-red-500 border-red-500`}
             textclassName="text-paragraph3"
             size="small"
             icon={

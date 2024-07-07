@@ -39,7 +39,7 @@ export default function HeroBgLeft() {
                     <Button
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
-                      className="bg-lighter border-lighter"
+                      className="bg-red-500 border-red-500"
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
