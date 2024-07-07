@@ -5,12 +5,14 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import infos from "../../content/infos.jsx";
 import content from "../../content/content";
 import IconButton from "../interactives/IconButton";
+import imgAppStore from "../../assets/imgs/hero/appStore.png";
+import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function FooterSocial() {
   return (
-    <footer className="bg-darker full gap-y-[42px]  text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
+    <footer className="bg-darker invert full gap-y-[42px] text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
@@ -71,7 +73,10 @@ function FooterSocial() {
               </svg>
               <p>{infos.footerInfos.expediente}</p>
             </div>
-            <div className="flex full gap-x-[12px] items-center opacity-70">
+
+            {/* ENDEREÇO */}
+
+            {/* <div className="flex full gap-x-[12px] items-center opacity-70">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -88,16 +93,46 @@ function FooterSocial() {
                 <circle cx="12" cy="10" r="3" />
               </svg>
               <p>{infos.footerInfos.endereco}</p>
-            </div>
+            </div> */}
           </div>
         </MotionDivDownToUp>
         <MotionDivDownToUp>
           <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              ATÉ MAIS! 😉
+              {infos.footerInfos.midSectionName}
             </h1>
-            <p className="opacity-70">{infos.footerInfos.footerText}</p>
-            <p className="opacity-70">Siga a gente nas redes sociais:</p>
+            {/* Texto footer */}
+            {/* <p className="opacity-70">{infos.footerInfos.footerText}</p> */}
+            <p className="opacity-70">Baixe nosso app:</p>
+            <div className="invert">
+              {" "}
+              <div className="flex flex-col items-start gap-[10px]">
+                <a
+                  href="#"
+                  target="_blank"
+                  className="hover:scale-110 transition"
+                >
+                  <img
+                    src={imgAppStore}
+                    alt="Botão para a App Store"
+                    className=""
+                  />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  className="hover:scale-110 transition"
+                >
+                  <img
+                    src={imgGooglePlay}
+                    alt="Botão para a Google Play"
+                    className=""
+                  />
+                </a>
+              </div>
+            </div>
+            {/* Ícones redes sociais */}
+            {/* <p className="opacity-70">Siga a gente nas redes sociais:</p>
             <div className="opacity-70">
               {" "}
               <div className="flex gap-[10px] items-center">
@@ -157,11 +192,10 @@ function FooterSocial() {
                       >
                         <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                       </svg>
-                      
                     }
                   />
                 </a>
-                {/* <a href={links.socialMedia.linkedin} target="_blank">
+                <a href={links.socialMedia.linkedin} target="_blank">
                   <IconButton
                     icon={
                       <svg
@@ -182,9 +216,9 @@ function FooterSocial() {
                       </svg>
                     }
                   />
-                </a> */}
+                </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </MotionDivDownToUp>
         <MotionDivDownToUp>
@@ -192,7 +226,7 @@ function FooterSocial() {
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               NAVEGAÇÃO
             </h1>
-            <div className="flex justify-between full opacity-70 ">
+            <div className="flex justify-between full opacity-70">
               <div className="w-[46%] flex flex-col gap-y-[16px] font-semibold ">
                 <div className="h-[36px] hover:underline">
                   <Link
@@ -204,7 +238,7 @@ function FooterSocial() {
                     offset={-100}
                     href="#"
                   >
-                    <span className="inline-block h-[24px]">
+                    <span className="inline-block h-[48px] hover:underline">
                       {content.texts.navbar.menuItems[0]}
                     </span>
                   </Link>
@@ -219,7 +253,7 @@ function FooterSocial() {
                     offset={-50}
                     href="#"
                   >
-                    <span className="inline-block h-[24px]">
+                    <span className="inline-block h-[48px] hover:underline">
                       {content.texts.navbar.menuItems[2]}
                     </span>
                   </Link>
@@ -236,7 +270,7 @@ function FooterSocial() {
                     offset={-20}
                     href="#"
                   >
-                    <span className="inline-block h-[24px]">
+                    <span className="inline-block h-[48px] hover:underline">
                       {content.texts.navbar.menuItems[1]}
                     </span>
                   </Link>
@@ -251,7 +285,7 @@ function FooterSocial() {
                     offset={-50}
                     href="#"
                   >
-                    <span className="inline-block h-[48px]">
+                    <span className="inline-block h-[48px] hover:underline">
                       {content.texts.navbar.menuItems[3]}
                     </span>
                   </Link>

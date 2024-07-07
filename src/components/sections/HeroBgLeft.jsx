@@ -3,43 +3,43 @@ import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import content from "../../content/content";
 import bgHeroImg from "../../assets/imgs/hero/bgHero.jpg";
 import Button from "../interactives/Button";
-import "../sections/waveTest.css";
+import imgAppStore from "../../assets/imgs/hero/appStore.png";
+import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
+import imgPhone from "../../assets/imgs/hero/phone.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function HeroBgLeft() {
   return (
     <div
-      className="w-full bg-left bg-no-repeat bg-cover font-mainFont"
+      className="w-full bg-center bg-no-repeat bg-cover font-mainFont"
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
-      <div className="relative z-10 flex w-full bg-black bg-opacity-70 items-left">
+      <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex phone1:flex-col desktop1:flex-row mx-auto mb-[38px] phone3:mb-[52px] w-[90%] max-w-[1215px] items-center gap-[20px] tablet2:gap-14 desktop3:gap-20">
-            <div className="flex flex-col w-full pt-[20px] pb-[0px] tablet1:pt-[80px] tablet1:pb-[20px] desktop1:pt-[40px]">
+            <div className="flex flex-col w-full pt-[20px] desktop1:w-[55%] pb-[0px] tablet1:pt-[80px] tablet1:pb-[20px] desktop1:pt-[40px]">
               <MotionDivLeftToRight>
-                <div className="text-secondary flex justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[90px] text-center tablet1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-[72px]">
-                  <h1 className="pb-[16px] desktop1:w-[60%] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
-                    {content.texts.hero.title}
-                  </h1>
+                <div className="text-secondary flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[70px] text-center tablet1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-[60px]">
+                  <h1 className="pb-[16px]">{content.texts.hero.title}</h1>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
                 <div className="flex text-center tablet1:text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
-                  <p className="text-secondary pb-[54px] tablet1:w-[50%] [text-shadow:_1.8px_1.8px_2px_rgb(0_0_0_/_150%)]">
+                  <p className="text-secondary pb-[54px] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
                 </div>
               </MotionDivLeftToRight>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivLeftToRight>
-                  <div className="flex justify-center tablet1:justify-start w-full desktop1:w-[50%] desktop1:mb-[10px]">
+                  <div className="flex justify-center tablet1:justify-start w-full desktop1:w-[50%] mb-[46px]">
                     <Button
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
-                      className="invert"
+                      className="bg-lighter border-lighter"
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -56,12 +56,49 @@ export default function HeroBgLeft() {
                   </div>
                 </MotionDivLeftToRight>
               </div>
+              <div className="">
+                <p className="mb-[20px]">Baixe nosso app:</p>
+                <div className="">
+                  {" "}
+                  <div className="flex items-start gap-[20px]">
+                    <a
+                      href="#"
+                      target="_blank"
+                      className="hover:scale-110 transition"
+                    >
+                      <img
+                        src={imgAppStore}
+                        alt="Botão para a App Store"
+                        className=""
+                      />
+                    </a>
+                    <a
+                      href="#"
+                      target="_blank"
+                      className="hover:scale-110 transition"
+                    >
+                      <img
+                        src={imgGooglePlay}
+                        alt="Botão para a Google Play"
+                        className=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-[45%] bg-yellow-500 relative">
+              <img
+                src={imgPhone}
+                alt="Foto de aplicativo"
+                className="absolute bottom-[-450px]"
+              />
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-black bg-opacity-70">
-        <div class="custom-shape-divider-bottom-1720203688 hidden desktop1:block">
+      <div className="bg-black bg-opacity-0">
+        <div class="custom-shape-divider-bottom-1720203688">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +111,7 @@ export default function HeroBgLeft() {
             ></path>
           </svg>
         </div>
-        <div class="custom-shape-divider-bottom-1720203865 desktop1:hidden">
+        {/* <div class="custom-shape-divider-bottom-1720203865 desktop1:hidden">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +123,7 @@ export default function HeroBgLeft() {
               class="shape-fill"
             ></path>
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
   );

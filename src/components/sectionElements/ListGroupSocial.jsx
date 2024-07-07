@@ -133,7 +133,7 @@ export default function ListGroupSocial() {
           <Button
             label={content.texts.navbar.ctaButtonText}
             buttonLink={whatsappContactLink}
-            className={`${scrolling ? "" : "invert"}`}
+            className={`${scrolling ? "" : ""} bg-lighter border-lighter`}
             textclassName="text-paragraph3"
             size="small"
             icon={

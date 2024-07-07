@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         primary: "#000000", // Com primária (escura)
         secondary: "#FFFFFF", // Cor primária (clara, sobressai sobre a primária)
-        lighter: "#21A202",
+        lighter: "#F74D4D",
         darker: "#000000",
         tertiary: "#0189BB", // Links
         quaternary: "#636363", // Cinza neutro -> Parágrafos
@@ -14,8 +14,8 @@ module.exports = {
         paragraphLight: "#636363", // Cinza neutro -> Parágrafos
       },
       fontFamily: {
-        mainFont: ["Keep Calm", "sans-serif"],
-        secondFont: ["Open Sans", "sans-serif"],
+        mainFont: ["Poppins", "sans-serif"],
+        secondFont: ["Poppins", "sans-serif"],
       },
       fontSize: {
         paragraph1: "0.625rem", // 10px
