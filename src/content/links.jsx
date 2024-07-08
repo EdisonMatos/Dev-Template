@@ -1,7 +1,7 @@
 const links = {
-  whatsapp: "https://wa.me/+5571981795510?text=",
+  whatsapp: "https://wa.me/+5521972613067?text=",
   ctaWhatsapp:
-    "+5571981795510?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "+5521972613067?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   ctaLink: "#",
   socialMedia: {
     instagram: "https://www.instagram.com/moniqueadrielle",
