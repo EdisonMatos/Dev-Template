@@ -17,7 +17,11 @@ export default function AppFeatures1() {
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] flex justify-center desktop1:w-[415px] desktop2:w-[485px] ">
-          <img src={imgAppFeatures1} alt="Lojas online" />
+          <img
+            src={imgAppFeatures1}
+            alt="Lojas online"
+            className="transition hover:scale-110"
+          />
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[450px] desktop2:w-[570px] text-center desktop1:text-left">
