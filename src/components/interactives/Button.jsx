@@ -34,7 +34,11 @@ export default function Button({
     >
       <button
         onClick={onClick}
-        className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary hover:bg-secondary hover:text-primary text-secondary hover:border-solid border-[1px] border-primary hover:border-primary`}
+        // Botão alternando cor sem usar o invert
+        // className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary hover:bg-secondary hover:text-primary text-secondary hover:border-solid border-[1px] border-primary hover:border-primary`}
+
+        // Botão com hover scale sem mudanca de cor
+        className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary text-secondary hover:border-solid border-[1px] hover:scale-110`}
       >
         <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
           <div className="">{icon}</div>
