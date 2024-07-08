@@ -299,19 +299,21 @@ function FooterSocial() {
       <div className="hidden w-[88%] max-w-[1110px] h-px bg-secondary"></div>
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
-        <p className="w-full opacity-75">
-          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
-        </p>
-        <p>
-          <a
-            className="transition hover:underline"
-            target="_blank"
-            href="https://www.paperstreet.com.br"
-          >
-            {" "}
-            Gostaria de ter um site como este? Clique aqui
-          </a>
-        </p>
+        <MotionDivDownToUp>
+          <p className="w-full opacity-75">
+            {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
+          </p>
+          <p>
+            <a
+              className="transition hover:underline"
+              target="_blank"
+              href="https://www.paperstreet.com.br"
+            >
+              {" "}
+              Gostaria de ter um site como este? Clique aqui
+            </a>
+          </p>
+        </MotionDivDownToUp>
       </div>
     </footer>
   );
