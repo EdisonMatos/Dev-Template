@@ -449,20 +449,24 @@ const content = {
         "Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!",
       questions: {
         question1: {
-          question: "Pergunta 1",
-          answer: "Resposta",
+          question: "Quais tipos de produtos vocês aceitam?",
+          answer:
+            "Produtos de pequeno porte para entregas e retiradas, produtos de grande porte apenas para retirada.",
         },
         question2: {
-          question: "Pergunta 2",
-          answer: "Resposta 2",
+          question: "Em que área vocês operam?",
+          answer:
+            "Você pode localizar nosso ponto mais próximo de você entrando em contato conosco pelo WhatsApp.",
         },
         question3: {
-          question: "Pergunta 3",
-          answer: "Resposta 3",
+          question: "O que acontece se eu não estiver casa na hora da entrega?",
+          answer:
+            "Para evitar esse ocorrido, ao entrarmos em contato com você para finalizar os dados para o serviço, será combinada uma data específica na qual você possa estar disponível dentro do tempo proposto, para receber o produto.",
         },
         question4: {
-          question: "Pergunta 4",
-          answer: "Resposta 4",
+          question: "Como vou saber se meu pedido chegou?",
+          answer:
+            "Nós estaremos entrando em contato com você assim que o produto chegar a nós, confirmando assim todos os dados sobre ele.",
         },
       },
     },
