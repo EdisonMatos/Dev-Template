@@ -14,8 +14,8 @@ export default function HowItWorks() {
         sectionHeaderSubtitle="Com apenas alguns passos, o seu problema está resolvido"
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center desktop1:flex-wrap desktop1:flex-row justify-between w-full gap-[36px] tablet1:gap-[24px] font-mainFont mt-[42px] desktop1:mt-0">
-          <div className="flex flex-col justify-center items-center w-[270px]">
+        <div className="flex flex-col items-center desktop1:flex-wrap desktop1:flex-row justify-evenly w-full gap-[36px] tablet1:gap-[24px] font-mainFont mt-[42px] desktop1:mt-0">
+          <div className="flex flex-col justify-center items-center w-[270px] hover:scale-110 transition mb-[32px] desktop1:mb-0">
             <div className="bg-lighter mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[25px] w-[25px] text-white text-title3 font-semibold">
               1
             </div>
@@ -26,7 +26,7 @@ export default function HowItWorks() {
               Localize a nossa unidade de recebimento mais próxima de você
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center w-[270px]">
+          <div className="flex flex-col justify-center items-center w-[270px] hover:scale-110 transition mb-[32px] desktop1:mb-0">
             <div className="bg-[#68D585] mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[25px] w-[25px] text-white text-title3 font-semibold">
               2
             </div>
@@ -37,7 +37,7 @@ export default function HowItWorks() {
               Insira o endereço da nossa unidade como local de recebimento
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center w-[270px]">
+          <div className="flex flex-col justify-center items-center w-[270px] hover:scale-110 transition mb-[32px] desktop1:mb-0">
             <div className="bg-[#473BF0] mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[25px] w-[25px] text-white text-title3 font-semibold">
               3
             </div>
