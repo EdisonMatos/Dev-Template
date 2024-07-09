@@ -57,42 +57,46 @@ export default function HeroBgLeft() {
                 </MotionDivLeftToRight>
               </div>
               <div className="">
-                <p className="mb-[20px]">Baixe nosso app:</p>
-                <div className="">
-                  {" "}
-                  <div className="flex items-start gap-[20px]">
-                    <a
-                      href="#"
-                      target="_blank"
-                      className="transition hover:scale-110"
-                    >
-                      <img
-                        src={imgAppStore}
-                        alt="Botão para a App Store"
-                        className=""
-                      />
-                    </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      className="transition hover:scale-110"
-                    >
-                      <img
-                        src={imgGooglePlay}
-                        alt="Botão para a Google Play"
-                        className=""
-                      />
-                    </a>
+                <MotionDivLeftToRight>
+                  <p className="mb-[20px]">Baixe nosso app:</p>
+                  <div className="">
+                    {" "}
+                    <div className="flex items-start gap-[20px]">
+                      <a
+                        href="#"
+                        target="_blank"
+                        className="transition hover:scale-110"
+                      >
+                        <img
+                          src={imgAppStore}
+                          alt="Botão para a App Store"
+                          className=""
+                        />
+                      </a>
+                      <a
+                        href="#"
+                        target="_blank"
+                        className="transition hover:scale-110"
+                      >
+                        <img
+                          src={imgGooglePlay}
+                          alt="Botão para a Google Play"
+                          className=""
+                        />
+                      </a>
+                    </div>
                   </div>
-                </div>
+                </MotionDivLeftToRight>
               </div>
             </div>
             <div className="w-[45%] bg-yellow-500 relative hidden desktop1:block">
-              <img
-                src={imgPhone}
-                alt="Foto de aplicativo"
-                className="absolute bottom-[-450px]"
-              />
+              <MotionDivLeftToRight>
+                <img
+                  src={imgPhone}
+                  alt="Foto de aplicativo"
+                  className="absolute bottom-[-450px]"
+                />
+              </MotionDivLeftToRight>
             </div>
           </div>
         </div>
