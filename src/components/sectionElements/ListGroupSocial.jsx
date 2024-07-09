@@ -61,7 +61,7 @@ export default function ListGroupSocial() {
       </li>
       <li className="transition group h-[24px]">
         <Link
-          to="service"
+          to="about"
           className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
@@ -73,7 +73,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
           >
-            {content.texts.navbar.menuItems[2]}
+            {content.texts.navbar.menuItems[1]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
@@ -84,19 +84,19 @@ export default function ListGroupSocial() {
       </li>
       <li className="transition group h-[24px]">
         <Link
-          to="about"
+          to="service"
           className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
           duration={500}
-          offset={-20}
+          offset={-50}
           href="#"
         >
           <span
             className={`h-[24px] inline-block
               ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
           >
-            {content.texts.navbar.menuItems[1]}
+            {content.texts.navbar.menuItems[2]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
