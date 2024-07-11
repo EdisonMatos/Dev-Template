@@ -14,69 +14,68 @@ function FooterSocial() {
   return (
     <footer className="bg-darker invert full gap-y-[42px] text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
-        <MotionDivDownToUp>
-          <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
-            <div className="h-[115px] flex items-center">
-              <img
-                src={content.texts.navbar.logo.img}
-                alt={content.texts.navbar.logo.alt}
-                className="w-[60%] tablet1:w-[50%] desktop1:w-[80%] invert"
-              ></img>
-            </div>
-            <div className="flex full gap-x-[12px] items-center opacity-70">
-              <Phone
-                size={24}
-                aria-label="Ícone de Telefone"
-                strokeWidth={1}
-                className="text-secondary"
-              />
-              <a
-                href={whatsappContactLink}
-                target="_blank"
-                className="hover:underline"
-              >
-                {infos.phone}
-              </a>
-            </div>
-            <div className="flex full gap-x-[12px] items-center opacity-70">
-              <Mail
-                size={24}
-                aria-label="Ícone de Carta"
-                strokeWidth={1}
-                className="text-secondary"
-              />
-              <p>{infos.mail}</p>
-            </div>
-            <div className="flex full gap-x-[12px] items-center opacity-70">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.25"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-calendar-days"
-              >
-                <path d="M8 2v4" />
-                <path d="M16 2v4" />
-                <rect width="18" height="18" x="3" y="4" rx="2" />
-                <path d="M3 10h18" />
-                <path d="M8 14h.01" />
-                <path d="M12 14h.01" />
-                <path d="M16 14h.01" />
-                <path d="M8 18h.01" />
-                <path d="M12 18h.01" />
-                <path d="M16 18h.01" />
-              </svg>
-              <p>{infos.footerInfos.expediente}</p>
-            </div>
+        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
+          <div className="h-[115px] flex items-center">
+            <img
+              src={content.texts.navbar.logo.img}
+              alt={content.texts.navbar.logo.alt}
+              className="w-[60%] tablet1:w-[50%] desktop1:w-[80%] invert"
+            ></img>
+          </div>
+          <div className="flex full gap-x-[12px] items-center opacity-70">
+            <Phone
+              size={24}
+              aria-label="Ícone de Telefone"
+              strokeWidth={1}
+              className="text-secondary"
+            />
+            <a
+              href={whatsappContactLink}
+              target="_blank"
+              className="hover:underline"
+            >
+              {infos.phone}
+            </a>
+          </div>
+          <div className="flex full gap-x-[12px] items-center opacity-70">
+            <Mail
+              size={24}
+              aria-label="Ícone de Carta"
+              strokeWidth={1}
+              className="text-secondary"
+            />
+            <p>{infos.mail}</p>
+          </div>
+          <div className="flex full gap-x-[12px] items-center opacity-70">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.25"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-calendar-days"
+            >
+              <path d="M8 2v4" />
+              <path d="M16 2v4" />
+              <rect width="18" height="18" x="3" y="4" rx="2" />
+              <path d="M3 10h18" />
+              <path d="M8 14h.01" />
+              <path d="M12 14h.01" />
+              <path d="M16 14h.01" />
+              <path d="M8 18h.01" />
+              <path d="M12 18h.01" />
+              <path d="M16 18h.01" />
+            </svg>
+            <p>{infos.footerInfos.expediente}</p>
+          </div>
 
-            {/* ENDEREÇO */}
+          {/* ENDEREÇO */}
 
-            {/* <div className="flex full gap-x-[12px] items-center opacity-70">
+          {/* <div className="flex full gap-x-[12px] items-center opacity-70">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -94,45 +93,43 @@ function FooterSocial() {
               </svg>
               <p>{infos.footerInfos.endereco}</p>
             </div> */}
-          </div>
-        </MotionDivDownToUp>
-        <MotionDivDownToUp>
-          <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-            <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              {infos.footerInfos.midSectionName}
-            </h1>
-            {/* Texto footer */}
-            {/* <p className="opacity-70">{infos.footerInfos.footerText}</p> */}
-            <p className="opacity-70">Baixe nosso app:</p>
-            <div className="invert">
-              {" "}
-              <div className="flex flex-col items-start gap-[10px]">
-                <a
-                  href="#"
-                  target="_blank"
-                  className="transition hover:scale-110"
-                >
-                  <img
-                    src={imgAppStore}
-                    alt="Botão para a App Store"
-                    className=""
-                  />
-                </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  className="transition hover:scale-110"
-                >
-                  <img
-                    src={imgGooglePlay}
-                    alt="Botão para a Google Play"
-                    className=""
-                  />
-                </a>
-              </div>
+        </div>
+        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+            {infos.footerInfos.midSectionName}
+          </h1>
+          {/* Texto footer */}
+          {/* <p className="opacity-70">{infos.footerInfos.footerText}</p> */}
+          <p className="opacity-70">Baixe nosso app:</p>
+          <div className="invert">
+            {" "}
+            <div className="flex flex-col items-start gap-[10px]">
+              <a
+                href="#"
+                target="_blank"
+                className="transition hover:scale-110"
+              >
+                <img
+                  src={imgAppStore}
+                  alt="Botão para a App Store"
+                  className=""
+                />
+              </a>
+              <a
+                href="#"
+                target="_blank"
+                className="transition hover:scale-110"
+              >
+                <img
+                  src={imgGooglePlay}
+                  alt="Botão para a Google Play"
+                  className=""
+                />
+              </a>
             </div>
-            {/* Ícones redes sociais */}
-            {/* <p className="opacity-70">Siga a gente nas redes sociais:</p>
+          </div>
+          {/* Ícones redes sociais */}
+          {/* <p className="opacity-70">Siga a gente nas redes sociais:</p>
             <div className="opacity-70">
               {" "}
               <div className="flex gap-[10px] items-center">
@@ -219,101 +216,96 @@ function FooterSocial() {
                 </a>
               </div>
             </div> */}
-          </div>
-        </MotionDivDownToUp>
-        <MotionDivDownToUp>
-          <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-            <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              NAVEGAÇÃO
-            </h1>
-            <div className="flex justify-between full opacity-70">
-              <div className="w-[46%] flex flex-col gap-y-[16px] font-semibold ">
-                <div className="h-[36px] hover:underline">
-                  <Link
-                    to="home"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-100}
-                    href="#"
-                  >
-                    <span className="inline-block h-[48px] hover:underline">
-                      {content.texts.navbar.menuItems[0]}
-                    </span>
-                  </Link>
-                </div>
-                <div className="h-[36px] hover:underline">
-                  <Link
-                    to="service"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-50}
-                    href="#"
-                  >
-                    <span className="inline-block h-[48px] hover:underline">
-                      {content.texts.navbar.menuItems[2]}
-                    </span>
-                  </Link>
-                </div>
+        </div>
+        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+            NAVEGAÇÃO
+          </h1>
+          <div className="flex justify-between full opacity-70">
+            <div className="w-[46%] flex flex-col gap-y-[16px] font-semibold ">
+              <div className="h-[36px] hover:underline">
+                <Link
+                  to="home"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-100}
+                  href="#"
+                >
+                  <span className="inline-block h-[48px] hover:underline">
+                    {content.texts.navbar.menuItems[0]}
+                  </span>
+                </Link>
               </div>
-              <div className=" w-[46%] flex flex-col gap-y-[16px] font-semibold ">
-                <div className="h-[36px] hover:underline">
-                  <Link
-                    to="about"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-20}
-                    href="#"
-                  >
-                    <span className="inline-block h-[48px] hover:underline">
-                      {content.texts.navbar.menuItems[1]}
-                    </span>
-                  </Link>
-                </div>
-                <div className="h-[36px] hover:underline">
-                  <Link
-                    to="faq"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-50}
-                    href="#"
-                  >
-                    <span className="inline-block h-[48px] hover:underline">
-                      {content.texts.navbar.menuItems[3]}
-                    </span>
-                  </Link>
-                </div>
+              <div className="h-[36px] hover:underline">
+                <Link
+                  to="service"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-50}
+                  href="#"
+                >
+                  <span className="inline-block h-[48px] hover:underline">
+                    {content.texts.navbar.menuItems[2]}
+                  </span>
+                </Link>
+              </div>
+            </div>
+            <div className=" w-[46%] flex flex-col gap-y-[16px] font-semibold ">
+              <div className="h-[36px] hover:underline">
+                <Link
+                  to="about"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-20}
+                  href="#"
+                >
+                  <span className="inline-block h-[48px] hover:underline">
+                    {content.texts.navbar.menuItems[1]}
+                  </span>
+                </Link>
+              </div>
+              <div className="h-[36px] hover:underline">
+                <Link
+                  to="faq"
+                  className="cursor-pointer"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-50}
+                  href="#"
+                >
+                  <span className="inline-block h-[48px] hover:underline">
+                    {content.texts.navbar.menuItems[3]}
+                  </span>
+                </Link>
               </div>
             </div>
           </div>
-        </MotionDivDownToUp>
+        </div>
       </div>
 
       <div className="hidden w-[88%] max-w-[1110px] h-px bg-secondary"></div>
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
-        <MotionDivDownToUp>
-          <p className="w-full opacity-75">
-            {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
-          </p>
-          <p>
-            <a
-              className="transition hover:underline"
-              target="_blank"
-              href="https://www.paperstreet.com.br"
-            >
-              {" "}
-              Gostaria de ter um site como este? Clique aqui
-            </a>
-          </p>
-        </MotionDivDownToUp>
+        <p className="w-full opacity-75">
+          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
+        </p>
+        <p>
+          <a
+            className="transition hover:underline"
+            target="_blank"
+            href="https://www.paperstreet.com.br"
+          >
+            {" "}
+            Gostaria de ter um site como este? Clique aqui
+          </a>
+        </p>
       </div>
     </footer>
   );

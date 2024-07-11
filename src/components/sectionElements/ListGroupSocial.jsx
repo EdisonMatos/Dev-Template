@@ -61,6 +61,29 @@ export default function ListGroupSocial() {
       </li>
       <li className="transition group h-[24px]">
         <Link
+          to="about"
+          className="relative font-semibold cursor-pointer"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-130}
+          href="#"
+        >
+          <span
+            className={`h-[24px] inline-block
+              ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
+          >
+            {content.texts.navbar.menuItems[1]}
+          </span>
+          <div
+            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+              scrolling ? "bg-primary" : "bg-secondary"
+            }`}
+          ></div>
+        </Link>
+      </li>
+      <li className="transition group h-[24px]">
+        <Link
           to="service"
           className="relative font-semibold cursor-pointer"
           spy={true}
@@ -74,29 +97,6 @@ export default function ListGroupSocial() {
               ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
           >
             {content.texts.navbar.menuItems[2]}
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-secondary"
-            }`}
-          ></div>
-        </Link>
-      </li>
-      <li className="transition group h-[24px]">
-        <Link
-          to="about"
-          className="relative font-semibold cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-20}
-          href="#"
-        >
-          <span
-            className={`h-[24px] inline-block
-              ${scrolling ? "hover:text-primary" : "hover:text-secondary"}`}
-          >
-            {content.texts.navbar.menuItems[1]}
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
@@ -133,7 +133,7 @@ export default function ListGroupSocial() {
           <Button
             label={content.texts.navbar.ctaButtonText}
             buttonLink={whatsappContactLink}
-            className={`${scrolling ? "" : ""} bg-red-500 border-red-500`}
+            className={`${scrolling ? "" : ""} bg-red-600 border-red-600`}
             textclassName="text-paragraph3"
             size="small"
             icon={
