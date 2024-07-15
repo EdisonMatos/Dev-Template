@@ -39,10 +39,10 @@ const content = {
     },
     hero: {
       title: (
-        <div>
+        <h1>
           Suas encomendas <br />
           na sua porta
-        </div>
+        </h1>
       ),
       subtitle:
         "Trazemos a solução para todos que precisam receber encomendas em lugares de difícil acesso",
