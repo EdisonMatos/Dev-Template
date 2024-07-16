@@ -12,14 +12,14 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function FooterSocial() {
   return (
-    <footer className="bg-darker invert full gap-y-[42px] text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
+    <footer className="bg-bgSectionLight full gap-y-[42px] text-secondary font-secondFont text-left text-paragraph4 flex flex-col py-[26px] phone3:py-[48px] justify-between items-center">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
           <div className="h-[115px] flex items-center">
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
-              className="w-[60%] tablet1:w-[50%] desktop1:w-[80%] invert"
+              className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
             ></img>
           </div>
           <div className="flex full gap-x-[12px] items-center opacity-70">
@@ -95,12 +95,14 @@ function FooterSocial() {
             </div> */}
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+          <h1 className="font-medium text-primary font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
             {infos.footerInfos.midSectionName}
           </h1>
           {/* Texto footer */}
-          {/* <p className="opacity-70">{infos.footerInfos.footerText}</p> */}
-          <p className="opacity-70">Baixe nosso app:</p>
+          <p className="opacity-70">{infos.footerInfos.footerText}</p>
+
+          {/* Botões de download */}
+          {/* <p className="opacity-70">Baixe nosso app:</p>
           <div className="invert">
             {" "}
             <div className="flex flex-col items-start gap-[10px]">
@@ -127,7 +129,8 @@ function FooterSocial() {
                 />
               </a>
             </div>
-          </div>
+          </div> */}
+
           {/* Ícones redes sociais */}
           {/* <p className="opacity-70">Siga a gente nas redes sociais:</p>
             <div className="opacity-70">
@@ -218,7 +221,7 @@ function FooterSocial() {
             </div> */}
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center text-primary">
             NAVEGAÇÃO
           </h1>
           <div className="flex justify-between full opacity-70">

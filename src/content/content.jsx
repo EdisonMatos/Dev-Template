@@ -38,7 +38,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      title: <h1>Nós cuidamos dos seus direitos</h1>,
+      title: <h1 className="mb-[16px]">Nós cuidamos dos seus direitos</h1>,
       subtitle:
         "Mais de 7 anos de experiência e dedicação para proteger seus interesses legais.",
       ctaButtonText: "Agendar consulta",

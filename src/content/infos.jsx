@@ -20,7 +20,7 @@ const infos = {
         Das 8h às 12h - 14h às 18h
       </p>
     ),
-    midSectionName: "DOWNLOAD",
+    midSectionName: "ATÉ MAIS",
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos em breve poder recebê-lo como nosso paciente, proporcionando a reconstrução do seu sorriso e elevando sua autoestima!",
