@@ -7,11 +7,5 @@ export default function SectionSubtitles({ children, className }) {
     className: PropTypes.string,
   };
   const childrenArray = Children.toArray(children);
-  return (
-    <p
-      className={`text-quaternary mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px] text-paragraph4 font-secondFont ${className}`}
-    >
-      {childrenArray}
-    </p>
-  );
+  return <p className={` ${className}`}>{childrenArray}</p>;
 }
