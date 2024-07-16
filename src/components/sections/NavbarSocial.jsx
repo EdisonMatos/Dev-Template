@@ -90,7 +90,7 @@ export default function NavbarSocial() {
       <div
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           scrolling
-            ? "bg-secondary bg-opacity-100 shadow-lg transition-all duration-1000"
+            ? "bg-lighter bg-opacity-100 shadow-lg transition-all duration-1000"
             : "transition-colors duration-1000"
         }`}
       >
@@ -141,7 +141,7 @@ export default function NavbarSocial() {
             </div>
             <div
               className={`flex items-center desktop1:hidden ${
-                scrolling ? "" : "invert"
+                scrolling ? "" : ""
               } `}
             >
               <SidebarSocial />
