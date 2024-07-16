@@ -5,18 +5,15 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import HeroBgLeft from "../components/sections/HeroBgLeft";
 import FooterSocial from "../components/sections/FooterSocial";
 import NavbarSocial from "../components/sections/NavbarSocial";
-import AppFeatures1 from "../components/sections/AppFeatures1";
-import AppFeatures2 from "../components/sections/AppFeatures2";
 import HowItWorks from "../components/sections/HowItWorks";
+import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 
 export default function Index() {
   return (
     <div>
       <NavbarSocial />
       <HeroBgLeft />
-      <AppFeatures1 />
-      <AppFeatures2 />
-      <HowItWorks />
+      <FeaturesWithIcons />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />

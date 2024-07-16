@@ -12,6 +12,7 @@ module.exports = {
         quaternary: "#636363", // Cinza neutro -> Parágrafos
         quinary: "#F6F6F6 ", // Com primária bem clara ou cinza -> Bg de seções
         paragraphLight: "#636363", // Cinza neutro -> Parágrafos
+        buttonColor: "#DBB14C", // Botões
       },
       fontFamily: {
         mainFont: ["Poppins", "sans-serif"],
@@ -29,7 +30,7 @@ module.exports = {
         title4: "1.875rem", // 30px
         title5: "2.25rem", // 36px
         title6: "3rem", // 48px
-        title7: "3.4375rem", // 55px
+        title7: "3.5rem", // 55px
       },
       spacing: {
         112: "28rem",

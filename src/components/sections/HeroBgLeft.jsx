@@ -1,28 +1,35 @@
 import links from "../../content/links";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import content from "../../content/content";
-import bgHeroImg from "../../assets/imgs/hero/bgHero.jpg";
+import bgHeroImg from "../../assets/imgs/hero/bgHeroPattern.png";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import imgPhone from "../../assets/imgs/hero/phone.png";
+import imgLaw from "../../assets/imgs/hero/law.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function HeroBgLeft() {
   return (
     <div
-      className="w-full bg-center bg-no-repeat bg-cover font-mainFont"
+      className="w-full bg-center bg-repeat font-mainFont"
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex phone1:flex-col desktop1:flex-row mx-auto mb-[38px] phone3:mb-[52px] w-[90%] max-w-[1215px] items-center gap-[20px] tablet2:gap-14 desktop3:gap-20">
-            <div className="flex flex-col w-full pt-[20px] desktop1:w-[55%] pb-[0px] tablet1:pt-[80px] tablet1:pb-[20px] desktop1:pt-[40px]">
+          <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[90%] max-w-[1215px] items-center ">
+            <div className="flex flex-col w-full desktop1:w-[55%] desktop1:pb-[100px] desktop1:pt-[60px]">
               <MotionDivLeftToRight>
-                <div className="text-secondary flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[70px] text-center tablet1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-[60px]">
+                <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
+                  <p className="mb-[24px] bg-black bg-opacity-25 rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                    ADVOGADO TRABALHISTA EM SALVADOR - BA
+                  </p>
+                </div>
+              </MotionDivLeftToRight>
+              <MotionDivLeftToRight>
+                <div className="text-secondary flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[70px] text-center tablet1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="pb-[16px]">{content.texts.hero.title}</h1>
                 </div>
               </MotionDivLeftToRight>
@@ -35,11 +42,11 @@ export default function HeroBgLeft() {
               </MotionDivLeftToRight>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivLeftToRight>
-                  <div className="flex justify-center tablet1:justify-start w-full desktop1:w-[50%] mb-[46px]">
+                  <div className="flex justify-center w-full tablet1:justify-start">
                     <Button
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
-                      className="bg-red-600 border-red-600"
+                      className="w-[100%]"
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +63,7 @@ export default function HeroBgLeft() {
                   </div>
                 </MotionDivLeftToRight>
               </div>
-              <div className="">
+              {/* <div className="">
                 <MotionDivLeftToRight>
                   <p className="mb-[20px]">Baixe nosso app:</p>
                   <div className="">
@@ -87,21 +94,21 @@ export default function HeroBgLeft() {
                     </div>
                   </div>
                 </MotionDivLeftToRight>
-              </div>
+              </div> */}
             </div>
-            <div className="w-[45%] bg-yellow-500 relative hidden desktop1:block">
+            <div className="relative h-[400px] w-[1000px] hidden desktop1:flex">
               <MotionDivLeftToRight>
                 <img
-                  src={imgPhone}
+                  src={imgLaw}
                   alt="Foto de aplicativo"
-                  className="absolute bottom-[-450px]"
+                  className="absolute bottom-[-150px] left-[80px]"
                 />
               </MotionDivLeftToRight>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-black bg-opacity-0">
+      {/* <div className="bg-black bg-opacity-0">
         <div class="custom-shape-divider-bottom-1720203688">
           <svg
             data-name="Layer 1"
@@ -115,20 +122,7 @@ export default function HeroBgLeft() {
             ></path>
           </svg>
         </div>
-        {/* <div class="custom-shape-divider-bottom-1720203865 desktop1:hidden">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
-              class="shape-fill"
-            ></path>
-          </svg>
-        </div> */}
-      </div>
+      </div> */}
     </div>
   );
 }
