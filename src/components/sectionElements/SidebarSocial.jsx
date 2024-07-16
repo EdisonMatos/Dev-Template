@@ -55,7 +55,7 @@ export default function SidebarSocial() {
       <div className="flex justify-center card">
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            scrolled ? "text-primary" : "text-primary"
+            scrolled ? "text-primary" : "text-lighter"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -116,7 +116,7 @@ export default function SidebarSocial() {
                             </a>
                           </li>
                           <ul className="p-0 m-0 list-none">
-                          <li>
+                            <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                                 <UserSearch />
                                 <span className="ml-[8px]">
@@ -154,7 +154,7 @@ export default function SidebarSocial() {
                                 <Ripple />
                               </a>
                             </li>
-                            
+
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                                 <HelpCircle />
