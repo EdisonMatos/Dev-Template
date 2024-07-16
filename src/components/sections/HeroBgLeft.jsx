@@ -12,30 +12,30 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function HeroBgLeft() {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont"
-      style={{ backgroundImage: `url(${bgHeroImg})` }}
+      className="w-full bg-center bg-repeat font-mainFont bg-bgSectionDark"
+      // style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[90%] max-w-[1215px] items-center ">
-            <div className="flex flex-col w-full desktop1:w-[55%] desktop1:pb-[100px] desktop1:pt-[60px]">
+            <div className="flex flex-col w-full desktop1:w-[55%] pb-[100px] pt-[60px]">
               <MotionDivLeftToRight>
                 <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
-                  <p className="mb-[24px] bg-black bg-opacity-25 rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                  <p className="mb-[16px] bg-black bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     ADVOGADO TRABALHISTA EM SALVADOR - BA
                   </p>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="text-secondary flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[70px] text-center tablet1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
-                  <h1 className="pb-[16px]">{content.texts.hero.title}</h1>
+                <div className="text-lighter flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center tablet1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                  <h1 className="">{content.texts.hero.title}</h1>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
                 <div className="flex text-center tablet1:text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
-                  <p className="text-secondary pb-[54px] opacity-80">
+                  <p className="text-lighter mb-[32px] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
                 </div>

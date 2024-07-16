@@ -38,7 +38,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      title: <h1>Nós cuidamos dos seus direitos</h1>,
+      title: <h1 className="mb-[16px]">Nós cuidamos dos seus direitos</h1>,
       subtitle:
         "Mais de 7 anos de experiência e dedicação para proteger seus interesses legais.",
       ctaButtonText: "Agendar consulta",
@@ -87,12 +87,12 @@ const content = {
     },
     numbers: {
       backgroundImg: numbersImgBg,
-      number1: 3300,
-      number1Description: "seguidores nas redes sociais",
-      number2: 960,
-      number2Description: "pacientes atendidos anualmente",
-      number3: 5,
-      number3Description: "Anos de experiência",
+      number1: 7,
+      number1Description: "Anos de experiência",
+      number2: 500,
+      number2Description: "Em ações ganhas para clientes",
+      number3: 1000,
+      number3Description: "Ações jurídicas",
     },
     about: {
       imagem: {
