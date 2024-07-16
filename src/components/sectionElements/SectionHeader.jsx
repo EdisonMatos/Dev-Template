@@ -30,7 +30,7 @@ export default function SectionHeader(props) {
         {sectionHeaderTitle}
       </h1>
       <p
-        className={`text-quaternary opacity-80 mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] text-title1 font-secondFont ${subtitleColor}`}
+        className={`text-quaternary opacity-70 mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] text-title1 font-secondFont ${subtitleColor}`}
       >
         {sectionHeaderSubtitle}
       </p>
