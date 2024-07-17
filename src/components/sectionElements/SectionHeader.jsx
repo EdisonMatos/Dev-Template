@@ -10,24 +10,23 @@ export default function SectionHeader({
   miniTitleTextColor,
 }) {
   if (color === "dark") {
-    miniTitleBgColor = "bg-primary opacity-10";
-    miniTitleTextColor = "text-secondary";
+    miniTitleBgColor = "bg-primary bg-opacity-10";
+    miniTitleTextColor = "text-primary";
     titleColor = "text-secondary";
     subtitleColor = "text-darker opacity-50";
   } else {
-    miniTitleBgColor = "bg-secondary";
+    miniTitleBgColor = "bg-darker bg-opacity-40";
     miniTitleTextColor = "text-lighter";
     titleColor = "text-lighter";
-    subtitleColor = "text-lighter";
+    subtitleColor = "text-lighter text-opacity-80";
   }
-
 
   return (
     <div
       className={`w-[90%] tablet1:w-[80%] desktop1:w-[60%] max-w-[920px] ${className}`}
     >
       <div
-        className={`py-[4px] font-semibold px-[8px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleBgColor}`}
+        className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleBgColor}`}
       >
         <p className={`${miniTitleTextColor}`}>{miniTitle}</p>
       </div>
