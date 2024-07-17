@@ -9,6 +9,7 @@ import HowItWorks from "../components/sections/HowItWorks";
 import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import Numbers from "../components/sections/Numbers";
 import AboutInstagram from "../components/sections/AboutInstagram";
+import HowItWorksImage from "../components/sections/HowItWorksImage";
 
 export default function Index() {
   return (
@@ -19,6 +20,7 @@ export default function Index() {
       <Numbers />
       <About />
       <AboutInstagram />
+      <HowItWorksImage />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />

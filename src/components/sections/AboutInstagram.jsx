@@ -23,20 +23,12 @@ export default function AboutInstagram() {
   return (
     <SectionArea id="about" className="bg-bgSectionDark">
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
-          <div
-            style={{
-              backgroundImage: `url(${content.texts.about.imagem.img})`,
-            }}
-            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl"
-          >
-            <img
-              src={imgPoints}
-              className="absolute opacity-75 right-[-40px] top-[40px]"
-            ></img>
-          </div>
+        <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
+          <img
+            src={imgPhone}
+            className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
+          ></img>
         </MotionDivDownToUp>
-
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
             <SectionHeader
