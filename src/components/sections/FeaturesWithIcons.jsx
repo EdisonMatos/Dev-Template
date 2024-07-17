@@ -12,6 +12,7 @@ export default function FeaturesWithIcons() {
         miniTitle="ESPECIALIDADES"
         sectionHeaderTitle="Defendendo seus direitos com excelência"
         sectionHeaderSubtitle="Garantindo seus direitos através de expertise em diversas áreas de atuação."
+        color="dark"
       />
       <SectionWrapper>
         <div>Olá</div>
