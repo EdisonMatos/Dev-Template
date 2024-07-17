@@ -6,7 +6,7 @@ import content from "../../content/content";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares">
+    <SectionArea id="service" className="">
       <SectionHeader
         className="text-center"
         miniTitle="ESPECIALIDADES"
