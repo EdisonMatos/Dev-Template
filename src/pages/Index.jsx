@@ -10,6 +10,7 @@ import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import Numbers from "../components/sections/Numbers";
 import AboutInstagram from "../components/sections/AboutInstagram";
 import HowItWorksImage from "../components/sections/HowItWorksImage";
+import CtaMinimal from "../components/sections/CtaMinimal";
 
 export default function Index() {
   return (
@@ -21,6 +22,7 @@ export default function Index() {
       <About />
       <AboutInstagram />
       <HowItWorksImage />
+      <CtaMinimal />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />
