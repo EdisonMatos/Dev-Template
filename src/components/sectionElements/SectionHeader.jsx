@@ -1,18 +1,20 @@
-export default function SectionHeader(props) {
-  const sectionHeaderTitle = props.sectionHeaderTitle;
-  const sectionHeaderSubtitle = props.sectionHeaderSubtitle;
-  const className = props.className;
-  const titleColor = props.titleColor;
-  const subtitleColor = props.subtitleColor;
-  const miniTitle = props.miniTitle;
-  const color = props.color;
-  const miniTitleBgColor = props.miniTitleBgColor;
-  const miniTitleTextColor = props.miniTitleTextColor;
-
+export default function SectionHeader({
+  sectionHeaderTitle,
+  sectionHeaderSubtitle,
+  className,
+  titleColor,
+  subtitleColor,
+  miniTitle,
+  color,
+  miniTitleBgColor,
+  miniTitleTextColor,
+}) {
   if (color === "dark") {
     miniTitleBgColor === "bg-[#682121]";
     miniTitleTextColor === "bg-primary";
   } else {
+    miniTitleBgColor === "bg-[#FFFFFF]";
+    miniTitleTextColor === "bg-secondary";
   }
 
   return (
