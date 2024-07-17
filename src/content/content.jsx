@@ -102,19 +102,11 @@ const content = {
       title: "Sobre nós 👋",
       paragraph: (
         <div>
-          Bem-vindo à Harmonic, onde a arte da odontologia e a ciência da
-          harmonização facial se unem para criar sorrisos radiantes e realçar a
-          beleza natural de cada cliente.
+          Postamos conteúdo útil semanalmente, e tiramos dúvidas sobre vários
+          aspectos interessantes.
           <br />
           <br />
-          Nosso diferencial está na paixão e na expertise da Dra. Monique
-          Adrielle, uma profissional dedicada que traz consigo anos de
-          experiência sólida em tratamentos de harmonização orofacial, lentes
-          dentais em resina composta e tratamento periodontal.
-          <br />
-          <br />
-          Priorizando a saúde e valorizando a estética, nossa missão é garantir
-          segurança e confiança aos nossos pacientes em cada sorriso.
+          Siga a gente nas nossas redes e não perca nada.
         </div>
       ),
       aboutSocial: {

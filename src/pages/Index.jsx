@@ -8,6 +8,7 @@ import NavbarSocial from "../components/sections/NavbarSocial";
 import HowItWorks from "../components/sections/HowItWorks";
 import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import Numbers from "../components/sections/Numbers";
+import AboutInstagram from "../components/sections/AboutInstagram";
 
 export default function Index() {
   return (
@@ -16,6 +17,8 @@ export default function Index() {
       <HeroBgLeft />
       <FeaturesWithIcons />
       <Numbers />
+      <About />
+      <AboutInstagram />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />
