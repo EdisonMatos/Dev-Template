@@ -10,9 +10,6 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import content from "../../content/content";
 import Button from "../interactives/Button";
-import links from "../../content/links";
-import SectionHeader from "../sectionElements/SectionHeader";
-import imgPoints from "../../assets/imgs/about/points.png";
 
 export default function About() {
   const [visible, setVisible] = useState(false);
@@ -58,35 +55,25 @@ export default function About() {
   };
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark">
-      <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-0 desktop1:justify-between">
+    <SectionArea id="about" className="">
+      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
           <div
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
-            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl"
-          >
-            <img
-              src={imgPoints}
-              className="absolute opacity-75 right-[-40px] top-[40px]"
-            ></img>
-          </div>
+            className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[550px] rounded-2xl"
+          />
         </MotionDivDownToUp>
 
-        <div className="desktop1:w-[550px] desktop2:w-[570px]">
+        <div className="desktop1:w-[450px] desktop2:w-[570px]">
           <MotionDivDownToUp>
-            <SectionHeader
-              className="text-center"
-              miniTitle="QUEM É DR. GABRIEL SANTOS"
-              sectionHeaderTitle="Minha trajetória"
-              sectionHeaderSubtitle="Advogado trabalhista há 7 anos, CEO da Matos & Adans Advogados Associados."
-              color=""
-              type="article"
-            />
+            <SectionTitles className="mb-[18px] desktop1:mb-[26px]">
+              {content.texts.about.title}
+            </SectionTitles>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs className="text-white text-opacity-60 mb-[48px]">
+            <Paragraphs className="">
               {content.texts.about.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
@@ -179,9 +166,9 @@ export default function About() {
 
           {/* Início Botão de saiba mais abrindo modal */}
 
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             <Button
-              label="Continuar lendo"
+              label="Leia mais"
               onClick={onClick}
               icon={
                 <svg
@@ -201,7 +188,7 @@ export default function About() {
                 </svg>
               }
             />
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
 
           {/* Fim Botão de saiba mais abrindo modal */}
         </div>
