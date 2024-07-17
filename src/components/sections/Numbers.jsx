@@ -25,7 +25,7 @@ export default function Numbers() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center bg-cover squares py-[40px] tablet1:py-[64px] desktop1:py-[96px]">
+    <div className="flex flex-col items-center justify-center bg-cover py-[40px] tablet1:py-[64px] desktop1:py-[96px]">
       <SectionHeader
         className="text-center"
         miniTitle="RESULTADOS"

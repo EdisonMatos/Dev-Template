@@ -20,7 +20,7 @@ export default function HeroBgLeft() {
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[90%] max-w-[1215px] items-center ">
-            <div className="flex flex-col w-full desktop1:w-[55%] pb-[100px] pt-[60px]">
+            <div className="flex flex-col w-full desktop1:w-[55%] pb-[100px] pt-[60px] desktop1:mr-[20px]">
               <MotionDivLeftToRight>
                 <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
                   <p className="mb-[16px] bg-black bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
@@ -96,13 +96,9 @@ export default function HeroBgLeft() {
                 </MotionDivLeftToRight>
               </div> */}
             </div>
-            <div className="relative h-[400px] w-[1000px] hidden desktop1:flex">
+            <div className="hidden desktop1:flex">
               <MotionDivLeftToRight>
-                <img
-                  src={imgLaw}
-                  alt="Foto de aplicativo"
-                  className="absolute bottom-[-150px] left-[80px]"
-                />
+                <img src={imgLaw} alt="Foto de aplicativo" className="" />
               </MotionDivLeftToRight>
             </div>
           </div>
