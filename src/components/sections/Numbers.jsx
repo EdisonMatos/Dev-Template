@@ -30,7 +30,7 @@ export default function Numbers() {
         className="text-center"
         miniTitle="RESULTADOS"
         sectionHeaderTitle="Números que expressam competência"
-        color={""}
+        color="dark"
       />
       <div className="w-[90%] max-w-[1215px] gap-[46px] flex flex-col text-center desktop1:flex-row justify-between items-center text-primary">
         <div className=" flex flex-col items-center w-[90%] desktop1:w-[30%] ">

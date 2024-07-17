@@ -15,6 +15,7 @@ export default function Faq() {
       <SectionArea id="faq" className="">
         <SectionHeader
           className="text-center"
+          miniTitle="TIRE SUAS DÚVIDAS"
           sectionHeaderTitle={content.texts.faq.title}
           sectionHeaderSubtitle={content.texts.faq.subtitle}
           titleColor="text-white"
