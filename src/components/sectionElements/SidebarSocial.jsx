@@ -144,8 +144,8 @@ export default function SidebarSocial() {
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
-                                    duration={400}
-                                    offset={-100}
+                                    duration={500}
+                                    offset={-50}
                                     href="#"
                                   >
                                     {content.texts.navbar.menuItems[2]}
