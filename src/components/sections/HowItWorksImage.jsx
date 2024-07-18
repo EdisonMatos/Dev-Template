@@ -33,7 +33,7 @@ export default function HowItWorksImage() {
           >
             <img
               src={imgPoints}
-              className="absolute opacity-75 right-[-40px] top-[40px]"
+              className="absolute opacity-75 right-[-40px] top-[40px] phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
           </div>
         </MotionDivDownToUp>
