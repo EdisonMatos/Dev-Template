@@ -5,6 +5,7 @@ export default function SectionHeader({
   titleColor,
   subtitleColor,
   miniTitle,
+  miniTitleSpace,
   color,
   miniTitleBgColor,
   miniTitleTextColor,
@@ -29,6 +30,7 @@ export default function SectionHeader({
 
   if (type === "article") {
     usage = "w-full flex flex-col";
+    miniTitleSpace = "w-full flex-start text-left";
     titleOrientation = "text-left";
     subtitleOrientation = "text-left";
     marginBottomOption = "mb-[12px] tablet1:mb-[20px] desktop1:mb-[32px]";
@@ -39,10 +41,12 @@ export default function SectionHeader({
 
   return (
     <div className={` ${usage} ${className}`}>
-      <div
-        className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
-      >
-        <p className={`${miniTitleTextColor} `}>{miniTitle}</p>
+      <div className={`${miniTitleSpace}`}>
+        <div
+          className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
+        >
+          <p className={`${miniTitleTextColor} `}>{miniTitle}</p>
+        </div>
       </div>
       <h1
         className={`${titleColor} ${titleOrientation} text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}
