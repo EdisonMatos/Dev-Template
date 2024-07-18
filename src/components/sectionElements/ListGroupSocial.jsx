@@ -66,7 +66,7 @@ export default function ListGroupSocial() {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-130}
+          offset={-30}
           href="#"
         >
           <span
