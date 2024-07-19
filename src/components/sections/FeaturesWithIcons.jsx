@@ -8,7 +8,7 @@ import lawImg from "../../assets/imgs/features/law.png";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="">
+    <SectionArea id="service" className="" >
       <SectionHeader
         className="text-center"
         miniTitle="ESPECIALIDADES"
