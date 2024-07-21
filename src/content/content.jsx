@@ -430,6 +430,10 @@ const content = {
       subtitle: "#",
       ctaButtonText: "Agendar consulta gratuita",
     },
+    depositions: {
+      title: "Clientes sempre satisfeitos",
+      subtitle: "Nossos clientes são a prova viva de que cumprimos o que prometemos",
+    },
     faq: {
       title: "Perguntas Frequentes",
       subtitle:
