@@ -1,11 +1,11 @@
 const links = {
-  whatsapp: "https://wa.me/+5521972613067?text=",
+  whatsapp: "https://wa.me/+5531986229899?text=",
   ctaWhatsapp:
-    "+5521972613067?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "+5531986229899?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   ctaLink: "#",
   socialMedia: {
-    instagram: "https://www.instagram.com/moniqueadrielle",
-    facebook: "https://www.facebook.com/monique.adrielle.14/",
+    instagram: "https://www.instagram.com/gleidson_prudencio/",
+    facebook: "#",
     linkedin: "#",
     twitter: "#",
   },
