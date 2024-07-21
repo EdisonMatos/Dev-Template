@@ -94,14 +94,19 @@ const content = {
         img: aboutImg1,
         alt: "Pessoas em negociação",
       },
-      title: "Sobre nós 👋",
+      title: "Minha trajetória",
+      subtitle:
+        "Formado em Direito pelo Centro Universitário de Belo Horizonte – UniBH, com conclusão em 2019. ",
       paragraph: (
         <div>
-          Postamos conteúdo útil semanalmente, e tiramos dúvidas sobre vários
-          aspectos interessantes.
+          Durante minha formação, tive a oportunidade de estagiar no Tribunal de
+          Justiça de Minas Gerais, onde adquiri valiosa experiência prática.
           <br />
           <br />
-          Siga a gente nas nossas redes e não perca nada.
+          Aprofundei meus conhecimentos com uma pós-graduação em Direito
+          Constitucional pela Faculdade Metropolitana, concluída em 2021. Desde
+          2020, tenho atuado como advogado, defendendo os interesses de clientes
+          em todo o Brasil com dedicação e compromisso.
         </div>
       ),
       aboutSocial: {

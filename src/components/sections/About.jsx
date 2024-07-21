@@ -78,9 +78,9 @@ export default function About() {
           <MotionDivDownToUp>
             <SectionHeader
               className="text-center"
-              miniTitle="QUEM É DR. GABRIEL SANTOS"
-              sectionHeaderTitle="Minha trajetória"
-              sectionHeaderSubtitle="Advogado trabalhista há 7 anos, CEO da Matos & Adans Advogados Associados."
+              miniTitle="QUEM É DR. GLEIDSON PRUDÊNCIO"
+              sectionHeaderTitle={content.texts.about.title}
+              sectionHeaderSubtitle={content.texts.about.subtitle}
               color=""
               type="article"
             />
@@ -179,7 +179,7 @@ export default function About() {
 
           {/* Início Botão de saiba mais abrindo modal */}
 
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             <Button
               label="Continuar lendo"
               onClick={onClick}
@@ -201,7 +201,7 @@ export default function About() {
                 </svg>
               }
             />
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
 
           {/* Fim Botão de saiba mais abrindo modal */}
         </div>
