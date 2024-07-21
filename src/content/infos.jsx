@@ -1,29 +1,30 @@
 const infos = {
-  name: "Localpost",
-  slogan: "Suas encomendas na sua porta",
-  phone: "(21) 99999-9999",
-  mail: "contato@localpost.com.br",
+  name: "Dr. Gleidson Prudêncio",
+  slogan: "Advocacia e Consultoria Jurídica",
+  phone: "(31) 98622-9899",
+  mail: "contato@gleidsonprudencio.com.br",
   footerInfos: {
     endereco: (
       <p>
-        Av. Antônio Carlos Magalhães nº 1034 <br />
-        Pituba Parque Center - Sala 308 Ala A <br />
-        Itaigara - Salvador - BA
+        Rua Bruges, nº 129 <br />
+        Baurro Jardim Europa
         <br />
-        CEP: 41825-906
+        Belo Horizonte - MG
+        <br />
+        CEP: 31620-100
       </p>
     ),
     expediente: (
       <p>
         Segunda-feira à Sexta-feira
         <br />
-        Das 8h às 12h - 14h às 18h
+        Das 9h às 20:30h
       </p>
     ),
     midSectionName: "ATÉ MAIS",
     year: 2024,
     footerText:
-      "Agradecemos sua visita! Esperamos em breve poder recebê-lo como nosso paciente, proporcionando a reconstrução do seu sorriso e elevando sua autoestima!",
+      "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
   },
 };
 

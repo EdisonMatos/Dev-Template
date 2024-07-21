@@ -28,20 +28,15 @@ const content = {
         img: solidLogo,
         alt: "Logomarca",
       },
-      menuItems: [
-        "Início",
-        "Aplicativo",
-        "Como funciona",
-        "Perguntas Frequentes",
-      ],
+      menuItems: ["Início", "Serviços", "Sobre mim", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
       title: <h1 className="mb-[16px]">Nós cuidamos dos seus direitos</h1>,
       subtitle:
-        "Mais de 7 anos de experiência e dedicação para proteger seus interesses legais.",
-      ctaButtonText: "Agendar consulta",
+        "Mais de 5 anos de experiência protegendo seus interesses legais em diversos estados do Brasil",
+      ctaButtonText: "Entre em contato",
       images: {
         background: {},
         static: {
@@ -99,14 +94,19 @@ const content = {
         img: aboutImg1,
         alt: "Pessoas em negociação",
       },
-      title: "Sobre nós 👋",
+      title: "Minha trajetória",
+      subtitle:
+        "Formado em Direito pelo Centro Universitário de Belo Horizonte – UniBH, com conclusão em 2019. ",
       paragraph: (
         <div>
-          Postamos conteúdo útil semanalmente, e tiramos dúvidas sobre vários
-          aspectos interessantes.
+          Durante minha formação, tive a oportunidade de estagiar no Tribunal de
+          Justiça de Minas Gerais, onde adquiri valiosa experiência prática.
           <br />
           <br />
-          Siga a gente nas nossas redes e não perca nada.
+          Aprofundei meus conhecimentos com uma pós-graduação em Direito
+          Constitucional pela Faculdade Metropolitana, concluída em 2021. Desde
+          2020, tenho atuado como advogado, defendendo os interesses de clientes
+          em todo o Brasil com dedicação e compromisso.
         </div>
       ),
       aboutSocial: {
@@ -393,32 +393,37 @@ const content = {
       },
     },
     features: {
-      title: "Nossas especialidades",
-      subtitle: "Conheça as áreas de atuação da Dra. Monique Adrielle",
+      title: "Defendendo seus direitos com excelência",
+      subtitle:
+        "Garantindo seus direitos através de expertise em diversas áreas de atuação.",
       card1: {
-        title: "Harmonização Orofacial",
-        subtitle: "Realce sua beleza natural com HOF",
+        title: "Família e Inventário",
+        subtitle:
+          "Resguardando direitos de sucessão e assegurando a proteção jurídica em questões familiares",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "Estética Dental",
-        subtitle: "Transformando sorrisos e renovando a sua autoestima",
+        title: "Imobiliário",
+        subtitle:
+          "Protegendo seus direitos em transações, contratos e disputas relacionadas a imóveis",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Reabilitação do meio bucal",
-        subtitle: "Próteses, implantes e coroas",
+        title: "Consumidor",
+        subtitle:
+          "Garantindo a proteção e defesa dos seus direitos nas relações de consumo",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Odontologia Pediátrica",
-        subtitle: "Dos primeiros dentes até a adolescência",
+        title: "Contratual",
+        subtitle:
+          "Assegurando a validade, execução e cumprimento de acordos e contratos",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
@@ -432,7 +437,8 @@ const content = {
     },
     depositions: {
       title: "Clientes sempre satisfeitos",
-      subtitle: "Nossos clientes são a prova viva de que cumprimos o que prometemos",
+      subtitle:
+        "Nossos clientes são a prova viva de que cumprimos o que prometemos",
     },
     faq: {
       title: "Perguntas Frequentes",
