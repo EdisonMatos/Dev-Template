@@ -7,7 +7,7 @@ export default function CarouselDivsV1({ children }) {
       breakpoint: "2500px",
       numVisible: 4,
       numScroll: 4,
-    },// organiza em 4 por clique e passa os 4 de uma só vez
+    }, // organiza em 4 por clique e passa os 4 de uma só vez
     {
       breakpoint: "1199px",
       numVisible: 4,
@@ -15,13 +15,13 @@ export default function CarouselDivsV1({ children }) {
     },
     {
       breakpoint: "767px",
-      numVisible: 3,
-      numScroll: 3,
+      numVisible: 2,
+      numScroll: 2,
     },
     {
       breakpoint: "575px",
-      numVisible: 2,
-      numScroll: 2,
+      numVisible: 1,
+      numScroll: 1,
     },
   ];
 
