@@ -19,7 +19,7 @@ export default function Index() {
       <NavbarSocial />
       <HeroBgLeft />
       <FeaturesWithIcons />
-      <Numbers />
+      {/* <Numbers /> */}
       <About />
       <AboutInstagram />
       <HowItWorksImage />

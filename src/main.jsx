@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
-      <Route path="/paper" element={<IndexPaper />} />
+      {/* <Route path="/paper" element={<IndexPaper />} /> */}
     </Routes>
   </Router>
 );
