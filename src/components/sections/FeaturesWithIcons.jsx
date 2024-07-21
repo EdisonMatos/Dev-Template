@@ -8,12 +8,12 @@ import lawImg from "../../assets/imgs/features/law.png";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="" >
+    <SectionArea id="service" className="">
       <SectionHeader
         className="text-center"
         miniTitle="ESPECIALIDADES"
-        sectionHeaderTitle="Defendendo seus direitos com excelência"
-        sectionHeaderSubtitle="Garantindo seus direitos através de expertise em diversas áreas de atuação."
+        sectionHeaderTitle={content.texts.features.title}
+        sectionHeaderSubtitle={content.texts.features.subtitle}
         color="dark"
       />
       <SectionWrapper>
@@ -40,8 +40,8 @@ export default function FeaturesWithIcons() {
                   <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
                 </svg>
               }
-              title="Direito Trabalhista"
-              paragraph="Protege seus direitos no trabalho, abordando contratos, horas e condições laborais."
+              title={content.texts.features.card1.title}
+              paragraph={content.texts.features.card1.subtitle}
               className="tablet1:mb-[46px]"
             />
             <IconFeatureCard
@@ -65,8 +65,8 @@ export default function FeaturesWithIcons() {
                   <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
                 </svg>
               }
-              title="Direito Previdenciário"
-              paragraph="Garante seus benefícios sociais, como aposentadoria e auxílios, perante o INSS."
+              title={content.texts.features.card2.title}
+              paragraph={content.texts.features.card2.subtitle}
             />
           </div>
           <div className="hidden desktop1:flex col2">
@@ -94,8 +94,8 @@ export default function FeaturesWithIcons() {
                   <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
                 </svg>
               }
-              title="Direito Civil"
-              paragraph="Resguarda seus direitos civis, incluindo contratos, propriedade e responsabilidade civil."
+              title={content.texts.features.card3.title}
+              paragraph={content.texts.features.card3.subtitle}
               className="tablet1:mb-[46px]"
             />
             <IconFeatureCard
@@ -119,8 +119,8 @@ export default function FeaturesWithIcons() {
                   <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
                 </svg>
               }
-              title="Direito Sindical"
-              paragraph="Garantido suporte a sindicatos e trabalhadores na defesa de seus interesses."
+              title={content.texts.features.card4.title}
+              paragraph={content.texts.features.card4.subtitle}
             />
           </div>
         </div>
