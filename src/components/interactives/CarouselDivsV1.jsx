@@ -2,28 +2,28 @@ import React from "react";
 import { Carousel } from "primereact/carousel";
 
 export default function CarouselDivsV1({ children }) {
-  //   const responsiveOptions = [
-  //     {
-  //       breakpoint: "1400px",
-  //       numVisible: 1,
-  //       numScroll: 1,
-  //     },
-  //     {
-  //       breakpoint: "1199px",
-  //       numVisible: 1,
-  //       numScroll: 1,
-  //     },
-  //     {
-  //       breakpoint: "767px",
-  //       numVisible: 1,
-  //       numScroll: 1,
-  //     },
-  //     {
-  //       breakpoint: "575px",
-  //       numVisible: 1,
-  //       numScroll: 1,
-  //     },
-  //   ];
+  const responsiveOptions = [
+    {
+      breakpoint: "2500px",
+      numVisible: 4,
+      numScroll: 4,
+    }, // organiza em 4 por clique e passa os 4 de uma só vez
+    {
+      breakpoint: "1199px",
+      numVisible: 4,
+      numScroll: 4,
+    },
+    {
+      breakpoint: "767px",
+      numVisible: 2,
+      numScroll: 2,
+    },
+    {
+      breakpoint: "575px",
+      numVisible: 1,
+      numScroll: 1,
+    },
+  ];
 
   const itemTemplate = (item) => {
     return (
@@ -39,7 +39,7 @@ export default function CarouselDivsV1({ children }) {
         value={children}
         numVisible={1}
         numScroll={1}
-        // responsiveOptions={responsiveOptions}
+        responsiveOptions={responsiveOptions}
         className=""
         circular
         autoplayInterval={8000}
