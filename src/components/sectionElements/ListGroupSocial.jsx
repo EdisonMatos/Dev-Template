@@ -61,7 +61,7 @@ export default function ListGroupSocial() {
       </li>
       <li className="transition group h-[24px]">
         <Link
-          to="about"
+          to="service"
           className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
@@ -84,7 +84,7 @@ export default function ListGroupSocial() {
       </li>
       <li className="transition group h-[24px]">
         <Link
-          to="service"
+          to="about"
           className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
