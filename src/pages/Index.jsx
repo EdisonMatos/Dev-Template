@@ -24,7 +24,7 @@ export default function Index() {
       <AboutInstagram />
       <HowItWorksImage />
       <CtaMinimal />
-      {/* <Depositions /> */}
+      <Depositions />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />

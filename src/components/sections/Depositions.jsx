@@ -16,7 +16,7 @@ import deposition8 from "../../assets/imgs/depositions/deposition8.png";
 export default function Depositions() {
   return (
     <div className="relative bg-bgSectionDark">
-      <SectionArea className="">
+      <SectionArea className="" paddingbot={false}>
         <SectionHeader
           className="text-center"
           miniTitle="TIRE SUAS DÚVIDAS"
