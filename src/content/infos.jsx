@@ -7,7 +7,7 @@ const infos = {
     endereco: (
       <p>
         Rua Bruges, nº 129 <br />
-        Baurro Jardim Europa
+        Jardim Europa
         <br />
         Belo Horizonte - MG
         <br />
@@ -16,12 +16,12 @@ const infos = {
     ),
     expediente: (
       <p>
-        Segunda-feira à Sexta-feira
+        Funcionamento: seg a sex
         <br />
-        Das 9h às 20:30h
+        9h às 20h30
       </p>
     ),
-    midSectionName: "ATÉ MAIS",
+    midSectionName: "Até mais! 😉",
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",

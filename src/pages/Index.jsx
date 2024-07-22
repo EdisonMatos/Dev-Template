@@ -21,7 +21,7 @@ export default function Index() {
       <FeaturesWithIcons />
       {/* <Numbers /> */}
       <About />
-      <AboutInstagram />
+      {/* <AboutInstagram /> */}
       <HowItWorksImage />
       <CtaMinimal />
       <Depositions />

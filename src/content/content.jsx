@@ -28,7 +28,7 @@ const content = {
         img: solidLogo,
         alt: "Logomarca",
       },
-      menuItems: ["Início", "Serviços", "Sobre mim", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -442,28 +442,27 @@ const content = {
     },
     faq: {
       title: "Perguntas Frequentes",
-      subtitle:
-        "Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "Quais tipos de produtos vocês aceitam?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "Produtos de pequeno porte para entregas e retiradas, produtos de grande porte apenas para retirada.",
+            "Agende sua consulta conosco via Whatsapp e discutiremos suas necessidades e estimamos custos.",
         },
         question2: {
-          question: "Em que área vocês operam?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Você pode localizar nosso ponto mais próximo de você entrando em contato conosco pelo WhatsApp.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "O que acontece se eu não estiver casa na hora da entrega?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Para evitar esse ocorrido, ao entrarmos em contato com você para finalizar os dados para o serviço, será combinada uma data específica na qual você possa estar disponível dentro do tempo proposto, para receber o produto.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Como vou saber se meu pedido chegou?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Nós estaremos entrando em contato com você assim que o produto chegar a nós, confirmando assim todos os dados sobre ele.",
+            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
         },
       },
     },

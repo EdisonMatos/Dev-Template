@@ -30,14 +30,14 @@ export default function Faq() {
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="text-center text-white">
-              Para demais dúvidas,{" "}
+              {" "}
               <a
                 href={whatsappContactLink}
                 target="_blank"
                 className="underline transition"
               >
                 {" "}
-                fale com nossa equipe clicando aqui
+                Clique aqui caso tenha mais dúvidas
               </a>
             </Paragraphs>
           </MotionDivDownToUp>
