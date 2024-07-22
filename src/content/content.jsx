@@ -442,8 +442,7 @@ const content = {
     },
     faq: {
       title: "Perguntas Frequentes",
-      subtitle:
-        "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
@@ -463,7 +462,7 @@ const content = {
         question4: {
           question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Nós estaremos entrando em contato com você assim que o produto chegar a nós, confirmando assim todos os dados sobre ele.",
+            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
         },
       },
     },
