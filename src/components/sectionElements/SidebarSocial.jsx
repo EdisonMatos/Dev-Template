@@ -121,7 +121,7 @@ export default function SidebarSocial() {
                                 <UserSearch />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="about"
+                                    to="service"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -140,7 +140,7 @@ export default function SidebarSocial() {
                                 <ServerIcon />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="service"
+                                    to="about"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
