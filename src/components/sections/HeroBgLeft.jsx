@@ -32,12 +32,12 @@ export default function HeroBgLeft() {
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="text-lighter flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center tablet1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                <div className="text-lighter flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="">{content.texts.hero.title}</h1>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="flex text-center tablet1:text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex text-center desktop1:text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
@@ -45,7 +45,7 @@ export default function HeroBgLeft() {
               </MotionDivLeftToRight>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <MotionDivLeftToRight>
-                  <div className="flex justify-center w-full tablet1:justify-start">
+                  <div className="flex justify-center w-full desktop1:justify-start">
                     <Button
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
