@@ -29,8 +29,8 @@ export default function Depositions() {
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">
             <CarouselDivisV1>
-              <div className="flex justify-center">
-                <div>
+              <div className="flex justify-center items-center">
+                <div className="flex justify-center">
                   <img src={deposition1} alt="depoimento 1" />
                 </div>
               </div>
