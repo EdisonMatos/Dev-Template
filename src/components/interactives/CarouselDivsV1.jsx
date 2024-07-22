@@ -27,8 +27,8 @@ export default function CarouselDivsV1({ children }) {
 
   const itemTemplate = (item) => {
     return (
-      <div className="border-1 rounded text-center py-5 px-3 h-auto w-auto">
-        <div className="">{item}</div>
+      <div className="border-1 rounded text-center py-5 px-3 h-full w-auto">
+        <div className="flex justify-center items-center h-full">{item}</div>
       </div>
     );
   };
@@ -40,7 +40,7 @@ export default function CarouselDivsV1({ children }) {
         numVisible={1}
         numScroll={1}
         responsiveOptions={responsiveOptions}
-        className=" text-white"
+        className="text-white"
         circular
         autoplayInterval={8000}
         itemTemplate={itemTemplate}
