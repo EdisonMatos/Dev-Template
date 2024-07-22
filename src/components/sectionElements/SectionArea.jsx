@@ -1,7 +1,14 @@
 import PropTypes from "prop-types";
 import { Children } from "react";
 
-export default function SectionArea({ children, className, id, paddingtop = true, paddingbot = true, paddingTopAndBottom }) {
+export default function SectionArea({
+  children,
+  className,
+  id,
+  paddingtop = true,
+  paddingbot = true,
+  paddingTopAndBottom,
+}) {
   SectionArea.propTypes = {
     children: PropTypes.any,
     className: PropTypes.string,
@@ -16,10 +23,9 @@ export default function SectionArea({ children, className, id, paddingtop = true
     paddingbot = paddingTopAndBottom;
   }
 
-
-  const childrenArray = Children.toArray(children); 
-  const paddingTopp = paddingtop ? 'pt-[40px] tablet1:pt-[64px] desktop1:pt-[96px]' : ''; 
-  const paddingBottom = paddingbot ? 'pb-[40px] tablet1:pb-[64px] desktop1:pb-[96px]' : ''; 
+  const childrenArray = Children.toArray(children);
+  const paddingTopp = paddingtop ? "pt-[64px] desktop1:pt-[96px]" : "";
+  const paddingBottom = paddingbot ? "pb-[64px] desktop1:pb-[96px]" : "";
 
   return (
     <div

@@ -58,9 +58,9 @@ export default function About() {
   };
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark">
+    <SectionArea id="about" className="bg-bgSectionDark" paddingbot={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
+        <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
           <div
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
@@ -86,7 +86,7 @@ export default function About() {
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs className="text-white text-opacity-60 mb-[48px]">
+            <Paragraphs className="text-white text-opacity-60">
               {content.texts.about.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
@@ -181,6 +181,7 @@ export default function About() {
 
           {/* <MotionDivDownToUp>
             <Button
+              className="mt-[48px]"
               label="Continuar lendo"
               onClick={onClick}
               icon={
@@ -206,7 +207,7 @@ export default function About() {
           {/* Fim Botão de saiba mais abrindo modal */}
         </div>
       </SectionWrapper>
-      <Dialog
+      {/* <Dialog
         className=" font-secondFont"
         header={modalTitle}
         visible={visible}
@@ -215,7 +216,7 @@ export default function About() {
         breakpoints={{ "960px": "75vw", "641px": "90vw" }}
       >
         <p className="m-0 ">{modalContent}</p>
-      </Dialog>
+      </Dialog> */}
     </SectionArea>
   );
 }

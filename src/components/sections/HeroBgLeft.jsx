@@ -1,26 +1,29 @@
 import links from "../../content/links";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
+import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import content from "../../content/content";
 import bgHeroImg from "../../assets/imgs/hero/bgHeroPattern.png";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import imgLaw from "../../assets/imgs/hero/law.png";
+import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
+import SectionArea from "../sectionElements/SectionArea";
+import imgPoints from "../../assets/imgs/about/points.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function HeroBgLeft() {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-bgSectionDark"
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark bg-bgSectionDark"
       // style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[90%] max-w-[1215px] items-center ">
-            <div className="flex flex-col w-full desktop1:w-[55%] pb-[100px] pt-[60px] desktop1:mr-[20px]">
+          <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
+            <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px]">
               <MotionDivLeftToRight>
                 <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
                   <p className="mb-[16px] bg-black bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
@@ -97,9 +100,22 @@ export default function HeroBgLeft() {
               </div> */}
             </div>
             <div className="hidden desktop1:flex">
-              <MotionDivLeftToRight>
-                <img src={imgLaw} alt="Foto de aplicativo" className="" />
-              </MotionDivLeftToRight>
+              <MotionDivRightToLeft className="relative flex justify-end">
+                {/* <img
+                  src={imgLaw}
+                  alt="Foto de itens do direito"
+                  className="bg-red-500 "
+                /> */}
+                <img
+                  src={imgLaw}
+                  alt="Foto de itens do direito"
+                  className="bg-red-500 w-[80%] rounded-3xl"
+                ></img>
+                <img
+                  src={imgPoints}
+                  className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
+                ></img>
+              </MotionDivRightToLeft>
             </div>
           </div>
         </div>

@@ -21,7 +21,7 @@ const infos = {
         9h às 20h30
       </p>
     ),
-    midSectionName: "Até mais! 😉",
+    midSectionName: "ATÉ MAIS!",
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
