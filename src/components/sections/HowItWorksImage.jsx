@@ -56,7 +56,7 @@ export default function HowItWorksImage() {
               />
               <HowItWorksCard
                 number="2"
-                title="Análise do plano"
+                title="Análise do caso"
                 description="Examinamos todos os detalhes e evidências para compreender a situação completa."
               />
               <HowItWorksCard
