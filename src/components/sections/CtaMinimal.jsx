@@ -15,14 +15,14 @@ export default function CtaMinimal() {
           miniTitle="NÃO PERCA TEMPO"
           sectionHeaderTitle={
             <h1>
-              Tem um problema? <br /> Deixa a gente cuidar pra você
+              Tem um problema? <br /> Deixa a gente cuidar para você
             </h1>
           }
-          sectionHeaderSubtitle="Fale com nossa equipe sem compromisso, estamos aqui para te ajudar."
+          sectionHeaderSubtitle="Fale com nossa equipe sem compromisso, estamos prontos para te ajudar."
           color="dark"
         />
         <Button
-          label="Fale conosco no whatsapp"
+          label="Fale com a gente no whatsapp"
           buttonLink={whatsappContactLink}
           icon={
             <svg
