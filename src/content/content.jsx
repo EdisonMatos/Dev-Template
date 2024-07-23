@@ -98,7 +98,7 @@ const content = {
       subtitle:
         "Formado em Direito pelo Centro Universitário de Belo Horizonte – UniBH, com conclusão em 2019. ",
       paragraph: (
-        <div>
+        <div className="div-paragraph">
           Durante minha formação, tive a oportunidade de estagiar no Tribunal de
           Justiça de Minas Gerais, onde adquiri valiosa experiência prática.
           <br />

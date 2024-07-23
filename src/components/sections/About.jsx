@@ -66,6 +66,7 @@ export default function About() {
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
             className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl"
+            
           >
             <img
               src={imgPoints}
