@@ -47,6 +47,7 @@ export default function HeroBgLeft() {
                 <MotionDivLeftToRight>
                   <div className="flex justify-center w-full desktop1:justify-start">
                     <Button
+                      aria-label={content.texts.hero.ctaButtonAriaLabel}
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
                       className="w-[100%]"

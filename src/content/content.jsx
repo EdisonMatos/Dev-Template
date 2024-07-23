@@ -37,6 +37,8 @@ const content = {
       subtitle:
         "Mais de 5 anos de experiência protegendo seus interesses legais em diversos estados do Brasil",
       ctaButtonText: "Entre em contato",
+      ctaButtonAriaLabel:
+        "Botão para chamada de ação para contato pelo whatsapp",
       images: {
         background: {},
         static: {

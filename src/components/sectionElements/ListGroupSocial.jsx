@@ -131,6 +131,7 @@ export default function ListGroupSocial() {
       <li>
         <div className="flex gap-[10px] items-center">
           <Button
+            aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Botão de chamada para ação para falar com atendente no whatsapp"
             buttonLink={whatsappContactLink}
             className={`${scrolling ? "" : ""}`}
