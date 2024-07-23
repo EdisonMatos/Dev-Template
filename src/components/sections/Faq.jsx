@@ -12,39 +12,37 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function Faq() {
   return (
     <div className="relative bg-bgSectionDark">
-      <MotionDivDownToUp>
-        <SectionArea id="faq" className="">
-          <SectionHeader
-            className="text-center"
-            miniTitle="TIRE SUAS DÚVIDAS"
-            sectionHeaderTitle={content.texts.faq.title}
-            sectionHeaderSubtitle={content.texts.faq.subtitle}
-            titleColor="text-white"
-            subtitleColor="text-white opacity-70"
-          />
+      <SectionArea id="faq" className="">
+        <SectionHeader
+          className="text-center"
+          miniTitle="TIRE SUAS DÚVIDAS"
+          sectionHeaderTitle={content.texts.faq.title}
+          sectionHeaderSubtitle={content.texts.faq.subtitle}
+          titleColor="text-white"
+          subtitleColor="text-white opacity-70"
+        />
 
-          <SectionWrapper className="flex justify-center">
-            <MotionDivDownToUp className="flex justify-center w-full">
-              <div className="w-[90%] tablet1:w-[80%] desktop1:w-[80%] max-w-[860px] mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
-                <AccordionExpandDefault />
-              </div>
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <Paragraphs className="text-center text-white">
+        <SectionWrapper className="flex justify-center">
+          <MotionDivDownToUp className="flex justify-center w-full">
+            <div className="w-[90%] tablet1:w-[80%] desktop1:w-[80%] max-w-[860px] mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
+              <AccordionExpandDefault />
+            </div>
+          </MotionDivDownToUp>
+          <MotionDivDownToUp>
+            <Paragraphs className="text-center text-white">
+              {" "}
+              <a
+                href={whatsappContactLink}
+                target="_blank"
+                className="underline transition"
+              >
                 {" "}
-                <a
-                  href={whatsappContactLink}
-                  target="_blank"
-                  className="underline transition"
-                >
-                  {" "}
-                  Clique aqui caso tenha mais dúvidas
-                </a>
-              </Paragraphs>
-            </MotionDivDownToUp>
-          </SectionWrapper>
-        </SectionArea>
-      </MotionDivDownToUp>
+                Clique aqui caso tenha mais dúvidas
+              </a>
+            </Paragraphs>
+          </MotionDivDownToUp>
+        </SectionWrapper>
+      </SectionArea>
     </div>
   );
 }
