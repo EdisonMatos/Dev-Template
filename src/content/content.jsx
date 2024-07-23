@@ -35,7 +35,7 @@ const content = {
     hero: {
       title: <h1 className="mb-[16px]">Nós cuidamos dos seus direitos</h1>,
       subtitle:
-        "Mais de 5 anos de experiência protegendo seus interesses legais em diversos estados do Brasil",
+        "Mais de 5 anos de experiência protegendo seus interesses legais em diversos estados do Brasil.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
