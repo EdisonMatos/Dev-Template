@@ -28,14 +28,14 @@ const content = {
         img: solidLogo,
         alt: "Logomarca",
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre Mim", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
       title: <h1 className="mb-[16px]">Nós cuidamos dos seus direitos</h1>,
       subtitle:
-        "Mais de 5 anos de experiência protegendo seus interesses legais em diversos estados do Brasil",
+        "Mais de 5 anos de experiência protegendo seus interesses legais em diversos estados do Brasil.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -449,7 +449,7 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via Whatsapp e discutiremos suas necessidades e estimaremos custos.",
+            "Agende sua consulta conosco via Whatsapp para discutirmos suas necessidades e estimarmos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",

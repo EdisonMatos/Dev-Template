@@ -23,13 +23,13 @@ export default function HowItWorksImage() {
 
   return (
     <SectionArea id="about" className="bg-bgSectionDark">
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
+      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[60px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
           <div
             style={{
               backgroundImage: `url(${imgHowItWorks})`,
             }}
-            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl desktop1:ml-[20px] desktop2:ml-0"
+            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl"
           >
             <img
               alt="Imagem de efeito pontilhado"
