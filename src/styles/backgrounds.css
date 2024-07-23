@@ -1,15 +1,7 @@
 .squares {
   background-color: #ffffff;
   opacity: 1;
-  background-image: linear-gradient(#efefef 1px, transparent 1px),
-    linear-gradient(to right, #efefef 1px, #ffffff 1px);
-  background-size: 20px 20px;
-}
-
-.squaresBrown {
-  background-color: #252329;
-  opacity: 0.05;
-  background-image: linear-gradient(#efefef 1px, transparent 1px),
-    linear-gradient(to right, #efefef 1px, #252329 1px);
+  background-image: linear-gradient(#f3f3f3 1px, transparent 1px),
+    linear-gradient(to right, #f3f3f3 1px, #ffffff 1px);
   background-size: 20px 20px;
 }

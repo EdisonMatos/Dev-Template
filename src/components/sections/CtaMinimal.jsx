@@ -8,7 +8,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function CtaMinimal() {
   return (
-    <SectionArea>
+    <SectionArea className="squares">
       <SectionWrapper>
         <SectionHeader
           className="text-center"
