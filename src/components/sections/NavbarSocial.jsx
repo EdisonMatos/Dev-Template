@@ -121,6 +121,7 @@ export default function NavbarSocial() {
               }`}
             >
               <Button
+                aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
                 buttonLink={whatsappContactLink}
                 className={`${scrolling ? "" : ""}`}

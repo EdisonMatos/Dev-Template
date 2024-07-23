@@ -131,7 +131,8 @@ export default function ListGroupSocial() {
       <li>
         <div className="flex gap-[10px] items-center">
           <Button
-            label={content.texts.navbar.ctaButtonText}
+            aria-label={content.texts.hero.ctaButtonAriaLabel}
+            label="Contato"
             buttonLink={whatsappContactLink}
             className={`${scrolling ? "" : ""}`}
             textclassName="text-paragraph3"

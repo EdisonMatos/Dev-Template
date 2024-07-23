@@ -4,6 +4,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import links from "../../content/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import content from "../../content/content";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -24,6 +25,7 @@ export default function CtaMinimal() {
             color="dark"
           />
           <Button
+            aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Fale com a gente no whatsapp"
             buttonLink={whatsappContactLink}
             icon={

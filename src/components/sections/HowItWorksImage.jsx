@@ -32,6 +32,7 @@ export default function HowItWorksImage() {
             className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl desktop1:ml-[20px] desktop2:ml-0"
           >
             <img
+              alt="Imagem de efeito pontilhado"
               src={imgPoints}
               className="absolute opacity-75 right-[-40px] top-[40px] phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
