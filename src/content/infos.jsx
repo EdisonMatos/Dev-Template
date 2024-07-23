@@ -1,8 +1,8 @@
 const infos = {
   name: "Dr. Gleidson Prudêncio",
   slogan: "Advocacia e Consultoria Jurídica",
-  phone: "(31) 98622-9899",
-  mail: "contato@gleidsonprudencio.com.br",
+  phone: "(31) 99184-9471",
+  mail: "gleidson.prudencio@fale.adv.br",
   footerInfos: {
     endereco: (
       <p>
