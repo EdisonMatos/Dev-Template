@@ -449,7 +449,7 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via Whatsapp e discutiremos suas necessidades e estimaremos custos.",
+            "Agende sua consulta conosco via Whatsapp para discutirmos suas necessidades e estimarmos o custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
