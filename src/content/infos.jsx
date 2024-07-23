@@ -16,9 +16,11 @@ const infos = {
     ),
     expediente: (
       <p>
-        Funcionamento: seg a sex
+        Horário de expediente:
         <br />
-        9h às 20h30
+        Segunda a Sexta-feira
+        <br />
+        Das 9h às 20h30
       </p>
     ),
     midSectionName: "ATÉ MAIS!",
