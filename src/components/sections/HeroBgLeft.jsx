@@ -110,7 +110,7 @@ export default function HeroBgLeft() {
                 <img
                   src={imgLaw}
                   alt="Foto de itens que representam a profissão de advogado"
-                  className="bg-red-500 w-[80%] rounded-3xl"
+                  className="w-[80%] rounded-3xl"
                 ></img>
                 <img
                   src={imgPoints}
