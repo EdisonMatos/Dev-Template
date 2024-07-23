@@ -108,11 +108,12 @@ export default function HeroBgLeft() {
                 /> */}
                 <img
                   src={imgLaw}
-                  alt="Foto de itens do direito"
+                  alt="Foto de itens que representam a profissão de advogado"
                   className="bg-red-500 w-[80%] rounded-3xl"
                 ></img>
                 <img
                   src={imgPoints}
+                  alt="Imagem de efeito pontilhado"
                   className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
                 ></img>
               </MotionDivRightToLeft>
