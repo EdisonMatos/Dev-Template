@@ -4,7 +4,12 @@ import ButtonsFooter from "../components/ButtonsFooter";
 
 export default function FooterPanatta() {
   return (
-    <div className="w-[90%] max-w-[1198px] flex flex-col items-center font-[Inter]">
+    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-left justify-end font-[Inter] h-[1024px]">
+      <img
+        src={jogueEGanhe}
+        alt="Imagem ilustrativa de jogue e ganhe"
+        className="absolute right-[-120px] top-[0px]"
+      ></img>
       <div className="flex">
         <div className="w-[352px] flex flex-col justify-end ">
           <img
@@ -19,13 +24,6 @@ export default function FooterPanatta() {
             <ButtonsFooter label="Instagram" />
             <ButtonsFooter label="Whatsapp" />
           </div>
-        </div>
-        <div className="relative ">
-          <img
-            src={jogueEGanhe}
-            alt="Imagem ilustrativa de jogue e ganhe"
-            className="relative left-[102px] w-[1008px] h-[auto]"
-          ></img>
         </div>
       </div>
       <div className=" italic text-[15px] h-[86px] flex items-center w-full justify-center opacity-80">
