@@ -1,5 +1,6 @@
 import CardHowItWorks from "../components/CardHowItWorks";
 import SectionHeader from "../components/SectionHeader";
+import bgCardEffect from "../img/howItWorks/bgCardEffect.png";
 
 export default function HowItWorksPanatta() {
   return (
@@ -37,18 +38,25 @@ export default function HowItWorksPanatta() {
               </p>
             }
           />
-          <CardHowItWorks
-            title="SOLICITE O BÔNUS"
-            number="4"
-            description={
-              <p>
-                <span className="font-bold">
-                  Envie-nos uma mensagem em nosso WhatsApp solicitando o seu
-                  bônus e em instantes será creditado na sua conta.
-                </span>
-              </p>
-            }
-          />
+          <div
+            className="rounded-[25px] bg-transparent hover:bg-[#091D0B] bg-no-repeat bg-right-bottom transition border-solid border-[3px] border-[#2FFF76] px-[16px] py-[12px] w-full"
+            style={{
+              backgroundImage: `url(${bgCardEffect})`,
+            }}
+          >
+            <div className="flex items-center mb-[7px]">
+              <h1 className="bg-[#2FFF76] px-[18px] py-[6px] rounded-[10px] text-[40px] font-black mr-[14px] leading-none text-[#112313] font-[Inter]">
+                4
+              </h1>
+              <h1 className="text-[50px] leading-none font-bold">
+                SOLICITE O BÔNUS
+              </h1>
+            </div>
+            <p className="font-[Inter] text-[20px]">
+              Envie-nos uma mensagem em nosso WhatsApp solicitando o seu bônus e
+              em instantes será creditado na sua conta.
+            </p>
+          </div>
         </div>
       </div>
     </div>

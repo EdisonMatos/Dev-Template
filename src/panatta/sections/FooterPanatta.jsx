@@ -6,14 +6,16 @@ export default function FooterPanatta() {
   return (
     <div className="w-[90%] max-w-[1198px] flex flex-col items-center">
       <div className="flex">
-        <div className="w-[352px] flex flex-col justify-end ">
+        <div className="w-[352px] flex flex-col justify-end font-[Inter]">
           <img
             src={logoPanatta}
             alt="Logo Panatta Casino"
-            className="mb-[57px]"
+            className="mb-[57px] w-[325px]"
           ></img>
-          <h1 className="text-[45.5px] font-bold mb-[23px]">REDES SOCIAIS</h1>
-          <div className="flex gap-[21.2px] mb-[61px]">
+          <h1 className="text-[45.5px] mb-[23px] w-[355px] font-black leading-[40px]">
+            REDES SOCIAIS
+          </h1>
+          <div className="flex justify-between mb-[61px]">
             <ButtonsFooter label="Instagram" />
             <ButtonsFooter label="Whatsapp" />
           </div>
@@ -35,4 +37,3 @@ export default function FooterPanatta() {
 
 // Paddings dos botões escolhidos pra serem simétricos
 // Falta aumentar tamanho do tigre
-// Falta inserir fonte e corrigir espaçamentos
