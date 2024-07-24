@@ -15,12 +15,14 @@ export default function HeroPanatta() {
         <img className="relative z-10" src={Logo} alt="Logotipo Panatta Cassino" />
       </div>
     </div>
-    <div className="flex flex-col justify-center items-center bg-[#13171B]" style={{ height: '930.19px' }}>
-      <img className="mb-4 mt-96" src={ImgHero} alt="Hero Panatta Cassino" />
+    <div className="mb-[112px] flex flex-col justify-center items-center bg-[#13171B]" style={{ height: '930.19px' }}>
+    <img className="mb-4 mt-[499px] w-[1085.58px] h-[415.65px]" src={ImgHero} alt="Hero Panatta Cassino" />
+     <div className='border-2 border-[#ABFFC8] p-1'> 
       <button
-        className="px-4 py-2 font-bold text-[#112313] bg-gradient-to-r from-[#2FFF76] to-[#0F652C] w-[558px] h-[120px] text-[63px] font-[Antonio] border-2 border-[#ABFFC8] overflow-hidden">
-        RESGATE SEU BÔNUS
-      </button>
+        className="px-4 py-2 font-bold text-[#112313] bg-gradient-to-r from-[#2FFF76] to-[#0F652C] w-[558px] h-[120px] text-[63px] font-[Antonio] border-2 border-[#ABFFC8]">
+          RESGATE SEU BÔNUS
+          </button>
+          </div>
     </div>
   </div>
   );
