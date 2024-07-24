@@ -2,16 +2,14 @@ import imgcard1 from "../img/features/Card1.png";
 import imgcard2 from "../img/features/Card2.png";
 import imgcard3 from "../img/features/Card3.png";
 import imgcard4 from "../img/features/Card4.png";
+import SectionHeader from "../components/SectionHeader";
 
 export default function FeaturesPanatta() {
   return (
     <div className="w-[90%] max-w-[1198px] flex flex-col items-start">
       <div className=" flex flex-col gap-[14px] py-[36px]">
         <div className="flex flex-col text-right h-[121px] w-[1036px]">
-          <h6 className=" text-left text-[25px] text-white">Por que</h6>
-          <h1 className=" text-left text-[60px] h-[97px] font-bold text-white">
-            ESCOLHER O PANATTA CASINO?
-          </h1>
+          <SectionHeader tag="Por que" title="ESCOLHER O PANATTA CASINO?" />
         </div>
         <div className="flex flex-col gap-[15px]">
           <div className="flex flex-row gap-[40px]">
