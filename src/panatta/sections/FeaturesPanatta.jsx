@@ -13,7 +13,7 @@ export default function FeaturesPanatta() {
         </div>
         <div className="flex flex-col gap-[15px]">
           <div className="flex flex-row gap-[40px]">
-            <div className="flex flex-col">
+            <div className="flex flex-col transition hover:scale-105">
               <h2 className="font-bold text-[25px] ">
                 SAQUES{" "}
                 <span className="text-[35px] text-[#2FFF76]">RAPIDOS</span>
@@ -25,7 +25,7 @@ export default function FeaturesPanatta() {
               </h6>
             </div>
 
-            <div>
+            <div className="transition hover:scale-105">
               <h2 className="font-bold text-[25px] ml-[7px] ">
                 SEM{" "}
                 <span className="text-[#2FFF76] text-[35px]">BUROCRACIAS</span>
@@ -37,7 +37,7 @@ export default function FeaturesPanatta() {
             </div>
           </div>
           <div className="flex flex-row gap-[30px]">
-            <div>
+            <div className="transition hover:scale-105">
               <h2 className="font-bold text-[25px] ">
                 BÔNUS{" "}
                 <span className="text-[#2FFF76] text-[35px]">EXCLUSIVOS</span>
@@ -48,7 +48,7 @@ export default function FeaturesPanatta() {
               </h6>
             </div>
 
-            <div>
+            <div className="transition hover:scale-105">
               <h2 className="font-bold text-[25px] ml-[35px] ">
                 SORTEIOS{" "}
                 <span className="text-[#2FFF76] text-[35px]">MENSAIS</span>

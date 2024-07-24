@@ -4,9 +4,9 @@ import ButtonsFooter from "../components/ButtonsFooter";
 
 export default function FooterPanatta() {
   return (
-    <div className="w-[90%] max-w-[1198px] flex flex-col items-center">
+    <div className="w-[90%] max-w-[1198px] flex flex-col items-center font-[Inter]">
       <div className="flex">
-        <div className="w-[352px] flex flex-col justify-end font-[Inter]">
+        <div className="w-[352px] flex flex-col justify-end ">
           <img
             src={logoPanatta}
             alt="Logo Panatta Casino"
@@ -20,7 +20,7 @@ export default function FooterPanatta() {
             <ButtonsFooter label="Whatsapp" />
           </div>
         </div>
-        <div className=" relative">
+        <div className="relative ">
           <img
             src={jogueEGanhe}
             alt="Imagem ilustrativa de jogue e ganhe"
@@ -28,7 +28,7 @@ export default function FooterPanatta() {
           ></img>
         </div>
       </div>
-      <div className=" italic text-[15px] h-[86px] flex items-center w-full justify-center">
+      <div className=" italic text-[15px] h-[86px] flex items-center w-full justify-center opacity-80">
         Copyright © 2024 - Todos os direitos reservados.
       </div>
     </div>
