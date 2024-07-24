@@ -1,5 +1,3 @@
-import SectionArea from "../../components/sectionElements/SectionArea";
-import SectionWrapper from "../../components/sectionElements/SectionWrapper";
 import imgcard1 from "../img/features/Card1.png";
 import imgcard2 from "../img/features/Card2.png";
 import imgcard3 from "../img/features/Card3.png";
