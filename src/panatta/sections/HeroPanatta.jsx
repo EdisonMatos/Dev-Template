@@ -17,7 +17,7 @@ export default function HeroPanatta() {
         <img className="relative z-10" src={Logo} alt="Logotipo Panatta Cassino" />
       </div>
     </div>
-    <div className="mb-[112px] flex flex-col justify-center items-center bg-[#13171B]">
+    <div className="mb-[112px] flex flex-col justify-center items-center">
     <img className="mb-4 mt-[399px] w-[1085.58px] h-[415.65px]" src={ImgHero} alt="Hero Panatta Cassino" />
      <div className='border-2 border-[#ABFFC8] p-1'> 
       <button
