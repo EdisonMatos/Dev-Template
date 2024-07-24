@@ -48,7 +48,7 @@ export default function HowItWorksPanatta() {
               <h1 className="bg-[#2FFF76] px-[18px] py-[6px] rounded-[10px] text-[40px] font-black mr-[14px] leading-none text-[#112313] font-[Inter]">
                 4
               </h1>
-              <h1 className="text-[50px] leading-none font-bold">
+              <h1 className="text-[50px] leading-none font-league">
                 SOLICITE O BÔNUS
               </h1>
             </div>

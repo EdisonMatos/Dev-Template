@@ -16,6 +16,8 @@ module.exports = {
       fontFamily: {
         mainFont: ["Poppins", "sans-serif"],
         secondFont: ["Poppins", "sans-serif"],
+        league: ["League Gothic"],
+        barlow: ["Barlow Condensed"],
       },
       fontSize: {
         paragraph1: "0.625rem", // 10px

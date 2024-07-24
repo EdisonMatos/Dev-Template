@@ -5,7 +5,7 @@ export default function CardHowItWorks({ number, title, description }) {
         <h1 className="bg-[#2FFF76] px-[18px] py-[6px] rounded-[10px] text-[40px] font-black mr-[14px] leading-none text-[#112313] font-[Inter]">
           {number}
         </h1>
-        <h1 className="text-[50px] leading-none font-bold">{title}</h1>
+        <h1 className="text-[50px] leading-none font-league">{title}</h1>
       </div>
       <p className="font-[Inter] text-[20px]">{description}</p>
     </div>
