@@ -6,7 +6,9 @@ export default function TermsPanatta() {
       <div className="container pt-[157px] pb-[180px] flex flex-col items-center">
         <div className="flex items-center header mb-[16px] w-full">
           <div className="flex-grow border-t border-white border-solid border-[3px]"></div>
-          <h1 className="mx-[48px] text-[45px]">Termos e condições</h1>
+          <h1 className="mx-[48px] text-[45px] text-center">
+            Termos e condições
+          </h1>
           <div className="flex-grow border-t border-white border-solid border-[3px]"></div>
         </div>
 
