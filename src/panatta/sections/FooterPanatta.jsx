@@ -34,3 +34,5 @@ export default function FooterPanatta() {
 }
 
 // Paddings dos botões escolhidos pra serem simétricos
+// Falta aumentar tamanho do tigre
+// Falta inserir fonte e corrigir espaçamentos
