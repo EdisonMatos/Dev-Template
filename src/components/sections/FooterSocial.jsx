@@ -225,7 +225,7 @@ function FooterSocial() {
             NAVEGAÇÃO
           </h1>
           <div className="flex justify-between full opacity-70">
-            <div className="w-[46%] flex flex-col gap-y-[16px] font-semibold ">
+            <div className="w-[46%] flex flex-col gap-y-[16px]">
               <div className="h-[36px] hover:underline">
                 <Link
                   to="home"
@@ -236,7 +236,7 @@ function FooterSocial() {
                   offset={-100}
                   href="#"
                 >
-                  <span className="inline-block h-[48px] hover:underline">
+                  <span className="inline-block h-[48px] underline hover:scale-110 transition">
                     {content.texts.navbar.menuItems[0]}
                   </span>
                 </Link>
@@ -251,13 +251,13 @@ function FooterSocial() {
                   offset={-50}
                   href="#"
                 >
-                  <span className="inline-block h-[48px] hover:underline">
+                  <span className="inline-block h-[48px] underline hover:scale-110 transition">
                     {content.texts.navbar.menuItems[2]}
                   </span>
                 </Link>
               </div>
             </div>
-            <div className=" w-[46%] flex flex-col gap-y-[16px] font-semibold ">
+            <div className=" w-[46%] flex flex-col gap-y-[16px]">
               <div className="h-[36px] hover:underline">
                 <Link
                   to="about"
@@ -268,7 +268,7 @@ function FooterSocial() {
                   offset={-20}
                   href="#"
                 >
-                  <span className="inline-block h-[48px] hover:underline">
+                  <span className="inline-block h-[48px] underline hover:scale-110 transition">
                     {content.texts.navbar.menuItems[1]}
                   </span>
                 </Link>
@@ -283,7 +283,7 @@ function FooterSocial() {
                   offset={-50}
                   href="#"
                 >
-                  <span className="inline-block h-[48px] hover:underline">
+                  <span className="inline-block h-[48px] underline hover:scale-110 transition">
                     {content.texts.navbar.menuItems[3]}
                   </span>
                 </Link>
