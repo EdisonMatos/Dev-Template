@@ -1,10 +1,16 @@
 import CardHowItWorks from "../components/CardHowItWorks";
 import SectionHeader from "../components/SectionHeader";
 import bgCardEffect from "../img/howItWorks/bgCardEffect.png";
+import phoneMockup from "../img/howItWorks/phoneMockup.png";
 
 export default function HowItWorksPanatta() {
   return (
-    <div className="w-[90%] max-w-[1198px] flex flex-col items-start pt-[73px] pb-[125px]">
+    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-start pt-[73px] pb-[125px]">
+      <img
+        src={phoneMockup}
+        alt="Imagém de celular mostrando o site"
+        className="absolute right-[-80px] bottom-[203px]"
+      ></img>
       <div className="w-[1044px] flex flex-col items-start">
         <div className="flex flex-col mb-[112px]">
           <SectionHeader tag="Tutorial" title="COMO RECEBER O BÔNUS?" />

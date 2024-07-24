@@ -16,7 +16,7 @@ export default function FeaturesPanatta() {
             <div className="flex flex-col transition hover:scale-105">
               <h2 className="font-bold text-[40px] font-barlow">
                 SAQUES{" "}
-                <span className="text-[50px] text-[#2FFF76]">RAPIDOS</span>
+                <span className="text-[50px] text-[#2FFF76]">RÁPIDOS</span>
               </h2>
               <img className="w-[415px]" src={imgcard1} alt="" />
               <h6 className="w-[400px] h-[48px] text-[20px] font-[Inter] font-bold mt-[11px]">
