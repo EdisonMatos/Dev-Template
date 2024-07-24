@@ -5,9 +5,9 @@ export default function TermsPanatta() {
     <div className="w-[90%] max-w-[1198px] flex flex-col items-center">
       <div className="container pt-[157px] pb-[180px] flex flex-col items-center">
         <div className="flex items-center header mb-[16px] w-full">
-          <div className="flex-grow border-t border-white border-solid"></div>
+          <div className="flex-grow border-t border-white border-solid border-[3px]"></div>
           <h1 className="mx-[48px] text-[45px]">Termos e condições</h1>
-          <div className="flex-grow border-t border-white border-solid"></div>
+          <div className="flex-grow border-t border-white border-solid border-[3px]"></div>
         </div>
 
         <div className="ContainerBloco border-[1px] border-solid bg-[#13171B] border-[#2FFF76] rounded-[14px] py-[64px]">
