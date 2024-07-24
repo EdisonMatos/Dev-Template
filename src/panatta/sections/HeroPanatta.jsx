@@ -1,10 +1,12 @@
 import Logo from '../../assets/imgs/logo/Logotipo1.png';
 import ImgHero from '../../assets/imgs/hero/Hero.png';
 import Ball from '../../assets/imgs/hero/Ball.png';
+import Effect from '../../assets/imgs/hero/Effect.png';
 
 export default function HeroPanatta() {
   return (
     <div className="w-full relative">
+    <img className='absolute inset-0 m-auto -mt-0' src={Effect} alt="Efeito Matrix" />
     <img
       className="absolute top-0 left-1/2 transform -translate-x-1/2"
       src={Ball}
