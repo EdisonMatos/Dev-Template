@@ -9,7 +9,7 @@ export default function HowItWorksPanatta() {
       <img
         src={phoneMockup}
         alt="Imagém de celular mostrando o site"
-        className="absolute right-[-80px] bottom-[203px]"
+        className="absolute right-[-90px] bottom-[203px]"
       ></img>
       <div className="w-[1044px] flex flex-col items-start">
         <div className="flex flex-col mb-[112px]">
