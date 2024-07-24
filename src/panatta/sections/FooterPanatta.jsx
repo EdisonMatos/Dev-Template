@@ -4,7 +4,7 @@ import ButtonsFooter from "../components/ButtonsFooter";
 
 export default function FooterPanatta() {
   return (
-    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-left justify-end font-[Inter] h-[1024px] bg-red-500">
+    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-left justify-end font-[Inter] h-[1024px]">
       <img
         src={jogueEGanhe}
         alt="Imagem ilustrativa de jogue e ganhe"
