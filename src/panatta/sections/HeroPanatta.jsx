@@ -16,7 +16,7 @@ export default function HeroPanatta() {
       </div>
     </div>
     <div className="mb-[112px] flex flex-col justify-center items-center bg-[#13171B]">
-    <img className="mb-4 mt-[499px] w-[1085.58px] h-[415.65px]" src={ImgHero} alt="Hero Panatta Cassino" />
+    <img className="mb-4 mt-[399px] w-[1085.58px] h-[415.65px]" src={ImgHero} alt="Hero Panatta Cassino" />
      <div className='border-2 border-[#ABFFC8] p-1'> 
       <button
         className="px-4 py-2 font-bold text-[#112313] bg-gradient-to-r from-[#2FFF76] to-[#0F652C] w-[558px] h-[120px] text-[63px] font-[Antonio] border-2 border-[#ABFFC8]">
