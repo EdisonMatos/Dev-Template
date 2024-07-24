@@ -6,7 +6,7 @@ import TermsPanatta from "../panatta/sections/TermsPanatta";
 
 export default function Panatta() {
   return (
-    <div className="flex flex-col items-center bg-[#13171B]">
+    <div className="flex flex-col items-center bg-[#13171B] text-white">
       <HeroPanatta />
       <HowItWorksPanatta />
       <FeaturesPanatta />
