@@ -1,10 +1,12 @@
 import Logo from '../../assets/imgs/logo/Logotipo1.png';
 import ImgHero from '../../assets/imgs/hero/Hero.png';
 import Ball from '../../assets/imgs/hero/Ball.png';
+import Effect from '../../assets/imgs/hero/Effect.png';
 
 export default function HeroPanatta() {
   return (
     <div className="w-full relative">
+    <img className='absolute inset-0 m-auto -mt-0' src={Effect} alt="Efeito Matrix" />
     <img
       className="absolute top-0 left-1/2 transform -translate-x-1/2"
       src={Ball}
@@ -15,7 +17,7 @@ export default function HeroPanatta() {
         <img className="relative z-10" src={Logo} alt="Logotipo Panatta Cassino" />
       </div>
     </div>
-    <div className="mb-[112px] flex flex-col justify-center items-center bg-[#13171B]">
+    <div className="mb-[112px] flex flex-col justify-center items-center">
     <img className="mb-4 mt-[399px] w-[1085.58px] h-[415.65px]" src={ImgHero} alt="Hero Panatta Cassino" />
      <div className='border-2 border-[#ABFFC8] p-1'> 
       <button
