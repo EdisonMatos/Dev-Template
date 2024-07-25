@@ -1,6 +1,6 @@
 import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
-import Ball from "../../assets/imgs/hero/Ball.png";
+import Ball from "../../assets/imgs/hero/Bola.png";
 import Effect from "../../assets/imgs/hero/Effect.png";
 
 export default function HeroPanatta() {
@@ -12,7 +12,7 @@ export default function HeroPanatta() {
         alt="Efeito Matrix"
       />
       <img
-        className="absolute top-0 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-[63%] left-[32%] transform -translate-x-1/2 w-[35%] h-auto animate-rotate  "
         src={Ball}
         alt="Bola girando"
       />

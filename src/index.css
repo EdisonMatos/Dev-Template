@@ -59,3 +59,21 @@
   visibility: visible;
   animation: fadeOut 1s ease-in-out;
 }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotate 7s linear infinite;
+  transition: animation 5s ease; 
+}
+
+.animate-rotate:hover {
+  animation: rotate 3s linear infinite; 
+}
