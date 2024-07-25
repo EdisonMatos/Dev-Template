@@ -10,7 +10,7 @@ export default function Panatta() {
   return (
     // <div className="flex flex-col items-center text-white bg-gradient-radial">
     <div
-      className="flex flex-col items-center text-white"
+      className="flex flex-col items-center text-white bg-center"
       style={{
         backgroundImage: `url(${bgImg})`,
       }}
