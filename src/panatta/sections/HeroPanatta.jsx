@@ -1,7 +1,9 @@
+import React from 'react';
 import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
 import Ball from "../../assets/imgs/hero/Bola.png";
 import Effect from "../../assets/imgs/hero/Effect.png";
+import '../../index.css';
 
 export default function HeroPanatta() {
   return (
@@ -11,11 +13,7 @@ export default function HeroPanatta() {
         src={Effect}
         alt="Efeito Matrix"
       />
-      <img
-        className="absolute bottom-[63%] left-[32%] transform -translate-x-1/2 w-[35%] h-auto animate-rotate  "
-        src={Ball}
-        alt="Bola girando"
-      />
+      <img className="absolute right-[35%] bottom-[65%] h-auto w-[30%] spin" src={Ball} alt="Bola girando" />
       <div className="w-full h-[138px] absolute top-0 bg-[#2FFF76]">
         <div className="h-[117px] flex items-center justify-center relative top-[18px] bg-[#112313]">
           <img
