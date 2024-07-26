@@ -2,10 +2,12 @@ import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
 import Ball from "../../assets/imgs/hero/Ball.png";
 import Effect from "../../assets/imgs/hero/Effect.png";
+import RainElement from "../components/RainElement";
 
 export default function HeroPanatta() {
   return (
     <div className="relative w-full">
+      <RainElement />
       {/* <img
         className="absolute inset-0 m-auto -mt-0"
         src={Effect}
@@ -16,6 +18,7 @@ export default function HeroPanatta() {
         src={Ball}
         alt="Bola girando"
       />
+
       <div className="w-full h-[138px] absolute top-0 bg-[#2FFF76]">
         <div className="h-[117px] flex items-center justify-center relative top-[18px] bg-[#112313]">
           <img
