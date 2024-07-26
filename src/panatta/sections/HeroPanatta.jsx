@@ -1,16 +1,16 @@
 import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
 import Ball from "../../assets/imgs/hero/Ball.png";
-import Effect from "../../assets/imgs/hero/Effect.png";
+import EffectBg from "../../assets/imgs/hero/EfeitoLuz.png";
 
 export default function HeroPanatta() {
   return (
     <div className="relative w-full">
-      {/* <img
+      <img
         className="absolute inset-0 m-auto -mt-0"
-        src={Effect}
-        alt="Efeito Matrix"
-      /> */}
+        src={EffectBg}
+        alt="Efeito Iluminação de fundo"
+      />
       <img
         className="absolute top-0 transform -translate-x-1/2 left-1/2"
         src={Ball}
