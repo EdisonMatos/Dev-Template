@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
 import '../../index.css';
-import Ball from "../../assets/imgs/hero/Ball.png";
+import Ball from "../../assets/imgs/hero/Bola.png";
 import EffectBg from "../../assets/imgs/hero/EfeitoLuz.png";
 
 
