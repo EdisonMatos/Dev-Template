@@ -1,7 +1,10 @@
+import React from 'react';
 import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
-import Ball from "../../assets/imgs/hero/Ball.png";
+import '../../index.css';
+import Ball from "../../assets/imgs/hero/Bola.png";
 import EffectBg from "../../assets/imgs/hero/EfeitoLuz.png";
+
 
 export default function HeroPanatta() {
   return (
@@ -11,11 +14,9 @@ export default function HeroPanatta() {
         src={EffectBg}
         alt="Efeito Iluminação de fundo"
       />
-      <img
-        className="absolute top-0 transform -translate-x-1/2 left-1/2"
-        src={Ball}
-        alt="Bola girando"
-      />
+
+      <img className="absolute right-[35%] bottom-[65%] h-auto w-[30%] spin" src={Ball} alt="Bola girando" />
+
       <div className="w-full h-[138px] absolute top-0 bg-[#2FFF76]">
         <div className="h-[117px] flex items-center justify-center relative top-[18px] bg-[#112313]">
           <img
