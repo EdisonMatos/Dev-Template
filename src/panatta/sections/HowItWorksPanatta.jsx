@@ -5,7 +5,7 @@ import phoneMockup from "../img/howItWorks/phoneMockup.png";
 
 export default function HowItWorksPanatta() {
   return (
-    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-start pt-[73px] pb-[125px]">
+    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-start desktop1:pt-[73px] pt-[50px] pb-[50px] desktop1:pb-[125px]">
       <img
         src={phoneMockup}
         alt="Imagém de celular mostrando o site"
