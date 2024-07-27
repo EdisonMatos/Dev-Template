@@ -4,13 +4,13 @@ import ButtonsFooter from "../components/ButtonsFooter";
 
 export default function FooterPanatta() {
   return (
-    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-left justify-end font-[Inter] h-[1024px]">
+    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-left justify-end font-[Inter] desktop1:h-[1024px]">
       <img
         src={jogueEGanhe}
         alt="Imagem ilustrativa de jogue e ganhe"
-        className="absolute right-[-120px] top-[0px]"
+        className="relative right-[20px] desktop1:absolute desktop1:right-[-120px] desktop1:top-[0px] "
       ></img>
-      <div className="flex">
+      <div className="flex justify-center desktop1:justify-start">
         <div className="w-[352px] flex flex-col justify-end ">
           <img
             src={logoPanatta}

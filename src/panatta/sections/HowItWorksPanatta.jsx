@@ -5,13 +5,13 @@ import phoneMockup from "../img/howItWorks/phoneMockup.png";
 
 export default function HowItWorksPanatta() {
   return (
-    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-start pt-[73px] pb-[125px]">
+    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-start desktop1:pt-[73px] pt-[50px] pb-[50px] desktop1:pb-[125px]">
       <img
         src={phoneMockup}
         alt="Imagém de celular mostrando o site"
-        className="absolute right-[-90px] bottom-[203px]"
+        className="hidden desktop1:flex absolute right-[-90px] bottom-[203px]"
       ></img>
-      <div className="w-[1044px] flex flex-col items-start">
+      <div className="w-full max-w-[1044px] flex flex-col items-start">
         <div className="flex flex-col mb-[112px]">
           <SectionHeader tag="Tutorial" title="COMO RECEBER O BÔNUS?" />
         </div>
@@ -51,14 +51,14 @@ export default function HowItWorksPanatta() {
             }}
           >
             <div className="flex items-center mb-[7px]">
-              <h1 className="bg-[#2FFF76] px-[18px] py-[6px] rounded-[10px] text-[40px] font-black mr-[14px] leading-none text-[#112313] font-[Inter]">
+              <h1 className="bg-[#2FFF76] px-[18px] py-[6px] rounded-[10px] text-[22px] phone3:text-[40px] font-black mr-[14px] leading-none text-[#112313] font-[Inter]">
                 4
               </h1>
-              <h1 className="text-[50px] leading-none font-league">
+              <h1 className="text-[32px] phone3:text-[50px] leading-none font-league">
                 SOLICITE O BÔNUS
               </h1>
             </div>
-            <p className="font-[Inter] text-[20px]">
+            <p className="font-[Inter] text-[16px] phone3:text-[20px]">
               Envie-nos uma mensagem em nosso WhatsApp solicitando o seu bônus e
               em instantes será creditado na sua conta.
             </p>
