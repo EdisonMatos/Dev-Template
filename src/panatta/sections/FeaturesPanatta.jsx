@@ -2,7 +2,9 @@ import imgcard1 from "../img/features/Card1.png";
 import imgcard2 from "../img/features/Card2.png";
 import imgcard3 from "../img/features/Card3.png";
 import imgcard4 from "../img/features/Card4.png";
+import bgFeatures from "../img/features/bgFeatures.png";
 import SectionHeader from "../components/SectionHeader";
+import features1 from "../img/features/features1.png";
 
 export default function FeaturesPanatta() {
   return (
@@ -11,7 +13,7 @@ export default function FeaturesPanatta() {
         <div className="flex flex-col text-right h-[121px] w-[1036px]">
           <SectionHeader tag="Por que" title="ESCOLHER O PANATTA CASINO?" />
         </div>
-        <div className="flex flex-col gap-[15px]">
+        <div className="bg-red-500 flex flex-col gap-[15px]">
           <div className="flex flex-row gap-[40px]">
             <div className="flex flex-col transition hover:scale-105">
               <h2 className="font-bold text-[40px] font-barlow">
@@ -48,7 +50,7 @@ export default function FeaturesPanatta() {
               </h6>
             </div>
 
-            <div className="transition hover:scale-105">
+            <div className="transition bg-blue-500 hover:scale-105">
               <h2 className="font-bold text-[40px] font-barlow ml-[35px] ">
                 SORTEIOS{" "}
                 <span className="text-[#2FFF76] text-[50px]">MENSAIS</span>
@@ -59,6 +61,20 @@ export default function FeaturesPanatta() {
               </h6>
             </div>
           </div>
+        </div>
+        <div className="relative bg-blue-500">
+          <img
+            className="absolute bottom-[65px]"
+            src={features1}
+            alt="Saques Rápidos"
+          />
+          <h2 className="font-bold text-[40px] font-barlow ">
+            SORTEIOS <span className="text-[#2FFF76] text-[50px]">MENSAIS</span>
+          </h2>{" "}
+          <img className="w-[400px]" src={bgFeatures} alt="" />
+          <h6 className="text-[20px] w-[400px] font-[Inter] font-bold mt-[40px] ">
+            Receba seus ganhos em poucos minutos com nossos saques instantâneos
+          </h6>
         </div>
       </div>
     </div>
