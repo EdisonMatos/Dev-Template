@@ -3,7 +3,7 @@ import CardTerms from "../components/CardTems";
 export default function TermsPanatta() {
   return (
     <div className="w-[90%] max-w-[1198px] flex flex-col items-center">
-      <div className="desktop1:pt-[157px] pt-[100px] pb-[100px] desktop1:pb-[180px] flex flex-col items-center">
+      <div className="desktop1:pt-[157px] py-[50px] desktop1:pb-[180px] flex flex-col items-center">
         <div className="flex items-center justify-center header mb-[16px] w-full">
           <div className="hidden phone3:flex flex-grow border-t border-white border-solid border-[3px]"></div>
           <h1 className="mx-[20px] tablet1:mx-[48px] text-[28px] tablet1:text-[45px] font-[Anaheim] text-center">

@@ -5,17 +5,17 @@ import phoneMockup from "../img/howItWorks/phoneMockup.png";
 
 export default function HowItWorksPanatta() {
   return (
-    <div className="relative w-[90%] max-w-[1198px] flex flex-col items-start desktop1:pt-[73px] pt-[50px] pb-[50px] desktop1:pb-[125px]">
+    <div className=" relative w-[90%] max-w-[1198px] flex flex-col items-start desktop1:pt-[73px] py-[50px] desktop1:pb-[125px]">
       <img
         src={phoneMockup}
         alt="Imagém de celular mostrando o site"
         className="hidden desktop1:flex absolute right-[-90px] bottom-[203px]"
       ></img>
       <div className="w-full max-w-[1044px] flex flex-col items-start">
-        <div className="flex flex-col mb-[112px]">
+        <div className="flex flex-col mb-[50px] desktop1:mb-[112px]">
           <SectionHeader tag="Tutorial" title="COMO RECEBER O BÔNUS?" />
         </div>
-        <div className="containerDeCards flex flex-col w-full gap-[50px]">
+        <div className="containerDeCards flex flex-col w-full gap-[25px] desktop1:gap-[50px]">
           <CardHowItWorks
             title="ABRA SUA CONTA"
             number="1"
