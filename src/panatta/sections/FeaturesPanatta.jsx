@@ -2,16 +2,22 @@ import imgcard1 from "../img/features/Card1.png";
 import imgcard2 from "../img/features/Card2.png";
 import imgcard3 from "../img/features/Card3.png";
 import imgcard4 from "../img/features/Card4.png";
+import bgFeatures from "../img/features/bgFeatures.png";
 import SectionHeader from "../components/SectionHeader";
+import features1 from "../img/features/features1.png";
+import features2 from "../img/features/features2.png";
+import features3 from "../img/features/features3.png";
+import features4 from "../img/features/features4.png";
+import CardFeatures from "../components/CardFeatures";
 
 export default function FeaturesPanatta() {
   return (
     <div className="w-[90%] max-w-[1198px] flex flex-col items-start">
       <div className=" flex flex-col gap-[14px] py-[36px]">
-        <div className="flex flex-col text-right h-[121px] w-[1036px]">
+        <div className="flex flex-col text-right h-[121px]">
           <SectionHeader tag="Por que" title="ESCOLHER O PANATTA CASINO?" />
         </div>
-        <div className="flex flex-col gap-[15px]">
+        {/* <div className="bg-red-500 flex flex-col gap-[15px]">
           <div className="flex flex-row gap-[40px]">
             <div className="flex flex-col transition hover:scale-105">
               <h2 className="font-bold text-[40px] font-barlow">
@@ -48,7 +54,7 @@ export default function FeaturesPanatta() {
               </h6>
             </div>
 
-            <div className="transition hover:scale-105">
+            <div className="transition bg-blue-500 hover:scale-105">
               <h2 className="font-bold text-[40px] font-barlow ml-[35px] ">
                 SORTEIOS{" "}
                 <span className="text-[#2FFF76] text-[50px]">MENSAIS</span>
@@ -59,6 +65,56 @@ export default function FeaturesPanatta() {
               </h6>
             </div>
           </div>
+        </div> */}
+        <div className="flex flex-wrap mt-[120px] desktop1:mt-0">
+          <CardFeatures
+            title={
+              <h2>
+                SORTEIOS{" "}
+                <span className="text-[#2FFF76] text-[50px]">MENSAIS</span>
+              </h2>
+            }
+            img={features1}
+            alt="Foto de vários prêmios"
+            position="bottom-[65px]"
+            description="Receba seus ganhos em poucos minutos com nossos saques instantâneos"
+          />
+          <CardFeatures
+            title={
+              <h2>
+                SEM{" "}
+                <span className="text-[#2FFF76] text-[50px]">BUROCRACIAS</span>
+              </h2>
+            }
+            img={features2}
+            alt="Foto Sem Burocracias"
+            position="bottom-[40px]"
+            description="Jogue e saque sem complicações"
+          />
+          <CardFeatures
+            title={
+              <h2>
+                BÔNUS{" "}
+                <span className="text-[#2FFF76] text-[50px]">EXCLUSIVOS</span>
+              </h2>
+            }
+            img={features3}
+            alt="Foto Oferta exclusivas"
+            position="bottom-[70px]"
+            description="Aproveite ofertas únicas e aumente suas chances de ganhar"
+          />
+          <CardFeatures
+            title={
+              <h2>
+                SORTEIOS{" "}
+                <span className="text-[#2FFF76] text-[50px]">MENSAIS</span>
+              </h2>
+            }
+            img={features4}
+            alt="Foto Sorteios Mensais"
+            position="bottom-[-10px] right-[70px]"
+            description="Participe dos sorteios mensais e concorra a prêmios incríveis"
+          />
         </div>
       </div>
     </div>
