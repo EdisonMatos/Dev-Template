@@ -9,11 +9,13 @@ export default function CardFeatures({
   description,
 }) {
   return (
-    <div className="relative w-[300px] desktop1:w-[520px]">
+    <div className="relative w-[300px] desktop1:w-[520px] mt-[40px]">
       <img className={`absolute ${position}`} src={img} alt={alt} />
-      <h2 className="font-bold text-[40px] font-barlow ">{title}</h2>{" "}
+      <h2 className="font-bold text-[28px] desktop1:text-[40px] font-barlow ">
+        {title}
+      </h2>{" "}
       <img className="w-[280px] desktop1:w-[400px]" src={bgFeatures} alt="" />
-      <h6 className="text-[20px] w-[280px] desktop1:w-[400px] font-[Inter] font-bold mt-[40px] ">
+      <h6 className="text-center desktop1:text-left text-[16px] desktop1:text-[20px] w-[280px] desktop1:w-[400px] font-[Inter] font-bold mt-[40px] ">
         {description}
       </h6>
     </div>
