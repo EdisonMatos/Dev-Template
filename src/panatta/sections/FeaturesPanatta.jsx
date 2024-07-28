@@ -13,7 +13,7 @@ import CardFeatures from "../components/CardFeatures";
 export default function FeaturesPanatta() {
   return (
     <div className="w-[90%] max-w-[1198px] flex flex-col items-start">
-      <div className=" flex flex-col gap-[14px] py-[36px]">
+      <div className=" flex flex-col desktop1:gap-[14px] desktop1:py-[36px] py-[50px]">
         <div className="flex flex-col text-right h-[121px]">
           <SectionHeader tag="Por que" title="ESCOLHER O PANATTA CASINO?" />
         </div>
