@@ -1,21 +1,20 @@
 import React from 'react';
 import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
-import RainElement from "../components/RainElement";
 import '../../index.css';
 import Ball from "../../assets/imgs/hero/Bola.png";
 import EffectBg from "../../assets/imgs/hero/EfeitoLuz.png";
 
+
 export default function HeroPanatta() {
   return (
     <div className="relative w-full">
-      <RainElement />
-    
       <img
         className="absolute inset-0 m-auto -mt-0"
         src={EffectBg}
         alt="Efeito Iluminação de fundo"
       />
+
       <img className="absolute right-[35%] bottom-[65%] h-auto w-[30%] spin" src={Ball} alt="Bola girando" />
 
       <div className="w-full h-[138px] absolute top-0 bg-[#2FFF76]">
@@ -42,3 +41,5 @@ export default function HeroPanatta() {
     </div>
   );
 }
+
+
