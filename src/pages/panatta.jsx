@@ -15,7 +15,7 @@ export default function Panatta() {
         backgroundImage: `url(${bgImg})`,
       }}
     >
-      <HeroPanatta />
+      {/* <HeroPanatta /> */}
       <HowItWorksPanatta />
       <FeaturesPanatta />
       <TermsPanatta />
