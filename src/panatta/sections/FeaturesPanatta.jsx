@@ -66,7 +66,7 @@ export default function FeaturesPanatta() {
             </div>
           </div>
         </div> */}
-        <div className="flex flex-wrap mt-[120px] desktop1:mt-0">
+        <div className="flex flex-wrap phone3:mt-[120px] desktop1:mt-0">
           <CardFeatures
             title={
               <h2>
@@ -88,7 +88,7 @@ export default function FeaturesPanatta() {
             }
             img={features2}
             alt="Foto Sem Burocracias"
-            position="bottom-[40px]"
+            position="bottom-[10px] desktop1:bottom-[40px]"
             description="Jogue e saque sem complicações"
           />
           <CardFeatures
