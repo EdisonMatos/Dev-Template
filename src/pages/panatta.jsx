@@ -8,7 +8,7 @@ import bgImg from "../panatta/img/bg/bg.jpg";
 
 export default function Panatta() {
   return (
-    <div className="flex flex-col items-center text-white bg-gradient-radial">
+    // <div className="flex flex-col items-center text-white bg-gradient-radial">
       <div
         className="flex flex-col items-center text-white bg-center"
         style={{
@@ -21,6 +21,5 @@ export default function Panatta() {
         <TermsPanatta />
         <FooterPanatta />
       </div>
-    </div>
   );
 }
