@@ -71,7 +71,7 @@ export default function FeaturesPanatta() {
             }
             img={features1}
             alt="Foto de vários prêmios"
-            position="top-[170px]"
+            position="top-[170px] desktop1:top-[100px]"
             description="Receba seus ganhos em poucos minutos com nossos saques instantâneos"
           />
           <CardFeatures
