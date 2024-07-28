@@ -61,53 +61,61 @@ export default function FeaturesPanatta() {
             </div>
           </div>
         </div> */}
-        <div className="flex flex-wrap phone3:mt-[120px] desktop1:mt-0">
+        <div className="flex flex-wrap justify-center desktop1:justify-start desktop1:mt-0">
           <CardFeatures
             title={
               <h2>
                 SORTEIOS{" "}
-                <span className="text-[#2FFF76] text-[50px]">MENSAIS</span>
+                <span className="text-[#2FFF76] text-[44px] desktop1:text-[50px]">
+                  MENSAIS
+                </span>
               </h2>
             }
             img={features1}
             alt="Foto de vários prêmios"
-            position="top-[170px] desktop1:top-[100px]"
+            position="top-[100px] desktop1:top-[100px]"
             description="Receba seus ganhos em poucos minutos com nossos saques instantâneos"
           />
           <CardFeatures
             title={
               <h2>
                 SEM{" "}
-                <span className="text-[#2FFF76] text-[50px]">BUROCRACIAS</span>
+                <span className="text-[#2FFF76] text-[44px] desktop1:text-[50px]">
+                  BUROCRACIAS
+                </span>
               </h2>
             }
             img={features2}
             alt="Foto Sem Burocracias"
-            position="top-[125px] desktop1:top-[40px]"
+            position="top-[55px] desktop1:top-[40px]"
             description="Jogue e saque sem complicações"
           />
           <CardFeatures
             title={
               <h2>
                 BÔNUS{" "}
-                <span className="text-[#2FFF76] text-[50px]">EXCLUSIVOS</span>
+                <span className="text-[#2FFF76] text-[44px] desktop1:text-[50px]">
+                  EXCLUSIVOS
+                </span>
               </h2>
             }
             img={features3}
             alt="Foto Oferta exclusivas"
-            position="top-[150px] desktop1:top-[98px]"
+            position="top-[80px] desktop1:top-[98px]"
             description="Aproveite ofertas únicas e aumente suas chances de ganhar"
           />
           <CardFeatures
             title={
               <h2>
                 SORTEIOS{" "}
-                <span className="text-[#2FFF76] text-[50px]">MENSAIS</span>
+                <span className="text-[#2FFF76] text-[44px] desktop1:text-[50px]">
+                  MENSAIS
+                </span>
               </h2>
             }
             img={features4}
             alt="Foto Sorteios Mensais"
-            position="top-[130px] right-[5px] desktop1:top-[20px] desktop1:right-[70px]"
+            position="top-[60px] right-[5px] desktop1:top-[20px] desktop1:right-[70px]"
             description="Participe dos sorteios mensais e concorra a prêmios incríveis"
           />
         </div>
