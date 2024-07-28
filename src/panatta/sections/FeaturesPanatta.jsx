@@ -66,7 +66,7 @@ export default function FeaturesPanatta() {
             </div>
           </div>
         </div> */}
-        <div className="flex flex-wrap bg-yellow-900">
+        <div className="flex flex-wrap mt-[120px] desktop1:mt-0">
           <CardFeatures
             title={
               <h2>
