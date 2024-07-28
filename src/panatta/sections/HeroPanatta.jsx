@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
 import '../../index.css';
+import RainElement from "../components/RainElement";
 import Ball from "../../assets/imgs/hero/Bola.png";
 import EffectBg from "../../assets/imgs/hero/EfeitoLuz.png";
 
@@ -9,6 +10,7 @@ import EffectBg from "../../assets/imgs/hero/EfeitoLuz.png";
 export default function HeroPanatta() {
   return (
     <div className="relative w-full">
+      <RainElement />
       <img
         className="absolute inset-0 m-auto -mt-0"
         src={EffectBg}
