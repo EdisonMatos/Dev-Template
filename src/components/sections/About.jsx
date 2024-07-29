@@ -79,7 +79,7 @@ export default function About() {
           <MotionDivDownToUp>
             <SectionHeader
               className="text-center"
-              miniTitle="QUEM É DR. GLEIDSON PRUDÊNCIO"
+              miniTitle="Nossa trajetória"
               sectionHeaderTitle={content.texts.about.title}
               sectionHeaderSubtitle={content.texts.about.subtitle}
               color=""

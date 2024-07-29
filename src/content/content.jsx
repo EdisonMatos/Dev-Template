@@ -1,7 +1,7 @@
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/imgAbout.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
@@ -94,21 +94,24 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Pessoas em negociação",
+        alt: "imagem da praia com itens na areia",
       },
-      title: "Minha trajetória",
+      title: "Quem somos?",
       subtitle:
-        "Formado em Direito pelo Centro Universitário de Belo Horizonte – UniBH, com conclusão em 2019. ",
+        " ",
       paragraph: (
         <div>
-          Durante minha formação, tive a oportunidade de estagiar no Tribunal de
-          Justiça de Minas Gerais, onde adquiri valiosa experiência prática.
+          Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.
+          Oferecemos experiências únicas para explorar as maravilhas naturais
+          deste paraíso. Nossos passeios de barco levam você a praias icônicas
+          como a Praia da Ilha do Farol, a Praia do Forno e as Prainhas do
+          Pontal do Atalaia.
           <br />
           <br />
-          Aprofundei meus conhecimentos com uma pós-graduação em Direito
-          Constitucional pela Faculdade Metropolitana, concluída em 2021. Desde
-          2020, tenho atuado como advogado, defendendo os interesses de clientes
-          em todo o Brasil com dedicação e compromisso.
+          Nosso objetivo é proporcionar momentos inesquecíveis, navegando por
+          águas cristalinas e admirando a vida marinha. Com compromisso e
+          excelência, garantimos que cada passeio seja uma jornada mágica. Venha
+          viver a magia de Arraial do Cabo conosco!
         </div>
       ),
       aboutSocial: {
