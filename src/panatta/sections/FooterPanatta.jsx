@@ -11,7 +11,7 @@ export default function FooterPanatta() {
         className="relative right-[20px] desktop1:absolute desktop1:right-[-120px] desktop1:top-[0px] "
       ></img>
       <div className="flex justify-center desktop1:justify-start">
-        <div className="w-[90%] desktop1:w-[352px] flex flex-col justify-end ">
+        <div className="w-[90%] phone3:w-[340px] desktop1:w-[352px] flex flex-col justify-end ">
           <img
             src={logoPanatta}
             alt="Logo Panatta Casino"
