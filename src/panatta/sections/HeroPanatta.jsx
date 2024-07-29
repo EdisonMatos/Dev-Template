@@ -12,18 +12,18 @@ export default function HeroPanatta() {
     <div className="relative w-full">
       <RainElement />
       <img
-        className="absolute inset-0 m-auto -mt-0"
+        className="absolute inset-0 m-auto -mt-0 phone1:mt-[50%] phone1:w-full"
         src={EffectBg}
         alt="Efeito Iluminação de fundo"
       />
       <img
         src={bgEffect}
-        className="absolute bottom-[55%] h-auto w-full"
+        className="absolute bottom-[55%] h-auto w-full phone1:bottom-[80%]"
         alt="efeito sobreposto"
       />
 
       <img
-        className="absolute right-[35%] bottom-[65%] h-auto w-[30%] spin"
+        className="absolute right-[35%] bottom-[65%] h-auto w-[30%] spin phone1:bottom-[77%] phone1:right-[20%] phone1:w-[60%]"
         src={Ball}
         alt="Bola girando"
       />
