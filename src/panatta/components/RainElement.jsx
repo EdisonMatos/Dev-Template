@@ -20,8 +20,8 @@ const RainElement = () => {
       // velocidade do efeito
       drops += `<div class="drop" style="left: ${increment}%; bottom: ${
         randoFiver + randoFiver - 1 + 100
-      }%; animation-delay: 2.${randoHundo}s; animation-duration: 0.9${randoHundo}s;">
-                  <div class="stem" style="animation-delay: 2.${randoHundo}s; animation-duration:0.9${randoHundo}s;"></div>
+      }%; animation-delay: 0.${randoHundo}s; animation-duration: 0.9${randoHundo}s;">
+                  <div class="stem" style="animation-delay: 0.${randoHundo}s; animation-duration:0.9${randoHundo}s;"></div>
                 </div>`;
     }
 
