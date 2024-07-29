@@ -1,5 +1,5 @@
-import logo from "../assets/imgs/logo/logo.png";
-import solidLogo from "../assets/imgs/logo/solidLogo.png";
+import logo from "../assets/imgs/logo/logoMSC.png";
+import solidLogo from "../assets/imgs/logo/logo.png";
 import links from "./links";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
@@ -28,7 +28,7 @@ const content = {
         img: solidLogo,
         alt: "Logomarca",
       },
-      menuItems: ["Início", "Serviços", "Sobre Mim", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Quem Somos", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
