@@ -16,14 +16,18 @@ export default function HeroPanatta() {
         src={EffectBg}
         alt="Efeito Iluminação de fundo"
       />
+      <img
+        src={bgEffect}
+        className="absolute bottom-[55%] h-auto w-full"
+        alt="efeito sobreposto"
+      />
 
       <img
         className="absolute right-[35%] bottom-[65%] h-auto w-[30%] spin"
         src={Ball}
         alt="Bola girando"
       />
-
-      <img src={bgEffect} className="absolute bottom-[55%] h-auto w-full" alt="efeito sobreposto" />
+      
 
       <div className="w-full h-[138px] absolute top-0 bg-[#2FFF76]">
         <div className="h-[117px] flex items-center justify-center relative top-[18px] bg-[#112313]">
