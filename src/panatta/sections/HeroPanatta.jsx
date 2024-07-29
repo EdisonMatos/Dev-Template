@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from "../../assets/imgs/logo/Logotipo1.png";
 import ImgHero from "../../assets/imgs/hero/Hero.png";
-import '../../index.css';
+import '../../indexPanatta.css';
 import RainElement from "../components/RainElement";
 import Ball from "../../assets/imgs/hero/Bola.png";
 import EffectBg from "../../assets/imgs/hero/EfeitoLuz.png";

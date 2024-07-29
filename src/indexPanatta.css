@@ -1,0 +1,81 @@
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spin {
+    animation: spin 6s linear infinite;
+    transition: animation-duration 0.5s;
+  }
+  
+  .spin:hover {
+    animation-duration: 1s;
+  }
+  
+  
+  //animações para a chuva
+  
+  /* Estilo para o contêiner da chuva */
+  .rain {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+  
+  /* Estilo para as gotas de chuva */
+  .drop {
+    position: absolute;
+    bottom: 100%;
+    width: 15px;
+    height: 120px;
+    pointer-events: none;
+    animation: drop 600s linear infinite;
+  }
+  
+  /* Animação para a queda das gotas */
+  @keyframes drop {
+    0% {
+      transform: translateY(0vh);
+      opacity: 1;
+    }
+    75% {
+      transform: translateY(90vh);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(90vh);
+      opacity: 0;
+    }
+  }
+  
+  /* Estilo para o tronco da gota */
+  .stem {
+    width: 2px;
+    height: 50%;
+    margin-left: 7px;
+    background-color: #2fff76;
+    animation: stem 600s linear infinite; /* Aumente a duração se necessário */
+  }
+  
+  /* Animação para o tronco da gota */
+  @keyframes stem {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
