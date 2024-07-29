@@ -444,27 +444,28 @@ const content = {
     },
     faq: {
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle:
+        "Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Posso levar meu próprio cooler para o passeio?",
           answer:
-            "Agende sua consulta conosco via Whatsapp para discutirmos suas necessidades e estimarmos os custos.",
+            "De acordo com a lei municipal 2.348/2021, é proibido entrar com cooler, bolsa térmica ou semelhantes, garrafas ou copos de vidro também são proibidos.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Crianças pagam pelo passeio?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Crianças até 3 anos não pagam, entretanto, todas contam como passageiros à bordo do barco.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Se no dia do meu passeio estiver chovendo?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Caso não haja condições de desembarque ou visitação de algum local descrito acima, devido às condições do mar, compensamos o tempo em outro ponto turístico se possível for.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Até que horas posso chegar no barco?",
           answer:
-            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
+            "Nosso passeio inicia a partir das 9:30h  (favor confirmar o horário), tendo que estar para o check-in com 1h de antecedência, lembrando que a cidade fica lotada sempre, então pedimos que saiam cedo para evitar que percam o passeio, caso aconteça de perder o horário, o valor não é reembolsado, pois sairemos com as vagas em aberto, o valor só é devolvido em caso de cancelamento do passeio por motivos climáticos.",
         },
       },
     },
