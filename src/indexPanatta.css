@@ -8,12 +8,12 @@
 }
 
 .spin {
-  animation: spin 6s linear infinite;
+  animation: spin 8s linear infinite;
   transition: animation-duration 0.5s;
 }
 
 .spin:hover {
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
 //animações para a chuva
