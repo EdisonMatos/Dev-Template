@@ -12,7 +12,7 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgHowItWorks from "../../assets/imgs/about/howItWorks.jpg";
+import imgHowItWorks from "../../assets/imgs/features/imgSteppers.jpg";
 import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 
@@ -42,8 +42,8 @@ export default function HowItWorksImage() {
           <MotionDivDownToUp>
             <SectionHeader
               className="text-center"
-              miniTitle="PASSO A PASSO"
-              sectionHeaderTitle="Como funciona o processo de assessoria conosco?"
+              miniTitle="Sem complicações"
+              sectionHeaderTitle="Como funciona nosso passeio?"
               color=""
               type="article"
             />
@@ -52,23 +52,23 @@ export default function HowItWorksImage() {
             <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
               <HowItWorksCard
                 number="1"
-                title="Consulta inicial"
-                description="Agendamos uma consulta para entender seu caso e avaliar suas necessidades legais."
+                title="Horários"
+                description="Passeios diários com saídas às 9h e às 14h. Recomendamos chegar com pelo menos 30 minutos de antecedência."
               />
               <HowItWorksCard
                 number="2"
-                title="Análise do caso"
-                description="Examinamos todos os detalhes e evidências para compreender a situação completa."
+                title="Duração"
+                description="São 4 horas intensas de puro encanto e diversão, onde você desfruta de todo conforto à bordo e da experiência única da paisagem."
               />
               <HowItWorksCard
                 number="3"
-                title="Estratégia"
-                description="Desenvolvemos um plano personalizado para melhor defender seus interesses."
+                title="O que levar?"
+                description="Protetor solar, chapéu ou boné, toalha, roupa de banho, e uma câmera para registrar cada momento especial."
               />
               <HowItWorksCard
                 number="4"
-                title="Ação Judicial"
-                description="Iniciamos e conduzimos o processo legal para buscar a justiça que você merece."
+                title="Segurança"
+                description="Seguimos todos os protocolos de segurança e oferecemos coletes salva-vidas para todos os passageiros."
               />
             </div>
           </MotionDivDownToUp>
