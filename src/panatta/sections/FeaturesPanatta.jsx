@@ -61,7 +61,7 @@ export default function FeaturesPanatta() {
             </div>
           </div>
         </div> */}
-        <div className="flex flex-wrap justify-center desktop1:justify-start desktop1:mt-0">
+        <div className="flex flex-wrap gap-x-[50px] desktop2:gap-0 justify-center desktop1:justify-start desktop1:mt-0">
           <CardFeatures
             title={
               <h2>
@@ -73,7 +73,7 @@ export default function FeaturesPanatta() {
             }
             img={features1}
             alt="Foto de vários prêmios"
-            position="top-[100px] desktop1:top-[100px]"
+            position="top-[100px] tablet1:top-[130px] tablet2:top-[100px] desktop1:top-[130px] desktop2:top-[105px]"
             description="Receba seus ganhos em poucos minutos com nossos saques instantâneos"
           />
           <CardFeatures
@@ -87,7 +87,7 @@ export default function FeaturesPanatta() {
             }
             img={features2}
             alt="Foto Sem Burocracias"
-            position="top-[55px] desktop1:top-[40px]"
+            position="top-[55px] phone2:top-[40px] tablet1:top-[70px] tablet2:top-[55px] desktop1:top-[70px] desktop2:top-[45px] desktop1:left-[-7px]"
             description="Jogue e saque sem complicações"
           />
           <CardFeatures
@@ -101,7 +101,7 @@ export default function FeaturesPanatta() {
             }
             img={features3}
             alt="Foto Oferta exclusivas"
-            position="top-[80px] desktop1:top-[98px]"
+            position="top-[80px] phone2:top-[70px] tablet1:top-[125px] tablet2:top-[80px] desktop1:top-[100px] desktop2:top-[105px] desktop1:left-[-2px]"
             description="Aproveite ofertas únicas e aumente suas chances de ganhar"
           />
           <CardFeatures
@@ -115,7 +115,7 @@ export default function FeaturesPanatta() {
             }
             img={features4}
             alt="Foto Sorteios Mensais"
-            position="top-[60px] right-[5px] desktop1:top-[20px] desktop1:right-[70px]"
+            position="top-[45px] phone2:top-[30px] right-[5px] tablet1:top-[45px] tablet1:right-[30px] tablet2:right-[2px] desktop1:top-[60px] desktop1:right-[10px] desktop2:top-[30px] desktop2:right-[90px]"
             description="Participe dos sorteios mensais e concorra a prêmios incríveis"
           />
         </div>
