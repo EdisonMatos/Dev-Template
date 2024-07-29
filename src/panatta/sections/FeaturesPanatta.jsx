@@ -61,7 +61,7 @@ export default function FeaturesPanatta() {
             </div>
           </div>
         </div> */}
-        <div className="flex flex-wrap justify-center desktop1:justify-start desktop1:mt-0">
+        <div className="flex flex-wrap gap-x-[50px] desktop2:gap-0 justify-center desktop1:justify-start desktop1:mt-0">
           <CardFeatures
             title={
               <h2>
