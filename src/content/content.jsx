@@ -1,5 +1,5 @@
 import logo from "../assets/imgs/logo/logoMSC.png";
-import solidLogo from "../assets/imgs/logo/logo.png";
+import solidLogo from "../assets/imgs/logo/solidLogoMSC.png";
 import links from "./links";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
