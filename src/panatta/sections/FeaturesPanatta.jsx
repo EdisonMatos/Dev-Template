@@ -73,7 +73,7 @@ export default function FeaturesPanatta() {
             }
             img={features1}
             alt="Foto de vários prêmios"
-            position="top-[100px] desktop1:top-[100px]"
+            position="top-[100px] desktop1:top-[105px]"
             description="Receba seus ganhos em poucos minutos com nossos saques instantâneos"
           />
           <CardFeatures
@@ -87,7 +87,7 @@ export default function FeaturesPanatta() {
             }
             img={features2}
             alt="Foto Sem Burocracias"
-            position="top-[55px] desktop1:top-[40px]"
+            position="top-[55px] desktop1:top-[45px] desktop1:left-[-7px]"
             description="Jogue e saque sem complicações"
           />
           <CardFeatures
@@ -101,7 +101,7 @@ export default function FeaturesPanatta() {
             }
             img={features3}
             alt="Foto Oferta exclusivas"
-            position="top-[80px] desktop1:top-[98px]"
+            position="top-[80px] desktop1:top-[98px] desktop1:left-[-2px]"
             description="Aproveite ofertas únicas e aumente suas chances de ganhar"
           />
           <CardFeatures
