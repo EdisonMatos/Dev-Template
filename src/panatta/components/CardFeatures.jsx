@@ -9,7 +9,7 @@ export default function CardFeatures({
   description,
 }) {
   return (
-    <div className="relative w-[300px] desktop1:w-[520px] mt-[40px]">
+    <div className="relative w-[300px] desktop1:w-[520px] mt-[40px] hover:scale-110 transition">
       <img className={`absolute ${position}`} src={img} alt={alt} />
       <h2 className="font-bold text-[28px] desktop1:text-[40px] font-barlow ">
         {title}
