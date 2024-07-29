@@ -12,18 +12,18 @@ export default function HeroPanatta() {
     <div className="relative w-full">
       <RainElement />
       <img
-        className=" absolute phone1:w-full phone1:mt-[40%] desktop1:inset-0 desktop1:m-auto desktop1:-mt-0"
+        className=" absolute phone1:w-full phone1:mt-[40%] phone2:mt-[35%] tablet1:mt-[20%] tablet2:mt-[15%] desktop1:inset-0 desktop1:m-auto desktop1:-mt-0"
         src={EffectBg}
         alt="Efeito Iluminação de fundo"
       />
       <img
         src={bgEffect}
-        className="absolute phone1:bottom-[73%] desktop1:bottom-[68%] h-auto w-full"
+        className="absolute phone1:bottom-[73%] phone2:bottom-[70%] tablet2:bottom-[65%]  desktop1:bottom-[70%] h-auto w-full"
         alt="efeito sobreposto"
       />
 
       <img
-        className="absolute phone1:bottom-[70%] phone1:right-[20%] phone1:w-[60%] desktop1:right-[35%] desktop1:bottom-[75%] desktop1:h-auto desktop1:w-[30%] desktop2:right-[35%] desktop2:bottom-[65%] desktop2:h-auto desktop2:w-[30%] spin"
+        className="absolute phone1:bottom-[70%] phone1:right-[20%] phone1:w-[60%] phone2:bottom-[69%] tablet1:w-[40%] tablet1:bottom-[65%] tablet1:right-[30%] desktop1:right-[35%] desktop1:bottom-[78%] desktop1:h-auto desktop1:w-[30%] desktop2:right-[35%] desktop2:bottom-[65%] desktop2:h-auto desktop2:w-[30%] spin"
         src={Ball}
         alt="Bola girando"
       />
@@ -39,7 +39,7 @@ export default function HeroPanatta() {
       </div>
       <div className="mb-[112px] flex flex-col justify-center items-center">
         <img
-          className="phone1:mt-[350px] phone1:w-[300px] phone1:h-[200px] desktop1:mb-4 desktop1:mt-[500px] desktop1:w-[1085.58px] desktop1:h-[415.65px]"
+          className="phone1:mt-[350px] phone1:w-[300px] phone1:h-[200px] phone1:px-[2px] desktop1:mb-4 desktop1:px-[20px] desktop1:mt-[500px] desktop1:w-[1085.58px] desktop1:h-[415.65px]"
           src={ImgHero}
           alt="Hero Panatta Cassino"
         />
