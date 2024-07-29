@@ -73,7 +73,7 @@ export default function FeaturesPanatta() {
             }
             img={features1}
             alt="Foto de vários prêmios"
-            position="top-[100px] desktop1:top-[105px]"
+            position="top-[100px] tablet1:top-[130px] tablet2:top-[100px] desktop1:top-[130px] desktop2:top-[105px]"
             description="Receba seus ganhos em poucos minutos com nossos saques instantâneos"
           />
           <CardFeatures
@@ -87,7 +87,7 @@ export default function FeaturesPanatta() {
             }
             img={features2}
             alt="Foto Sem Burocracias"
-            position="top-[55px] desktop1:top-[45px] desktop1:left-[-7px]"
+            position="top-[55px] phone2:top-[40px] tablet1:top-[70px] tablet2:top-[55px] desktop1:top-[70px] desktop2:top-[45px] desktop1:left-[-7px]"
             description="Jogue e saque sem complicações"
           />
           <CardFeatures
