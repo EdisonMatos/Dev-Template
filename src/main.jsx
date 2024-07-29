@@ -9,8 +9,8 @@ import "./styles/backgrounds.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
-      <Route path="/" element={<Index />} />
-      <Route path="/panatta" element={<Panatta />} />
+      <Route path="/law" element={<Index />} />
+      <Route path="/" element={<Panatta />} />
       {/* <Route path="/paper" element={<IndexPaper />} /> */}
     </Routes>
   </Router>
