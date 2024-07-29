@@ -13,7 +13,7 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
-import imgPhone from "../../assets/imgs/about/phoneMockup.png";
+import imgPhone from "../../assets/imgs/about/aboutSocial.png";
 
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
@@ -34,21 +34,21 @@ export default function AboutInstagram() {
             <SectionHeader
               className="text-center"
               miniTitle="REDES SOCIAIS"
-              sectionHeaderTitle="Me siga nas redes sociais"
-              sectionHeaderSubtitle="Que tal ficar por dentro do mundo do direito?"
+              sectionHeaderTitle="Siga a gente nas redes sociais"
+              sectionHeaderSubtitle=""
               color=""
               type="article"
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="text-white text-opacity-60 mb-[48px]">
-              {content.texts.about.paragraph}
+              {content.texts.about.aboutSocial.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
 
           {/* Início Botões das redes sociais */}
 
-          {/* <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
+          <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
             <MotionDivDownToUp>
               <Button
                 label="Me siga no Instagram"
@@ -101,7 +101,7 @@ export default function AboutInstagram() {
                 }
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp>
+            {/* <MotionDivDownToUp>
               <Button
                 label="Me siga no Linkedin"
                 className="w-[75%]"
@@ -127,14 +127,14 @@ export default function AboutInstagram() {
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          </div> */}
+            </MotionDivDownToUp> */}
+          </div>
 
           {/* Fim Botões das redes sociais */}
 
           {/* Início Botão de saiba mais abrindo modal */}
 
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             <Button
               label="Continuar lendo"
               icon={
@@ -155,7 +155,7 @@ export default function AboutInstagram() {
                 </svg>
               }
             />
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
 
           {/* Fim Botão de saiba mais abrindo modal */}
         </div>

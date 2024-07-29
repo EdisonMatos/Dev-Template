@@ -2,7 +2,7 @@ import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
@@ -119,12 +119,12 @@ const content = {
         title: "Me siga nas redes sociais",
         paragraph: (
           <p>
-            🦷 Quer saber mais sobre odontologia? Siga Dra. Monique Adrielle nas
-            redes sociais!
+            🏝️ Quer saber mais sobre viagens incríveis? Siga nossa agência de
+            turismo nas redes sociais!
             <br />
             <br />
             Não perca a chance de ficar por dentro das novidades e dicas para
-            uma saúde bucal adequada.
+            suas próximas aventuras.
           </p>
         ),
       },
