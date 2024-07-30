@@ -132,7 +132,7 @@ function FooterSocial() {
           </div> */}
 
           {/* Ícones redes sociais */}
-          {/* <p className="opacity-70">Siga a gente nas redes sociais:</p>
+          <p className="opacity-70">Siga a gente nas redes sociais:</p>
             <div className="opacity-70">
               {" "}
               <div className="flex gap-[10px] items-center">
@@ -149,7 +149,7 @@ function FooterSocial() {
                         width="20"
                         height="20"
                         viewBox="0 0 24 24"
-                        fill="none"
+                        fill="white"
                         stroke="currentColor"
                         stroke-width="2"
                         stroke-linecap="round"
@@ -183,7 +183,7 @@ function FooterSocial() {
                         width="20"
                         height="20"
                         viewBox="0 0 24 24"
-                        fill="none"
+                        fill="white"
                         stroke="currentColor"
                         stroke-width="2"
                         stroke-linecap="round"
@@ -195,7 +195,7 @@ function FooterSocial() {
                     }
                   />
                 </a>
-                <a href={links.socialMedia.linkedin} target="_blank">
+                {/* <a href={links.socialMedia.linkedin} target="_blank">
                   <IconButton
                     icon={
                       <svg
@@ -216,9 +216,9 @@ function FooterSocial() {
                       </svg>
                     }
                   />
-                </a>
+                </a> */}
               </div>
-            </div> */}
+            </div>
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center text-primary">
