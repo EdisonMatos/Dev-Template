@@ -15,18 +15,18 @@ export default function CtaMinimal() {
         <SectionWrapper>
           <SectionHeader
             className="text-center"
-            miniTitle="NÃO PERCA TEMPO"
+            miniTitle="Contate agora"
             sectionHeaderTitle={
               <h1>
-                Tem um problema? <br /> Deixa a gente cuidar para você
+                Pronto para sua próxima aventura <br />
               </h1>
             }
-            sectionHeaderSubtitle="Fale com nossa equipe sem compromisso, estamos prontos para te ajudar."
+            sectionHeaderSubtitle="Entre em contato agora e comece a planejar uma experiência inesquecível em Arraial do Cabo!"
             color="dark"
           />
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
-            label="Fale com a gente no whatsapp"
+            label="Fale Conosco no WhatsApp"
             buttonLink={whatsappContactLink}
             icon={
               <svg
