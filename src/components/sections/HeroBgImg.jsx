@@ -19,14 +19,14 @@ export default function HeroBgImg() {
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
-      <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
+      <div className="relative z-10 flex w-full bg-black bg-opacity-40 desktop1:bg-opacity-10 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[160px] desktop1:pb-[260px]">
+          <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center  pt-[46px] pb-[90px] desktop1:pt-[160px] desktop1:pb-[200px]">
             <div className=" flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px]">
               <MotionDivLeftToRight>
                 <div className="w-auto text-center font-secondFont phone1:text-paragraph4">
-                  <p className="mb-[16px] bg-black bg-opacity-70 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                  <p className="mb-[16px] bg-black bg-opacity-50 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     AGÊNCIA DE ECO TURISMO EM ARRAIAL DO CABO - RJ
                   </p>
                 </div>
@@ -40,7 +40,7 @@ export default function HeroBgImg() {
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
                 <div className="flex text-center justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
-                  <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_3px_rgb(0_0_0_/_80%)]">
+                  <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
                     {content.texts.hero.subtitle}
                   </p>
                 </div>
@@ -124,8 +124,8 @@ export default function HeroBgImg() {
           </div>
         </div>
       </div>
-      {/* <div className="bg-black bg-opacity-0">
-        <div class="custom-shape-divider-bottom-1720203688">
+      <div className="bg-black bg-opacity-40 desktop1:bg-opacity-10">
+        <div class="custom-shape-divider-bottom-1722451194 ">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@ export default function HeroBgImg() {
             ></path>
           </svg>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

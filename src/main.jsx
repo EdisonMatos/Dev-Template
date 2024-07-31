@@ -4,6 +4,7 @@ import Index from "./pages/Index.jsx";
 
 import "./index.css";
 import "./styles/backgrounds.css";
+import "./styles/shapeDivs.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
