@@ -36,7 +36,7 @@ export default function ListGroupSocial() {
         scrolling ? "" : "text-lighter transition-color duration-1000"
       }`}
     >
-      <li className="transition group h-[24px]">
+      <li className="transition group h-[24px] ">
         <Link
           to="home"
           className="relative font-semibold cursor-pointer"
@@ -48,7 +48,9 @@ export default function ListGroupSocial() {
         >
           <span
             className={`h-[24px] inline-block
-              ${scrolling ? "hover:text-primary" : "hover:text-lighter"}`}
+              ${
+                scrolling ? "hover:text-primary" : "hover:text-lighter"
+              } [text-shadow:_2px_2px_3px_rgb(0_0_0_/_80%)]`}
           >
             {content.texts.navbar.menuItems[0]}
           </span>
@@ -71,7 +73,9 @@ export default function ListGroupSocial() {
         >
           <span
             className={`h-[24px] inline-block
-              ${scrolling ? "hover:text-primary" : "hover:text-lighter"}`}
+              ${
+                scrolling ? "hover:text-primary" : "hover:text-lighter"
+              } [text-shadow:_2px_2px_3px_rgb(0_0_0_/_80%)]`}
           >
             {content.texts.navbar.menuItems[1]}
           </span>
@@ -94,7 +98,9 @@ export default function ListGroupSocial() {
         >
           <span
             className={`h-[24px] inline-block
-              ${scrolling ? "hover:text-primary" : "hover:text-lighter"}`}
+              ${
+                scrolling ? "hover:text-primary" : "hover:text-lighter"
+              } [text-shadow:_2px_2px_3px_rgb(0_0_0_/_80%)]`}
           >
             {content.texts.navbar.menuItems[2]}
           </span>
@@ -117,7 +123,9 @@ export default function ListGroupSocial() {
         >
           <span
             className={`h-[24px] inline-block
-              ${scrolling ? "hover:text-primary" : "hover:text-lighter"}`}
+              ${
+                scrolling ? "hover:text-primary" : "hover:text-lighter"
+              } [text-shadow:_2px_2px_3px_rgb(0_0_0_/_80%)]`}
           >
             {content.texts.navbar.menuItems[3]}
           </span>

@@ -12,7 +12,7 @@ import imgPoints from "../../assets/imgs/about/points.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
-export default function HeroBgLeft() {
+export default function Hero() {
   return (
     <div
       className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark bg-bgSectionDark"

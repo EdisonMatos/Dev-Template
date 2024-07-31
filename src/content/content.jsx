@@ -28,15 +28,19 @@ const content = {
         img: solidLogo,
         alt: "Logomarca",
       },
-      menuItems: ["Início", "Serviços", "Sobre Mim", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Quem Somos", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      title: <h1 className="mb-[16px]">Nós cuidamos dos seus direitos</h1>,
+      title: (
+        <h1 className="mb-[16px]">
+          Descubra Arraial do Cabo de uma maneira única e inesquecível
+        </h1>
+      ),
       subtitle:
-        "Mais de 5 anos de experiência protegendo seus interesses legais em diversos estados do Brasil.",
-      ctaButtonText: "Entre em contato",
+        "Uma experiência extraordinária para aproveitar o melhor do Caribe Brasileiro",
+      ctaButtonText: "Agende seu passeio",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       images: {
@@ -97,8 +101,7 @@ const content = {
         alt: "imagem da praia com itens na areia",
       },
       title: "Quem somos?",
-      subtitle:
-        " ",
+      subtitle: " ",
       paragraph: (
         <div>
           Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.
