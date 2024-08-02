@@ -4,7 +4,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
-import lawImg from "../../assets/imgs/features/law.png";
+import lawImg from "../../assets/imgs/services/imgServices.jpg";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeaturesWithIcons() {
@@ -12,7 +12,7 @@ export default function FeaturesWithIcons() {
     <SectionArea id="service" className="squares">
       <SectionHeader
         className="text-center"
-        miniTitle="ESPECIALIDADES"
+        miniTitle="Nossos serviços"
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
         color="dark"

@@ -4,16 +4,7 @@ const infos = {
   phone: "(22) 99961-4246",
   mail: "amelhorsooceu@gmail.com",
   footerInfos: {
-    endereco: (
-      <p>
-        Rua Bruges, nº 129 <br />
-        Jardim Europa
-        <br />
-        Belo Horizonte - MG
-        <br />
-        CEP: 31620-100
-      </p>
-    ),
+    endereco: <p>Arraial do Cabo - RJ</p>,
     expediente: (
       <p>
         Horário de expediente:

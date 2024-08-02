@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#252329", // Com primária (variação clara)
+        primary: "#018DD5", // Com primária (variação clara)
         secondary: "#252329", // Cor primária (variação escura)
         bgSectionLight: "#FFFFFF",
         bgSectionDark: "#252329",
@@ -12,6 +12,7 @@ module.exports = {
         buttonColor: "#DBB14C", // Botões
         lighter: "#FFFFFF",
         darker: "#000000",
+        
       },
       fontFamily: {
         mainFont: ["Poppins", "sans-serif"],
