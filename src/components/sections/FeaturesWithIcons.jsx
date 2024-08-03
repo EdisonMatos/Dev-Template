@@ -6,6 +6,7 @@ import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import lawImg from "../../assets/imgs/services/imgServices.jpg";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import imgDivisor from "../../assets/imgs/services/divisor.jpg";
 
 export default function FeaturesWithIcons() {
   return (
@@ -126,6 +127,11 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
         </div>
+        <img
+          src={imgDivisor}
+          className="p-[84px]"
+          alt="Imagem de divisão em formato de onda"
+        />
       </SectionWrapper>
     </SectionArea>
   );
