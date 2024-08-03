@@ -401,9 +401,10 @@ const content = {
       },
     },
     features: {
-      title: "Defendendo seus direitos com excelência",
+      title:
+        "Descubra as maravilhas de Arraial do Cabo com nosso passeio de barco!",
       subtitle:
-        "Garantindo seus direitos através de expertise em diversas áreas de atuação.",
+        "Prepare-se para uma experiência inesquecível em Arraial do Cabo, o Caribe Brasileiro! Nosso passeio de barco é a chance perfeita para explorar as belezas naturais deste paraíso de forma única e exclusiva.",
       card1: {
         title: "Família e Inventário",
         subtitle:
