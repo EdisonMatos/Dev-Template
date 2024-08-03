@@ -9,13 +9,14 @@ import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import paralaxeFooter from "../../assets/imgs/footer/SectionFooter.png";
 
-
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function FooterSocial() {
   return (
-    <footer className=" full gap-y-[42px] font-secondFont text-left text-paragraph4 text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: `url(${paralaxeFooter})` }}>
+    <footer
+      className=" full gap-y-[42px] font-secondFont text-left text-paragraph4 text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${paralaxeFooter})` }}
+    >
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
           <div className="h-[115px] flex items-center">
@@ -25,7 +26,7 @@ function FooterSocial() {
               className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
             ></img>
           </div>
-          <div className="flex full gap-x-[12px] items-center opacity-70">
+          <div className="flex full gap-x-[12px] items-center opacity-90">
             <svg
               aria-label="ícone do Whatsapp"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,12 +41,12 @@ function FooterSocial() {
             <a
               href={whatsappContactLink}
               target="_blank"
-              className="hover:underline text-white"
+              className="text-white hover:underline"
             >
               {infos.phone}
             </a>
           </div>
-          <div className="flex full gap-x-[12px] items-center opacity-70">
+          <div className="flex full gap-x-[12px] items-center opacity-90">
             <svg
               aria-label="ícone do e-mail"
               xmlns="http://www.w3.org/2000/svg"
@@ -62,39 +63,30 @@ function FooterSocial() {
               <rect width="20" height="16" x="2" y="4" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
             </svg>
-            <p>{infos.mail}</p>
+            <p className="text-paragraph2">{infos.mail}</p>
           </div>
-          <div className="flex full gap-x-[12px] items-center opacity-70">
+          <div className="flex full gap-x-[12px] items-center opacity-90">
             <svg
-            aria-label="ícone de calendário"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="white"
+              stroke="currentColor"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="lucide lucide-calendar-days"
+              class="lucide lucide-map-pin"
             >
-              <path d="M8 2v4" />
-              <path d="M16 2v4" />
-              <rect width="18" height="18" x="3" y="4" rx="2" />
-              <path d="M3 10h18" />
-              <path d="M8 14h.01" />
-              <path d="M12 14h.01" />
-              <path d="M16 14h.01" />
-              <path d="M8 18h.01" />
-              <path d="M12 18h.01" />
-              <path d="M16 18h.01" />
+              <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+              <circle cx="12" cy="10" r="3" />
             </svg>
             <p>{infos.footerInfos.endereco}</p>
           </div>
 
           {/* ENDEREÇO */}
 
-          {/* <div className="flex full gap-x-[12px] items-center opacity-70">
+          {/* <div className="flex full gap-x-[12px] items-center opacity-90">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -118,10 +110,10 @@ function FooterSocial() {
             {infos.footerInfos.midSectionName}
           </h1>
           {/* Texto footer */}
-          <p className="opacity-70">{infos.footerInfos.footerText}</p>
+          <p className="opacity-90">{infos.footerInfos.footerText}</p>
 
           {/* Botões de download */}
-          {/* <p className="opacity-70">Baixe nosso app:</p>
+          {/* <p className="opacity-90">Baixe nosso app:</p>
           <div className="invert">
             {" "}
             <div className="flex flex-col items-start gap-[10px]">
@@ -151,8 +143,8 @@ function FooterSocial() {
           </div> */}
 
           {/* Ícones redes sociais */}
-          <p className="opacity-70">Siga a gente nas redes sociais:</p>
-          <div className="opacity-70">
+          <p className="opacity-90">Siga a gente nas redes sociais:</p>
+          <div className="opacity-90">
             {" "}
             <div className="flex gap-[10px] items-center">
               <a
@@ -168,7 +160,7 @@ function FooterSocial() {
                       width="20"
                       height="20"
                       viewBox="0 0 24 24"
-                      fill="white"
+                      fill=""
                       stroke="currentColor"
                       stroke-width="2"
                       stroke-linecap="round"
@@ -182,7 +174,7 @@ function FooterSocial() {
                   }
                 />
               </a>
-              <a
+              {/* <a
                 href={links.socialMedia.facebook}
                 target="_blank"
                 aria-label="Link para o Facebook"
@@ -195,7 +187,7 @@ function FooterSocial() {
                       width="20"
                       height="20"
                       viewBox="0 0 24 24"
-                      fill="white"
+                      fill=""
                       stroke="currentColor"
                       stroke-width="2"
                       stroke-linecap="round"
@@ -206,7 +198,7 @@ function FooterSocial() {
                     </svg>
                   }
                 />
-              </a>
+              </a> */}
               {/* <a href={links.socialMedia.linkedin} target="_blank">
                   <IconButton
                     icon={
@@ -236,7 +228,7 @@ function FooterSocial() {
           <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center text-lighter">
             NAVEGAÇÃO
           </h1>
-          <div className="flex justify-between full opacity-70">
+          <div className="flex justify-between full opacity-90">
             <div className="w-[46%] flex flex-col gap-y-[16px]">
               <div className="h-[36px] hover:underline">
                 <Link

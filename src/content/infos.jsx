@@ -2,7 +2,7 @@ const infos = {
   name: "Arraial Melhor Só o Céu",
   slogan: "",
   phone: "(22) 99961-4246",
-  mail: "amelhorsooceu@gmail.com",
+  mail: "reservas@arraialmelhorsooceu.com.br",
   footerInfos: {
     endereco: <p>Arraial do Cabo - RJ</p>,
     expediente: (
@@ -14,7 +14,7 @@ const infos = {
         Das 9h às 20h30
       </p>
     ),
-    midSectionName: "Até mais! 😉!",
+    midSectionName: "Até mais! 😉",
     year: 2024,
     footerText:
       "Obrigado por nos visitar! Esperamos que em breve você se junte a nós para explorar todas as maravilhas que temos a oferecer.",
