@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logoMSC.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
 import aboutImg1 from "../assets/imgs/about/imgAbout.png";
