@@ -10,7 +10,7 @@ import imgDivisor from "../../assets/imgs/services/divisor.jpg";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="">
+    <SectionArea id="service" className="" paddingbot={false}>
       <SectionHeader
         className="text-center"
         miniTitle="Nossos serviços"
