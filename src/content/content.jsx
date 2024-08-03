@@ -101,10 +101,10 @@ const content = {
         alt: "imagem da praia com itens na areia",
       },
       title: "Quem somos?",
-      subtitle: " ",
+      subtitle:
+        "Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.",
       paragraph: (
         <div>
-          Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.
           Oferecemos experiências únicas para explorar as maravilhas naturais
           deste paraíso. Nossos passeios de barco levam você a praias icônicas
           como a Praia da Ilha do Farol, a Praia do Forno e as Prainhas do

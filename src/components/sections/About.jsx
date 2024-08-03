@@ -87,7 +87,7 @@ export default function About() {
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs className="text-white text-opacity-60">
+            <Paragraphs className="text-white text-opacity-80">
               {content.texts.about.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
