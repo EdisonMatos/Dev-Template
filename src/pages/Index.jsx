@@ -2,7 +2,7 @@ import Faq from "../components/sections/Faq";
 import About from "../components/sections/About";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import HeroBgLeft from "../components/sections/HeroBgLeft";
+import HeroBgImg from "../components/sections/HeroBgImg";
 import FooterSocial from "../components/sections/FooterSocial";
 import NavbarSocial from "../components/sections/NavbarSocial";
 import HowItWorks from "../components/sections/HowItWorks";
@@ -17,14 +17,14 @@ export default function Index() {
   return (
     <div>
       <NavbarSocial />
-      <HeroBgLeft />
+      <HeroBgImg />
       <FeaturesWithIcons />
       {/* <Numbers /> */}
       <About />
-      {/* <AboutInstagram /> */}
+      <AboutInstagram />
       <HowItWorksImage />
       <CtaMinimal />
-      {/* <Depositions /> */}
+      <Depositions />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />

@@ -1,7 +1,7 @@
 import logo from "../assets/imgs/logo/logoMSC.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/imgAbout.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
@@ -28,15 +28,19 @@ const content = {
         img: solidLogo,
         alt: "Logomarca",
       },
-      menuItems: ["Início", "Serviços", "Sobre Mim", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Quem Somos", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      title: <h1 className="mb-[16px]">Nós cuidamos dos seus direitos</h1>,
+      title: (
+        <h1 className="mb-[16px]">
+          Descubra Arraial do Cabo de uma maneira única e inesquecível
+        </h1>
+      ),
       subtitle:
-        "Mais de 5 anos de experiência protegendo seus interesses legais em diversos estados do Brasil.",
-      ctaButtonText: "Entre em contato",
+        "Uma experiência extraordinária para aproveitar o melhor do Caribe Brasileiro",
+      ctaButtonText: "Agende seu passeio",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       images: {
@@ -94,21 +98,23 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Pessoas em negociação",
+        alt: "imagem da praia com itens na areia",
       },
-      title: "Minha trajetória",
-      subtitle:
-        "Formado em Direito pelo Centro Universitário de Belo Horizonte – UniBH, com conclusão em 2019. ",
+      title: "Quem somos?",
+      subtitle: " ",
       paragraph: (
         <div>
-          Durante minha formação, tive a oportunidade de estagiar no Tribunal de
-          Justiça de Minas Gerais, onde adquiri valiosa experiência prática.
+          Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.
+          Oferecemos experiências únicas para explorar as maravilhas naturais
+          deste paraíso. Nossos passeios de barco levam você a praias icônicas
+          como a Praia da Ilha do Farol, a Praia do Forno e as Prainhas do
+          Pontal do Atalaia.
           <br />
           <br />
-          Aprofundei meus conhecimentos com uma pós-graduação em Direito
-          Constitucional pela Faculdade Metropolitana, concluída em 2021. Desde
-          2020, tenho atuado como advogado, defendendo os interesses de clientes
-          em todo o Brasil com dedicação e compromisso.
+          Nosso objetivo é proporcionar momentos inesquecíveis, navegando por
+          águas cristalinas e admirando a vida marinha. Com compromisso e
+          excelência, garantimos que cada passeio seja uma jornada mágica. Venha
+          viver a magia de Arraial do Cabo conosco!
         </div>
       ),
       aboutSocial: {
