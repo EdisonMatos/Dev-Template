@@ -15,14 +15,14 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function HeroBgImg() {
   return (
     <div
-      className="w-full bg-center bg-no-repeat font-mainFont bg-cover"
+      className="w-full bg-center bg-no-repeat bg-cover font-mainFont"
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-40 desktop1:bg-opacity-10 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center  pt-[46px] pb-[90px] desktop1:pt-[160px] desktop1:pb-[200px]">
+          <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center  pt-[46px] pb-[90px] desktop1:pt-[120px] desktop1:pb-[160px]">
             <div className=" flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px]">
               <MotionDivLeftToRight>
                 <div className="w-auto text-center font-secondFont phone1:text-paragraph4">

@@ -12,7 +12,8 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgHowItWorks from "../../assets/imgs/about/howItWorks.jpg";
+import imgHowItWorks from "../../assets/imgs/howItWorks/howItWorks.jpg";
+import imgHowItWorksPC from "../../assets/imgs/howItWorks/howItWorksPC.jpg";
 import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 
@@ -22,10 +23,10 @@ export default function HowItWorksImage() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark">
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[60px] desktop2:gap-0 desktop1:justify-between">
+    <SectionArea id="about" className="" paddingtop={false}>
+      <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[60px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
-          <div
+          {/* <div
             style={{
               backgroundImage: `url(${imgHowItWorks})`,
             }}
@@ -36,7 +37,12 @@ export default function HowItWorksImage() {
               src={imgPoints}
               className="absolute opacity-75 right-[-40px] top-[40px] phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
-          </div>
+          </div> */}
+          <img
+            src={imgHowItWorksPC}
+            alt="Imagem de pessoa de férias em um passeio de barco em Arraial do Cabo"
+            className=""
+          />
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
@@ -44,7 +50,7 @@ export default function HowItWorksImage() {
               className="text-center"
               miniTitle="PASSO A PASSO"
               sectionHeaderTitle="Como funciona o processo de assessoria conosco?"
-              color=""
+              color="dark"
               type="article"
             />
           </MotionDivDownToUp>

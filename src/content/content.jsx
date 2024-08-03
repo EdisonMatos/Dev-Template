@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo/logoMSC.png";
+import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import links from "./links";
 import aboutImg1 from "../assets/imgs/about/imgAbout.png";
@@ -101,10 +101,10 @@ const content = {
         alt: "imagem da praia com itens na areia",
       },
       title: "Quem somos?",
-      subtitle: " ",
+      subtitle:
+        "Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.",
       paragraph: (
         <div>
-          Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.
           Oferecemos experiências únicas para explorar as maravilhas naturais
           deste paraíso. Nossos passeios de barco levam você a praias icônicas
           como a Praia da Ilha do Farol, a Praia do Forno e as Prainhas do
@@ -401,9 +401,10 @@ const content = {
       },
     },
     features: {
-      title: "Defendendo seus direitos com excelência",
+      title:
+        "Descubra as maravilhas de Arraial do Cabo com nosso passeio de barco!",
       subtitle:
-        "Garantindo seus direitos através de expertise em diversas áreas de atuação.",
+        "Prepare-se para uma experiência inesquecível em Arraial do Cabo, o Caribe Brasileiro! Nosso passeio de barco é a chance perfeita para explorar as belezas naturais deste paraíso de forma única e exclusiva.",
       card1: {
         title: "Família e Inventário",
         subtitle:
