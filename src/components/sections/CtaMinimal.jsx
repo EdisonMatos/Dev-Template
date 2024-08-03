@@ -11,7 +11,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function CtaMinimal() {
   return (
     <MotionDivDownToUp>
-      <SectionArea className="squares">
+      <SectionArea className="">
         <SectionWrapper>
           <SectionHeader
             className="text-center"

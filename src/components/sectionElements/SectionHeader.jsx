@@ -17,12 +17,12 @@ export default function SectionHeader({
   marginBottomOption,
 }) {
   if (color === "dark") {
-    miniTitleBgColor = "bg-primary bg-opacity-10";
-    miniTitleTextColor = "text-primary";
+    miniTitleBgColor = "bg-secondary bg-opacity-5";
+    miniTitleTextColor = "text-secondary";
     titleColor = "text-secondary";
     subtitleColor = "text-darker opacity-70";
   } else {
-    miniTitleBgColor = "bg-darker bg-opacity-40";
+    miniTitleBgColor = "bg-secondary bg-opacity-60";
     miniTitleTextColor = "text-lighter";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";

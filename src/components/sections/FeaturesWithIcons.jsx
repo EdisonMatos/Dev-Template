@@ -9,7 +9,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares">
+    <SectionArea id="service" className="">
       <SectionHeader
         className="text-center"
         miniTitle="Nossos serviços"
