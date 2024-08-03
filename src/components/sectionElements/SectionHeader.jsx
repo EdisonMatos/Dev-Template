@@ -45,7 +45,7 @@ export default function SectionHeader({
         <div
           className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
         >
-          <p className={`${miniTitleTextColor} `}>{miniTitle}</p>
+          <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
         </div>
       </div>
       <h1
