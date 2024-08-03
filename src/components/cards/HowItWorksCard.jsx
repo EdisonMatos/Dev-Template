@@ -5,7 +5,7 @@ export default function HowItWorksCard({ number, title, description }) {
         {number}
       </div>
       <h1 className="text-[20px] text-lighter font-bold mb-[24px]">{title}</h1>
-      <p className="text-[16px] text-lighter text-center phone3:text-left opacity-60">
+      <p className="text-[16px] text-lighter text-center phone3:text-left opacity-80">
         {description}
       </p>
     </div>
