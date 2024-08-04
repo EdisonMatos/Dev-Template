@@ -19,7 +19,7 @@ export default function Depositions() {
       <SectionArea className="" paddingbot={false}>
         <SectionHeader
           className="text-center"
-          miniTitle="TIRE SUAS DÚVIDAS"
+          miniTitle={content.texts.depositions.miniTag}
           sectionHeaderTitle={content.texts.depositions.title}
           sectionHeaderSubtitle={content.texts.depositions.subtitle}
           titleColor="text-white"
@@ -29,7 +29,7 @@ export default function Depositions() {
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">
             <CarouselDivisV1>
-              <div className="flex justify-center items-center">
+              <div className="flex items-center justify-center">
                 <div className="flex justify-center">
                   <img src={deposition1} alt="depoimento 1" />
                 </div>

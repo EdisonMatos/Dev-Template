@@ -459,33 +459,30 @@ const content = {
       ctaButtonText: "empty",
     },
     depositions: {
-      title: "Clientes sempre satisfeitos",
-      subtitle:
-        "Nossos clientes são a prova viva de que cumprimos o que prometemos",
+      miniTag: "empty",
+      title: "empty",
+      subtitle: "empty",
     },
     faq: {
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "empty",
+      title: "empty",
+      subtitle: "empty",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via Whatsapp para discutirmos suas necessidades e estimarmos os custos.",
+          question: "empty",
+          answer: "empty",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "empty",
+          answer: "empty",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "empty",
+          answer: "empty",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
+          question: "empty",
+          answer: "empty",
         },
       },
     },
