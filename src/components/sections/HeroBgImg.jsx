@@ -22,7 +22,7 @@ export default function HeroBgImg() {
       <div className="relative z-10 flex w-full bg-black bg-opacity-40 desktop1:bg-opacity-10 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center  pt-[46px] pb-[90px] desktop1:pt-[120px] desktop1:pb-[160px]">
+          <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center  pt-[46px] pb-[50px] desktop1:pt-[120px] desktop1:pb-[120px]">
             <div className=" flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px]">
               <MotionDivLeftToRight>
                 <div className="w-auto text-center font-secondFont phone1:text-paragraph4">
@@ -68,6 +68,13 @@ export default function HeroBgImg() {
                     />
                   </div>
                 </MotionDivLeftToRight>
+                <MotionDivRightToLeft className="mt-[40px] w-full ">
+                  <a href="#">
+                    <p className="text-center text-white underline transition hover:scale-125">
+                      Como funciona nossa passeio?
+                    </p>
+                  </a>
+                </MotionDivRightToLeft>
               </div>
               {/* <div className="">
                 <MotionDivLeftToRight>
