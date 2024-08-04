@@ -4,6 +4,9 @@ import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
+
 import aboutImg1 from "../assets/imgs/about/imgAbout.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
 
@@ -403,6 +406,8 @@ const content = {
       miniTag: "empty",
       title: "empty",
       subtitle: "empty",
+      imgFeatures: imgFeatures,
+      imgDivisor: imgDivisor,
       card1: {
         title: "empty",
         subtitle: "empty",

@@ -4,9 +4,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
-import lawImg from "../../assets/imgs/services/imgServices.jpg";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import imgDivisor from "../../assets/imgs/services/divisor.jpg";
 
 export default function FeaturesWithIcons() {
   return (
@@ -72,7 +70,10 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
           <div className="hidden desktop1:flex col2">
-            <img src={lawImg} alt="Imagem da estátua do direito" />
+            <img
+              src={content.texts.features.imgFeatures}
+              alt="Imagem ilustrativa da seção"
+            />
           </div>
           <div className="col3 ">
             <MotionDivDownToUp>
@@ -128,7 +129,7 @@ export default function FeaturesWithIcons() {
           </div>
         </div>
         <img
-          src={imgDivisor}
+          src={content.texts.features.imgDivisor}
           className="p-[84px]"
           alt="Imagem de divisão em formato de onda"
         />
