@@ -22,7 +22,7 @@ export default function AboutInstagram() {
 
   return (
     <SectionArea id="about" className="bg-bgSectionDark">
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
+      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           {/* <img
             src={imgPhone}
@@ -141,22 +141,24 @@ export default function AboutInstagram() {
 
           <MotionDivDownToUp>
             <Button
-              label="Continuar lendo"
+              label="Siga nosso Instagram"
+              buttonLink={links.socialMedia.instagram}
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-move-right"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-instagram"
                 >
-                  <path d="M18 8L22 12L18 16" />
-                  <path d="M2 12H22" />
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                 </svg>
               }
             />
