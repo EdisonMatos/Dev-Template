@@ -25,7 +25,7 @@ export default function HowItWorksImage() {
   return (
     <SectionArea id="about" className="" paddingtop={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[60px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           {/* <div
             style={{
               backgroundImage: `url(${imgHowItWorks})`,
