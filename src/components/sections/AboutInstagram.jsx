@@ -38,9 +38,9 @@ export default function AboutInstagram() {
           <MotionDivDownToUp>
             <SectionHeader
               className="text-center"
-              miniTitle="REDES SOCIAIS"
-              sectionHeaderTitle="Me siga nas redes sociais"
-              sectionHeaderSubtitle="Que tal ficar por dentro do mundo do direito?"
+              miniTitle={content.texts.about.aboutSocial.miniTag}
+              sectionHeaderTitle={content.texts.about.aboutSocial.title}
+              sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
               color=""
               type="article"
             />

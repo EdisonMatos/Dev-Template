@@ -95,23 +95,17 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "imagem da praia com itens na areia",
+        alt: "imagem empty",
       },
-      title: "Quem somos?",
-      subtitle:
-        "Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.",
+      miniTag: "empty",
+      title: "empty",
+      subtitle: "empty",
       paragraph: (
         <div>
-          Oferecemos experiências únicas para explorar as maravilhas naturais
-          deste paraíso. Nossos passeios de barco levam você a praias icônicas
-          como a Praia da Ilha do Farol, a Praia do Forno e as Prainhas do
-          Pontal do Atalaia.
+          empty
           <br />
           <br />
-          Nosso objetivo é proporcionar momentos inesquecíveis, navegando por
-          águas cristalinas e admirando a vida marinha. Com compromisso e
-          excelência, garantimos que cada passeio seja uma jornada mágica. Venha
-          viver a magia de Arraial do Cabo conosco!
+          empty
         </div>
       ),
       aboutSocial: {
@@ -119,15 +113,15 @@ const content = {
           img: aboutSocialImg,
           alt: "Foto Profissional",
         },
-        title: "Me siga nas redes sociais",
+        miniTag: "empty",
+        title: "empty",
+        subtitle: "",
         paragraph: (
           <p>
-            🦷 Quer saber mais sobre odontologia? Siga Dra. Monique Adrielle nas
-            redes sociais!
+            empty
             <br />
             <br />
-            Não perca a chance de ficar por dentro das novidades e dicas para
-            uma saúde bucal adequada.
+            empty
           </p>
         ),
       },
@@ -459,9 +453,10 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      title: <p className="">Deixa a gente cuidar da sua saúde</p>,
-      subtitle: "#",
-      ctaButtonText: "Agendar consulta gratuita",
+      miniTag: "empty",
+      title: "empty",
+      subtitle: "empty",
+      ctaButtonText: "empty",
     },
     depositions: {
       title: "Clientes sempre satisfeitos",
