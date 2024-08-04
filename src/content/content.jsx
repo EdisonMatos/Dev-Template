@@ -1,17 +1,25 @@
+import links from "./links";
+
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
-import links from "./links";
-import aboutImg1 from "../assets/imgs/about/imgAboutMSC.png";
+import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
+
+import aboutImg1 from "../assets/imgs/about/imgAbout.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
+
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
+
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
-import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
+
 import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
+
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
 import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
@@ -41,7 +49,7 @@ const content = {
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "empty",
       images: {
-        background: {},
+        background: bgHeroImg,
         static: {
           img: {},
           alt: "",

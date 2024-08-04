@@ -2,12 +2,10 @@ import links from "../../content/links";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import content from "../../content/content";
-import bgHeroImg from "../../assets/imgs/hero/bgHeroMSC.jpg";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
-import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
@@ -16,7 +14,9 @@ export default function HeroBgImg() {
   return (
     <div
       className="w-full bg-center bg-no-repeat bg-cover font-mainFont"
-      style={{ backgroundImage: `url(${bgHeroImg})` }}
+      style={{
+        backgroundImage: `url(${content.texts.hero.images.background})`,
+      }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-40 desktop2:bg-opacity-10 items-left">
