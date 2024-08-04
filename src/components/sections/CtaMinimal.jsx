@@ -15,18 +15,14 @@ export default function CtaMinimal() {
         <SectionWrapper>
           <SectionHeader
             className="text-center"
-            miniTitle="NÃO PERCA TEMPO"
-            sectionHeaderTitle={
-              <h1>
-                Tem um problema? <br /> Deixa a gente cuidar para você
-              </h1>
-            }
-            sectionHeaderSubtitle="Fale com nossa equipe sem compromisso, estamos prontos para te ajudar."
+            miniTitle={content.texts.cta.miniTag}
+            sectionHeaderTitle={content.texts.cta.title}
+            sectionHeaderSubtitle={content.texts.cta.subtitle}
             color="dark"
           />
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
-            label="Fale com a gente no whatsapp"
+            label={content.texts.cta.ctaButtonText}
             buttonLink={whatsappContactLink}
             icon={
               <svg

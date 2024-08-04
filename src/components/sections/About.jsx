@@ -84,7 +84,7 @@ export default function About() {
           <MotionDivDownToUp>
             <SectionHeader
               className="text-center"
-              miniTitle="Nossa trajetória"
+              miniTitle={content.texts.about.miniTag}
               sectionHeaderTitle={content.texts.about.title}
               sectionHeaderSubtitle={content.texts.about.subtitle}
               color=""

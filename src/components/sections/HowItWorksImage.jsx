@@ -12,8 +12,6 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgHowItWorks from "../../assets/imgs/howItWorks/howItWorks.jpg";
-import imgHowItWorksPC from "../../assets/imgs/howItWorks/howItWorksPC.jpg";
 import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 
@@ -39,7 +37,7 @@ export default function HowItWorksImage() {
             ></img>
           </div> */}
           <img
-            src={imgHowItWorksPC}
+            src={content.texts.steps.imgSteps}
             alt="Imagem de pessoa de férias em um passeio de barco em Arraial do Cabo"
             className=""
           />
@@ -48,15 +46,15 @@ export default function HowItWorksImage() {
           <MotionDivDownToUp className="flex justify-center">
             <SectionHeader
               className="hidden text-center desktop1:flex"
-              miniTitle="PASSO A PASSO"
-              sectionHeaderTitle="Como funciona o processo de assessoria conosco?"
+              miniTitle={content.texts.steps.miniTag}
+              sectionHeaderTitle={content.texts.steps.title}
               color="dark"
               type="article"
             />
             <SectionHeader
               className="text-center desktop1:hidden"
-              miniTitle="PASSO A PASSO"
-              sectionHeaderTitle="Como funciona o processo de assessoria conosco?"
+              miniTitle={content.texts.steps.miniTag}
+              sectionHeaderTitle={content.texts.steps.title}
               color="dark"
               type=""
             />
@@ -64,24 +62,24 @@ export default function HowItWorksImage() {
           <MotionDivDownToUp>
             <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
               <HowItWorksCard
-                number="1"
-                title="Consulta inicial"
-                description="Agendamos uma consulta para entender seu caso e avaliar suas necessidades legais."
+                number={content.texts.steps.cards.card1.stepNumber}
+                title={content.texts.steps.cards.card1.cardTitle}
+                description={content.texts.steps.cards.card1.cardDescription}
               />
               <HowItWorksCard
-                number="2"
-                title="Análise do caso"
-                description="Examinamos todos os detalhes e evidências para compreender a situação completa."
+                number={content.texts.steps.cards.card2.stepNumber}
+                title={content.texts.steps.cards.card2.cardTitle}
+                description={content.texts.steps.cards.card2.cardDescription}
               />
               <HowItWorksCard
-                number="3"
-                title="Estratégia"
-                description="Desenvolvemos um plano personalizado para melhor defender seus interesses."
+                number={content.texts.steps.cards.card3.stepNumber}
+                title={content.texts.steps.cards.card3.cardTitle}
+                description={content.texts.steps.cards.card3.cardDescription}
               />
               <HowItWorksCard
-                number="4"
-                title="Ação Judicial"
-                description="Iniciamos e conduzimos o processo legal para buscar a justiça que você merece."
+                number={content.texts.steps.cards.card4.stepNumber}
+                title={content.texts.steps.cards.card4.cardTitle}
+                description={content.texts.steps.cards.card4.cardDescription}
               />
             </div>
           </MotionDivDownToUp>
