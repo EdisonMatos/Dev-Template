@@ -402,36 +402,59 @@ const content = {
       title: "empty",
       subtitle: "empty",
       card1: {
-        title: "Família e Inventário",
-        subtitle:
-          "Resguardando direitos de sucessão e assegurando a proteção jurídica em questões familiares",
+        title: "empty",
+        subtitle: "empty",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "Imobiliário",
-        subtitle:
-          "Protegendo seus direitos em transações, contratos e disputas relacionadas a imóveis",
+        title: "empty",
+        subtitle: "empty",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Consumidor",
-        subtitle:
-          "Garantindo a proteção e defesa dos seus direitos nas relações de consumo",
+        title: "empty",
+        subtitle: "empty",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Contratual",
-        subtitle:
-          "Assegurando a validade, execução e cumprimento de acordos e contratos",
+        title: "empty",
+        subtitle: "empty",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+      },
+    },
+    steps: {
+      miniTag: "empty",
+      title: "empty",
+      subtitle: "empty",
+      cards: {
+        card1: {
+          stepNumber: 0,
+          cardTitle: "empty",
+          cardDescription: "empty",
+        },
+        card2: {
+          stepNumber: 0,
+          cardTitle: "empty",
+          cardDescription: "empty",
+        },
+        card3: {
+          stepNumber: 0,
+          cardTitle: "empty",
+          cardDescription: "empty",
+        },
+        card4: {
+          stepNumber: 0,
+          cardTitle: "empty",
+          cardDescription: "empty",
+        },
       },
     },
     cta: {
