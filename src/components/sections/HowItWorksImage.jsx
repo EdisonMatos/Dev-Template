@@ -45,13 +45,20 @@ export default function HowItWorksImage() {
           />
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
-          <MotionDivDownToUp>
+          <MotionDivDownToUp className="flex justify-center">
             <SectionHeader
-              className="text-center"
+              className="hidden text-center desktop1:flex"
               miniTitle="PASSO A PASSO"
               sectionHeaderTitle="Como funciona o processo de assessoria conosco?"
               color="dark"
               type="article"
+            />
+            <SectionHeader
+              className="text-center desktop1:hidden"
+              miniTitle="PASSO A PASSO"
+              sectionHeaderTitle="Como funciona o processo de assessoria conosco?"
+              color="dark"
+              type=""
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
