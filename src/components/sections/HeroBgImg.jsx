@@ -27,19 +27,19 @@ export default function HeroBgImg() {
               <MotionDivLeftToRight>
                 <div className="w-auto text-center font-secondFont phone1:text-paragraph4">
                   <p className="mb-[16px] bg-black bg-opacity-50 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
-                    AGÊNCIA DE ECO TURISMO EM ARRAIAL DO CABO - RJ
+                    {content.texts.hero.miniTag}
                   </p>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="text-lighter flex justify-center tablet1:justify-start font-bold leading-[36px] phone3:leading-[40px] tablet1:leading-[60px] desktop1:leading-[60px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                <div className="text-lighter flex justify-center tablet1:justify-center font-bold leading-[36px] phone3:leading-[40px] tablet1:leading-[60px] desktop1:leading-[60px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="[text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                     {content.texts.hero.title}
                   </h1>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="flex text-center justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex justify-center text-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
                     {content.texts.hero.subtitle}
                   </p>
@@ -71,7 +71,7 @@ export default function HeroBgImg() {
                 <MotionDivRightToLeft className="mt-[40px] w-full ">
                   <a href="#">
                     <p className="text-center text-white underline transition hover:scale-125 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
-                      Como funciona nossa passeio?
+                      {content.texts.hero.secondaryCta}
                     </p>
                   </a>
                 </MotionDivRightToLeft>

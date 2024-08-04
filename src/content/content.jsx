@@ -22,27 +22,24 @@ const content = {
     navbar: {
       logo: {
         img: logo,
-        alt: "Logomarca",
+        alt: "Logomarca empty",
       },
       solidLogo: {
         img: solidLogo,
-        alt: "Logomarca",
+        alt: "Logomarca empty",
       },
-      menuItems: ["Início", "Serviços", "Quem Somos", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "empty", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      title: (
-        <h1 className="mb-[16px]">
-          Descubra Arraial do Cabo de uma maneira única e inesquecível
-        </h1>
-      ),
-      subtitle:
-        "Uma experiência extraordinária para aproveitar o melhor do Caribe Brasileiro",
-      ctaButtonText: "Agende seu passeio",
+      miniTag: "empty",
+      title: <h1 className="mb-[16px]">empty</h1>,
+      subtitle: "empty",
+      ctaButtonText: "empty",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
+      secondaryCta: "empty",
       images: {
         background: {},
         static: {
@@ -401,10 +398,9 @@ const content = {
       },
     },
     features: {
-      title:
-        "Descubra as maravilhas de Arraial do Cabo com nosso passeio de barco!",
-      subtitle:
-        "Prepare-se para uma experiência inesquecível em Arraial do Cabo, o Caribe Brasileiro! Nosso passeio de barco é a chance perfeita para explorar as belezas naturais deste paraíso de forma única e exclusiva.",
+      miniTag: "empty",
+      title: "empty",
+      subtitle: "empty",
       card1: {
         title: "Família e Inventário",
         subtitle:

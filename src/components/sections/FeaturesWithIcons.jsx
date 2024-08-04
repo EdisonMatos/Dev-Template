@@ -13,7 +13,7 @@ export default function FeaturesWithIcons() {
     <SectionArea id="service" className="" paddingbot={false}>
       <SectionHeader
         className="text-center"
-        miniTitle="Nossos serviços"
+        miniTitle={content.texts.features.miniTag}
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
         color="dark"
