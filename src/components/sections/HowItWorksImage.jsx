@@ -12,8 +12,6 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgHowItWorks from "../../assets/imgs/howItWorks/howItWorks.jpg";
-import imgHowItWorksPC from "../../assets/imgs/howItWorks/howItWorksPC.jpg";
 import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 
@@ -39,7 +37,7 @@ export default function HowItWorksImage() {
             ></img>
           </div> */}
           <img
-            src={imgHowItWorksPC}
+            src={content.texts.steps.imgSteps}
             alt="Imagem de pessoa de férias em um passeio de barco em Arraial do Cabo"
             className=""
           />

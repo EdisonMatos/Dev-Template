@@ -10,6 +10,8 @@ import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 import aboutImg1 from "../assets/imgs/about/imgAbout.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
 
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
 import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
@@ -441,6 +443,7 @@ const content = {
       miniTag: "empty",
       title: "empty",
       subtitle: "empty",
+      imgSteps: imgSteps,
       cards: {
         card1: {
           stepNumber: 0,
