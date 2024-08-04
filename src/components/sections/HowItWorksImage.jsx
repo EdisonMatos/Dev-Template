@@ -23,9 +23,9 @@ export default function HowItWorksImage() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea id="about" className="" paddingtop={false}>
+    <SectionArea id="about" className="" paddingTopAndBottom={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[60px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           {/* <div
             style={{
               backgroundImage: `url(${imgHowItWorks})`,
@@ -45,13 +45,20 @@ export default function HowItWorksImage() {
           />
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
-          <MotionDivDownToUp>
+          <MotionDivDownToUp className="flex justify-center">
             <SectionHeader
-              className="text-center"
+              className="hidden text-center desktop1:flex"
               miniTitle="PASSO A PASSO"
               sectionHeaderTitle="Como funciona o processo de assessoria conosco?"
               color="dark"
               type="article"
+            />
+            <SectionHeader
+              className="text-center desktop1:hidden"
+              miniTitle="PASSO A PASSO"
+              sectionHeaderTitle="Como funciona o processo de assessoria conosco?"
+              color="dark"
+              type=""
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
@@ -80,6 +87,19 @@ export default function HowItWorksImage() {
           </MotionDivDownToUp>
         </div>
       </SectionWrapper>
+      <div class="custom-shape-divider-bottom-azul mt-[64px] desktop1:mt-[96px]">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
     </SectionArea>
   );
 }

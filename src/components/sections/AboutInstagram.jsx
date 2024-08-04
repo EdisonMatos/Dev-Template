@@ -13,7 +13,7 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
-import imgPhone from "../../assets/imgs/about/phoneMockup.png";
+import imgPhone from "../../assets/imgs/about/aboutSocialEffectsTablet.png";
 
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
@@ -21,13 +21,18 @@ export default function AboutInstagram() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark">
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] ">
-          <img
+    <SectionArea id="about" className="bg-bgSectionDark" paddingbot={false}>
+      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
+        <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+          {/* <img
             src={imgPhone}
             className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
-          ></img>
+          ></img> */}
+          <img
+            src={imgPhone}
+            alt="Imagem de uma praia de Arraial"
+            className=""
+          />
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
@@ -136,22 +141,24 @@ export default function AboutInstagram() {
 
           <MotionDivDownToUp>
             <Button
-              label="Continuar lendo"
+              label="Siga nosso Instagram"
+              buttonLink={links.socialMedia.instagram}
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-move-right"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-instagram"
                 >
-                  <path d="M18 8L22 12L18 16" />
-                  <path d="M2 12H22" />
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                 </svg>
               }
             />
@@ -160,6 +167,19 @@ export default function AboutInstagram() {
           {/* Fim Botão de saiba mais abrindo modal */}
         </div>
       </SectionWrapper>
+      <div class="custom-shape-divider-bottom-1722451194 mt-[64px] desktop1:mt-[96px]">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
     </SectionArea>
   );
 }
