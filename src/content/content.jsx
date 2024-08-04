@@ -30,6 +30,11 @@ import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
+import imgTestimonial1 from "../assets/imgs/testimonials/testimonial1.jpg";
+import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.jpg";
+import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.jpg";
+import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.jpg";
+
 const content = {
   texts: {
     navbar: {
@@ -474,10 +479,28 @@ const content = {
       subtitle: "empty",
       ctaButtonText: "empty",
     },
-    depositions: {
+    testimonials: {
       miniTag: "empty",
       title: "empty",
       subtitle: "empty",
+      images: {
+        img1: {
+          img: imgTestimonial1,
+          alt: "Imagem de feedback",
+        },
+        img2: {
+          img: imgTestimonial2,
+          alt: "Imagem de feedback",
+        },
+        img3: {
+          img: imgTestimonial3,
+          alt: "Imagem de feedback",
+        },
+        img4: {
+          img: imgTestimonial4,
+          alt: "Imagem de feedback",
+        },
+      },
     },
     faq: {
       miniTag: "empty",
