@@ -37,7 +37,7 @@ export default function Faq() {
                 className="underline transition"
               >
                 {" "}
-                Clique aqui caso tenha mais dúvidas
+                Não achou a resposta que procurava? Fale conosco agora mesmo.
               </a>
             </Paragraphs>
           </MotionDivDownToUp>
