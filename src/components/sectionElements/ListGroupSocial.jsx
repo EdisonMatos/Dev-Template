@@ -33,7 +33,7 @@ export default function ListGroupSocial() {
   return (
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
-        scrolling ? "" : "text-lighter transition-color duration-1000"
+        scrolling ? "text-secondary transition-color duration-1000" : "text-lighter transition-color duration-1000"
       }`}
     >
       <li className="transition group h-[24px] ">
