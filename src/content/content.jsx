@@ -131,15 +131,17 @@ const content = {
           img: aboutSocialImg,
           alt: "Foto Profissional",
         },
-        miniTag: "empty",
-        title: "empty",
+        miniTag: "REDES SOCIAIS",
+        title: "Siga a gente nas redes sociais",
         subtitle: "",
         paragraph: (
           <p>
-            empty
+            🏝️ Quer saber mais sobre viagens incríveis? Siga nossa agência de
+            turismo nas redes sociais!
             <br />
             <br />
-            empty
+            Não perca a chance de ficar por dentro das novidades e dicas para
+            suas próximas aventuras.
           </p>
         ),
       },
