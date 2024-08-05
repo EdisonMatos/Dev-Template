@@ -491,9 +491,9 @@ const content = {
       ctaButtonText: "Fale Conosco no WhatsApp",
     },
     testimonials: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "FEEDBACKS REAIS",
+      title: "Clientes sempre satisfeitos",
+      subtitle: "Nossos clientes são a prova do que oferecemos.",
       images: {
         img1: {
           img: imgTestimonial1,
