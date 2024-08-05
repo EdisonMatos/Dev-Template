@@ -5,6 +5,10 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import Icon1 from "../../assets/imgs/icons/icon1.png";
+import Icon2 from "../../assets/imgs/icons/icon2.png";
+import Icon3 from "../../assets/imgs/icons/icon3.png";
+import Icon4 from "../../assets/imgs/icons/icon4.png";
 
 export default function FeaturesWithIcons() {
   return (
@@ -22,23 +26,7 @@ export default function FeaturesWithIcons() {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-users"
-                  >
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
+                  <img src={Icon1} alt=""/>
                 }
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
@@ -48,21 +36,7 @@ export default function FeaturesWithIcons() {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-house"
-                  >
-                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-                    <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                  </svg>
+                  <img src={Icon2} alt=""/>
                 }
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
@@ -79,21 +53,7 @@ export default function FeaturesWithIcons() {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-tag"
-                  >
-                    <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-                    <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
-                  </svg>
+                  <img src={Icon3} alt=""/>
                 }
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
@@ -103,24 +63,7 @@ export default function FeaturesWithIcons() {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-file-text"
-                  >
-                    <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-                    <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-                    <path d="M10 9H8" />
-                    <path d="M16 13H8" />
-                    <path d="M16 17H8" />
-                  </svg>
+                  <img src={Icon4} alt=""/>
                 }
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
