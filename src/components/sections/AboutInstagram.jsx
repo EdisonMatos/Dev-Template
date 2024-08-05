@@ -47,7 +47,7 @@ export default function AboutInstagram() {
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="text-white text-opacity-80 mb-[48px]">
-              {content.texts.about.paragraph}
+              {content.texts.about.aboutSocial.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
 
