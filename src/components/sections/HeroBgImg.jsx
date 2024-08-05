@@ -7,6 +7,7 @@ import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
 import imgPoints from "../../assets/imgs/about/points.png";
+import ModalComponent from "../interactives/ModalComponent";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
