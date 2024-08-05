@@ -474,10 +474,10 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "CONTATE AGORA",
+      title: "Pronto para sua próxima aventura?",
+      subtitle: "Entre em contato agora e comece a planejar uma experiência inesquecível em Arraial do Cabo!",
+      ctaButtonText: "Fale Conosco no WhatsApp",
     },
     testimonials: {
       miniTag: "empty",
