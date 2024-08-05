@@ -115,15 +115,22 @@ const content = {
         img: aboutImg1,
         alt: "imagem empty",
       },
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "NOSSA TRAJETÓRIA",
+      title: "Quem somos?",
+      subtitle: "",
       paragraph: (
         <div>
-          empty
+          Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.
+          Oferecemos experiências únicas para explorar as maravilhas naturais
+          deste paraíso. Nossos passeios de barco levam você a praias icônicas
+          como a Praia da Ilha do Farol, a Praia do Forno e as Prainhas do
+          Pontal do Atalaia.
           <br />
           <br />
-          empty
+          Nosso objetivo é proporcionar momentos inesquecíveis, navegando por
+          águas cristalinas e admirando a vida marinha. Com compromisso e
+          excelência, garantimos que cada passeio seja uma jornada mágica. Venha
+          viver a magia de Arraial do Cabo conosco!
         </div>
       ),
       aboutSocial: {
@@ -479,7 +486,8 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "CONTATE AGORA",
       title: "Pronto para sua próxima aventura?",
-      subtitle: "Entre em contato agora e comece a planejar uma experiência inesquecível em Arraial do Cabo!",
+      subtitle:
+        "Entre em contato agora e comece a planejar uma experiência inesquecível em Arraial do Cabo!",
       ctaButtonText: "Fale Conosco no WhatsApp",
     },
     testimonials: {
