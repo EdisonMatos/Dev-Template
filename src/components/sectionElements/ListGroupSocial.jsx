@@ -50,7 +50,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${
                 scrolling
-                  ? "hover:text-primary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-secondary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
@@ -58,7 +58,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-lighter"
+              scrolling ? "bg-secondary" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -77,7 +77,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${
                 scrolling
-                  ? "hover:text-primary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-secondary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
@@ -85,7 +85,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-lighter"
+              scrolling ? "bg-secondary" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -104,7 +104,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${
                 scrolling
-                  ? "hover:text-primary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-secondary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
@@ -112,7 +112,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-lighter"
+              scrolling ? "bg-secondary" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -131,7 +131,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${
                 scrolling
-                  ? "hover:text-primary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-secondary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
@@ -139,7 +139,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-primary" : "bg-lighter"
+              scrolling ? "bg-secondary" : "bg-lighter"
             }`}
           ></div>
         </Link>
