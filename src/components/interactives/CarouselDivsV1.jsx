@@ -5,13 +5,13 @@ export default function CarouselDivsV1({ children }) {
   const responsiveOptions = [
     {
       breakpoint: "2500px",
-      numVisible: 4,
-      numScroll: 4,
+      numVisible: 2,
+      numScroll: 2,
     }, // organiza em 4 por clique e passa os 4 de uma só vez
     {
       breakpoint: "1199px",
-      numVisible: 4,
-      numScroll: 4,
+      numVisible: 2,
+      numScroll: 2,
     },
     {
       breakpoint: "767px",
