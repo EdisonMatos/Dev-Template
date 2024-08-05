@@ -412,9 +412,9 @@ const content = {
       },
     },
     features: {
-      miniTag: "NOSSOS SERVIÇOS",
-      title: "Descubra as maravilhas de Arraial do Cabo com nosso passeio de barco incrível!",
-      subtitle: "Prepare-se para uma experiência inesquecível em Arraial do Cabo, o Caribe Brasileiro!",
+      miniTag: "PASSEIO DE BARCO",
+      title: "Descubra as maravilhas deste lugar paradisíaco",
+      subtitle: "Muita diversão e alegria na atividade turística mais requisitada em Arraial do Cabo",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
