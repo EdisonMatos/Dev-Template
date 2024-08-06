@@ -1,3 +1,4 @@
+import { useState } from "react";
 import links from "../../content/links";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
@@ -7,10 +8,77 @@ import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
 import imgPoints from "../../assets/imgs/about/points.png";
+import { Dialog } from "primereact/dialog";
+import "primereact/resources/themes/saga-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function HeroBgImg() {
+  const [visible, setVisible] = useState(false);
+  const [modalContent, setModalContent] = useState("");
+  const [modalTitle, setModalTitle] = useState("");
+
+  const onClick = () => {
+    setModalTitle("Passeio de barco");
+    setModalContent(
+      <p>
+        ROTEIRO:
+        <br /> Prainhas do Pontal do Atalaia, que contém a Gruta do Amor e a
+        escadaria (desembarque de 40 min)
+        <br /> Ilha do Farol (desembarque de 20 min)
+        <br /> Fenda de Nossa Senhora (passagem panorâmica)
+        <br /> Perfil do Gorila (passagem panorâmica)
+        <br /> Gruta Azul (passagem panorâmica)
+        <br /> Impacto do Meteorito (passagem panorâmica)
+        <br /> Praia do Forno (parada na enseada por 15 min)
+        <br />
+        <br />
+        INFORMAÇÕES GERAIS:
+        <br /> •Nosso passeio tem duração de 3:30/4h.
+        <br /> •Nossas embarcações possuem banheiros masculino e feminino,
+        música ambiente, bar à bordo.
+        <br /> •De acordo com a lei 2.348/12nov de 2021 fica proibido a entrada
+        de cooler e demais recipientes nas embarcações de turismo que utiliza a
+        Marina dos pescadores.
+        <br /> •Temos todos os equipamentos de salvatagem exigidos pela Marinha
+        do Brasil. ( devidamente higienizados)
+        <br /> •Caso não haja condições de desembarque ou visitação de algum
+        local descrito acima, devido as condições do mar, compensaremos o tempo
+        em outro ponto turístico se possível for.
+        <br /> •O roteiro pode sofrer alterações sem aviso prévio, tendo o
+        capitão da embarcação total liberdade para alterá-lo, sempre visando a
+        segurança e bem estar de nossos passageiros. *Crianças até 3 anos não
+        pagam (todas contam como passageiros)
+        <br /> *Serviços de bordo pagos à parte: refrigerantes, cervejas, água
+        de garrafinha, espetinhos, drinks.
+        <br /> *Solicitamos que os passageiros venham com o mínimo de bolsas,
+        não nos responsabilizamos pela mesma.
+        <br />
+        <br />
+        HORÁRIO:
+        <br /> Nosso passeio sai a partir das 09.30 Hs (favor confirmar o
+        horário), tendo que estar para o check-in com 1 hora de antecedência,
+        lembrando que a cidade fica lotada sempre, temos bastante trânsito,
+        então pedimos que saiam cedo para evitar que percam o passeio, caso
+        aconteça de perder o horário, o valor não é reembolsado, pois sairemos
+        com as vagas em aberto, o valor só é devolvido em caso de cancelamento
+        do passeio por motivos climáticos. PARA RESERVAR: Obs: a reserva só é
+        feita mediante ao pagamento.
+        <br />
+        <br /> 🔴Cada passageiro deverá pagar uma taxa de embarque de R$ 10,00
+        dentro do píer pra acesso a embarcação (pagamento somente em DINHEIRO no
+        local) menores de 6 anos e maiores de 60 anos não pagam a taxa.🔴
+        <br />
+        <br /> Obs: É proíbido entrar com cooler, bolsa térmica ou semelhantes,
+        garrafas ou copos de vidro também são proibidos. O check-in é feito na
+        agência.
+      </p>
+    );
+    setVisible(true);
+  };
+
   return (
     <div
       className="w-full bg-center bg-no-repeat bg-cover font-mainFont"
@@ -69,7 +137,7 @@ export default function HeroBgImg() {
                   </div>
                 </MotionDivLeftToRight>
                 <MotionDivRightToLeft className="mt-[40px] w-full ">
-                  <a href="#">
+                  <a href="#" onClick={onClick}>
                     <p className="text-center text-white underline transition hover:scale-125 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
                       {content.texts.hero.secondaryCta}
                     </p>
@@ -146,6 +214,16 @@ export default function HeroBgImg() {
           </svg>
         </div>
       </div>
+      <Dialog
+        className=" font-secondFont"
+        header={modalTitle}
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: "50vw" }}
+        breakpoints={{ "960px": "75vw", "641px": "90vw" }}
+      >
+        <p className="m-0 ">{modalContent}</p>
+      </Dialog>
     </div>
   );
 }
