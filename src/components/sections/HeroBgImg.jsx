@@ -24,7 +24,8 @@ export default function HeroBgImg() {
     setModalTitle("Passeio de barco");
     setModalContent(
       <p>
-        ROTEIRO: Prainhas do Pontal do Atalaia, que contém a Gruta do Amor e a
+        ROTEIRO:
+        <br /> Prainhas do Pontal do Atalaia, que contém a Gruta do Amor e a
         escadaria (desembarque de 40 min)
         <br /> Ilha do Farol (desembarque de 20 min)
         <br /> Fenda de Nossa Senhora (passagem panorâmica)
