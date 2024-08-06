@@ -1,6 +1,6 @@
 import { useState } from "react";
 import links from "../../content/links";
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import content from "../../content/content";
 import Button from "../interactives/Button";
@@ -92,29 +92,29 @@ export default function HeroBgImg() {
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center  pt-[46px] pb-[50px] desktop1:pt-[120px] desktop1:pb-[120px]">
             <div className=" flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px]">
-              <MotionDivLeftToRight>
+              <MotionDivDownToUp>
                 <div className="w-auto text-center font-secondFont phone1:text-paragraph4">
                   <p className="mb-[16px] bg-black bg-opacity-50 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     {content.texts.hero.miniTag}
                   </p>
                 </div>
-              </MotionDivLeftToRight>
-              <MotionDivLeftToRight>
+              </MotionDivDownToUp>
+              <MotionDivDownToUp>
                 <div className="text-lighter flex justify-center tablet1:justify-center font-bold leading-[36px] phone3:leading-[40px] tablet1:leading-[60px] desktop1:leading-[60px] text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="[text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                     {content.texts.hero.title}
                   </h1>
                 </div>
-              </MotionDivLeftToRight>
-              <MotionDivLeftToRight>
+              </MotionDivDownToUp>
+              <MotionDivDownToUp>
                 <div className="flex justify-center text-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
                     {content.texts.hero.subtitle}
                   </p>
                 </div>
-              </MotionDivLeftToRight>
+              </MotionDivDownToUp>
               <div className="w-full phone2:w-full tablet2:w-auto">
-                <MotionDivLeftToRight>
+                <MotionDivDownToUp>
                   <div className="flex justify-center w-full">
                     <Button
                       aria-label={content.texts.hero.ctaButtonAriaLabel}
@@ -135,17 +135,17 @@ export default function HeroBgImg() {
                       }
                     />
                   </div>
-                </MotionDivLeftToRight>
-                <MotionDivRightToLeft className="mt-[40px] w-full ">
+                </MotionDivDownToUp>
+                <MotionDivDownToUp className="mt-[40px] w-full ">
                   <a href="#" onClick={onClick}>
                     <p className="text-center text-white underline transition hover:scale-125 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
                       {content.texts.hero.secondaryCta}
                     </p>
                   </a>
-                </MotionDivRightToLeft>
+                </MotionDivDownToUp>
               </div>
               {/* <div className="">
-                <MotionDivLeftToRight>
+                <MotionDivDownToUp>
                   <p className="mb-[20px]">Baixe nosso app:</p>
                   <div className="">
                     {" "}
@@ -174,11 +174,11 @@ export default function HeroBgImg() {
                       </a>
                     </div>
                   </div>
-                </MotionDivLeftToRight>
+                </MotionDivDownToUp>
               </div> */}
             </div>
             <div className="hidden">
-              <MotionDivRightToLeft className="relative flex justify-end">
+              <MotionDivDownToUp className="relative flex justify-end">
                 {/* <img
                   src={imgLaw}
                   alt="Foto de itens do direito"
@@ -194,7 +194,7 @@ export default function HeroBgImg() {
                   alt="Imagem de efeito pontilhado"
                   className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
                 ></img>
-              </MotionDivRightToLeft>
+              </MotionDivDownToUp>
             </div>
           </div>
         </div>
