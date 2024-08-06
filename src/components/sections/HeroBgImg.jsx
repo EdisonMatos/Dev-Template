@@ -57,7 +57,8 @@ export default function HeroBgImg() {
         não nos responsabilizamos pela mesma.
         <br />
         <br />
-        HORÁRIO: Nosso passeio sai a partir das 09.30 Hs (favor confirmar o
+        HORÁRIO:
+        <br /> Nosso passeio sai a partir das 09.30 Hs (favor confirmar o
         horário), tendo que estar para o check-in com 1 hora de antecedência,
         lembrando que a cidade fica lotada sempre, temos bastante trânsito,
         então pedimos que saiam cedo para evitar que percam o passeio, caso
