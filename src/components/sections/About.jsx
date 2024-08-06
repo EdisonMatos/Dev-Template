@@ -13,6 +13,7 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
+import "../../index.css";
 
 export default function About() {
   const [visible, setVisible] = useState(false);

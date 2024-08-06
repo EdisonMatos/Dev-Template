@@ -21,7 +21,7 @@ export default function AboutInstagram() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingbot={false}>
+    <SectionArea id="about" className="bg-bgSectionDarkGradient" paddingbot={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           {/* <img
@@ -176,6 +176,7 @@ export default function AboutInstagram() {
         >
           <path
             d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            fill="currentColor"
             class="shape-fill"
           ></path>
         </svg>
