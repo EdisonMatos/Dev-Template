@@ -20,7 +20,7 @@ export default function Depositions() {
 
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">
-            <div className="w-[80%]">
+            <div className="desktop1:w-[80%]">
               <CarouselDivisV1>
                 <div className="flex items-center justify-center">
                   <div className="flex justify-center">
