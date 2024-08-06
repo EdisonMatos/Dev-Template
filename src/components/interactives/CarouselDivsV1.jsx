@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "primereact/carousel";
+import "../../index.css";
 
 export default function CarouselDivsV1({ children }) {
   const responsiveOptions = [
@@ -44,6 +45,9 @@ export default function CarouselDivsV1({ children }) {
         circular
         autoplayInterval={8000}
         itemTemplate={itemTemplate}
+        showNavigators={true}
+        prevIcon={<span style={{ color: 'white', fontSize:'200%' }}>❮</span>}
+        nextIcon={<span style={{ color: 'white', fontSize:'200%' }}>❯</span>}
       />
     </div>
   );
