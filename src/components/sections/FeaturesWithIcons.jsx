@@ -13,21 +13,24 @@ import Icon4 from "../../assets/imgs/icons/icon4.png";
 export default function FeaturesWithIcons() {
   return (
     <SectionArea id="service" className="" paddingbot={false}>
-      <SectionHeader
-        className="text-center"
-        miniTitle={content.texts.features.miniTag}
-        sectionHeaderTitle={content.texts.features.title}
-        sectionHeaderSubtitle={content.texts.features.subtitle}
-        color="dark"
-      />
+      <MotionDivDownToUp>
+        <div className="w-[100%] flex justify-center">
+          <SectionHeader
+            className="text-center"
+            miniTitle={content.texts.features.miniTag}
+            sectionHeaderTitle={content.texts.features.title}
+            sectionHeaderSubtitle={content.texts.features.subtitle}
+            color="dark"
+          />
+        </div>
+      </MotionDivDownToUp>
+
       <SectionWrapper>
         <div className="flex flex-col items-center justify-between w-full tablet1:flex-row">
           <div className="col1">
             <MotionDivDownToUp>
               <IconFeatureCard
-                icon={
-                  <img src={Icon1} alt=""/>
-                }
+                icon={<img src={Icon1} alt="" />}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
                 className="tablet1:mb-[46px]"
@@ -35,9 +38,7 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
             <MotionDivDownToUp>
               <IconFeatureCard
-                icon={
-                  <img src={Icon2} alt=""/>
-                }
+                icon={<img src={Icon2} alt="" />}
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
               />
@@ -52,9 +53,7 @@ export default function FeaturesWithIcons() {
           <div className="col3 ">
             <MotionDivDownToUp>
               <IconFeatureCard
-                icon={
-                  <img src={Icon3} alt=""/>
-                }
+                icon={<img src={Icon3} alt="" />}
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
                 className="tablet1:mb-[46px]"
@@ -62,9 +61,7 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
             <MotionDivDownToUp>
               <IconFeatureCard
-                icon={
-                  <img src={Icon4} alt=""/>
-                }
+                icon={<img src={Icon4} alt="" />}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
               />
