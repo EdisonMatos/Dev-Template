@@ -51,13 +51,13 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "AGÊNCIA DE ECOTURISMO EM ARRAIAL DO CABO - RJ",
-      title: <h1 className="mb-[16px]">Descubra Arraial do Cabo de uma maneira única e inesquecível</h1>,
+      miniTag: "PASSEIO DE BARCO EM ARRAIAL DO CABO - RJ",
+      title: <h1 className="mb-[16px]">Descubra Arraial de uma maneira única e inesquecível</h1>,
       subtitle: "Uma experiência extraordinária para aproveitar o melhor do Caribe Brasileiro",
       ctaButtonText: "Agende seu passeio",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "Quer saber mais? Clique aqui.",
+      secondaryCta: "Quer saber mais? Clique aqui",
       images: {
         background: bgHeroImg,
         static: {
