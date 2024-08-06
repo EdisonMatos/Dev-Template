@@ -20,40 +20,42 @@ export default function Depositions() {
 
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">
-            <CarouselDivisV1>
-              <div className="flex items-center justify-center">
+            <div className="desktop1:w-[80%]">
+              <CarouselDivisV1>
+                <div className="flex items-center justify-center">
+                  <div className="flex justify-center">
+                    <img
+                      src={content.texts.testimonials.images.img1.img}
+                      alt={content.texts.testimonials.images.img1.alt}
+                    />
+                  </div>
+                </div>
                 <div className="flex justify-center">
-                  <img
-                    src={content.texts.testimonials.images.img1.img}
-                    alt={content.texts.testimonials.images.img1.alt}
-                  />
+                  <div>
+                    <img
+                      src={content.texts.testimonials.images.img2.img}
+                      alt={content.texts.testimonials.images.img2.alt}
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="flex justify-center">
-                <div>
-                  <img
-                    src={content.texts.testimonials.images.img2.img}
-                    alt={content.texts.testimonials.images.img2.alt}
-                  />
+                <div className="flex justify-center">
+                  <div>
+                    <img
+                      src={content.texts.testimonials.images.img3.img}
+                      alt={content.texts.testimonials.images.img3.alt}
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="flex justify-center">
-                <div>
-                  <img
-                    src={content.texts.testimonials.images.img3.img}
-                    alt={content.texts.testimonials.images.img3.alt}
-                  />
+                <div className="flex justify-center">
+                  <div>
+                    <img
+                      src={content.texts.testimonials.images.img4.img}
+                      alt={content.texts.testimonials.images.img4.alt}
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="flex justify-center">
-                <div>
-                  <img
-                    src={content.texts.testimonials.images.img4.img}
-                    alt={content.texts.testimonials.images.img4.alt}
-                  />
-                </div>
-              </div>
-            </CarouselDivisV1>
+              </CarouselDivisV1>
+            </div>
           </MotionDivDownToUp>
           <MotionDivDownToUp></MotionDivDownToUp>
         </SectionWrapper>
