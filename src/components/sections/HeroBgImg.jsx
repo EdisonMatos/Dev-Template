@@ -21,7 +21,7 @@ export default function HeroBgImg() {
   const [modalTitle, setModalTitle] = useState("");
 
   const onClick = () => {
-    setModalTitle("Sobre mim");
+    setModalTitle("Passeio de barco");
     setModalContent(
       <p>
         ROTEIRO: Prainhas do Pontal do Atalaia, que contém a Gruta do Amor e a

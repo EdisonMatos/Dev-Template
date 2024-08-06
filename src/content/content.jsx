@@ -57,7 +57,7 @@ const content = {
       ctaButtonText: "Agende seu passeio",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "PASSEIO DE BARCO",
+      secondaryCta: "Quer saber mais? Clique aqui.",
       images: {
         background: bgHeroImg,
         static: {
