@@ -45,10 +45,12 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
           <div className="hidden desktop1:flex col2">
-            <img
-              src={content.texts.features.imgFeatures}
-              alt="Imagem ilustrativa da seção"
-            />
+            <MotionDivDownToUp>
+              <img
+                src={content.texts.features.imgFeatures}
+                alt="Imagem ilustrativa da seção"
+              />
+            </MotionDivDownToUp>
           </div>
           <div className="col3 ">
             <MotionDivDownToUp>
@@ -68,11 +70,13 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
         </div>
-        <img
-          src={content.texts.features.imgDivisor}
-          className="p-[84px]"
-          alt="Imagem de divisão em formato de onda"
-        />
+        <MotionDivDownToUp>
+          <img
+            src={content.texts.features.imgDivisor}
+            className="p-[84px]"
+            alt="Imagem de divisão em formato de onda"
+          />
+        </MotionDivDownToUp>
       </SectionWrapper>
     </SectionArea>
   );
