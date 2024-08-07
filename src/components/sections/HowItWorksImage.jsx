@@ -21,7 +21,7 @@ export default function HowItWorksImage() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea className="" paddingtop={false}>
+    <SectionArea className="bg-bgSectionDark" paddingtop={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[60px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           {/* <div
@@ -48,14 +48,14 @@ export default function HowItWorksImage() {
               className="hidden text-center desktop1:flex"
               miniTitle={content.texts.steps.miniTag}
               sectionHeaderTitle={content.texts.steps.title}
-              color="dark"
+              color=""
               type="article"
             />
             <SectionHeader
               className="text-center desktop1:hidden"
               miniTitle={content.texts.steps.miniTag}
               sectionHeaderTitle={content.texts.steps.title}
-              color="dark"
+              color=""
               type=""
             />
           </MotionDivDownToUp>

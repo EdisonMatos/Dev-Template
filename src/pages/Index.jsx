@@ -19,10 +19,11 @@ export default function Index() {
       <NavbarSocial />
       <Hero />
       <FeaturesWithIcons />
-      <HowItWorksImage />
+
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
+      <HowItWorksImage />
       <CtaMinimal />
       {/* <Depositions /> */}
       <Faq />

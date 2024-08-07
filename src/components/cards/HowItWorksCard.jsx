@@ -4,10 +4,8 @@ export default function HowItWorksCard({ number, title, description }) {
       <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-secondary text-title1 font-semibold">
         {number}
       </div>
-      <h1 className="text-[20px] text-secondary font-bold mb-[24px]">
-        {title}
-      </h1>
-      <p className="text-[16px] text-black opacity-70 text-center desktop1:text-left">
+      <h1 className="text-[20px] text-lighter font-bold mb-[24px]">{title}</h1>
+      <p className="text-[16px] text-lighter opacity-70 text-center desktop1:text-left">
         {description}
       </p>
     </div>
