@@ -14,13 +14,18 @@ export default function CtaMinimal() {
       <MotionDivDownToUp>
         <SectionArea className="" paddingbot={false}>
           <SectionWrapper>
-            <SectionHeader
-              className="text-center"
-              miniTitle={content.texts.cta.miniTag}
-              sectionHeaderTitle={content.texts.cta.title}
-              sectionHeaderSubtitle={content.texts.cta.subtitle}
-              color="dark"
-            />
+            <MotionDivDownToUp>
+              <div className="w-full flex justify-center">
+                <SectionHeader
+                  className="text-center"
+                  miniTitle={content.texts.cta.miniTag}
+                  sectionHeaderTitle={content.texts.cta.title}
+                  sectionHeaderSubtitle={content.texts.cta.subtitle}
+                  color="dark"
+                />
+              </div>
+            </MotionDivDownToUp>
+
             <Button
               aria-label={content.texts.hero.ctaButtonAriaLabel}
               label={content.texts.cta.ctaButtonText}
