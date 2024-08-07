@@ -12,7 +12,7 @@ import Icon4 from "../../assets/imgs/icons/icon4.png";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="" paddingbot={false}>
+    <SectionArea id="service" className="squares">
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -26,7 +26,23 @@ export default function FeaturesWithIcons() {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
-                  <img src={Icon1} alt=""/>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
                 }
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
@@ -36,7 +52,23 @@ export default function FeaturesWithIcons() {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
-                  <img src={Icon2} alt=""/>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
                 }
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
@@ -53,7 +85,23 @@ export default function FeaturesWithIcons() {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
-                  <img src={Icon3} alt=""/>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
                 }
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
@@ -63,7 +111,23 @@ export default function FeaturesWithIcons() {
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
-                  <img src={Icon4} alt=""/>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
                 }
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
@@ -71,11 +135,6 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
         </div>
-        <img
-          src={content.texts.features.imgDivisor}
-          className="p-[84px]"
-          alt="Imagem de divisão em formato de onda"
-        />
       </SectionWrapper>
     </SectionArea>
   );

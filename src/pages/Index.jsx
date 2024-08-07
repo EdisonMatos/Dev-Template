@@ -5,26 +5,27 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import HeroBgImg from "../components/sections/HeroBgImg";
 import FooterSocial from "../components/sections/FooterSocial";
 import NavbarSocial from "../components/sections/NavbarSocial";
-import HowItWorks from "../components/sections/HowItWorks";
 import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import Numbers from "../components/sections/Numbers";
 import AboutInstagram from "../components/sections/AboutInstagram";
 import HowItWorksImage from "../components/sections/HowItWorksImage";
 import CtaMinimal from "../components/sections/CtaMinimal";
 import Depositions from "../components/sections/Depositions";
+import Hero from "../components/sections/Hero";
 
 export default function Index() {
   return (
     <div>
       <NavbarSocial />
-      <HeroBgImg />
+      <Hero />
       <FeaturesWithIcons />
-      <HowItWorksImage />
+
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
+      <HowItWorksImage />
       <CtaMinimal />
-      <Depositions />
+      {/* <Depositions /> */}
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />

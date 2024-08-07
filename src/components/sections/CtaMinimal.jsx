@@ -12,7 +12,7 @@ export default function CtaMinimal() {
   return (
     <div>
       <MotionDivDownToUp>
-        <SectionArea className="" paddingbot={false}>
+        <SectionArea className="">
           <SectionWrapper>
             <SectionHeader
               className="text-center"
@@ -41,6 +41,9 @@ export default function CtaMinimal() {
           </SectionWrapper>
         </SectionArea>
       </MotionDivDownToUp>
+
+      {/* Inicio de onda shape div
+
       <div class="custom-shape-divider-bottom-azul mt-[64px] desktop1:mt-[70px]">
         <svg
           data-name="Layer 1"
@@ -54,6 +57,8 @@ export default function CtaMinimal() {
           ></path>
         </svg>
       </div>
+
+Fim de onda shape div */}
     </div>
   );
 }

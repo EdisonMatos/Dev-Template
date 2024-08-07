@@ -27,7 +27,7 @@ export default function Hero() {
               <MotionDivLeftToRight>
                 <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
                   <p className="mb-[16px] bg-secondary bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
-                    ADVOGADO DE FAMÍLIA E DO CONSUMIDOR EM BH - MG
+                    {content.texts.hero.miniTag}
                   </p>
                 </div>
               </MotionDivLeftToRight>

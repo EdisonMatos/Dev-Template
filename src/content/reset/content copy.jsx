@@ -1,4 +1,4 @@
-import links from "./links";
+import links from "../links";
 
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";

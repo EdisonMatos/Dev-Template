@@ -21,7 +21,7 @@ export default function AboutInstagram() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingbot={false}>
+    <SectionArea id="about" className="bg-bgSectionDark">
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           {/* <img
@@ -167,6 +167,9 @@ export default function AboutInstagram() {
           {/* Fim Botão de saiba mais abrindo modal */}
         </div>
       </SectionWrapper>
+
+      {/* Início de shape div 
+
       <div class="custom-shape-divider-bottom-1722451194 mt-[64px] desktop1:mt-[96px]">
         <svg
           data-name="Layer 1"
@@ -180,6 +183,8 @@ export default function AboutInstagram() {
           ></path>
         </svg>
       </div>
+
+              Fim de shape div */}
     </SectionArea>
   );
 }
