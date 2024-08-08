@@ -8,8 +8,9 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 // import aboutImg1 from "../assets/imgs/about/imgAbout.png";
-import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
+// import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
 import aboutImg1 from "../assets/imgs/about/aboutadvvini.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocialadvvini.png";
 
 // import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 import imgSteps from "../assets/imgs/steps/imgStepsAdvVini.jpg";
@@ -148,15 +149,22 @@ const content = {
           img: aboutSocialImg,
           alt: "Foto Profissional",
         },
-        miniTag: "empty",
-        title: "empty",
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Me siga nas redes sociais",
         subtitle: "",
         paragraph: (
           <p>
-            empty
+            ⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga o Dr
+            Vinícius Victor Advogado nas redes sociais!
             <br />
             <br />
-            empty
+            Em nossas redes, você encontra atualizações e insights sobre Direito
+            Civil, Trabalhista, Tributário e muito mais! Não perca a chance de
+            se informar e proteger seus direitos.
+            <br />
+            <br />
+            Aqui, cada post é uma oportunidade de entender melhor seus direitos
+            e garantir a sua segurança jurídica.
           </p>
         ),
       },
