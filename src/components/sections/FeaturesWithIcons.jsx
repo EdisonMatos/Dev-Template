@@ -21,8 +21,8 @@ export default function FeaturesWithIcons() {
         color="dark"
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center justify-between w-full bg-red-100 tablet1:flex-row">
-          <div className="bg-green-500 col1 w-[28%]">
+        <div className="flex flex-col items-center justify-between w-full tablet1:flex-row">
+          <div className=" col1 tablet2:w-[28%]">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
@@ -75,13 +75,18 @@ export default function FeaturesWithIcons() {
               />
             </MotionDivDownToUp>
           </div>
-          <div className="hidden bg-blue-500 desktop1:flex col2">
-            <img
+          <div
+            className="hidden w-[32%] h-[640px] tablet2:flex col2 rounded-2xl bg-top"
+            style={{
+              backgroundImage: `url(${content.texts.features.imgFeatures})`,
+            }}
+          >
+            {/* <img
               src={content.texts.features.imgFeatures}
               alt="Imagem ilustrativa da seção"
-            />
+            /> */}
           </div>
-          <div className="bg-yellow-500 col3 w-[28%]">
+          <div className=" col3 tablet2:w-[28%]">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
