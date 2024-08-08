@@ -61,26 +61,34 @@ export default function HowItWorksImage() {
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
-              <HowItWorksCard
-                number={content.texts.steps.cards.card1.stepNumber}
-                title={content.texts.steps.cards.card1.cardTitle}
-                description={content.texts.steps.cards.card1.cardDescription}
-              />
-              <HowItWorksCard
-                number={content.texts.steps.cards.card2.stepNumber}
-                title={content.texts.steps.cards.card2.cardTitle}
-                description={content.texts.steps.cards.card2.cardDescription}
-              />
-              <HowItWorksCard
-                number={content.texts.steps.cards.card3.stepNumber}
-                title={content.texts.steps.cards.card3.cardTitle}
-                description={content.texts.steps.cards.card3.cardDescription}
-              />
-              <HowItWorksCard
-                number={content.texts.steps.cards.card4.stepNumber}
-                title={content.texts.steps.cards.card4.cardTitle}
-                description={content.texts.steps.cards.card4.cardDescription}
-              />
+              <MotionDivDownToUp className="tablet1:w-[45%]">
+                <HowItWorksCard
+                  number={content.texts.steps.cards.card1.stepNumber}
+                  title={content.texts.steps.cards.card1.cardTitle}
+                  description={content.texts.steps.cards.card1.cardDescription}
+                />
+              </MotionDivDownToUp>
+              <MotionDivDownToUp className="tablet1:w-[45%]">
+                <HowItWorksCard
+                  number={content.texts.steps.cards.card2.stepNumber}
+                  title={content.texts.steps.cards.card2.cardTitle}
+                  description={content.texts.steps.cards.card2.cardDescription}
+                />
+              </MotionDivDownToUp>
+              <MotionDivDownToUp className="tablet1:w-[45%]">
+                <HowItWorksCard
+                  number={content.texts.steps.cards.card3.stepNumber}
+                  title={content.texts.steps.cards.card3.cardTitle}
+                  description={content.texts.steps.cards.card3.cardDescription}
+                />
+              </MotionDivDownToUp>
+              <MotionDivDownToUp className="tablet1:w-[45%]">
+                <HowItWorksCard
+                  number={content.texts.steps.cards.card4.stepNumber}
+                  title={content.texts.steps.cards.card4.cardTitle}
+                  description={content.texts.steps.cards.card4.cardDescription}
+                />
+              </MotionDivDownToUp>
             </div>
           </MotionDivDownToUp>
         </div>
