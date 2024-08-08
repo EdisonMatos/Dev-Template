@@ -117,15 +117,30 @@ const content = {
         img: aboutImg1,
         alt: "imagem empty",
       },
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "QUEM É DR. VINÍCIUS VICTOR",
+      title: "Minha trajetória",
+      subtitle: "",
       paragraph: (
         <div>
-          empty
+          Minha trajetória profissional no Universitário Facex começou como
+          assistente jurídico, onde adquiri uma base sólida e prática das
+          demandas jurídicas. Ao longo dos anos, atuei em diversas áreas do
+          Direito, com ênfase em Direito Civil, Trabalhista, Tributário e
+          Previdenciário. Essas experiências me permitiram desenvolver uma
+          abordagem abrangente e eficaz para resolver questões jurídicas
+          complexas.
+          <br />
+          <br />O que me motiva na advocacia é a oportunidade de impactar
+          positivamente a vida das pessoas, oferecendo suporte legal com empatia
+          e compreensão. Acredito que cada cliente é único e merece uma atenção
+          personalizada, baseada em uma análise detalhada e cuidadosa de cada
+          caso. Minha filosofia profissional é centrada em uma abordagem humana,
+          onde a comunicação transparente e o respeito são pilares fundamentais.
           <br />
           <br />
-          empty
+          Meu compromisso é defender os direitos dos meus clientes com
+          integridade e dedicação, proporcionando-lhes segurança e confiança em
+          cada etapa do processo jurídico.
         </div>
       ),
       aboutSocial: {
