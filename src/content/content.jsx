@@ -48,7 +48,7 @@ const content = {
         img: solidLogo,
         alt: "Logomarca empty",
       },
-      menuItems: ["Início", "Serviços", "empty", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
