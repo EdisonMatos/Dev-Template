@@ -505,25 +505,29 @@ const content = {
       },
     },
     faq: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "empty",
-          answer: "empty",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via Whatsapp e discutiremos suas necessidades e estimamos custos.",
         },
         question2: {
-          question: "empty",
-          answer: "empty",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "empty",
-          answer: "empty",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "empty",
-          answer: "empty",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
         },
       },
     },
