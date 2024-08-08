@@ -117,15 +117,30 @@ const content = {
         img: aboutImg1,
         alt: "imagem empty",
       },
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "QUEM É DR. VINÍCIUS VICTOR",
+      title: "Minha trajetória",
+      subtitle: "",
       paragraph: (
         <div>
-          empty
+          Minha trajetória profissional no Universitário Facex começou como
+          assistente jurídico, onde adquiri uma base sólida e prática das
+          demandas jurídicas. Ao longo dos anos, atuei em diversas áreas do
+          Direito, com ênfase em Direito Civil, Trabalhista, Tributário e
+          Previdenciário. Essas experiências me permitiram desenvolver uma
+          abordagem abrangente e eficaz para resolver questões jurídicas
+          complexas.
+          <br />
+          <br />O que me motiva na advocacia é a oportunidade de impactar
+          positivamente a vida das pessoas, oferecendo suporte legal com empatia
+          e compreensão. Acredito que cada cliente é único e merece uma atenção
+          personalizada, baseada em uma análise detalhada e cuidadosa de cada
+          caso. Minha filosofia profissional é centrada em uma abordagem humana,
+          onde a comunicação transparente e o respeito são pilares fundamentais.
           <br />
           <br />
-          empty
+          Meu compromisso é defender os direitos dos meus clientes com
+          integridade e dedicação, proporcionando-lhes segurança e confiança em
+          cada etapa do processo jurídico.
         </div>
       ),
       aboutSocial: {
@@ -412,35 +427,40 @@ const content = {
       },
     },
     features: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "ESPECIALIDADES",
+      title: "Defendendo seus direitos com excelência",
+      subtitle:
+        "Garantindo seus direitos através de expertise em diversas áreas de atuação.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        title: "empty",
-        subtitle: "empty",
+        title: "Tributário",
+        subtitle:
+          "Assegurando o cumprimento das obrigações fiscais e protegendo seus interesses em questões tributárias.",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "empty",
-        subtitle: "empty",
+        title: "Previdenciário",
+        subtitle:
+          "Garantindo a proteção dos seus direitos previdenciários e assegurando o acesso aos benefícios de forma justa.",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "empty",
-        subtitle: "empty",
+        title: "Trabalhista",
+        subtitle:
+          "Resguardando os direitos dos trabalhadores e empregadores, com foco na justiça e equilíbrio nas relações de trabalho.",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "empty",
-        subtitle: "empty",
+        title: "Cível",
+        subtitle:
+          "Protegendo seus direitos em questões civis, assegurando a justiça em disputas e responsabilidades civis.",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
@@ -476,10 +496,11 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "NÃO PERCA TEMPO",
+      title: "Tem um problema? Deixa a gente cuidar para você",
+      subtitle:
+        "Fale com nossa equipe sem compromisso, estamos prontos para te ajudar.",
+      ctaButtonText: "Fale com a gente no whatsapp",
     },
     testimonials: {
       miniTag: "empty",
@@ -505,25 +526,29 @@ const content = {
       },
     },
     faq: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "empty",
-          answer: "empty",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via Whatsapp e discutiremos suas necessidades e estimamos custos.",
         },
         question2: {
-          question: "empty",
-          answer: "empty",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "empty",
-          answer: "empty",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "empty",
-          answer: "empty",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
         },
       },
     },
