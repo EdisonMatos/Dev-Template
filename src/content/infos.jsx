@@ -5,7 +5,12 @@ const infos = {
   mail: "atendimento@viniciusadv.com.br",
   footerInfos: {
     endereco: (
-      <p>Avenida Lima e Silva, 135a, Bom Pastor, Natal - RN, CEP 59062-300</p>
+      <p>
+        Avenida Lima e Silva 135a <br />
+        Bom Pastor
+        <br />
+        Natal - RN, CEP 59062-300
+      </p>
     ),
     expediente: (
       <p>
