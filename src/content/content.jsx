@@ -412,35 +412,40 @@ const content = {
       },
     },
     features: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "ESPECIALIDADES",
+      title: "Defendendo seus direitos com excelência",
+      subtitle:
+        "Garantindo seus direitos através de expertise em diversas áreas de atuação.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        title: "empty",
-        subtitle: "empty",
+        title: "Tributário",
+        subtitle:
+          "Assegurando o cumprimento das obrigações fiscais e protegendo seus interesses em questões tributárias.",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "empty",
-        subtitle: "empty",
+        title: "Previdenciário",
+        subtitle:
+          "Garantindo a proteção dos seus direitos previdenciários e assegurando o acesso aos benefícios de forma justa.",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "empty",
-        subtitle: "empty",
+        title: "Trabalhista",
+        subtitle:
+          "Resguardando os direitos dos trabalhadores e empregadores, com foco na justiça e equilíbrio nas relações de trabalho.",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "empty",
-        subtitle: "empty",
+        title: "Cível",
+        subtitle:
+          "Protegendo seus direitos em questões civis, assegurando a justiça em disputas e responsabilidades civis.",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,

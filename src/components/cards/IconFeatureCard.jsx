@@ -3,7 +3,7 @@ export default function IconFeatureCard(props) {
 
   return (
     <div
-      className={`componenteCard desktop1:w-[360px] flex flex-col items-center desktop1:hover:scale-110 transition p-[18px] ${className}`}
+      className={`bg-purple-500 desktop1:w-[full] des flex flex-col items-center desktop1:hover:scale-110 transition p-[18px] ${className}`}
     >
       <div className="h-[64px] w-[64px] mb-[24px] bg-primary rounded-lg flex justify-center items-center text-secondary">
         {icon}
