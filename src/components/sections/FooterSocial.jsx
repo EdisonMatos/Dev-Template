@@ -13,7 +13,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function FooterSocial() {
   return (
-    <footer className=" full gap-y-[42px] font-secondFont text-left text-paragraph4 text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat">
+    <footer className="bg-bgSectionLight full gap-y-[42px] text-secondary font-secondFont text-left text-paragraph4  flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
           <div className="h-[115px] flex items-center">
@@ -29,7 +29,7 @@ function FooterSocial() {
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
-              fill="White"
+              fill="currentColor"
               className="bi bi-whatsapp"
               viewBox="0 0 16 16"
             >
@@ -38,7 +38,7 @@ function FooterSocial() {
             <a
               href={whatsappContactLink}
               target="_blank"
-              className="text-white hover:underline"
+              className="text-secondary hover:underline"
             >
               {infos.phone}
             </a>
@@ -51,7 +51,7 @@ function FooterSocial() {
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="white"
+              stroke="currentColor"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -103,7 +103,7 @@ function FooterSocial() {
             </div> */}
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-          <h1 className="font-medium text-lighter font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+          <h1 className="font-medium text-secondary font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
             {infos.footerInfos.midSectionName}
           </h1>
           {/* Texto footer */}
@@ -222,7 +222,7 @@ function FooterSocial() {
           </div>
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center text-lighter">
+          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center text-secondary">
             NAVEGAÇÃO
           </h1>
           <div className="flex justify-between full opacity-90">
@@ -244,7 +244,7 @@ function FooterSocial() {
               </div>
               <div className="h-[36px] hover:underline">
                 <Link
-                  to="service"
+                  to="about"
                   className="cursor-pointer"
                   spy={true}
                   smooth={true}
@@ -261,7 +261,7 @@ function FooterSocial() {
             <div className=" w-[46%] flex flex-col gap-y-[16px]">
               <div className="h-[36px] hover:underline">
                 <Link
-                  to="about"
+                  to="service"
                   className="cursor-pointer"
                   spy={true}
                   smooth={true}
