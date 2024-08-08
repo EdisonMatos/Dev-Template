@@ -13,7 +13,7 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
-import imgPhone from "../../assets/imgs/about/aboutSocialEffectsTablet.png";
+import imgPhone from "../../assets/imgs/about/aboutSocialadvvini.png";
 
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
@@ -141,7 +141,7 @@ export default function AboutInstagram() {
 
           <MotionDivDownToUp>
             <Button
-              label="Siga nosso Instagram"
+              label="Me siga no Instagram"
               buttonLink={links.socialMedia.instagram}
               icon={
                 <svg
