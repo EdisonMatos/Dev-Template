@@ -54,10 +54,12 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "empty",
-      title: <h1 className="mb-[16px]">empty</h1>,
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "ADVOGADO TRIBUTÁRIO E PREVIDENCIÁRIO EM NATAL - RN",
+      title: (
+        <h1 className="mb-[16px]">Proteção jurídica que você pode confiar</h1>
+      ),
+      subtitle: "Experiência sólida em garantir sua segurança legal",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "empty",

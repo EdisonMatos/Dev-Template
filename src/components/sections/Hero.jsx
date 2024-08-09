@@ -22,22 +22,22 @@ export default function Hero() {
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
-            <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px]">
+          <div className="flex phone1:flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
+            <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               <MotionDivLeftToRight>
-                <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
-                  <p className="mb-[16px] bg-secondary bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont phone1:text-paragraph4">
+                  <p className="mb-[16px] bg-secondary bg-opacity-100 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     {content.texts.hero.miniTag}
                   </p>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="text-lighter flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                <div className="text-lighter flex justify-center desktop1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="">{content.texts.hero.title}</h1>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="flex text-center desktop1:text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex justify-center text-center desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
@@ -100,22 +100,24 @@ export default function Hero() {
                 </MotionDivLeftToRight>
               </div> */}
             </div>
-            <div className="hidden desktop1:flex">
+            <div className="flex justify-center w-full desktop1:w-[40%]  desktop1:flex">
               <MotionDivRightToLeft className="relative flex justify-end">
                 {/* <img
                   src={imgLaw}
                   alt="Foto de itens do direito"
                   className="bg-red-500 "
                 /> */}
-                <img
-                  src={imgLaw}
-                  alt="Foto de itens que representam a profissão de advogado"
-                  className="w-[80%] rounded-3xl"
-                ></img>
+                <div
+                  className="rounded-3xl w-[300px] phone2:w-[340px] phone3:w-[380px] tablet1:w-[400px] desktop2:w-[450px] desktop3:w-[520px] h-[400px] bg-cover bg-center"
+                  style={{
+                    backgroundImage: `url(${imgLaw})`,
+                    backgroundSize: "600px",
+                  }}
+                ></div>
                 <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
-                  className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
+                  className="absolute opacity-30 phone1:right-[-15px] phone1:top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
                 ></img>
               </MotionDivRightToLeft>
             </div>
