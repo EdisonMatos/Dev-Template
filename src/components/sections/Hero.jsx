@@ -100,18 +100,18 @@ export default function Hero() {
                 </MotionDivLeftToRight>
               </div> */}
             </div>
-            <div className="flex justify-center w-full desktop1:w-[40%]  desktop1:flex">
-              <MotionDivRightToLeft className="relative flex justify-end">
+            <div className="flex justify-center phone1:w-full desktop1:w-[42%] desktop2:w-[42.8%]">
+              <MotionDivRightToLeft className="relative flex justify-end phone1:w-full ">
                 {/* <img
                   src={imgLaw}
                   alt="Foto de itens do direito"
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="rounded-3xl w-[300px] phone2:w-[340px] phone3:w-[380px] tablet1:w-[400px] desktop2:w-[450px] desktop3:w-[520px] h-[400px] bg-cover bg-center"
+                  className="rounded-3xl w-full h-[220px] desktop1:h-[400px] bg-cover bg-center bg-no-repeat"
                   style={{
                     backgroundImage: `url(${imgLaw})`,
-                    backgroundSize: "600px",
+                    backgroundSize: "",
                   }}
                 ></div>
                 <img
