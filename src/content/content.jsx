@@ -122,7 +122,8 @@ const content = {
       },
       miniTag: "QUEM É DR. VINÍCIUS VICTOR",
       title: "Minha trajetória",
-      subtitle: "",
+      subtitle:
+        "Minha filosofia profissional é centrada em uma abordagem humana, onde a comunicação transparente e o respeito são pilares fundamentais.",
       paragraph: (
         <div>
           Minha trajetória profissional no Universitário Facex começou como
@@ -137,8 +138,7 @@ const content = {
           positivamente a vida das pessoas, oferecendo suporte legal com empatia
           e compreensão. Acredito que cada cliente é único e merece uma atenção
           personalizada, baseada em uma análise detalhada e cuidadosa de cada
-          caso. Minha filosofia profissional é centrada em uma abordagem humana,
-          onde a comunicação transparente e o respeito são pilares fundamentais.
+          caso.
           <br />
           <br />
           Meu compromisso é defender os direitos dos meus clientes com
@@ -153,13 +153,10 @@ const content = {
         },
         miniTag: "MANTENHA-SE INFORMADO",
         title: "Me siga nas redes sociais",
-        subtitle: "",
+        subtitle:
+          "            ⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga o Dr Vinícius Victor Advogado nas redes sociais!",
         paragraph: (
           <p>
-            ⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga o Dr
-            Vinícius Victor Advogado nas redes sociais!
-            <br />
-            <br />
             Em nossas redes, você encontra atualizações e insights sobre Direito
             Civil, Trabalhista, Tributário e muito mais! Não perca a chance de
             se informar e proteger seus direitos.

@@ -33,7 +33,7 @@ export default function SectionHeader({
     miniTitleSpace = "w-full flex-start text-left";
     titleOrientation = "text-left";
     subtitleOrientation = "text-left";
-    marginBottomOption = "mb-[12px] tablet1:mb-[20px] desktop1:mb-[32px]";
+    marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[32px]";
   } else {
     usage = "w-[90%] tablet1:w-[80%] desktop1:w-[60%] max-w-[920px]";
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
@@ -54,7 +54,7 @@ export default function SectionHeader({
         {sectionHeaderTitle}
       </h1>
       <p
-        className={`text-title1 font-secondFont ${marginBottomOption} ${subtitleOrientation} ${subtitleColor}`}
+        className={`text-title1 font-secondFont leading-[26px] ${marginBottomOption} ${subtitleOrientation} ${subtitleColor}`}
       >
         {sectionHeaderSubtitle}
       </p>
