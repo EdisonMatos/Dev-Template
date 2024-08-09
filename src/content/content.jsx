@@ -55,7 +55,9 @@ const content = {
     },
     hero: {
       miniTag: "ADVOGADO TRIBUTÁRIO E PREVIDENCIÁRIO EM NATAL - RN",
-      title: <h1 className="mb-[16px]">Proteção jurídica ideal</h1>,
+      title: (
+        <h1 className="mb-[16px]">Proteção jurídica que você pode confiar</h1>
+      ),
       subtitle: "Experiência sólida em garantir sua segurança legal",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
