@@ -52,13 +52,19 @@ export default function SidebarSocial() {
         } fixed inset-0 bg-black opacity-50 lg:hidden`}
         onClick={toggleSidebar}
       />
+
       <div className="flex justify-center card">
+        {/* <<<<<<<<<<<<<<< Cor do hamburger >>>>>>>>>>>>>> */}
+
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            scrolled ? "text-secondary" : "text-lighter"
+            scrolled ? "text-primary" : "text-primary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
+
+        {/* <<<<<<<<<<<<<<< Cor do hamburger >>>>>>>>>>>>>> */}
+
         <Sidebar
           visible={visible}
           className="w-[280px]"
@@ -66,11 +72,11 @@ export default function SidebarSocial() {
           content={({ closeIconRef, hide }) => (
             <div
               id="app-sidebar-2"
-              className="absolute top-0 left-0 flex-shrink-0 h-screen select-none surface-section lg:hidden lg:static z-1 surface-border"
+              className="absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-primary"
               style={{ width: "280px" }}
             >
               <div className="flex flex-col h-full">
-                <div className="flex items-center justify-between flex-shrink-0 px-4 pt-6">
+                <div className="flex items-center justify-between flex-shrink-0 px-4 pt-6 ">
                   <span className="inline-flex items-center gap-2">
                     <img
                       src={content.texts.navbar.solidLogo.img}
@@ -86,16 +92,16 @@ export default function SidebarSocial() {
                       icon="pi pi-times"
                       rounded
                       outlined
-                      className="h-2rem w-2rem p-[5px]"
+                      className="h-2rem w-2rem p-[5px] text-white"
                     ></Button>
                   </span>
                 </div>
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-primary" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (
-                        <ul className="p-0 m-0 -mt-[16px] overflow-hidden font-medium text-black list-none text-paragraph3 font-mainFont">
+                        <ul className="p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white list-none text-paragraph3 font-mainFont">
                           <li>
                             <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                               <HomeIcon />
