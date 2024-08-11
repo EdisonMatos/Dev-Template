@@ -149,15 +149,19 @@ const content = {
           img: aboutSocialImg,
           alt: "Foto do Instagram Profissional do Dr Wildson",
         },
-        miniTag: "empty",
-        title: "empty",
-        subtitle: "",
+        miniTag: "Mantenha-se informado",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
+        subtitle:
+          "⚖️ Esteja sempre atualizado com o mundo jurídico seguindo Dr. Wildson Sá Júnior Advocacia nas redes sociais!",
         paragraph: (
           <p>
-            empty
+            Acompanhe nossas postagens para obter as últimas novidades e
+            entendimentos sobre Direito Civil, Criminal e outras áreas. Não
+            perca a chance de estar bem informado e proteger seus direitos.
             <br />
             <br />
-            empty
+            Transforme conhecimento em poder e garanta a sua proteção legal com
+            cada post.
           </p>
         ),
       },
