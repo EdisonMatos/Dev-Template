@@ -48,6 +48,7 @@ export default function HowItWorksImage() {
               className="hidden text-center desktop1:flex"
               miniTitle={content.texts.steps.miniTag}
               sectionHeaderTitle={content.texts.steps.title}
+              sectionHeaderSubtitle={content.texts.steps.subtitle}
               color=""
               type="article"
             />
@@ -55,6 +56,7 @@ export default function HowItWorksImage() {
               className="text-center desktop1:hidden"
               miniTitle={content.texts.steps.miniTag}
               sectionHeaderTitle={content.texts.steps.title}
+              sectionHeaderSubtitle={content.texts.steps.subtitle}
               color=""
               type=""
             />

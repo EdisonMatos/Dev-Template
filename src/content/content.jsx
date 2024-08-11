@@ -464,31 +464,36 @@ const content = {
       },
     },
     steps: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona o processo de assessoria conosco?",
+      subtitle:
+        "Saiba o cronograma que seguimos para resolver suas necessidades legais.",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
-          stepNumber: 0,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          stepNumber: 1,
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Agendamos uma consulta para entender seu caso e avaliar suas necessidades legais.",
         },
         card2: {
-          stepNumber: 0,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          stepNumber: 2,
+          cardTitle: "Análise do caso",
+          cardDescription:
+            "Examinamos todos os detalhes e evidências para compreender a situação completa.",
         },
         card3: {
-          stepNumber: 0,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          stepNumber: 3,
+          cardTitle: "Estratégia",
+          cardDescription:
+            "Desenvolvemos um plano personalizado para melhor defender seus interesses.",
         },
         card4: {
-          stepNumber: 0,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          stepNumber: 4,
+          cardTitle: "Ação Judicial",
+          cardDescription:
+            "Iniciamos e conduzimos o processo legal para buscar a justiça que você merece.",
         },
       },
     },
