@@ -13,7 +13,6 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
-import imgPhone from "../../assets/imgs/about/aboutSocialadvvini.png";
 
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
@@ -29,8 +28,8 @@ export default function AboutInstagram() {
             className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
           ></img> */}
           <img
-            src={imgPhone}
-            alt="Imagem de uma praia de Arraial"
+            src={content.texts.about.aboutSocial.img.img}
+            alt={content.texts.about.aboutSocial.img.alt}
             className=""
           />
         </MotionDivDownToUp>

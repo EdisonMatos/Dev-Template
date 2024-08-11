@@ -90,7 +90,7 @@ export default function NavbarSocial() {
       <div
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           scrolling
-            ? "bg-lighter bg-opacity-100 shadow-lg transition-all duration-1000"
+            ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-solid border-primary"
             : "transition-colors duration-1000"
         }`}
       >

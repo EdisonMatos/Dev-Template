@@ -33,7 +33,9 @@ export default function ListGroupSocial() {
   return (
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
-        scrolling ? "" : "text-lighter transition-color duration-1000"
+        scrolling
+          ? "text-lighter"
+          : "text-lighter transition-color duration-1000"
       }`}
     >
       <li className="transition group h-[24px] ">
@@ -50,7 +52,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${
                 scrolling
-                  ? "hover:text-secondary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
@@ -58,7 +60,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-secondary" : "bg-lighter"
+              scrolling ? "bg-lighter" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -78,7 +80,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${
                 scrolling
-                  ? "hover:text-secondary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
@@ -86,7 +88,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-secondary" : "bg-lighter"
+              scrolling ? "bg-lighter" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -105,7 +107,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${
                 scrolling
-                  ? "hover:text-secondary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
@@ -113,7 +115,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-secondary" : "bg-lighter"
+              scrolling ? "bg-lighter" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -132,7 +134,7 @@ export default function ListGroupSocial() {
             className={`h-[24px] inline-block
               ${
                 scrolling
-                  ? "hover:text-secondary [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
@@ -140,7 +142,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-secondary" : "bg-lighter"
+              scrolling ? "bg-lighter" : "bg-lighter"
             }`}
           ></div>
         </Link>

@@ -7,8 +7,8 @@ import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/imgAbout.png";
-import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -46,15 +46,18 @@ const content = {
         img: solidLogo,
         alt: "Logomarca empty",
       },
-      menuItems: ["Início", "Serviços", "empty", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "empty",
-      title: <h1 className="mb-[16px]">empty</h1>,
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "ADVOGADO CÍVEL E CRIMINAL EM MANAUS - AM",
+      title: (
+        <h1 className="mb-[16px]">Ao seu lado independente da situação</h1>
+      ),
+      subtitle:
+        "Defendendo seus direitos com comprometimento, garantindo que a justiça seja sempre feita.",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "empty",
@@ -76,6 +79,91 @@ const content = {
           img: {},
           alt: "",
         },
+      },
+    },
+    features: {
+      miniTag: "ESPECIALIDADES",
+      title: "Protegendo seus interesses com devoção",
+      subtitle:
+        "Expertise nos principais ramos para assegurar seus direitos com confiança e competência.",
+      imgFeatures: imgFeatures,
+      imgDivisor: imgDivisor,
+      card1: {
+        title: "Cível",
+        subtitle:
+          "Protegendo seus direitos em questões patrimoniais, contratuais e familiares, assegurando a resolução justa de litígios.",
+        img: featuresImg1,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
+      },
+      card2: {
+        title: "Consumidor",
+        subtitle:
+          "Garantindo a defesa dos seus direitos nas relações de consumo, protegendo você contra práticas abusivas.",
+        img: featuresImg2,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+      },
+      card3: {
+        title: "Criminal",
+        subtitle:
+          "Resguardando sua liberdade e direitos em processos criminais, com uma defesa estratégica e especializada.",
+        img: featuresImg3,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+      },
+      card4: {
+        title: "Atendimento em Delegacia",
+        subtitle:
+          "Oferecendo suporte jurídico imediato e eficiente em delegacias.",
+        img: featuresImg4,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+      },
+    },
+    about: {
+      imagem: {
+        img: aboutImg1,
+        alt: "imagem ilustrativa de advogado",
+      },
+      miniTag: "QUEM É DR. WILDSON SÁ JÚNIOR",
+      title: "Minha trajetória",
+      subtitle:
+        "Bacharelado em Direito pelo Centro Universitário do Norte (UniNorte) em 2020. No ano seguinte fui admitido como advogado.",
+      paragraph: (
+        <div>
+          Iniciei minha trajetória jurídica como estagiário no Tribunal de
+          Justiça do Amazonas, onde atuei de 2018 a 2020. Após a conclusão na
+          Universidade, em busca de aprimoramento contínuo, finalizei uma
+          pós-graduação em Prática Penal pela Escola Mineira de Direito.
+          <br />
+          <br />
+          Após minha experiência no funcionalismo público, decidi focar minha
+          atuação na defesa dos direitos do cidadão. Meu objetivo é utilizar o
+          conhecimento jurídico para reduzir as desigualdades existentes em
+          nossa sociedade, oferecendo uma defesa justa e eficaz.
+        </div>
+      ),
+      aboutSocial: {
+        img: {
+          img: aboutSocialImg,
+          alt: "Foto do Instagram Profissional do Dr Wildson",
+        },
+        miniTag: "Mantenha-se informado",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
+        subtitle:
+          "⚖️ Esteja sempre atualizado com o mundo jurídico seguindo Dr. Wildson Sá Júnior Advocacia nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens para obter as últimas novidades e
+            entendimentos sobre Direito Civil, Criminal e outras áreas. Não
+            perca a chance de estar bem informado e proteger seus direitos.
+            <br />
+            <br />
+            Transforme conhecimento em poder e garanta a sua proteção legal com
+            cada post.
+          </p>
+        ),
       },
     },
     trustedBy: {
@@ -109,40 +197,6 @@ const content = {
       number2Description: "Em ações ganhas para clientes",
       number3: 1000,
       number3Description: "Ações jurídicas",
-    },
-    about: {
-      imagem: {
-        img: aboutImg1,
-        alt: "imagem empty",
-      },
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      paragraph: (
-        <div>
-          empty
-          <br />
-          <br />
-          empty
-        </div>
-      ),
-      aboutSocial: {
-        img: {
-          img: aboutSocialImg,
-          alt: "Foto Profissional",
-        },
-        miniTag: "empty",
-        title: "empty",
-        subtitle: "",
-        paragraph: (
-          <p>
-            empty
-            <br />
-            <br />
-            empty
-          </p>
-        ),
-      },
     },
     team: {
       title: "Nossa Equipe",
@@ -409,75 +463,47 @@ const content = {
         },
       },
     },
-    features: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      imgFeatures: imgFeatures,
-      imgDivisor: imgDivisor,
-      card1: {
-        title: "empty",
-        subtitle: "empty",
-        img: featuresImg1,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
-      },
-      card2: {
-        title: "empty",
-        subtitle: "empty",
-        img: featuresImg2,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
-      },
-      card3: {
-        title: "empty",
-        subtitle: "empty",
-        img: featuresImg3,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
-      },
-      card4: {
-        title: "empty",
-        subtitle: "empty",
-        img: featuresImg4,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
-      },
-    },
     steps: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      imgSteps: imgSteps,
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona o processo de assessoria conosco?",
+      subtitle:
+        "Saiba o cronograma que seguimos para resolver suas necessidades legais.",
+      img: imgSteps,
+      alt: "",
       cards: {
         card1: {
-          stepNumber: 0,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          stepNumber: 1,
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Agendamos uma consulta para entender seu caso e avaliar suas necessidades legais.",
         },
         card2: {
-          stepNumber: 0,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          stepNumber: 2,
+          cardTitle: "Análise do caso",
+          cardDescription:
+            "Examinamos todos os detalhes e evidências para compreender a situação completa.",
         },
         card3: {
-          stepNumber: 0,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          stepNumber: 3,
+          cardTitle: "Estratégia",
+          cardDescription:
+            "Desenvolvemos um plano personalizado para melhor defender seus interesses.",
         },
         card4: {
-          stepNumber: 0,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          stepNumber: 4,
+          cardTitle: "Ação Judicial",
+          cardDescription:
+            "Iniciamos e conduzimos o processo legal para buscar a justiça que você merece.",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "NÃO PERCA TEMPO",
+      title: "Tem um problema? Deixa a gente cuidar para você",
+      subtitle:
+        "Fale com nossa equipe sem compromisso, estamos prontos para te ajudar.",
+      ctaButtonText: "Fale com a gente no whatsapp",
     },
     testimonials: {
       miniTag: "empty",
@@ -503,25 +529,29 @@ const content = {
       },
     },
     faq: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "empty",
-          answer: "empty",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Marque sua consulta conosco via Whatsapp e abordaremos suas necessidades e estimamos custos.",
         },
         question2: {
-          question: "empty",
-          answer: "empty",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "empty",
-          answer: "empty",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "empty",
-          answer: "empty",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
         },
       },
     },

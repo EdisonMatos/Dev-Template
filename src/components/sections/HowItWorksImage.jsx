@@ -12,7 +12,6 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgHowItWorks from "../../assets/imgs/steps/imgStepsAdvVini.jpg";
 import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 
@@ -27,7 +26,7 @@ export default function HowItWorksImage() {
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
             style={{
-              backgroundImage: `url(${imgHowItWorks})`,
+              backgroundImage: `url(${content.texts.steps.img})`,
             }}
             className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-2xl "
           >
@@ -49,6 +48,7 @@ export default function HowItWorksImage() {
               className="hidden text-center desktop1:flex"
               miniTitle={content.texts.steps.miniTag}
               sectionHeaderTitle={content.texts.steps.title}
+              sectionHeaderSubtitle={content.texts.steps.subtitle}
               color=""
               type="article"
             />
@@ -56,6 +56,7 @@ export default function HowItWorksImage() {
               className="text-center desktop1:hidden"
               miniTitle={content.texts.steps.miniTag}
               sectionHeaderTitle={content.texts.steps.title}
+              sectionHeaderSubtitle={content.texts.steps.subtitle}
               color=""
               type=""
             />
