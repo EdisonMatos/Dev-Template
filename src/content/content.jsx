@@ -81,6 +81,46 @@ const content = {
         },
       },
     },
+    features: {
+      miniTag: "ESPECIALIDADES",
+      title: "Protegendo seus interesses com devoção",
+      subtitle:
+        "Expertise nos principais ramos para assegurar seus direitos com confiança e competência.",
+      imgFeatures: imgFeatures,
+      imgDivisor: imgDivisor,
+      card1: {
+        title: "Cível",
+        subtitle:
+          "Protegendo seus direitos em questões patrimoniais, contratuais e familiares, assegurando a resolução justa de litígios.",
+        img: featuresImg1,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
+      },
+      card2: {
+        title: "Consumidor",
+        subtitle:
+          "Garantindo a defesa dos seus direitos nas relações de consumo, protegendo você contra práticas abusivas.",
+        img: featuresImg2,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+      },
+      card3: {
+        title: "Criminal",
+        subtitle:
+          "Resguardando sua liberdade e direitos em processos criminais, com uma defesa estratégica e especializada.",
+        img: featuresImg3,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+      },
+      card4: {
+        title: "Atendimento em Delegacia",
+        subtitle:
+          "Oferecendo suporte jurídico imediato e eficiente em delegacias.",
+        img: featuresImg4,
+        buttonLabel: "Saiba mais",
+        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+      },
+    },
     trustedBy: {
       title: "Nossas Marcas Parceiras",
       subtitle: "Trabalhamos com as melhores marcas do mercado",
@@ -410,41 +450,6 @@ const content = {
             link3: "https://wa.me/+556596241854",
           },
         },
-      },
-    },
-    features: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      imgFeatures: imgFeatures,
-      imgDivisor: imgDivisor,
-      card1: {
-        title: "empty",
-        subtitle: "empty",
-        img: featuresImg1,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
-      },
-      card2: {
-        title: "empty",
-        subtitle: "empty",
-        img: featuresImg2,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
-      },
-      card3: {
-        title: "empty",
-        subtitle: "empty",
-        img: featuresImg3,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
-      },
-      card4: {
-        title: "empty",
-        subtitle: "empty",
-        img: featuresImg4,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
     },
     steps: {
