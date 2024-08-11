@@ -499,10 +499,11 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "NÃO PERCA TEMPO",
+      title: "Tem um problema? Deixa a gente cuidar para você",
+      subtitle:
+        "Fale com nossa equipe sem compromisso, estamos prontos para te ajudar.",
+      ctaButtonText: "Fale com a gente no whatsapp",
     },
     testimonials: {
       miniTag: "empty",
