@@ -51,10 +51,13 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "empty",
-      title: <h1 className="mb-[16px]">empty</h1>,
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "ADVOGADO CÍVEL E CRIMINAL EM MANAUS - AM",
+      title: (
+        <h1 className="mb-[16px]">Ao seu lado independente da situação</h1>
+      ),
+      subtitle:
+        "Defendendo seus direitos com comprometimento, garantindo que a justiça seja sempre feita.",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "empty",
