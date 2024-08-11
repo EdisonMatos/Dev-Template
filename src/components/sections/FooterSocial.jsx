@@ -81,9 +81,10 @@ function FooterSocial() {
             <p>{infos.footerInfos.endereco}</p>
           </div>
 
-          {/* ENDEREÇO */}
+          {/* EXPEDIENTE */}
 
-          {/* <div className="flex full gap-x-[12px] items-center opacity-90">
+          <div className="flex full gap-x-[12px] items-center opacity-90">
+            <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -91,16 +92,43 @@ function FooterSocial() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="1.25"
+                stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-map-pin"
+                class="lucide lucide-calendar-check-2"
               >
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                <circle cx="12" cy="10" r="3" />
+                <path d="M8 2v4" />
+                <path d="M16 2v4" />
+                <path d="M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" />
+                <path d="M3 10h18" />
+                <path d="m16 20 2 2 4-4" />
               </svg>
-              <p>{infos.footerInfos.endereco}</p>
-            </div> */}
+            </div>
+            <p>{infos.footerInfos.expediente}</p>
+          </div>
+
+          {/* Msg de observação */}
+
+          <div className="flex full gap-x-[12px] items-center opacity-90">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-clock"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <p>{infos.footerInfos.obs}</p>
+          </div>
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <h1 className="font-medium text-secondary font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
