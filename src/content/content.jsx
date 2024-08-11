@@ -7,8 +7,8 @@ import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/imgAbout.png";
-import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -129,7 +129,7 @@ const content = {
       aboutSocial: {
         img: {
           img: aboutSocialImg,
-          alt: "Foto Profissional",
+          alt: "Foto do Instagram Profissional do Dr Wildson",
         },
         miniTag: "empty",
         title: "empty",
@@ -448,7 +448,8 @@ const content = {
       miniTag: "empty",
       title: "empty",
       subtitle: "empty",
-      imgSteps: imgSteps,
+      img: imgSteps,
+      alt: "",
       cards: {
         card1: {
           stepNumber: 0,

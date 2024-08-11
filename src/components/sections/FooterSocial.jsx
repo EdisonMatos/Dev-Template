@@ -7,7 +7,6 @@ import content from "../../content/content";
 import IconButton from "../interactives/IconButton";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import paralaxeFooter from "../../assets/imgs/footer/SectionFooter.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
