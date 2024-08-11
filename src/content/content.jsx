@@ -121,6 +121,47 @@ const content = {
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
     },
+    about: {
+      imagem: {
+        img: aboutImg1,
+        alt: "imagem ilustrativa de advogado",
+      },
+      miniTag: "QUEM É DR. WILDSON SÁ JÚNIOR",
+      title: "Minha trajetória",
+      subtitle:
+        "Bacharelado em Direito pelo Centro Universitário do Norte (UniNorte) em 2020. No ano seguinte fui admitido como advogado.",
+      paragraph: (
+        <div>
+          Iniciei minha trajetória jurídica como estagiário no Tribunal de
+          Justiça do Amazonas, onde atuei de 2018 a 2020. Após a conclusão na
+          Universidade, em busca de aprimoramento contínuo, finalizei uma
+          pós-graduação em Prática Penal pela Escola Mineira de Direito.
+          <br />
+          <br />
+          Após minha experiência no funcionalismo público, decidi focar minha
+          atuação na defesa dos direitos do cidadão. Meu objetivo é utilizar o
+          conhecimento jurídico para reduzir as desigualdades existentes em
+          nossa sociedade, oferecendo uma defesa justa e eficaz.
+        </div>
+      ),
+      aboutSocial: {
+        img: {
+          img: aboutSocialImg,
+          alt: "Foto do Instagram Profissional do Dr Wildson",
+        },
+        miniTag: "empty",
+        title: "empty",
+        subtitle: "",
+        paragraph: (
+          <p>
+            empty
+            <br />
+            <br />
+            empty
+          </p>
+        ),
+      },
+    },
     trustedBy: {
       title: "Nossas Marcas Parceiras",
       subtitle: "Trabalhamos com as melhores marcas do mercado",
@@ -152,40 +193,6 @@ const content = {
       number2Description: "Em ações ganhas para clientes",
       number3: 1000,
       number3Description: "Ações jurídicas",
-    },
-    about: {
-      imagem: {
-        img: aboutImg1,
-        alt: "imagem empty",
-      },
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      paragraph: (
-        <div>
-          empty
-          <br />
-          <br />
-          empty
-        </div>
-      ),
-      aboutSocial: {
-        img: {
-          img: aboutSocialImg,
-          alt: "Foto do Instagram Profissional do Dr Wildson",
-        },
-        miniTag: "empty",
-        title: "empty",
-        subtitle: "",
-        paragraph: (
-          <p>
-            empty
-            <br />
-            <br />
-            empty
-          </p>
-        ),
-      },
     },
     team: {
       title: "Nossa Equipe",
