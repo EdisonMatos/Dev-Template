@@ -52,13 +52,19 @@ export default function SidebarSocial() {
         } fixed inset-0 bg-black opacity-50 lg:hidden`}
         onClick={toggleSidebar}
       />
+
       <div className="flex justify-center card">
+        {/* <<<<<<<<<<<<<<< Cor do hamburger >>>>>>>>>>>>>> */}
+
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            scrolled ? "text-secondary" : "text-lighter"
+            scrolled ? "text-primary" : "text-primary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
+
+        {/* <<<<<<<<<<<<<<< Cor do hamburger >>>>>>>>>>>>>> */}
+
         <Sidebar
           visible={visible}
           className="w-[280px]"
