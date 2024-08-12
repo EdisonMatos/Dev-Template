@@ -12,8 +12,10 @@ export default function FeaturesButton() {
     >
       <SectionHeader
         className="text-center"
+        miniTitle={content.texts.features.miniTag}
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
+        color="dark"
       />
       <SectionWrapper>
         <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
@@ -30,6 +32,13 @@ export default function FeaturesButton() {
             description={content.texts.features.card2.subtitle}
             buttonLabel={content.texts.features.card2.buttonLabel}
             buttonLink={content.texts.features.card2.buttonLink}
+          />
+          <FeatureImgOnBgCardButton
+            bgImg={content.texts.features.card3.img}
+            title={content.texts.features.card3.title}
+            description={content.texts.features.card3.subtitle}
+            buttonLabel={content.texts.features.card3.buttonLabel}
+            buttonLink={content.texts.features.card3.buttonLink}
           />
           <FeatureImgOnBgCardButton
             bgImg={content.texts.features.card3.img}
