@@ -23,9 +23,9 @@ export default function Index() {
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
-      <HowItWorksImage />
       <CtaMinimal />
       {/* <Depositions /> */}
+      <HowItWorksImage />
       <Faq />
       <FooterSocial />
       <FloatingWhatsappButton />
