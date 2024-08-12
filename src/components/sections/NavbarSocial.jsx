@@ -87,13 +87,17 @@ export default function NavbarSocial() {
 
   return (
     <div className="w-full">
+      {/* COR DA NAVBAR E DA BORDA */}
+
       <div
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           scrolling
-            ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-solid border-primary"
-            : "transition-colors duration-1000 border-b-[1px] border-transparent border-primary"
+            ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-solid border-neutral-700"
+            : "transition-colors duration-1000 border-b-[1px] border-transparent border-black"
         }`}
       >
+        {/* FIM DA COR DA NAVBAR E DA BORDA */}
+
         <Navbar>
           <ScrollLink
             to="home"
