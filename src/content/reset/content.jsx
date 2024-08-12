@@ -47,20 +47,15 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Cursos", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "empty", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "TREINAMENTO EMPRESARIAL EM TATUAPÉ - SP",
-      title: (
-        <h1 className="mb-[16px]">
-          Capacitando líderes, transformando negócios
-        </h1>
-      ),
-      subtitle:
-        "Impulsionamos o empreendedorismo com cursos especializados em Contabilidade e Recursos Humanos. Capacite-se e transforme o futuro da sua empresa conosco!",
-      ctaButtonText: "Inscreva-se agora",
+      miniTag: "empty",
+      title: <h1 className="mb-[16px]">empty</h1>,
+      subtitle: "empty",
+      ctaButtonText: "empty",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "empty",
@@ -85,36 +80,35 @@ const content = {
       },
     },
     features: {
-      miniTag: "REVOLUCIONANDO CARREIRAS",
-      title: "Nossos cursos",
-      subtitle:
-        "Explore uma variedade de cursos desenvolvidos especialmente para capacitar e transformar sua carreira.",
+      miniTag: "empty",
+      title: "empty",
+      subtitle: "empty",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        title: "Gestão Contábil e Finanças",
-        subtitle: "Aprofunde-se em finanças corporativas",
+        title: "empty",
+        subtitle: "empty",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "Recursos Humanos e Depto. Pessoal",
-        subtitle: "Práticas essenciais de RH e DP",
+        title: "empty",
+        subtitle: "empty",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Consultoria Financeira",
-        subtitle: "Transforme seu negócio com contabilidade eficaz",
+        title: "empty",
+        subtitle: "empty",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Imersão em DRE",
-        subtitle: "Domine o Demonstrativo de Resultado do Exercício",
+        title: "empty",
+        subtitle: "empty",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
