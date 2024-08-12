@@ -12,10 +12,10 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 function FooterSocial() {
   return (
-    <footer className="bg-bgSectionLight full gap-y-[42px] text-secondary font-secondFont text-left text-paragraph4  flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat">
+    <footer className="bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4  flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
-          <div className="h-[115px] flex justify-center items-center bg-bgSectionDark">
+          <div className="h-[115px] flex justify-start items-center">
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
@@ -37,7 +37,7 @@ function FooterSocial() {
             <a
               href={whatsappContactLink}
               target="_blank"
-              className="text-secondary hover:underline"
+              className="hover:underline"
             >
               {infos.phone}
             </a>
@@ -130,7 +130,7 @@ function FooterSocial() {
           </div>
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-          <h1 className="font-medium text-secondary font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
             {infos.footerInfos.midSectionName}
           </h1>
           {/* Texto footer */}
@@ -249,7 +249,7 @@ function FooterSocial() {
           </div>
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center text-secondary">
+          <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
             NAVEGAÇÃO
           </h1>
           <div className="flex justify-between full opacity-90">
