@@ -140,7 +140,7 @@ export default function AboutInstagram() {
 
           <MotionDivDownToUp>
             <Button
-              label="Me siga no Instagram"
+              label="No siga no Instagram"
               buttonLink={links.socialMedia.instagram}
               icon={
                 <svg

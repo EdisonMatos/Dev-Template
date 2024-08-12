@@ -58,7 +58,7 @@ export default function SidebarSocial() {
 
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            scrolled ? "text-primary" : "text-primary"
+            scrolled ? "text-white" : "text-white"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -72,7 +72,7 @@ export default function SidebarSocial() {
           content={({ closeIconRef, hide }) => (
             <div
               id="app-sidebar-2"
-              className="absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-primary"
+              className="absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               style={{ width: "280px" }}
             >
               <div className="flex flex-col h-full">
@@ -97,7 +97,7 @@ export default function SidebarSocial() {
                   </span>
                 </div>
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border border-primary" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-neutral-700" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (

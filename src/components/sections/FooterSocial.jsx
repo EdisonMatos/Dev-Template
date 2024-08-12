@@ -62,21 +62,23 @@ function FooterSocial() {
             <p className="text-paragraph2">{infos.mail}</p>
           </div>
           <div className="flex full gap-x-[12px] items-center opacity-90">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-map-pin"
-            >
-              <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-              <circle cx="12" cy="10" r="3" />
-            </svg>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-map-pin"
+              >
+                <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
             <p>{infos.footerInfos.endereco}</p>
           </div>
 
@@ -108,7 +110,7 @@ function FooterSocial() {
 
           {/* Msg de observação */}
 
-          <div className="flex full gap-x-[12px] items-center opacity-90">
+          {/* <div className="flex full gap-x-[12px] items-center opacity-90">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +129,7 @@ function FooterSocial() {
               </svg>
             </div>
             <p>{infos.footerInfos.obs}</p>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
