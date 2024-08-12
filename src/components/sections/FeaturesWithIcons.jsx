@@ -73,17 +73,21 @@ export default function FeaturesWithIcons() {
               />
             </MotionDivDownToUp>
           </div>
-          <div
-            className="hidden w-[32%] h-[640px] desktop1:flex col2 rounded-2xl bg-top bg-cover"
-            style={{
-              backgroundImage: `url(${content.texts.features.imgFeatures})`,
-            }}
-          >
-            {/* <img
+          
+          <MotionDivDownToUp className="flex justify-center w-[32%]">
+            <div
+              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
+              style={{
+                backgroundImage: `url(${content.texts.features.imgFeatures})`,
+              }}
+            >
+              {/* <img
               src={content.texts.features.imgFeatures}
               alt="Imagem ilustrativa da seção"
+              className="rounded-2xl"
             /> */}
-          </div>
+            </div>
+          </MotionDivDownToUp>
           <div className=" col3 desktop1:w-[28%]">
             <MotionDivDownToUp>
               <IconFeatureCard
