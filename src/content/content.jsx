@@ -52,10 +52,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "empty",
-      title: <h1 className="mb-[16px]">empty</h1>,
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "TREINAMENTO EMPRESARIAL EM TATUAPÉ - SP",
+      title: (
+        <h1 className="mb-[16px]">
+          Capacitando líderes, transformando negócios
+        </h1>
+      ),
+      subtitle:
+        "Impulsionamos o empreendedorismo com cursos especializados em Contabilidade e Recursos Humanos. Capacite-se e transforme o futuro da sua empresa conosco!",
+      ctaButtonText: "Inscreva-se agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "empty",
