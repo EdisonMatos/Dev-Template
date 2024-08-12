@@ -12,7 +12,7 @@ export default function CtaMinimal() {
   return (
     <div>
       <MotionDivDownToUp>
-        <SectionArea className="">
+        <SectionArea className="squares">
           <SectionWrapper>
             <SectionHeader
               className="text-center"

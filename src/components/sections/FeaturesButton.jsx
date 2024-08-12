@@ -8,7 +8,7 @@ export default function FeaturesButton() {
   return (
     <SectionArea
       id={"service"}
-      className="py-[40px] tablet1:py-[64px] desktop1:py-[96px]esktop1:pb-[0px] bg-quinary"
+      className="py-[40px] tablet1:py-[64px] desktop1:py-[96px]esktop1:pb-[0px] bg-quinary squares"
     >
       <SectionHeader
         className="text-center"
@@ -41,11 +41,11 @@ export default function FeaturesButton() {
             buttonLink={content.texts.features.card3.buttonLink}
           />
           <FeatureImgOnBgCardButton
-            bgImg={content.texts.features.card3.img}
-            title={content.texts.features.card3.title}
-            description={content.texts.features.card3.subtitle}
-            buttonLabel={content.texts.features.card3.buttonLabel}
-            buttonLink={content.texts.features.card3.buttonLink}
+            bgImg={content.texts.features.card4.img}
+            title={content.texts.features.card4.title}
+            description={content.texts.features.card4.subtitle}
+            buttonLabel={content.texts.features.card4.buttonLabel}
+            buttonLink={content.texts.features.card4.buttonLink}
           />
         </div>
       </SectionWrapper>
