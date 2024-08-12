@@ -1,24 +1,32 @@
 const infos = {
-  name: "empty",
+  name: "Faraônico - Escola de Cursos Profissionalizantes e Consultoria Empresarial em Tatuapé - SP",
   slogan: "",
-  phone: "empty",
-  mail: "empty",
+  phone: "(11) 96666-7205",
+  mail: "atendimento@faraonico.com",
   footerInfos: {
     endereco: (
       <div>
-        <p>empty</p>
-        <p>empty</p>
+        <h1>Matriz</h1>
+        <p>
+          Av. Paulista, Bela Vista, nº 2202, 12º andar, Cj 121, São Paulo - SP
+        </p>
+        <br />
+        <h1>Filial de Cursos</h1>
+        <p>
+          Rua Martins Soares, nº 213, Tatuapé, São Paulo - SP
+          <p>Ponto de referência:</p>
+          Ao lado do metrô e do Shopping Boulevard Tatuapé
+        </p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        empty Segunda a Sexta-feira
+        Segunda a Sexta-feira
         <br />
-        empty Das 09h às 16h
+        Das 09h às 17h
         <br />
-        empty observacao
       </p>
     ),
     obs: <span className="italic">empty foco</span>,

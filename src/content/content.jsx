@@ -123,17 +123,23 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "imagem ilustrativa de advogado",
+        alt: "imagem ilustrativa de escritório",
       },
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "QUEM É A FARAÔNICO ASSESSORIA",
+      title: "Quem somos",
+      subtitle:
+        "Somos a Faraônico, uma escola de cursos profissionalizantes com foco no empreendedorismo.",
       paragraph: (
         <div>
-          empty
+          Oferecemos cursos especializados em Gestão Financeira, Contabilidade,
+          Recursos Humanos e Departamento Pessoal, projetados para quem busca
+          crescer na carreira e empreender com sucesso. Além disso, atuamos como
+          consultoria empresarial para pequenas empresas, ajudando a estruturar
+          e fortalecer seus negócios, especialmente na área financeira.
           <br />
           <br />
-          empty
+          Venha nos conhecer e descobrir como nossos serviços podem impulsionar
+          o seu futuro.
         </div>
       ),
       aboutSocial: {
@@ -141,15 +147,19 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "empty",
-        title: "empty",
-        subtitle: "empty",
+        miniTag: "FIQUE CONECTADO",
+        title: "Siga-nos nas redes sociais",
+        subtitle:
+          "🔥 Quer saber mais sobre empreendedorismo? Siga a Faraônico no Instagram!",
         paragraph: (
           <p>
-            empty
+            Lá sempre é postado novidades e atualizações sobre o mundo
+            corporativo e suas tendências! Não perca a chance de ficar por
+            dentro das novidades do mundo dos negócios e oportunidades
+            inovadoras.
             <br />
             <br />
-            empty
+            Acompanhe nossos posts e fique à frente no mundo dos negócios!
           </p>
         ),
       },
@@ -451,40 +461,42 @@ const content = {
       },
     },
     steps: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nossa assessoria e nossos treinamentos?",
+      subtitle: "Entenda nosso processo em detalhes",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          cardTitle: "Escolha seu curso",
+          cardDescription: "Acesse nosso site e selecione o curso desejado.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          cardTitle: "Inscreva-se",
+          cardDescription:
+            "Ao clicar no botão do curso desejado, você será levado ao Whatsapp onde prosseguirá para o pagamento.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          cardTitle: "Receba a confirmação",
+          cardDescription:
+            "Verifique seu e-mail para a confirmação da matrícula e detalhes do curso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          cardTitle: "Comece as aulas",
+          cardDescription: "Participe e inicie sua jornada de aprendizado!",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "NÃO PERCA TEMPO",
+      title: "Gostaria de se capacitar mais para o mundo empresarial?",
+      subtitle: "Fale com nossa equipe, estamos prontos para te ajudar.",
+      ctaButtonText: "Fale com a gente no WhatsApp",
     },
     testimonials: {
       miniTag: "empty",
@@ -510,25 +522,30 @@ const content = {
       },
     },
     faq: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "empty",
-          answer: "empty",
+          question: "O que preciso para me inscrever nos cursos?",
+          answer:
+            "Nossos cursos são abertos a todos, independentemente do nível de experiência. Não exigimos formação específica, apenas o interesse em aprender e crescer profissionalmente.",
         },
         question2: {
-          question: "empty",
-          answer: "empty",
+          question: "Os cursos são presenciais ou online?",
+          answer:
+            "Nossos cursos são exclusivamente presenciais, proporcionando uma experiência de aprendizado imersiva e direta.",
         },
         question3: {
-          question: "empty",
-          answer: "empty",
+          question:
+            "A consultoria empresarial é voltada apenas para pequenas empresas?",
+          answer:
+            "Nosso foco principal é em pequenas empresas, mas também atendemos negócios em expansão que buscam otimizar suas finanças, contabilidade e processos.",
         },
         question4: {
-          question: "empty",
-          answer: "empty",
+          question: "Receberei um certificado ao concluir o curso?",
+          answer:
+            "Sim, todos os nossos cursos oferecem um certificado de conclusão, que pode ser utilizado para fortalecer sua trajetória profissional.",
         },
       },
     },
