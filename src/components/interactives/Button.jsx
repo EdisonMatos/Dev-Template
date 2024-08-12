@@ -38,7 +38,7 @@ export default function Button({
         // className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary hover:bg-secondary hover:text-primary text-secondary hover:border-solid border-[1px] border-primary hover:border-primary`}
 
         // Botão com hover scale sem mudanca de cor
-        className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary text-darker  hover:scale-110`}
+        className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary text-darker hover:scale-110`}
       >
         <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
           <div className="">{icon}</div>
