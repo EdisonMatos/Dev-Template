@@ -13,13 +13,15 @@ import Icon4 from "../../assets/imgs/icons/icon4.png";
 export default function FeaturesWithIcons() {
   return (
     <SectionArea id="service" className="squares">
-      <SectionHeader
-        className="text-center"
-        miniTitle={content.texts.features.miniTag}
-        sectionHeaderTitle={content.texts.features.title}
-        sectionHeaderSubtitle={content.texts.features.subtitle}
-        color="dark"
-      />
+      <MotionDivDownToUp>
+        <SectionHeader
+          className="text-center"
+          miniTitle={content.texts.features.miniTag}
+          sectionHeaderTitle={content.texts.features.title}
+          sectionHeaderSubtitle={content.texts.features.subtitle}
+          color="dark"
+        />
+      </MotionDivDownToUp>
       <SectionWrapper>
         <div className="flex flex-col items-center justify-between w-full tablet1:flex-row">
           <div className=" col1 desktop1:w-[28%]">
@@ -73,7 +75,7 @@ export default function FeaturesWithIcons() {
               />
             </MotionDivDownToUp>
           </div>
-          
+
           <MotionDivDownToUp className="flex justify-center w-[32%]">
             <div
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
