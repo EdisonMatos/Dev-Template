@@ -107,115 +107,121 @@ const WhatsappForm = () => {
   };
 
   return (
-    <div className="phone3:mx-auto text-paragraph3 phone3:text-paragraph4">
-      <h1 className="w-full mb-2 font-medium phone3:text-title1 tablet1:text-paragraph3">
-        Entre em contato agora
-      </h1>
-      <div className="mb-5">
-        <div className="flex mb-4 text-gray-500">
-          <div className="flex items-center justify-center w-12 px-1 bg-secondary ">
-            <CiUser />
+    <div>
+      <div className=" text-paragraph3 phone3:text-paragraph4 w-full">
+        <h1 className="w-full mb-2 font-medium phone3:text-title1 tablet1:text-paragraph3">
+          Entre em contato agora
+        </h1>
+        <div className="mb-5">
+          <div className="flex mb-4 text-gray-500">
+            <div className="flex items-center justify-center w-12 px-1 bg-white ">
+              <CiUser />
+            </div>
+            <input
+              className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(capitalizeFirstLetter(e.target.value))}
+              placeholder="Nome"
+              required
+            />
           </div>
-          <input
-            className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(capitalizeFirstLetter(e.target.value))}
-            placeholder="Nome"
-            required
-          />
-        </div>
-        {errors.name && (
-          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
-            {errors.name}
-          </p>
-        )}
-      </div>
-
-      <div className="mb-5">
-        <div className="flex mb-4 text-gray-500">
-          <div className="flex items-center justify-center w-12 px-1 bg-secondary ">
-            <CiPhone />
-          </div>
-          <input
-            className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
-            type="tel"
-            id="phone"
-            value={phone}
-            onChange={handlePhoneChange}
-            placeholder="Telefone"
-            required
-          />
-        </div>
-        {errors.phone && (
-          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
-            {errors.phone}
-          </p>
-        )}
-      </div>
-
-      <div className="mb-5">
-        <div className="flex mb-4 text-gray-500">
-          <div className="flex items-center justify-center w-12 px-1 bg-secondary ">
-            <CiMail />
-          </div>
-          <input
-            className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="E-mail"
-            required
-          />
-        </div>
-        {errors.email && !errors.email.includes("@") && (
-          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
-            {errors.email}
-          </p>
-        )}
-        {errors.email?.includes("@") && (
-          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
-            {errors.email}
-          </p>
-        )}
-      </div>
-
-      <div className="mb-5">
-        <div className="flex mb-4 text-gray-500">
-          <div className="flex justify-center w-12 px-1 bg-secondary ">
-            <CiChat1 className="h-11" />
-          </div>
-          <textarea
-            className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
-            type="text"
-            id="message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            placeholder="Mensagem"
-            required
-          />
-        </div>
-        {errors.message && (
-          <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
-            {errors.message}
-          </p>
-        )}
-      </div>
-
-      <div className="flex justify-center">
-        <button
-          className="flex items-center w-full px-4 py-2 font-medium text-secondary transition bg-primary rounded-lg text-title1 h-14 phone2:h-14 phone3:h18 hover:bg-secondary hover:text-black"
-          onClick={sendToWhatsapp}
-        >
-          <div className="grid grid-cols-2 items-center justify-evenly w-[60%]">
-            <img src={WhatsAppIcon} className="w-10 h-10" alt="WhatsApp Icon" />
-            <p className="secondaryspace-nowrap text-paragraph4 phone1:text-paragraph5 phone2:text-title2 tablet1:text-title1">
-              Solicite contato
+          {errors.name && (
+            <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
+              {errors.name}
             </p>
+          )}
+        </div>
+
+        <div className="mb-5">
+          <div className="flex mb-4 text-gray-500">
+            <div className="flex items-center justify-center w-12 px-1 bg-white ">
+              <CiPhone />
+            </div>
+            <input
+              className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
+              type="tel"
+              id="phone"
+              value={phone}
+              onChange={handlePhoneChange}
+              placeholder="Telefone"
+              required
+            />
           </div>
-        </button>
+          {errors.phone && (
+            <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
+              {errors.phone}
+            </p>
+          )}
+        </div>
+
+        <div className="mb-5">
+          <div className="flex mb-4 text-gray-500">
+            <div className="flex items-center justify-center w-12 px-1 bg-white ">
+              <CiMail />
+            </div>
+            <input
+              className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
+              type="email"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="E-mail"
+              required
+            />
+          </div>
+          {errors.email && !errors.email.includes("@") && (
+            <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
+              {errors.email}
+            </p>
+          )}
+          {errors.email?.includes("@") && (
+            <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
+              {errors.email}
+            </p>
+          )}
+        </div>
+
+        <div className="mb-5">
+          <div className="flex mb-4 text-gray-500">
+            <div className="flex justify-center w-12 px-1 bg-white ">
+              <CiChat1 className="h-11" />
+            </div>
+            <textarea
+              className="w-full px-1 py-2 border-0 rounded-none rounded-tr-none-md rounded-br-none-md"
+              type="text"
+              id="message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              placeholder="Mensagem"
+              required
+            />
+          </div>
+          {errors.message && (
+            <p className="-mt-2 -mb-1 text-red-500 text-paragraph3">
+              {errors.message}
+            </p>
+          )}
+        </div>
+
+        <div className="flex justify-center">
+          <button
+            className="flex items-center w-full px-4 py-2 font-medium text-secondary bg-primary rounded-lg text-title1 h-14 phone2:h-14 phone3:h18 hover:bg-secondary hover:text-white transition"
+            onClick={sendToWhatsapp}
+          >
+            <div className="flex items-center justify-center w-full">
+              <img
+                src={WhatsAppIcon}
+                className="w-10 h-10 mr-2"
+                alt="WhatsApp Icon"
+              />
+              <p className="whitespace-nowrap text-paragraph4 phone1:text-paragraph5 phone2:text-title2 tablet1:text-title1 px-[3%] ">
+                Solicite contato
+              </p>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
   );
