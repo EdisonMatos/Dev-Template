@@ -48,8 +48,9 @@ export default function FeaturesButton() {
               buttonLabel={content.texts.features.card1.buttonLabel}
               onClick={() =>
                 onClick(
+                  content.texts.features.card1.title,
                   <div>
-                    <p className="font-normal">
+                    <p className="font-normal text-title1 font-secondFont">
                       Oferece uma formação prática e teórica sobre os princípios
                       contábeis e práticas financeiras essenciais para uma
                       gestão eficaz. Os participantes aprenderão a analisar
@@ -90,8 +91,9 @@ export default function FeaturesButton() {
               buttonLabel={content.texts.features.card2.buttonLabel}
               onClick={() =>
                 onClick(
+                  content.texts.features.card1.title,
                   <div>
-                    <p className="font-normal">
+                    <p className="font-normal text-title1 font-secondFont">
                       Torne-se um especialista em Recursos Humanos e
                       Departamento Pessoal! Aprenda sobre os direitos e deveres
                       dos funcionários de acordo com a CLT. Inscreva-se no nosso
@@ -129,8 +131,9 @@ export default function FeaturesButton() {
               buttonLabel={content.texts.features.card3.buttonLabel}
               onClick={() =>
                 onClick(
+                  content.texts.features.card1.title,
                   <div>
-                    <p className="font-normal">
+                    <p className="font-normal text-title1 font-secondFont">
                       Descubra como nossa consultoria pode ajudar você a
                       gerenciar DRE, balanço patrimonial, apuração de tributos,
                       e muito mais. Com nossa orientação, você estará pronto
@@ -168,8 +171,9 @@ export default function FeaturesButton() {
               buttonLabel={content.texts.features.card4.buttonLabel}
               onClick={() =>
                 onClick(
+                  content.texts.features.card1.title,
                   <div>
-                    <p className="font-normal">
+                    <p className="font-normal text-title1 font-secondFont">
                       CRONOGRAMA do curso de Demonstração do Resultado no
                       Exercício: <br />
                       - Conceito DRE <br />
