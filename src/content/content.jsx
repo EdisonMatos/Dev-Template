@@ -99,7 +99,7 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Gestão Contábil e Finanças",
-        subtitle: "Aprofunde-se em finanças corporativas:",
+        subtitle: "Aprofunde-se em finanças corporativas",
         description: (
           <div>
             Oferece uma formação prática e teórica sobre os princípios contábeis
@@ -130,7 +130,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Recursos Humanos e Depto. Pessoal",
-        subtitle: "Práticas essenciais de RH e DP:",
+        subtitle: "Práticas essenciais de RH e DP",
         description: (
           <div>
             Torne-se um especialista em Recursos Humanos e Departamento Pessoal!{" "}
@@ -162,7 +162,7 @@ const content = {
         img: featuresImg3,
         title: "Consultoria Financeira",
         subtitle:
-          "Potencialize o sucesso com estratégias financeiras eficazes:",
+          "Potencialize o sucesso com estratégias financeiras eficazes",
         description: (
           <div>
             Descubra como nossa consultoria pode ajudar você a gerenciar DRE,
@@ -195,7 +195,7 @@ const content = {
         subtitle: "O caminho para decisões financeiras mais inteligentes:",
         description: (
           <div>
-            CRONOGRAMA do curso de Demonstração do Resultado no Exercício:{" "}
+            CRONOGRAMA do curso de Demonstração do Resultado no Exercício{" "}
             <br />
             <br />
             Conceito DRE <br />
