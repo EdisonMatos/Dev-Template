@@ -8,7 +8,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/imgAbout.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -19,10 +19,15 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.png";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.png";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.png";
+import featuresImg4 from "../assets/imgs/features/imgFeatures4.png";
+
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.png";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.png";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.png";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.png";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -88,36 +93,145 @@ const content = {
       miniTag: "REVOLUCIONANDO CARREIRAS",
       title: "Nossos cursos",
       subtitle:
-        "Explore uma variedade de cursos desenvolvidos especialmente para capacitar e transformar sua carreira.",
+        "Explore uma variedade de cursos desenvolvidos especialmente para capacitar e transformar sua carreira",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
+        img: featuresImg1,
         title: "Gestão Contábil e Finanças",
         subtitle: "Aprofunde-se em finanças corporativas",
-        img: featuresImg1,
+        description: (
+          <div>
+            Oferece uma formação prática e teórica sobre os princípios contábeis
+            e práticas financeiras essenciais para uma gestão eficaz. <br />
+            <br /> Os participantes aprenderão a analisar balanços, elaborar
+            relatórios financeiros e desenvolver estratégias para otimização de
+            recursos, com foco na melhoria da saúde financeira e no suporte à
+            tomada de decisões gerenciais em ambientes corporativos e
+            empresariais.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Inscreva-se",
         buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
+        img: featuresImg2,
         title: "Recursos Humanos e Depto. Pessoal",
         subtitle: "Práticas essenciais de RH e DP",
-        img: featuresImg2,
+        description: (
+          <div>
+            Torne-se um especialista em Recursos Humanos e Departamento Pessoal!{" "}
+            <br />
+            Aprenda sobre os direitos e deveres dos funcionários de acordo com a
+            CLT. <br />
+            <br />
+            Inscreva-se no nosso curso para iniciantes e comece a sua jornada na
+            área de RH e DP. Venha conhecer mais sobre o nosso curso
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Inscreva-se",
         buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Consultoria Financeira",
-        subtitle: "Transforme seu negócio com contabilidade eficaz",
         img: featuresImg3,
+        title: "Consultoria Financeira",
+        subtitle:
+          "Potencialize o sucesso com estratégias financeiras eficazes",
+        description: (
+          <div>
+            Descubra como nossa consultoria pode ajudar você a gerenciar DRE,
+            balanço patrimonial, apuração de tributos, e muito mais. <br />
+            <br />
+            Com nossa orientação, você estará pronto para otimizar suas finanças
+            e tomar decisões informadas para o crescimento sustentável da sua
+            empresa!
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Inscreva-se",
         buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Imersão em DRE",
-        subtitle: "Domine o Demonstrativo de Resultado do Exercício",
         img: featuresImg4,
+        title: "Imersão em DRE",
+        subtitle: "O caminho para decisões financeiras mais inteligentes:",
+        description: (
+          <div>
+            CRONOGRAMA do curso de Demonstração do Resultado no Exercício{" "}
+            <br />
+            <br />
+            Conceito DRE <br />
+            - O que é e para que serve DRE <br />
+            <br />
+            Conceito de Markup <br />
+            - O que é Markup? <br />
+            - O que é faturamento? <br />
+            - O que é receita? <br />
+            - O que é lucro? <br />
+            <br />
+            Planos de contas <br />
+            - O que é plano de contas? <br />
+            - Como estruturar o plano de contas? <br />
+            <br />
+            Calcular DRE <br />
+            - Estrutura do DRE <br />
+            - Como fazer o DRE? <br />
+            - Entender e calcular o DRE <br />- Saber interpretar o DRE
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Inscreva-se",
         buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
     },
     about: {

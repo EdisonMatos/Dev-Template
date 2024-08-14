@@ -13,8 +13,9 @@ export default function Faq() {
   return (
     <div className="relative">
       <SectionArea id="faq" className="bg-neutral-100">
-        <MotionDivDownToUp>
-          <SectionHeader
+    
+        <MotionDivDownToUp className="w-full flex justify-center">
+         <SectionHeader
             className="text-center"
             miniTitle={content.texts.faq.miniTag}
             sectionHeaderTitle={content.texts.faq.title}
