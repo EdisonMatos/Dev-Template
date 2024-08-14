@@ -3,7 +3,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Button from "../interactives/Button";
 
 export default function FeatureImgOnBgCardButton(props) {
-  const { bgImg, title, description, buttonLabel, buttonLink, onClick } = props;
+  const { bgImg, title, description, buttonLabel, buttonLink, onClick, buttonColor } = props;
 
   FeatureImgOnBgCardButton.propTypes = {
     bgImg: PropTypes.any,
@@ -11,7 +11,8 @@ export default function FeatureImgOnBgCardButton(props) {
     description: PropTypes.any,
     buttonLabel: PropTypes.string,
     buttonLink: PropTypes.string,
-    onClick: PropTypes.func, // Adiciona a prop onClick
+    buttonColor: PropTypes.any,
+    onClick: PropTypes.func,
   };
 
   return (
@@ -32,9 +33,10 @@ export default function FeatureImgOnBgCardButton(props) {
               <Button
                 label={buttonLabel}
                 buttonLink={buttonLink}
+                color={buttonColor}
                 className=""
                 size="small"
-                onClick={onClick} // Propague o onClick para o Button
+                onClick={onClick} 
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
