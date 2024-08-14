@@ -50,15 +50,23 @@ export default function FeaturesButton() {
                 onClick(
                   content.texts.features.card1.title,
                   <div>
-                    <p className="font-normal text-title1 font-secondFont">
+                    <img
+                      src={content.texts.features.card1.img}
+                      alt={content.texts.features.card1.title}
+                      className="h-auto w-full mb-7"
+                    />
+                    <p className="font-normal text-paragraph4 font-secondFont">
                       Oferece uma formação prática e teórica sobre os princípios
                       contábeis e práticas financeiras essenciais para uma
-                      gestão eficaz. Os participantes aprenderão a analisar
-                      balanços, elaborar relatórios financeiros e desenvolver
-                      estratégias para otimização de recursos, com foco na
-                      melhoria da saúde financeira e no suporte à tomada de
-                      decisões gerenciais em ambientes corporativos e
-                      empresariais.
+                      gestão eficaz. <br />
+                      <br />
+                      Os participantes aprenderão a analisar balanços, elaborar
+                      relatórios financeiros e desenvolver estratégias para
+                      otimização de recursos, com foco na melhoria da saúde
+                      financeira e no suporte à tomada de decisões gerenciais em
+                      ambientes corporativos e empresariais.
+                      <br />
+                      <br />
                     </p>
                     <div className="flex justify-start w-full mt-[16px]">
                       <Button
@@ -91,14 +99,22 @@ export default function FeaturesButton() {
               buttonLabel={content.texts.features.card2.buttonLabel}
               onClick={() =>
                 onClick(
-                  content.texts.features.card1.title,
+                  content.texts.features.card2.title,
                   <div>
-                    <p className="font-normal text-title1 font-secondFont">
+                    <img
+                      src={content.texts.features.card2.img}
+                      className="h-auto w-full mb-7"
+                    />
+                    <p className="font-normal text-paragraph4 font-secondFont">
                       Torne-se um especialista em Recursos Humanos e
                       Departamento Pessoal! Aprenda sobre os direitos e deveres
-                      dos funcionários de acordo com a CLT. Inscreva-se no nosso
-                      curso para iniciantes e comece a sua jornada na área de RH
-                      e DP. Venha conhecer mais sobre o nosso curso!
+                      dos funcionários de acordo com a CLT. <br />
+                      <br />
+                      Inscreva-se no nosso curso para iniciantes e comece a sua
+                      jornada na área de RH e DP. Venha conhecer mais sobre o
+                      nosso curso!
+                      <br />
+                      <br />
                     </p>
                     <div className="flex justify-start w-full mt-[16px]">
                       <Button
@@ -131,14 +147,23 @@ export default function FeaturesButton() {
               buttonLabel={content.texts.features.card3.buttonLabel}
               onClick={() =>
                 onClick(
-                  content.texts.features.card1.title,
+                  content.texts.features.card3.title,
                   <div>
-                    <p className="font-normal text-title1 font-secondFont">
+                    <img
+                      src={content.texts.features.card3.img}
+                      alt={content.texts.features.card3.title}
+                      className="h-auto w-full mb-7"
+                    />
+                    <p className="font-normal text-paragraph4 font-secondFont">
                       Descubra como nossa consultoria pode ajudar você a
                       gerenciar DRE, balanço patrimonial, apuração de tributos,
-                      e muito mais. Com nossa orientação, você estará pronto
-                      para otimizar suas finanças e tomar decisões informadas
-                      para o crescimento sustentável da sua empresa!
+                      e muito mais. <br />
+                      <br />
+                      Com nossa orientação, você estará pronto para otimizar
+                      suas finanças e tomar decisões informadas para o
+                      crescimento sustentável da sua empresa!
+                      <br />
+                      <br />
                     </p>
                     <div className="flex justify-start w-full mt-[16px]">
                       <Button
@@ -171,13 +196,20 @@ export default function FeaturesButton() {
               buttonLabel={content.texts.features.card4.buttonLabel}
               onClick={() =>
                 onClick(
-                  content.texts.features.card1.title,
+                  content.texts.features.card4.title,
                   <div>
-                    <p className="font-normal text-title1 font-secondFont">
+                    <img
+                      src={content.texts.features.card4.img}
+                      alt={content.texts.features.card4.title}
+                      className="h-auto w-full mb-7"
+                    />
+                    <p className="font-normal text-paragraph4 font-secondFont">
                       CRONOGRAMA do curso de Demonstração do Resultado no
                       Exercício: <br />
+                      <br />
                       - Conceito DRE <br />
-                      - O que é e para que serve DRE - Conceito de Markup <br />
+                      - O que é e para que serve DRE <br />
+                      - Conceito de Markup <br />
                       - O que é Markup? <br />
                       - O que é faturamento? <br />
                       - O que é receita? O que é lucro? <br />
@@ -186,8 +218,10 @@ export default function FeaturesButton() {
                       - Como estruturar o plano de contas? <br />
                       - Calcular DRE <br />
                       - Estrutura do DRE <br />
-                      - Como fazer o DRE? <br />- Entender e calcular o DRE -
-                      Saber interpretar o DRE
+                      - Como fazer o DRE? <br />
+                      - Entender e calcular o DRE <br />
+                      - Saber interpretar o DRE <br />
+                      <br />
                     </p>
                     <div className="flex justify-start w-full mt-[16px]">
                       <Button
@@ -216,6 +250,7 @@ export default function FeaturesButton() {
           </div>
         </SectionWrapper>
       </SectionArea>
+
       <Dialog
         className="font-secondFont"
         header={modalTitle}
