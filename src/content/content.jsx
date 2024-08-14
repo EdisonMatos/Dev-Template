@@ -266,10 +266,9 @@ const content = {
           "🔥 Quer saber mais sobre empreendedorismo? Siga a Faraônico no Instagram!",
         paragraph: (
           <p>
-            Lá sempre é postado novidades e atualizações sobre o mundo
-            corporativo e suas tendências! Não perca a chance de ficar por
-            dentro das novidades do mundo dos negócios e oportunidades
-            inovadoras.
+            Lá sempre são postadas novidades e atualizações sobre o mundo
+            corporativo e suas tendências! Não perca a chance de se atualizar
+            sobre o mundo dos negócios e oportunidades inovadoras.
             <br />
             <br />
             Acompanhe nossos posts e fique à frente no mundo dos negócios!
