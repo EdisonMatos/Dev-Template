@@ -54,7 +54,7 @@ export default function FeaturesButton() {
                   content.texts.features.card1.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card1.img}
+                      img={content.texts.features.card1.imgModal}
                       subtitle={content.texts.features.card1.subtitle}
                       description={content.texts.features.card1.description}
                       buttonIcon={content.texts.features.card1.icon}
@@ -76,7 +76,7 @@ export default function FeaturesButton() {
                   content.texts.features.card2.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card2.img}
+                      img={content.texts.features.card2.imgModal}
                       subtitle={content.texts.features.card2.subtitle}
                       description={content.texts.features.card2.description}
                       buttonIcon={content.texts.features.card2.icon}
@@ -98,7 +98,7 @@ export default function FeaturesButton() {
                   content.texts.features.card3.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card3.img}
+                      img={content.texts.features.card3.imgModal}
                       subtitle={content.texts.features.card3.subtitle}
                       description={content.texts.features.card3.description}
                       buttonIcon={content.texts.features.card3.icon}
@@ -120,7 +120,7 @@ export default function FeaturesButton() {
                   content.texts.features.card4.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card4.img}
+                      img={content.texts.features.card4.imgModal}
                       subtitle={content.texts.features.card4.subtitle}
                       description={content.texts.features.card4.description}
                       buttonIcon={content.texts.features.card4.icon}

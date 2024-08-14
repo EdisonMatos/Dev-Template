@@ -24,6 +24,11 @@ import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
 import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
 import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
 
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.png";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.png";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.png";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.png";
+
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
 import teamMemberImg1 from "../assets/imgs/team/team1.webp";
@@ -92,7 +97,7 @@ const content = {
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        imgModal: {},
+        img: featuresImg1,
         title: "Gestão Contábil e Finanças",
         subtitle: "Aprofunde-se em finanças corporativas:",
         description: (
@@ -106,7 +111,7 @@ const content = {
             empresariais.
           </div>
         ),
-        img: featuresImg1,
+        imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +128,7 @@ const content = {
         buttonLabel: "Saiba mais",
       },
       card2: {
-        imgModal: {},
+        img: featuresImg2,
         title: "Recursos Humanos e Depto. Pessoal",
         subtitle: "Práticas essenciais de RH e DP:",
         description: (
@@ -138,7 +143,7 @@ const content = {
             área de RH e DP. Venha conhecer mais sobre o nosso curso
           </div>
         ),
-        img: featuresImg2,
+        imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +160,7 @@ const content = {
         buttonLabel: "Saiba mais",
       },
       card3: {
-        imgModal: {},
+        img: featuresImg3,
         title: "Consultoria Financeira",
         subtitle:
           "Potencialize o sucesso com estratégias financeiras eficazes:",
@@ -169,7 +174,7 @@ const content = {
             empresa!
           </div>
         ),
-        img: featuresImg3,
+        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +191,7 @@ const content = {
         buttonLabel: "Saiba mais",
       },
       card4: {
-        imgModal: {},
+        img: featuresImg4,
         title: "Imersão em DRE",
         subtitle: "O caminho para decisões financeiras mais inteligentes:",
         description: (
@@ -196,7 +201,9 @@ const content = {
             <br />
             Conceito DRE <br />
             - O que é e para que serve DRE <br />
-            - Conceito de Markup O que é Markup? <br />
+            <br />
+            Conceito de Markup <br />
+            - O que é Markup? <br />
             - O que é faturamento? <br />
             - O que é receita? <br />
             - O que é lucro? <br />
@@ -211,7 +218,7 @@ const content = {
             - Entender e calcular o DRE <br />- Saber interpretar o DRE
           </div>
         ),
-        img: featuresImg4,
+        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
