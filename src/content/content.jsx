@@ -93,7 +93,7 @@ const content = {
       miniTag: "REVOLUCIONANDO CARREIRAS",
       title: "Nossos cursos",
       subtitle:
-        "Explore uma variedade de cursos desenvolvidos especialmente para capacitar e transformar sua carreira",
+        "Explore uma variedade de cursos desenvolvidos especialmente para capacitar e transformar sua carreira.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
