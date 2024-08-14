@@ -13,7 +13,7 @@ const infos = {
         <br />
         <h1>Filial de Cursos</h1>
         <p>
-          Rua Martins Soares, nº 213, Tatuapé, São Paulo - SP
+          Rua Martins Soares, nº 219, Tatuapé, São Paulo - SP
           <p>Ponto de referência:</p>
           Ao lado do metrô e do Shopping Boulevard Tatuapé
         </p>
@@ -30,7 +30,7 @@ const infos = {
       </p>
     ),
     obs: <span className="italic">empty foco</span>,
-    midSectionName: "Até mais! 😉",
+    midSectionName: "Até mais!",
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos em breve ter a oportunidade de atender você e oferecer toda a expertise e suporte que você merece.",
