@@ -34,7 +34,7 @@ export default function FeatureImgOnBgCardButton(props) {
                 label={buttonLabel}
                 buttonLink={buttonLink}
                 color={buttonColor}
-                className=""
+                className="text-white"
                 size="small"
                 onClick={onClick} 
                 icon={
