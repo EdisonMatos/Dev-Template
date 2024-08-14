@@ -577,7 +577,7 @@ const content = {
     steps: {
       miniTag: "PASSO A PASSO",
       title: "Como funciona nossa assessoria e nossos treinamentos?",
-      subtitle: "Entenda nosso processo em detalhes",
+      subtitle: "Entenda nosso processo em detalhes.",
       img: imgSteps,
       alt: "",
       cards: {
