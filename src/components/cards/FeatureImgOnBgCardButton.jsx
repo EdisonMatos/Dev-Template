@@ -3,15 +3,12 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Button from "../interactives/Button";
 
 export default function FeatureImgOnBgCardButton(props) {
-  const { bgImg, title, description, buttonLabel, buttonLink, onClick } = props;
+  const { bgImg, title, description, buttonLabel, buttonLink, buttonColor } = props;
 
   FeatureImgOnBgCardButton.propTypes = {
     bgImg: PropTypes.any,
     title: PropTypes.any,
     description: PropTypes.any,
-    buttonLabel: PropTypes.string,
-    buttonLink: PropTypes.string,
-    onClick: PropTypes.func, // Adiciona a prop onClick
   };
 
   return (
@@ -32,9 +29,9 @@ export default function FeatureImgOnBgCardButton(props) {
               <Button
                 label={buttonLabel}
                 buttonLink={buttonLink}
+                color={buttonColor}
                 className=""
                 size="small"
-                onClick={onClick} // Propague o onClick para o Button
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -43,10 +40,10 @@ export default function FeatureImgOnBgCardButton(props) {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-corner-down-right"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-corner-down-right"
                   >
                     <polyline points="15 10 20 15 15 20" />
                     <path d="M4 4v7a4 4 0 0 0 4 4h12" />
@@ -58,5 +55,5 @@ export default function FeatureImgOnBgCardButton(props) {
         </div>
       </div>
     </MotionDivDownToUp>
-  );
+  );
 }

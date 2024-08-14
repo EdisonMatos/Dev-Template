@@ -49,6 +49,7 @@ export default function FeaturesButton() {
               title={content.texts.features.card1.title}
               description={content.texts.features.card1.subtitle}
               buttonLabel={content.texts.features.card1.buttonLabel}
+              buttonColor="bg-red-900"
               onClick={() =>
                 onClick(
                   content.texts.features.card1.title,
