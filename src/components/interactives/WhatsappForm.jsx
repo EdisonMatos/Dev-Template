@@ -109,7 +109,7 @@ const WhatsappForm = () => {
   return (
     <div>
       <div className=" text-paragraph3 phone3:text-paragraph4 w-full">
-        <h1 className="w-full mb-2 font-medium phone3:text-title1 tablet1:text-paragraph3">
+        <h1 className="w-full mb-2 font-medium ">
           Entre em contato agora
         </h1>
         <div className="mb-5">
