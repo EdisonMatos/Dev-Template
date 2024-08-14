@@ -135,7 +135,6 @@ const content = {
           <div>
             Torne-se um especialista em Recursos Humanos e Departamento Pessoal!{" "}
             <br />
-            <br />
             Aprenda sobre os direitos e deveres dos funcionários de acordo com a
             CLT. <br />
             <br />
