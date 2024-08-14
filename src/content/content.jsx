@@ -195,8 +195,7 @@ const content = {
         subtitle: "O caminho para decisões financeiras mais inteligentes.",
         description: (
           <div>
-            CRONOGRAMA do curso de Demonstração do Resultado no Exercício{" "}
-            <br />
+            CRONOGRAMA do curso de Demonstração do Resultado no Exercício <br />
             <br />
             Conceito DRE <br />
             - O que é e para que serve DRE <br />
