@@ -43,7 +43,7 @@ export default function HowItWorksImage() {
           /> */}
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
-          <MotionDivDownToUp className="flex justify-center">
+         
             <SectionHeader
               className="hidden text-center desktop1:flex"
               miniTitle={content.texts.steps.miniTag}
@@ -60,7 +60,6 @@ export default function HowItWorksImage() {
               color=""
               type=""
             />
-          </MotionDivDownToUp>
           <MotionDivDownToUp>
             <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
               <MotionDivDownToUp className="tablet1:w-[45%]">

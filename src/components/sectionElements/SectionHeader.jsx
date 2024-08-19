@@ -17,6 +17,7 @@ export default function SectionHeader({
   subtitleOrientation,
   miniTitleOrientation,
   marginBottomOption,
+  animation = true,
 }) {
   if (color === "dark") {
     miniTitleBgColor = "bg-secondary bg-opacity-5";
@@ -41,9 +42,9 @@ export default function SectionHeader({
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
   }
 
-  return (
-    <div className={` ${usage} ${className}`}>
-      <MotionDivDownToUp>
+  const Content = (
+    <div className={`${usage} ${className}`}>
+      <div>
         <div className={`${miniTitleSpace}`}>
           <div
             className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
@@ -61,7 +62,9 @@ export default function SectionHeader({
         >
           {sectionHeaderSubtitle}
         </p>
-      </MotionDivDownToUp>
+      </div>
     </div>
   );
+
+  return animation ? <MotionDivDownToUp className="w-full flex justify-center">{Content}</MotionDivDownToUp> : Content;
 }

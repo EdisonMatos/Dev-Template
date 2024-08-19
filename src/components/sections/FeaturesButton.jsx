@@ -10,7 +10,6 @@ import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -33,14 +32,14 @@ export default function FeaturesButton() {
         id={"service"}
         className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary squares"
       >
-        
-          <SectionHeader
-            className="text-center"
-            miniTitle={content.texts.features.miniTag}
-            sectionHeaderTitle={content.texts.features.title}
-            sectionHeaderSubtitle={content.texts.features.subtitle}
-            color="dark"
-          />
+        <SectionHeader
+          className="text-center"
+          miniTitle={content.texts.features.miniTag}
+          sectionHeaderTitle={content.texts.features.title}
+          sectionHeaderSubtitle={content.texts.features.subtitle}
+          color="dark"
+          animation
+        />
         <SectionWrapper>
           <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
             <FeatureImgOnBgCardButton
