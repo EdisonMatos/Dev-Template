@@ -23,6 +23,7 @@ export default function CtaMinimal() {
               aria-label={content.texts.hero.ctaButtonAriaLabel}
               label={content.texts.cta.ctaButtonText}
               buttonLink={whatsappContactLink}
+              animation
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
