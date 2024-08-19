@@ -119,7 +119,7 @@ function FooterSocial() {
 
           {/* Msg de observação */}
 
-          {/* <div className="flex full gap-x-[12px] items-center opacity-90">
+          <div className="flex full gap-x-[12px] items-center opacity-90">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@ function FooterSocial() {
               </svg>
             </div>
             <p>{infos.footerInfos.obs}</p>
-          </div> */}
+          </div>
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <MotionDivDownToUp>
@@ -183,7 +183,7 @@ function FooterSocial() {
           {/* Ícones redes sociais */}
           <MotionDivDownToUp>
             <p className="opacity-90">Siga a gente nas redes sociais:</p>
-            <div className="opacity-90 mt-2">
+            <div className="mt-2 opacity-90">
               {" "}
               <div className="flex gap-[10px] items-center">
                 <a

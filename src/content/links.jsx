@@ -1,10 +1,11 @@
 const links = {
-  whatsapp: "https://wa.me/+55?text=",
+  whatsapp: "https://wa.me/+5584999267425?text=",
   ctaWhatsapp:
-    "+55?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "+5584999267425?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   ctaLink: "#",
   socialMedia: {
-    instagram: "#",
+    instagram:
+      "https://www.instagram.com/spinolafilgueira.adv?igsh=MTNoYTl2cGowNWtqYg%3D%3D&utm_source=qr",
     facebook: "#",
     linkedin: "#",
     twitter: "#",
