@@ -9,7 +9,7 @@ module.exports = {
         bgSectionLight: "#FFFFFF",
         bgSectionDark: "#191919",
         links: "#0189BB", // Links
-        buttonColor: "#DBB14C", // Botões
+        buttonColor: "#D0B160", // Botões
         lighter: "#FFFFFF",
         darker: "#000000",
       },
