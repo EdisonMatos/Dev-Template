@@ -33,7 +33,7 @@ export default function FeaturesButton() {
         id={"service"}
         className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary squares"
       >
-        <MotionDivDownToUp className="w-full flex justify-center">
+        
           <SectionHeader
             className="text-center"
             miniTitle={content.texts.features.miniTag}
@@ -41,7 +41,6 @@ export default function FeaturesButton() {
             sectionHeaderSubtitle={content.texts.features.subtitle}
             color="dark"
           />
-        </MotionDivDownToUp>
         <SectionWrapper>
           <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
             <FeatureImgOnBgCardButton
@@ -50,6 +49,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card1.subtitle}
               buttonLabel={content.texts.features.card1.buttonLabel}
               buttonColor="bg-black"
+              buttonLInk
               onClick={() =>
                 onClick(
                   content.texts.features.card1.title,

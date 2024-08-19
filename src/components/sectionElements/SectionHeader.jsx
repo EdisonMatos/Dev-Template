@@ -1,3 +1,5 @@
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+
 export default function SectionHeader({
   sectionHeaderTitle,
   sectionHeaderSubtitle,
@@ -41,23 +43,25 @@ export default function SectionHeader({
 
   return (
     <div className={` ${usage} ${className}`}>
-      <div className={`${miniTitleSpace}`}>
-        <div
-          className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
-        >
-          <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
+      <MotionDivDownToUp>
+        <div className={`${miniTitleSpace}`}>
+          <div
+            className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
+          >
+            <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
+          </div>
         </div>
-      </div>
-      <h1
-        className={`${titleColor} ${titleOrientation} text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}
-      >
-        {sectionHeaderTitle}
-      </h1>
-      <p
-        className={`text-title1 font-secondFont leading-[26px] ${marginBottomOption} ${subtitleOrientation} ${subtitleColor}`}
-      >
-        {sectionHeaderSubtitle}
-      </p>
+        <h1
+          className={`${titleColor} ${titleOrientation} text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}
+        >
+          {sectionHeaderTitle}
+        </h1>
+        <p
+          className={`text-title1 font-secondFont leading-[26px] ${marginBottomOption} ${subtitleOrientation} ${subtitleColor}`}
+        >
+          {sectionHeaderSubtitle}
+        </p>
+      </MotionDivDownToUp>
     </div>
   );
 }

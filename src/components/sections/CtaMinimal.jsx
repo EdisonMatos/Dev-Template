@@ -11,7 +11,6 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function CtaMinimal() {
   return (
     <div>
-      <MotionDivDownToUp>
         <SectionArea className="squares">
           <SectionWrapper>
             <SectionHeader
@@ -40,7 +39,6 @@ export default function CtaMinimal() {
             />
           </SectionWrapper>
         </SectionArea>
-      </MotionDivDownToUp>
 
       {/* Inicio de onda shape div
 
