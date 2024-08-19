@@ -3,7 +3,16 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Button from "../interactives/Button";
 
 export default function FeatureImgOnBgCardButton(props) {
-  const { bgImg, title, description, buttonLabel, buttonLink, onClick, buttonColor } = props;
+  const {
+    bgImg,
+    title,
+    description,
+    buttonLabel,
+    buttonLink,
+    onClick,
+    buttonColor,
+    animation,
+  } = props;
 
   FeatureImgOnBgCardButton.propTypes = {
     bgImg: PropTypes.any,
@@ -13,16 +22,19 @@ export default function FeatureImgOnBgCardButton(props) {
     buttonLink: PropTypes.string,
     buttonColor: PropTypes.any,
     onClick: PropTypes.func,
+    animation: PropTypes.bool,
   };
 
+  const Animation = animation ? MotionDivDownToUp : "div";
+
   return (
-    <MotionDivDownToUp className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]  tablet1:w-[47%] desktop1:w-[23%]">
+    <Animation className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]  tablet1:w-[47%] desktop1:w-[23%]">
       <div
         className="w-full h-[560px] rounded-2xl flex flex-col justify-end bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${bgImg})` }}
       >
         <div className="flex items-end w-full h-full bg-black bg-opacity-10 rounded-2xl">
-          <MotionDivDownToUp className="w-full h-auto bg-white rounded-2xl p-[20px] mx-[10px] mb-[10px] flex flex-col">
+          <Animation className="w-full h-auto bg-white rounded-2xl p-[20px] mx-[10px] mb-[10px] flex flex-col">
             <h1 className="font-mainFont font-medium text-[18px] desktop1:text-paragraph5 desktop2:text-[20px] mb-[10px]">
               {title}
             </h1>
@@ -36,7 +48,7 @@ export default function FeatureImgOnBgCardButton(props) {
                 color={buttonColor}
                 className="text-white"
                 size="small"
-                onClick={onClick} 
+                onClick={onClick}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,9 +68,9 @@ export default function FeatureImgOnBgCardButton(props) {
                 }
               />
             </div>
-          </MotionDivDownToUp>
+          </Animation>
         </div>
       </div>
-    </MotionDivDownToUp>
+    </Animation>
   );
 }

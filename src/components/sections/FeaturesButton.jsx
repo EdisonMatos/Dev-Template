@@ -38,7 +38,6 @@ export default function FeaturesButton() {
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
           color="dark"
-          animation
         />
         <SectionWrapper>
           <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
@@ -48,7 +47,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card1.subtitle}
               buttonLabel={content.texts.features.card1.buttonLabel}
               buttonColor="bg-black"
-              buttonLInk
+              animation
               onClick={() =>
                 onClick(
                   content.texts.features.card1.title,
@@ -72,6 +71,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card2.subtitle}
               buttonLabel={content.texts.features.card2.buttonLabel}
               buttonColor="bg-black"
+              animation
               onClick={() =>
                 onClick(
                   content.texts.features.card2.title,
@@ -95,6 +95,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card3.subtitle}
               buttonLabel={content.texts.features.card3.buttonLabel}
               buttonColor="bg-black"
+              animation
               onClick={() =>
                 onClick(
                   content.texts.features.card3.title,
@@ -118,6 +119,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card4.subtitle}
               buttonLabel={content.texts.features.card4.buttonLabel}
               buttonColor="bg-black"
+              animation
               onClick={() =>
                 onClick(
                   content.texts.features.card4.title,

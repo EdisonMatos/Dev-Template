@@ -43,23 +43,22 @@ export default function HowItWorksImage() {
           /> */}
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
-         
-            <SectionHeader
-              className="hidden text-center desktop1:flex"
-              miniTitle={content.texts.steps.miniTag}
-              sectionHeaderTitle={content.texts.steps.title}
-              sectionHeaderSubtitle={content.texts.steps.subtitle}
-              color=""
-              type="article"
-            />
-            <SectionHeader
-              className="text-center desktop1:hidden"
-              miniTitle={content.texts.steps.miniTag}
-              sectionHeaderTitle={content.texts.steps.title}
-              sectionHeaderSubtitle={content.texts.steps.subtitle}
-              color=""
-              type=""
-            />
+          <SectionHeader
+            className="hidden text-center desktop1:flex"
+            miniTitle={content.texts.steps.miniTag}
+            sectionHeaderTitle={content.texts.steps.title}
+            sectionHeaderSubtitle={content.texts.steps.subtitle}
+            color=""
+            type="article"
+          />
+          <SectionHeader
+            className="text-center desktop1:hidden"
+            miniTitle={content.texts.steps.miniTag}
+            sectionHeaderTitle={content.texts.steps.title}
+            sectionHeaderSubtitle={content.texts.steps.subtitle}
+            color=""
+            type=""
+          />
           <MotionDivDownToUp>
             <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
               <MotionDivDownToUp className="tablet1:w-[45%]">
