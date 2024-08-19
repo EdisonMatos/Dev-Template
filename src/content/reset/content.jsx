@@ -8,7 +8,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/imgAbout.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -19,10 +19,15 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.png";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.png";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.png";
+import featuresImg4 from "../assets/imgs/features/imgFeatures4.png";
+
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.png";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.png";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.png";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.png";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -47,18 +52,18 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "empty", "Perguntas Frequentes"],
+      menuItems: ["Início", "Cursos", "0empty", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "empty",
-      title: <h1 className="mb-[16px]">empty</h1>,
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "0empty",
+      title: <h1 className="mb-[16px]">0empty</h1>,
+      subtitle: "0empty",
+      ctaButtonText: "0empty",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "empty",
+      secondaryCta: "0empty",
       images: {
         background: bgHeroImg,
         static: {
@@ -80,54 +85,136 @@ const content = {
       },
     },
     features: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        title: "empty",
-        subtitle: "empty",
         img: featuresImg1,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
+        title: "0empty",
+        subtitle: "0empty",
+        description: (
+          <div>
+            0empty <br />
+            <br />
+            0empty
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "0empty",
+        buttonLabel: "0empty",
       },
       card2: {
-        title: "empty",
-        subtitle: "empty",
         img: featuresImg2,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+        title: "0empty",
+        subtitle: "0empty",
+        description: (
+          <div>
+            0empty <br />
+            0empty <br />
+            <br />
+            0empty
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "0empty",
+        buttonLabel: "0empty",
       },
       card3: {
-        title: "empty",
-        subtitle: "empty",
         img: featuresImg3,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+        title: "0empty",
+        subtitle: "0empty",
+        description: (
+          <div>
+            0empty <br />
+            <br />
+            0empty
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "0empty",
+        buttonLabel: "0empty",
       },
       card4: {
-        title: "empty",
-        subtitle: "empty",
         img: featuresImg4,
-        buttonLabel: "Saiba mais",
-        buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
+        title: "0empty",
+        subtitle: "0empty",
+        description: (
+          <div>
+            0empty <br />
+            <br />
+            0empty <br />
+            0empty <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "0empty",
+        buttonLabel: "0empty",
       },
     },
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "imagem ilustrativa de advogado",
+        alt: "0empty",
       },
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       paragraph: (
         <div>
-          empty
+          0empty
           <br />
           <br />
-          empty
+          0empty
         </div>
       ),
       aboutSocial: {
@@ -135,25 +222,25 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "empty",
-        title: "empty",
-        subtitle: "empty",
+        miniTag: "0empty",
+        title: "0empty",
+        subtitle: "0empty",
         paragraph: (
           <p>
-            empty
+            0empty
             <br />
             <br />
-            empty
+            0empty
           </p>
         ),
       },
     },
     trustedBy: {
-      title: "empty",
-      subtitle: "empty",
+      title: "0empty",
+      subtitle: "0empty",
       trustedMore: {
-        title: "empty",
-        subtitle: "empty",
+        title: "0empty",
+        subtitle: "0empty",
       },
       images: {
         img1: {
@@ -173,11 +260,11 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "empty",
+      number1Description: "0empty",
       number2: 500,
-      number2Description: "empty",
+      number2Description: "0empty",
       number3: 1000,
-      number3Description: "empty",
+      number3Description: "0empty",
     },
     team: {
       title: "Nossa Equipe",
@@ -445,45 +532,45 @@ const content = {
       },
     },
     steps: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          cardTitle: "0empty",
+          cardDescription: "0empty",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          cardTitle: "0empty",
+          cardDescription: "0empty",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          cardTitle: "0empty",
+          cardDescription: "0empty",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "empty",
-          cardDescription: "empty",
+          cardTitle: "0empty",
+          cardDescription: "0empty",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
-      ctaButtonText: "empty",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
+      ctaButtonText: "0empty",
     },
     testimonials: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -504,31 +591,31 @@ const content = {
       },
     },
     faq: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       questions: {
         question1: {
-          question: "empty",
-          answer: "empty",
+          question: "0empty",
+          answer: "0empty",
         },
         question2: {
-          question: "empty",
-          answer: "empty",
+          question: "0empty",
+          answer: "0empty",
         },
         question3: {
-          question: "empty",
-          answer: "empty",
+          question: "0empty",
+          answer: "0empty",
         },
         question4: {
-          question: "empty",
-          answer: "empty",
+          question: "0empty",
+          answer: "0empty",
         },
       },
     },
     carouselv1: {
-      title: "Título CarouselDivsV1",
-      subtitle: "Aqui você substitui, só coloquei pra ver se eu sabia fazer.",
+      title: "0empty",
+      subtitle: "0empty",
     },
   },
 };

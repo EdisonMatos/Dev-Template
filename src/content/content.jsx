@@ -52,23 +52,18 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Cursos", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: ["Início", "Cursos", "0empty", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "TREINAMENTO EMPRESARIAL EM TATUAPÉ - SP",
-      title: (
-        <h1 className="mb-[16px]">
-          Capacitando líderes, transformando negócios
-        </h1>
-      ),
-      subtitle:
-        "Impulsionamos o empreendedorismo com cursos especializados em Contabilidade e Recursos Humanos. Capacite-se e transforme o futuro da sua empresa conosco!",
-      ctaButtonText: "Inscreva-se agora",
+      miniTag: "0empty",
+      title: <h1 className="mb-[16px]">0empty</h1>,
+      subtitle: "0empty",
+      ctaButtonText: "0empty",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "empty",
+      secondaryCta: "0empty",
       images: {
         background: bgHeroImg,
         static: {
@@ -90,25 +85,20 @@ const content = {
       },
     },
     features: {
-      miniTag: "REVOLUCIONANDO CARREIRAS",
-      title: "Nossos cursos",
-      subtitle:
-        "Explore uma variedade de cursos desenvolvidos especialmente para capacitar e transformar sua carreira.",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Gestão Contábil e Finanças",
-        subtitle: "Aprofunde-se em finanças corporativas.",
+        title: "0empty",
+        subtitle: "0empty",
         description: (
           <div>
-            Oferece uma formação prática e teórica sobre os princípios contábeis
-            e práticas financeiras essenciais para uma gestão eficaz. <br />
-            <br /> Os participantes aprenderão a analisar balanços, elaborar
-            relatórios financeiros e desenvolver estratégias para otimização de
-            recursos, com foco na melhoria da saúde financeira e no suporte à
-            tomada de decisões gerenciais em ambientes corporativos e
-            empresariais.
+            0empty <br />
+            <br />
+            0empty
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -124,22 +114,19 @@ const content = {
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
-        buttonLabelModal: "Inscreva-se",
-        buttonLabel: "Saiba mais",
+        buttonLabelModal: "0empty",
+        buttonLabel: "0empty",
       },
       card2: {
         img: featuresImg2,
-        title: "Recursos Humanos e Depto. Pessoal",
-        subtitle: "Práticas essenciais de RH e DP.",
+        title: "0empty",
+        subtitle: "0empty",
         description: (
           <div>
-            Torne-se um especialista em Recursos Humanos e Departamento Pessoal!{" "}
+            0empty <br />
+            0empty <br />
             <br />
-            Aprenda sobre os direitos e deveres dos funcionários de acordo com a
-            CLT. <br />
-            <br />
-            Inscreva-se no nosso curso para iniciantes e comece a sua jornada na
-            área de RH e DP. Venha conhecer mais sobre o nosso curso
+            0empty
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -155,22 +142,18 @@ const content = {
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
-        buttonLabelModal: "Inscreva-se",
-        buttonLabel: "Saiba mais",
+        buttonLabelModal: "0empty",
+        buttonLabel: "0empty",
       },
       card3: {
         img: featuresImg3,
-        title: "Consultoria Financeira",
-        subtitle:
-          "Potencialize o sucesso com estratégias financeiras eficazes.",
+        title: "0empty",
+        subtitle: "0empty",
         description: (
           <div>
-            Descubra como nossa consultoria pode ajudar você a gerenciar DRE,
-            balanço patrimonial, apuração de tributos, e muito mais. <br />
+            0empty <br />
             <br />
-            Com nossa orientação, você estará pronto para otimizar suas finanças
-            e tomar decisões informadas para o crescimento sustentável da sua
-            empresa!
+            0empty
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -186,34 +169,19 @@ const content = {
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
-        buttonLabelModal: "Inscreva-se",
-        buttonLabel: "Saiba mais",
+        buttonLabelModal: "0empty",
+        buttonLabel: "0empty",
       },
       card4: {
         img: featuresImg4,
-        title: "Imersão em DRE",
-        subtitle: "O caminho para decisões financeiras mais inteligentes.",
+        title: "0empty",
+        subtitle: "0empty",
         description: (
           <div>
-            CRONOGRAMA do curso de Demonstração do Resultado no Exercício <br />
+            0empty <br />
             <br />
-            Conceito DRE <br />
-            - O que é e para que serve DRE <br />
-            <br />
-            Conceito de Markup <br />
-            - O que é Markup? <br />
-            - O que é faturamento? <br />
-            - O que é receita? <br />
-            - O que é lucro? <br />
-            <br />
-            Planos de contas <br />
-            - O que é plano de contas? <br />
-            - Como estruturar o plano de contas? <br />
-            <br />
-            Calcular DRE <br />
-            - Estrutura do DRE <br />
-            - Como fazer o DRE? <br />
-            - Entender e calcular o DRE <br />- Saber interpretar o DRE
+            0empty <br />
+            0empty <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -229,30 +197,24 @@ const content = {
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
-        buttonLabelModal: "Inscreva-se",
-        buttonLabel: "Saiba mais",
+        buttonLabelModal: "0empty",
+        buttonLabel: "0empty",
       },
     },
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "imagem ilustrativa de escritório",
+        alt: "0empty",
       },
-      miniTag: "QUEM É A FARAÔNICO ASSESSORIA",
-      title: "Quem somos",
-      subtitle:
-        "Somos a Faraônico, uma escola de cursos profissionalizantes com foco no empreendedorismo.",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       paragraph: (
         <div>
-          Oferecemos cursos especializados em Gestão Financeira, Contabilidade,
-          Recursos Humanos e Departamento Pessoal, projetados para quem busca
-          crescer na carreira e empreender com sucesso. Além disso, atuamos como
-          consultoria empresarial para pequenas empresas, ajudando a estruturar
-          e fortalecer seus negócios, especialmente na área financeira.
+          0empty
           <br />
           <br />
-          Venha nos conhecer e descobrir como nossos serviços podem impulsionar
-          o seu futuro.
+          0empty
         </div>
       ),
       aboutSocial: {
@@ -260,28 +222,25 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "FIQUE CONECTADO",
-        title: "Siga-nos nas redes sociais",
-        subtitle:
-          "🔥 Quer saber mais sobre empreendedorismo? Siga a Faraônico no Instagram!",
+        miniTag: "0empty",
+        title: "0empty",
+        subtitle: "0empty",
         paragraph: (
           <p>
-            Lá sempre são postadas novidades e atualizações sobre o mundo
-            corporativo e suas tendências! Não perca a chance de se atualizar
-            sobre o mundo dos negócios e oportunidades inovadoras.
+            0empty
             <br />
             <br />
-            Acompanhe nossos posts e fique à frente no mundo dos negócios!
+            0empty
           </p>
         ),
       },
     },
     trustedBy: {
-      title: "empty",
-      subtitle: "empty",
+      title: "0empty",
+      subtitle: "0empty",
       trustedMore: {
-        title: "empty",
-        subtitle: "empty",
+        title: "0empty",
+        subtitle: "0empty",
       },
       images: {
         img1: {
@@ -301,11 +260,11 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "empty",
+      number1Description: "0empty",
       number2: 500,
-      number2Description: "empty",
+      number2Description: "0empty",
       number3: 1000,
-      number3Description: "empty",
+      number3Description: "0empty",
     },
     team: {
       title: "Nossa Equipe",
@@ -573,47 +532,45 @@ const content = {
       },
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nossa assessoria e nossos treinamentos?",
-      subtitle: "Entenda nosso processo em detalhes.",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Escolha seu curso",
-          cardDescription: "Acesse nosso site e selecione o curso desejado.",
+          cardTitle: "0empty",
+          cardDescription: "0empty",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Inscreva-se",
-          cardDescription:
-            "Ao clicar no botão do curso desejado, você será levado ao Whatsapp onde prosseguirá para o pagamento.",
+          cardTitle: "0empty",
+          cardDescription: "0empty",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Receba a confirmação",
-          cardDescription:
-            "Verifique seu e-mail para a confirmação da matrícula e detalhes do curso.",
+          cardTitle: "0empty",
+          cardDescription: "0empty",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Comece as aulas",
-          cardDescription: "Participe e inicie sua jornada de aprendizado!",
+          cardTitle: "0empty",
+          cardDescription: "0empty",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "NÃO PERCA TEMPO",
-      title: "Gostaria de se capacitar mais para o mundo empresarial?",
-      subtitle: "Fale com nossa equipe, estamos prontos para te ajudar.",
-      ctaButtonText: "Fale com a gente no WhatsApp",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
+      ctaButtonText: "0empty",
     },
     testimonials: {
-      miniTag: "empty",
-      title: "empty",
-      subtitle: "empty",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -634,36 +591,31 @@ const content = {
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "0empty",
+      title: "0empty",
+      subtitle: "0empty",
       questions: {
         question1: {
-          question: "O que preciso para me inscrever nos cursos?",
-          answer:
-            "Nossos cursos são abertos a todos, independentemente do nível de experiência. Não exigimos formação específica, apenas o interesse em aprender e crescer profissionalmente.",
+          question: "0empty",
+          answer: "0empty",
         },
         question2: {
-          question: "Os cursos são presenciais ou online?",
-          answer:
-            "Nossos cursos são exclusivamente presenciais, proporcionando uma experiência de aprendizado imersiva e direta.",
+          question: "0empty",
+          answer: "0empty",
         },
         question3: {
-          question:
-            "A consultoria empresarial é voltada apenas para pequenas empresas?",
-          answer:
-            "Nosso foco principal é em pequenas empresas, mas também atendemos negócios em expansão que buscam otimizar suas finanças, contabilidade e processos.",
+          question: "0empty",
+          answer: "0empty",
         },
         question4: {
-          question: "Receberei um certificado ao concluir o curso?",
-          answer:
-            "Sim, todos os nossos cursos oferecem um certificado de conclusão, que pode ser utilizado para fortalecer sua trajetória profissional.",
+          question: "0empty",
+          answer: "0empty",
         },
       },
     },
     carouselv1: {
-      title: "Título CarouselDivsV1",
-      subtitle: "Aqui você substitui, só coloquei pra ver se eu sabia fazer.",
+      title: "0empty",
+      subtitle: "0empty",
     },
   },
 };

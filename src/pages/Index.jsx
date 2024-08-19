@@ -19,7 +19,7 @@ export default function Index() {
     <div>
       <NavbarSocial />
       <Hero />
-      {/* <FeaturesWithIcons /> */}
+      <FeaturesWithIcons />
       <FeaturesButton />
       {/* <Numbers /> */}
       <About />
