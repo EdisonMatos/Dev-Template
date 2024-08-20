@@ -13,15 +13,13 @@ import Icon4 from "../../assets/imgs/icons/icon4.png";
 export default function FeaturesWithIcons() {
   return (
     <SectionArea id="service" className="squares">
-      <MotionDivDownToUp>
-        <SectionHeader
-          className="text-center"
-          miniTitle={content.texts.features.miniTag}
-          sectionHeaderTitle={content.texts.features.title}
-          sectionHeaderSubtitle={content.texts.features.subtitle}
-          color="dark"
-        />
-      </MotionDivDownToUp>
+      <SectionHeader
+        className="text-center"
+        miniTitle={content.texts.features.miniTag}
+        sectionHeaderTitle={content.texts.features.title}
+        sectionHeaderSubtitle={content.texts.features.subtitle}
+        color="dark"
+      />
       <SectionWrapper>
         <div className="flex flex-col items-center justify-between w-full tablet1:flex-row">
           <div className=" col1 desktop1:w-[28%]">
