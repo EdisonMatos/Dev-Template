@@ -54,7 +54,7 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Cursos", "0empty", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -241,7 +241,8 @@ const content = {
         },
         miniTag: "MANTENHA-SE INFORMADO",
         title: "Conecte-se e acompanhe novidades!",
-        subtitle: "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
+        subtitle:
+          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
         paragraph: (
           <p>
             Em nossas redes, você encontra atualizações sobre Direito Penal,
