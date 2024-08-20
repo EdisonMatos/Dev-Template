@@ -223,15 +223,17 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "0empty",
-        title: "0empty",
-        subtitle: "0empty",
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Conecte-se e acompanhe novidades!",
+        subtitle: "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
         paragraph: (
           <p>
-            0empty
+            Em nossas redes, você encontra atualizações sobre Direito Penal,
+            Trabalhista, Consultoria e muito mais!
             <br />
             <br />
-            0empty
+            Fique por dentro e esteja sempre um passo à frente com a nossa
+            orientação especializada.
           </p>
         ),
       },
