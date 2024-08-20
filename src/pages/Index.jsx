@@ -29,7 +29,7 @@ export default function Index() {
       <HowItWorksImage />
       <Faq />
       <FooterSocial />
-      <FloatingWhatsappButton buttonType="form" />
+      <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
   );

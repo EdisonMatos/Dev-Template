@@ -25,10 +25,10 @@ const FloatingWhatsappButton = ({ buttonType }) => {
   }, []);
 
   const handleClick = () => {
-    if (buttonType === "whatsapp") {
-      window.location.href = whatsappContactLink;
-    } else if (buttonType === "form") {
+    if (buttonType === "form") {
       setOpenModal(!openModal);
+    } else {
+      window.location.href = whatsappContactLink;
     }
   };
 
@@ -46,7 +46,9 @@ const FloatingWhatsappButton = ({ buttonType }) => {
           alt="Floating Button"
         />
       )}
-      {buttonType === "form" && <Modal isOpen={openModal} setCloseModal={setOpenModal} />}
+      {buttonType === "form" && (
+        <Modal isOpen={openModal} setCloseModal={setOpenModal} />
+      )}
     </button>
   );
 };
