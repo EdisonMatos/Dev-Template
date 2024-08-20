@@ -533,31 +533,34 @@ const content = {
       },
     },
     steps: {
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso processo de atendimento jurídico?",
+      subtitle: "Consulta inicial",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "0empty",
-          cardDescription: "0empty",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para compreender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "0empty",
-          cardDescription: "0empty",
+          cardTitle: "Análise detalhada",
+          cardDescription: "evidências para construir uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "0empty",
-          cardDescription: "0empty",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Desenvolvemos uma estratégia jurídica sob medida para proteger seus interesses de forma eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "0empty",
-          cardDescription: "0empty",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução que você precisa.",
         },
       },
     },
