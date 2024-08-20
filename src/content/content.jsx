@@ -86,15 +86,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Protegendo seus interesses",
+      subtitle:
+        "Soluções jurídicas especializadas para defender seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "0empty",
-        subtitle: "0empty",
+        title: "Penal",
+        subtitle:
+          "Defesa estratégica em processos criminais, resguardando sua liberdade e direitos.",
         description: (
           <div>
             0empty <br />
@@ -120,8 +122,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "0empty",
-        subtitle: "0empty",
+        title: "Atendimento em Delegacias",
+        subtitle:
+          "Suporte jurídico imediato, protegendo seus direitos desde o primeiro momento.",
         description: (
           <div>
             0empty <br />
@@ -148,8 +151,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "0empty",
-        subtitle: "0empty",
+        title: "Trabalhista",
+        subtitle: "Defesa eficaz dos seus direitos no ambiente de trabalho.",
         description: (
           <div>
             0empty <br />
@@ -175,8 +178,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "0empty",
-        subtitle: "0empty",
+        title: "Consultoria Preventiva",
+        subtitle:
+          "Prevenindo conflitos e promovendo segurança jurídica em relações profissionais.",
         description: (
           <div>
             0empty <br />
