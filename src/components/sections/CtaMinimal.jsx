@@ -3,7 +3,6 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import links from "../../content/links";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
@@ -11,7 +10,6 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function CtaMinimal() {
   return (
     <div>
-      <MotionDivDownToUp>
         <SectionArea className="squares">
           <SectionWrapper>
             <SectionHeader
@@ -25,6 +23,7 @@ export default function CtaMinimal() {
               aria-label={content.texts.hero.ctaButtonAriaLabel}
               label={content.texts.cta.ctaButtonText}
               buttonLink={whatsappContactLink}
+              animation
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +39,6 @@ export default function CtaMinimal() {
             />
           </SectionWrapper>
         </SectionArea>
-      </MotionDivDownToUp>
 
       {/* Inicio de onda shape div
 

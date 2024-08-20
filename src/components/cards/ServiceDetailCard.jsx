@@ -1,4 +1,5 @@
 import Button from "../interactives/Button";
+import links from "../../content/links";
 
 export default function ServiceDetailCard(props) {
   const { img, subtitle, description, buttonLabel, buttonIcon, buttonLink } =

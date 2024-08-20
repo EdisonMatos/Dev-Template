@@ -44,12 +44,13 @@ export default function Hero() {
                 </div>
               </MotionDivDownToUp>
               <div className="w-full phone2:w-full tablet2:w-auto">
-                <MotionDivDownToUp>
+                
                   <div className="flex justify-center w-full desktop1:justify-start">
                     <Button
                       aria-label={content.texts.hero.ctaButtonAriaLabel}
                       label={content.texts.hero.ctaButtonText}
                       buttonLink={whatsappContactLink}
+                      animation
                       className="w-[100%]"
                       icon={
                         <svg
@@ -65,7 +66,6 @@ export default function Hero() {
                       }
                     />
                   </div>
-                </MotionDivDownToUp>
               </div>
               {/* <div className="">
                 <MotionDivLeftToRight>

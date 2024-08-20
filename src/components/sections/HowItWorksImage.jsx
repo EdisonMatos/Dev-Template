@@ -43,56 +43,49 @@ export default function HowItWorksImage() {
           /> */}
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
-          <MotionDivDownToUp className="flex justify-center">
-            <SectionHeader
-              className="hidden text-center desktop1:flex"
-              miniTitle={content.texts.steps.miniTag}
-              sectionHeaderTitle={content.texts.steps.title}
-              sectionHeaderSubtitle={content.texts.steps.subtitle}
-              color=""
-              type="article"
-            />
-            <SectionHeader
-              className="text-center desktop1:hidden"
-              miniTitle={content.texts.steps.miniTag}
-              sectionHeaderTitle={content.texts.steps.title}
-              sectionHeaderSubtitle={content.texts.steps.subtitle}
-              color=""
-              type=""
-            />
-          </MotionDivDownToUp>
-          <MotionDivDownToUp>
+          <SectionHeader
+            className="hidden text-center desktop1:flex"
+            miniTitle={content.texts.steps.miniTag}
+            sectionHeaderTitle={content.texts.steps.title}
+            sectionHeaderSubtitle={content.texts.steps.subtitle}
+            color=""
+            type="article"
+          />
+          <SectionHeader
+            className="text-center desktop1:hidden"
+            miniTitle={content.texts.steps.miniTag}
+            sectionHeaderTitle={content.texts.steps.title}
+            sectionHeaderSubtitle={content.texts.steps.subtitle}
+            color=""
+            type=""
+          />
+          
             <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
-              <MotionDivDownToUp className="tablet1:w-[45%]">
                 <HowItWorksCard
                   number={content.texts.steps.cards.card1.stepNumber}
                   title={content.texts.steps.cards.card1.cardTitle}
                   description={content.texts.steps.cards.card1.cardDescription}
+                  animation
                 />
-              </MotionDivDownToUp>
-              <MotionDivDownToUp className="tablet1:w-[45%]">
                 <HowItWorksCard
                   number={content.texts.steps.cards.card2.stepNumber}
                   title={content.texts.steps.cards.card2.cardTitle}
                   description={content.texts.steps.cards.card2.cardDescription}
+                  animation
                 />
-              </MotionDivDownToUp>
-              <MotionDivDownToUp className="tablet1:w-[45%]">
                 <HowItWorksCard
                   number={content.texts.steps.cards.card3.stepNumber}
                   title={content.texts.steps.cards.card3.cardTitle}
                   description={content.texts.steps.cards.card3.cardDescription}
+                  animation
                 />
-              </MotionDivDownToUp>
-              <MotionDivDownToUp className="tablet1:w-[45%]">
                 <HowItWorksCard
                   number={content.texts.steps.cards.card4.stepNumber}
                   title={content.texts.steps.cards.card4.cardTitle}
                   description={content.texts.steps.cards.card4.cardDescription}
+                  animation
                 />
-              </MotionDivDownToUp>
             </div>
-          </MotionDivDownToUp>
         </div>
       </SectionWrapper>
 

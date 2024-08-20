@@ -1,3 +1,5 @@
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+
 export default function SectionHeader({
   sectionHeaderTitle,
   sectionHeaderSubtitle,
@@ -15,6 +17,7 @@ export default function SectionHeader({
   subtitleOrientation,
   miniTitleOrientation,
   marginBottomOption,
+  animation = true,
 }) {
   if (color === "dark") {
     miniTitleBgColor = "bg-secondary bg-opacity-5";
@@ -39,25 +42,29 @@ export default function SectionHeader({
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
   }
 
-  return (
-    <div className={` ${usage} ${className}`}>
-      <div className={`${miniTitleSpace}`}>
-        <div
-          className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
-        >
-          <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
+  const Content = (
+    <div className={`${usage} ${className}`}>
+      <div>
+        <div className={`${miniTitleSpace}`}>
+          <div
+            className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
+          >
+            <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
+          </div>
         </div>
+        <h1
+          className={`${titleColor} ${titleOrientation} text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}
+        >
+          {sectionHeaderTitle}
+        </h1>
+        <p
+          className={`text-title1 font-secondFont leading-[26px] ${marginBottomOption} ${subtitleOrientation} ${subtitleColor}`}
+        >
+          {sectionHeaderSubtitle}
+        </p>
       </div>
-      <h1
-        className={`${titleColor} ${titleOrientation} text-title4 leading-[34px] tablet1:leading-[42px] tablet1:text-title5 font-mainFont font-bold mb-[16px]`}
-      >
-        {sectionHeaderTitle}
-      </h1>
-      <p
-        className={`text-title1 font-secondFont leading-[26px] ${marginBottomOption} ${subtitleOrientation} ${subtitleColor}`}
-      >
-        {sectionHeaderSubtitle}
-      </p>
     </div>
   );
+
+  return animation ? <MotionDivDownToUp className="w-full flex justify-center">{Content}</MotionDivDownToUp> : Content;
 }

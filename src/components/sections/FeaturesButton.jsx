@@ -10,7 +10,6 @@ import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -33,15 +32,13 @@ export default function FeaturesButton() {
         id={"service"}
         className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary squares"
       >
-        <MotionDivDownToUp className="w-full flex justify-center">
-          <SectionHeader
-            className="text-center"
-            miniTitle={content.texts.features.miniTag}
-            sectionHeaderTitle={content.texts.features.title}
-            sectionHeaderSubtitle={content.texts.features.subtitle}
-            color="dark"
-          />
-        </MotionDivDownToUp>
+        <SectionHeader
+          className="text-center"
+          miniTitle={content.texts.features.miniTag}
+          sectionHeaderTitle={content.texts.features.title}
+          sectionHeaderSubtitle={content.texts.features.subtitle}
+          color="dark"
+        />
         <SectionWrapper>
           <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
             <FeatureImgOnBgCardButton
@@ -50,6 +47,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card1.subtitle}
               buttonLabel={content.texts.features.card1.buttonLabel}
               buttonColor="bg-black"
+              animation
               onClick={() =>
                 onClick(
                   content.texts.features.card1.title,
@@ -73,6 +71,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card2.subtitle}
               buttonLabel={content.texts.features.card2.buttonLabel}
               buttonColor="bg-black"
+              animation
               onClick={() =>
                 onClick(
                   content.texts.features.card2.title,
@@ -96,6 +95,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card3.subtitle}
               buttonLabel={content.texts.features.card3.buttonLabel}
               buttonColor="bg-black"
+              animation
               onClick={() =>
                 onClick(
                   content.texts.features.card3.title,
@@ -119,6 +119,7 @@ export default function FeaturesButton() {
               description={content.texts.features.card4.subtitle}
               buttonLabel={content.texts.features.card4.buttonLabel}
               buttonColor="bg-black"
+              animation
               onClick={() =>
                 onClick(
                   content.texts.features.card4.title,
