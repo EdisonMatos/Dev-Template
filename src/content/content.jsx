@@ -207,15 +207,25 @@ const content = {
         img: aboutImg1,
         alt: "0empty",
       },
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
+      miniTag: "QUEM É SPÍNOLA & FILGUEIRA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Spínola e Filgueira Advocacia é fruto de uma trajetória de dedicação e excelência, fundamentada em compromisso e ética.",
       paragraph: (
         <div>
-          0empty
+          Nossa busca constante pela qualidade é guiada pela defesa incansável
+          dos direitos de nossos clientes.
           <br />
           <br />
-          0empty
+          Valores como transparência, integridade e respeito são o alicerce do
+          nosso trabalho. Para nós, o sucesso vai além de vencer causas; envolve
+          construir relações de confiança e oferecer a melhor orientação
+          jurídica.
+          <br />
+          <br />
+          Cada caso recebe nossa total atenção e dedicação. Estamos prontos para
+          enfrentar desafios complexos com determinação, sendo a voz firme que
+          você precisa para proteger seus direitos.
         </div>
       ),
       aboutSocial: {
