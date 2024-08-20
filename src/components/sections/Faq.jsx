@@ -31,7 +31,7 @@ export default function Faq() {
               {" "}
               <a href={whatsappContactLink} target="_blank" className="">
                 {" "}
-                Sua dúvida não foi respondida? Clique aqui e fale conosco.{" "}
+                Clique aqui caso tenha mais dúvidas.{" "}
               </a>
             </Paragraphs>
           </MotionDivDownToUp>
