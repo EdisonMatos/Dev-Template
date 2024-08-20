@@ -535,7 +535,7 @@ const content = {
     steps: {
       miniTag: "PASSO A PASSO",
       title: "Como funciona nosso processo de atendimento jurídico?",
-      subtitle: "Consulta inicial",
+      subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
@@ -548,7 +548,8 @@ const content = {
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
-          cardDescription: "evidências para construir uma visão completa.",
+          cardDescription:
+            "Estudamos todos os aspectos do seu caso, revisando documentos e evidências para construir uma visão completa.",
         },
         card3: {
           stepNumber: 3,
