@@ -8,7 +8,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/imgAbout.png";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -57,13 +57,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "0empty",
-      title: <h1 className="mb-[16px]">0empty</h1>,
-      subtitle: "0empty",
-      ctaButtonText: "0empty",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM NATAL - RN",
+      title: <h1 className="mb-[16px]">Spínola e Filgueira Advocacia</h1>,
+      subtitle:
+        "A voz firme e comprometida que você precisa na defesa dos seus direitos.",
+      ctaButtonText: "Fale conosco",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "0empty",
+      secondaryCta: "Fale conosco",
       images: {
         background: bgHeroImg,
         static: {

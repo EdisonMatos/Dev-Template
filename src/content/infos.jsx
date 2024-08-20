@@ -1,36 +1,35 @@
 const infos = {
-  name: "0empty",
+  name: "Spínola e Filgueira Advocacia",
   slogan: "",
-  phone: "(0empty) 0empty-0empty",
+  phone: "(84) 9926-7425",
   mail: "0empty",
   footerInfos: {
     endereco: (
       <div>
-        <h1>0empty</h1>
-        <p>0empty</p>
-        <br />
-        <h1>0empty</h1>
-        <p>
-          0empty
-          <p>0empty</p>
-          0empty
-        </p>
+        <p>Rua Carapeba, nº 106</p>
+        <p>Ponta Negra, Natal - RN</p>
+        <p>CEP 59090-390</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        0empty
+        Segunda à Sexta-feira
         <br />
-        0empty
+        Das 08h às 18h
         <br />
       </p>
     ),
-    obs: <span className="italic">empty foco</span>,
+    obs: (
+      <span className="italic">
+        Em casos criminais, entrar em contato para atendimento de urgência 24h
+      </span>
+    ),
     midSectionName: "Até mais!",
     year: 2024,
-    footerText: "0empty",
+    footerText:
+      "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
   },
 };
 

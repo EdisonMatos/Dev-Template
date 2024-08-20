@@ -20,7 +20,7 @@ export default function Index() {
       <NavbarSocial />
       <Hero />
       <FeaturesWithIcons />
-      <FeaturesButton />
+      {/* <FeaturesButton /> */}
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
