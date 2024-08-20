@@ -7,8 +7,6 @@ import AccordionExpandDefault from "../interactives/AcordionTwo";
 import links from "../../content/links";
 import content from "../../content/content";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
-
 export default function Faq() {
   return (
     <div className="relative">
@@ -28,11 +26,7 @@ export default function Faq() {
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="text-center underline transition text-secondary hover:scale-110">
-              {" "}
-              <a href={whatsappContactLink} target="_blank" className="">
-                {" "}
-                Clique aqui caso tenha mais dúvidas.{" "}
-              </a>
+              {content.texts.faq.paragraph}
             </Paragraphs>
           </MotionDivDownToUp>
         </SectionWrapper>

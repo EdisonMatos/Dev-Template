@@ -41,6 +41,8 @@ import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.jpg";
 import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.jpg";
 import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.jpg";
 
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+
 const content = {
   texts: {
     navbar: {
@@ -635,6 +637,13 @@ const content = {
             "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
         },
       },
+      paragraph: (
+        <p>
+          <a href={whatsappContactLink} target="_blank">
+            Clique aqui caso tenha mais dúvidas.
+          </a>
+        </p>
+      ),
     },
     carouselv1: {
       title: "0empty",
