@@ -5,7 +5,7 @@ import links from "../../content/links";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
-const FloatingWhatsappButton = () => {
+const FloatingWhatsappButton = ({ buttonType }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [openModal, setOpenModal] = useState(false);
 
@@ -24,23 +24,29 @@ const FloatingWhatsappButton = () => {
     };
   }, []);
 
+  const handleClick = () => {
+    if (buttonType === "whatsapp") {
+      window.location.href = whatsappContactLink;
+    } else if (buttonType === "form") {
+      setOpenModal(!openModal);
+    }
+  };
+
   return (
     <button
       className={`${
         isVisible ? "block animate-fade-in" : "hidden"
       } fixed bottom-2 right-3 p-4 text-secondary z-20 rounded-full focus:outline-none `}
-      onClick={() => setOpenModal(!openModal)}
+      onClick={handleClick}
     >
       {openModal ? null : (
-        <button>
-          <img
-            className="w-16 focus:outline-none hover:scale-125 transition"
-            src={whatsappWebm}
-            alt="Floating WhatsApp Button"
-          />
-        </button>
+        <img
+          className="w-16 focus:outline-none hover:scale-125 transition"
+          src={whatsappWebm}
+          alt="Floating Button"
+        />
       )}
-      <Modal isOpen={openModal} setCloseModal={setOpenModal} />
+      {buttonType === "form" && <Modal isOpen={openModal} setCloseModal={setOpenModal} />}
     </button>
   );
 };
