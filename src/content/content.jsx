@@ -222,14 +222,37 @@ const content = {
           Nossa busca constante pela qualidade é guiada pela defesa incansável
           dos direitos de nossos clientes.
           <br />
-          <br />
           Valores como transparência, integridade e respeito são o alicerce do
-          nosso trabalho. Para nós, o sucesso vai além de vencer causas; envolve
-          construir relações de confiança e oferecer a melhor orientação
-          jurídica.
+          nosso trabalho.
+          <br />
+          Para nós, o sucesso vai além de vencer causas; envolve construir
+          relações de confiança e oferecer a melhor orientação jurídica.
         </div>
       ),
-      modal: <div></div>,
+      titleModal: <strong>Nossa trajetória</strong>,
+      modal: (
+        <p>
+          <strong>
+            Spínola e Filgueira Advocacia é fruto de uma trajetória de dedicação
+            e excelência, fundamentada em compromisso e ética.
+          </strong>
+          <br />
+          <br />
+          Nossa busca constante pela qualidade é guiada pela defesa incansável
+          dos direitos de nossos clientes.
+          <br />
+          Valores como transparência, integridade e respeito são o alicerce do
+          nosso trabalho.
+          <br />
+          Para nós, o sucesso vai além de vencer causas; envolve construir
+          relações de confiança e oferecer a melhor orientação jurídica.
+          <br />
+          Cada caso recebe nossa total atenção e dedicação.
+          <br />
+          Estamos prontos para enfrentar desafios complexos com determinação,
+          sendo a voz firme que você precisa para proteger seus direitos.
+        </p>
+      ),
 
       aboutSocial: {
         img: {
