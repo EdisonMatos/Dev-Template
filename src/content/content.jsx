@@ -264,7 +264,7 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades!",
+        title: "Acompanhe as novidades!",
         subtitle:
           "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
         paragraph: (
