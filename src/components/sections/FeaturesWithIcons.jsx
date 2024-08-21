@@ -21,7 +21,7 @@ export default function FeaturesWithIcons() {
         color="dark"
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center justify-between w-full tablet1:flex-row">
+        <div className="flex flex-col items-center justify-evenly w-full tablet1:flex-row">
           <div className=" col1 desktop1:w-[28%]">
             <MotionDivDownToUp>
               <IconFeatureCard
@@ -47,7 +47,7 @@ export default function FeaturesWithIcons() {
                 }
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
-                className="tablet1:mb-[46px]"
+                className="tablet1:mb-[46px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -120,7 +120,7 @@ export default function FeaturesWithIcons() {
                 }
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
-                className="tablet1:mb-[46px]"
+                className="tablet1:mb-[46px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
