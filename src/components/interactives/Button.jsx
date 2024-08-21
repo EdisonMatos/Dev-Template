@@ -19,11 +19,11 @@ export default function Button({
   animation = true,
 }) {
   if (size === "small") {
-    sizeFeatures = "rounded-[5px] px-[18px] py-[10px]";
+    sizeFeatures = "rounded-[4px] px-[18px] py-[10px]";
     textclassName = "text-paragraph3 font-secondFont";
     gap = "gap-[10px]";
   } else {
-    sizeFeatures = "rounded-[10px] px-[30px] py-[16px]";
+    sizeFeatures = "rounded-[8px] px-[30px] py-[16px]";
     textclassName = "text-paragraph4 font-secondFont";
     gap = "gap-[20px]";
   }
