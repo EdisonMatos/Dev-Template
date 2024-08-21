@@ -15,7 +15,7 @@ const infos = {
       <p>
         Horário de expediente:
         <br />
-        Segunda à Sexta-feira
+        Segunda a Sexta-feira
         <br />
         Das 08h às 18h
         <br />
@@ -32,7 +32,7 @@ const infos = {
       "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
 
     footerSocialText: "Siga a gente nas redes sociais:",
-    footerNavegacaoText: "NAVEGAÇÂO",
+    footerNavegacaoText: "NAVEGAÇÃO",
     footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
   },
 };
