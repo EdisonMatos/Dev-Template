@@ -119,26 +119,30 @@ function FooterSocial() {
 
           {/* Msg de observação */}
 
-          <div className="flex full gap-x-[12px] items-center opacity-90">
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-clock"
-              >
-                <circle cx="12" cy="12" r="10" />
-                <polyline points="12 6 12 12 16 14" />
-              </svg>
+          <MotionDivDownToUp>
+            {" "}
+            <div className="flex full gap-x-[12px] items-center opacity-90">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-clock"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+
+              <p>{infos.footerInfos.obs}</p>
             </div>
-            <p>{infos.footerInfos.obs}</p>
-          </div>
+          </MotionDivDownToUp>
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <MotionDivDownToUp>
