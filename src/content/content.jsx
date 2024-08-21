@@ -227,13 +227,10 @@ const content = {
           nosso trabalho. Para nós, o sucesso vai além de vencer causas; envolve
           construir relações de confiança e oferecer a melhor orientação
           jurídica.
-          <br />
-          <br />
-          Cada caso recebe nossa total atenção e dedicação. Estamos prontos para
-          enfrentar desafios complexos com determinação, sendo a voz firme que
-          você precisa para proteger seus direitos.
         </div>
       ),
+      modal: <div></div>,
+
       aboutSocial: {
         img: {
           img: aboutSocialImg,
