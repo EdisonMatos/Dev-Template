@@ -30,6 +30,8 @@ const infos = {
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+
+    footerSocialText: "Siga a gente nas redes sociais:",
   },
 };
 
