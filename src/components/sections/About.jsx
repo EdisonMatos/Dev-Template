@@ -36,7 +36,7 @@ export default function About() {
             label={content.texts.hero.ctaButtonText}
             buttonLink={whatsappContactLink}
             animation
-            className="w-[100%]"
+            className="hover:scale-105"
             icon={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
