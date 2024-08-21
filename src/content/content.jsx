@@ -60,9 +60,13 @@ const content = {
     },
     hero: {
       miniTag: "ESCRITÓRIO DE ADVOCACIA EM NATAL - RN",
-      title: <h1 className="mb-[16px]">Spínola e Filgueira Advocacia</h1>,
+      title: (
+        <h1 className="mb-[16px]">
+          Compromisso com seu direito em todo o Brasil
+        </h1>
+      ),
       subtitle:
-        "A voz firme e comprometida que você precisa na defesa dos seus direitos.",
+        "Atuação nacional com defesa estratégica e proteção rigorosa dos seus direitos.",
       ctaButtonText: "Fale conosco",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -644,7 +648,7 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via Whatsapp e discutiremos suas necessidades e estimaremos custos.",
+            "Agende sua consulta conosco via Whatsapp, assim conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
