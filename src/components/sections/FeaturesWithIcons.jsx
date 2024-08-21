@@ -21,8 +21,8 @@ export default function FeaturesWithIcons() {
         color="dark"
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center justify-evenly w-full tablet1:flex-row">
-          <div className=" col1 desktop1:w-[28%]">
+        <div className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-evenly gap-x-[10%] px-[4%] desktop1:gap-x-0 desktop1:px-0">
+          <div className="col1 tablet1:w-[50%] desktop1:w-[28%]">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
@@ -33,10 +33,10 @@ export default function FeaturesWithIcons() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-gavel"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-gavel"
                   >
                     <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
                     <path d="m16 16 6-6" />
@@ -60,10 +60,10 @@ export default function FeaturesWithIcons() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-siren"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-siren"
                   >
                     <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
                     <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
@@ -81,21 +81,16 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="flex justify-center w-[32%]">
+          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
             <div
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
-            >
-              {/* <img
-              src={content.texts.features.imgFeatures}
-              alt="Imagem ilustrativa da seção"
-              className="rounded-2xl"
-            /> */}
-            </div>
+            ></div>
           </MotionDivDownToUp>
-          <div className=" col3 desktop1:w-[28%]">
+
+          <div className="col3 tablet1:w-[50%] desktop1:w-[28%]">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={
@@ -106,10 +101,10 @@ export default function FeaturesWithIcons() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-handshake"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-handshake"
                   >
                     <path d="m11 17 2 2a1 1 0 1 0 3-3" />
                     <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
@@ -133,10 +128,10 @@ export default function FeaturesWithIcons() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-lightbulb"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-lightbulb"
                   >
                     <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
                     <path d="M9 18h6" />
