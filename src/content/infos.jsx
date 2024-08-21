@@ -2,7 +2,7 @@ const infos = {
   name: "Spínola e Filgueira Advocacia",
   slogan: "",
   phone: "(84) 9926-7425",
-  mail: "0empty",
+  mail: "A definir",
   footerInfos: {
     endereco: (
       <div>
