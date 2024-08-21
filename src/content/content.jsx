@@ -264,7 +264,7 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades!",
+        title: "Acompanhe as novidades!",
         subtitle:
           "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
         paragraph: (
@@ -604,7 +604,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
@@ -614,7 +614,7 @@ const content = {
       title:
         "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica que você precisa.",
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
@@ -648,7 +648,7 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via Whatsapp, assim conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Agende sua consulta conosco via WhatsApp, assim conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
@@ -663,7 +663,7 @@ const content = {
         question4: {
           question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: (
