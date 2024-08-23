@@ -59,13 +59,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADefinir",
-      title: <h1 className="mb-[16px]">ADefinir</h1>,
-      subtitle: "ADefinir",
-      ctaButtonText: "ADefinir",
+      miniTag: "ADVOGADO AMBIENTAL E PREVIDENCIÁRIO EM CACOAL - RO",
+      title: (
+        <h1 className="mb-[16px]">Defendendo seus direitos em todo o Brasil</h1>
+      ),
+      subtitle:
+        "Atuação em âmbito nacional com defesa estratégica e proteção cuidadosa dos seus interesses.",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "ADefinir",
+      secondaryCta: "Entre em contato",
       images: {
         background: bgHeroImg,
         static: {
