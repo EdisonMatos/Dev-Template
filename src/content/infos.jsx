@@ -1,8 +1,8 @@
 const infos = {
-  name: "ADefinir",
+  name: "Dr. Juliano Aleixo",
   slogan: "",
-  phone: "(xx) xxxxx-xxxx",
-  mail: "ADefinir",
+  phone: "(69) 99980-7532",
+  mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
@@ -15,9 +15,9 @@ const infos = {
       <p>
         Horário de expediente:
         <br />
-        ADefinir
+        Segunda a Sexta-feira
         <br />
-        ADefinir
+        Das 8h às 18h
         <br />
       </p>
     ),
