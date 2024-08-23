@@ -59,18 +59,13 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM NATAL - RN",
-      title: (
-        <h1 className="mb-[16px]">
-          Compromisso com seu direito em todo o Brasil
-        </h1>
-      ),
-      subtitle:
-        "Atuação nacional com defesa estratégica e proteção rigorosa dos seus direitos.",
-      ctaButtonText: "Fale conosco",
+      miniTag: "ADefinir",
+      title: <h1 className="mb-[16px]">ADefinir</h1>,
+      subtitle: "ADefinir",
+      ctaButtonText: "ADefinir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "Fale conosco",
+      secondaryCta: "ADefinir",
       images: {
         background: bgHeroImg,
         static: {
@@ -92,17 +87,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Protegendo seus interesses",
-      subtitle:
-        "Soluções jurídicas especializadas para defender seus direitos.",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Penal",
-        subtitle:
-          "Defesa estratégica em processos criminais, resguardando sua liberdade e direitos.",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -128,9 +121,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Atendimento em Delegacias",
-        subtitle:
-          "Suporte jurídico imediato, protegendo seus direitos desde o primeiro momento.",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -157,8 +149,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhista",
-        subtitle: "Defesa eficaz dos seus direitos no ambiente de trabalho.",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -184,9 +176,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Previdenciário",
-        subtitle:
-          "Trabalhamos para garantir o acesso justo aos seus benefícios.",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -217,44 +208,28 @@ const content = {
         img: aboutImg1,
         alt: "0empty",
       },
-      miniTag: "QUEM É SPÍNOLA & FILGUEIRA",
-      title: "Nossa trajetória",
-      subtitle:
-        "Spínola e Filgueira Advocacia é fruto de uma trajetória de dedicação e excelência, fundamentada em compromisso e ética.",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       paragraph: (
         <div>
-          Nossa busca constante pela qualidade é guiada pela defesa incansável
-          dos direitos de nossos clientes.
+          ADefinir
           <br />
-          Valores como transparência, integridade e respeito são o alicerce do
-          nosso trabalho.
+          ADefinir
           <br />
-          Para nós, o sucesso vai além de vencer causas; envolve construir
-          relações de confiança e oferecer a melhor orientação jurídica.
+          ADefinir
         </div>
       ),
-      titleModal: <strong>Nossa trajetória</strong>,
+      titleModal: <strong>ADefinir</strong>,
       modal: (
         <p>
-          <strong>
-            Spínola e Filgueira Advocacia é fruto de uma trajetória de dedicação
-            e excelência, fundamentada em compromisso e ética.
-          </strong>
+          <strong>ADefinir</strong>
           <br />
           <br />
-          Nossa busca constante pela qualidade é guiada pela defesa incansável
-          dos direitos de nossos clientes.
+          ADefinir
           <br />
-          Valores como transparência, integridade e respeito são o alicerce do
-          nosso trabalho.
+          ADefinir
           <br />
-          Para nós, o sucesso vai além de vencer causas; envolve construir
-          relações de confiança e oferecer a melhor orientação jurídica.
-          <br />
-          Cada caso recebe nossa total atenção e dedicação.
-          <br />
-          Estamos prontos para enfrentar desafios complexos com determinação,
-          sendo a voz firme que você precisa para proteger seus direitos.
         </p>
       ),
 
@@ -263,18 +238,15 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Acompanhe as novidades!",
-        subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
+        miniTag: "ADefinir",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         paragraph: (
           <p>
-            Em nossas redes, você encontra atualizações sobre Direito Penal,
-            Trabalhista, Consultoria e muito mais!
+            ADefinir
             <br />
             <br />
-            Fique por dentro e esteja sempre um passo à frente com a nossa
-            orientação especializada.
+            ADefinir
           </p>
         ),
       },
@@ -311,8 +283,8 @@ const content = {
       number3Description: "0empty",
     },
     team: {
-      title: "Nossa Equipe",
-      subtitle: "Conheça as mentes brilhantes por trás do nosso sucesso",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       members: {
         member1: {
           img: {
@@ -576,46 +548,40 @@ const content = {
       },
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
+      miniTag: "ADefinir",
+      title: "ADefinir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para compreender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Estudamos todos os aspectos do seu caso, revisando documentos e evidências para construir uma visão completa.",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Desenvolvemos uma estratégia jurídica sob medida para proteger seus interesses de forma eficaz.",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
+      ctaButtonText: "ADefinir",
     },
     testimonials: {
       miniTag: "0empty",
@@ -641,35 +607,31 @@ const content = {
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp, assim conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
       },
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-            Clique aqui caso tenha mais dúvidas.
+            ADefinir
           </a>
         </p>
       ),
