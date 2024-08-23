@@ -216,7 +216,7 @@ export default function About() {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }}
+        breakpoints={{ "4000px": "60vw", "1024px": "70vw", "641px": "85vw" }}
       >
         <p className="m-0 ">{modalContent}</p>
       </Dialog>

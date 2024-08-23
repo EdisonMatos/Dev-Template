@@ -214,29 +214,53 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "0empty",
+        alt: "Foto ilustrativa",
       },
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "QUEM É DR. JULIANO ALEIXO",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogado inscrito na Ordem dos Advogados do Brasil, sob o número 12.836, seccional do Estado de Rondônia.",
       paragraph: (
         <div>
-          ADefinir
+          Cresci no interior de Rondônia, filho de agricultores, e passei minha
+          infância envolvido na lida do campo. A vida na zona rural moldou meus
+          valores e me preparou para a jornada que viria a seguir.
           <br />
-          ADefinir
-          <br />
-          ADefinir
+          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
+          me levou a deixar o campo após o ensino médio para ingressar na
+          Universidade Federal de Rondônia no curso de Direito.
         </div>
       ),
-      titleModal: <strong>ADefinir</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
-        <p>
-          <strong>ADefinir</strong>
+        <p className="text-paragraph3">
+          <strong>
+            Advogado inscrito na Ordem dos Advogados do Brasil, sob o número
+            12.836, seccional do Estado de Rondônia.
+          </strong>
           <br />
           <br />
-          ADefinir
+          Cresci no interior de Rondônia, filho de agricultores, e passei minha
+          infância envolvido na lida do campo. <br />A vida na zona rural moldou
+          meus valores e me preparou para a jornada que viria a seguir. <br />
+          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
+          me levou a deixar o campo após o ensino médio para ingressar na
+          Universidade Federal de Rondônia no curso de Direito. <br />
+          Minha trajetória acadêmica continuou com uma pós-graduação em Direito
+          Processual Civil pela mesma universidade e, atualmente, estou
+          ampliando meus conhecimentos com um Mestrado em Ciências Ambientais.
+          <br />A advocacia sempre foi uma chama acesa em meu coração. A
+          aprovação na prova da OAB logo após a conclusão do curso de Direito
+          marcou o início da minha dedicação integral à profissão. <br />
+          Minha missão é clara: auxiliar meus clientes a alcançar seus objetivos
+          e proteger seus direitos de forma ágil e efetiva. <br />
+          Para mim, a advocacia não é apenas uma profissão, mas uma vocação.
+          Comprometo-me a trabalhar com seriedade e boa-fé, mantendo lealdade e
+          respeito a cada cliente.
           <br />
-          ADefinir
+          <br />
+          Minhas soluções são sempre pautadas pela legalidade e pela verdade,
+          com o objetivo de efetivar os direitos de quem confia em meu trabalho.
           <br />
         </p>
       ),
