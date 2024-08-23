@@ -90,15 +90,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "ESPECIALIDADES",
+      title: "Atenção personalizada e aplicada aos seus direitos.",
+      subtitle:
+        "Especialista em múltiplas áreas para garantir uma defesa sólida e eficaz dos seus interesses.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "Previdenciário",
+        subtitle:
+          "Apoio próximo e eficaz para garantir seus direitos previdenciários com dedicação.",
         description: (
           <div>
             0empty <br />
@@ -124,8 +126,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "Trabalhista",
+        subtitle:
+          "Lutando por justiça no seu ambiente de trabalho com comprometimento e empatia.",
         description: (
           <div>
             0empty <br />
@@ -152,8 +155,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "Ambiental",
+        subtitle:
+          "Protegendo o meio ambiente com paixão e responsabilidade, preservando o futuro para todos.",
         description: (
           <div>
             0empty <br />
@@ -179,8 +183,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "Agrário",
+        subtitle:
+          "Defendendo suas conquistas no campo com seriedade e comprometimento.",
         description: (
           <div>
             0empty <br />
