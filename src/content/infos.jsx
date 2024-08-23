@@ -24,7 +24,8 @@ const infos = {
     obs: <span className="italic">ADefinir</span>,
     midSectionName: "Até mais!",
     year: 2024,
-    footerText: "ADefinir",
+    footerText:
+      "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
 
     footerSocialText: "Siga a gente nas redes sociais:",
     footerNavegacaoText: "NAVEGAÇÃO",
