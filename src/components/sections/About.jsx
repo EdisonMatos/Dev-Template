@@ -187,6 +187,8 @@ export default function About() {
               className="mt-[48px]"
               label="Continuar lendo"
               onClick={onClick}
+              removeAnchor={true}
+              removeTarget={true}
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
