@@ -649,31 +649,35 @@ const content = {
       },
     },
     faq: {
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via Whatsapp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-            ADefinir
+            Em caso de mais dúvidas, clique aqui.
           </a>
         </p>
       ),
