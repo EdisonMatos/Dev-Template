@@ -59,13 +59,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADefinir",
-      title: <h1 className="mb-[16px]">ADefinir</h1>,
-      subtitle: "ADefinir",
-      ctaButtonText: "ADefinir",
+      miniTag: "ADVOGADO AMBIENTAL E PREVIDENCIÁRIO EM CACOAL - RO",
+      title: (
+        <h1 className="mb-[16px]">Defendendo seus direitos em todo o Brasil</h1>
+      ),
+      subtitle:
+        "Atuação em âmbito nacional com defesa estratégica e proteção cuidadosa dos seus interesses.",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "ADefinir",
+      secondaryCta: "Entre em contato",
       images: {
         background: bgHeroImg,
         static: {
@@ -87,15 +90,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "ESPECIALIDADES",
+      title: "Atenção personalizada e aplicada aos seus direitos.",
+      subtitle:
+        "Especialista em múltiplas áreas para garantir uma defesa sólida e eficaz dos seus interesses.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "Previdenciário",
+        subtitle:
+          "Apoio próximo e eficaz para garantir seus direitos previdenciários com dedicação.",
         description: (
           <div>
             0empty <br />
@@ -121,8 +126,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "Trabalhista",
+        subtitle:
+          "Lutando por justiça no seu ambiente de trabalho com comprometimento e empatia.",
         description: (
           <div>
             0empty <br />
@@ -149,8 +155,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "Ambiental",
+        subtitle:
+          "Protegendo o meio ambiente com paixão e responsabilidade, preservando o futuro para todos.",
         description: (
           <div>
             0empty <br />
@@ -176,8 +183,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "Agrário",
+        subtitle:
+          "Defendendo suas conquistas no campo com seriedade e comprometimento.",
         description: (
           <div>
             0empty <br />
@@ -206,29 +214,53 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "0empty",
+        alt: "Foto ilustrativa",
       },
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "QUEM É DR. JULIANO ALEIXO",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogado inscrito na Ordem dos Advogados do Brasil, sob o número 12.836, seccional do Estado de Rondônia.",
       paragraph: (
         <div>
-          ADefinir
+          Cresci no interior de Rondônia, filho de agricultores, e passei minha
+          infância envolvido na lida do campo. A vida na zona rural moldou meus
+          valores e me preparou para a jornada que viria a seguir.
           <br />
-          ADefinir
-          <br />
-          ADefinir
+          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
+          me levou a deixar o campo após o ensino médio para ingressar na
+          Universidade Federal de Rondônia no curso de Direito.
         </div>
       ),
-      titleModal: <strong>ADefinir</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
-        <p>
-          <strong>ADefinir</strong>
+        <p className="text-paragraph3">
+          <strong>
+            Advogado inscrito na Ordem dos Advogados do Brasil, sob o número
+            12.836, seccional do Estado de Rondônia.
+          </strong>
           <br />
           <br />
-          ADefinir
+          Cresci no interior de Rondônia, filho de agricultores, e passei minha
+          infância envolvido na lida do campo. <br />A vida na zona rural moldou
+          meus valores e me preparou para a jornada que viria a seguir. <br />
+          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
+          me levou a deixar o campo após o ensino médio para ingressar na
+          Universidade Federal de Rondônia no curso de Direito. <br />
+          Minha trajetória acadêmica continuou com uma pós-graduação em Direito
+          Processual Civil pela mesma universidade e, atualmente, estou
+          ampliando meus conhecimentos com um Mestrado em Ciências Ambientais.
+          <br />A advocacia sempre foi uma chama acesa em meu coração. A
+          aprovação na prova da OAB logo após a conclusão do curso de Direito
+          marcou o início da minha dedicação integral à profissão. <br />
+          Minha missão é clara: auxiliar meus clientes a alcançar seus objetivos
+          e proteger seus direitos de forma ágil e efetiva. <br />
+          Para mim, a advocacia não é apenas uma profissão, mas uma vocação.
+          Comprometo-me a trabalhar com seriedade e boa-fé, mantendo lealdade e
+          respeito a cada cliente.
           <br />
-          ADefinir
+          <br />
+          Minhas soluções são sempre pautadas pela legalidade e pela verdade,
+          com o objetivo de efetivar os direitos de quem confia em meu trabalho.
           <br />
         </p>
       ),
@@ -238,15 +270,19 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "ADefinir",
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Siga-me nas redes sociais!",
+        subtitle:
+          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga o Dr Juliano Aleixo no Instagram!",
         paragraph: (
           <p>
-            ADefinir
+            Acompanhe nossas redes para dicas e insights sobre Direito
+            Previdenciário, Trabalhista, Ambiental e muito mais! Não perca a
+            oportunidade de se informar e aprender mais sobre seus direitos.
             <br />
             <br />
-            ADefinir
+            Fique por dentro e esteja sempre um passo à frente com a nossa
+            orientação especializada.
           </p>
         ),
       },
@@ -548,40 +584,46 @@ const content = {
       },
     },
     steps: {
-      miniTag: "ADefinir",
-      title: "ADefinir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso processo de atendimento jurídico?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "ADefinir",
-          cardDescription: "ADefinir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "ADefinir",
-          cardDescription: "ADefinir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "ADefinir",
-          cardDescription: "ADefinir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "ADefinir",
-          cardDescription: "ADefinir",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
-      ctaButtonText: "ADefinir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
       miniTag: "0empty",
@@ -607,31 +649,35 @@ const content = {
       },
     },
     faq: {
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via Whatsapp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-            ADefinir
+            Em caso de mais dúvidas, clique aqui.
           </a>
         </p>
       ),
