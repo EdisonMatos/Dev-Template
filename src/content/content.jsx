@@ -224,7 +224,7 @@ const content = {
         <div>
           Cresci no interior de Rondônia, filho de agricultores, e passei minha
           infância envolvido na lida do campo. A vida na zona rural moldou meus
-          valores e me preparou para a jornada que viria a seguir.
+          valores e me preparou para a jornada que seguiria.
           <br />
           Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
           me levou a deixar o campo após o ensino médio para ingressar na
@@ -242,7 +242,7 @@ const content = {
           <br />
           Cresci no interior de Rondônia, filho de agricultores, e passei minha
           infância envolvido na lida do campo. <br />A vida na zona rural moldou
-          meus valores e me preparou para a jornada que viria a seguir. <br />
+          meus valores e me preparou para a jornada que seguiria. <br />
           Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
           me levou a deixar o campo após o ensino médio para ingressar na
           Universidade Federal de Rondônia no curso de Direito. <br />
