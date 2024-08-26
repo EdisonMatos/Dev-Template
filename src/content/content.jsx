@@ -234,6 +234,11 @@ const content = {
           você precisa para proteger seus direitos.
         </div>
       ),
+      modal: (
+        <div>
+          <p>empty</p>
+        </div>
+      ),
       aboutSocial: {
         img: {
           img: aboutSocialImg,
