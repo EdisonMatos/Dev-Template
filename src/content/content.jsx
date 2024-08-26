@@ -91,7 +91,7 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Atenção personalizada e aplicada aos seus direitos.",
+      title: "Atenção personalizada e aplicada aos seus direitos",
       subtitle:
         "Especialista em múltiplas áreas para garantir uma defesa sólida e eficaz dos seus interesses.",
       imgFeatures: imgFeatures,
