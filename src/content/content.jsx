@@ -677,7 +677,7 @@ const content = {
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-            Em caso de mais dúvidas, clique aqui.
+          Clique aqui caso tenha mais dúvidas.
           </a>
         </p>
       ),
