@@ -67,7 +67,7 @@ function FooterSocial() {
               <p className="text-paragraph2">{infos.mail}</p>
             </div>
           </MotionDivDownToUp>
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             <div className="flex full gap-x-[12px] items-center opacity-90">
               <div>
                 <svg
@@ -88,7 +88,7 @@ function FooterSocial() {
               </div>
               <p>{infos.footerInfos.endereco}</p>
             </div>
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
 
           {/* EXPEDIENTE */}
           <MotionDivDownToUp>
@@ -119,7 +119,7 @@ function FooterSocial() {
 
           {/* Msg de observação */}
 
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             {" "}
             <div className="flex full gap-x-[12px] items-center opacity-90">
               <div>
@@ -142,7 +142,7 @@ function FooterSocial() {
 
               <p>{infos.footerInfos.obs}</p>
             </div>
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <MotionDivDownToUp>
@@ -186,7 +186,7 @@ function FooterSocial() {
 
           {/* Ícones redes sociais */}
           <MotionDivDownToUp>
-            <p className="opacity-90">Siga a gente nas redes sociais:</p>
+            <p className="opacity-90">{infos.footerInfos.footerSocialText}</p>
             <div className="mt-2 opacity-90">
               {" "}
               <div className="flex gap-[10px] items-center">
@@ -278,7 +278,7 @@ function FooterSocial() {
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <MotionDivDownToUp>
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              NAVEGAÇÃO
+              {infos.footerInfos.footerNavegacaoText}
             </h1>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
@@ -365,7 +365,7 @@ function FooterSocial() {
             href="https://www.paperstreet.com.br"
           >
             {" "}
-            Gostaria de ter um site como este? Clique aqui
+            {infos.footerInfos.footerDivulgacaoText}
           </a>
         </p>
       </div>
