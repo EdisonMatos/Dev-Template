@@ -59,14 +59,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM NATAL - RN",
-      title: <h1 className="mb-[16px]">Spínola e Filgueira Advocacia</h1>,
+      miniTag: "ADVOGADO AMBIENTAL E PREVIDENCIÁRIO EM CACOAL - RO",
+      title: (
+        <h1 className="mb-[16px]">Defendendo seus direitos em todo o Brasil</h1>
+      ),
       subtitle:
-        "A voz firme e comprometida que você precisa na defesa dos seus direitos.",
-      ctaButtonText: "Fale conosco",
+        "Atuação em âmbito nacional com defesa estratégica e proteção cuidadosa dos seus interesses.",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "Fale conosco",
+      secondaryCta: "Entre em contato",
       images: {
         background: bgHeroImg,
         static: {
@@ -88,17 +90,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Protegendo seus interesses",
+      miniTag: "ESPECIALIDADES",
+      title: "Atenção personalizada e aplicada aos seus direitos.",
       subtitle:
-        "Soluções jurídicas especializadas para defender seus direitos.",
+        "Especialista em múltiplas áreas para garantir uma defesa sólida e eficaz dos seus interesses.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Penal",
+        title: "Previdenciário",
         subtitle:
-          "Defesa estratégica em processos criminais, resguardando sua liberdade e direitos.",
+          "Apoio próximo e eficaz para garantir seus direitos previdenciários com dedicação.",
         description: (
           <div>
             0empty <br />
@@ -124,9 +126,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Atendimento em Delegacias",
+        title: "Trabalhista",
         subtitle:
-          "Suporte jurídico imediato, protegendo seus direitos desde o primeiro momento.",
+          "Lutando por justiça no seu ambiente de trabalho com comprometimento e empatia.",
         description: (
           <div>
             0empty <br />
@@ -153,8 +155,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhista",
-        subtitle: "Defesa eficaz dos seus direitos no ambiente de trabalho.",
+        title: "Ambiental",
+        subtitle:
+          "Protegendo o meio ambiente com paixão e responsabilidade, preservando o futuro para todos.",
         description: (
           <div>
             0empty <br />
@@ -180,9 +183,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria Preventiva",
+        title: "Agrário",
         subtitle:
-          "Prevenindo conflitos e promovendo segurança jurídica em relações profissionais.",
+          "Defendendo suas conquistas no campo com seriedade e comprometimento.",
         description: (
           <div>
             0empty <br />
@@ -211,47 +214,72 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "0empty",
+        alt: "Foto ilustrativa",
       },
-      miniTag: "QUEM É SPÍNOLA & FILGUEIRA",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É DR. JULIANO ALEIXO",
+      title: "Minha trajetória",
       subtitle:
-        "Spínola e Filgueira Advocacia é fruto de uma trajetória de dedicação e excelência, fundamentada em compromisso e ética.",
+        "Advogado inscrito na Ordem dos Advogados do Brasil, sob o número 12.836, seccional do Estado de Rondônia.",
       paragraph: (
         <div>
-          Nossa busca constante pela qualidade é guiada pela defesa incansável
-          dos direitos de nossos clientes.
+          Cresci no interior de Rondônia, filho de agricultores, e passei minha
+          infância envolvido na lida do campo. A vida na zona rural moldou meus
+          valores e me preparou para a jornada que viria a seguir.
           <br />
-          <br />
-          Valores como transparência, integridade e respeito são o alicerce do
-          nosso trabalho. Para nós, o sucesso vai além de vencer causas; envolve
-          construir relações de confiança e oferecer a melhor orientação
-          jurídica.
-          <br />
-          <br />
-          Cada caso recebe nossa total atenção e dedicação. Estamos prontos para
-          enfrentar desafios complexos com determinação, sendo a voz firme que
-          você precisa para proteger seus direitos.
+          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
+          me levou a deixar o campo após o ensino médio para ingressar na
+          Universidade Federal de Rondônia no curso de Direito.
         </div>
       ),
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
-        <div>
-          <p>empty</p>
-        </div>
+        <p className="text-paragraph3">
+          <strong>
+            Advogado inscrito na Ordem dos Advogados do Brasil, sob o número
+            12.836, seccional do Estado de Rondônia.
+          </strong>
+          <br />
+          <br />
+          Cresci no interior de Rondônia, filho de agricultores, e passei minha
+          infância envolvido na lida do campo. <br />A vida na zona rural moldou
+          meus valores e me preparou para a jornada que viria a seguir. <br />
+          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
+          me levou a deixar o campo após o ensino médio para ingressar na
+          Universidade Federal de Rondônia no curso de Direito. <br />
+          Minha trajetória acadêmica continuou com uma pós-graduação em Direito
+          Processual Civil pela mesma universidade e, atualmente, estou
+          ampliando meus conhecimentos com um Mestrado em Ciências Ambientais.
+          <br />A advocacia sempre foi uma chama acesa em meu coração. A
+          aprovação na prova da OAB logo após a conclusão do curso de Direito
+          marcou o início da minha dedicação integral à profissão. <br />
+          Minha missão é clara: auxiliar meus clientes a alcançar seus objetivos
+          e proteger seus direitos de forma ágil e efetiva. <br />
+          Para mim, a advocacia não é apenas uma profissão, mas uma vocação.
+          Comprometo-me a trabalhar com seriedade e boa-fé, mantendo lealdade e
+          respeito a cada cliente.
+          <br />
+          <br />
+          Minhas soluções são sempre pautadas pela legalidade e pela verdade,
+          com o objetivo de efetivar os direitos de quem confia em meu trabalho.
+          <br />
+        </p>
       ),
+
+
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades!",
+        title: "Siga-me nas redes sociais!",
         subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
+          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga o Dr Juliano Aleixo no Instagram!",
         paragraph: (
           <p>
-            Em nossas redes, você encontra atualizações sobre Direito Penal,
-            Trabalhista, Consultoria e muito mais!
+            Acompanhe nossas redes para dicas e insights sobre Direito
+            Previdenciário, Trabalhista, Ambiental e muito mais! Não perca a
+            oportunidade de se informar e aprender mais sobre seus direitos.
             <br />
             <br />
             Fique por dentro e esteja sempre um passo à frente com a nossa
@@ -292,8 +320,8 @@ const content = {
       number3Description: "0empty",
     },
     team: {
-      title: "Nossa Equipe",
-      subtitle: "Conheça as mentes brilhantes por trás do nosso sucesso",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       members: {
         member1: {
           img: {
@@ -567,25 +595,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para compreender seu caso e identificar suas necessidades jurídicas.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Estudamos todos os aspectos do seu caso, revisando documentos e evidências para construir uma visão completa.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia jurídica sob medida para proteger seus interesses de forma eficaz.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
@@ -595,7 +623,7 @@ const content = {
       title:
         "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica que você precisa.",
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
@@ -624,12 +652,12 @@ const content = {
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via Whatsapp e discutiremos suas necessidades e estimaremos custos.",
+            "Agende sua consulta conosco via Whatsapp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
@@ -644,13 +672,13 @@ const content = {
         question4: {
           question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Sim, oferecemos consultoria preventiva para ajudar a evitar problemas futuros e garantir conformidade legal.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-            Clique aqui caso tenha mais dúvidas.
+            Em caso de mais dúvidas, clique aqui.
           </a>
         </p>
       ),

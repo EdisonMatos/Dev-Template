@@ -1,5 +1,5 @@
-import links from "./links";
-import infos from "./infos";
+import links from "./reseted-links";
+import infos from "./reseted-infos";
 
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
@@ -41,6 +41,8 @@ import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.jpg";
 import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.jpg";
 import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.jpg";
 
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+
 const content = {
   texts: {
     navbar: {
@@ -52,18 +54,18 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Cursos", "0empty", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "0empty",
-      title: <h1 className="mb-[16px]">0empty</h1>,
-      subtitle: "0empty",
-      ctaButtonText: "0empty",
+      miniTag: "ADefinir",
+      title: <h1 className="mb-[16px]">ADefinir</h1>,
+      subtitle: "ADefinir",
+      ctaButtonText: "ADefinir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "0empty",
+      secondaryCta: "ADefinir",
       images: {
         background: bgHeroImg,
         static: {
@@ -85,15 +87,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "0empty",
-        subtitle: "0empty",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -119,8 +121,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "0empty",
-        subtitle: "0empty",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -147,8 +149,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "0empty",
-        subtitle: "0empty",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -174,8 +176,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "0empty",
-        subtitle: "0empty",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -206,31 +208,45 @@ const content = {
         img: aboutImg1,
         alt: "0empty",
       },
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       paragraph: (
         <div>
-          0empty
+          ADefinir
           <br />
+          ADefinir
           <br />
-          0empty
+          ADefinir
         </div>
       ),
+      titleModal: <strong>ADefinir</strong>,
+      modal: (
+        <p>
+          <strong>ADefinir</strong>
+          <br />
+          <br />
+          ADefinir
+          <br />
+          ADefinir
+          <br />
+        </p>
+      ),
+
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "0empty",
-        title: "0empty",
-        subtitle: "0empty",
+        miniTag: "ADefinir",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         paragraph: (
           <p>
-            0empty
+            ADefinir
             <br />
             <br />
-            0empty
+            ADefinir
           </p>
         ),
       },
@@ -267,8 +283,8 @@ const content = {
       number3Description: "0empty",
     },
     team: {
-      title: "Nossa Equipe",
-      subtitle: "Conheça as mentes brilhantes por trás do nosso sucesso",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       members: {
         member1: {
           img: {
@@ -532,40 +548,40 @@ const content = {
       },
     },
     steps: {
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "0empty",
-          cardDescription: "0empty",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "0empty",
-          cardDescription: "0empty",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "0empty",
-          cardDescription: "0empty",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "0empty",
-          cardDescription: "0empty",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
-      ctaButtonText: "0empty",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
+      ctaButtonText: "ADefinir",
     },
     testimonials: {
       miniTag: "0empty",
@@ -591,27 +607,34 @@ const content = {
       },
     },
     faq: {
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       questions: {
         question1: {
-          question: "0empty",
-          answer: "0empty",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question2: {
-          question: "0empty",
-          answer: "0empty",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question3: {
-          question: "0empty",
-          answer: "0empty",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question4: {
-          question: "0empty",
-          answer: "0empty",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
       },
+      paragraph: (
+        <p>
+          <a href={whatsappContactLink} target="_blank">
+            ADefinir
+          </a>
+        </p>
+      ),
     },
     carouselv1: {
       title: "0empty",
