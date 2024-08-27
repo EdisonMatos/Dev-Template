@@ -93,11 +93,30 @@ const content = {
       miniTag: "ESPECIALIDADES",
       title: "Atenção personalizada e aplicada aos seus direitos",
       subtitle:
-        "Especialista em múltiplas áreas para garantir uma defesa sólida e eficaz dos seus interesses.",
+        "Especialista em múltiplas áreas para garantir uma defesa sólida e eficaz dos seus interesses",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
+        svgIcon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hourglass"
+          >
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+          </svg>
+        ),
         title: "Previdenciário",
         subtitle:
           "Apoio próximo e eficaz para garantir seus direitos previdenciários com dedicação.",
@@ -126,6 +145,25 @@ const content = {
       },
       card2: {
         img: featuresImg2,
+        svgIcon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
+          >
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
+        ),
         title: "Trabalhista",
         subtitle:
           "Lutando por justiça no seu ambiente de trabalho com comprometimento e empatia.",
@@ -155,6 +193,23 @@ const content = {
       },
       card3: {
         img: featuresImg3,
+        svgIcon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-leaf"
+          >
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+          </svg>
+        ),
         title: "Ambiental",
         subtitle:
           "Protegendo o meio ambiente com paixão e responsabilidade, preservando o futuro para todos.",
@@ -183,6 +238,25 @@ const content = {
       },
       card4: {
         img: featuresImg4,
+        svgIcon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-sprout"
+          >
+            <path d="M7 20h10" />
+            <path d="M10 20c5.5-2.5.8-6.4 3-10" />
+            <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" />
+            <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" />
+          </svg>
+        ),
         title: "Agrário",
         subtitle:
           "Defendendo suas conquistas no campo com seriedade e comprometimento.",
@@ -264,21 +338,19 @@ const content = {
           <br />
         </p>
       ),
-
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "MANTENHA-SE INFORMADO",
-        title: "Siga-me nas redes sociais!",
+        title: "Conecte-se e acompanhe novidades!",
         subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga o Dr Juliano Aleixo no Instagram!",
+          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
         paragraph: (
           <p>
-            Acompanhe nossas redes para dicas e insights sobre Direito
-            Previdenciário, Trabalhista, Ambiental e muito mais! Não perca a
-            oportunidade de se informar e aprender mais sobre seus direitos.
+            Em nossas redes, você encontra atualizações sobre Direito Penal,
+            Trabalhista, Consultoria e muito mais!
             <br />
             <br />
             Fique por dentro e esteja sempre um passo à frente com a nossa
@@ -677,7 +749,7 @@ const content = {
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-          Clique aqui caso tenha mais dúvidas.
+            Clique aqui caso tenha mais dúvidas.
           </a>
         </p>
       ),
