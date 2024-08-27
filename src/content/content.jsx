@@ -89,8 +89,8 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Protegendo seus interesses",
+      miniTag: "ESPECIALIDADES",
+      title: "Atenção personalizada e aplicada aos seus direitos",
       subtitle:
         "Soluções jurídicas especializadas para defender seus direitos.",
       imgFeatures: imgFeatures,
@@ -301,19 +301,42 @@ const content = {
         "Spínola e Filgueira Advocacia é fruto de uma trajetória de dedicação e excelência, fundamentada em compromisso e ética.",
       paragraph: (
         <div>
-          Nossa busca constante pela qualidade é guiada pela defesa incansável
-          dos direitos de nossos clientes.
+          Cresci no interior de Rondônia, filho de agricultores, e passei minha
+          infância envolvido na lida do campo. A vida na zona rural moldou meus
+          valores e me preparou para a jornada que seguiria.
+          <br />
+          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
+          me levou a deixar o campo após o ensino médio para ingressar na
+          Universidade Federal de Rondônia no curso de Direito.
+        </div>
+      ),
+      titleModal: <strong>Minha trajetória</strong>,
+      modal: (
+        <p className="text-paragraph3">
+          <strong>
+            Advogado inscrito na Ordem dos Advogados do Brasil, sob o número
+            12.836, seccional do Estado de Rondônia.
+          </strong>
           <br />
           <br />
-          Valores como transparência, integridade e respeito são o alicerce do
-          nosso trabalho. Para nós, o sucesso vai além de vencer causas; envolve
-          construir relações de confiança e oferecer a melhor orientação
-          jurídica.
-          <br />
-          <br />
-          Cada caso recebe nossa total atenção e dedicação. Estamos prontos para
-          enfrentar desafios complexos com determinação, sendo a voz firme que
-          você precisa para proteger seus direitos.
+          Cresci no interior de Rondônia, filho de agricultores, e passei minha
+          infância envolvido na lida do campo. <br />A vida na zona rural moldou
+          meus valores e me preparou para a jornada que seguiria. <br />
+          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
+          me levou a deixar o campo após o ensino médio para ingressar na
+          Universidade Federal de Rondônia no curso de Direito. <br />
+          Minha trajetória acadêmica continuou com uma pós-graduação em Direito
+          Processual Civil pela mesma universidade e, atualmente, estou
+          ampliando meus conhecimentos com um Mestrado em Ciências Ambientais.
+          <br />A advocacia sempre foi uma chama acesa em meu coração. A
+          aprovação na prova da OAB logo após a conclusão do curso de Direito
+          marcou o início da minha dedicação integral à profissão. <br />
+          Minha missão é clara: auxiliar meus clientes a alcançar seus objetivos
+          e proteger seus direitos de forma ágil e efetiva. <br />
+          Para mim, a advocacia não é apenas uma profissão, mas uma vocação.
+          Comprometo-me a trabalhar com seriedade e boa-fé, mantendo lealdade e
+          respeito a cada cliente.
+          <br />Minhas soluções são sempre pautadas pela legalidade e pela verdade, com o objetivo de efetivar os direitos de quem confia em meu trabalho.
         </div>
       ),
       modal: (
@@ -733,6 +756,7 @@ const content = {
         <p>
           <a href={whatsappContactLink} target="_blank">
             Clique aqui caso tenha mais dúvidas.
+
           </a>
         </p>
       ),
