@@ -27,9 +27,6 @@ export default function About() {
     setModalContent(
       <p>
         {content.texts.about.modal}
-        <br />
-        <p>Quer saber mais sobre nós? 👇</p>
-        <br />
         <div>
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
