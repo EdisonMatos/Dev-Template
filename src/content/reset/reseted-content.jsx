@@ -54,18 +54,18 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "ADefinir", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "A Definir", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADefinir",
-      title: <h1 className="mb-[16px]">ADefinir</h1>,
-      subtitle: "ADefinir",
-      ctaButtonText: "ADefinir",
+      miniTag: "A Definir",
+      title: <h1 className="mb-[16px]">A Definir</h1>,
+      subtitle: "A Definir",
+      ctaButtonText: "A Definir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "ADefinir",
+      secondaryCta: "A Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -87,20 +87,19 @@ const content = {
       },
     },
     features: {
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
-            0empty <br />
-            <br />
-            0empty
+            A Definir <br />
+            <br />A Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -116,19 +115,18 @@ const content = {
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
-        buttonLabelModal: "0empty",
-        buttonLabel: "0empty",
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
-            0empty <br />
-            0empty <br />
-            <br />
-            0empty
+            A Definir <br />
+            A Definir <br />
+            <br />A Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -144,18 +142,17 @@ const content = {
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
-        buttonLabelModal: "0empty",
-        buttonLabel: "0empty",
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
-            0empty <br />
-            <br />
-            0empty
+            A Definir <br />
+            <br />A Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -171,19 +168,19 @@ const content = {
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
-        buttonLabelModal: "0empty",
-        buttonLabel: "0empty",
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
-            0empty <br />
+            A Definir <br />
             <br />
-            0empty <br />
-            0empty <br />
+            A Definir <br />
+            A Definir <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -199,36 +196,38 @@ const content = {
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
-        buttonLabelModal: "0empty",
-        buttonLabel: "0empty",
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
       },
     },
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "0empty",
+        alt: "A Definir",
       },
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          ADefinir
+          A Definir
           <br />
-          ADefinir
-          <br />
-          ADefinir
+          A Definir
+          <br />A Definir
         </div>
       ),
-      titleModal: <strong>ADefinir</strong>,
+      titleModal: <strong>A Definir</strong>,
       modal: (
         <p>
-          <strong>ADefinir</strong>
+          <strong>A Definir</strong>
           <br />
           <br />
-          ADefinir
+          A Definir
           <br />
-          ADefinir
+          A Definir
+          <br />
+          <br />
+          <p>Quer saber mais sobre A Definir? 👇</p>
           <br />
         </p>
       ),
@@ -238,25 +237,24 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "ADefinir",
-        title: "ADefinir",
-        subtitle: "ADefinir",
+        miniTag: "A Definir",
+        title: "A Definir",
+        subtitle: "A Definir",
         paragraph: (
           <p>
-            ADefinir
+            A Definir
             <br />
-            <br />
-            ADefinir
+            <br />A Definir
           </p>
         ),
       },
     },
     trustedBy: {
-      title: "0empty",
-      subtitle: "0empty",
+      title: "A Definir",
+      subtitle: "A Definir",
       trustedMore: {
-        title: "0empty",
-        subtitle: "0empty",
+        title: "A Definir",
+        subtitle: "A Definir",
       },
       images: {
         img1: {
@@ -276,15 +274,15 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "0empty",
+      number1Description: "A Definir",
       number2: 500,
-      number2Description: "0empty",
+      number2Description: "A Definir",
       number3: 1000,
-      number3Description: "0empty",
+      number3Description: "A Definir",
     },
     team: {
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      title: "A Definir",
+      subtitle: "A Definir",
       members: {
         member1: {
           img: {
@@ -548,45 +546,45 @@ const content = {
       },
     },
     steps: {
-      miniTag: "ADefinir",
-      title: "ADefinir",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "ADefinir",
-          cardDescription: "ADefinir",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "ADefinir",
-          cardDescription: "ADefinir",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "ADefinir",
-          cardDescription: "ADefinir",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "ADefinir",
-          cardDescription: "ADefinir",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
-      ctaButtonText: "ADefinir",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
+      ctaButtonText: "A Definir",
     },
     testimonials: {
-      miniTag: "0empty",
-      title: "0empty",
-      subtitle: "0empty",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -607,38 +605,38 @@ const content = {
       },
     },
     faq: {
-      miniTag: "ADefinir",
-      title: "ADefinir",
-      subtitle: "ADefinir",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "ADefinir",
-          answer: "ADefinir",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-            ADefinir
+            A Definir
           </a>
         </p>
       ),
     },
     carouselv1: {
-      title: "0empty",
-      subtitle: "0empty",
+      title: "A Definir",
+      subtitle: "A Definir",
     },
   },
 };

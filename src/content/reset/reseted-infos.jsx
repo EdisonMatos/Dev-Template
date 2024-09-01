@@ -1,30 +1,30 @@
 const infos = {
-  name: "ADefinir",
+  name: "A Definir",
   slogan: "",
-  phone: "(xx) xxxxx-xxxx",
-  mail: "ADefinir",
+  phone: "(A Definir) A Definir-A Definir",
+  mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
-        <p>ADefinir</p>
-        <p>ADefinir</p>
-        <p>ADefinir</p>
+        <p>A Definir</p>
+        <p>A Definir</p>
+        <p>A Definir</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        ADefinir
+        A Definir
         <br />
-        ADefinir
+        A Definir
         <br />
       </p>
     ),
-    obs: <span className="italic">ADefinir</span>,
+    obs: <span className="italic">A Definir</span>,
     midSectionName: "Até mais!",
     year: 2024,
-    footerText: "ADefinir",
+    footerText: "A Definir",
 
     footerSocialText: "Siga a gente nas redes sociais:",
     footerNavegacaoText: "NAVEGAÇÃO",
