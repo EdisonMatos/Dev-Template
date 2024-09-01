@@ -54,21 +54,18 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "ADefinir", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO AMBIENTAL E PREVIDENCIÁRIO EM CACOAL - RO",
-      title: (
-        <h1 className="mb-[16px]">Defendendo seus direitos em todo o Brasil</h1>
-      ),
-      subtitle:
-        "Atuação em âmbito nacional com defesa estratégica e proteção cuidadosa dos seus interesses.",
-      ctaButtonText: "Entre em contato",
+      miniTag: "ADefinir",
+      title: <h1 className="mb-[16px]">ADefinir</h1>,
+      subtitle: "ADefinir",
+      ctaButtonText: "ADefinir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "Entre em contato",
+      secondaryCta: "ADefinir",
       images: {
         background: bgHeroImg,
         static: {
@@ -90,36 +87,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Atenção personalizada e aplicada aos seus direitos",
-      subtitle:
-        "Especialista em múltiplas áreas para garantir uma defesa sólida e eficaz dos seus interesses",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-hourglass"
-          >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
-          </svg>
-        ),
-        title: "Previdenciário",
-        subtitle:
-          "Apoio próximo e eficaz para garantir seus direitos previdenciários com dedicação.",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -145,28 +121,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
-          >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
-          </svg>
-        ),
-        title: "Trabalhista",
-        subtitle:
-          "Lutando por justiça no seu ambiente de trabalho com comprometimento e empatia.",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -193,26 +149,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-leaf"
-          >
-            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
-            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
-          </svg>
-        ),
-        title: "Ambiental",
-        subtitle:
-          "Protegendo o meio ambiente com paixão e responsabilidade, preservando o futuro para todos.",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -238,28 +176,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-sprout"
-          >
-            <path d="M7 20h10" />
-            <path d="M10 20c5.5-2.5.8-6.4 3-10" />
-            <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" />
-            <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" />
-          </svg>
-        ),
-        title: "Agrário",
-        subtitle:
-          "Defendendo suas conquistas no campo com seriedade e comprometimento.",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         description: (
           <div>
             0empty <br />
@@ -288,73 +206,47 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Foto ilustrativa",
+        alt: "0empty",
       },
-      miniTag: "QUEM É DR. JULIANO ALEIXO",
-      title: "Minha trajetória",
-      subtitle:
-        "Advogado inscrito na Ordem dos Advogados do Brasil, sob o número 12.836, seccional do Estado de Rondônia.",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       paragraph: (
         <div>
-          Cresci no interior de Rondônia, filho de agricultores, e passei minha
-          infância envolvido na lida do campo. A vida na zona rural moldou meus
-          valores e me preparou para a jornada que seguiria.
+          ADefinir
           <br />
-          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
-          me levou a deixar o campo após o ensino médio para ingressar na
-          Universidade Federal de Rondônia no curso de Direito.
+          ADefinir
+          <br />
+          ADefinir
         </div>
       ),
-      titleModal: <strong>Minha trajetória</strong>,
+      titleModal: <strong>ADefinir</strong>,
       modal: (
-        <p className="text-paragraph3">
-          <strong>
-            Advogado inscrito na Ordem dos Advogados do Brasil, sob o número
-            12.836, seccional do Estado de Rondônia.
-          </strong>
+        <p>
+          <strong>ADefinir</strong>
           <br />
           <br />
-          Cresci no interior de Rondônia, filho de agricultores, e passei minha
-          infância envolvido na lida do campo. <br />A vida na zona rural moldou
-          meus valores e me preparou para a jornada que seguiria. <br />
-          Desde cedo, nutri o sonho de seguir a carreira jurídica, e essa paixão
-          me levou a deixar o campo após o ensino médio para ingressar na
-          Universidade Federal de Rondônia no curso de Direito. <br />
-          Minha trajetória acadêmica continuou com uma pós-graduação em Direito
-          Processual Civil pela mesma universidade e, atualmente, estou
-          ampliando meus conhecimentos com um Mestrado em Ciências Ambientais.
-          <br />A advocacia sempre foi uma chama acesa em meu coração. A
-          aprovação na prova da OAB logo após a conclusão do curso de Direito
-          marcou o início da minha dedicação integral à profissão. <br />
-          Minha missão é clara: auxiliar meus clientes a alcançar seus objetivos
-          e proteger seus direitos de forma ágil e efetiva. <br />
-          Para mim, a advocacia não é apenas uma profissão, mas uma vocação.
-          Comprometo-me a trabalhar com seriedade e boa-fé, mantendo lealdade e
-          respeito a cada cliente.
+          ADefinir
           <br />
-          <br />
-          Minhas soluções são sempre pautadas pela legalidade e pela verdade,
-          com o objetivo de efetivar os direitos de quem confia em meu trabalho.
+          ADefinir
           <br />
         </p>
       ),
+
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades!",
-        subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
+        miniTag: "ADefinir",
+        title: "ADefinir",
+        subtitle: "ADefinir",
         paragraph: (
           <p>
-            Em nossas redes, você encontra atualizações sobre Direito Penal,
-            Trabalhista, Consultoria e muito mais!
+            ADefinir
             <br />
             <br />
-            Fique por dentro e esteja sempre um passo à frente com a nossa
-            orientação especializada.
+            ADefinir
           </p>
         ),
       },
@@ -656,46 +548,40 @@ const content = {
       },
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
+      miniTag: "ADefinir",
+      title: "ADefinir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "ADefinir",
+          cardDescription: "ADefinir",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
+      ctaButtonText: "ADefinir",
     },
     testimonials: {
       miniTag: "0empty",
@@ -721,35 +607,31 @@ const content = {
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      miniTag: "ADefinir",
+      title: "ADefinir",
+      subtitle: "ADefinir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via Whatsapp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "ADefinir",
+          answer: "ADefinir",
         },
       },
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-            Clique aqui caso tenha mais dúvidas.
+            ADefinir
           </a>
         </p>
       ),
