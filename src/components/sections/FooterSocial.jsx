@@ -20,7 +20,8 @@ function FooterSocial() {
               <img
                 src={content.texts.navbar.logo.img}
                 alt={content.texts.navbar.logo.alt}
-                className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
+                className="max-h-[88px] w-auto"
+                // className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
               ></img>
             </div>
           </MotionDivDownToUp>
