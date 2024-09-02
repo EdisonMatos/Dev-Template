@@ -87,9 +87,10 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Proteção jurídica sob medida",
+      subtitle:
+        "Experiência abrangente para oferecer uma defesa completa e assertiva dos seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
