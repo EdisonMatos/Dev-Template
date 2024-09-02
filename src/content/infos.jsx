@@ -1,8 +1,8 @@
 const infos = {
-  name: "A Definir",
+  name: "Dr. Ernest Bertola",
   slogan: "",
-  phone: "(A Definir) A Definir-A Definir",
-  mail: "A Definir",
+  phone: "43 99606-3794",
+  mail: "contato@ernestbertola-adv.com",
   footerInfos: {
     endereco: (
       <div>
