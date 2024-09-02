@@ -237,14 +237,19 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Siga-me nas redes sociais!",
+        subtitle:
+          "⚖️ Quer ficar por dentro das novidades do mundo jurídico-empresarial? Siga Ernest Bertola Advocacia no Instagram!",
         paragraph: (
           <p>
-            A Definir
+            Acompanhe nossas redes para dicas e insights sobre Direito
+            Empresarial, Societário, Recuperação de Crédito e muito mais! Não
+            perca a oportunidade de se informar e aprender mais sobre o Direito.
             <br />
-            <br />A Definir
+            <br />
+            Fique por dentro e esteja sempre um passo à frente com a nossa
+            orientação especializada.
           </p>
         ),
       },
