@@ -15,9 +15,9 @@ const infos = {
       <p>
         Horário de expediente:
         <br />
-        A Definir
+        Segunda a sábado
         <br />
-        A Definir
+        Das 09h às 18h
         <br />
       </p>
     ),
