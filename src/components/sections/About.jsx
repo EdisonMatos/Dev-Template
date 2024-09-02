@@ -93,11 +93,11 @@ export default function About() {
 
             <Button
               className="mt-[48px]"
-              label="Continuar lendo"
+              label={content.texts.about.buttonModalLabelAbout}
               onClick={onClick}
               removeAnchor={true}
               removeTarget={true}
-              animation={false}
+              animation={true}
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
