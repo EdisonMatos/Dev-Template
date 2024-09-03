@@ -20,6 +20,7 @@ export default function FeaturesWithIcons() {
         sectionHeaderSubtitle={content.texts.features.subtitle}
         color="dark"
       />
+
       <SectionWrapper>
         <div className="flex flex-col items-center justify-evenly w-full tablet1:flex-row">
           <div className=" col1 desktop1:w-[28%]">
@@ -40,7 +41,7 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="flex justify-center w-[32%]">
+          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
             <div
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
               style={{
