@@ -20,56 +20,6 @@ export default function FeaturesWithIcons() {
         sectionHeaderSubtitle={content.texts.features.subtitle}
         color="dark"
       />
-      {/* <SectionWrapper>
-        <div className="flex flex-col items-center justify-evenly w-full tablet1:flex-row">
-          <div className=" col1 desktop1:w-[28%]">
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card1.svgIcon}
-                title={content.texts.features.card1.title}
-                paragraph={content.texts.features.card1.subtitle}
-                className="tablet1:mb-[46px] desktop1:mb-0 desktop2:mb-[46px]"
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card2.svgIcon}
-                title={content.texts.features.card2.title}
-                paragraph={content.texts.features.card2.subtitle}
-                className="tablet1:leading-[30px]"
-              />
-            </MotionDivDownToUp>
-          </div>
-
-          <MotionDivDownToUp className="hiddendesktop1:flex justify-center w-[32%]">
-            <div
-              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
-              style={{
-                backgroundImage: `url(${content.texts.features.imgFeatures})`,
-              }}
-            >
-             
-            </div>
-          </MotionDivDownToUp>
-          <div className=" col3 desktop1:w-[28%]">
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card3.svgIcon}
-                title={content.texts.features.card3.title}
-                paragraph={content.texts.features.card3.subtitle}
-                className="tablet1:mb-[46px] desktop1:mb-0 desktop2:mb-[46px]"
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card4.svgIcon}
-                title={content.texts.features.card4.title}
-                paragraph={content.texts.features.card4.subtitle}
-              />
-            </MotionDivDownToUp>
-          </div>
-        </div>
-      </SectionWrapper> */}
 
       <SectionWrapper>
         <div className="flex flex-col items-center justify-evenly w-full tablet1:flex-row">
