@@ -5,12 +5,13 @@ import Index from "./pages/Index.jsx";
 import "./index.css";
 import "./styles/backgrounds.css";
 import "./styles/shapeDivs.css";
+import LandingPage from "./pages/LandingPage.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
-      {/* <Route path="/paper" element={<IndexPaper />} /> */}
+      <Route path="/lp" element={<LandingPage />} />
     </Routes>
   </Router>
 );
