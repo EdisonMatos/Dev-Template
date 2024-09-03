@@ -30,7 +30,7 @@ export default function About() {
         <div>
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
-            label={content.texts.hero.ctaButtonText}
+            label={content.texts.about.ctaButtonText}
             buttonLink={whatsappContactLink}
             animation={false}
             className="hover:scale-105"

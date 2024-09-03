@@ -224,23 +224,27 @@ const content = {
       buttonModalLabelAbout: "Continuar lendo",
       titleModal: <strong>Competência que você pode confiar</strong>,
       modal: (
-        <p>
+        <p className="text-paragraph3">
           <strong>Expertise Jurídica e Contábil Integrada</strong>
           <br />
           Nossa equipe é formada por profissionais altamente qualificados que
           combinam expertise jurídica e contábil, proporcionando uma assessoria
-          completa e integrada. Reconhecemos a singularidade de cada cliente e
-          adotamos uma abordagem personalizada para tratar todas as questões
-          legais e financeiras de forma coesa e eficiente.
+          completa e integrada.
+          <br className="desktop1:hidden" /> <br className="desktop1:hidden" />
+          Reconhecemos a singularidade de cada cliente e adotamos uma abordagem
+          personalizada para tratar todas as questões legais e financeiras de
+          forma coesa e eficiente.
           <br />
           <br />
           <strong>Atuação Global, Soluções Locais</strong>
           <br />
           Com uma visão global e uma abordagem local, estamos preparados para
           enfrentar os desafios legais de um mundo cada vez mais interconectado
-          e complexo. Nossa experiência nos permite oferecer consultoria
-          estratégica e representação jurídica que protegem os interesses dos
-          nossos clientes em qualquer jurisdição.
+          e complexo.
+          <br className="desktop1:hidden" /> <br className="desktop1:hidden" />
+          Nossa experiência nos permite oferecer consultoria estratégica e
+          representação jurídica que protegem os interesses dos nossos clientes
+          em qualquer jurisdição.
           <br />
           <br />
           <strong>Compromisso com a Eficiência</strong>
@@ -256,8 +260,12 @@ const content = {
           fazer a diferença no seu caso.
           <br />
           <br />
+          Quer saber mais sobre nós? 👇
+          <br />
+          <br />
         </p>
       ),
+      ctaButtonText: "Entre em contato",
 
       aboutSocial: {
         img: {
