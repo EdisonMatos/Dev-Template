@@ -676,7 +676,7 @@ const content = {
       title: "Como funciona nosso processo de atendimento jurídico?",
       subtitle: "",
       img: imgSteps,
-      alt: "",
+      alt: "imagem de negociação",
       cards: {
         card1: {
           stepNumber: 1,
