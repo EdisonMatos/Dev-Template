@@ -205,7 +205,7 @@ const content = {
         img: aboutImg1,
         alt: "A Definir",
       },
-      miniTag: "QUEM É ERNEST BERTOLA ADVOCACIA",
+      miniTag: "SOBRE ERNEST BERTOLA ADVOCACIA",
       title: "Competência que você pode confiar",
       subtitle:
         "Na Ernest Bertola Advocacia, dedicamo-nos a oferecer soluções jurídicas de excelência para clientes nacionais e internacionais, com um compromisso inabalável com a qualidade e a eficácia.",
