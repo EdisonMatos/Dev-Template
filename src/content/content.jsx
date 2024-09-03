@@ -59,13 +59,13 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
-      ctaButtonText: "A Definir",
+      miniTag: "ADVOGADO EMPRESARIAL E CÍVEL EM LONDRINA - PR",
+      title: <h1 className="mb-[16px]">Compromisso em defender direitos</h1>,
+      subtitle: "Soluções jurídicas personalizadas e dedicadas para cada caso.",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A Definir",
+      secondaryCta: "Entre em contato",
       images: {
         background: bgHeroImg,
         static: {
