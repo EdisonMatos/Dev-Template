@@ -273,32 +273,67 @@ const content = {
         img: aboutImg1,
         alt: "A Definir",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "SOBRE ERNEST BERTOLA ADVOCACIA",
+      title: "Competência que você pode confiar",
+      subtitle:
+        "Na Ernest Bertola Advocacia, dedicamo-nos a oferecer soluções jurídicas de excelência para clientes nacionais e internacionais, com um compromisso inabalável com a qualidade e a eficácia.",
       paragraph: (
         <div>
-          A Definir
+          <strong>Expertise Jurídica e Contábil Integrada</strong>
           <br />
-          A Definir
-          <br />A Definir
+          Nossa equipe é formada por profissionais altamente qualificados que
+          combinam expertise jurídica e contábil, proporcionando uma assessoria
+          completa e integrada. Reconhecemos a singularidade de cada cliente e
+          adotamos uma abordagem personalizada para tratar todas as questões
+          legais e financeiras de forma coesa e eficiente.
+          <br />
         </div>
       ),
-      titleModal: <strong>A Definir</strong>,
+      buttonModalLabelAbout: "Continuar lendo",
+      titleModal: <strong>Competência que você pode confiar</strong>,
       modal: (
-        <p>
-          <strong>A Definir</strong>
+        <p className="text-paragraph3">
+          <strong>Expertise Jurídica e Contábil Integrada</strong>
+          <br />
+          Nossa equipe é formada por profissionais altamente qualificados que
+          combinam expertise jurídica e contábil, proporcionando uma assessoria
+          completa e integrada.
+          <br className="desktop1:hidden" /> <br className="desktop1:hidden" />
+          Reconhecemos a singularidade de cada cliente e adotamos uma abordagem
+          personalizada para tratar todas as questões legais e financeiras de
+          forma coesa e eficiente.
           <br />
           <br />
-          A Definir
+          <strong>Atuação Global, Soluções Locais</strong>
           <br />
-          A Definir
+          Com uma visão global e uma abordagem local, estamos preparados para
+          enfrentar os desafios legais de um mundo cada vez mais interconectado
+          e complexo.
+          <br className="desktop1:hidden" /> <br className="desktop1:hidden" />
+          Nossa experiência nos permite oferecer consultoria estratégica e
+          representação jurídica que protegem os interesses dos nossos clientes
+          em qualquer jurisdição.
           <br />
           <br />
-          <p>Quer saber mais sobre A Definir? 👇</p>
+          <strong>Compromisso com a Eficiência</strong>
+          <br />
+          Na Ernest Bertola Advocacia, sabemos que o tempo é essencial para
+          nossos clientes. Por isso, priorizamos uma atuação ágil e eficiente,
+          sem abrir mão da qualidade dos nossos serviços. Nosso objetivo é
+          garantir as melhores soluções jurídicas de forma tempestiva e eficaz.
+          <br />
+          <br />
+          Seja qual for o seu desafio jurídico, estamos aqui para ajudar. Entre
+          em contato com a Ernest Bertola Advocacia e descubra como podemos
+          fazer a diferença no seu caso.
+          <br />
+          <br />
+          Quer saber mais sobre nós? 👇
+          <br />
           <br />
         </p>
       ),
+      ctaButtonText: "Entre em contato",
 
       aboutSocial: {
         img: {
