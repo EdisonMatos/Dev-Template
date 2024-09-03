@@ -23,13 +23,13 @@ export default function FeaturesWithIcons() {
 
       <SectionWrapper>
         <div className="flex flex-col items-center justify-evenly w-full tablet1:flex-row">
-          <div className=" col1 desktop1:w-[28%]">
+          <div className="col1 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card1.svgIcon}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
-                className="tablet1:mb-[46px] desktop1:mb-0 desktop2:mb-[46px]"
+                className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -55,16 +55,16 @@ export default function FeaturesWithIcons() {
             /> */}
             </div>
           </MotionDivDownToUp>
-          <div className=" col3 desktop1:w-[28%]">
-            <MotionDivDownToUp>
+          <div className="col3 desktop1:w-[28%] flex flex-col items-center">
+            <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
               <IconFeatureCard
                 icon={content.texts.features.card3.svgIcon}
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
-                className="tablet1:mb-[46px] desktop1:mb-0 desktop2:mb-[46px]"
+                className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp>
+            <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
               <IconFeatureCard
                 icon={content.texts.features.card4.svgIcon}
                 title={content.texts.features.card4.title}
