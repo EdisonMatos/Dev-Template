@@ -576,10 +576,12 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
-      ctaButtonText: "A Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
       miniTag: "A Definir",
