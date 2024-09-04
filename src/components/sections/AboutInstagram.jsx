@@ -30,7 +30,7 @@ export default function AboutInstagram() {
           <img
             src={content.texts.about.aboutSocial.img.img}
             alt={content.texts.about.aboutSocial.img.alt}
-            className=""
+            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]"
           />
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
