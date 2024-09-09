@@ -147,16 +147,21 @@ const LpContent = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "A definir minitag about",
-      title: "A definir title about",
+      miniTag: "TRADIÇÃO EM DIREITO DO CONSUMIDOR",
+      title: "Sobre nós",
     },
     paragraph: (
       <p>
-        A definir <br />
-        <br /> A definir
+        Na Ernest Bertola Advocacia, sabemos que o tempo é essencial para nossos
+        clientes. Por isso, priorizamos uma atuação ágil e eficiente, sem abrir
+        mão da qualidade dos nossos serviços. Nosso objetivo é garantir as
+        melhores soluções jurídicas de forma tempestiva e eficaz. <br />
+        <br /> Seja qual for o seu desafio jurídico, estamos aqui para ajudar.
+        Entre em contato com a Ernest Bertola Advocacia e descubra como podemos
+        fazer a diferença no seu caso.
       </p>
     ),
-    buttonLabel: "A definir buton about",
+    buttonLabel: "Falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
@@ -261,7 +266,7 @@ const LpContent = {
         ),
         title: "Tranquilidade e confiança ao lidar com seu caso",
         description:
-          "O Extravio ocorre quando sua bagagem é extraviada temporariamente, permanentemente ou é danificada. Existe a possibilidade de ressarcimento de caráter material, tanto dos valores gastos para suprir a ausência da mesma, como em substituição aos itens que estavam dentro das malas. O extravio enseja também indenização por dano moral.",
+          "Você pode confiar em nossa experiência e expertise para resolver sua situação de forma eficiente e satisfatória. Nossos especialistas estão preparados para trabalhar em seu processo, para garantir a segurança de seus direitos, buscando as melhores alternativas de acordo com a complexidade de cada realidade.",
       },
     },
   },
