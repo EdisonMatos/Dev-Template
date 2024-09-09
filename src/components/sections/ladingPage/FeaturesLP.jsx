@@ -79,8 +79,8 @@ export default function FeaturesLP({ className }) {
                   <rect x="7" y="8" width="4" height="9" rx="1" />
                 </svg>
               }
-              title="Voo Cancelado"
-              description="Quem teve o Voo Cancelado tem os mesmos direitos de quem teve seu Voo Atrasado. Havendo atraso superior a 4 horas, bem como problemas de perda de conexão, pernoite não programado e/ou transporte terrestre, existe a possibilidade de indenização por dano moral."
+              title="Overbooking"
+              description="Ocorre quando o embarque é negado pela falta de assentos na aeronave, sendo um passageiro preterido por outro. Muitas vezes o passageiro é realocado em outros voos, com alteração de itinerário ou com escala não programada. A prática é de uso frequente pelas linhas aéreas e enseja indenização por dano moral."
             />
             <FeatureCardLP
               icon={
@@ -101,8 +101,8 @@ export default function FeaturesLP({ className }) {
                   <rect x="7" y="8" width="4" height="9" rx="1" />
                 </svg>
               }
-              title="Voo Cancelado"
-              description="Quem teve o Voo Cancelado tem os mesmos direitos de quem teve seu Voo Atrasado. Havendo atraso superior a 4 horas, bem como problemas de perda de conexão, pernoite não programado e/ou transporte terrestre, existe a possibilidade de indenização por dano moral."
+              title="Desvio de Bagagem"
+              description="O Extravio ocorre quando sua bagagem é extraviada temporariamente, permanentemente ou é danificada. Existe a possibilidade de ressarcimento de caráter material, tanto dos valores gastos para suprir a ausência da mesma, como em substituição aos itens que estavam dentro das malas. O extravio enseja também indenização por dano moral."
             />
           </div>
         </SectionWrapper>

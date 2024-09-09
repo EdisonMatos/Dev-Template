@@ -8,6 +8,7 @@ export default function LandingPage() {
       <HeroLP />
       <FeaturesLP />
       <AboutParalaxeLP />
+      <FeaturesLP />
     </div>
   );
 }
