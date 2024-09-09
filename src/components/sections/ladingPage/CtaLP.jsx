@@ -1,3 +1,4 @@
+import LpContent from "../../../content/LpContent";
 import content from "../../../content/content";
 import infos from "../../../content/infos";
 import links from "../../../content/links";
@@ -14,7 +15,7 @@ export default function AboutParalaxeLP() {
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
       style={{
-        backgroundImage: `url(${content.texts.hero.images.background})`,
+        backgroundImage: `url(${LpContent.cta.bgImg})`,
         backgroundRepeat: "no-repeat",
       }}
       id="contact"
@@ -25,14 +26,14 @@ export default function AboutParalaxeLP() {
             <SectionWrapper>
               <SectionHeader
                 className="text-center"
-                miniTitle={content.texts.cta.miniTag}
-                sectionHeaderTitle={content.texts.cta.title}
-                sectionHeaderSubtitle={content.texts.cta.subtitle}
+                miniTitle={LpContent.cta.sectionHeader.miniTag}
+                sectionHeaderTitle={LpContent.cta.sectionHeader.title}
+                sectionHeaderSubtitle={LpContent.cta.sectionHeader.subtitle}
                 color=""
               />
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
-                label={content.texts.cta.ctaButtonText}
+                label={LpContent.cta.buttonLabel}
                 buttonLink={whatsappContactLink}
                 animation
                 icon={

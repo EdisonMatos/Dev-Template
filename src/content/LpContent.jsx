@@ -4,7 +4,7 @@ import logo from "../assets/imgs/logo/logo.png";
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "Dr Exemplo",
+  name: "Ernest Bertola",
 };
 
 const LpContent = {
@@ -255,11 +255,12 @@ const LpContent = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A definir minitag cta",
-      title: "A definir title cta",
-      subtitle: "A definiri cta",
-      buttonLabel: "A definir buton about",
+      miniTag: "Não perca mais tempo",
+      title:
+        "Seja ressarcido agora mesmo por prejuízos causados por companhias aéreas",
+      subtitle: `O escritório ${infos.name} está aqui para te ajudar. Nossa equipe especializada em direitos do consumidor pode orientar você no processo de busca por indenização. Não deixe que o cancelamento de voo estrague sua experiência de viagem.`,
     },
+    buttonLabel: "Quero falar com um especialista",
   },
   contact: {
     card1: {
