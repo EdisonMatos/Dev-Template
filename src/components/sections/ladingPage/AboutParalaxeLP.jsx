@@ -1,5 +1,4 @@
 import LpContent from "../../../content/LpContent";
-import links from "../../../content/links";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";

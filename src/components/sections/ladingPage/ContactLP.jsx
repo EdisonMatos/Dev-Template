@@ -1,5 +1,4 @@
 import LpContent from "../../../content/LpContent";
-import infos from "../../../content/infos";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import ContactCardLP from "./ContactCardLP";
