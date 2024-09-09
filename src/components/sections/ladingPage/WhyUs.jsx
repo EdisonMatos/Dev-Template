@@ -9,6 +9,7 @@ export default function WhyUs({ className }) {
       <SectionArea>
         <SectionWrapper>
           <SectionHeader
+            miniTitle="Excelência em advocacia"
             className="text-center"
             sectionHeaderTitle="Por que nos escolher pra te defender?"
             color="dark"

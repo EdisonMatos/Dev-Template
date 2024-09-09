@@ -9,6 +9,7 @@ export default function FeaturesLP({ className }) {
       <SectionArea>
         <SectionWrapper>
           <SectionHeader
+            miniTitle="Direito do consumidor"
             className="text-center"
             sectionHeaderTitle="Como podemos te ajudar?"
             color="dark"
