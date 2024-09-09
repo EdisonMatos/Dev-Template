@@ -1,5 +1,5 @@
 import BackToTopButton from "../components/interactives/BackToTopButton";
-import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
+import LPFloatingWhatsappButton from "../components/interactives/LPFloatingWhatsappButton";
 import AboutParalaxeLP from "../components/sections/ladingPage/AboutParalaxeLP";
 import ContactLP from "../components/sections/ladingPage/ContactLP";
 import CtaLP from "../components/sections/ladingPage/CtaLP";
@@ -18,7 +18,7 @@ export default function LandingPage() {
       <CtaLP />
       <ContactLP />
       <FooterLP />
-      <FloatingWhatsappButton />
+      <LPFloatingWhatsappButton />
       {/* <BackToTopButton /> */}
     </div>
   );

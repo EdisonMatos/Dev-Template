@@ -1,57 +1,45 @@
-import content from "../../../content/content";
-import links from "../../../content/links";
+import LpContent from "../../../content/LpContent";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
-
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function AboutParalaxeLP() {
   return (
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
       style={{
-        backgroundImage: `url(${content.texts.hero.images.background})`,
+        backgroundImage: `url(${LpContent.about.bgImg})`,
         backgroundRepeat: "no-repeat",
       }}
       id="contact"
     >
-      <div className="flex justify-center w-full bg-opacity-10 bg-primary text-white">
+      <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
         <div className="flex justify-center w-full bg-black bg-opacity-80">
           <SectionArea>
             <SectionWrapper>
               <div className="gap-y-[60px] flex flex-col items-center tablet2:flex-row tablet2:w-[70%] tablet2:justify-between">
                 <img
-                  src={content.texts.navbar.logo.img}
-                  alt={content.texts.navbar.logo.alt}
+                  src={LpContent.about.logo.logoImg}
+                  alt={LpContent.about.logo.alt}
                   className="w-[30%] desktop1:w-[20%]"
                 />
                 <div className="tablet2:w-[60%]">
                   <SectionHeader
                     className="text-center"
-                    miniTitle={content.texts.about.miniTag}
-                    sectionHeaderTitle={content.texts.about.title}
+                    miniTitle={LpContent.about.sectionHeader.miniTag}
+                    sectionHeaderTitle={LpContent.about.sectionHeader.title}
                     color=""
                     type="article"
                   />
                   <p className="font-mainFont mb-[36px]">
-                    Nosso escritório atua há mais de 10 anos em todo o Brasil
-                    prestando serviços jurídicos com ênfase nas áreas de Direito
-                    de família, inventário e sucessões. Nossa missão é prestar
-                    atendimento jurídico primando pelo cliente com excelência e
-                    celeridade. <br />
-                    <br /> Temos como valor a Ética e transparência que permeiam
-                    nossas relações profissionais. Seu sucesso advém do
-                    tratamento personalizado e ágil aos clientes. O escritório
-                    está voltado para a segurança, sigilo, conforto e
-                    tranquilidade dos seus clientes.
+                    {LpContent.about.paragraph}
                   </p>
                   <div className="w-full">
                     <Button
-                      aria-label={content.texts.hero.ctaButtonAriaLabel}
-                      label="Quero falar com um especialista"
-                      buttonLink={whatsappContactLink}
+                      aria-label={LpContent.hero.textArea.ctaButtonAriaLabel}
+                      label={LpContent.about.buttonLabel}
+                      buttonLink={LpContent.links.ctaWhatsapp}
                       animation
                       className="w-[90%]"
                       icon={
