@@ -3,6 +3,10 @@ import logo from "../assets/imgs/logo/logo.png";
 
 const currentYear = new Date().getFullYear();
 
+const infos = {
+  name: "Dr Exemplo",
+};
+
 const LpContent = {
   infos: {
     name: "A Definir",
@@ -14,9 +18,15 @@ const LpContent = {
       alt: "Logomarca",
     },
     textArea: {
-      title: "A definir title",
-      subtitle: "A definir sub",
-      buttonLabel: "A definir button",
+      title: (
+        <h1>
+          O <span className="text-primary">voo atrasou</span>, foi cancelado ou
+          você teve <span className="text-primary">extravio de bagagem</span>?
+        </h1>
+      ),
+      subtitle:
+        "Você pode receber indenização por esse transtorno. Somos um escritório especializado em processos judiciais contra empresas aéreas com atuação em todo o país",
+      buttonLabel: "Quero falar com um especialista",
     },
   },
   features: {
@@ -115,10 +125,8 @@ const LpContent = {
     },
   },
   footer: {
-    year: { currentYear },
-    name: "Dr Exemplo",
-    copyRightLine: `© ${footer.year} ${footer.name}. Todos os direitos reservados.`,
-    disclaimer: `Este site não é um produto Meta Platforms, Inc., Google LLC, tampouco oferece serviços públicos oficiais. ${footer.name} oferece serviços jurídicos privativos de advogado, de acordo com a legislação vigente e o Código de Ética e Disciplina da Ordem dos Advogados do Brasil.`,
+    copyRightLine: `© ${currentYear} ${infos.name}. Todos os direitos reservados.`,
+    disclaimer: `Este site não é um produto Meta Platforms, Inc., Google LLC, tampouco oferece serviços públicos oficiais. ${infos.name} oferece serviços jurídicos privativos de advogado, de acordo com a legislação vigente e o Código de Ética e Disciplina da Ordem dos Advogados do Brasil.`,
   },
 };
 
