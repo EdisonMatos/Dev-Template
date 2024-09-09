@@ -138,7 +138,12 @@ const LpContent = {
       miniTag: "A definir minitag about",
       title: "A definir title about",
     },
-    paragraph: "A definir paragraph about",
+    paragraph: (
+      <p>
+        A definir <br />
+        <br /> A definir
+      </p>
+    ),
     buttonLabel: "A definir buton about",
   },
   whyUs: {
