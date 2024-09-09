@@ -4,15 +4,15 @@ import logo from "../assets/imgs/logo/logo.png";
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "Ernest Bertola",
+  name: "Juliano Aleixo",
   phone: {
-    ddd: "61",
-    firstPart: "99278", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1077", // Apenas os 4 últimos números
+    ddd: "69",
+    firstPart: "99980", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7532", // Apenas os 4 últimos números
   },
   email: "contato", // Email desejado pelo cliente
-  domain: "paperstreet.com.br", // Sem "www"
-  instagramProfile: "paperstreetsoftwares", // Sem o @
+  domain: "julianoaleixoadvocacia.com.br", // Sem "www"
+  instagramProfile: "adv.julianoaleixo", // Sem o @
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
 };
@@ -30,12 +30,13 @@ const LpContent = {
     textArea: {
       title: (
         <h1>
-          O <span className="text-primary">voo atrasou</span>, foi cancelado ou
-          você teve <span className="text-primary">extravio de bagagem</span>?
+          Acabou de ser <span className="text-primary">demitido?</span> Tem
+          horas extras ou salários
+          <span className="text-primary">atrasados</span>?
         </h1>
       ),
       subtitle:
-        "Você pode receber indenização por esse transtorno. Somos um escritório especializado em processos judiciais contra empresas aéreas com atuação em todo o país",
+        "Direitos trabalhistas não podem ser ignorados. Nós estamos prontos para agir rápido e buscar o que é seu por direito.",
       buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -43,7 +44,7 @@ const LpContent = {
   },
   features: {
     sectionHeader: {
-      miniTag: "Direito do consumidor",
+      miniTag: "DIREITO TRABALHISTA",
       title: "Como podemos te ajudar?",
     },
     cards: {
@@ -59,14 +60,16 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-plane"
+            class="lucide lucide-history"
           >
-            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+            <path d="M12 7v5l4 2" />
           </svg>
         ),
-        title: "Atraso de Voo",
+        title: "Hora extra e Verba rescisória",
         description:
-          "Em casos de atraso ou espera por voo superior a 4 horas, fica a Companhia Aérea obrigada a fornecer alimentação, comunicação, transporte e caso necessário, hospedagem de forma gratuita. Existe a possibilidade de indenização por dano moral, pricipalmente se houver perda de compromisso profissional / social.",
+          "Se você não recebeu pelas horas extras trabalhadas ou sua rescisão foi paga de forma incompleta, entraremos com ação para garantir o pagamento integral e corrigido de seus direitos.",
       },
       card2: {
         icon: (
@@ -80,15 +83,16 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-ban"
+            class="lucide lucide-triangle-alert"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
+            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
+            <path d="M12 9v4" />
+            <path d="M12 17h.01" />
           </svg>
         ),
-        title: "Voo Cancelado",
+        title: "Insalubridade e Periculosidade",
         description:
-          "Quem teve o Voo Cancelado tem os mesmos direitos de quem teve seu Voo Atrasado. Havendo atraso superior a 4 horas, bem como problemas de perda de conexão, pernoite não programado e/ou transporte terrestre, existe a possibilidade de indenização por dano moral.",
+          "Buscaremos na justiça o adicional de insalubridade ou periculosidade que a empresa deixou de pagar, cobrando tudo que é devido.",
       },
       card3: {
         icon: (
@@ -102,16 +106,17 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-book-x"
+            class="lucide lucide-frown"
           >
-            <path d="m14.5 7-5 5" />
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-            <path d="m9.5 7 5 5" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 16s-1.5-2-4-2-4 2-4 2" />
+            <line x1="9" x2="9.01" y1="9" y2="9" />
+            <line x1="15" x2="15.01" y1="9" y2="9" />
           </svg>
         ),
-        title: "Overbooking",
+        title: "Assédio Moral",
         description:
-          "Ocorre quando o embarque é negado pela falta de assentos na aeronave, sendo um passageiro preterido por outro. Muitas vezes o passageiro é realocado em outros voos, com alteração de itinerário ou com escala não programada. A prática é de uso frequente pelas linhas aéreas e enseja indenização por dano moral.",
+          "Sofreu abusos no trabalho? Uma ação de assédio moral com foco em reparar os danos sofridos, garantindo justiça e dignidade para você.",
       },
       card4: {
         icon: (
@@ -125,18 +130,16 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-baggage-claim"
+            class="lucide lucide-circle-dollar-sign"
           >
-            <path d="M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2" />
-            <path d="M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10" />
-            <rect width="13" height="8" x="8" y="6" rx="1" />
-            <circle cx="18" cy="20" r="2" />
-            <circle cx="9" cy="20" r="2" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
-        title: "Desvio de Bagagem",
+        title: "Atraso Salarial",
         description:
-          "O Extravio ocorre quando sua bagagem é extraviada temporariamente, permanentemente ou é danificada. Existe a possibilidade de ressarcimento de caráter material, tanto dos valores gastos para suprir a ausência da mesma, como em substituição aos itens que estavam dentro das malas. O extravio enseja também indenização por dano moral.",
+          "Acionamos judicialmente a empresa para que os valores sejam pagos com correção, assegurando seu sustento sem mais demora.",
       },
     },
   },
@@ -147,18 +150,19 @@ const LpContent = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "TRADIÇÃO EM DIREITO DO CONSUMIDOR",
-      title: "Sobre nós",
+      miniTag: "TRADIÇÃO EM DIREITO TRABALHISTA",
+      title: "Quem é Dr Juliano Aleixo",
     },
     paragraph: (
       <p>
-        Na Ernest Bertola Advocacia, sabemos que o tempo é essencial para nossos
-        clientes. Por isso, priorizamos uma atuação ágil e eficiente, sem abrir
-        mão da qualidade dos nossos serviços. Nosso objetivo é garantir as
-        melhores soluções jurídicas de forma tempestiva e eficaz. <br />
-        <br /> Seja qual for o seu desafio jurídico, estamos aqui para ajudar.
-        Entre em contato com a Ernest Bertola Advocacia e descubra como podemos
-        fazer a diferença no seu caso.
+        Na minha rotina diária, entendo que rapidez é fundamental para nossos
+        clientes, especialmente em questões trabalhistas. Por isso, atuo de
+        forma ágil e estratégica, sem comprometer a qualidade. Com foco em
+        garantir que seus direitos sejam resguardados com eficiência e
+        determinação. <br />
+        <br /> Independentemente do seu problema trabalhista, estou pronto para
+        oferecer a melhor solução jurídica. Entre em contato com Juliano Aleixo
+        Advocacia e veja como podemos ser decisivos na defesa dos seus direitos.
       </p>
     ),
     buttonLabel: "Falar com um especialista",
@@ -166,7 +170,7 @@ const LpContent = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A melhor escolha",
+      miniTag: "A MELHOR ESCOLHA",
       title: "Por que nos escolher pra te defender?",
     },
     cards: {
@@ -182,19 +186,22 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-brain"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" />
+            <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z" />
+            <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4" />
+            <path d="M17.599 6.5a3 3 0 0 0 .399-1.375" />
+            <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" />
+            <path d="M3.477 10.896a4 4 0 0 1 .585-.396" />
+            <path d="M19.938 10.5a4 4 0 0 1 .585.396" />
+            <path d="M6 18a4 4 0 0 1-1.967-.516" />
+            <path d="M19.967 17.484A4 4 0 0 1 18 18" />
           </svg>
         ),
-        title:
-          "Consultoria personalizada para entender todos os aspectos do seu caso",
+        title: "Estratégia personalizada para garantir seus direitos",
         description:
-          "Cada situação é única e merece uma abordagem sob medida. Nossa equipe analisa minuciosamente todos os aspectos de seu caso para desenvolver a melhor estratégia.",
+          "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia para você sair vitorioso.",
       },
       card2: {
         icon: (
@@ -208,17 +215,18 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-ruler"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z" />
+            <path d="m14.5 12.5 2-2" />
+            <path d="m11.5 9.5 2-2" />
+            <path d="m8.5 6.5 2-2" />
+            <path d="m17.5 15.5 2-2" />
           </svg>
         ),
-        title: "Atendimento Personalizado",
+        title: "Soluções sob medida para o seu problema",
         description:
-          "Entendemos que cada caso é único. Por isso, dedicamos atenção exclusiva a cada cliente, desenvolvendo planos de ação personalizados.",
+          "Seu caso é único, e nós desenvolvemos um plano de ação específico para resolver suas questões trabalhistas com agilidade.",
       },
       card3: {
         icon: (
@@ -232,19 +240,18 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-chart-no-axes-combined"
+            class="lucide lucide-handshake"
           >
-            <path d="M12 16v5" />
-            <path d="M16 14v7" />
-            <path d="M20 10v11" />
-            <path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15" />
-            <path d="M4 18v3" />
-            <path d="M8 14v7" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
-        title: "Dedicação e Persistência",
+        title: "Compromisso total com sua causa",
         description:
-          "O nosso atendimento trata cada caso com a sua devida peculiaridade, almejando resolver o litígio da melhor forma possível para o nosso cliente.",
+          "Lutamos de forma incansável pelos seus direitos, buscando a solução mais favorável para você em cada etapa do processo.",
       },
       card4: {
         icon: (
@@ -258,25 +265,26 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-badge-check"
+            class="lucide lucide-hourglass"
           >
-            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Tranquilidade e confiança ao lidar com seu caso",
+        title: "Experiência que traz tranquilidade",
         description:
-          "Você pode confiar em nossa experiência e expertise para resolver sua situação de forma eficiente e satisfatória. Nossos especialistas estão preparados para trabalhar em seu processo, para garantir a segurança de seus direitos, buscando as melhores alternativas de acordo com a complexidade de cada realidade.",
+          "Nossa expertise garante que seu caso será tratado com segurança e confiança, assegurando a proteção total dos seus direitos trabalhistas.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "Não perca mais tempo",
-      title:
-        "Seja ressarcido agora mesmo por prejuízos causados por companhias aéreas",
-      subtitle: `O escritório ${infos.name} está aqui para te ajudar. Nossa equipe especializada em direitos do consumidor pode orientar você no processo de busca por indenização. Não deixe que o cancelamento de voo estrague sua experiência de viagem.`,
+      miniTag: "NÃO PERCA MAIS TEMPO",
+      title: "Seja ressarcido por prejuízos trabalhistas agora mesmo!",
+      subtitle: `O escritório Juliano Aleixo Advocacia está pronto para te auxiliar. Nossa equipe especializada em direito trabalhista pode orientá-lo no processo para garantir sua indenização por demissões indevidas, salários atrasados ou qualquer violação de direitos. Não deixe que essas situações prejudiquem sua vida profissional.`,
     },
     buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
