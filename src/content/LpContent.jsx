@@ -166,8 +166,8 @@ const LpContent = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A definir minitag whyus",
-      title: "A definir title whyus",
+      miniTag: "A melhor escolha",
+      title: "Por que nos escolher pra te defender?",
     },
     cards: {
       card1: {
