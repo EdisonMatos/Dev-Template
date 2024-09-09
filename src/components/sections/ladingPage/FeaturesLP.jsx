@@ -10,9 +10,7 @@ export default function FeaturesLP({ className }) {
         <SectionWrapper>
           <SectionHeader
             className="text-center"
-            miniTitle="Serviços"
             sectionHeaderTitle="Como podemos te ajudar?"
-            sectionHeaderSubtitle="Temos várias soluções jurídicas pra você"
             color="dark"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
