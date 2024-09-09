@@ -325,7 +325,7 @@ const LpContent = {
     },
   },
   footer: {
-    copyRightLine: `© ${currentYear} ${infos.name}. Todos os direitos reservados.`,
+    copyrightLine: `© ${currentYear} ${infos.name}. Todos os direitos reservados.`,
     disclaimer: `Este site não é um produto Meta Platforms, Inc., Google LLC, tampouco oferece serviços públicos oficiais. ${infos.name} oferece serviços jurídicos privativos de advogado, de acordo com a legislação vigente e o Código de Ética e Disciplina da Ordem dos Advogados do Brasil.`,
   },
 };
