@@ -4,6 +4,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
 import links from "../../content/links";
 import Button from "../interactives/Button";
+import logo from "../../assets/imgs/logo/logo.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -21,10 +22,10 @@ export default function HeroLP() {
       >
         <SectionWrapper className="">
           <div className="flex w-full ">
-            <div className="flex phone1:flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] desktop1:w-full max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
+            <div className="flex phone1:flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
               <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                 <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
-                  {/* <img src={logo} alt="Logo" className="mb-[24px]" /> */}
+                  <img src={logo} alt="Logo" className="mb-[24px]" />
                 </MotionDivDownToUp>
                 {/* <MotionDivDownToUp>
                     <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont phone1:text-paragraph4">
@@ -34,8 +35,8 @@ export default function HeroLP() {
                     </div>
                   </MotionDivDownToUp> */}
                 <MotionDivDownToUp>
-                  <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[45px] tablet1:leading-[75px] desktop1:leading-[55px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
-                    <h1 className="mb-[24px]">
+                  <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[32px] phone3:leading-[40px] tablet1:leading-[60px] desktop1:leading-[55px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                    <h1 className="mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                       O <span className="text-primary">voo atrasou</span>, foi
                       cancelado ou você teve{" "}
                       <span className="text-primary">extravio de bagagem</span>?
@@ -44,7 +45,7 @@ export default function HeroLP() {
                 </MotionDivDownToUp>
                 <MotionDivDownToUp>
                   <div className="flex justify-center text-center text-lighter desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
-                    <p className="mb-[40px] opacity-100">
+                    <p className="mb-[40px] opacity-100 [text-shadow:_2px_2px_1px_rgb(0_0_0_/_100%)]">
                       Você pode receber indenização por esse transtorno. Somos
                       um escritório especializado em processos judiciais contra
                       empresas aéreas com atuação em todo o país
