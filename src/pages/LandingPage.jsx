@@ -1,5 +1,6 @@
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import AboutParalaxeLP from "../components/sections/ladingPage/AboutParalaxeLP";
+import ContactLP from "../components/sections/ladingPage/ContactLP";
 import CtaLP from "../components/sections/ladingPage/CtaLP";
 import FeaturesLP from "../components/sections/ladingPage/FeaturesLP";
 import FooterLP from "../components/sections/ladingPage/FooterLP";
@@ -14,6 +15,7 @@ export default function LandingPage() {
       <AboutParalaxeLP />
       <WhyUs />
       <CtaLP />
+      <ContactLP />
       <FooterLP />
       <FloatingWhatsappButton />
     </div>
