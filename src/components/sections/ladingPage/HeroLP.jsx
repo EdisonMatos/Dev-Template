@@ -1,10 +1,10 @@
-import SectionArea from "../sectionElements/SectionArea";
-import SectionWrapper from "../animation/MotionDivDownToUp";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import content from "../../content/content";
-import links from "../../content/links";
-import Button from "../interactives/Button";
-import logo from "../../assets/imgs/logo/logo.png";
+import SectionArea from "../../sectionElements/SectionArea";
+import SectionWrapper from "../../animation/MotionDivDownToUp";
+import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
+import content from "../../../content/content";
+import links from "../../../content/links";
+import Button from "../../interactives/Button";
+import logo from "../../../assets/imgs/logo/logo.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
