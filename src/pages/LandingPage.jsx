@@ -1,5 +1,10 @@
+import BackToTopButton from "../components/interactives/BackToTopButton";
+import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import AboutParalaxeLP from "../components/sections/ladingPage/AboutParalaxeLP";
+import ContactLP from "../components/sections/ladingPage/ContactLP";
+import CtaLP from "../components/sections/ladingPage/CtaLP";
 import FeaturesLP from "../components/sections/ladingPage/FeaturesLP";
+import FooterLP from "../components/sections/ladingPage/FooterLP";
 import HeroLP from "../components/sections/ladingPage/HeroLP";
 import WhyUs from "../components/sections/ladingPage/WhyUs";
 
@@ -10,6 +15,11 @@ export default function LandingPage() {
       <FeaturesLP />
       <AboutParalaxeLP />
       <WhyUs />
+      <CtaLP />
+      <ContactLP />
+      <FooterLP />
+      <FloatingWhatsappButton />
+      {/* <BackToTopButton /> */}
     </div>
   );
 }

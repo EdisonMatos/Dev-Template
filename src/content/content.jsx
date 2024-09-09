@@ -710,8 +710,8 @@ const content = {
       title:
         "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+        "O escritório Camila Crafig Advocacia está aqui para te ajudar. Nossa equipe especializada em direitos do consumidor pode orientar você no processo de busca por indenização. Não deixe que o cancelamento de voo estrague sua experiência de viagem.",
+      ctaButtonText: "Quero falar com um especialista",
     },
     testimonials: {
       miniTag: "A Definir",
