@@ -1,3 +1,4 @@
+import AboutParalaxeLP from "../components/sections/ladingPage/AboutParalaxeLP";
 import FeaturesLP from "../components/sections/ladingPage/FeaturesLP";
 import HeroLP from "../components/sections/ladingPage/HeroLP";
 
@@ -6,6 +7,7 @@ export default function LandingPage() {
     <div>
       <HeroLP />
       <FeaturesLP />
+      <AboutParalaxeLP />
     </div>
   );
 }
