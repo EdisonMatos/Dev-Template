@@ -3,16 +3,14 @@ import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import FeatureCardLP from "./FeatureCardLP";
 
-export default function FeaturesLP({ className }) {
+export default function WhyUs({ className }) {
   return (
     <>
       <SectionArea>
         <SectionWrapper>
           <SectionHeader
             className="text-center"
-            miniTitle="Serviços"
-            sectionHeaderTitle="Como podemos te ajudar?"
-            sectionHeaderSubtitle="Temos várias soluções jurídicas pra você"
+            sectionHeaderTitle="Por que nos escolher pra te defender?"
             color="dark"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
@@ -28,13 +26,17 @@ export default function FeaturesLP({ className }) {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-plane"
+                  class="lucide lucide-scale"
                 >
-                  <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+                  <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+                  <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+                  <path d="M7 21h10" />
+                  <path d="M12 3v18" />
+                  <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
                 </svg>
               }
-              title="Atraso de Voo"
-              description="Em casos de atraso ou espera por voo superior a 4 horas, fica a Companhia Aérea obrigada a fornecer alimentação, comunicação, transporte e caso necessário, hospedagem de forma gratuita. Existe a possibilidade de indenização por dano moral, pricipalmente se houver perda de compromisso profissional / social."
+              title="Consultoria personalizada para entender todos os aspectos do seu caso"
+              description="Cada situação é única e merece uma abordagem sob medida. Nossa equipe analisa minuciosamente todos os aspectos de seu caso para desenvolver a melhor estratégia."
             />
             <FeatureCardLP
               icon={
@@ -48,14 +50,16 @@ export default function FeaturesLP({ className }) {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-ban"
+                  class="lucide lucide-users"
                 >
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="m4.9 4.9 14.2 14.2" />
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
               }
-              title="Voo Cancelado"
-              description="Quem teve o Voo Cancelado tem os mesmos direitos de quem teve seu Voo Atrasado. Havendo atraso superior a 4 horas, bem como problemas de perda de conexão, pernoite não programado e/ou transporte terrestre, existe a possibilidade de indenização por dano moral."
+              title="Atendimento Personalizado"
+              description="Entendemos que cada caso é único. Por isso, dedicamos atenção exclusiva a cada cliente, desenvolvendo planos de ação personalizados."
             />
             <FeatureCardLP
               icon={
@@ -69,15 +73,18 @@ export default function FeaturesLP({ className }) {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-book-x"
+                  class="lucide lucide-chart-no-axes-combined"
                 >
-                  <path d="m14.5 7-5 5" />
-                  <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-                  <path d="m9.5 7 5 5" />
+                  <path d="M12 16v5" />
+                  <path d="M16 14v7" />
+                  <path d="M20 10v11" />
+                  <path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15" />
+                  <path d="M4 18v3" />
+                  <path d="M8 14v7" />
                 </svg>
               }
-              title="Overbooking"
-              description="Ocorre quando o embarque é negado pela falta de assentos na aeronave, sendo um passageiro preterido por outro. Muitas vezes o passageiro é realocado em outros voos, com alteração de itinerário ou com escala não programada. A prática é de uso frequente pelas linhas aéreas e enseja indenização por dano moral."
+              title="Dedicação e Persistência"
+              description="O nosso atendimento trata cada caso com a sua devida peculiaridade, almejando resolver o litígio da melhor forma possível para o nosso cliente."
             />
             <FeatureCardLP
               icon={
@@ -91,16 +98,13 @@ export default function FeaturesLP({ className }) {
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="lucide lucide-baggage-claim"
+                  class="lucide lucide-badge-check"
                 >
-                  <path d="M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2" />
-                  <path d="M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10" />
-                  <rect width="13" height="8" x="8" y="6" rx="1" />
-                  <circle cx="18" cy="20" r="2" />
-                  <circle cx="9" cy="20" r="2" />
+                  <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+                  <path d="m9 12 2 2 4-4" />
                 </svg>
               }
-              title="Desvio de Bagagem"
+              title="Tranquilidade e confiança ao lidar com seu caso"
               description="O Extravio ocorre quando sua bagagem é extraviada temporariamente, permanentemente ou é danificada. Existe a possibilidade de ressarcimento de caráter material, tanto dos valores gastos para suprir a ausência da mesma, como em substituição aos itens que estavam dentro das malas. O extravio enseja também indenização por dano moral."
             />
           </div>
