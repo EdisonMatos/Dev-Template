@@ -1,3 +1,4 @@
+import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import AboutParalaxeLP from "../components/sections/ladingPage/AboutParalaxeLP";
 import ContactLP from "../components/sections/ladingPage/ContactLP";
@@ -18,6 +19,7 @@ export default function LandingPage() {
       <ContactLP />
       <FooterLP />
       <FloatingWhatsappButton />
+      {/* <BackToTopButton /> */}
     </div>
   );
 }
