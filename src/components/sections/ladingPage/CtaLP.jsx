@@ -1,14 +1,9 @@
 import LpContent from "../../../content/LpContent";
-import content from "../../../content/content";
-import infos from "../../../content/infos";
 import links from "../../../content/links";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
-import ContactCardLP from "./ContactCardLP";
-
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function AboutParalaxeLP() {
   return (
@@ -32,9 +27,9 @@ export default function AboutParalaxeLP() {
                 color=""
               />
               <Button
-                aria-label={content.texts.hero.ctaButtonAriaLabel}
+                aria-label={LpContent.hero.textArea.ctaButtonAriaLabel}
                 label={LpContent.cta.buttonLabel}
-                buttonLink={whatsappContactLink}
+                buttonLink={LpContent.links.ctaWhatsapp}
                 animation
                 icon={
                   <svg

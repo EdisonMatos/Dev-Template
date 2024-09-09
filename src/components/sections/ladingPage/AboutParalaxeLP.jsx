@@ -1,12 +1,9 @@
 import LpContent from "../../../content/LpContent";
-import content from "../../../content/content";
 import links from "../../../content/links";
 import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
-
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function AboutParalaxeLP() {
   return (
@@ -41,9 +38,9 @@ export default function AboutParalaxeLP() {
                   </p>
                   <div className="w-full">
                     <Button
-                      aria-label={content.texts.hero.ctaButtonAriaLabel}
+                      aria-label={LpContent.hero.textArea.ctaButtonAriaLabel}
                       label={LpContent.about.buttonLabel}
-                      buttonLink={whatsappContactLink}
+                      buttonLink={LpContent.links.ctaWhatsapp}
                       animation
                       className="w-[90%]"
                       icon={

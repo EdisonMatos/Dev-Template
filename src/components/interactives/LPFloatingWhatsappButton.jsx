@@ -3,10 +3,9 @@ import whatsappWebm from "../../assets/importAssets/whatsappGif.webp";
 import Modal from "../util/Modal";
 import links from "../../content/links";
 import { Target } from "lucide-react";
+import LpContent from "../../content/LpContent";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
-
-const FloatingWhatsappButton = ({ buttonType }) => {
+const LPFloatingWhatsappButton = ({ buttonType }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [openModal, setOpenModal] = useState(false);
 
@@ -29,7 +28,7 @@ const FloatingWhatsappButton = ({ buttonType }) => {
     if (buttonType === "form") {
       setOpenModal(!openModal);
     } else {
-      window.open(whatsappContactLink, "_blank");
+      window.open(LpContent.links.ctaWhatsapp, "_blank");
     }
   };
 
@@ -54,4 +53,4 @@ const FloatingWhatsappButton = ({ buttonType }) => {
   );
 };
 
-export default FloatingWhatsappButton;
+export default LPFloatingWhatsappButton;

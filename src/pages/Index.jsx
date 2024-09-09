@@ -1,7 +1,6 @@
 import Faq from "../components/sections/Faq";
 import About from "../components/sections/About";
 import BackToTopButton from "../components/interactives/BackToTopButton";
-import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import HeroBgImg from "../components/sections/HeroBgImg";
 import FooterSocial from "../components/sections/FooterSocial";
 import NavbarSocial from "../components/sections/NavbarSocial";
@@ -13,6 +12,7 @@ import CtaMinimal from "../components/sections/CtaMinimal";
 import Depositions from "../components/sections/Depositions";
 import Hero from "../components/sections/Hero";
 import FeaturesButton from "../components/sections/FeaturesButton";
+import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 
 export default function Index() {
   return (

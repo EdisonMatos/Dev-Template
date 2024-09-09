@@ -5,7 +5,16 @@ const currentYear = new Date().getFullYear();
 
 const infos = {
   name: "Ernest Bertola",
-  phone: "(A definir) A definir-A definir",
+  phone: {
+    ddd: "61",
+    firstPart: "99278", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1077", // Apenas os 4 últimos números
+  },
+  email: "contato", // Email desejado pelo cliente
+  domain: "paperstreet.com.br", // Sem "www"
+  instagramProfile: "paperstreetsoftwares", // Sem o @
+  whatsappDefaultMessage:
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
 };
 
 const LpContent = {
@@ -28,6 +37,8 @@ const LpContent = {
       subtitle:
         "Você pode receber indenização por esse transtorno. Somos um escritório especializado em processos judiciais contra empresas aéreas com atuação em todo o país",
       buttonLabel: "Quero falar com um especialista",
+      ctaButtonAriaLabel:
+        "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
@@ -146,6 +157,7 @@ const LpContent = {
       </p>
     ),
     buttonLabel: "A definir buton about",
+    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
@@ -262,6 +274,7 @@ const LpContent = {
       subtitle: `O escritório ${infos.name} está aqui para te ajudar. Nossa equipe especializada em direitos do consumidor pode orientar você no processo de busca por indenização. Não deixe que o cancelamento de voo estrague sua experiência de viagem.`,
     },
     buttonLabel: "Quero falar com um especialista",
+    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
     card1: {
@@ -284,7 +297,7 @@ const LpContent = {
         </svg>
       ),
       title: "Instagram",
-      description: "insta profile",
+      description: `@${infos.instagramProfile}`,
     },
     card2: {
       icon: (
@@ -305,7 +318,7 @@ const LpContent = {
         </svg>
       ),
       title: "Email",
-      description: "email@email.com",
+      description: `${infos.email}@${infos.domain}`,
     },
     card3: {
       icon: (
@@ -321,12 +334,16 @@ const LpContent = {
         </svg>
       ),
       title: "Whatsapp",
-      description: `${infos.phone}`,
+      description: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
     },
   },
   footer: {
     copyrightLine: `© ${currentYear} ${infos.name}. Todos os direitos reservados.`,
     disclaimer: `Este site não é um produto Meta Platforms, Inc., Google LLC, tampouco oferece serviços públicos oficiais. ${infos.name} oferece serviços jurídicos privativos de advogado, de acordo com a legislação vigente e o Código de Ética e Disciplina da Ordem dos Advogados do Brasil.`,
+  },
+  links: {
+    instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+    ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
   },
 };
 

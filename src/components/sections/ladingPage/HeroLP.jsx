@@ -1,13 +1,8 @@
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionWrapper from "../../animation/MotionDivDownToUp";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
-import links from "../../../content/links";
 import Button from "../../interactives/Button";
-import logo from "../../../assets/imgs/logo/logo.png";
 import LpContent from "../../../content/LpContent";
-
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function HeroLP() {
   return (
@@ -54,9 +49,9 @@ export default function HeroLP() {
                 <div className="w-full phone2:w-full tablet2:w-auto">
                   <div className="flex justify-center w-full desktop1:justify-start">
                     <Button
-                      aria-label={content.texts.hero.ctaButtonAriaLabel}
+                      aria-label={LpContent.hero.textArea.ctaButtonAriaLabel}
                       label={LpContent.hero.textArea.buttonLabel}
-                      buttonLink={whatsappContactLink}
+                      buttonLink={LpContent.links.ctaWhatsapp}
                       animation
                       className="w-[100%]"
                       icon={
