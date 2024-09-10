@@ -16,14 +16,14 @@ export default function ContactLP() {
               description={LpContent.contact.card1.description}
             />
             <ContactCardLP
-              label={LpContent.contact.card2.title}
-              icon={LpContent.contact.card2.icon}
-              description={LpContent.contact.card2.description}
-            />
-            <ContactCardLP
               label={LpContent.contact.card3.title}
               icon={LpContent.contact.card3.icon}
               description={LpContent.contact.card3.description}
+            />
+            <ContactCardLP
+              label={LpContent.contact.card2.title}
+              icon={LpContent.contact.card2.icon}
+              description={LpContent.contact.card2.description}
             />
           </div>
         </SectionWrapper>

@@ -8,7 +8,9 @@ export default function ContactCardLP({ icon, label, description }) {
           </div>
           <div className="flex flex-col justify-center text-darker">
             <h1 className="font-semibold">{label}</h1>
-            <p className="opacity-80">{description}</p>
+            <p className="opacity-80 text-[8px] phone2:text-[10px] phone3:text-[12px]">
+              {description}
+            </p>
           </div>
         </div>
       </div>

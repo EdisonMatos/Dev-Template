@@ -18,11 +18,11 @@ export default function AboutParalaxeLP() {
         <div className="flex justify-center w-full bg-black bg-opacity-80">
           <SectionArea>
             <SectionWrapper>
-              <div className="gap-y-[60px] flex flex-col items-center tablet2:flex-row tablet2:w-[70%] tablet2:justify-between">
+              <div className="gap-y-[60px] flex flex-col items-center tablet2:flex-row tablet2:w-[100%] tablet2:justify-between tablet2:gap-[120px]">
                 <img
                   src={LpContent.about.logo.logoImg}
                   alt={LpContent.about.logo.alt}
-                  className="w-[30%] desktop1:w-[20%]"
+                  className="w-[90%] tablet2:w-[30%] desktop1:w-[40%]"
                 />
                 <div className="tablet2:w-[60%]">
                   <SectionHeader
@@ -41,7 +41,7 @@ export default function AboutParalaxeLP() {
                       label={LpContent.about.buttonLabel}
                       buttonLink={LpContent.links.ctaWhatsapp}
                       animation
-                      className="w-[90%]"
+                      className=""
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

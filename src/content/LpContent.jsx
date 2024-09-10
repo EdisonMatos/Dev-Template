@@ -165,7 +165,7 @@ const LpContent = {
         Advocacia e veja como podemos ser decisivos na defesa dos seus direitos.
       </p>
     ),
-    buttonLabel: "Falar com um especialista",
+    buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
