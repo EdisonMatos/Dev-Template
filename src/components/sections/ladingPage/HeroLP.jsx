@@ -7,7 +7,7 @@ import LpContent from "../../../content/LpContent";
 export default function HeroLP() {
   return (
     <div
-      className="w-full bg-center bg-no-repeat bg-cover font-mainFont"
+      className="w-full bg-top bg-no-repeat bg-cover font-mainFont"
       style={{
         backgroundImage: `url(${LpContent.hero.bgImg})`,
       }}
@@ -24,7 +24,7 @@ export default function HeroLP() {
                   <img
                     src={LpContent.hero.logo.logoImg}
                     alt={LpContent.hero.logo.alt}
-                    className="mb-[24px]"
+                    className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[360px]"
                   />
                 </MotionDivDownToUp>
                 {/* <MotionDivDownToUp>

@@ -31,8 +31,8 @@ const LpContent = {
       title: (
         <h1>
           Acabou de ser <span className="text-primary">demitido?</span> Tem
-          horas extras ou salários
-          <span className="text-primary">atrasados</span>?
+          horas extras ou
+          <span className="text-primary"> salários atrasados</span>?
         </h1>
       ),
       subtitle:
@@ -165,7 +165,7 @@ const LpContent = {
         Advocacia e veja como podemos ser decisivos na defesa dos seus direitos.
       </p>
     ),
-    buttonLabel: "Falar com um especialista",
+    buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
