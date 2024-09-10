@@ -10,8 +10,8 @@ import LandingPage from "./pages/LandingPage.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
-      <Route path="/" element={<Index />} />
-      <Route path="/lp" element={<LandingPage />} />
+      <Route path="/template" element={<Index />} />
+      <Route path="/" element={<LandingPage />} />
     </Routes>
   </Router>
 );
