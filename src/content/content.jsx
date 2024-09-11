@@ -301,14 +301,16 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Fique por dentro!",
+        subtitle: "⚖️ Quer ficar por dentro das novidades do mundo jurídico?",
         paragraph: (
           <p>
-            A Definir
+            Acompanhe nossas postagens para ficar por dentro das últimas
+            novidades e entendimentos sobre Direito Criminal.
             <br />
-            <br />A Definir
+            <br />
+            Siga o Dr Wellington Almeida no Instagram!
           </p>
         ),
       },
