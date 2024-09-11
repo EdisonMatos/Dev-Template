@@ -59,13 +59,18 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EMPRESARIAL E CÍVEL EM LONDRINA - PR",
-      title: <h1 className="mb-[16px]">Compromisso em defender direitos</h1>,
-      subtitle: "Soluções jurídicas personalizadas e dedicadas para cada caso.",
+      miniTag: "ADVOGADO CRIMINAL EM FORTALEZA - CE",
+      title: (
+        <h1 className="mb-[16px]">
+          Protegemos seus direitos em todos os momentos
+        </h1>
+      ),
+      subtitle:
+        "Defesa estratégica e dedicada, garantindo seus direitos com foco em resultados.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "Entre em contato",
+      secondaryCta: "A Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -88,14 +93,24 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Proteção jurídica sob medida",
+      title: "Especialidades em Direito Criminal",
       subtitle:
-        "Experiência abrangente para oferecer uma defesa completa e assertiva dos seus direitos.",
+        "Atuação especializada em diversas áreas do Direito Criminal para proteger seus interesses com excelência e dedicação.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        svgIcon: (
+        title: "Processos Criminais",
+        subtitle:
+          "Atuação completa na defesa de acusados em crimes como homicídio, furto, roubo, estelionato e outros",
+        description: (
+          <div>
+            A Definir <br />
+            <br />A Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal1,
+        icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -115,56 +130,14 @@ const content = {
             <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
-        title: "Empresarial e Tributário",
-        subtitle:
-          "Estratégias jurídicas para compliance empresarial e otimização fiscal.",
-        description: (
-          <div>
-            A Definir <br />
-            <br />A Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
-          >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-          </svg>
-        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-contact"
-          >
-            <path d="M16 2v2" />
-            <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
-            <path d="M8 2v2" />
-            <circle cx="12" cy="11" r="3" />
-            <rect x="3" y="4" width="18" height="18" rx="2" />
-          </svg>
-        ),
-        title: "Família, Sucessão e Planejamento Patrimonial",
+        title: "Recursos e Apelações",
         subtitle:
-          "Proteção e gestão eficiente dos bens familiares e sucessórios.",
+          "Preparação e apresentação de recursos e apelações para revisar e contestar decisões judiciais.",
         description: (
           <div>
             A Definir <br />
@@ -178,11 +151,16 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-check"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -190,29 +168,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-handshake"
-          >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
-          </svg>
-        ),
-        title: "Trabalhista e Consumidor",
+        title: "Tribunal do Júri",
         subtitle:
-          "Defesa dos direitos dos trabalhadores e consumidores com eficácia.",
+          "Defesa em casos de crimes dolosos contra a vida, atuando com expertise e dedicação no Tribunal do Júri.",
         description: (
           <div>
             A Definir <br />
@@ -225,11 +183,17 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-speech"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
+            <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
+            <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -237,30 +201,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-landmark"
-          >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
-          </svg>
-        ),
-        title: "Imobiliário e Propriedade Intelectual",
+        title: "Atendimento em Delegacia",
         subtitle:
-          "Consultoria e proteção em transações imobiliárias e direitos autorais.",
+          "Suporte imediato e especializado em delegacias, desde prisão até a elaboração da defesa.",
         description: (
           <div>
             A Definir <br />
@@ -275,11 +218,22 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-siren"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
+            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
+            <path d="M21 12h1" />
+            <path d="M18.5 4.5 18 5" />
+            <path d="M2 12h1" />
+            <path d="M12 2v1" />
+            <path d="m4.929 4.929.707.707" />
+            <path d="M12 12v6" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -289,88 +243,74 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "A Definir",
+        alt: "Imagem ilustrativa",
       },
-      miniTag: "SOBRE ERNEST BERTOLA ADVOCACIA",
-      title: "Competência que você pode confiar",
+      miniTag: "QUEM É DR. WELLINGTON ALMEIDA",
+      title: "Minha trajetória",
       subtitle:
-        "Na Ernest Bertola Advocacia, dedicamo-nos a oferecer soluções jurídicas de excelência para clientes nacionais e internacionais, com um compromisso inabalável com a qualidade e a eficácia.",
+        "Membro da Comissão de Direito Penitenciário e da Comissão de Estudos em Direito Penal OAB - CE.",
       paragraph: (
         <div>
-          <strong>Expertise Jurídica e Contábil Integrada</strong>
+          Sou Wellington Almeida, advogado especializado em Direito Criminal,
+          registrado na OAB-CE e formado pela Universidade de Fortaleza
+          (UNIFOR).
           <br />
-          Nossa equipe é formada por profissionais altamente qualificados que
-          combinam expertise jurídica e contábil, proporcionando uma assessoria
-          completa e integrada. Reconhecemos a singularidade de cada cliente e
-          adotamos uma abordagem personalizada para tratar todas as questões
-          legais e financeiras de forma coesa e eficiente.
-          <br />
+          Minha atuação tem como foco principal defender os direitos dos meus
+          clientes com dedicação e estratégia, buscando sempre a melhor solução
+          para cada caso.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Competência que você pode confiar</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
-        <p className="text-paragraph3">
-          <strong>Expertise Jurídica e Contábil Integrada</strong>
-          <br />
-          Nossa equipe é formada por profissionais altamente qualificados que
-          combinam expertise jurídica e contábil, proporcionando uma assessoria
-          completa e integrada.
-          <br className="desktop1:hidden" /> <br className="desktop1:hidden" />
-          Reconhecemos a singularidade de cada cliente e adotamos uma abordagem
-          personalizada para tratar todas as questões legais e financeiras de
-          forma coesa e eficiente.
+        <p>
+          <strong>
+            Membro da Comissão de Direito Penitenciário e da Comissão de Estudos
+            em Direito Penal OAB - CE.
+          </strong>
           <br />
           <br />
-          <strong>Atuação Global, Soluções Locais</strong>
-          <br />
-          Com uma visão global e uma abordagem local, estamos preparados para
-          enfrentar os desafios legais de um mundo cada vez mais interconectado
-          e complexo.
-          <br className="desktop1:hidden" /> <br className="desktop1:hidden" />
-          Nossa experiência nos permite oferecer consultoria estratégica e
-          representação jurídica que protegem os interesses dos nossos clientes
-          em qualquer jurisdição.
+          Sou Wellington Almeida, advogado especializado em Direito Criminal,
+          registrado na OAB-CE e formado pela Universidade de Fortaleza
+          (UNIFOR). Minha atuação tem como foco principal defender os direitos
+          dos meus clientes com dedicação e estratégia, buscando sempre a melhor
+          solução para cada caso.
           <br />
           <br />
-          <strong>Compromisso com a Eficiência</strong>
-          <br />
-          Na Ernest Bertola Advocacia, sabemos que o tempo é essencial para
-          nossos clientes. Por isso, priorizamos uma atuação ágil e eficiente,
-          sem abrir mão da qualidade dos nossos serviços. Nosso objetivo é
-          garantir as melhores soluções jurídicas de forma tempestiva e eficaz.
-          <br />
-          <br />
-          Seja qual for o seu desafio jurídico, estamos aqui para ajudar. Entre
-          em contato com a Ernest Bertola Advocacia e descubra como podemos
-          fazer a diferença no seu caso.
+          Meu objetivo é amenizar ao máximo as consequências legais que meus
+          clientes possam enfrentar, oferecendo uma defesa personalizada e
+          comprometida com a justiça. Faço parte da Comissão de Direito
+          Penitenciário e da Comissão de Estudos em Direito Penal da OAB-CE, o
+          que me permite estar sempre atualizado com as mudanças no Direito
+          Penal.
           <br />
           <br />
-          Quer saber mais sobre nós? 👇
+          Seja em processos criminais, casos de crimes contra a administração
+          pública ou atendimento em delegacias, estou aqui para garantir um
+          suporte jurídico de qualidade, com foco total na resolução eficiente e
+          justa de cada situação.
           <br />
+          <br />
+          <p>Quer saber mais sobre nós? 👇</p>
           <br />
         </p>
       ),
       ctaButtonText: "Entre em contato",
-
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "MANTENHA-SE INFORMADO",
-        title: "Siga-me nas redes sociais!",
-        subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico-empresarial? Siga Ernest Bertola Advocacia no Instagram!",
+        title: "Fique por dentro!",
+        subtitle: "⚖️ Quer ficar por dentro das novidades do mundo jurídico?",
         paragraph: (
           <p>
-            Acompanhe nossas redes para dicas e insights sobre Direito
-            Empresarial, Societário, Recuperação de Crédito e muito mais! Não
-            perca a oportunidade de se informar e aprender mais sobre o Direito.
+            Acompanhe nossas postagens para ficar por dentro das últimas
+            novidades e entendimentos sobre Direito Criminal.
             <br />
             <br />
-            Fique por dentro e esteja sempre um passo à frente com a nossa
-            orientação especializada.
+            Siga o Dr Wellington Almeida no Instagram!
           </p>
         ),
       },
@@ -676,7 +616,7 @@ const content = {
       title: "Como funciona nosso processo de atendimento jurídico?",
       subtitle: "",
       img: imgSteps,
-      alt: "imagem de negociação",
+      alt: "",
       cards: {
         card1: {
           stepNumber: 1,
@@ -710,8 +650,8 @@ const content = {
       title:
         "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "O escritório Camila Crafig Advocacia está aqui para te ajudar. Nossa equipe especializada em direitos do consumidor pode orientar você no processo de busca por indenização. Não deixe que o cancelamento de voo estrague sua experiência de viagem.",
-      ctaButtonText: "Quero falar com um especialista",
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
       miniTag: "A Definir",
