@@ -1,10 +1,10 @@
 const links = {
-  whatsapp: "https://wa.me/+5543996063794?text=",
+  whatsapp: "https://wa.me/+55A Definir?text=",
   ctaWhatsapp:
-    "+5543996063794?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "+55A Definir?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   ctaLink: "#",
   socialMedia: {
-    instagram: "https://www.instagram.com/ernestbertola.adv",
+    instagram: "#",
     facebook: "#",
     linkedin: "#",
     twitter: "#",

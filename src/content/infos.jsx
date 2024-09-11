@@ -1,8 +1,8 @@
 const infos = {
-  name: "Dr. Ernest Bertola",
+  name: "A Definir",
   slogan: "",
-  phone: "(43) 99606-3794",
-  mail: "contato@ernestbertola-adv.com",
+  phone: "(A Definir) A Definir-A Definir",
+  mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
@@ -15,17 +15,16 @@ const infos = {
       <p>
         Horário de expediente:
         <br />
-        Segunda a sábado
+        A Definir
         <br />
-        Das 09h às 18h
+        A Definir
         <br />
       </p>
     ),
     obs: <span className="italic">A Definir</span>,
     midSectionName: "Até mais!",
     year: 2024,
-    footerText:
-      "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+    footerText: "A Definir",
 
     footerSocialText: "Siga a gente nas redes sociais:",
     footerNavegacaoText: "NAVEGAÇÃO",

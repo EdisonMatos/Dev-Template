@@ -54,18 +54,18 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "A Definir", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EMPRESARIAL E CÍVEL EM LONDRINA - PR",
-      title: <h1 className="mb-[16px]">Compromisso em defender direitos</h1>,
-      subtitle: "Soluções jurídicas personalizadas e dedicadas para cada caso.",
-      ctaButtonText: "Entre em contato",
+      miniTag: "A Definir",
+      title: <h1 className="mb-[16px]">A Definir</h1>,
+      subtitle: "A Definir",
+      ctaButtonText: "A Definir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "Entre em contato",
+      secondaryCta: "A Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -87,37 +87,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Proteção jurídica sob medida",
-      subtitle:
-        "Experiência abrangente para oferecer uma defesa completa e assertiva dos seus direitos.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale"
-          >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-          </svg>
-        ),
-        title: "Empresarial e Tributário",
-        subtitle:
-          "Estratégias jurídicas para compliance empresarial e otimização fiscal.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -142,29 +120,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-contact"
-          >
-            <path d="M16 2v2" />
-            <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
-            <path d="M8 2v2" />
-            <circle cx="12" cy="11" r="3" />
-            <rect x="3" y="4" width="18" height="18" rx="2" />
-          </svg>
-        ),
-        title: "Família, Sucessão e Planejamento Patrimonial",
-        subtitle:
-          "Proteção e gestão eficiente dos bens familiares e sucessórios.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -190,29 +147,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-handshake"
-          >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
-          </svg>
-        ),
-        title: "Trabalhista e Consumidor",
-        subtitle:
-          "Defesa dos direitos dos trabalhadores e consumidores com eficácia.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -237,30 +173,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        svgIcon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-landmark"
-          >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
-          </svg>
-        ),
-        title: "Imobiliário e Propriedade Intelectual",
-        subtitle:
-          "Consultoria e proteção em transações imobiliárias e direitos autorais.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -291,86 +205,46 @@ const content = {
         img: aboutImg1,
         alt: "A Definir",
       },
-      miniTag: "SOBRE ERNEST BERTOLA ADVOCACIA",
-      title: "Competência que você pode confiar",
-      subtitle:
-        "Na Ernest Bertola Advocacia, dedicamo-nos a oferecer soluções jurídicas de excelência para clientes nacionais e internacionais, com um compromisso inabalável com a qualidade e a eficácia.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          <strong>Expertise Jurídica e Contábil Integrada</strong>
+          A Definir
           <br />
-          Nossa equipe é formada por profissionais altamente qualificados que
-          combinam expertise jurídica e contábil, proporcionando uma assessoria
-          completa e integrada. Reconhecemos a singularidade de cada cliente e
-          adotamos uma abordagem personalizada para tratar todas as questões
-          legais e financeiras de forma coesa e eficiente.
-          <br />
+          A Definir
+          <br />A Definir
         </div>
       ),
-      buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Competência que você pode confiar</strong>,
+      titleModal: <strong>A Definir</strong>,
       modal: (
-        <p className="text-paragraph3">
-          <strong>Expertise Jurídica e Contábil Integrada</strong>
-          <br />
-          Nossa equipe é formada por profissionais altamente qualificados que
-          combinam expertise jurídica e contábil, proporcionando uma assessoria
-          completa e integrada.
-          <br className="desktop1:hidden" /> <br className="desktop1:hidden" />
-          Reconhecemos a singularidade de cada cliente e adotamos uma abordagem
-          personalizada para tratar todas as questões legais e financeiras de
-          forma coesa e eficiente.
+        <p>
+          <strong>A Definir</strong>
           <br />
           <br />
-          <strong>Atuação Global, Soluções Locais</strong>
+          A Definir
           <br />
-          Com uma visão global e uma abordagem local, estamos preparados para
-          enfrentar os desafios legais de um mundo cada vez mais interconectado
-          e complexo.
-          <br className="desktop1:hidden" /> <br className="desktop1:hidden" />
-          Nossa experiência nos permite oferecer consultoria estratégica e
-          representação jurídica que protegem os interesses dos nossos clientes
-          em qualquer jurisdição.
+          A Definir
           <br />
           <br />
-          <strong>Compromisso com a Eficiência</strong>
-          <br />
-          Na Ernest Bertola Advocacia, sabemos que o tempo é essencial para
-          nossos clientes. Por isso, priorizamos uma atuação ágil e eficiente,
-          sem abrir mão da qualidade dos nossos serviços. Nosso objetivo é
-          garantir as melhores soluções jurídicas de forma tempestiva e eficaz.
-          <br />
-          <br />
-          Seja qual for o seu desafio jurídico, estamos aqui para ajudar. Entre
-          em contato com a Ernest Bertola Advocacia e descubra como podemos
-          fazer a diferença no seu caso.
-          <br />
-          <br />
-          Quer saber mais sobre nós? 👇
-          <br />
+          <p>Quer saber mais sobre A Definir? 👇</p>
           <br />
         </p>
       ),
-      ctaButtonText: "Entre em contato",
 
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Siga-me nas redes sociais!",
-        subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico-empresarial? Siga Ernest Bertola Advocacia no Instagram!",
+        miniTag: "A Definir",
+        title: "A Definir",
+        subtitle: "A Definir",
         paragraph: (
           <p>
-            Acompanhe nossas redes para dicas e insights sobre Direito
-            Empresarial, Societário, Recuperação de Crédito e muito mais! Não
-            perca a oportunidade de se informar e aprender mais sobre o Direito.
+            A Definir
             <br />
-            <br />
-            Fique por dentro e esteja sempre um passo à frente com a nossa
-            orientação especializada.
+            <br />A Definir
           </p>
         ),
       },
@@ -672,46 +546,40 @@ const content = {
       },
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
-      alt: "imagem de negociação",
+      alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "O escritório Camila Crafig Advocacia está aqui para te ajudar. Nossa equipe especializada em direitos do consumidor pode orientar você no processo de busca por indenização. Não deixe que o cancelamento de voo estrague sua experiência de viagem.",
-      ctaButtonText: "Quero falar com um especialista",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
+      ctaButtonText: "A Definir",
     },
     testimonials: {
       miniTag: "A Definir",
@@ -737,35 +605,31 @@ const content = {
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question: "Quais documentos devo apresentar na consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
       paragraph: (
         <p>
           <a href={whatsappContactLink} target="_blank">
-            Clique aqui caso tenha mais dúvidas
+            A Definir
           </a>
         </p>
       ),
