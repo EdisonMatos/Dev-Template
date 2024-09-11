@@ -5,11 +5,11 @@ module.exports = {
     extend: {
       colors: {
         primary: "#DBB14C", // Com primária (variação clara)
-        secondary: "#00233b", // Cor primária (variação escura)
+        secondary: "#000000", // Cor primária (variação escura)
         bgSectionLight: "#FFFFFF",
-        bgSectionDark: "#00233b",
+        bgSectionDark: "#252329",
         links: "#0189BB", // Links
-        buttonColor: "#D0B160", // Botões
+        buttonColor: "#DBB14C", // Botões
         lighter: "#FFFFFF",
         darker: "#000000",
       },
