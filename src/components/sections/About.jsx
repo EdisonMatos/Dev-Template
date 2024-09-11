@@ -25,7 +25,7 @@ export default function About() {
   const onClick = () => {
     setModalTitle(content.texts.about.titleModal);
     setModalContent(
-      <p>
+      <p className="text-paragraph3">
         {content.texts.about.modal}
         <div>
           <Button

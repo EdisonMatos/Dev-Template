@@ -243,35 +243,59 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "A Definir",
+        alt: "Imagem ilustrativa",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É DR. WELLINGTON ALMEIDA",
+      title: "Minha trajetória",
+      subtitle:
+        "Membro da Comissão de Direito Penitenciário e da Comissão de Estudos em Direito Penal OAB - CE.",
       paragraph: (
         <div>
-          A Definir
+          Sou Wellington Almeida, advogado especializado em Direito Criminal,
+          registrado na OAB-CE e formado pela Universidade de Fortaleza
+          (UNIFOR).
           <br />
-          A Definir
-          <br />A Definir
+          Minha atuação tem como foco principal defender os direitos dos meus
+          clientes com dedicação e estratégia, buscando sempre a melhor solução
+          para cada caso.
         </div>
       ),
-      titleModal: <strong>A Definir</strong>,
+      buttonModalLabelAbout: "Continuar lendo",
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
+          <strong>
+            Membro da Comissão de Direito Penitenciário e da Comissão de Estudos
+            em Direito Penal OAB - CE.
+          </strong>
           <br />
           <br />
-          A Definir
+          Sou Wellington Almeida, advogado especializado em Direito Criminal,
+          registrado na OAB-CE e formado pela Universidade de Fortaleza
+          (UNIFOR). Minha atuação tem como foco principal defender os direitos
+          dos meus clientes com dedicação e estratégia, buscando sempre a melhor
+          solução para cada caso.
           <br />
-          A Definir
+          <br />
+          Meu objetivo é amenizar ao máximo as consequências legais que meus
+          clientes possam enfrentar, oferecendo uma defesa personalizada e
+          comprometida com a justiça. Faço parte da Comissão de Direito
+          Penitenciário e da Comissão de Estudos em Direito Penal da OAB-CE, o
+          que me permite estar sempre atualizado com as mudanças no Direito
+          Penal.
           <br />
           <br />
-          <p>Quer saber mais sobre A Definir? 👇</p>
+          Seja em processos criminais, casos de crimes contra a administração
+          pública ou atendimento em delegacias, estou aqui para garantir um
+          suporte jurídico de qualidade, com foco total na resolução eficiente e
+          justa de cada situação.
+          <br />
+          <br />
+          <p>Quer saber mais sobre nós? 👇</p>
           <br />
         </p>
       ),
-
+      ctaButtonText: "Entre em contato",
       aboutSocial: {
         img: {
           img: aboutSocialImg,
