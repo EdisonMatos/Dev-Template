@@ -26,7 +26,7 @@ export default function FeaturesWithIcons() {
           <div className="col1 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
-                icon={content.texts.features.card1.svgIcon}
+                icon={content.texts.features.card1.icon}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
@@ -34,7 +34,7 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
             <MotionDivDownToUp>
               <IconFeatureCard
-                icon={content.texts.features.card2.svgIcon}
+                icon={content.texts.features.card2.icon}
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
               />
@@ -58,7 +58,7 @@ export default function FeaturesWithIcons() {
           <div className="col3 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
               <IconFeatureCard
-                icon={content.texts.features.card3.svgIcon}
+                icon={content.texts.features.card3.icon}
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
@@ -66,7 +66,7 @@ export default function FeaturesWithIcons() {
             </MotionDivDownToUp>
             <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
               <IconFeatureCard
-                icon={content.texts.features.card4.svgIcon}
+                icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
               />
