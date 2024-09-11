@@ -54,15 +54,20 @@ const content = {
         img: solidLogo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "A Definir", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
-      ctaButtonText: "A Definir",
+      miniTag: "ADVOGADO CRIMINAL EM FORTALEZA - CE",
+      title: (
+        <h1 className="mb-[16px]">
+          Protegemos seus direitos em todos os momentos
+        </h1>
+      ),
+      subtitle:
+        "Defesa estratégica e dedicada, garantindo seus direitos com foco em resultados.",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A Definir",
