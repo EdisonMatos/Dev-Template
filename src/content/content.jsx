@@ -59,10 +59,11 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
-      ctaButtonText: "A Definir",
+      miniTag: "ADVOGADO TRABALHISTA EM VÁRZEA GRANDE - MT",
+      title: <h1 className="mb-[16px]">Justiça trabalhista ao seu alcance</h1>,
+      subtitle:
+        "Conte com um atendimento personalizado em Várzea Grande e Cuiabá para proteger seus direitos com confiança.",
+      ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A Definir",
@@ -87,9 +88,10 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Excelência na defesa dos seus direitos",
+      subtitle:
+        "Especialista em múltiplas áreas para garantir uma defesa sólida e eficaz dos seus interesses",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -203,34 +205,57 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "A Definir",
+        alt: "Imagem ilustrativa de escritório de advocacia",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É DR REGYS FERNANDO",
+      title: "Minha trajetória",
+      subtitle:
+        "Com mais de 15 anos de experiência na área jurídica, dos quais 10 dedicados à advocacia ativa.",
       paragraph: (
         <div>
-          A Definir
+          Minha trajetória no campo jurídico é marcada por mais de 15 anos de
+          experiência. Iniciei minha carreira como Assistente Jurídico na Câmara
+          de Vereadores de Várzea Grande - MT, onde desenvolvi uma compreensão
+          profunda das questões de direito público e administrativo.
           <br />
-          A Definir
-          <br />A Definir
+          Posteriormente, trabalhei na Defensoria Pública e no Tribunal de
+          Justiça, ampliando meu conhecimento e experiência em diversas áreas do
+          direito.
         </div>
       ),
-      titleModal: <strong>A Definir</strong>,
+      buttonModalLabelAbout: "Continuar lendo",
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
+          <strong>
+            Com mais de 15 anos de experiência na área jurídica, dos quais 10
+            dedicados à advocacia ativa.
+          </strong>
           <br />
           <br />
-          A Definir
+          Minha trajetória no campo jurídico é marcada por mais de 15 anos de
+          experiência. Iniciei minha carreira como Assistente Jurídico na Câmara
+          de Vereadores de Várzea Grande - MT, onde desenvolvi uma compreensão
+          profunda das questões de direito público e administrativo.
+          Posteriormente, trabalhei na Defensoria Pública e no Tribunal de
+          Justiça, ampliando meu conhecimento e experiência em diversas áreas do
+          direito.
           <br />
-          A Definir
+          Formado pela Universidade Várzea Grande (Unic), decidi direcionar
+          minha carreira para a advocacia, com o objetivo de oferecer a você o
+          mais alto nível de qualidade e eficiência. Meu compromisso é garantir
+          sua satisfação, buscando sempre alcançar a maior probabilidade de
+          êxito em cada demanda. Dedico-me a atender cada cliente com a atenção
+          e o cuidado que você merece, focado em encontrar a melhor solução para
+          suas necessidades legais.
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
           <br />
         </p>
       ),
+      ctaButtonAriaLabel: "Botão para entrar em contato",
+      ctaButtonText: "Entre em contato",
 
       aboutSocial: {
         img: {
