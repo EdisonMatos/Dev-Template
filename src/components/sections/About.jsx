@@ -29,7 +29,7 @@ export default function About() {
         {content.texts.about.modal}
         <div>
           <Button
-            aria-label={content.texts.hero.ctaButtonAriaLabel}
+            aria-label={content.texts.about.ctaButtonAriaLabel}
             label={content.texts.about.ctaButtonText}
             buttonLink={whatsappContactLink}
             animation={false}
@@ -54,7 +54,7 @@ export default function About() {
   };
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingbot={false}>
+    <SectionArea id="about" className="bg-bgSectionDark">
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
