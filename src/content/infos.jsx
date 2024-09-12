@@ -1,29 +1,31 @@
 const infos = {
-  name: "Dr. Wellington Almeida",
+  name: "Dr. Regys Fernando",
   slogan: "",
-  phone: "(85) 99226-6448",
+  phone: "(65) 99923-3610",
   mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
-        <p>Avenida Washington Soares, nº 800</p>
-        <p>Fortaleza - Ceará</p>
-        <p>CEP: 60810-300</p>
+        <p>Rua Adelina Maria da Costa, 626</p>
+        <p>Centro Norte</p>
+        <p>Várzea Grande - MT</p>
+        <br />
+        <p>Rua Franklin Cassiano da Silva</p>
+        <p>G Complex Jur, Duque de Caxias</p>
+        <p>Cuiabá - MT</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        9h às 18h
+        Segunda à Sexta
+        <br />
+        8h às 18h
         <br />
       </p>
     ),
-    obs: (
-      <span className="italic">
-        Em casos criminais, entrar em contato para atendimento de urgência 24h
-      </span>
-    ),
+    obs: <span className="italic">A Definir</span>,
     midSectionName: "Até mais!",
     year: 2024,
     footerText:
