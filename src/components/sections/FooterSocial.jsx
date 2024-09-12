@@ -120,7 +120,7 @@ function FooterSocial() {
 
           {/* Msg de observação */}
 
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             {" "}
             <div className="flex full gap-x-[12px] items-center opacity-90">
               <div>
@@ -143,7 +143,7 @@ function FooterSocial() {
 
               <p>{infos.footerInfos.obs}</p>
             </div>
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <MotionDivDownToUp>
