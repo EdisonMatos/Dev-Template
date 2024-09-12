@@ -1,33 +1,30 @@
 const infos = {
-  name: "Dr. Wellington Almeida",
+  name: "A Definir",
   slogan: "",
-  phone: "(85) 99226-6448",
+  phone: "(A Definir) A Definir-A Definir",
   mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
-        <p>Avenida Washington Soares, nº 800</p>
-        <p>Fortaleza - Ceará</p>
-        <p>CEP: 60810-300</p>
+        <p>A Definir</p>
+        <p>A Definir</p>
+        <p>A Definir</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        9h às 18h
+        A Definir
+        <br />
+        A Definir
         <br />
       </p>
     ),
-    obs: (
-      <span className="italic">
-        Em casos criminais, entrar em contato para atendimento de urgência 24h
-      </span>
-    ),
+    obs: <span className="italic">A Definir</span>,
     midSectionName: "Até mais!",
     year: 2024,
-    footerText:
-      "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+    footerText: "A Definir",
 
     footerSocialText: "Siga a gente nas redes sociais:",
     footerNavegacaoText: "NAVEGAÇÃO",
