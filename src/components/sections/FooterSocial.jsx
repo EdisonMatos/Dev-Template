@@ -14,7 +14,7 @@ function FooterSocial() {
   return (
     <footer className="bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4  flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat">
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
-        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
+        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] desktop2:w-[340px] text-paragraph3">
           <MotionDivDownToUp>
             <div className="h-[115px] flex justify-start items-center">
               <img
@@ -65,7 +65,9 @@ function FooterSocial() {
                 <rect width="20" height="16" x="2" y="4" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
               </svg>
-              <p className="text-paragraph2">{infos.mail}</p>
+              <p className="text-paragraph1 phone2:text-paragraph2 phone3:text-paragraph3 desktop1:text-paragraph1 desktop2:text-paragraph2">
+                {infos.mail}
+              </p>
             </div>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
@@ -120,7 +122,7 @@ function FooterSocial() {
 
           {/* Msg de observação */}
 
-          {/* <MotionDivDownToUp>
+          <MotionDivDownToUp>
             {" "}
             <div className="flex full gap-x-[12px] items-center opacity-90">
               <div>
@@ -143,9 +145,9 @@ function FooterSocial() {
 
               <p>{infos.footerInfos.obs}</p>
             </div>
-          </MotionDivDownToUp> */}
+          </MotionDivDownToUp>
         </div>
-        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] desktop2:w-[340px]">
           <MotionDivDownToUp>
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               {infos.footerInfos.midSectionName}
@@ -187,11 +189,11 @@ function FooterSocial() {
 
           {/* Ícones redes sociais */}
           <MotionDivDownToUp>
-            {/* <p className="opacity-90">{infos.footerInfos.footerSocialText}</p> */}
+            <p className="opacity-90">{infos.footerInfos.footerSocialText}</p>
             <div className="mt-2 opacity-90">
               {" "}
               <div className="flex gap-[10px] items-center">
-                {/* <a
+                <a
                   href={links.socialMedia.instagram}
                   target="_blank"
                   aria-label="Link para o Instagram"
@@ -224,7 +226,7 @@ function FooterSocial() {
                       </svg>
                     }
                   />
-                </a> */}
+                </a>
                 {/* <a
                 href={links.socialMedia.facebook}
                 target="_blank"
@@ -276,7 +278,7 @@ function FooterSocial() {
             </div>
           </MotionDivDownToUp>
         </div>
-        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] desktop2:w-[340px]">
           <MotionDivDownToUp>
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
               {infos.footerInfos.footerNavegacaoText}
