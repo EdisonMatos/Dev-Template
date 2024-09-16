@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHero.jpg";
+import bgImg from "../assets/imgs/hero/bgHero.png";
 import logo from "../assets/imgs/logo/logo.png";
 
 const currentYear = new Date().getFullYear();
@@ -37,7 +37,7 @@ const LpContent = {
       ),
       subtitle:
         "Direitos trabalhistas não podem ser ignorados. Nós estamos prontos para agir rápido e buscar o que é seu por direito.",
-      buttonLabel: "Quero falar com um especialista",
+      buttonLabel: <p className=" text-title5">JOGAR AGORA</p>,
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },

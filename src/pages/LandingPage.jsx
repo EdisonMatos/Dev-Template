@@ -12,13 +12,13 @@ export default function LandingPage() {
   return (
     <div>
       <HeroLP />
-      <FeaturesLP />
-      <AboutParalaxeLP />
-      <WhyUs />
-      <CtaLP />
-      <ContactLP />
-      <FooterLP />
-      <LPFloatingWhatsappButton />
+      {/* <FeaturesLP /> */}
+      {/* <AboutParalaxeLP /> */}
+      {/* <WhyUs /> */}
+      {/* <CtaLP /> */}
+      {/* <ContactLP /> */}
+      {/* <FooterLP /> */}
+      {/* <LPFloatingWhatsappButton /> */}
       {/* <BackToTopButton /> */}
     </div>
   );
