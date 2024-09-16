@@ -12,6 +12,7 @@ import ImgBolinho from "../../../assets/imgs/hero/CASH-FIESTA_BOLINHO.png";
 import ImgChapeuzinho from "../../../assets/imgs/hero/CASH-FIESTA_CHAPEU.png";
 import ImgFogos from "../../../assets/imgs/hero/CASH-FIESTA_FOGOS.png";
 import ImgPresente from "../../../assets/imgs/hero/CASH-FIESTA_PRESENTE.png";
+import ImgMascaras from "../../../assets/imgs/hero/CASH-FIESTA_MASCARAS.png";
 
 export default function HeroLP() {
   return (
@@ -91,6 +92,10 @@ export default function HeroLP() {
             alt=""
             className="phone1:w-[13%] phone1:bottom-[300px] phone1:left-[15px] phone2:left-[20px] phone3:bottom-[280px] phone3:left-[15px] tablet1:w-[16%] tablet1:bottom-[210px] tablet1:left-[10px] tablet2:w-[15%] tablet2:bottom-[180px] tablet2:left-[15px] desktop1:w-[9%] desktop1:bottom-[200px] desktop1:left-[180px] desktop3:w-[9%] absolute desktop3:bottom-[190px] desktop3:left-[330px]"
           />
+        </div>
+        
+        <div>
+          <img src={ImgMascaras} alt="" className="z-10 phone1:w-[25%] phone1:top-[305px] phone1:right-[5px] phone2:top-[295px] phone3:top-[284px] phone3:right-[2px] tablet1:w-[25%] tablet1:top-[240px] tablet1:right-[10px] tablet2:top-[215px] desktop1:w-[23%] desktop1:top-[205px] desktop1:right-[80px] desktop3:w-[17%] absolute desktop3:top-[185px] desktop3:right-[280px]" />
         </div>
       </SectionArea>
     </div>
