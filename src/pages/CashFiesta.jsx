@@ -1,4 +1,4 @@
-import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import SectionArea from "../components/sectionElements/SectionArea";
 import SectionWrapper from "../components/sectionElements/SectionWrapper";
 import imgLogoFiesta from "../assets/imgs/logo/logoFiesta.png";
