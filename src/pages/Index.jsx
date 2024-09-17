@@ -3,6 +3,10 @@ import SectionArea from "../components/sectionElements/SectionArea";
 import SectionWrapper from "../components/sectionElements/SectionWrapper";
 import imgLogoFiesta from "../assets/imgs/logo/logoFiesta.png";
 import imgButtonFiesta from "../assets/imgs/hero/buttonFiesta.png";
+import baloonFiesta from "../assets/imgs/hero/baloonFiesta.png";
+import cakeFiesta from "../assets/imgs/hero/cakeFiesta.png";
+import giftsFiesta from "../assets/imgs/hero/giftsFiesta.png";
+import masksFiesta from "../assets/imgs/hero/masksFiesta.png";
 
 export default function Index() {
   return (
