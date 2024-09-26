@@ -1,5 +1,5 @@
 const infos = {
-  name: "Dr. Regys Fernando",
+  name: "A DEFINIR",
   slogan: "",
   phone: "(00) 90000-0000",
   mail: "atendimento@dentalcare.com.br",
