@@ -650,25 +650,29 @@ const content = {
       },
     },
     faq: {
-      miniTag: "A DEFINIR",
+      miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "A DEFINIR",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "A DEFINIR",
-          answer: "A DEFINIR",
+          question: "Com que frequência devo ir ao dentista?",
+          answer:
+            "Recomendamos visitas ao dentista a cada seis meses para check-ups e limpezas, mas a frequência pode variar conforme suas necessidades individuais. Consulte seu dentista para um plano personalizado.",
         },
         question2: {
-          question: "A DEFINIR",
-          answer: "A DEFINIR",
+          question: "Os tratamentos dentários são dolorosos?",
+          answer:
+            "Nosso objetivo é garantir seu conforto durante os tratamentos. Utilizamos anestesia local e técnicas avançadas para minimizar qualquer desconforto. Converse com sua equipe sobre suas preocupações.",
         },
         question3: {
-          question: "A DEFINIR",
-          answer: "A DEFINIR",
+          question: "Aceitam planos de saúde?",
+          answer:
+            "Sim, aceitamos diversos planos de saúde. Entre em contato conosco para verificar se o seu plano é aceito e para mais informações sobre cobertura.",
         },
         question4: {
-          question: "A DEFINIR",
-          answer: "A DEFINIR",
+          question: "Qual é o tempo médio de duração de uma consulta?",
+          answer:
+            "Uma consulta típica pode durar entre 30 a 60 minutos, dependendo do tipo de atendimento que você precisa. Durante a avaliação, seu dentista informará sobre o tempo necessário para qualquer procedimento adicional.",
         },
       },
       paragraph: (
