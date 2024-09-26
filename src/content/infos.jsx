@@ -2,27 +2,25 @@ const infos = {
   name: "Dr. Regys Fernando",
   slogan: "",
   phone: "(00) 90000-0000",
-  mail: "A Definir",
+  mail: "atendimento@dentalcare.com.br",
   footerInfos: {
     endereco: (
       <div>
-        <p>"A DEFINIR"</p>
-        <p>"A DEFINIR"</p>
-        <p>"A DEFINIR"</p>
-        <br />
-        <p>"A DEFINIR"</p>
-        <p>"A DEFINIR"</p>
-        <p>"A DEFINIR"</p>
+        <p>Rua da Saúde</p>
+        <p>123 - Centro</p>
+        <p>São Paulo - SP</p>
+        <p>CEP: 01310-930</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        "A DEFINIR"
+        Segunda a Sexta:
         <br />
-        "A DEFINIR"
+        08:00 - 18:00
         <br />
+        Sábado: 08:00 - 12:00
       </p>
     ),
     obs: <span className="italic">A Definir</span>,
