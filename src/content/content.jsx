@@ -236,13 +236,21 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório de advocacia",
       },
-      miniTag: "A DEFINIR",
-      title: "A DEFINIR",
-      subtitle: "A DEFINIR",
+      miniTag: "QUEM É DENTAL PREMIUM CARE",
+      title: "Nossa trajetória",
+      subtitle:
+        "Na Dental Premium Care, nossa missão é transformar sorrisos e melhorar a qualidade de vida de nossos pacientes através de um atendimento odontológico de excelência.",
       paragraph: (
         <div>
-          A DEFINIR
-          <br />A DEFINIR
+          Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos
+          tratamentos personalizados em um ambiente confortável e acolhedor.
+          <br />
+          Acreditamos que um sorriso saudável vai além da estética,
+          representando bem-estar, confiança e autoestima. Por isso, trabalhamos
+          com dedicação para proporcionar resultados duradouros e uma
+          experiência positiva em cada visita. Seja para um simples check-up ou
+          para procedimentos mais complexos, estamos prontos para cuidar de você
+          com todo o cuidado e atenção que você merece.
         </div>
       ),
       buttonModalLabelAbout: "A DEFINIR",

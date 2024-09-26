@@ -87,11 +87,12 @@ export default function About() {
           />
           <MotionDivDownToUp>
             <Paragraphs className="text-white text-opacity-80">
-              <AboutFading />
+              {/* <AboutFading /> */}
+              {content.texts.about.paragraph}
             </Paragraphs>
             {/* Início Botão de saiba mais abrindo modal */}
 
-            <Button
+            {/* <Button
               className="mt-[48px]"
               label={content.texts.about.buttonModalLabelAbout}
               onClick={onClick}
@@ -115,7 +116,7 @@ export default function About() {
                   <path d="M2 12H22" />
                 </svg>
               }
-            />
+            /> */}
 
             {/* Fim Botão de saiba mais abrindo modal */}
           </MotionDivDownToUp>
