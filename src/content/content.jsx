@@ -51,7 +51,7 @@ const content = {
         alt: `Logomarca ${infos.name}`,
       },
       solidLogo: {
-        img: solidLogo,
+        img: logo,
         alt: `Logomarca ${infos.name}`,
       },
       menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
@@ -59,11 +59,10 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A DEFINIR",
-      title: <h1 className="mb-[16px]">A DEFINIR</h1>,
-      subtitle:
-        "A DEFINIR",
-      ctaButtonText: "A DEFINIR",
+      miniTag: "CONSULTÓRIO DENTISTA EM SÃO PAULO - SP",
+      title: <h1 className="mb-[16px]">Clínica Dental Premium Care</h1>,
+      subtitle: "Sorriso saudável, confiança renovada",
+      ctaButtonText: "Agende sua consulta",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A Definir",
@@ -88,17 +87,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A DEFINIR",
-      title: "A DEFINIR",
+      miniTag: "ESPECIALIDADES",
+      title: "Tratamentos personalizados para cada necessidade",
       subtitle:
-       "A DEFINIR",
+        "Oferecemos serviços odontológicos completos, com foco em saúde bucal e bem-estar.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A DEFINIR",
+        title: "Odontologia Preventiva",
         subtitle:
-          "A DEFINIR",
+          "Cuidados regulares para garantir a saúde bucal e evitar problemas futuros.",
         description: (
           <div>
             A Definir <br />
@@ -130,9 +129,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A DEFINIR",
+        title: "Tratamentos Restauradores",
         subtitle:
-          "A DEFINIR",
+          "Reparação e proteção de dentes danificados, proporcionando funcionalidade e estética.",
         description: (
           <div>
             A Definir <br />
@@ -164,8 +163,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A DEFINIR",
-        subtitle: "A DEFINIR",
+        title: "Ortodontia",
+        subtitle:
+          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
         description: (
           <div>
             A Definir <br />
@@ -197,9 +197,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A DEFINIR",
+        title: "Odontologia Estética",
         subtitle:
-          "A DEFINIR",
+          "Realce a beleza do seu sorriso com clareamento, facetas e outros procedimentos estéticos.",
         description: (
           <div>
             A Definir <br />
@@ -238,22 +238,18 @@ const content = {
       },
       miniTag: "A DEFINIR",
       title: "A DEFINIR",
-      subtitle:
-        "A DEFINIR",
+      subtitle: "A DEFINIR",
       paragraph: (
         <div>
           A DEFINIR
-          <br />
-          A DEFINIR
+          <br />A DEFINIR
         </div>
       ),
       buttonModalLabelAbout: "A DEFINIR",
       titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>
-            A DEFINIR
-          </strong>
+          <strong>A DEFINIR</strong>
           <br />
           <br />
           A DEFINIR
@@ -591,36 +587,30 @@ const content = {
         card1: {
           stepNumber: 1,
           cardTitle: "A DEFINIR",
-          cardDescription:
-            "A DEFINIR",
+          cardDescription: "A DEFINIR",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "A DEFINIR",
-          cardDescription:
-           "A DEFINIR",
+          cardDescription: "A DEFINIR",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "A DEFINIR",
-          cardDescription:
-            "A DEFINIR",
+          cardDescription: "A DEFINIR",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "A DEFINIR",
-          cardDescription:
-            "A DEFINIR",
+          cardDescription: "A DEFINIR",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "A DEFINIR",
-      title:
-        "A DEFINIR",
-      subtitle:
-        "A DEFINIR",
+      title: "A DEFINIR",
+      subtitle: "A DEFINIR",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
@@ -653,23 +643,19 @@ const content = {
       questions: {
         question1: {
           question: "A DEFINIR",
-          answer:
-            "A DEFINIR",
+          answer: "A DEFINIR",
         },
         question2: {
           question: "A DEFINIR",
-          answer:
-            "A DEFINIR",
+          answer: "A DEFINIR",
         },
         question3: {
           question: "A DEFINIR",
-          answer:
-            "A DEFINIR",
+          answer: "A DEFINIR",
         },
         question4: {
           question: "A DEFINIR",
-          answer:
-            "A DEFINIR",
+          answer: "A DEFINIR",
         },
       },
       paragraph: (

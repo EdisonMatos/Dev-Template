@@ -81,7 +81,7 @@ export default function SidebarSocial() {
                     <img
                       src={content.texts.navbar.solidLogo.img}
                       alt={content.texts.navbar.solidLogo.alt}
-                      className="w-auto h-auto p-[5px]"
+                      className="w-[50%] h-auto p-[5px]"
                     />
                   </span>
                   <span>

@@ -113,7 +113,7 @@ export default function NavbarSocial() {
               alt={content.texts.navbar.logo.alt}
               className={`${
                 scrolling
-                  ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] desktop1:w-[60%] desktop1:max-w-[60%] transition-all duration-1000 "
+                  ? "w-[20%] max-w-[50%] tablet2:w-[20%] tablet2:max-w-[20%] desktop1:w-[25%] desktop1:max-w-[30%] transition-all duration-1000"
                   : "my-[20px] w-[30%] tablet1:w-[20%] tablet2:w-[20%] desktop1:w-[30%] desktop2:w-[30%] transition-all duration-1000 "
               } tablet3:mb-0`}
             />
