@@ -586,31 +586,35 @@ const content = {
       },
     },
     steps: {
-      miniTag: "A DEFINIR",
-      title: "A DEFINIR",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona a sua consulta",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A DEFINIR",
-          cardDescription: "A DEFINIR",
+          cardTitle: "Agendamento da consulta",
+          cardDescription:
+            "Entre em contato conosco pelo telefone ou pelo nosso site para agendar sua consulta no horário que melhor lhe convier.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A DEFINIR",
-          cardDescription: "A DEFINIR",
+          cardTitle: "Recepção e preenchimento de documentos",
+          cardDescription:
+            "Ao chegar, você será recebido por nossa equipe, que solicitará o preenchimento de alguns documentos e informações sobre seu histórico de saúde bucal.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A DEFINIR",
-          cardDescription: "A DEFINIR",
+          cardTitle: "Avaliação odontológica",
+          cardDescription:
+            "Um de nossos dentistas realizará uma avaliação detalhada de sua saúde bucal, incluindo exame clínico e, se necessário, radiografias.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A DEFINIR",
-          cardDescription: "A DEFINIR",
+          cardTitle: "Plano de tratamento personalizado",
+          cardDescription:
+            "Após a avaliação, discutiremos as opções de tratamento mais adequadas para suas necessidades e responderemos a todas as suas perguntas antes de prosseguir.",
         },
       },
     },
