@@ -4,15 +4,15 @@ import logo from "../assets/imgs/logo/logo.png";
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "Juliano Aleixo",
+  name: "A Definir",
   phone: {
-    ddd: "69",
-    firstPart: "99980", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7532", // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "90000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   email: "contato", // Email desejado pelo cliente
-  domain: "julianoaleixoadvocacia.com.br", // Sem "www"
-  instagramProfile: "adv.julianoaleixo", // Sem o @
+  domain: "A Definir", // Sem "www"
+  instagramProfile: "A Definir", // Sem o @
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
 };
@@ -30,22 +30,20 @@ const LpContent = {
     textArea: {
       title: (
         <h1>
-          Acabou de ser <span className="text-primary">demitido?</span> Tem
-          horas extras ou
-          <span className="text-primary"> salários atrasados</span>?
+          A Definir
         </h1>
       ),
       subtitle:
-        "Direitos trabalhistas não podem ser ignorados. Nós estamos prontos para agir rápido e buscar o que é seu por direito.",
-      buttonLabel: "Quero falar com um especialista",
+        "A Definir",
+      buttonLabel: "A Definir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Como podemos te ajudar?",
+      miniTag: "A Definir",
+      title: "A Definir",
     },
     cards: {
       card1: {
@@ -67,9 +65,9 @@ const LpContent = {
             <path d="M12 7v5l4 2" />
           </svg>
         ),
-        title: "Hora extra e Verba rescisória",
+        title: "A Definir",
         description:
-          "Se você não recebeu pelas horas extras trabalhadas ou sua rescisão foi paga de forma incompleta, entraremos com ação para garantir o pagamento integral e corrigido de seus direitos.",
+          "A Definir",
       },
       card2: {
         icon: (
@@ -90,9 +88,9 @@ const LpContent = {
             <path d="M12 17h.01" />
           </svg>
         ),
-        title: "Insalubridade e Periculosidade",
+        title: "A Definir",
         description:
-          "Buscaremos na justiça o adicional de insalubridade ou periculosidade que a empresa deixou de pagar, cobrando tudo que é devido.",
+          "A Definir",
       },
       card3: {
         icon: (
@@ -114,9 +112,9 @@ const LpContent = {
             <line x1="15" x2="15.01" y1="9" y2="9" />
           </svg>
         ),
-        title: "Assédio Moral",
+        title: "A Definir",
         description:
-          "Sofreu abusos no trabalho? Uma ação de assédio moral com foco em reparar os danos sofridos, garantindo justiça e dignidade para você.",
+          "A Definir",
       },
       card4: {
         icon: (
@@ -137,9 +135,9 @@ const LpContent = {
             <path d="M12 18V6" />
           </svg>
         ),
-        title: "Atraso Salarial",
+        title: "A Definir",
         description:
-          "Acionamos judicialmente a empresa para que os valores sejam pagos com correção, assegurando seu sustento sem mais demora.",
+          "A Definir",
       },
     },
   },
@@ -150,28 +148,21 @@ const LpContent = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "TRADIÇÃO EM DIREITO TRABALHISTA",
-      title: "Quem é Dr Juliano Aleixo",
+      miniTag: "A Definir",
+      title: "A Definir",
     },
     paragraph: (
       <p>
-        Na minha rotina diária, entendo que rapidez é fundamental para nossos
-        clientes, especialmente em questões trabalhistas. Por isso, atuo de
-        forma ágil e estratégica, sem comprometer a qualidade. Com foco em
-        garantir que seus direitos sejam resguardados com eficiência e
-        determinação. <br />
-        <br /> Independentemente do seu problema trabalhista, estou pronto para
-        oferecer a melhor solução jurídica. Entre em contato com Juliano Aleixo
-        Advocacia e veja como podemos ser decisivos na defesa dos seus direitos.
+        A Definir
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "A Definir",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A MELHOR ESCOLHA",
-      title: "Por que nos escolher pra te defender?",
+      miniTag: "A Definir",
+      title: "A Definir",
     },
     cards: {
       card1: {
@@ -199,9 +190,9 @@ const LpContent = {
             <path d="M19.967 17.484A4 4 0 0 1 18 18" />
           </svg>
         ),
-        title: "Estratégia personalizada para garantir seus direitos",
+        title: "A Definir",
         description:
-          "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia para você sair vitorioso.",
+          "A Definir",
       },
       card2: {
         icon: (
@@ -224,9 +215,9 @@ const LpContent = {
             <path d="m17.5 15.5 2-2" />
           </svg>
         ),
-        title: "Soluções sob medida para o seu problema",
+        title: "A Definir",
         description:
-          "Seu caso é único, e nós desenvolvemos um plano de ação específico para resolver suas questões trabalhistas com agilidade.",
+          "A Definir",
       },
       card3: {
         icon: (
@@ -249,9 +240,9 @@ const LpContent = {
             <path d="M3 4h8" />
           </svg>
         ),
-        title: "Compromisso total com sua causa",
+        title: "A Definir",
         description:
-          "Lutamos de forma incansável pelos seus direitos, buscando a solução mais favorável para você em cada etapa do processo.",
+          "A Definir",
       },
       card4: {
         icon: (
@@ -273,21 +264,21 @@ const LpContent = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Experiência que traz tranquilidade",
+        title: "A Definir",
         description:
-          "Nossa expertise garante que seu caso será tratado com segurança e confiança, assegurando a proteção total dos seus direitos trabalhistas.",
+          "A Definir",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA MAIS TEMPO",
-      title: "Seja ressarcido por prejuízos trabalhistas agora mesmo!",
-      subtitle: `O escritório Juliano Aleixo Advocacia está pronto para te auxiliar. Nossa equipe especializada em direito trabalhista pode orientá-lo no processo para garantir sua indenização por demissões indevidas, salários atrasados ou qualquer violação de direitos. Não deixe que essas situações prejudiquem sua vida profissional.`,
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
     },
-    buttonLabel: "Quero falar com um especialista",
-    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+    buttonLabel: "A Definir",
+    ctaButtonAriaLabel: "A Definir",
   },
   contact: {
     card1: {

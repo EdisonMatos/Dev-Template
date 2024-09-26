@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<CashFiesta />} />
-      {/* <Route path="/lpx1" element={<LandingPage />} /> */}
+      <Route path="/lpx1" element={<LandingPage />} />
     </Routes>
   </Router>
 );
