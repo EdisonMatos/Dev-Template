@@ -277,14 +277,14 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "FIQUE POR DENTRO",
+        subtitle: "🦷 Quer cuidar melhor do seu sorriso?",
         paragraph: (
           <p>
-            A Definir
-            <br />
-            <br />A Definir
+            Acompanhe nossas postagens para ficar por dentro das últimas
+            novidades e dicas sobre saúde bucal. Siga a Odonto Premium Care no
+            Instagram!
           </p>
         ),
       },
