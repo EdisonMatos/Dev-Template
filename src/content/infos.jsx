@@ -1,5 +1,5 @@
 const infos = {
-  name: "A DEFINIR",
+  name: "Dental Premium Care",
   slogan: "",
   phone: "(00) 90000-0000",
   mail: "atendimento@dentalcare.com.br",
@@ -24,10 +24,10 @@ const infos = {
       </p>
     ),
     obs: <span className="italic">A Definir</span>,
-    midSectionName: "Até mais!",
+    midSectionName: "Até mais! 😁",
     year: 2024,
     footerText:
-      "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      "Agradecemos sua visita! Estamos ansiosos para recebê-lo em nosso consultório e proporcionar a você um sorriso saudável e radiante, aproveitando todos os benefícios dos nossos serviços odontológicos.",
 
     footerSocialText: "Siga a gente nas redes sociais:",
     footerNavegacaoText: "NAVEGAÇÃO",

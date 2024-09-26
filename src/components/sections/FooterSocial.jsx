@@ -191,7 +191,7 @@ function FooterSocial() {
             <div className="mt-2 opacity-90">
               {" "}
               <div className="flex gap-[10px] items-center">
-                {/* <a
+                <a
                   href={links.socialMedia.instagram}
                   target="_blank"
                   aria-label="Link para o Instagram"
@@ -224,8 +224,8 @@ function FooterSocial() {
                       </svg>
                     }
                   />
-                </a> */}
-                {/* <a
+                </a>
+                <a
                 href={links.socialMedia.facebook}
                 target="_blank"
                 aria-label="Link para o Facebook"
@@ -249,7 +249,7 @@ function FooterSocial() {
                     </svg>
                   }
                 />
-              </a> */}
+              </a>
                 {/* <a href={links.socialMedia.linkedin} target="_blank">
                   <IconButton
                     icon={
