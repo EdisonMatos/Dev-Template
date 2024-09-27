@@ -1,28 +1,28 @@
 const infos = {
-  name: "A Definir",
+  name: "Dental Care",
   slogan: "",
-  phone: "(A Definir) A Definir-A Definir",
-  mail: "A Definir",
+  phone: "(71) 98179-5510",
+  mail: "contato@detalcarep.com.br",
   footerInfos: {
     endereco: (
       <div>
-        <p>A Definir</p>
-        <p>A Definir</p>
-        <p>A Definir</p>
+        <p>Av. ACM, nº 1034</p>
+        <p>Pituba Center - Sala 308 Ala A</p>
+        <p>Itaigara - Salvador - BA</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        A Definir
+        Segunda-feira à Sexta-feira
         <br />
-        A Definir
+        Das 8h às 12h - 14h às 18h
         <br />
       </p>
     ),
     obs: <span className="italic">A Definir</span>,
-    midSectionName: "Até mais!",
+    midSectionName: "Até mais! 🦷",
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",

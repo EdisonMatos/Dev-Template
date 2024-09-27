@@ -605,31 +605,35 @@ const content = {
       },
     },
     steps: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona a sua consulta?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Agendamento da consulta",
+          cardDescription:
+            "Entre em contato conosco pelo telefone ou pelo nosso site para agendar sua consulta no horário que melhor lhe convier.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Recepção e preenchimento de documentos",
+          cardDescription:
+            "Ao chegar, você será recebido por nossa equipe, que solicitará o preenchimento de alguns documentos e informações sobre seu histórico de saúde bucal.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Avaliação odontológica",
+          cardDescription:
+            "Um de nossos dentistas realizará uma avaliação detalhada de sua saúde bucal, incluindo exame clínico e, se necessário, radiografias.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Plano de tratamento personalizado",
+          cardDescription:
+            "Após a avaliação, discutiremos as opções de tratamento mais adequadas para suas necessidades e responderemos a todas as suas perguntas antes de prosseguir.",
         },
       },
     },
@@ -665,25 +669,29 @@ const content = {
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Com que frequência devo ir ao dentista?",
+          answer:
+            "Recomendamos visitas ao dentista a cada seis meses para check-ups e limpezas, mas a frequência pode variar conforme suas necessidades individuais. Consulte seu dentista para um plano personalizado.",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Os tratamentos dentários são dolorosos?",
+          answer:
+            "Nosso objetivo é garantir seu conforto durante os tratamentos. Utilizamos anestesia local e técnicas avançadas para minimizar qualquer desconforto. Converse com sua equipe sobre suas preocupações.",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Aceitam planos de saúde?",
+          answer:
+            "Sim, aceitamos diversos planos de saúde. Entre em contato conosco para verificar se o seu plano é aceito e para mais informações sobre cobertura.",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Qual é o tempo médio de duração de uma consulta?",
+          answer:
+            "Uma consulta típica pode durar entre 30 a 60 minutos, dependendo do tipo de atendimento que você precisa. Durante a avaliação, seu dentista informará sobre o tempo necessário para qualquer procedimento adicional.",
         },
       },
       paragraph: (
