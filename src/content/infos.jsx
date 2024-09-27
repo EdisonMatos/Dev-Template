@@ -1,7 +1,7 @@
 const infos = {
   name: "Dental Care",
   slogan: "",
-  phone: "(71) 98179-5510",
+  phone: "(11) 99026-0977",
   mail: "contato@detalcarep.com.br",
   footerInfos: {
     endereco: (
