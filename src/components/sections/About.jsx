@@ -18,6 +18,10 @@ import AboutFading from "../sectionElements/AboutFading";
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
 export default function About() {
+  const modalAbout = {
+    modalTextAbout: true,
+  };
+
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -91,31 +95,33 @@ export default function About() {
             </Paragraphs>
             {/* Início Botão de saiba mais abrindo modal */}
 
-            <Button
-              className="mt-[48px]"
-              label={content.texts.about.buttonModalLabelAbout}
-              onClick={onClick}
-              removeAnchor={true}
-              removeTarget={true}
-              animation={true}
-              icon={
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-move-right"
-                >
-                  <path d="M18 8L22 12L18 16" />
-                  <path d="M2 12H22" />
-                </svg>
-              }
-            />
+            {modalAbout.modalTextAbout && (
+              <Button
+                className="mt-[48px]"
+                label={content.texts.about.buttonModalLabelAbout}
+                onClick={onClick}
+                removeAnchor={true}
+                removeTarget={true}
+                animation={true}
+                icon={
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-move-right"
+                  >
+                    <path d="M18 8L22 12L18 16" />
+                    <path d="M2 12H22" />
+                  </svg>
+                }
+              />
+            )}
 
             {/* Fim Botão de saiba mais abrindo modal */}
           </MotionDivDownToUp>
