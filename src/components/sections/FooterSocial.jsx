@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { Phone, Mail } from "lucide-react";
+import { Phone, Mail, ChevronLastIcon } from "lucide-react";
 import links from "../../content/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import infos from "../../content/infos.jsx";
@@ -9,6 +9,14 @@ import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+
+const addresInfo = {
+  address: true,
+};
+
+const observationInfo = {
+  obs: true,
+}
 
 function FooterSocial() {
   return (
@@ -43,7 +51,7 @@ function FooterSocial() {
                 target="_blank"
                 className="hover:underline"
               >
-                {infos.phone}
+                {content.texts.infos.phone}
               </a>
             </div>
           </MotionDivDownToUp>
@@ -65,31 +73,33 @@ function FooterSocial() {
                 <rect width="20" height="16" x="2" y="4" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
               </svg>
-              <p className="text-paragraph2">{infos.mail}</p>
+              <p className="text-paragraph2">{content.texts.infos.email}</p>
             </div>
           </MotionDivDownToUp>
-          <MotionDivDownToUp>
-            <div className="flex full gap-x-[12px] items-center opacity-90">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-map-pin"
-                >
-                  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
+          {addresInfo.address && (
+            <MotionDivDownToUp>
+              <div className="flex full gap-x-[12px] items-center opacity-90">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-map-pin"
+                  >
+                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <p>{content.texts.infos.adress}</p>
               </div>
-              <p>{infos.footerInfos.endereco}</p>
-            </div>
-          </MotionDivDownToUp>
+            </MotionDivDownToUp>
+          )}
 
           {/* EXPEDIENTE */}
           <MotionDivDownToUp>
@@ -114,46 +124,47 @@ function FooterSocial() {
                   <path d="m16 20 2 2 4-4" />
                 </svg>
               </div>
-              <p>{infos.footerInfos.expediente}</p>
+              <p>{content.texts.infos.adress}</p>
             </div>
           </MotionDivDownToUp>
 
           {/* Msg de observação */}
+          {observationInfo.obs && (
+            <MotionDivDownToUp>
+              {" "}
+              <div className="flex full gap-x-[12px] items-center opacity-90">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-clock"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
 
-          {/* <MotionDivDownToUp>
-            {" "}
-            <div className="flex full gap-x-[12px] items-center opacity-90">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-clock"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <polyline points="12 6 12 12 16 14" />
-                </svg>
+                <p>{content.texts.infos.obsFooter}</p>
               </div>
-
-              <p>{infos.footerInfos.obs}</p>
-            </div>
-          </MotionDivDownToUp> */}
+            </MotionDivDownToUp>
+          )}
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <MotionDivDownToUp>
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              {infos.footerInfos.midSectionName}
+              {content.texts.footer.midSectionName}
             </h1>
           </MotionDivDownToUp>
           {/* Texto footer */}
           <MotionDivDownToUp>
-            <p className="opacity-90">{infos.footerInfos.footerText}</p>
+            <p className="opacity-90">{content.texts.footer.footerText}</p>
           </MotionDivDownToUp>
           {/* Botões de download */}
           {/* <p className="opacity-90">Baixe nosso app:</p>
@@ -279,7 +290,7 @@ function FooterSocial() {
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <MotionDivDownToUp>
             <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              {infos.footerInfos.footerNavegacaoText}
+              {content.texts.footer.footerNavegacaoText}
             </h1>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
@@ -357,7 +368,7 @@ function FooterSocial() {
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
         <p className="w-full opacity-75">
-          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
+          {content.texts.footer.copyrightLine}
         </p>
         <p>
           <a
@@ -366,7 +377,7 @@ function FooterSocial() {
             href="https://www.paperstreet.com.br"
           >
             {" "}
-            {infos.footerInfos.footerDivulgacaoText}
+            {content.texts.footer.footerDivulgacaoText}
           </a>
         </p>
       </div>

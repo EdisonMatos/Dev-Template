@@ -1,6 +1,3 @@
-import links from "./links";
-import infos from "./infos";
-
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
@@ -41,10 +38,46 @@ import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.jpg";
 import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.jpg";
 import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.jpg";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+// const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+
+const currentYear = new Date().getFullYear();
+
+const infos = {
+  name: "A Definir",
+  phone: {
+    ddd: "00",
+    firstPart: "90000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
+  },
+  email: "A Definir", // Email desejado pelo cliente
+  endereco: (
+    <div>
+      <p>A Definir</p>
+    </div>
+  ),
+  expediente: <p>A Definir</p>,
+  obs: <span className="italic">A Definir</span>,
+  domain: "A Definir", // Sem "www"
+  instagramProfile: "A Definir", // Sem o @
+  whatsappDefaultMessage:
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+  slogan: "",
+};
 
 const content = {
   texts: {
+    infos: {
+      phone: `(${infos.phone.ddd})${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      email: `${infos.email}`,
+      adress: infos.endereco,
+      officeHours: infos.expediente,
+      year: 2024,
+      footerText: "A Definir.",
+      obsFooter: infos.obs,
+      footerSocialText: "A Definir.",
+      footerNavegacaoText: "NAVEGAÇÃO",
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+    },
     navbar: {
       logo: {
         img: logo,
@@ -692,15 +725,23 @@ const content = {
       },
       paragraph: (
         <p>
-          <a href={whatsappContactLink} target="_blank">
+          {/* <a href={whatsappContactLink} target="_blank">
             Clique aqui caso tenha mais dúvidas
-          </a>
+          </a> */}
         </p>
       ),
     },
-    carouselv1: {
-      title: "A Definir",
-      subtitle: "A Definir",
+    footer: {
+      copyrightLine: `© ${currentYear} ${infos.name}. Todos os direitos reservados.`,
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "A Definir",
+      footerText: "A Definir",
+      footerNavegacaoText: "NAVEGAÇÃO",
+    },
+
+    links: {
+      instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
   },
 };
