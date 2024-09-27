@@ -1,24 +1,25 @@
 const infos = {
-  name: "A Definir",
+  name: "Dr. Diego Zambrano",
   slogan: "",
-  phone: "(A Definir) A Definir-A Definir",
-  mail: "A Definir@A Definir",
+  phone: "(51) 99411-7248",
+  mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
-        <p>A Definir</p>
-        <p>A Definir</p>
-        <p>A Definir</p>
+        <p>Edifício Coliseu - Praça Osvaldo Cruz, 15</p>
+        <p>Conjunto 2809 - Centro Histórico</p>
+        <p>Porto Alegre - RS, CEP: 90030-160</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        A Definir
+        Segunda a Sexta-feira
         <br />
-        A Definir
+        9h às 18h
         <br />
+        <span className="italic">(Somente com horário agendado)</span>
       </p>
     ),
     obs: <span className="italic">A Definir</span>,
