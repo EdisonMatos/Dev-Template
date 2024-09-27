@@ -93,15 +93,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Tratamentos personalizados para cada necessidade",
+      subtitle:
+        "Oferecemos serviços odontológicos completos, com foco em saúde bucal e bem-estar.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Odontologia Preventiva",
+        subtitle:
+          "Cuidados regulares para garantir a saúde bucal e evitar problemas futuros.",
         description: (
           <div>
             A Definir <br />
@@ -120,12 +122,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clock-alert"
+            class="lucide lucide-hourglass"
           >
-            <path d="M12 6v6l4 2" />
-            <path d="M16 21.16a10 10 0 1 1 5-13.516" />
-            <path d="M20 11.5v6" />
-            <path d="M20 21.5h.01" />
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -133,8 +135,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Tratamentos Restauradores",
+        subtitle:
+          "Reparação e proteção de dentes danificados, proporcionando funcionalidade e estética.",
         description: (
           <div>
             A Definir <br />
@@ -154,20 +157,21 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-triangle-alert"
+            class="lucide lucide-brush"
           >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08" />
+            <path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z" />
           </svg>
         ),
-        buttonLabelModal: "A Definir",
-        buttonLabel: "A Definir",
+        buttonLabelModal: "Ortodontia",
+        buttonLabel:
+          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Ortodontia",
+        subtitle:
+          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
         description: (
           <div>
             A Definir <br />
@@ -186,10 +190,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-frown"
+            class="lucide lucide-laugh"
           >
             <circle cx="12" cy="12" r="10" />
-            <path d="M16 16s-1.5-2-4-2-4 2-4 2" />
+            <path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z" />
             <line x1="9" x2="9.01" y1="9" y2="9" />
             <line x1="15" x2="15.01" y1="9" y2="9" />
           </svg>
@@ -199,8 +203,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Odontologia Estética",
+        subtitle:
+          "Realce a beleza do seu sorriso com clareamento, facetas e outros procedimentos estéticos.",
         description: (
           <div>
             A Definir <br />
@@ -221,11 +226,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign"
+            class="lucide lucide-smile-plus"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M22 11v1a10 10 0 1 1-9-10" />
+            <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+            <line x1="9" x2="9.01" y1="9" y2="9" />
+            <line x1="15" x2="15.01" y1="9" y2="9" />
+            <path d="M16 5h6" />
+            <path d="M19 2v6" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
