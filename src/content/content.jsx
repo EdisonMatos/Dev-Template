@@ -59,14 +59,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
+      miniTag: "ADVOGADO CÍVEL E CONSUMERISTA EM PORTO ALEGRE - RS",
       title: (
         <h1 className="mb-[16px]">
-          A Definir <span className="text-primary">A Definir</span> A Definir{" "}
-          <span className="text-primary">A Definir</span>
+          <span className="text-primary">Gestão de conflitos</span> para
+          proteção legal <span className="text-primary">eficiente</span>
         </h1>
       ),
-      subtitle: "A Definir",
+      subtitle:
+        "Oferecemos soluções legais estratégicas para minimizar riscos e maximizar resultados.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -92,15 +93,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Resolução estratégica de conflitos empresariais",
+      subtitle:
+        "Soluções jurídicas focadas na proteção dos interesses da sua empresa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Consultoria jurídica",
+        subtitle:
+          "Orientação especializada para prevenir litígios e garantir segurança jurídica nas decisões empresariais.",
         description: (
           <div>
             A Definir <br />
@@ -119,12 +122,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hourglass"
+            class="lucide lucide-scale"
           >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -132,8 +136,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito do consumidor",
+        subtitle:
+          "Defesa eficiente dos interesses empresariais em questões de relações de consumo.",
         description: (
           <div>
             A Definir <br />
@@ -153,10 +158,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-brush"
+            class="lucide lucide-tag"
           >
-            <path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08" />
-            <path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
         buttonLabelModal: "Ortodontia",
@@ -165,8 +170,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Usucapião extrajudicial de bens móveis",
+        subtitle:
+          "Regularização de posse com agilidade, evitando longos processos judiciais.",
         description: (
           <div>
             A Definir <br />
@@ -185,12 +191,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-laugh"
+            class="lucide lucide-landmark"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z" />
-            <line x1="9" x2="9.01" y1="9" y2="9" />
-            <line x1="15" x2="15.01" y1="9" y2="9" />
+            <line x1="3" x2="21" y1="22" y2="22" />
+            <line x1="6" x2="6" y1="18" y2="11" />
+            <line x1="10" x2="10" y1="18" y2="11" />
+            <line x1="14" x2="14" y1="18" y2="11" />
+            <line x1="18" x2="18" y1="18" y2="11" />
+            <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -198,8 +206,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Planos de saúde",
+        subtitle:
+          "Resolução de conflitos com operadoras de saúde, assegurando o cumprimento dos direitos contratados.",
         description: (
           <div>
             A Definir <br />
@@ -220,14 +229,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-smile-plus"
+            class="lucide lucide-heart"
           >
-            <path d="M22 11v1a10 10 0 1 1-9-10" />
-            <path d="M8 14s1.5 2 4 2 4-2 4-2" />
-            <line x1="9" x2="9.01" y1="9" y2="9" />
-            <line x1="15" x2="15.01" y1="9" y2="9" />
-            <path d="M16 5h6" />
-            <path d="M19 2v6" />
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -239,28 +243,50 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório de advocacia",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É DR. DIEGO ZAMBRANO",
+      title: "Minha trajetória",
+      subtitle:
+        "Mais de 14 anos de experiência em soluções jurídicas estratégicas e personalizadas.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
+          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
+          consultoria e assessoria jurídica.
+          <br />
+          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
+          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
+          conflitos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>A Definir</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
+          <strong>
+            Mais de 14 anos de experiência em soluções jurídicas estratégicas e
+            personalizadas.
+          </strong>
           <br />
           <br />
-          A Definir
+          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
+          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
+          consultoria e assessoria jurídica.
           <br />
-          A Definir
+          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
+          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
+          conflitos.
           <br />
           <br />
-          A Definir
+          Minha prioridade sempre foi oferecer um atendimento diferenciado,
+          focado em atingir os objetivos de cada cliente com criatividade,
+          segurança e excelência técnica. Cada caso é tratado de forma
+          personalizada, garantindo que as soluções jurídicas estejam
+          perfeitamente alinhadas às necessidades específicas de quem confia no
+          meu trabalho.
+          <br />
+          <br />
+          Meu compromisso é sempre manter um alto padrão de qualidade e
+          dedicação, proporcionando segurança jurídica em cada passo do caminho.
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
