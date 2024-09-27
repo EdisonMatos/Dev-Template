@@ -20,7 +20,7 @@ SectionShapeDiv.propTypes = {
   shapeDivWavesOpacity: PropTypes.bool,
   shapeDivWavesCurve: PropTypes.bool,
   shapeDivWavesCurveAsymmetrical: PropTypes.bool,
-  triangule: PropTypes.bool,
+  shapeDivtriangule: PropTypes.bool,
   shapeDivtrianguleAsymmetrical: PropTypes.bool,
   shapeDivTilt: PropTypes.bool,
   shapeDivArrow: PropTypes.bool,
@@ -50,7 +50,7 @@ export default function SectionShapeDiv({
     shapeDiv && (
       <div className={`${className} shape-container`}>
         {shapeDivWaves && (
-          <div className={`${shapes.shape1}`}>
+          <div className={`${shapes.shape6}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivWavesOpacity && (
-          <div className={`${shapes.shape2} shape-overlay`}>
+          <div className={`${shapes.shape6} shape-overlay`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivWavesCurve && (
-          <div className={`${shapes.shape3} shape-overlay`}>
+          <div className={`${shapes.shape6} shape-overlay`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivWavesCurveAsymmetrical && (
-          <div className={`${shapes.shape4} shape-overlay`}>
+          <div className={`${shapes.shape6} shape-overlay`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivtriangule && (
-          <div className={`${shapes.shape5} shape-overlay`}>
+          <div className={`${shapes.shape6} shape-overlay`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"

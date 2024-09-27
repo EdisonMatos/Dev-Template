@@ -127,7 +127,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <SectionShapeDiv shapeDivWaves ={true} />
+      <SectionShapeDiv shapeDivWaves={true} />
 
       {/* <div className="bg-black bg-opacity-0">
         <div class="custom-shape-divider-bottom-1720203688">
