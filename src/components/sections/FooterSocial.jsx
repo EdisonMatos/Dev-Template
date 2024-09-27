@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { Phone, Mail } from "lucide-react";
+import { Phone, Mail, ChevronLastIcon } from "lucide-react";
 import links from "../../content/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import infos from "../../content/infos.jsx";
@@ -9,6 +9,14 @@ import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+
+const addresInfo = {
+  address: true,
+};
+
+const observationInfo = {
+  obs: false,
+}
 
 function FooterSocial() {
   return (
@@ -68,28 +76,30 @@ function FooterSocial() {
               <p className="text-paragraph2">{infos.mail}</p>
             </div>
           </MotionDivDownToUp>
-          <MotionDivDownToUp>
-            <div className="flex full gap-x-[12px] items-center opacity-90">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-map-pin"
-                >
-                  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
+          {addresInfo.address && (
+            <MotionDivDownToUp>
+              <div className="flex full gap-x-[12px] items-center opacity-90">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-map-pin"
+                  >
+                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <p>{infos.footerInfos.endereco}</p>
               </div>
-              <p>{infos.footerInfos.endereco}</p>
-            </div>
-          </MotionDivDownToUp>
+            </MotionDivDownToUp>
+          )}
 
           {/* EXPEDIENTE */}
           <MotionDivDownToUp>
@@ -119,31 +129,32 @@ function FooterSocial() {
           </MotionDivDownToUp>
 
           {/* Msg de observação */}
+          {observationInfo.obs && (
+            <MotionDivDownToUp>
+              {" "}
+              <div className="flex full gap-x-[12px] items-center opacity-90">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-clock"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                </div>
 
-          {/* <MotionDivDownToUp>
-            {" "}
-            <div className="flex full gap-x-[12px] items-center opacity-90">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-clock"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <polyline points="12 6 12 12 16 14" />
-                </svg>
+                <p>{infos.footerInfos.obs}</p>
               </div>
-
-              <p>{infos.footerInfos.obs}</p>
-            </div>
-          </MotionDivDownToUp> */}
+            </MotionDivDownToUp>
+          )}
         </div>
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
           <MotionDivDownToUp>
