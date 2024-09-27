@@ -59,10 +59,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO TRABALHISTA EM VÁRZEA GRANDE - MT",
-      title: <h1 className="mb-[16px]">Justiça trabalhista ao seu alcance</h1>,
+      miniTag: "CONSULTÓRIO DE DENTISTAS EM SÃO PAULO - SP",
+      title: (
+        <h1 className="mb-[16px]">
+          Cuidamos do <span className="text-primary">seu sorriso</span> como se
+          fosse o <span className="text-primary">nosso</span>
+        </h1>
+      ),
       subtitle:
-        "Conte com um atendimento personalizado em Várzea Grande e Cuiabá para proteger seus direitos com confiança.",
+        "12 anos de experiência utilizando o que há de mais moderno na odontologia para dar o melhor tratamento que você merece.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -88,17 +93,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Proteção completa para os seus direitos trabalhistas",
+      miniTag: "ESPECIALIDADES",
+      title: "Tratamentos personalizados para cada necessidade",
       subtitle:
-        "Especialista em Direito do Trabalho para assegurar uma defesa sólida e eficaz",
+        "Oferecemos serviços odontológicos completos, com foco em saúde bucal e bem-estar.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Hora extra e Verba rescisória",
+        title: "Odontologia Preventiva",
         subtitle:
-          "Apuração e pagamento das suas horas extras e verbas rescisórias.",
+          "Cuidados regulares para garantir a saúde bucal e evitar problemas futuros.",
         description: (
           <div>
             A Definir <br />
@@ -117,12 +122,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clock-alert"
+            class="lucide lucide-hourglass"
           >
-            <path d="M12 6v6l4 2" />
-            <path d="M16 21.16a10 10 0 1 1 5-13.516" />
-            <path d="M20 11.5v6" />
-            <path d="M20 21.5h.01" />
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -130,9 +135,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Insalubridade e Periculosidade",
+        title: "Tratamentos Restauradores",
         subtitle:
-          "Compensação justa por condições de trabalho insalubres ou perigosas.",
+          "Reparação e proteção de dentes danificados, proporcionando funcionalidade e estética.",
         description: (
           <div>
             A Definir <br />
@@ -152,20 +157,21 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-triangle-alert"
+            class="lucide lucide-brush"
           >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08" />
+            <path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z" />
           </svg>
         ),
-        buttonLabelModal: "A Definir",
-        buttonLabel: "A Definir",
+        buttonLabelModal: "Ortodontia",
+        buttonLabel:
+          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
       },
       card3: {
         img: featuresImg3,
-        title: "Assédio Moral",
-        subtitle: "Reparação por práticas abusivas no ambiente de trabalho.",
+        title: "Ortodontia",
+        subtitle:
+          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
         description: (
           <div>
             A Definir <br />
@@ -184,10 +190,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-frown"
+            class="lucide lucide-laugh"
           >
             <circle cx="12" cy="12" r="10" />
-            <path d="M16 16s-1.5-2-4-2-4 2-4 2" />
+            <path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z" />
             <line x1="9" x2="9.01" y1="9" y2="9" />
             <line x1="15" x2="15.01" y1="9" y2="9" />
           </svg>
@@ -197,9 +203,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Atraso Salarial",
+        title: "Odontologia Estética",
         subtitle:
-          "Atenção ao pagamento, exigindo as devidas correções e indenizações por atrasos. ",
+          "Realce a beleza do seu sorriso com clareamento, facetas e outros procedimentos estéticos.",
         description: (
           <div>
             A Definir <br />
@@ -220,11 +226,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign"
+            class="lucide lucide-smile-plus"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M22 11v1a10 10 0 1 1-9-10" />
+            <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+            <line x1="9" x2="9.01" y1="9" y2="9" />
+            <line x1="15" x2="15.01" y1="9" y2="9" />
+            <path d="M16 5h6" />
+            <path d="M19 2v6" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -236,47 +245,41 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório de advocacia",
       },
-      miniTag: "QUEM É DR REGYS FERNANDO",
-      title: "Minha trajetória",
+      miniTag: "Sobre a Dental Premium Care",
+      title: "Nossa trajetória",
       subtitle:
-        "Com mais de 15 anos de experiência na área jurídica, dos quais 10 dedicados à advocacia ativa.",
+        "Na Dental Premium Care, nossa missão é transformar sorrisos e melhorar a qualidade de vida de nossos pacientes.",
       paragraph: (
         <div>
-          Minha trajetória no campo jurídico é marcada por mais de 15 anos de
-          experiência. Iniciei minha carreira como Assistente Jurídico na Câmara
-          de Vereadores de Várzea Grande - MT, onde desenvolvi uma compreensão
-          profunda das questões de direito público e administrativo.
+          Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos
+          tratamentos personalizados em um ambiente confortável e acolhedor.
           <br />
-          Posteriormente, trabalhei na Defensoria Pública e no Tribunal de
-          Justiça, ampliando meu conhecimento e experiência em diversas áreas do
-          direito.
+          Acreditamos que um sorriso saudável vai além da estética,
+          representando bem-estar, confiança e autoestima.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Minha trajetória</strong>,
+      titleModal: <strong>Nossa trajetória</strong>,
       modal: (
         <p>
           <strong>
-            Com mais de 15 anos de experiência na área jurídica, dos quais 10
-            dedicados à advocacia ativa.
+            Na Dental Premium Care, nossa missão é transformar sorrisos e
+            melhorar a qualidade de vida de nossos pacientes.
           </strong>
           <br />
           <br />
-          Minha trajetória no campo jurídico é marcada por mais de 15 anos de
-          experiência. Iniciei minha carreira como Assistente Jurídico na Câmara
-          de Vereadores de Várzea Grande - MT, onde desenvolvi uma compreensão
-          profunda das questões de direito público e administrativo.
-          Posteriormente, trabalhei na Defensoria Pública e no Tribunal de
-          Justiça, ampliando meu conhecimento e experiência em diversas áreas do
-          direito.
+          Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos
+          tratamentos personalizados em um ambiente confortável e acolhedor.
           <br />
-          Formado pela Universidade Várzea Grande (Unic), decidi direcionar
-          minha carreira para a advocacia, com o objetivo de oferecer a você o
-          mais alto nível de qualidade e eficiência. Meu compromisso é garantir
-          sua satisfação, buscando sempre alcançar a maior probabilidade de
-          êxito em cada demanda. Dedico-me a atender cada cliente com a atenção
-          e o cuidado que você merece, focado em encontrar a melhor solução para
-          suas necessidades legais.
+          Acreditamos que um sorriso saudável vai além da estética,
+          representando bem-estar, confiança e autoestima. Por isso, trabalhamos
+          com dedicação para proporcionar resultados duradouros e uma
+          experiência positiva em cada visita.
+          <br />
+          <br />
+          Seja para um simples check-up ou para procedimentos mais complexos,
+          estamos prontos para cuidar de você com todo o cuidado e atenção que
+          você merece.
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
@@ -291,14 +294,16 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
+        miniTag: "Estamos nas redes",
+        title: "Fique por dentro!",
+        subtitle: "🦷 Quer cuidar melhor do seu sorriso? ",
         paragraph: (
           <p>
-            A Definir
-            <br />
-            <br />A Definir
+            Acompanhe nossas postagens para ficar por dentro das últimas
+            novidades e dicas sobre saúde bucal. Siga a Odonto Premium Care no
+            Instagram!
+            {/* <br />
+            <br />A Definir */}
           </p>
         ),
       },
@@ -601,44 +606,43 @@ const content = {
     },
     steps: {
       miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
+      title: "Como funciona a sua consulta?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Agendamento da consulta",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Entre em contato conosco pelo telefone ou pelo nosso site para agendar sua consulta no horário que melhor lhe convier.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Recepção e preenchimento de documentos",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Ao chegar, você será recebido por nossa equipe, que solicitará o preenchimento de alguns documentos e informações sobre seu histórico de saúde bucal.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Avaliação odontológica",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Um de nossos dentistas realizará uma avaliação detalhada de sua saúde bucal, incluindo exame clínico e, se necessário, radiografias.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Plano de tratamento personalizado",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Após a avaliação, discutiremos as opções de tratamento mais adequadas para suas necessidades e responderemos a todas as suas perguntas antes de prosseguir.",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      title: "Estamos aqui para cuidar de você!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Entre em contato e agende sua consulta. Nossa equipe está pronta para responder suas dúvidas e cuidar do seu sorriso.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
@@ -670,24 +674,24 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Com que frequência devo ir ao dentista?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Recomendamos visitas ao dentista a cada seis meses para check-ups e limpezas, mas a frequência pode variar conforme suas necessidades individuais. Consulte seu dentista para um plano personalizado.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Os tratamentos dentários são dolorosos?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Nosso objetivo é garantir seu conforto durante os tratamentos. Utilizamos anestesia local e técnicas avançadas para minimizar qualquer desconforto. Converse com sua equipe sobre suas preocupações.",
         },
         question3: {
-          question: "Quais documentos devo apresentar na consulta?",
+          question: "Aceitam planos de saúde?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Sim, aceitamos diversos planos de saúde. Entre em contato conosco para verificar se o seu plano é aceito e para mais informações sobre cobertura.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Qual é o tempo médio de duração de uma consulta?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Uma consulta típica pode durar entre 30 a 60 minutos, dependendo do tipo de atendimento que você precisa. Durante a avaliação, seu dentista informará sobre o tempo necessário para qualquer procedimento adicional.",
         },
       },
       paragraph: (

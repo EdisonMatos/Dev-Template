@@ -28,12 +28,12 @@ export default function HowItWorksImage() {
             style={{
               backgroundImage: `url(${content.texts.steps.img})`,
             }}
-            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-2xl"
+            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
             <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
-              className="absolute opacity-75 right-[-40px] top-[40px] phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
+              className="absolute opacity-30 right-[-40px] top-[40px] phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
           </div>
           {/* <img
@@ -59,33 +59,33 @@ export default function HowItWorksImage() {
             color=""
             type=""
           />
-          
-            <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
-                <HowItWorksCard
-                  number={content.texts.steps.cards.card1.stepNumber}
-                  title={content.texts.steps.cards.card1.cardTitle}
-                  description={content.texts.steps.cards.card1.cardDescription}
-                  animation
-                />
-                <HowItWorksCard
-                  number={content.texts.steps.cards.card2.stepNumber}
-                  title={content.texts.steps.cards.card2.cardTitle}
-                  description={content.texts.steps.cards.card2.cardDescription}
-                  animation
-                />
-                <HowItWorksCard
-                  number={content.texts.steps.cards.card3.stepNumber}
-                  title={content.texts.steps.cards.card3.cardTitle}
-                  description={content.texts.steps.cards.card3.cardDescription}
-                  animation
-                />
-                <HowItWorksCard
-                  number={content.texts.steps.cards.card4.stepNumber}
-                  title={content.texts.steps.cards.card4.cardTitle}
-                  description={content.texts.steps.cards.card4.cardDescription}
-                  animation
-                />
-            </div>
+
+          <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
+            <HowItWorksCard
+              number={content.texts.steps.cards.card1.stepNumber}
+              title={content.texts.steps.cards.card1.cardTitle}
+              description={content.texts.steps.cards.card1.cardDescription}
+              animation
+            />
+            <HowItWorksCard
+              number={content.texts.steps.cards.card2.stepNumber}
+              title={content.texts.steps.cards.card2.cardTitle}
+              description={content.texts.steps.cards.card2.cardDescription}
+              animation
+            />
+            <HowItWorksCard
+              number={content.texts.steps.cards.card3.stepNumber}
+              title={content.texts.steps.cards.card3.cardTitle}
+              description={content.texts.steps.cards.card3.cardDescription}
+              animation
+            />
+            <HowItWorksCard
+              number={content.texts.steps.cards.card4.stepNumber}
+              title={content.texts.steps.cards.card4.cardTitle}
+              description={content.texts.steps.cards.card4.cardDescription}
+              animation
+            />
+          </div>
         </div>
       </SectionWrapper>
 
