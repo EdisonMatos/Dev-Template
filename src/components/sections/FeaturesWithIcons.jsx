@@ -13,6 +13,11 @@ import ServicesModal from "./ServicesModal";
 // import Icon2 from "../../assets/imgs/icons/icon2.png";
 // import Icon3 from "../../assets/imgs/icons/icon3.png";
 // import Icon4 from "../../assets/imgs/icons/icon4.png";
+
+const modalCardFeatures = {
+  modalFeatures: true,
+};
+
 export default function FeaturesWithIcons() {
   return (
     <SectionArea id="service" className="squares">
@@ -73,7 +78,11 @@ export default function FeaturesWithIcons() {
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
               >
-                <ServicesModal />
+                {modalCardFeatures.modalFeatures && (
+                  <div>
+                    <ServicesModal />
+                  </div>
+                )}
               </IconFeatureCard>
             </MotionDivDownToUp>
           </div>
