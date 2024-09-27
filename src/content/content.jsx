@@ -635,9 +635,10 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "FALE CONOSCO",
+      title: "Estamos aqui para cuidar de você!",
+      subtitle:
+        "Entre em contato e agende sua consulta. Nossa equipe está pronta para responder suas dúvidas e cuidar do seu sorriso.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
