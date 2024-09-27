@@ -736,6 +736,7 @@ const content = {
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
       midSectionName: "A Definir",
       footerText: "A Definir",
+      footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
     },
 

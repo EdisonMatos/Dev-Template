@@ -198,7 +198,7 @@ function FooterSocial() {
 
           {/* Ícones redes sociais */}
           <MotionDivDownToUp>
-            {/* <p className="opacity-90">{infos.footerInfos.footerSocialText}</p> */}
+            {/* <p className="opacity-90">{content.texts.footer.footerSocialText}</p> */}
             <div className="mt-2 opacity-90">
               {" "}
               <div className="flex gap-[10px] items-center">
