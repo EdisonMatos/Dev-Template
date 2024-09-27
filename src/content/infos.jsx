@@ -1,32 +1,28 @@
 const infos = {
-  name: "Dr. Regys Fernando",
+  name: "Dental Care",
   slogan: "",
-  phone: "(65) 99923-3610",
-  mail: "A Definir",
+  phone: "(11) 99026-0977",
+  mail: "contato@detalcarep.com.br",
   footerInfos: {
     endereco: (
       <div>
-        <p>Rua Adelina Maria da Costa, 626</p>
-        <p>Centro Norte</p>
-        <p>Várzea Grande - MT</p>
-        <br />
-        <p>Rua Franklin Cassiano da Silva</p>
-        <p>G Complex Jur, Duque de Caxias</p>
-        <p>Cuiabá - MT</p>
+        <p>Av. ACM, nº 1034</p>
+        <p>Pituba Center - Sala 308 Ala A</p>
+        <p>Itaigara - Salvador - BA</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        Segunda à Sexta
+        Segunda-feira à Sexta-feira
         <br />
-        8h às 18h
+        Das 8h às 12h - 14h às 18h
         <br />
       </p>
     ),
     obs: <span className="italic">A Definir</span>,
-    midSectionName: "Até mais!",
+    midSectionName: "Até mais! 🦷",
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
