@@ -9,6 +9,9 @@ import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
 import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
+import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
+
+
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -123,6 +126,9 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      <SectionShapeDiv shapeDivWaves ={true} />
+
       {/* <div className="bg-black bg-opacity-0">
         <div class="custom-shape-divider-bottom-1720203688">
           <svg
