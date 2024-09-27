@@ -59,15 +59,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "CONSULTÓRIO DE DENTISTAS EM SÃO PAULO - SP",
+      miniTag: "A Definir",
       title: (
         <h1 className="mb-[16px]">
-          Cuidamos do <span className="text-primary">seu sorriso</span> como se
-          fosse o <span className="text-primary">nosso</span>
+          A Definir <span className="text-primary">A Definir</span> A Definir{" "}
+          <span className="text-primary">A Definir</span>
         </h1>
       ),
-      subtitle:
-        "12 anos de experiência utilizando o que há de mais moderno na odontologia para dar o melhor tratamento que você merece.",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -93,17 +92,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Tratamentos personalizados para cada necessidade",
-      subtitle:
-        "Oferecemos serviços odontológicos completos, com foco em saúde bucal e bem-estar.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Odontologia Preventiva",
-        subtitle:
-          "Cuidados regulares para garantir a saúde bucal e evitar problemas futuros.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -135,9 +132,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Tratamentos Restauradores",
-        subtitle:
-          "Reparação e proteção de dentes danificados, proporcionando funcionalidade e estética.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -169,9 +165,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Ortodontia",
-        subtitle:
-          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -203,9 +198,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Odontologia Estética",
-        subtitle:
-          "Realce a beleza do seu sorriso com clareamento, facetas e outros procedimentos estéticos.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -245,41 +239,28 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório de advocacia",
       },
-      miniTag: "Sobre a Dental Premium Care",
-      title: "Nossa trajetória",
-      subtitle:
-        "Na Dental Premium Care, nossa missão é transformar sorrisos e melhorar a qualidade de vida de nossos pacientes.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos
-          tratamentos personalizados em um ambiente confortável e acolhedor.
-          <br />
-          Acreditamos que um sorriso saudável vai além da estética,
-          representando bem-estar, confiança e autoestima.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Nossa trajetória</strong>,
+      titleModal: <strong>A Definir</strong>,
       modal: (
         <p>
-          <strong>
-            Na Dental Premium Care, nossa missão é transformar sorrisos e
-            melhorar a qualidade de vida de nossos pacientes.
-          </strong>
+          <strong>A Definir</strong>
           <br />
           <br />
-          Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos
-          tratamentos personalizados em um ambiente confortável e acolhedor.
+          A Definir
           <br />
-          Acreditamos que um sorriso saudável vai além da estética,
-          representando bem-estar, confiança e autoestima. Por isso, trabalhamos
-          com dedicação para proporcionar resultados duradouros e uma
-          experiência positiva em cada visita.
+          A Definir
           <br />
           <br />
-          Seja para um simples check-up ou para procedimentos mais complexos,
-          estamos prontos para cuidar de você com todo o cuidado e atenção que
-          você merece.
+          A Definir
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
@@ -605,44 +586,39 @@ const content = {
       },
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona a sua consulta?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Agendamento da consulta",
-          cardDescription:
-            "Entre em contato conosco pelo telefone ou pelo nosso site para agendar sua consulta no horário que melhor lhe convier.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Recepção e preenchimento de documentos",
-          cardDescription:
-            "Ao chegar, você será recebido por nossa equipe, que solicitará o preenchimento de alguns documentos e informações sobre seu histórico de saúde bucal.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Avaliação odontológica",
-          cardDescription:
-            "Um de nossos dentistas realizará uma avaliação detalhada de sua saúde bucal, incluindo exame clínico e, se necessário, radiografias.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Plano de tratamento personalizado",
-          cardDescription:
-            "Após a avaliação, discutiremos as opções de tratamento mais adequadas para suas necessidades e responderemos a todas as suas perguntas antes de prosseguir.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title: "Estamos aqui para cuidar de você!",
-      subtitle:
-        "Entre em contato e agende sua consulta. Nossa equipe está pronta para responder suas dúvidas e cuidar do seu sorriso.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
@@ -669,29 +645,25 @@ const content = {
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Com que frequência devo ir ao dentista?",
-          answer:
-            "Recomendamos visitas ao dentista a cada seis meses para check-ups e limpezas, mas a frequência pode variar conforme suas necessidades individuais. Consulte seu dentista para um plano personalizado.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question: "Os tratamentos dentários são dolorosos?",
-          answer:
-            "Nosso objetivo é garantir seu conforto durante os tratamentos. Utilizamos anestesia local e técnicas avançadas para minimizar qualquer desconforto. Converse com sua equipe sobre suas preocupações.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question: "Aceitam planos de saúde?",
-          answer:
-            "Sim, aceitamos diversos planos de saúde. Entre em contato conosco para verificar se o seu plano é aceito e para mais informações sobre cobertura.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Qual é o tempo médio de duração de uma consulta?",
-          answer:
-            "Uma consulta típica pode durar entre 30 a 60 minutos, dependendo do tipo de atendimento que você precisa. Durante a avaliação, seu dentista informará sobre o tempo necessário para qualquer procedimento adicional.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
       paragraph: (
