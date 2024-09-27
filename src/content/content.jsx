@@ -59,9 +59,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
+      miniTag: "CONSULTÓRIO DE DENTISTAS EM SÃO PAULO - SP",
+      title: (
+        <h1 className="mb-[16px]">
+          Cuidamos do <span className="text-primary">seu sorriso</span> como se
+          fosse o <span className="text-primary">nosso</span>
+        </h1>
+      ),
+      subtitle:
+        "12 anos de experiência utilizando o que há de mais moderno na odontologia para dar o melhor tratamento que você merece.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
