@@ -1,27 +1,23 @@
 const infos = {
-  name: "Dr. Regys Fernando",
+  name: "A Definir",
   slogan: "",
-  phone: "(65) 99923-3610",
+  phone: "(A Definir) A Definir-A Definir",
   mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
-        <p>Rua Adelina Maria da Costa, 626</p>
-        <p>Centro Norte</p>
-        <p>Várzea Grande - MT</p>
-        <br />
-        <p>Rua Franklin Cassiano da Silva</p>
-        <p>G Complex Jur, Duque de Caxias</p>
-        <p>Cuiabá - MT</p>
+        <p>A Definir</p>
+        <p>A Definir</p>
+        <p>A Definir</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        Segunda à Sexta
+        A Definir
         <br />
-        8h às 18h
+        A Definir
         <br />
       </p>
     ),

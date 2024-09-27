@@ -59,10 +59,9 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO TRABALHISTA EM VÁRZEA GRANDE - MT",
-      title: <h1 className="mb-[16px]">Justiça trabalhista ao seu alcance</h1>,
-      subtitle:
-        "Conte com um atendimento personalizado em Várzea Grande e Cuiabá para proteger seus direitos com confiança.",
+      miniTag: "A Definir",
+      title: <h1 className="mb-[16px]">A Definir</h1>,
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -88,17 +87,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Proteção completa para os seus direitos trabalhistas",
-      subtitle:
-        "Especialista em Direito do Trabalho para assegurar uma defesa sólida e eficaz",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Hora extra e Verba rescisória",
-        subtitle:
-          "Apuração e pagamento das suas horas extras e verbas rescisórias.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -130,9 +127,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Insalubridade e Periculosidade",
-        subtitle:
-          "Compensação justa por condições de trabalho insalubres ou perigosas.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -164,8 +160,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Assédio Moral",
-        subtitle: "Reparação por práticas abusivas no ambiente de trabalho.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -197,9 +193,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Atraso Salarial",
-        subtitle:
-          "Atenção ao pagamento, exigindo as devidas correções e indenizações por atrasos. ",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -236,47 +231,25 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório de advocacia",
       },
-      miniTag: "QUEM É DR REGYS FERNANDO",
-      title: "Minha trajetória",
-      subtitle:
-        "Com mais de 15 anos de experiência na área jurídica, dos quais 10 dedicados à advocacia ativa.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Minha trajetória no campo jurídico é marcada por mais de 15 anos de
-          experiência. Iniciei minha carreira como Assistente Jurídico na Câmara
-          de Vereadores de Várzea Grande - MT, onde desenvolvi uma compreensão
-          profunda das questões de direito público e administrativo.
-          <br />
-          Posteriormente, trabalhei na Defensoria Pública e no Tribunal de
-          Justiça, ampliando meu conhecimento e experiência em diversas áreas do
-          direito.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Minha trajetória</strong>,
+      titleModal: <strong>A Definir</strong>,
       modal: (
         <p>
-          <strong>
-            Com mais de 15 anos de experiência na área jurídica, dos quais 10
-            dedicados à advocacia ativa.
-          </strong>
+          <strong>A Definir</strong>
           <br />
           <br />
-          Minha trajetória no campo jurídico é marcada por mais de 15 anos de
-          experiência. Iniciei minha carreira como Assistente Jurídico na Câmara
-          de Vereadores de Várzea Grande - MT, onde desenvolvi uma compreensão
-          profunda das questões de direito público e administrativo.
-          Posteriormente, trabalhei na Defensoria Pública e no Tribunal de
-          Justiça, ampliando meu conhecimento e experiência em diversas áreas do
-          direito.
+          A Definir
           <br />
-          Formado pela Universidade Várzea Grande (Unic), decidi direcionar
-          minha carreira para a advocacia, com o objetivo de oferecer a você o
-          mais alto nível de qualidade e eficiência. Meu compromisso é garantir
-          sua satisfação, buscando sempre alcançar a maior probabilidade de
-          êxito em cada demanda. Dedico-me a atender cada cliente com a atenção
-          e o cuidado que você merece, focado em encontrar a melhor solução para
-          suas necessidades legais.
+          A Definir
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
@@ -600,45 +573,39 @@ const content = {
       },
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
@@ -665,29 +632,25 @@ const content = {
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question: "Quais documentos devo apresentar na consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
       paragraph: (
