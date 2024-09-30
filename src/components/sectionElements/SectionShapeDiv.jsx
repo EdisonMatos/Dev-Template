@@ -2,15 +2,7 @@ import PropTypes from "prop-types";
 import "../../styles/shapeDivs.css";
 
 const shapes = {
-  shape1: "custom-shape-divider-top-1727457654",
-  shape2: "custom-shape-divider-bottom-1727461022",
-  shape3: "custom-shape-divider-top-1727462681",
-  shape4: "custom-shape-divider-top-1727466656",
-  shape5: "custom-shape-divider-top-1727467091",
-  shape6: "custom-shape-divider-top-1727467397",
-  shape7: "custom-shape-divider-top-1727468090",
-  shape8: "custom-shape-divider-top-1727468516",
-  shape9: "custom-shape-divider-top-1727468719",
+  shape1: "custom-shape-divider-top-1727467397",
 };
 
 SectionShapeDiv.propTypes = {
@@ -50,7 +42,7 @@ export default function SectionShapeDiv({
     shapeDiv && (
       <div className={`${className} shape-container`}>
         {shapeDivWaves && (
-          <div className={`${shapes.shape6}`}>
+          <div className={`${shapes.shape1} relative`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +58,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivWavesOpacity && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +84,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivWavesCurve && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +100,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivWavesCurveAsymmetrical && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +116,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivtriangule && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +132,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivtrianguleAsymmetrical && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -156,7 +148,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivTilt && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +164,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivArrow && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +180,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivSplit && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +198,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivBook && (
-          <div className={`${shapes.shape6} shape-overlay`}>
+          <div className={`${shapes.shape1}`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
