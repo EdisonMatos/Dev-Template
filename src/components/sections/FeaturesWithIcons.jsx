@@ -14,6 +14,7 @@ import ServicesModal from "./ServicesModal";
 // import Icon3 from "../../assets/imgs/icons/icon3.png";
 // import Icon4 from "../../assets/imgs/icons/icon4.png";
 
+// Renderiza ou não o modal no último card da Features
 const modalCardFeatures = {
   modalFeatures: true,
 };
