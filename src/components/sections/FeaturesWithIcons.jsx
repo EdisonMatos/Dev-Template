@@ -1,18 +1,27 @@
-import FeatureImgOnBgCard from "../cards/FeatureImgOnBgCard";
+import React, { useState } from "react";
+import { Dialog } from "primereact/dialog";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import Icon1 from "../../assets/imgs/icons/icon1.png";
-import Icon2 from "../../assets/imgs/icons/icon2.png";
-import Icon3 from "../../assets/imgs/icons/icon3.png";
-import Icon4 from "../../assets/imgs/icons/icon4.png";
+import ServicesModal from "./ServicesModal";
+import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
+// import Icon1 from "../../assets/imgs/icons/icon1.png";
+// import Icon2 from "../../assets/imgs/icons/icon2.png";
+// import Icon3 from "../../assets/imgs/icons/icon3.png";
+// import Icon4 from "../../assets/imgs/icons/icon4.png";
+
+const modalCardFeatures = {
+  modalFeatures: true,
+};
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares">
+    <SectionArea id="service" className="squares" spaceShapeDiv={true} paddingbot={false}>
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -69,11 +78,18 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
-              />
+              >
+                {modalCardFeatures.modalFeatures && (
+                  <div>
+                    <ServicesModal />
+                  </div>
+                )}
+              </IconFeatureCard>
             </MotionDivDownToUp>
           </div>
         </div>
       </SectionWrapper>
+      <SectionShapeDiv shapeDivTilt={true} />
     </SectionArea>
   );
 }

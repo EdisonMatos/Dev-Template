@@ -125,9 +125,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
 
-      <SectionShapeDiv className=" h-0" shapeDivWaves={true} />
+      <SectionShapeDiv shapeDivtriangule={true} />
 
       {/* <div className="bg-black bg-opacity-0">
         <div class="custom-shape-divider-bottom-1720203688">

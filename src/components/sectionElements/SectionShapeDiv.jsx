@@ -40,7 +40,7 @@ export default function SectionShapeDiv({
 }) {
   return (
     shapeDiv && (
-      <div className={`${className} shape-container`}>
+      <div className={`${className} h-0`}>
         {shapeDivWaves && (
           <div className={`${shapes.shape1} relative`}>
             <svg

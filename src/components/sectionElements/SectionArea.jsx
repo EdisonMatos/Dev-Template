@@ -8,6 +8,7 @@ export default function SectionArea({
   paddingtop = true,
   paddingbot = true,
   paddingTopAndBottom,
+  spaceShapeDiv,
 }) {
   SectionArea.propTypes = {
     children: PropTypes.any,
@@ -16,6 +17,7 @@ export default function SectionArea({
     paddingtop: PropTypes.bool,
     paddingbot: PropTypes.bool,
     paddingTopAndBottom: PropTypes.bool,
+    spaceShapeDiv: PropTypes.bool,
   };
 
   if (paddingTopAndBottom === false) {
@@ -27,10 +29,15 @@ export default function SectionArea({
   const paddingTopp = paddingtop ? "pt-[64px] desktop1:pt-[96px]" : "";
   const paddingBottom = paddingbot ? "pb-[64px] desktop1:pb-[96px]" : "";
 
+  // constante para renderizar espaço para shapeDiv
+  const spaceShape = spaceShapeDiv
+  ? "pt-[130px] phone3:pt-[120px] tablet2:pt-[120px] desktop1:pt-[125px] desktop2:pt-[130px]"
+  : "";
+
   return (
     <div
       id={id}
-      className={`w-full flex flex-col items-center ${paddingTopp} ${paddingBottom} ${paddingTopAndBottom} ${className}`}
+      className={`w-full flex flex-col items-center ${spaceShape} ${paddingTopp} ${paddingBottom} ${paddingTopAndBottom} ${className}`}
     >
       {childrenArray}
     </div>
