@@ -17,6 +17,7 @@ import AboutFading from "../sectionElements/AboutFading";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
+// Renderiza ou não o modal com mais informações dentro do About
 export default function About() {
   const modalAbout = {
     modalTextAbout: true,
