@@ -10,10 +10,12 @@ import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
+// Renderiza ou não o endereço no footer 
 const addresInfo = {
   address: true,
 };
 
+// Renderiza ou não a frase de observação no footer 
 const observationInfo = {
   obs: false,
 }
