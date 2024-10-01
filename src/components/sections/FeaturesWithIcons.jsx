@@ -9,11 +9,11 @@ import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 // import Icon1 from "../../assets/imgs/icons/icon1.png";
 // import Icon2 from "../../assets/imgs/icons/icon2.png";
 // import Icon3 from "../../assets/imgs/icons/icon3.png";
 // import Icon4 from "../../assets/imgs/icons/icon4.png";
+import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 const modalCardFeatures = {
   modalFeatures: true,
@@ -21,7 +21,10 @@ const modalCardFeatures = {
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares" spaceShapeDiv={true} paddingbot={true}>
+    <div>
+    
+    <SectionArea id="service" className="squares" paddingbot={true} paddingtop={false}>
+      <SectionShapeDiv shapeDivtriangule={true} shapeColor="text-bgSectionDark" paddingbot={true} />
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -89,7 +92,7 @@ export default function FeaturesWithIcons() {
           </div>
         </div>
       </SectionWrapper>
-      <SectionShapeDiv className="top-[64px]" shapeDivTilt={true} shapeColor="green" />
     </SectionArea>
+    </div>
   );
 }

@@ -128,7 +128,6 @@ export default function Hero() {
       </div> 
 
 
-      <SectionShapeDiv shapeDivtriangule={true} shapeColor="blue" className="top-[0px] desktop1:top-[0px]" />
 
       {/* <div className="bg-black bg-opacity-0">
         <div class="custom-shape-divider-bottom-1720203688">

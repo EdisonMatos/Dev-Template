@@ -4,7 +4,6 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import links from "../../content/links";
 import content from "../../content/content";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -58,7 +57,6 @@ export default function CtaMinimal() {
       </div>
 
 Fim de onda shape div */}
-      <SectionShapeDiv shapeDivWavesOpacity shapeColor="red" className="top-[0px] desktop1:top-0" />
     </div>
   );
 }

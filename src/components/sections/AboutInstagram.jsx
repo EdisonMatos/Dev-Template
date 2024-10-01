@@ -13,7 +13,6 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
@@ -185,7 +184,6 @@ export default function AboutInstagram() {
       </div>
 
               Fim de shape div */}
-              < SectionShapeDiv className="top-[64px]" shapeDivWaves={true} />
     </SectionArea>
   );
 }

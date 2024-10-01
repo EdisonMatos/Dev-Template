@@ -6,12 +6,11 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
 import links from "../../content/links";
 import content from "../../content/content";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 export default function Faq() {
   return (
     <div className="">
-      <SectionArea id="faq" className="bg-neutral-100" spaceShapeDiv={true}>
+      <SectionArea id="faq" className="bg-neutral-100">
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.faq.miniTag}
@@ -31,7 +30,6 @@ export default function Faq() {
             </Paragraphs>
           </MotionDivDownToUp>
         </SectionWrapper>
-        <SectionShapeDiv shapeDivWavesCurve shapeColor="gray" className="top-[64px]"/>
       </SectionArea>
     </div>
   );
