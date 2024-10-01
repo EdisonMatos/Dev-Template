@@ -59,10 +59,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO TRABALHISTA EM VÁRZEA GRANDE - MT",
-      title: <h1 className="mb-[16px]">Justiça trabalhista ao seu alcance</h1>,
+      miniTag: "ADVOGADO CÍVEL E CONSUMERISTA EM PORTO ALEGRE - RS",
+      title: (
+        <h1 className="mb-[16px]">
+          <span className="text-primary">Gestão de conflitos</span> para
+          proteção legal <span className="text-primary">eficiente</span>
+        </h1>
+      ),
       subtitle:
-        "Conte com um atendimento personalizado em Várzea Grande e Cuiabá para proteger seus direitos com confiança.",
+        "Oferecemos soluções legais estratégicas para minimizar riscos e maximizar resultados.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -88,17 +93,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Proteção completa para os seus direitos trabalhistas",
+      miniTag: "ESPECIALIDADES",
+      title: "Resolução estratégica de conflitos empresariais",
       subtitle:
-        "Especialista em Direito do Trabalho para assegurar uma defesa sólida e eficaz",
+        "Soluções jurídicas focadas na proteção dos interesses da sua empresa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Hora extra e Verba rescisória",
+        title: "Consultoria jurídica",
         subtitle:
-          "Apuração e pagamento das suas horas extras e verbas rescisórias.",
+          "Orientação especializada para prevenir litígios e garantir segurança jurídica nas decisões empresariais.",
         description: (
           <div>
             A Definir <br />
@@ -117,12 +122,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clock-alert"
+            class="lucide lucide-scale"
           >
-            <path d="M12 6v6l4 2" />
-            <path d="M16 21.16a10 10 0 1 1 5-13.516" />
-            <path d="M20 11.5v6" />
-            <path d="M20 21.5h.01" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -130,9 +136,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Insalubridade e Periculosidade",
+        title: "Direito do consumidor",
         subtitle:
-          "Compensação justa por condições de trabalho insalubres ou perigosas.",
+          "Defesa eficiente dos interesses empresariais em questões de relações de consumo.",
         description: (
           <div>
             A Definir <br />
@@ -152,20 +158,21 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-triangle-alert"
+            class="lucide lucide-tag"
           >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
-        buttonLabelModal: "A Definir",
-        buttonLabel: "A Definir",
+        buttonLabelModal: "Ortodontia",
+        buttonLabel:
+          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
       },
       card3: {
         img: featuresImg3,
-        title: "Assédio Moral",
-        subtitle: "Reparação por práticas abusivas no ambiente de trabalho.",
+        title: "Usucapião extrajudicial de bens móveis",
+        subtitle:
+          "Regularização de posse com agilidade, evitando longos processos judiciais.",
         description: (
           <div>
             A Definir <br />
@@ -184,12 +191,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-frown"
+            class="lucide lucide-landmark"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 16s-1.5-2-4-2-4 2-4 2" />
-            <line x1="9" x2="9.01" y1="9" y2="9" />
-            <line x1="15" x2="15.01" y1="9" y2="9" />
+            <line x1="3" x2="21" y1="22" y2="22" />
+            <line x1="6" x2="6" y1="18" y2="11" />
+            <line x1="10" x2="10" y1="18" y2="11" />
+            <line x1="14" x2="14" y1="18" y2="11" />
+            <line x1="18" x2="18" y1="18" y2="11" />
+            <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -197,9 +206,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Atraso Salarial",
+        title: "Planos de saúde",
         subtitle:
-          "Atenção ao pagamento, exigindo as devidas correções e indenizações por atrasos. ",
+          "Resolução de conflitos com operadoras de saúde, assegurando o cumprimento dos direitos contratados.",
         description: (
           <div>
             A Definir <br />
@@ -220,11 +229,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign"
+            class="lucide lucide-heart"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -236,20 +243,19 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório de advocacia",
       },
-      miniTag: "QUEM É DR REGYS FERNANDO",
+      miniTag: "QUEM É DR. DIEGO ZAMBRANO",
       title: "Minha trajetória",
       subtitle:
-        "Com mais de 15 anos de experiência na área jurídica, dos quais 10 dedicados à advocacia ativa.",
+        "Mais de 14 anos de experiência em soluções jurídicas estratégicas e personalizadas.",
       paragraph: (
         <div>
-          Minha trajetória no campo jurídico é marcada por mais de 15 anos de
-          experiência. Iniciei minha carreira como Assistente Jurídico na Câmara
-          de Vereadores de Várzea Grande - MT, onde desenvolvi uma compreensão
-          profunda das questões de direito público e administrativo.
+          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
+          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
+          consultoria e assessoria jurídica.
           <br />
-          Posteriormente, trabalhei na Defensoria Pública e no Tribunal de
-          Justiça, ampliando meu conhecimento e experiência em diversas áreas do
-          direito.
+          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
+          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
+          conflitos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -257,26 +263,30 @@ const content = {
       modal: (
         <p>
           <strong>
-            Com mais de 15 anos de experiência na área jurídica, dos quais 10
-            dedicados à advocacia ativa.
+            Mais de 14 anos de experiência em soluções jurídicas estratégicas e
+            personalizadas.
           </strong>
           <br />
           <br />
-          Minha trajetória no campo jurídico é marcada por mais de 15 anos de
-          experiência. Iniciei minha carreira como Assistente Jurídico na Câmara
-          de Vereadores de Várzea Grande - MT, onde desenvolvi uma compreensão
-          profunda das questões de direito público e administrativo.
-          Posteriormente, trabalhei na Defensoria Pública e no Tribunal de
-          Justiça, ampliando meu conhecimento e experiência em diversas áreas do
-          direito.
+          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
+          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
+          consultoria e assessoria jurídica.
           <br />
-          Formado pela Universidade Várzea Grande (Unic), decidi direcionar
-          minha carreira para a advocacia, com o objetivo de oferecer a você o
-          mais alto nível de qualidade e eficiência. Meu compromisso é garantir
-          sua satisfação, buscando sempre alcançar a maior probabilidade de
-          êxito em cada demanda. Dedico-me a atender cada cliente com a atenção
-          e o cuidado que você merece, focado em encontrar a melhor solução para
-          suas necessidades legais.
+          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
+          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
+          conflitos.
+          <br />
+          <br />
+          Minha prioridade sempre foi oferecer um atendimento diferenciado,
+          focado em atingir os objetivos de cada cliente com criatividade,
+          segurança e excelência técnica. Cada caso é tratado de forma
+          personalizada, garantindo que as soluções jurídicas estejam
+          perfeitamente alinhadas às necessidades específicas de quem confia no
+          meu trabalho.
+          <br />
+          <br />
+          Meu compromisso é sempre manter um alto padrão de qualidade e
+          dedicação, proporcionando segurança jurídica em cada passo do caminho.
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
@@ -291,14 +301,16 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
+        miniTag: "Estamos nas redes",
+        title: "Fique por dentro!",
+        subtitle: "🦷 Quer cuidar melhor do seu sorriso? ",
         paragraph: (
           <p>
-            A Definir
-            <br />
-            <br />A Definir
+            Acompanhe nossas postagens para ficar por dentro das últimas
+            novidades e dicas sobre saúde bucal. Siga a Odonto Premium Care no
+            Instagram!
+            {/* <br />
+            <br />A Definir */}
           </p>
         ),
       },
@@ -667,27 +679,27 @@ const content = {
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Agende uma consulta conosco via WhatsApp para discutirmos as necessidades da sua empresa e avaliarmos os custos envolvidos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "O prazo médio varia conforme a complexidade do caso, mas forneceremos uma estimativa detalhada durante a consulta inicial.",
         },
         question3: {
-          question: "Quais documentos devo apresentar na consulta?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Traga os documentos relevantes ao seu caso, como contratos sociais, documentos fiscais, contratos de prestação de serviços e quaisquer registros pertinentes, além de documentos de identificação dos representantes legais.",
         },
         question4: {
           question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Sim, oferecemos consultoria preventiva para ajudar sua empresa a evitar litígios e garantir conformidade legal, promovendo segurança jurídica em suas operações.",
         },
       },
       paragraph: (

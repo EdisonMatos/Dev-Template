@@ -2,7 +2,7 @@ const infos = {
   name: "A Definir",
   slogan: "",
   phone: "(A Definir) A Definir-A Definir",
-  mail: "A Definir",
+  mail: "A Definir@A Definir",
   footerInfos: {
     endereco: (
       <div>
@@ -24,7 +24,8 @@ const infos = {
     obs: <span className="italic">A Definir</span>,
     midSectionName: "Até mais!",
     year: 2024,
-    footerText: "A Definir",
+    footerText:
+      "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
 
     footerSocialText: "Siga a gente nas redes sociais:",
     footerNavegacaoText: "NAVEGAÇÃO",
