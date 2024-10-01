@@ -107,7 +107,7 @@ export default function Hero() {
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="rounded-2xl w-full h-[220px] tablet1:h-[300px] tablet2:h-[350px] desktop1:h-[400px] bg-cover bg-center bg-no-repeat"
+                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[400px] bg-cover desktop1:bg-center bg-no-repeat"
                   style={{
                     backgroundImage: `url(${imgLaw})`,
                     backgroundSize: "",
