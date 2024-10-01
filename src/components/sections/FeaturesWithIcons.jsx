@@ -24,7 +24,7 @@ export default function FeaturesWithIcons() {
     <div>
     
     <SectionArea id="service" className="squares" paddingbot={true} paddingtop={false}>
-      <SectionShapeDiv shapeDivtriangule={true} shapeColor="text-bgSectionDark" paddingbot={true} />
+      <SectionShapeDiv shapeDivWaves={true} shapeColor="text-bgSectionDark" paddingbot={true} />
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}

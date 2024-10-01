@@ -14,6 +14,7 @@ import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 
+
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
