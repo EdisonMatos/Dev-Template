@@ -1,28 +1,25 @@
 const infos = {
-  name: "Dr. Regys Fernando",
+  name: "Dr. Diego Zambrano",
   slogan: "",
-  phone: "(65) 99923-3610",
+  phone: "(51) 99411-7248",
   mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
-        <p>Rua Adelina Maria da Costa, 626</p>
-        <p>Centro Norte</p>
-        <p>Várzea Grande - MT</p>
-        <br />
-        <p>Rua Franklin Cassiano da Silva</p>
-        <p>G Complex Jur, Duque de Caxias</p>
-        <p>Cuiabá - MT</p>
+        <p>Edifício Coliseu - Praça Osvaldo Cruz, 15</p>
+        <p>Conjunto 2809 - Centro Histórico</p>
+        <p>Porto Alegre - RS, CEP: 90030-160</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        Segunda à Sexta
+        Segunda a Sexta-feira
         <br />
-        8h às 18h
+        9h às 18h
         <br />
+        <span className="italic">(Somente com horário agendado)</span>
       </p>
     ),
     obs: <span className="italic">A Definir</span>,
