@@ -14,6 +14,7 @@ import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
+import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 export default function HowItWorksImage() {
   const [visible, setVisible] = useState(false);
@@ -21,7 +22,7 @@ export default function HowItWorksImage() {
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea className="bg-bgSectionDark">
+    <SectionArea className="bg-bgSectionDark" spaceShapeDiv={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
@@ -88,6 +89,7 @@ export default function HowItWorksImage() {
           </div>
         </div>
       </SectionWrapper>
+      <SectionShapeDiv shapeDivtriangule shapeColor="yellow" className="top-[64px]"/>
 
       {/* Divisão com onda */}
 

@@ -31,7 +31,7 @@ export default function SectionArea({
 
   // constante para renderizar espaço para shapeDiv
   const spaceShape = spaceShapeDiv
-  ? "pt-[130px] phone3:pt-[120px] tablet2:pt-[120px] desktop1:pt-[125px] desktop2:pt-[130px]"
+  ? "pt-[140px] phone3:pt-[120px] desktop1:pt-[130px]"
   : "";
 
   return (

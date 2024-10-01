@@ -21,7 +21,7 @@ const modalCardFeatures = {
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares" spaceShapeDiv={true} paddingbot={false}>
+    <SectionArea id="service" className="squares" spaceShapeDiv={true} paddingbot={true}>
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -89,7 +89,7 @@ export default function FeaturesWithIcons() {
           </div>
         </div>
       </SectionWrapper>
-      <SectionShapeDiv shapeDivTilt={true} />
+      <SectionShapeDiv className="top-[64px]" shapeDivTilt={true} shapeColor="green" />
     </SectionArea>
   );
 }
