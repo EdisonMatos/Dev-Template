@@ -89,7 +89,7 @@ export default function HowItWorksImage() {
           </div>
         </div>
       </SectionWrapper>
-      <SectionShapeDiv shapeDivtriangule shapeColor="yellow" className="top-[64px]"/>
+      <SectionShapeDiv shapeDivtrianguleAsymmetrical shapeColor="yellow" className="top-[64px]"/>
 
       {/* Divisão com onda */}
 
