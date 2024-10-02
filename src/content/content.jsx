@@ -3,7 +3,7 @@ import infos from "./infos";
 
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -19,10 +19,10 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.png";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.png";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.png";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.png";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
+import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.png";
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.png";
@@ -36,10 +36,10 @@ import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/testimonial1.jpg";
-import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.jpg";
-import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.jpg";
-import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.jpg";
+import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
+import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
+import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
+import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
