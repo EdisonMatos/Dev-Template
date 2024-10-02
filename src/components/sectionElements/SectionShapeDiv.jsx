@@ -51,6 +51,11 @@ export default function SectionShapeDiv({
   const paddingBottom = paddingbot ? "pb-[64px] desktop1:pb-[96px]" : "";
   const rotationClass = rotateShape ? "rotate-180" : "";
 
+  // Ao utilizar os shapes, chame ele dentro do SectionArea 
+  // e verifique se há necessidade de remover o padding do 
+  // SectionArea na Sessão, e se precisa adicionar o padding do 
+  // proprio shapeDiv para afstar o conteúdo adequadamente.
+
   return (
     shapeDiv && (
       <div
