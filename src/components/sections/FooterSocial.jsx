@@ -17,7 +17,7 @@ function FooterSocial() {
   return (
     <footer className="bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat">
       <SectionArea paddingtop={false}>
-      <SectionShapeDiv shapeDivArrow shapeColor="text-white"/>
+      <SectionShapeDiv shapeDivArrow shapeColor="text-neutral-100"/>
         <SectionWrapper>
           <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
