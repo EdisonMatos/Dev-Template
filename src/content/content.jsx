@@ -59,15 +59,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "CONSULTÓRIO DE DENTISTAS EM SÃO PAULO - SP",
+      miniTag: "ADVOGADO CÍVEL E CONSUMERISTA EM PORTO ALEGRE - RS",
       title: (
         <h1 className="mb-[16px]">
-          Cuidamos do <span className="text-primary">seu sorriso</span> como se
-          fosse o <span className="text-primary">nosso</span>
+          <span className="text-primary">Gestão de conflitos</span> para
+          proteção legal <span className="text-primary">eficiente</span>
         </h1>
       ),
       subtitle:
-        "12 anos de experiência utilizando o que há de mais moderno na odontologia para dar o melhor tratamento que você merece.",
+        "Oferecemos soluções legais estratégicas para minimizar riscos e maximizar resultados.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -94,16 +94,16 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Tratamentos personalizados para cada necessidade",
+      title: "Resolução estratégica de conflitos empresariais",
       subtitle:
-        "Oferecemos serviços odontológicos completos, com foco em saúde bucal e bem-estar.",
+        "Soluções jurídicas focadas na proteção dos interesses da sua empresa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Odontologia Preventiva",
+        title: "Consultoria jurídica",
         subtitle:
-          "Cuidados regulares para garantir a saúde bucal e evitar problemas futuros.",
+          "Orientação especializada para prevenir litígios e garantir segurança jurídica nas decisões empresariais.",
         description: (
           <div>
             A Definir <br />
@@ -122,12 +122,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hourglass"
+            class="lucide lucide-scale"
           >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -135,9 +136,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Tratamentos Restauradores",
+        title: "Direito do consumidor",
         subtitle:
-          "Reparação e proteção de dentes danificados, proporcionando funcionalidade e estética.",
+          "Defesa eficiente dos interesses empresariais em questões de relações de consumo.",
         description: (
           <div>
             A Definir <br />
@@ -157,10 +158,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-brush"
+            class="lucide lucide-tag"
           >
-            <path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08" />
-            <path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
         buttonLabelModal: "Ortodontia",
@@ -169,9 +170,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Ortodontia",
+        title: "Usucapião extrajudicial de bens móveis",
         subtitle:
-          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
+          "Regularização de posse com agilidade, evitando longos processos judiciais.",
         description: (
           <div>
             A Definir <br />
@@ -190,12 +191,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-laugh"
+            class="lucide lucide-landmark"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z" />
-            <line x1="9" x2="9.01" y1="9" y2="9" />
-            <line x1="15" x2="15.01" y1="9" y2="9" />
+            <line x1="3" x2="21" y1="22" y2="22" />
+            <line x1="6" x2="6" y1="18" y2="11" />
+            <line x1="10" x2="10" y1="18" y2="11" />
+            <line x1="14" x2="14" y1="18" y2="11" />
+            <line x1="18" x2="18" y1="18" y2="11" />
+            <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -203,9 +206,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Odontologia Estética",
+        title: "Planos de saúde",
         subtitle:
-          "Realce a beleza do seu sorriso com clareamento, facetas e outros procedimentos estéticos.",
+          "Resolução de conflitos com operadoras de saúde, assegurando o cumprimento dos direitos contratados.",
         description: (
           <div>
             A Definir <br />
@@ -226,14 +229,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-smile-plus"
+            class="lucide lucide-heart"
           >
-            <path d="M22 11v1a10 10 0 1 1-9-10" />
-            <path d="M8 14s1.5 2 4 2 4-2 4-2" />
-            <line x1="9" x2="9.01" y1="9" y2="9" />
-            <line x1="15" x2="15.01" y1="9" y2="9" />
-            <path d="M16 5h6" />
-            <path d="M19 2v6" />
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -245,41 +243,50 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório de advocacia",
       },
-      miniTag: "Sobre a Dental Premium Care",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É DR. DIEGO ZAMBRANO",
+      title: "Minha trajetória",
       subtitle:
-        "Na Dental Premium Care, nossa missão é transformar sorrisos e melhorar a qualidade de vida de nossos pacientes.",
+        "Mais de 14 anos de experiência em soluções jurídicas estratégicas e personalizadas.",
       paragraph: (
         <div>
-          Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos
-          tratamentos personalizados em um ambiente confortável e acolhedor.
+          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
+          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
+          consultoria e assessoria jurídica.
           <br />
-          Acreditamos que um sorriso saudável vai além da estética,
-          representando bem-estar, confiança e autoestima.
+          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
+          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
+          conflitos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Nossa trajetória</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
           <strong>
-            Na Dental Premium Care, nossa missão é transformar sorrisos e
-            melhorar a qualidade de vida de nossos pacientes.
+            Mais de 14 anos de experiência em soluções jurídicas estratégicas e
+            personalizadas.
           </strong>
           <br />
           <br />
-          Com uma equipe altamente qualificada e tecnologia de ponta, oferecemos
-          tratamentos personalizados em um ambiente confortável e acolhedor.
+          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
+          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
+          consultoria e assessoria jurídica.
           <br />
-          Acreditamos que um sorriso saudável vai além da estética,
-          representando bem-estar, confiança e autoestima. Por isso, trabalhamos
-          com dedicação para proporcionar resultados duradouros e uma
-          experiência positiva em cada visita.
+          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
+          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
+          conflitos.
           <br />
           <br />
-          Seja para um simples check-up ou para procedimentos mais complexos,
-          estamos prontos para cuidar de você com todo o cuidado e atenção que
-          você merece.
+          Minha prioridade sempre foi oferecer um atendimento diferenciado,
+          focado em atingir os objetivos de cada cliente com criatividade,
+          segurança e excelência técnica. Cada caso é tratado de forma
+          personalizada, garantindo que as soluções jurídicas estejam
+          perfeitamente alinhadas às necessidades específicas de quem confia no
+          meu trabalho.
+          <br />
+          <br />
+          Meu compromisso é sempre manter um alto padrão de qualidade e
+          dedicação, proporcionando segurança jurídica em cada passo do caminho.
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
@@ -606,43 +613,44 @@ const content = {
     },
     steps: {
       miniTag: "PASSO A PASSO",
-      title: "Como funciona a sua consulta?",
+      title: "Como funciona nosso processo de atendimento jurídico?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Agendamento da consulta",
+          cardTitle: "Consulta inicial",
           cardDescription:
-            "Entre em contato conosco pelo telefone ou pelo nosso site para agendar sua consulta no horário que melhor lhe convier.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Recepção e preenchimento de documentos",
+          cardTitle: "Análise detalhada",
           cardDescription:
-            "Ao chegar, você será recebido por nossa equipe, que solicitará o preenchimento de alguns documentos e informações sobre seu histórico de saúde bucal.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Avaliação odontológica",
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Um de nossos dentistas realizará uma avaliação detalhada de sua saúde bucal, incluindo exame clínico e, se necessário, radiografias.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Plano de tratamento personalizado",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Após a avaliação, discutiremos as opções de tratamento mais adequadas para suas necessidades e responderemos a todas as suas perguntas antes de prosseguir.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title: "Estamos aqui para cuidar de você!",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "Entre em contato e agende sua consulta. Nossa equipe está pronta para responder suas dúvidas e cuidar do seu sorriso.",
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
@@ -671,27 +679,27 @@ const content = {
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Com que frequência devo ir ao dentista?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "Recomendamos visitas ao dentista a cada seis meses para check-ups e limpezas, mas a frequência pode variar conforme suas necessidades individuais. Consulte seu dentista para um plano personalizado.",
+            "Agende uma consulta conosco via WhatsApp para discutirmos as necessidades da sua empresa e avaliarmos os custos envolvidos.",
         },
         question2: {
-          question: "Os tratamentos dentários são dolorosos?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Nosso objetivo é garantir seu conforto durante os tratamentos. Utilizamos anestesia local e técnicas avançadas para minimizar qualquer desconforto. Converse com sua equipe sobre suas preocupações.",
+            "O prazo médio varia conforme a complexidade do caso, mas forneceremos uma estimativa detalhada durante a consulta inicial.",
         },
         question3: {
-          question: "Aceitam planos de saúde?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Sim, aceitamos diversos planos de saúde. Entre em contato conosco para verificar se o seu plano é aceito e para mais informações sobre cobertura.",
+            "Traga os documentos relevantes ao seu caso, como contratos sociais, documentos fiscais, contratos de prestação de serviços e quaisquer registros pertinentes, além de documentos de identificação dos representantes legais.",
         },
         question4: {
-          question: "Qual é o tempo médio de duração de uma consulta?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Uma consulta típica pode durar entre 30 a 60 minutos, dependendo do tipo de atendimento que você precisa. Durante a avaliação, seu dentista informará sobre o tempo necessário para qualquer procedimento adicional.",
+            "Sim, oferecemos consultoria preventiva para ajudar sua empresa a evitar litígios e garantir conformidade legal, promovendo segurança jurídica em suas operações.",
         },
       },
       paragraph: (

@@ -1,28 +1,29 @@
 const infos = {
-  name: "Dental Care",
+  name: "Dr. Diego Zambrano",
   slogan: "",
-  phone: "(11) 99026-0977",
-  mail: "contato@detalcarep.com.br",
+  phone: "(51) 99411-7248",
+  mail: "A Definir",
   footerInfos: {
     endereco: (
       <div>
-        <p>Av. ACM, nº 1034</p>
-        <p>Pituba Center - Sala 308 Ala A</p>
-        <p>Itaigara - Salvador - BA</p>
+        <p>Edifício Coliseu - Praça Osvaldo Cruz, 15</p>
+        <p>Conjunto 2809 - Centro Histórico</p>
+        <p>Porto Alegre - RS, CEP: 90030-160</p>
       </div>
     ),
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        Segunda-feira à Sexta-feira
+        Segunda a Sexta-feira
         <br />
-        Das 8h às 12h - 14h às 18h
+        9h às 18h
         <br />
+        <span className="italic">(Somente com horário agendado)</span>
       </p>
     ),
     obs: <span className="italic">A Definir</span>,
-    midSectionName: "Até mais! 🦷",
+    midSectionName: "Até mais!",
     year: 2024,
     footerText:
       "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
