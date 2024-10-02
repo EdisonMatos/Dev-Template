@@ -13,7 +13,7 @@ export default function CtaMinimal() {
   return (
     <div>
       <SectionArea className="squares" paddingtop={false}>
-        <SectionShapeDiv shapeDivWaves paddingbot={true} shapeColor="text-bgSectionDark"/>
+        <SectionShapeDiv shapeDivtriangule paddingbot={true} shapeColor="text-bgSectionDark"/>
         <SectionWrapper>
           <SectionHeader
             className="text-center"

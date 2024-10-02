@@ -13,7 +13,7 @@ export default function Faq() {
   return (
     <div className="">
       <SectionArea id="faq" className="bg-neutral-100" paddingtop={false}>
-      <SectionShapeDiv shapeDivWaves paddingbot={true} shapeColor="text-bgSectionDark"/>
+      <SectionShapeDiv shapeDivtriangule paddingbot={true} shapeColor="text-bgSectionDark"/>
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.faq.miniTag}

@@ -14,7 +14,7 @@ import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 import AboutFading from "../sectionElements/AboutFading";
-
+import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -55,8 +55,8 @@ export default function About() {
   };
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingtop={true}>
-  
+    <SectionArea id="about" className="bg-bgSectionDark" paddingtop={false}>
+  <SectionShapeDiv shapeDivArrow shapeColor="text-white"/>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
