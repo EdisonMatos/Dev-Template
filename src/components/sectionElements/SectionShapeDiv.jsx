@@ -186,10 +186,15 @@ export default function SectionShapeDiv({
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1200 120"
               preserveAspectRatio="none"
+              
             >
               <path
                 d="M649.97 0L550.03 0 599.91 54.12 649.97 0z"
-                 className={`fill-current ${shapeColor}`}
+                className={`fill-current ${shapeColor} hidden tablet1:flex`}
+              ></path>
+              <path
+                d="M700 0L400 0 600 80 800 0z"
+                className={`fill-current ${shapeColor} tablet1:hidden`}
               ></path>
             </svg>
           </div>
