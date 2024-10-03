@@ -43,19 +43,27 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "A Definir",
+  name: "Dental Care",
   phone: {
     ddd: "11",
     firstPart: "99026", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "0977", // Apenas os 4 últimos números
   },
-  email: "A Definir", // Email desejado pelo cliente
+  email: "contato@detalcarep.com.br", // Email desejado pelo cliente
   endereco: (
     <div>
-      <p>A Definir</p>
+      <p>Av. ACM, nº 1034</p>
+      <p>Pituba Center - Sala 308 Ala A</p>
+      <p>Itaigara - Salvador - BA</p>
     </div>
   ),
-  expediente: <p>A Definir</p>,
+  expediente: (
+    <div>
+      <p>Horário de expediente:</p>
+      <p>Segunda-feira à Sexta-feira</p>
+      <p>Das 8h às 12h - 14h às 18h</p>
+    </div>
+  ),
   obs: <span className="italic">A Definir</span>,
   domain: "A Definir", // Sem "www"
   instagramProfile: "A Definir", // Sem o @
@@ -747,10 +755,11 @@ const content = {
       ),
     },
     footer: {
-      copyrightLine: `© ${currentYear} ${infos.name}. Todos os direitos reservados.`,
+      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "A Definir",
-      footerText: "A Definir",
+      midSectionName: "Até mais! 🦷",
+      footerText:
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
       footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
     },
