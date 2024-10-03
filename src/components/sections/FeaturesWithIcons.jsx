@@ -15,6 +15,8 @@ import ServicesModal from "./ServicesModal";
 // import Icon4 from "../../assets/imgs/icons/icon4.png";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
+// Para manter o modal visível, mantenha o valor de modalFeatures como true,
+// caso queira ocultar, troque true por false
 const modalCardFeatures = {
   modalFeatures: true,
 };
