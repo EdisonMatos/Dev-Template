@@ -81,7 +81,7 @@ const content = {
       email: infos.email,
       adress: infos.endereco,
       officeHours: infos.expediente,
-      year: 2024,
+      year: currentYear,
       footerText: "A Definir.",
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,

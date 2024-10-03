@@ -11,10 +11,14 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
+// Para manter o endereço visível, basta manter o valor de addres como true,
+// caso queira ocultar sua visualozação basta colocar false no lugar do true
 const addresInfo = {
   addres: true,
 };
 
+// Para manter a mensagem de observação visível, basta manter o valor de obs como true,
+// caso queira ocultar sua visualozação basta colocar false no lugar do true
 const observationInfo = {
   obs: false,
 };
@@ -156,7 +160,7 @@ function FooterSocial() {
                       </svg>
                     </div>
 
-                    <p>{content.texts.infos.footereobsFooterxpediente}</p>
+                    <p>{content.texts.infos.obsFooter}</p>
                   </div>
                 </MotionDivDownToUp>
               )}
