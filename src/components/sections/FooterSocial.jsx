@@ -7,6 +7,9 @@ import content from "../../content/content";
 import IconButton from "../interactives/IconButton";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
+import SectionArea from "../sectionElements/SectionArea.jsx";
+import SectionWrapper from "../sectionElements/SectionWrapper.jsx";
+import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -85,6 +88,7 @@ function FooterSocial() {
               <div className="flex full gap-x-[12px] items-center opacity-90">
                 <div>
                   <svg
+
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -105,32 +109,33 @@ function FooterSocial() {
             </MotionDivDownToUp>
           )}
 
-          {/* EXPEDIENTE */}
-          <MotionDivDownToUp>
-            <div className="flex full gap-x-[12px] items-center opacity-90">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-calendar-check-2"
-                >
-                  <path d="M8 2v4" />
-                  <path d="M16 2v4" />
-                  <path d="M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" />
-                  <path d="M3 10h18" />
-                  <path d="m16 20 2 2 4-4" />
-                </svg>
-              </div>
-              <p>{infos.footerInfos.expediente}</p>
-            </div>
-          </MotionDivDownToUp>
+
+              {/* EXPEDIENTE */}
+              <MotionDivDownToUp>
+                <div className="flex full gap-x-[12px] items-center opacity-90">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-calendar-check-2"
+                    >
+                      <path d="M8 2v4" />
+                      <path d="M16 2v4" />
+                      <path d="M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" />
+                      <path d="M3 10h18" />
+                      <path d="m16 20 2 2 4-4" />
+                    </svg>
+                  </div>
+                  <p>{infos.footerInfos.expediente}</p>
+                </div>
+              </MotionDivDownToUp>
 
           {/* Msg de observação */}
           {observationInfo.obs && (
@@ -172,6 +177,7 @@ function FooterSocial() {
           </MotionDivDownToUp>
           {/* Botões de download */}
           {/* <p className="opacity-90">Baixe nosso app:</p>
+
           <div className="invert">
             {" "}
             <div className="flex flex-col items-start gap-[10px]">
@@ -200,13 +206,13 @@ function FooterSocial() {
             </div>
           </div> */}
 
-          {/* Ícones redes sociais */}
-          <MotionDivDownToUp>
-            {/* <p className="opacity-90">{infos.footerInfos.footerSocialText}</p> */}
-            <div className="mt-2 opacity-90">
-              {" "}
-              <div className="flex gap-[10px] items-center">
-                {/* <a
+              {/* Ícones redes sociais */}
+              <MotionDivDownToUp>
+                {/* <p className="opacity-90">{infos.footerInfos.footerSocialText}</p> */}
+                <div className="mt-2 opacity-90">
+                  {" "}
+                  <div className="flex gap-[10px] items-center">
+                    {/* <a
                   href={links.socialMedia.instagram}
                   target="_blank"
                   aria-label="Link para o Instagram"
@@ -240,7 +246,7 @@ function FooterSocial() {
                     }
                   />
                 </a> */}
-                {/* <a
+                    {/* <a
                 href={links.socialMedia.facebook}
                 target="_blank"
                 aria-label="Link para o Facebook"
@@ -265,7 +271,7 @@ function FooterSocial() {
                   }
                 />
               </a> */}
-                {/* <a href={links.socialMedia.linkedin} target="_blank">
+                    {/* <a href={links.socialMedia.linkedin} target="_blank">
                   <IconButton
                     icon={
                       <svg
@@ -287,104 +293,106 @@ function FooterSocial() {
                     }
                   />
                 </a> */}
-              </div>
+                  </div>
+                </div>
+              </MotionDivDownToUp>
             </div>
-          </MotionDivDownToUp>
-        </div>
-        <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-          <MotionDivDownToUp>
-            <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
-              {infos.footerInfos.footerNavegacaoText}
-            </h1>
-          </MotionDivDownToUp>
-          <MotionDivDownToUp>
-            <div className="flex justify-between full opacity-90">
-              <div className="w-[46%] flex flex-col gap-y-[16px]">
-                <div className="h-[36px] hover:underline">
-                  <Link
-                    to="home"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-100}
-                    href="#"
-                  >
-                    <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
-                      {content.texts.navbar.menuItems[0]}
-                    </span>
-                  </Link>
+            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+              <MotionDivDownToUp>
+                <h1 className="font-medium font-mainFont text-title2 desktop1:text-title5 desktop1:h-[115px] flex items-center">
+                  {infos.footerInfos.footerNavegacaoText}
+                </h1>
+              </MotionDivDownToUp>
+              <MotionDivDownToUp>
+                <div className="flex justify-between full opacity-90">
+                  <div className="w-[46%] flex flex-col gap-y-[16px]">
+                    <div className="h-[36px] hover:underline">
+                      <Link
+                        to="home"
+                        className="cursor-pointer"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        offset={-100}
+                        href="#"
+                      >
+                        <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
+                          {content.texts.navbar.menuItems[0]}
+                        </span>
+                      </Link>
+                    </div>
+                    <div className="h-[36px] hover:underline">
+                      <Link
+                        to="about"
+                        className="cursor-pointer"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        offset={-50}
+                        href="#"
+                      >
+                        <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
+                          {content.texts.navbar.menuItems[2]}
+                        </span>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className=" w-[46%] flex flex-col gap-y-[16px]">
+                    <div className="h-[36px] hover:underline">
+                      <Link
+                        to="service"
+                        className="cursor-pointer"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        offset={-20}
+                        href="#"
+                      >
+                        <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
+                          {content.texts.navbar.menuItems[1]}
+                        </span>
+                      </Link>
+                    </div>
+                    <div className="h-[36px] hover:underline">
+                      <Link
+                        to="faq"
+                        className="cursor-pointer"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        offset={-50}
+                        href="#"
+                      >
+                        <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
+                          {content.texts.navbar.menuItems[3]}
+                        </span>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-                <div className="h-[36px] hover:underline">
-                  <Link
-                    to="about"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-50}
-                    href="#"
-                  >
-                    <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
-                      {content.texts.navbar.menuItems[2]}
-                    </span>
-                  </Link>
-                </div>
-              </div>
-              <div className=" w-[46%] flex flex-col gap-y-[16px]">
-                <div className="h-[36px] hover:underline">
-                  <Link
-                    to="service"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-20}
-                    href="#"
-                  >
-                    <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
-                      {content.texts.navbar.menuItems[1]}
-                    </span>
-                  </Link>
-                </div>
-                <div className="h-[36px] hover:underline">
-                  <Link
-                    to="faq"
-                    className="cursor-pointer"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-50}
-                    href="#"
-                  >
-                    <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
-                      {content.texts.navbar.menuItems[3]}
-                    </span>
-                  </Link>
-                </div>
-              </div>
+              </MotionDivDownToUp>
             </div>
-          </MotionDivDownToUp>
-        </div>
-      </div>
+          </div>
 
-      <div className="hidden w-[88%] max-w-[1110px] h-px bg-secondary"></div>
+          <div className="hidden w-[88%] max-w-[1110px] h-px bg-secondary"></div>
 
-      <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
-        <p className="w-full opacity-75">
-          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
-        </p>
-        <p>
-          <a
-            className="transition hover:underline"
-            target="_blank"
-            href="https://www.paperstreet.com.br"
-          >
-            {" "}
-            {infos.footerInfos.footerDivulgacaoText}
-          </a>
-        </p>
-      </div>
+          <div className="text-center w-[88%] max-w-[1110px] flex flex-col mt-[60px] mb-[48px] phone2:mb-[80px] tablet1:mb-0">
+            <p className="w-full opacity-75">
+              {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
+            </p>
+            <p>
+              <a
+                className="transition hover:underline"
+                target="_blank"
+                href="https://www.paperstreet.com.br"
+              >
+                {" "}
+                {infos.footerInfos.footerDivulgacaoText}
+              </a>
+            </p>
+          </div>
+        </SectionWrapper>
+      </SectionArea>
     </footer>
   );
 }
