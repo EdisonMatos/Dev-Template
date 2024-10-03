@@ -10,12 +10,14 @@ import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
-// Renderiza ou não o endereço no footer 
+// Para que o endereço de localização esteja visível, mantenha address com o valor true, 
+// caso não queira que o endereço esteja visível, basta colocar false no lugar de true
 const addresInfo = {
   address: true,
 };
 
-// Renderiza ou não a frase de observação no footer 
+// Para que a mensagem de observação esteja visível, mantenha obs com o valor true, 
+// caso não queira que a mensagem esteja visível, basta colocar false no lugar de true
 const observationInfo = {
   obs: false,
 }
