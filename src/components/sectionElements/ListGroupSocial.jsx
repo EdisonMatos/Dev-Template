@@ -1,11 +1,10 @@
 import { Link } from "react-scroll";
-import links from "../../content/links";
 import content from "../../content/content";
 import { useState, useEffect } from "react";
 import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function ListGroupSocial() {
   const [scrolling, setScrolling] = useState(false);
@@ -173,7 +172,7 @@ export default function ListGroupSocial() {
           {/* Início Botões das redes sociais na navbar */}
 
           {/* <a
-          href={links.socialMedia.instagram}
+          href{content.texts.infos.instagramProfile}
           target="_blank"
           className={scrolling ? "" : "invert"}
         >
@@ -199,7 +198,7 @@ export default function ListGroupSocial() {
           />
         </a>
         <a
-          href={links.socialMedia.facebook}
+          href={content.texts.infos.facebookProfile}
           target="_blank"
           className={scrolling ? "" : "invert"}
         >
@@ -223,7 +222,7 @@ export default function ListGroupSocial() {
           />
         </a>
         <a
-          href={links.socialMedia.linkedin}
+          href={content.texts.infos.linkedInProfile}
           target="_blank"
           className={scrolling ? "" : "invert"}
         >

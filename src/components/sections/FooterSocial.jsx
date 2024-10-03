@@ -266,7 +266,7 @@ function FooterSocial() {
                   }
                 />
               </a>
-                    <a href={content.texts.infos.linkeDinProfile} target="_blank">
+                    <a href={content.texts.infos.linkedInProfile} target="_blank">
                   <IconButton
                     icon={
                       <svg

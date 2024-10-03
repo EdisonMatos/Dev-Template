@@ -6,10 +6,9 @@ import { Link as ScrollLink } from "react-scroll";
 import SidebarSocial from "../sectionElements/SidebarSocial";
 import { px } from "framer-motion";
 import content from "../../content/content";
-import links from "../../content/links";
 import Button from "../interactives/Button";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function NavbarSocial() {
   const [scrolling, setScrolling] = useState(false);

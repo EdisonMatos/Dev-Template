@@ -85,7 +85,7 @@ export default function About() {
               <Button
                 label="Me siga no Instagram"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.instagram}
+                buttonLink={content.texts.infos.instagramProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -112,7 +112,7 @@ export default function About() {
               <Button
                 label="Me siga no Facebook"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.facebook}
+                buttonLink={content.texts.infos.facebookProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -137,7 +137,7 @@ export default function About() {
               <Button
                 label="Me siga no Linkedin"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.linkedin}
+                buttonLink={content.texts.infos.linkedInProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={

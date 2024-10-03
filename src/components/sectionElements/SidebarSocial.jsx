@@ -12,7 +12,6 @@ import {
 } from "lucide-react";
 import { Link } from "react-scroll";
 import content from "../../content/content";
-import links from "../../content/links";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
 
 export default function SidebarSocial() {
@@ -191,7 +190,7 @@ export default function SidebarSocial() {
                     <div className=" flex flex-col gap-[16px] w-full px-[2px]">
                       <ButtonWithIconNavbar
                         className="w-full"
-                        link={links.socialMedia.instagram}
+                        link={content.texts.infos.instagramProfile}
                         label="Siga a gente no Instagram"
                         icon={
                           <svg
@@ -222,7 +221,7 @@ export default function SidebarSocial() {
 
                       <ButtonWithIconNavbar
                         className="w-full"
-                        link={links.socialMedia.facebook}
+                        link={content.texts.infos.facebookProfile}
                         label="Siga a gente no Facebook"
                         icon={
                           <svg
@@ -244,7 +243,7 @@ export default function SidebarSocial() {
 
                       <ButtonWithIconNavbar
                         className="w-full"
-                        link={links.socialMedia.linkedin}
+                        link={content.texts.infos.linkedInProfile}
                         label="Siga a gente no Linkedin"
                         icon={
                           <svg
