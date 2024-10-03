@@ -59,6 +59,8 @@ const infos = {
   obs: <span className="italic">A Definir</span>,
   domain: "A Definir", // Sem "www"
   instagramProfile: "A Definir", // Sem o @
+  facebookProfile: "A Definir",
+  linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   slogan: "",
@@ -68,11 +70,12 @@ const content = {
   texts: {
     infos: {
       phone: `(${infos.phone.ddd})${infos.phone.firstPart}-${infos.phone.secondPart}`,
-      email: `${infos.email}`,
+      email: infos.email,
       adress: infos.endereco,
       officeHours: infos.expediente,
       year: 2024,
       footerText: "A Definir.",
+      footerexpediente: infos.expediente,
       obsFooter: infos.obs,
       footerSocialText: "A Definir.",
       footerNavegacaoText: "NAVEGAÇÃO",

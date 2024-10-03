@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import whatsappWebm from "../../assets/importAssets/whatsappGif.webp";
 import Modal from "../util/Modal";
 import { Target } from "lucide-react";
+import content from "../../content/content";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
