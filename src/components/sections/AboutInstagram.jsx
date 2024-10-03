@@ -14,13 +14,14 @@ import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 
+
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingtop={false}>
+    <SectionArea id="about" className="bg-bgSectionDark" paddingtop={false} > 
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           {/* <img

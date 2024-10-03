@@ -3,13 +3,16 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
+import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
+
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function CtaMinimal() {
   return (
     <div>
-      <SectionArea className="squares">
+      <SectionArea className="squares" paddingtop={false}>
+        <SectionShapeDiv shapeDivtriangule paddingbot={true} shapeColor="text-bgSectionDark"/>
         <SectionWrapper>
           <SectionHeader
             className="text-center"

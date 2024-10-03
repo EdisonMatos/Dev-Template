@@ -5,11 +5,14 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
 import content from "../../content/content";
+import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
+
 
 export default function Faq() {
   return (
-    <div className="relative">
-      <SectionArea id="faq" className="bg-neutral-100">
+    <div className="">
+      <SectionArea id="faq" className="bg-neutral-100" paddingtop={false}>
+      <SectionShapeDiv shapeDivtriangule paddingbot={true} shapeColor="text-bgSectionDark"/>
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.faq.miniTag}
