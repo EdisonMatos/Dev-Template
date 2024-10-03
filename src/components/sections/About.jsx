@@ -10,12 +10,11 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import content from "../../content/content";
 import Button from "../interactives/Button";
-import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 import AboutFading from "../sectionElements/AboutFading";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function About() {
   const [visible, setVisible] = useState(false);

@@ -45,9 +45,9 @@ const currentYear = new Date().getFullYear();
 const infos = {
   name: "A Definir",
   phone: {
-    ddd: "00",
-    firstPart: "90000", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0000", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "99026", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0977", // Apenas os 4 últimos números
   },
   email: "A Definir", // Email desejado pelo cliente
   endereco: (

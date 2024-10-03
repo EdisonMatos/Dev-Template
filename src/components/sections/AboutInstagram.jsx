@@ -141,7 +141,7 @@ export default function AboutInstagram() {
           <MotionDivDownToUp>
             <Button
               label="Siga-me no Instagram"
-              buttonLink={links.socialMedia.instagram}
+              buttonLink={content.texts.links.instagram}
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

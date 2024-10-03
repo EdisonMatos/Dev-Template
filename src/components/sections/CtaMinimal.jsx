@@ -2,10 +2,9 @@ import Button from "../interactives/Button";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import links from "../../content/links";
 import content from "../../content/content";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function CtaMinimal() {
   return (
