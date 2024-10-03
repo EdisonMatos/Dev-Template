@@ -9,7 +9,6 @@ import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import content from "../../content/content";
-import links from "../../content/links";
 import Button from "../interactives/Button";
 
 export default function AboutMockUpSocial() {
@@ -19,7 +18,7 @@ export default function AboutMockUpSocial() {
     setVisible(true);
   };
 
-  const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+  const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
   return (
     <SectionArea className="bg-quinary">
@@ -40,7 +39,7 @@ export default function AboutMockUpSocial() {
               <div className="w-full">
                 <Button
                   label="Me siga no Instagram"
-                  buttonLink={links.socialMedia.instagram}
+                  buttonLink={content.texts.links.instagram}
                   className="w-full"
                   icon={
                     <svg
@@ -68,7 +67,7 @@ export default function AboutMockUpSocial() {
                 <Button
                   className="w-full"
                   label="Me siga no Facebook"
-                  buttonLink={links.socialMedia.facebook}
+                  buttonLink={content.texts.links.facebook}
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

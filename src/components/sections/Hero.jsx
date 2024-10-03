@@ -1,4 +1,3 @@
-import links from "../../content/links";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
@@ -13,7 +12,7 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink =  `${content.texts.links.ctaWhatsapp}`;
 
 export default function Hero() {
   return (

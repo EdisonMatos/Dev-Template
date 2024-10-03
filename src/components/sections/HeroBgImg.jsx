@@ -1,5 +1,4 @@
 import { useState } from "react";
-import links from "../../content/links";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import content from "../../content/content";
@@ -13,7 +12,7 @@ import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function HeroBgImg() {
   const [visible, setVisible] = useState(false);

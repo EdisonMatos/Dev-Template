@@ -11,6 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
+      {/* <Route path="/lpx1" element={<LandingPage />} /> */}
     </Routes>
   </Router>
 );

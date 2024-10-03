@@ -1,6 +1,3 @@
-import links from "./links";
-import infos from "./infos";
-
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
@@ -41,10 +38,57 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+// const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+
+const currentYear = new Date().getFullYear();
+
+const infos = {
+  name: "Dental Care",
+  phone: {
+    ddd: "11",
+    firstPart: "99026", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0977", // Apenas os 4 últimos números
+  },
+  email: "contato@detalcarep.com.br", // Email desejado pelo cliente
+  endereco: (
+    <div>
+      <p>Av. ACM, nº 1034</p>
+      <p>Pituba Center - Sala 308 Ala A</p>
+      <p>Itaigara - Salvador - BA</p>
+    </div>
+  ),
+  expediente: (
+    <div>
+      <p>Horário de expediente:</p>
+      <p>Segunda-feira à Sexta-feira</p>
+      <p>Das 8h às 12h - 14h às 18h</p>
+    </div>
+  ),
+  obs: <span className="italic">A Definir</span>,
+  domain: "A Definir", // Sem "www"
+  instagramProfile: "A Definir", // Sem o @
+  facebookProfile: "A Definir",
+  linkeDinProfile: "A Definir",
+  whatsappDefaultMessage:
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+  slogan: "",
+};
 
 const content = {
   texts: {
+    infos: {
+      phone: `(${infos.phone.ddd})${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      email: infos.email,
+      adress: infos.endereco,
+      officeHours: infos.expediente,
+      year: 2024,
+      footerText: "A Definir.",
+      footerexpediente: infos.expediente,
+      obsFooter: infos.obs,
+      footerSocialText: "A Definir.",
+      footerNavegacaoText: "NAVEGAÇÃO",
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+    },
     navbar: {
       logo: {
         img: logo,
@@ -704,15 +748,25 @@ const content = {
       },
       paragraph: (
         <p>
-          <a href={whatsappContactLink} target="_blank">
+          {/* <a href={whatsappContactLink} target="_blank">
             Clique aqui caso tenha mais dúvidas
-          </a>
+          </a> */}
         </p>
       ),
     },
-    carouselv1: {
-      title: "A Definir",
-      subtitle: "A Definir",
+    footer: {
+      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "Até mais! 🦷",
+      footerText:
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      footerSocialText: "Siga a gente nas redes sociais:",
+      footerNavegacaoText: "NAVEGAÇÃO",
+    },
+
+    links: {
+      instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
   },
 };

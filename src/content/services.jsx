@@ -70,10 +70,10 @@ import morePedServicesImg1 from "../assets/imgs/services/morePedServicesImg1.jpg
 import morePedServicesImg2 from "../assets/imgs/services/morePedServicesImg2.jpg";
 import morePedServicesImg3 from "../assets/imgs/services/morePedServicesImg3.jpg";
 import morePedServicesImg4 from "../assets/imgs/services/morePedServicesImg4.jpg";
+import content from "./content";
 
-import links from "./links";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink =  `${content.texts.links.ctaWhatsapp}`;
 
 const services = {
   main: {

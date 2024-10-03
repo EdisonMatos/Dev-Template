@@ -10,7 +10,6 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import content from "../../content/content";
 import Button from "../interactives/Button";
-import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 
@@ -58,7 +57,7 @@ export default function AboutInstagram() {
               <Button
                 label="Me siga no Instagram"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.instagram}
+                buttonLink={content.texts.infos.instagramProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -85,7 +84,7 @@ export default function AboutInstagram() {
               <Button
                 label="Me siga no Facebook"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.facebook}
+                buttonLink={content.texts.infos.facebookProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -110,7 +109,7 @@ export default function AboutInstagram() {
               <Button
                 label="Me siga no Linkedin"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.linkedin}
+                buttonLink={content.texts.infos.linkedInProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -142,7 +141,7 @@ export default function AboutInstagram() {
           <MotionDivDownToUp>
             <Button
               label="Siga-me no Instagram"
-              buttonLink={links.socialMedia.instagram}
+              buttonLink={content.texts.links.instagram}
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

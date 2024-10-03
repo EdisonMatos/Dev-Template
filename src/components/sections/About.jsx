@@ -10,13 +10,12 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import content from "../../content/content";
 import Button from "../interactives/Button";
-import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 import AboutFading from "../sectionElements/AboutFading";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function About() {
   const [visible, setVisible] = useState(false);
@@ -129,7 +128,7 @@ export default function About() {
               <Button
                 label="Me siga no Instagram"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.instagram}
+                buttonLink={content.texts.infos.instagramProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -156,7 +155,7 @@ export default function About() {
               <Button
                 label="Me siga no Facebook"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.facebook}
+                buttonLink{content.texts.infos.facebookProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={
@@ -181,7 +180,7 @@ export default function About() {
               <Button
                 label="Me siga no Linkedin"
                 className="w-[75%]"
-                buttonLink={links.socialMedia.linkedin}
+                buttonLink={content.texts.infos.linkedInProfile}
                 textclassName="text-paragraph3"
                 size="small"
                 icon={

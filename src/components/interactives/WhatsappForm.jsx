@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import WhatsAppIcon from "../../assets/importAssets/WhatsAppIcon.webp";
 import { CiUser, CiPhone, CiMail, CiChat1 } from "react-icons/ci";
-import links from "../../content/links";
 
 const WhatsappForm = () => {
   const [name, setName] = useState("");
@@ -44,7 +43,8 @@ const WhatsappForm = () => {
       setErrors(validationErrors);
       return;
     }
-    const numeroWhatsapp = links.ctaWhatsapp;
+    const numeroWhatsapp = `${content.texts.links.ctaWhatsapp}`;
+
 
     const mensagemWhatsapp = `Nome: ${name} \nTelefone: ${phone} \nEmail: ${email} \nMensagem: ${message}`;
 

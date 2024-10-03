@@ -2,11 +2,10 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import links from "../../content/links";
 import content from "../../content/content";
 import TeamMember from "../cards/TeamMember";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Team() {
   return (

@@ -1,5 +1,5 @@
-import links from "./reseted-links";
-import infos from "./reseted-infos";
+
+
 
 import logo from "../assets/imgs/logo/logo.png";
 import solidLogo from "../assets/imgs/logo/solidLogo.png";
@@ -41,7 +41,7 @@ import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.jpg";
 import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.jpg";
 import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.jpg";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink =  `${content.texts.links.ctaWhatsapp}`;
 
 const content = {
   texts: {
