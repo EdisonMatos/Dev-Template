@@ -160,7 +160,7 @@ function FooterSocial() {
                       </svg>
                     </div>
 
-                    <p>{content.texts.infos.footereobsFooterxpediente}</p>
+                    <p>{content.texts.infos.obsFooter}</p>
                   </div>
                 </MotionDivDownToUp>
               )}
