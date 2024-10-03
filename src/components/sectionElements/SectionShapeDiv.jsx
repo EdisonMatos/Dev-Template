@@ -139,12 +139,13 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivtriangule && (
-          <div className={`${shapes.shape1}`}>
+          <div className={`${shapes.shape1} ShapeDivtriangule`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1200 120"
               preserveAspectRatio="none"
+               
               
             >
               <path
@@ -188,7 +189,7 @@ export default function SectionShapeDiv({
         )}
 
         {shapeDivArrow && (
-          <div className={`${shapes.shape1}`}>
+          <div className={`${shapes.shape1} ShapeDivArrow`}>
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"

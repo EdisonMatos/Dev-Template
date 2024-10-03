@@ -74,15 +74,22 @@
   height: 100px;
 }
 
-@media (min-width: 640px) and (max-width: 1023px) {
-  .custom-shape-divider-top-1727467397 svg{
-    height: 50px;
-  }
-}
+
 
 .shape1 {
     background: transparent;
 }
 
+.ShapeDivtriangule svg {
+  height: 100px; 
+}
 
+@media (min-width: 640px) and (max-width: 1023px) {
+  .ShapeDivtriangule svg{
+    height: 50px;
+  }
+}
 
+.ShapeDivArrow svg {
+  height: 70px; 
+}
