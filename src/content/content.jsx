@@ -38,34 +38,32 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-// const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
-
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "Dental Care",
+  name: "Dr. Saulo Costa",
+  email: "contato", // Email desejado pelo cliente
+  domain: "costaeadvs.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "99026", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0977", // Apenas os 4 últimos números
+    ddd: "85",
+    firstPart: "99958", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2725", // Apenas os 4 últimos números
   },
-  email: "contato@detalcarep.com.br", // Email desejado pelo cliente
   endereco: (
     <div>
-      <p>Av. ACM, nº 1034</p>
-      <p>Pituba Center - Sala 308 Ala A</p>
-      <p>Itaigara - Salvador - BA</p>
+      <p>Rua Maria Alice Ferraz, 125</p>
+      <p> Eng. Luciano Cavalcante, Fortaleza - CE</p>
+      <p>CEP: 60811-295</p>
     </div>
   ),
   expediente: (
     <div>
-      <p>Horário de expediente:</p>
-      <p>Segunda-feira à Sexta-feira</p>
-      <p>Das 8h às 12h - 14h às 18h</p>
+      <p>Horário de Expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  domain: "A Definir", // Sem "www"
   instagramProfile: "A Definir", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
@@ -78,14 +76,12 @@ const content = {
   texts: {
     infos: {
       phone: `(${infos.phone.ddd})${infos.phone.firstPart}-${infos.phone.secondPart}`,
-      email: infos.email,
+      email: `${infos.email}@${infos.domain}`,
       adress: infos.endereco,
       officeHours: infos.expediente,
       year: currentYear,
-      footerText: "A Definir.",
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerSocialText: "A Definir.",
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
@@ -103,15 +99,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL E CONSUMERISTA EM PORTO ALEGRE - RS",
+      miniTag: "ADVOGADO CÍVEL E EMPRESARIAL EM FORTALEZA - CE",
       title: (
         <h1 className="mb-[16px]">
-          <span className="text-primary">Gestão de conflitos</span> para
-          proteção legal <span className="text-primary">eficiente</span>
+          Defesa <span className="text-primary">especializada</span> a todo
+          momento
         </h1>
       ),
-      subtitle:
-        "Oferecemos soluções legais estratégicas para minimizar riscos e maximizar resultados.",
+      subtitle: "Mais de uma década lutando por justiça e direitos",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -138,16 +133,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Resolução estratégica de conflitos empresariais",
-      subtitle:
-        "Soluções jurídicas focadas na proteção dos interesses da sua empresa.",
+      title: "Áreas de Atuação",
+      subtitle: "Soluções personalizadas em diversas áreas do direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Consultoria jurídica",
+        title: "Tributário",
         subtitle:
-          "Orientação especializada para prevenir litígios e garantir segurança jurídica nas decisões empresariais.",
+          "Assessoria especializada em questões tributárias, oferecendo soluções estratégicas para a redução de passivos e prevenção de litígios fiscais.",
         description: (
           <div>
             A Definir <br />
@@ -166,13 +160,18 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-calculator"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <rect width="16" height="20" x="4" y="2" rx="2" />
+            <line x1="8" x2="16" y1="6" y2="6" />
+            <line x1="16" x2="16" y1="14" y2="18" />
+            <path d="M16 10h.01" />
+            <path d="M12 10h.01" />
+            <path d="M8 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M8 14h.01" />
+            <path d="M12 18h.01" />
+            <path d="M8 18h.01" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -180,9 +179,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do consumidor",
+        title: "Empresarial",
         subtitle:
-          "Defesa eficiente dos interesses empresariais em questões de relações de consumo.",
+          "Consultoria e assessoria jurídica voltada ao direito empresarial, abrangendo desde a constituição de empresas até a solução de conflitos societários.",
         description: (
           <div>
             A Definir <br />
@@ -202,10 +201,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-tag"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Ortodontia",
@@ -214,9 +215,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Usucapião extrajudicial de bens móveis",
+        title: "Trabalhista",
         subtitle:
-          "Regularização de posse com agilidade, evitando longos processos judiciais.",
+          "Defesa e orientação em questões trabalhistas, representando tanto empregadores quanto empregados em processos judiciais e administrativos.",
         description: (
           <div>
             A Definir <br />
@@ -235,14 +236,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-landmark"
+            class="lucide lucide-hard-hat"
           >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
+            <path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z" />
+            <path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5" />
+            <path d="M4 15v-3a6 6 0 0 1 6-6" />
+            <path d="M14 6a6 6 0 0 1 6 6v3" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -250,9 +249,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Planos de saúde",
+        title: "Cível",
         subtitle:
-          "Resolução de conflitos com operadoras de saúde, assegurando o cumprimento dos direitos contratados.",
+          "Atuação abrangente nas áreas de Direito de Família, incluindo divórcios, guarda e partilha de bens. Além de ações de busca e apreensão, execuções judiciais e processos de despejo.",
         description: (
           <div>
             A Definir <br />
@@ -273,9 +272,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart"
+            class="lucide lucide-circle-user-round"
           >
-            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            <path d="M18 20a6 6 0 0 0-12 0" />
+            <circle cx="12" cy="10" r="4" />
+            <circle cx="12" cy="12" r="10" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -285,52 +286,50 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Imagem ilustrativa de escritório de advocacia",
+        alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. DIEGO ZAMBRANO",
+      miniTag: "QUEM É DR. SAULO COSTA",
       title: "Minha trajetória",
-      subtitle:
-        "Mais de 14 anos de experiência em soluções jurídicas estratégicas e personalizadas.",
+      subtitle: "12 anos de dedicação e compromisso com a justiça.",
       paragraph: (
         <div>
-          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
-          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
-          consultoria e assessoria jurídica.
+          Dr. Saulo Costa tem se destacado por sua abordagem ética e
+          profissional, sempre comprometido em garantir os melhores resultados
+          para seus clientes.
           <br />
-          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
-          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
-          conflitos.
+          Ao longo de sua trajetória, ele construiu uma carreira sólida,
+          atendendo a diversos perfis de clientes e atuando em diferentes áreas
+          do direito, o que lhe conferiu uma visão ampla e estratégica na
+          resolução de casos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>
-            Mais de 14 anos de experiência em soluções jurídicas estratégicas e
-            personalizadas.
-          </strong>
+          <strong>12 anos de dedicação e compromisso com a justiça.</strong>
           <br />
           <br />
-          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
-          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
-          consultoria e assessoria jurídica.
+          Dr. Saulo Costa tem se destacado por sua abordagem ética e
+          profissional, sempre comprometido em garantir os melhores resultados
+          para seus clientes.
           <br />
-          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
-          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
-          conflitos.
-          <br />
-          <br />
-          Minha prioridade sempre foi oferecer um atendimento diferenciado,
-          focado em atingir os objetivos de cada cliente com criatividade,
-          segurança e excelência técnica. Cada caso é tratado de forma
-          personalizada, garantindo que as soluções jurídicas estejam
-          perfeitamente alinhadas às necessidades específicas de quem confia no
-          meu trabalho.
+          Ao longo de sua trajetória, ele construiu uma carreira sólida,
+          atendendo a diversos perfis de clientes e atuando em diferentes áreas
+          do direito, o que lhe conferiu uma visão ampla e estratégica na
+          resolução de casos. Sua prática é pautada pelo respeito ao cliente e
+          pela busca incansável pela justiça.
           <br />
           <br />
-          Meu compromisso é sempre manter um alto padrão de qualidade e
-          dedicação, proporcionando segurança jurídica em cada passo do caminho.
+          Dr. Saulo acredita que cada caso é único e merece atenção
+          personalizada. Com uma abordagem humanizada, ele entende que, além das
+          questões jurídicas, muitas vezes estão em jogo aspectos emocionais e
+          pessoais importantes.
+          <br />
+          <br />
+          Por isso, sua atuação vai além da técnica, oferecendo um suporte
+          completo e focado nas necessidades individuais de cada cliente, sempre
+          visando a melhor solução com transparência e dedicação.
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
@@ -345,18 +344,112 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "Estamos nas redes",
-        title: "Fique por dentro!",
-        subtitle: "🦷 Quer cuidar melhor do seu sorriso? ",
-        paragraph: (
-          <p>
-            Acompanhe nossas postagens para ficar por dentro das últimas
-            novidades e dicas sobre saúde bucal. Siga a Odonto Premium Care no
-            Instagram!
-            {/* <br />
-            <br />A Definir */}
-          </p>
-        ),
+        miniTag: "A Definir",
+        title: "A Definir",
+        subtitle: "A Definir",
+        paragraph: <p>A Definir</p>,
+      },
+    },
+    cta: {
+      backgroundImg: ctaWhatsappImgBg,
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
+    },
+    steps: {
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso processo de atendimento jurídico?",
+      subtitle: "",
+      img: imgSteps,
+      alt: "",
+      cards: {
+        card1: {
+          stepNumber: 1,
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+        },
+        card2: {
+          stepNumber: 2,
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+        },
+        card3: {
+          stepNumber: 3,
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+        },
+        card4: {
+          stepNumber: 4,
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+        },
+      },
+    },
+    faq: {
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      questions: {
+        question1: {
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+        },
+        question2: {
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+        },
+        question3: {
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+        },
+        question4: {
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+        },
+      },
+      paragraph: "Clique aqui caso tenha mais dúvidas",
+    },
+    footer: {
+      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "Até mais",
+      footerText:
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      footerSocialText: "Siga a gente nas redes sociais:",
+      footerNavegacaoText: "NAVEGAÇÃO",
+    },
+    testimonials: {
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
+      images: {
+        img1: {
+          img: imgTestimonial1,
+          alt: "Imagem de feedback",
+        },
+        img2: {
+          img: imgTestimonial2,
+          alt: "Imagem de feedback",
+        },
+        img3: {
+          img: imgTestimonial3,
+          alt: "Imagem de feedback",
+        },
+        img4: {
+          img: imgTestimonial4,
+          alt: "Imagem de feedback",
+        },
       },
     },
     trustedBy: {
@@ -655,115 +748,6 @@ const content = {
         },
       },
     },
-    steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
-      subtitle: "",
-      img: imgSteps,
-      alt: "",
-      cards: {
-        card1: {
-          stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
-        },
-        card2: {
-          stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
-        },
-        card3: {
-          stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
-        },
-        card4: {
-          stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
-        },
-      },
-    },
-    cta: {
-      backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
-    },
-    testimonials: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
-      images: {
-        img1: {
-          img: imgTestimonial1,
-          alt: "Imagem de feedback",
-        },
-        img2: {
-          img: imgTestimonial2,
-          alt: "Imagem de feedback",
-        },
-        img3: {
-          img: imgTestimonial3,
-          alt: "Imagem de feedback",
-        },
-        img4: {
-          img: imgTestimonial4,
-          alt: "Imagem de feedback",
-        },
-      },
-    },
-    faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
-      questions: {
-        question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende uma consulta conosco via WhatsApp para discutirmos as necessidades da sua empresa e avaliarmos os custos envolvidos.",
-        },
-        question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade do caso, mas forneceremos uma estimativa detalhada durante a consulta inicial.",
-        },
-        question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos sociais, documentos fiscais, contratos de prestação de serviços e quaisquer registros pertinentes, além de documentos de identificação dos representantes legais.",
-        },
-        question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para ajudar sua empresa a evitar litígios e garantir conformidade legal, promovendo segurança jurídica em suas operações.",
-        },
-      },
-      paragraph: (
-        <p>
-          {/* <a href={whatsappContactLink} target="_blank">
-            Clique aqui caso tenha mais dúvidas
-          </a> */}
-        </p>
-      ),
-    },
-    footer: {
-      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais! 🦷",
-      footerText:
-        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
-      footerSocialText: "Siga a gente nas redes sociais:",
-      footerNavegacaoText: "NAVEGAÇÃO",
-    },
-
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,

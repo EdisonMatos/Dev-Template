@@ -17,7 +17,7 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-// Para manter o botão do modal visível, mantenha o valor de modalTextAbout como true, 
+// Para manter o botão do modal visível, mantenha o valor de modalTextAbout como true,
 // para ocultar o botão, substitua true por false
 const modalAbout = {
   modalTextAbout: true,
@@ -60,8 +60,8 @@ export default function About() {
   };
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingtop={false}>
-      <SectionShapeDiv shapeDivArrow shapeColor="text-white" />
+    <SectionArea id="about" className="bg-bgSectionDark">
+      <SectionShapeDiv shapeDivArrow={false} shapeColor="text-white" />
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div

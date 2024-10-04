@@ -7,12 +7,15 @@ import AccordionExpandDefault from "../interactives/AcordionTwo";
 import content from "../../content/content";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
-
 export default function Faq() {
   return (
     <div className="">
       <SectionArea id="faq" className="bg-neutral-100" paddingtop={false}>
-      <SectionShapeDiv shapeDivtriangule paddingbot={true} shapeColor="text-bgSectionDark"/>
+        <SectionShapeDiv
+          shapeDivtriangule
+          paddingbot={true}
+          shapeColor="text-bgSectionDark"
+        />
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.faq.miniTag}
@@ -28,7 +31,9 @@ export default function Faq() {
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="text-center underline transition text-secondary hover:scale-110">
-              {content.texts.faq.paragraph}
+              <a href={content.texts.links.ctaWhatsapp} target="_blank">
+                {content.texts.faq.paragraph}
+              </a>
             </Paragraphs>
           </MotionDivDownToUp>
         </SectionWrapper>
