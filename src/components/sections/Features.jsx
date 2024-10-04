@@ -27,9 +27,9 @@ export default function Features() {
         paddingtop={false}
       >
         <SectionShapeDiv
-          shapeDivtriangule={true}
+          shapeDivArrow={true}
           shapeColor="text-bgSectionDark"
-          paddingbot={true}
+          paddingbot={false}
         />
         <SectionHeader
           className="text-center"
