@@ -15,7 +15,7 @@ import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
-export default function HowItWorksImage() {
+export default function Steps() {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");

@@ -7,7 +7,7 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function CtaMinimal() {
+export default function Cta() {
   return (
     <div>
       <SectionArea className="squares" paddingtop={false}>
