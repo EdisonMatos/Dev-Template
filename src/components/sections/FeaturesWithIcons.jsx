@@ -14,7 +14,7 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 // Para manter o modal visível, mantenha o valor de modalFeatures como true,
 // caso queira ocultar, troque true por false
 const modalCardFeatures = {
-  modalFeatures: true,
+  modalFeatures: false,
 };
 
 export default function FeaturesWithIcons() {

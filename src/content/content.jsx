@@ -38,34 +38,32 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-// const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
-
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "Dental Care",
+  name: "A Definir",
+  email: "A Definir", // Email desejado pelo cliente
+  domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "99026", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0977", // Apenas os 4 últimos números
+    ddd: "A Definir",
+    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A Definir", // Apenas os 4 últimos números
   },
-  email: "contato@detalcarep.com.br", // Email desejado pelo cliente
   endereco: (
     <div>
-      <p>Av. ACM, nº 1034</p>
-      <p>Pituba Center - Sala 308 Ala A</p>
-      <p>Itaigara - Salvador - BA</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   expediente: (
     <div>
-      <p>Horário de expediente:</p>
-      <p>Segunda-feira à Sexta-feira</p>
-      <p>Das 8h às 12h - 14h às 18h</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  domain: "A Definir", // Sem "www"
   instagramProfile: "A Definir", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
@@ -78,14 +76,12 @@ const content = {
   texts: {
     infos: {
       phone: `(${infos.phone.ddd})${infos.phone.firstPart}-${infos.phone.secondPart}`,
-      email: infos.email,
+      email: `${infos.email}@${infos.domain}`,
       adress: infos.endereco,
       officeHours: infos.expediente,
       year: currentYear,
-      footerText: "A Definir.",
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerSocialText: "A Definir.",
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
@@ -103,15 +99,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL E CONSUMERISTA EM PORTO ALEGRE - RS",
+      miniTag: "A Definir",
       title: (
         <h1 className="mb-[16px]">
-          <span className="text-primary">Gestão de conflitos</span> para
-          proteção legal <span className="text-primary">eficiente</span>
+          <span className="text-primary">A Definir</span> A Definir{" "}
+          <span className="text-primary">A Definir</span>
         </h1>
       ),
-      subtitle:
-        "Oferecemos soluções legais estratégicas para minimizar riscos e maximizar resultados.",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -137,17 +132,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Resolução estratégica de conflitos empresariais",
-      subtitle:
-        "Soluções jurídicas focadas na proteção dos interesses da sua empresa.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Consultoria jurídica",
-        subtitle:
-          "Orientação especializada para prevenir litígios e garantir segurança jurídica nas decisões empresariais.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -180,9 +173,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do consumidor",
-        subtitle:
-          "Defesa eficiente dos interesses empresariais em questões de relações de consumo.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -214,9 +206,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Usucapião extrajudicial de bens móveis",
-        subtitle:
-          "Regularização de posse com agilidade, evitando longos processos judiciais.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -250,9 +241,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Planos de saúde",
-        subtitle:
-          "Resolução de conflitos com operadoras de saúde, assegurando o cumprimento dos direitos contratados.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -285,52 +275,33 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Imagem ilustrativa de escritório de advocacia",
+        alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. DIEGO ZAMBRANO",
-      title: "Minha trajetória",
-      subtitle:
-        "Mais de 14 anos de experiência em soluções jurídicas estratégicas e personalizadas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
-          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
-          consultoria e assessoria jurídica.
-          <br />
-          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
-          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
-          conflitos.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Minha trajetória</strong>,
+      titleModal: <strong>A Definir</strong>,
       modal: (
         <p>
-          <strong>
-            Mais de 14 anos de experiência em soluções jurídicas estratégicas e
-            personalizadas.
-          </strong>
+          <strong>A Definir</strong>
           <br />
           <br />
-          Formado em 2010 pela Pontifícia Universidade Católica do Rio Grande do
-          Sul (PUC-RS), venho acumulando mais de 14 anos de atuação nas áreas de
-          consultoria e assessoria jurídica.
+          A Definir
           <br />
-          Durante uma década, exerci a função de Juiz Leigo na Comarca de Portão
-          - RS, o que me proporcionou uma visão ampliada sobre a resolução de
-          conflitos.
+          A Definir
           <br />
           <br />
-          Minha prioridade sempre foi oferecer um atendimento diferenciado,
-          focado em atingir os objetivos de cada cliente com criatividade,
-          segurança e excelência técnica. Cada caso é tratado de forma
-          personalizada, garantindo que as soluções jurídicas estejam
-          perfeitamente alinhadas às necessidades específicas de quem confia no
-          meu trabalho.
+          A Definir
           <br />
           <br />
-          Meu compromisso é sempre manter um alto padrão de qualidade e
-          dedicação, proporcionando segurança jurídica em cada passo do caminho.
+          A Definir
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
@@ -345,18 +316,108 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "Estamos nas redes",
-        title: "Fique por dentro!",
-        subtitle: "🦷 Quer cuidar melhor do seu sorriso? ",
-        paragraph: (
-          <p>
-            Acompanhe nossas postagens para ficar por dentro das últimas
-            novidades e dicas sobre saúde bucal. Siga a Odonto Premium Care no
-            Instagram!
-            {/* <br />
-            <br />A Definir */}
-          </p>
-        ),
+        miniTag: "A Definir",
+        title: "A Definir",
+        subtitle: "A Definir",
+        paragraph: <p>A Definir</p>,
+      },
+    },
+    cta: {
+      backgroundImg: ctaWhatsappImgBg,
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
+    },
+    steps: {
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "",
+      img: imgSteps,
+      alt: "",
+      cards: {
+        card1: {
+          stepNumber: 1,
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
+        },
+        card2: {
+          stepNumber: 2,
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
+        },
+        card3: {
+          stepNumber: 3,
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
+        },
+        card4: {
+          stepNumber: 4,
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
+        },
+      },
+    },
+    faq: {
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
+      questions: {
+        question1: {
+          question: "A Definir",
+          answer: "A Definir",
+        },
+        question2: {
+          question: "A Definir",
+          answer: "A Definir",
+        },
+        question3: {
+          question: "A Definir",
+          answer: "A Definir",
+        },
+        question4: {
+          question: "A Definir",
+          answer: "A Definir",
+        },
+      },
+      paragraph: (
+        <p>
+          {/* <a href={whatsappContactLink} target="_blank">
+            Clique aqui caso tenha mais dúvidas
+          </a> */}
+        </p>
+      ),
+    },
+    footer: {
+      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "Até mais",
+      footerText:
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      footerSocialText: "Siga a gente nas redes sociais:",
+      footerNavegacaoText: "NAVEGAÇÃO",
+    },
+    testimonials: {
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
+      images: {
+        img1: {
+          img: imgTestimonial1,
+          alt: "Imagem de feedback",
+        },
+        img2: {
+          img: imgTestimonial2,
+          alt: "Imagem de feedback",
+        },
+        img3: {
+          img: imgTestimonial3,
+          alt: "Imagem de feedback",
+        },
+        img4: {
+          img: imgTestimonial4,
+          alt: "Imagem de feedback",
+        },
       },
     },
     trustedBy: {
@@ -655,115 +716,6 @@ const content = {
         },
       },
     },
-    steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
-      subtitle: "",
-      img: imgSteps,
-      alt: "",
-      cards: {
-        card1: {
-          stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
-        },
-        card2: {
-          stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
-        },
-        card3: {
-          stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
-        },
-        card4: {
-          stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
-        },
-      },
-    },
-    cta: {
-      backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
-    },
-    testimonials: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
-      images: {
-        img1: {
-          img: imgTestimonial1,
-          alt: "Imagem de feedback",
-        },
-        img2: {
-          img: imgTestimonial2,
-          alt: "Imagem de feedback",
-        },
-        img3: {
-          img: imgTestimonial3,
-          alt: "Imagem de feedback",
-        },
-        img4: {
-          img: imgTestimonial4,
-          alt: "Imagem de feedback",
-        },
-      },
-    },
-    faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
-      questions: {
-        question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende uma consulta conosco via WhatsApp para discutirmos as necessidades da sua empresa e avaliarmos os custos envolvidos.",
-        },
-        question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade do caso, mas forneceremos uma estimativa detalhada durante a consulta inicial.",
-        },
-        question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos sociais, documentos fiscais, contratos de prestação de serviços e quaisquer registros pertinentes, além de documentos de identificação dos representantes legais.",
-        },
-        question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para ajudar sua empresa a evitar litígios e garantir conformidade legal, promovendo segurança jurídica em suas operações.",
-        },
-      },
-      paragraph: (
-        <p>
-          {/* <a href={whatsappContactLink} target="_blank">
-            Clique aqui caso tenha mais dúvidas
-          </a> */}
-        </p>
-      ),
-    },
-    footer: {
-      copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais! 🦷",
-      footerText:
-        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
-      footerSocialText: "Siga a gente nas redes sociais:",
-      footerNavegacaoText: "NAVEGAÇÃO",
-    },
-
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
