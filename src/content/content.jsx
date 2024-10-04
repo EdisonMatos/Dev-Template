@@ -41,26 +41,26 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "A Definir",
-  email: "A Definir", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  name: "Dr. Saulo Costa",
+  email: "contato", // Email desejado pelo cliente
+  domain: "costaeadvs.com.br", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "85",
+    firstPart: "99958", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2725", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Rua Maria Alice Ferraz, 125</p>
+      <p> Eng. Luciano Cavalcante, Fortaleza - CE</p>
+      <p>CEP: 60811-295</p>
     </div>
   ),
   expediente: (
     <div>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Horário de Expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -99,14 +99,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
+      miniTag: "ADVOGADO CÍVEL E EMPRESARIAL EM FORTALEZA - CE",
       title: (
         <h1 className="mb-[16px]">
-          <span className="text-primary">A Definir</span> A Definir{" "}
-          <span className="text-primary">A Definir</span>
+          Defesa <span className="text-primary">especializada</span> a todo
+          momento
         </h1>
       ),
-      subtitle: "A Definir",
+      subtitle: "Mais de uma década lutando por justiça e direitos",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -132,15 +132,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Áreas de Atuação",
+      subtitle: "Soluções personalizadas em diversas áreas do direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Tributário",
+        subtitle:
+          "Assessoria especializada em questões tributárias, oferecendo soluções estratégicas para a redução de passivos e prevenção de litígios fiscais.",
         description: (
           <div>
             A Definir <br />
@@ -159,13 +160,18 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-calculator"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <rect width="16" height="20" x="4" y="2" rx="2" />
+            <line x1="8" x2="16" y1="6" y2="6" />
+            <line x1="16" x2="16" y1="14" y2="18" />
+            <path d="M16 10h.01" />
+            <path d="M12 10h.01" />
+            <path d="M8 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M8 14h.01" />
+            <path d="M12 18h.01" />
+            <path d="M8 18h.01" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -173,8 +179,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Empresarial",
+        subtitle:
+          "Consultoria e assessoria jurídica voltada ao direito empresarial, abrangendo desde a constituição de empresas até a solução de conflitos societários.",
         description: (
           <div>
             A Definir <br />
@@ -194,10 +201,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-tag"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Ortodontia",
@@ -206,8 +215,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Trabalhista",
+        subtitle:
+          "Defesa e orientação em questões trabalhistas, representando tanto empregadores quanto empregados em processos judiciais e administrativos.",
         description: (
           <div>
             A Definir <br />
@@ -226,14 +236,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-landmark"
+            class="lucide lucide-hard-hat"
           >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
+            <path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z" />
+            <path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5" />
+            <path d="M4 15v-3a6 6 0 0 1 6-6" />
+            <path d="M14 6a6 6 0 0 1 6 6v3" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -241,8 +249,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Cível",
+        subtitle:
+          "Atuação abrangente nas áreas de Direito de Família, incluindo divórcios, guarda e partilha de bens. Além de ações de busca e apreensão, execuções judiciais e processos de despejo.",
         description: (
           <div>
             A Definir <br />
@@ -263,9 +272,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart"
+            class="lucide lucide-circle-user-round"
           >
-            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            <path d="M18 20a6 6 0 0 0-12 0" />
+            <circle cx="12" cy="10" r="4" />
+            <circle cx="12" cy="12" r="10" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -277,31 +288,48 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É DR. SAULO COSTA",
+      title: "Minha trajetória",
+      subtitle: "12 anos de dedicação e compromisso com a justiça.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          Dr. Saulo Costa tem se destacado por sua abordagem ética e
+          profissional, sempre comprometido em garantir os melhores resultados
+          para seus clientes.
+          <br />
+          Ao longo de sua trajetória, ele construiu uma carreira sólida,
+          atendendo a diversos perfis de clientes e atuando em diferentes áreas
+          do direito, o que lhe conferiu uma visão ampla e estratégica na
+          resolução de casos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>A Definir</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
+          <strong>12 anos de dedicação e compromisso com a justiça.</strong>
           <br />
           <br />
-          A Definir
+          Dr. Saulo Costa tem se destacado por sua abordagem ética e
+          profissional, sempre comprometido em garantir os melhores resultados
+          para seus clientes.
           <br />
-          A Definir
+          Ao longo de sua trajetória, ele construiu uma carreira sólida,
+          atendendo a diversos perfis de clientes e atuando em diferentes áreas
+          do direito, o que lhe conferiu uma visão ampla e estratégica na
+          resolução de casos. Sua prática é pautada pelo respeito ao cliente e
+          pela busca incansável pela justiça.
           <br />
           <br />
-          A Definir
+          Dr. Saulo acredita que cada caso é único e merece atenção
+          personalizada. Com uma abordagem humanizada, ele entende que, além das
+          questões jurídicas, muitas vezes estão em jogo aspectos emocionais e
+          pessoais importantes.
           <br />
           <br />
-          A Definir
+          Por isso, sua atuação vai além da técnica, oferecendo um suporte
+          completo e focado nas necessidades individuais de cada cliente, sempre
+          visando a melhor solução com transparência e dedicação.
           <br />
           <br />
           <p>Quer saber mais sobre A Definir? 👇</p>
@@ -324,69 +352,73 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso processo de atendimento jurídico?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
-      paragraph: (
-        <p>
-          {/* <a href={whatsappContactLink} target="_blank">
-            Clique aqui caso tenha mais dúvidas
-          </a> */}
-        </p>
-      ),
+      paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
