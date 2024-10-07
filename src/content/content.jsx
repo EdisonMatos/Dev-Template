@@ -406,9 +406,9 @@ const content = {
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais",
+      midSectionName: "A Definir",
       footerText:
-        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+        "A Definir",
       footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
     },
