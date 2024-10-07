@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { Phone, Mail } from "lucide-react";
+import { Phone } from "lucide-react";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
 import IconButton from "../interactives/IconButton";
@@ -8,6 +8,14 @@ import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import SectionArea from "../sectionElements/SectionArea.jsx";
 import SectionWrapper from "../sectionElements/SectionWrapper.jsx";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
+import { FaWhatsapp } from 'react-icons/fa';
+import { CalendarCheck2 } from 'lucide-react';
+import { MapPin } from 'lucide-react';
+import { Mail } from 'lucide-react';
+
+
+
+
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -43,17 +51,8 @@ function FooterSocial() {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <svg
-                    aria-label="ícone do Whatsapp"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    fill="currentColor"
-                    className="bi bi-whatsapp"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                  </svg>
+                <FaWhatsapp size={24} color="white" />
+
                   <a
                     href={whatsappContactLink}
                     target="_blank"
@@ -65,22 +64,8 @@ function FooterSocial() {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <svg
-                    aria-label="ícone do e-mail"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-mail"
-                  >
-                    <rect width="20" height="16" x="2" y="4" rx="2" />
-                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                  </svg>
+                <Mail />
+
                   <p className="text-paragraph2">{content.texts.infos.email}</p>
                 </div>
               </MotionDivDownToUp>
@@ -88,21 +73,8 @@ function FooterSocial() {
                 <MotionDivDownToUp>
                   <div className="flex full gap-x-[12px] items-center opacity-90">
                     <div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-map-pin"
-                      >
-                        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-                        <circle cx="12" cy="10" r="3" />
-                      </svg>
+                    <MapPin />
+
                     </div>
                     <p>{content.texts.infos.adress}</p>
                   </div>
@@ -113,24 +85,8 @@ function FooterSocial() {
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
                   <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-calendar-check-2"
-                    >
-                      <path d="M8 2v4" />
-                      <path d="M16 2v4" />
-                      <path d="M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" />
-                      <path d="M3 10h18" />
-                      <path d="m16 20 2 2 4-4" />
-                    </svg>
+                  <CalendarCheck2 />
+
                   </div>
                   <p>{content.texts.infos.footerexpediente}</p>
                 </div>
