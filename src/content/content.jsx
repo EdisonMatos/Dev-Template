@@ -1,14 +1,14 @@
-import logo from "../assets/imgs/logo/logo.png";
-import solidLogo from "../assets/imgs/logo/solidLogo.png";
+import logo from "../assets/imgs/logo/logoCinza.png";
+import solidLogo from "../assets/imgs/logo/solidLogoCinza.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServicesCinza.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImgCinza.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgStepsCinza.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -46,26 +46,26 @@ import { CircleUserRound } from 'lucide-react';
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "Dr. Saulo Costa",
+  name: "A Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "costaeadvs.com.br", // Sem "www"
+  domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "85",
-    firstPart: "99958", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2725", // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "90000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
-      <p>Rua Maria Alice Ferraz, 125</p>
-      <p> Eng. Luciano Cavalcante, Fortaleza - CE</p>
-      <p>CEP: 60811-295</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de Expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -104,14 +104,13 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL E EMPRESARIAL EM FORTALEZA - CE",
+      miniTag: "A Definir",
       title: (
         <h1 className="mb-[16px]">
-          Defesa <span className="text-primary">especializada</span> a todo
-          momento
+          A Definir
         </h1>
       ),
-      subtitle: "Mais de uma década lutando por justiça e direitos",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -137,16 +136,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Áreas de Atuação",
-      subtitle: "Soluções personalizadas em diversas áreas do direito.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Tributário",
+        title: "A Definir",
         subtitle:
-          "Assessoria especializada em questões tributárias, oferecendo soluções estratégicas para a redução de passivos e prevenção de litígios fiscais.",
+          "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -163,9 +162,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Empresarial",
+        title: "A Definir",
         subtitle:
-          "Consultoria e assessoria jurídica voltada ao direito empresarial, abrangendo desde a constituição de empresas até a solução de conflitos societários.",
+          "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -184,9 +183,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhista",
+        title: "A Definir",
         subtitle:
-          "Defesa e orientação em questões trabalhistas, representando tanto empregadores quanto empregados em processos judiciais e administrativos.",
+          "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -203,9 +202,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Cível",
+        title: "A Definir",
         subtitle:
-          "Atuação abrangente nas áreas de Direito de Família, incluindo divórcios, guarda e partilha de bens. Além de ações de busca e apreensão, execuções judiciais e processos de despejo.",
+          "A Definir.",
         description: (
           <div>
             A Definir <br />
@@ -228,51 +227,35 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. SAULO COSTA",
-      title: "Minha trajetória",
-      subtitle: "12 anos de dedicação e compromisso com a justiça.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Dr. Saulo Costa tem se destacado por sua abordagem ética e
-          profissional, sempre comprometido em garantir os melhores resultados
-          para seus clientes.
+          A Definir
           <br />
-          Ao longo de sua trajetória, ele construiu uma carreira sólida,
-          atendendo a diversos perfis de clientes e atuando em diferentes áreas
-          do direito, o que lhe conferiu uma visão ampla e estratégica na
-          resolução de casos.
+          A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Minha trajetória</strong>,
+      titleModal: <strong>A Definir</strong>,
       modal: (
         <p>
-          <strong>12 anos de dedicação e compromisso com a justiça.</strong>
+          <strong>A Definir</strong>
           <br />
           <br />
-          Dr. Saulo Costa tem se destacado por sua abordagem ética e
-          profissional, sempre comprometido em garantir os melhores resultados
-          para seus clientes.
+          A Definir
           <br />
-          Ao longo de sua trajetória, ele construiu uma carreira sólida,
-          atendendo a diversos perfis de clientes e atuando em diferentes áreas
-          do direito, o que lhe conferiu uma visão ampla e estratégica na
-          resolução de casos. Sua prática é pautada pelo respeito ao cliente e
-          pela busca incansável pela justiça.
+          A Definir
           <br />
           <br />
-          Dr. Saulo acredita que cada caso é único e merece atenção
-          personalizada. Com uma abordagem humanizada, ele entende que, além das
-          questões jurídicas, muitas vezes estão em jogo aspectos emocionais e
-          pessoais importantes.
+          A Definir
           <br />
           <br />
-          Por isso, sua atuação vai além da técnica, oferecendo um suporte
-          completo e focado nas necessidades individuais de cada cliente, sempre
-          visando a melhor solução com transparência e dedicação.
+          A Definir
           <br />
           <br />
-          <p>Quer saber mais sobre A Definir? 👇</p>
+          <p>A Definir</p>
           <br />
         </p>
       ),
@@ -292,80 +275,80 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
+      miniTag: "A Definir",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "A Definir!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "A Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "A Definir",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "A Definir",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "A Definir",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "A Definir",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "A Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "A Definir",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "A Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "A Definir",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "A Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "A Definir",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "A Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "A Definir",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "A Definir",
         },
       },
-      paragraph: "Clique aqui caso tenha mais dúvidas",
+      paragraph: "A Definir",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais",
+      midSectionName: "A Definir",
       footerText:
-        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+        "A Definir",
       footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
     },
