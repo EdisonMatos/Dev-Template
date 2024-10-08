@@ -19,19 +19,7 @@ import { Mail } from 'lucide-react';
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-// Para manter o endereço visível, basta manter o valor de addres como true,
-// caso queira ocultar sua visualozação basta colocar false no lugar do true
-const addresInfo = {
-  addres: true,
-};
-
-// Para manter a mensagem de observação visível, basta manter o valor de obs como true,
-// caso queira ocultar sua visualozação basta colocar false no lugar do true
-const observationInfo = {
-  obs: false,
-};
-
-function FooterSocial() {
+function FooterSocial({addres, obs}) {
   return (
     <footer className="bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat">
       <SectionArea paddingtop={true}>
@@ -69,7 +57,7 @@ function FooterSocial() {
                   <p className="text-paragraph2">{content.texts.infos.email}</p>
                 </div>
               </MotionDivDownToUp>
-              {addresInfo.addres && (
+              {addres && (
                 <MotionDivDownToUp>
                   <div className="flex full gap-x-[12px] items-center opacity-90">
                     <div>
@@ -94,7 +82,7 @@ function FooterSocial() {
 
               {/* Msg de observação */}
 
-              {observationInfo.obs && (
+              {obs && (
                 <MotionDivDownToUp>
                   {" "}
                   <div className="flex full gap-x-[12px] items-center opacity-90">
