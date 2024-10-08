@@ -38,6 +38,11 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
+import { Calculator } from 'lucide-react';
+import { Briefcase  } from 'lucide-react';
+import { HardHat } from 'lucide-react';
+import { CircleUserRound } from 'lucide-react';
+
 const currentYear = new Date().getFullYear();
 
 const infos = {
@@ -150,29 +155,8 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal1,
         icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-calculator"
-          >
-            <rect width="16" height="20" x="4" y="2" rx="2" />
-            <line x1="8" x2="16" y1="6" y2="6" />
-            <line x1="16" x2="16" y1="14" y2="18" />
-            <path d="M16 10h.01" />
-            <path d="M12 10h.01" />
-            <path d="M8 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M8 14h.01" />
-            <path d="M12 18h.01" />
-            <path d="M8 18h.01" />
-          </svg>
+          <Calculator />
+
         ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
@@ -191,23 +175,8 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal2,
         icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
-          >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
-          </svg>
+          <Briefcase  />
+
         ),
         buttonLabelModal: "Ortodontia",
         buttonLabel:
@@ -226,23 +195,8 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal3,
         icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-hard-hat"
-          >
-            <path d="M2 18a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v2z" />
-            <path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5" />
-            <path d="M4 15v-3a6 6 0 0 1 6-6" />
-            <path d="M14 6a6 6 0 0 1 6 6v3" />
-          </svg>
+          <HardHat />
+
         ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
@@ -262,22 +216,8 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal4,
         icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-circle-user-round"
-          >
-            <path d="M18 20a6 6 0 0 0-12 0" />
-            <circle cx="12" cy="10" r="4" />
-            <circle cx="12" cy="12" r="10" />
-          </svg>
+          <CircleUserRound />
+
         ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
