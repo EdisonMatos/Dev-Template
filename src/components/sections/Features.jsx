@@ -62,7 +62,7 @@ export default function Features({ modal }) {
               ></div>
             </MotionDivDownToUp>
             <div className="col3 desktop1:w-[28%] flex flex-col items-center">
-              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
+              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
                 <IconFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
@@ -70,7 +70,7 @@ export default function Features({ modal }) {
                   className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
                 />
               </MotionDivDownToUp>
-              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
+              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
                 <IconFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
