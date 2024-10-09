@@ -6,7 +6,7 @@ import Button from "../interactives/Button";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function ListGroupSocial() {
+export default function ListGroupSocial({ LightMode }) {
   const [scrolling, setScrolling] = useState(false);
   const [showSubMenu, setShowSubMenu] = useState(false);
 
@@ -32,7 +32,9 @@ export default function ListGroupSocial() {
   return (
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
-        scrolling
+        LightMode
+          ? "text-black"
+          : scrolling
           ? "text-lighter"
           : "text-lighter transition-color duration-1000"
       }`}
@@ -50,7 +52,9 @@ export default function ListGroupSocial() {
           <span
             className={`h-[24px] inline-block
               ${
-                scrolling
+                LightMode
+                  ? "hover:text-black"
+                  : scrolling
                   ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
@@ -59,7 +63,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-lighter" : "bg-lighter"
+              LightMode ? "bg-black" : scrolling ? "bg-lighter" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -78,7 +82,9 @@ export default function ListGroupSocial() {
           <span
             className={`h-[24px] inline-block
               ${
-                scrolling
+                LightMode
+                  ? "hover:text-black"
+                  : scrolling
                   ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
@@ -87,7 +93,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-lighter" : "bg-lighter"
+              LightMode ? "bg-black" : scrolling ? "bg-lighter" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -105,7 +111,9 @@ export default function ListGroupSocial() {
           <span
             className={`h-[24px] inline-block
               ${
-                scrolling
+                LightMode
+                  ? "hover:text-black"
+                  : scrolling
                   ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
@@ -114,7 +122,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-lighter" : "bg-lighter"
+              LightMode ? "bg-black" : scrolling ? "bg-lighter" : "bg-lighter"
             }`}
           ></div>
         </Link>
@@ -132,7 +140,9 @@ export default function ListGroupSocial() {
           <span
             className={`h-[24px] inline-block
               ${
-                scrolling
+                LightMode
+                  ? "hover:text-black"
+                  : scrolling
                   ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
@@ -141,7 +151,7 @@ export default function ListGroupSocial() {
           </span>
           <div
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              scrolling ? "bg-lighter" : "bg-lighter"
+              LightMode ? "bg-black" : scrolling ? "bg-lighter" : "bg-lighter"
             }`}
           ></div>
         </Link>

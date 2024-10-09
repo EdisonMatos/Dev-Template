@@ -11,10 +11,13 @@ import FooterSocial from "../components/sections/FooterSocial";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 
+// Para ativar o modo LightMode na Navbar copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
+
+
 export default function Index() {
   return (
     <div>
-      <Navbar />
+      <Navbar LightMode={true}/>
       <Hero />
       <Features />
       <About />
