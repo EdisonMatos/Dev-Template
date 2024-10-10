@@ -32,12 +32,12 @@ export default function HeroSection() {
               </div>
               <div className="w-full desktop1:w-[50%] flex flex-col">
                 <MotionDivLeftToRight>
-                  <div className="text-black desktop1:w-[100%] font-bold leading-[44px] tablet1:leading-[60px] text-center desktop1:leading-[82px] desktop1:text-left text-title3 phone1:text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[60px] desktop2:text-[80px]">
+                  <div className="text-black desktop1:w-[100%] font-bold leading-[44px] tablet1:leading-[60px] text-center desktop1:leading-[82px] desktop1:text-left text-title5 phone3:text-title6 tablet1:text-title7 desktop1:text-[60px] desktop2:text-[80px]">
                     <h1 className="pb-[16px]">{content.texts.hero.title}</h1>
                   </div>
                 </MotionDivLeftToRight>
                 <MotionDivLeftToRight>
-                  <div className="text-center desktop1:text-left phone1:w-full font-secondFont phone1:text-title1">
+                  <div className="text-center desktop1:text-left w-full font-secondFont text-title1">
                     <p className="text-quaternary pb-[54px]">
                       {content.texts.hero.subtitle}
                     </p>

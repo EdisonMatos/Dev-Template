@@ -92,7 +92,7 @@ export default function HeroBgImg() {
           <div className="flex flex-col mx-auto w-[90%] max-w-[1215px] items-center  pt-[46px] pb-[50px] desktop1:pt-[120px] desktop1:pb-[120px]">
             <div className=" flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               <MotionDivDownToUp>
-                <div className="w-auto text-center font-secondFont phone1:text-paragraph4">
+                <div className="w-auto text-center font-secondFont text-paragraph4">
                   <p className="mb-[16px] bg-black bg-opacity-50 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     {content.texts.hero.miniTag}
                   </p>
@@ -106,7 +106,7 @@ export default function HeroBgImg() {
                 </div>
               </MotionDivDownToUp>
               <MotionDivDownToUp>
-                <div className="flex justify-center text-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex justify-center text-center w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-100 [text-shadow:_2px_2px_10px_rgb(0_0_0_/_100%)]">
                     {content.texts.hero.subtitle}
                   </p>
@@ -191,7 +191,7 @@ export default function HeroBgImg() {
                 <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
-                  className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
+                  className="absolute opacity-75 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
                 ></img>
               </MotionDivDownToUp>
             </div>
