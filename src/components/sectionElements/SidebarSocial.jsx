@@ -14,7 +14,7 @@ import { Link } from "react-scroll";
 import content from "../../content/content";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
 
-export default function SidebarSocial() {
+export default function SidebarSocial({ LightMode }) {
   const [visible, setVisible] = useState(false);
   const [submenuVisible, setSubmenuVisible] = useState(true);
   const [reportsSubmenuVisible, setReportsSubmenuVisible] = useState(false);
@@ -57,7 +57,9 @@ export default function SidebarSocial() {
 
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            scrolled ? "text-white" : "text-white"
+            LightMode 
+            ? "text-black"
+            :scrolled ? "text-white" : "text-white"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -71,7 +73,9 @@ export default function SidebarSocial() {
           content={({ closeIconRef, hide }) => (
             <div
               id="app-sidebar-2"
-              className="absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
+              className={`${
+                LightMode ? "bg-white" : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
+              }`}
               style={{ width: "280px" }}
             >
               <div className="flex flex-col h-full">
@@ -91,7 +95,7 @@ export default function SidebarSocial() {
                       icon="pi pi-times"
                       rounded
                       outlined
-                      className="h-2rem w-2rem p-[5px] text-white"
+                      className={`${ LightMode ? "text-black" : "h-2rem w-2rem p-[5px] text-white"}`}
                     ></Button>
                   </span>
                 </div>
@@ -100,7 +104,9 @@ export default function SidebarSocial() {
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (
-                        <ul className="p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white list-none text-paragraph3 font-mainFont">
+                        <ul className={`${
+                          LightMode ? "text-black" : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"
+                        } list-none text-paragraph3 font-mainFont`}>
                           <li>
                             <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                               <HomeIcon />
