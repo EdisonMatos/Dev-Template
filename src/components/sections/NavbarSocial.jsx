@@ -130,7 +130,7 @@ export default function NavbarSocial({ LightMode }) {
                 scrolling ? "" : ""
               }`}
             >
-              <SidebarSocial />
+              <SidebarSocial LightMode={LightMode} />
             </div>
           </div>
           {showListGroup && <ListGroupSocial LightMode={LightMode} />}{" "}
