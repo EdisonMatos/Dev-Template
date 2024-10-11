@@ -12,7 +12,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import BackToTopButton from "../components/interactives/BackToTopButton";
 
 // Para ativar o modo LightMode na Navbar copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
-
+// Para ativar o modo LightMode no Footer copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
 
 export default function Index() {
   return (

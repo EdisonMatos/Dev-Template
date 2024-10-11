@@ -8,14 +8,10 @@ import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
 import SectionArea from "../sectionElements/SectionArea.jsx";
 import SectionWrapper from "../sectionElements/SectionWrapper.jsx";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
-import { FaWhatsapp } from 'react-icons/fa';
-import { CalendarCheck2 } from 'lucide-react';
-import { MapPin } from 'lucide-react';
-import { Mail } from 'lucide-react';
-
-
-
-
+import { FaWhatsapp } from "react-icons/fa";
+import { CalendarCheck2 } from "lucide-react";
+import { MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -31,13 +27,13 @@ const observationInfo = {
   obs: false,
 };
 
-function FooterSocial() {
+function FooterSocial({ LightMode }) {
   return (
-    <footer className="bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat">
+    <footer className={LightMode ? "black" : "bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"}>
       <SectionArea paddingtop={true}>
         {/* <SectionShapeDiv shapeDivArrow shapeColor="text-neutral-100" /> */}
         <SectionWrapper>
-          <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
+          <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
               <MotionDivDownToUp>
                 <div className="h-[115px] flex justify-start items-center">
@@ -51,7 +47,7 @@ function FooterSocial() {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                <FaWhatsapp size={24} color="white" />
+                  <FaWhatsapp size={24} color={LightMode ? "black" : "white"} />
 
                   <a
                     href={whatsappContactLink}
@@ -64,7 +60,7 @@ function FooterSocial() {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                <Mail />
+                  <Mail />
 
                   <p className="text-paragraph2">{content.texts.infos.email}</p>
                 </div>
@@ -73,8 +69,7 @@ function FooterSocial() {
                 <MotionDivDownToUp>
                   <div className="flex full gap-x-[12px] items-center opacity-90">
                     <div>
-                    <MapPin />
-
+                      <MapPin />
                     </div>
                     <p>{content.texts.infos.adress}</p>
                   </div>
@@ -85,8 +80,7 @@ function FooterSocial() {
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
                   <div>
-                  <CalendarCheck2 />
-
+                    <CalendarCheck2 />
                   </div>
                   <p>{content.texts.infos.footerexpediente}</p>
                 </div>
