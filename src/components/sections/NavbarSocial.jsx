@@ -2,39 +2,35 @@ import { useState, useEffect, useRef } from "react";
 import Navbar from "../sectionElements/Navbar";
 import ListGroupSocial from "../sectionElements/ListGroupSocial";
 import { Link as ScrollLink } from "react-scroll";
-// import HeadlessDemo from "../sectionElements/Sidebar";
 import SidebarSocial from "../sectionElements/SidebarSocial";
-import { px } from "framer-motion";
 import content from "../../content/content";
 import Button from "../interactives/Button";
-import { FaWhatsapp } from 'react-icons/fa';
-
+import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function NavbarSocial() {
+export default function NavbarSocial({ LightMode }) {
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
   const [showSidebar, setShowSidebar] = useState(false);
   const [showMenuIcon, setShowMenuIcon] = useState(true);
   const [showSidebarContent, setShowSidebarContent] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [navbarBgWhite, setNavbarBgWhite] = useState(false); // Novo estado
 
   const sidebarRef = useRef(null);
 
   const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setScrolling(true);
-    } else {
-      setScrolling(false);
-    }
+    const isScrolling = window.scrollY > 0;
+    setScrolling(isScrolling);
+    setNavbarBgWhite(isScrolling); // Atualiza navbarBgWhite com base no scroll
   };
 
   const toggleSidebar = () => {
     if (!isAnimating) {
       setIsAnimating(true);
-      setShowMenuIcon(!showMenuIcon);
-      setShowSidebarContent(!showSidebarContent);
+      setShowMenuIcon((prev) => !prev);
+      setShowSidebarContent((prev) => !prev);
       if (showSidebar) {
         setTimeout(() => {
           setShowSidebar(false);
@@ -50,11 +46,7 @@ export default function NavbarSocial() {
   };
 
   const handleResize = () => {
-    if (window.innerWidth < 768) {
-      setShowListGroup(false);
-    } else {
-      setShowListGroup(true);
-    }
+    setShowListGroup(window.innerWidth >= 768);
   };
 
   const handleClickOutside = (event) => {
@@ -86,19 +78,18 @@ export default function NavbarSocial() {
     };
   }, []);
 
+
   return (
     <div className="w-full">
-      {/* COR DA NAVBAR E DA BORDA */}
-
       <div
         className={`fixed z-20 w-full transition-colors duration-1000 ${
-          scrolling
-            ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-solid border-neutral-700"
-            : "transition-colors duration-1000 border-b-[1px] border-transparent border-black"
+          LightMode
+            ? "bg-white"
+            : scrolling
+            ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100"
+            : "border-b-[1px] border-transparent border-black"
         }`}
       >
-        {/* FIM DA COR DA NAVBAR E DA BORDA */}
-
         <Navbar>
           <ScrollLink
             to="home"
@@ -131,20 +122,18 @@ export default function NavbarSocial() {
                 buttonLink={whatsappContactLink}
                 className={`${scrolling ? "" : ""}`}
                 size="small"
-                icon={
-                  <FaWhatsapp size={18} />
-                }
+                icon={<FaWhatsapp size={18} />}
               />
             </div>
             <div
               className={`flex items-center desktop1:hidden ${
                 scrolling ? "" : ""
-              } `}
+              }`}
             >
-              <SidebarSocial />
+              <SidebarSocial LightMode={LightMode} />
             </div>
           </div>
-          {showListGroup ? <ListGroupSocial /> : null}
+          {showListGroup && <ListGroupSocial LightMode={LightMode} />}{" "}
         </Navbar>
       </div>
     </div>
