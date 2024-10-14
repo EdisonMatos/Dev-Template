@@ -29,8 +29,8 @@ const observationInfo = {
 
 function FooterSocial({ LightMode }) {
   return (
-    <footer className={LightMode ? "black" : "bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"}>
-      <SectionArea paddingtop={true}>
+    <footer className="bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat">
+      <SectionArea paddingtop={true} paddingbot={false}>
         {/* <SectionShapeDiv shapeDivArrow shapeColor="text-neutral-100" /> */}
         <SectionWrapper>
           <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
@@ -326,9 +326,9 @@ function FooterSocial({ LightMode }) {
             </div>
           </div>
 
-          <div className="hidden w-[88%] max-w-[1110px] h-px bg-secondary"></div>
+          <div className="hidden w-[88%] max-w-[1110px] bg-secondary"></div>
 
-          <div className="text-center w-[88%] max-w-[1110px] flex flex-col mt-[60px] mb-[48px] phone2:mb-[80px] tablet1:mb-0">
+          <div className="text-center w-[88%] max-w-[1110px] flex flex-col mt-[60px] mb-[93px] phone2:mb-[80px] tablet1:mb-[40px] desktop1:mb-[30px]">
             <p className="w-full opacity-75">
               {content.texts.footer.copyrightLine}
             </p>
