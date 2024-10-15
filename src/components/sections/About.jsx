@@ -15,7 +15,7 @@ import imgPoints from "../../assets/imgs/about/points.png";
 import AboutFading from "../sectionElements/AboutFading";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { MoveRight } from "lucide-react";
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -35,6 +35,7 @@ export default function About() {
     setModalContent(
       <p className="text-paragraph3">
         {content.texts.about.modal}
+        <p className="mb-[20px]">Quer saber mais sobre nós? Clique abaixo 👇</p>
         <div>
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
@@ -42,9 +43,7 @@ export default function About() {
             buttonLink={whatsappContactLink}
             animation={false}
             className="hover:scale-105"
-            icon={
-              <FaWhatsapp size={24} />
-            }
+            icon={<FaWhatsapp size={24} />}
           />
         </div>
       </p>

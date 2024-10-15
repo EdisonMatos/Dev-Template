@@ -46,26 +46,26 @@ import { CircleUserRound } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "A Definir",
+  name: "Dr. Rinaldo Machado Dias",
   email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  domain: "rinaldomachado.com.br", // Sem "www"
   phone: {
-    ddd: "00",
-    firstPart: "90000", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0000", // Apenas os 4 últimos números
+    ddd: "81",
+    firstPart: "98744", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0867", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Avenida Engenheiro Domingos Ferreira</p>
+      <p>Nº 890, Sala 803, Bairro Pina</p>
+      <p>Recife - PE, CEP: 51011-050</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de Expediente:</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 09h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -80,7 +80,7 @@ const infos = {
 const content = {
   texts: {
     infos: {
-      phone: `(${infos.phone.ddd})${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       adress: infos.endereco,
       officeHours: infos.expediente,
@@ -104,9 +104,10 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
+      miniTag: "ADVOGADO PREVIDENCIÁRIO EM RECIFE - PE",
+      title: <h1 className="mb-[16px]">Conquiste sua aposentadoria</h1>,
+      subtitle:
+        "Especialista em regimes próprios de previdência social, cuidando do seu futuro como você merece.",
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -132,15 +133,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades em Direito Previdenciário",
+      subtitle:
+        "Compromisso em oferecer excelência em regimes previdenciários.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Regime Geral de Previdência Social",
+        subtitle:
+          "Orientação e defesa no INSS, planejamento previdenciário, concessão e revisão de benefícios.",
         description: (
           <div>
             A Definir <br />
@@ -154,8 +157,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Regimes Próprios de Previdência Social",
+        subtitle:
+          "Atuação municipal, estadual e federal, oferecendo planejamento previdenciário, concessão e revisão de benefícios.",
         description: (
           <div>
             A Definir <br />
@@ -171,8 +175,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Aposentadorias e Pensões",
+        subtitle:
+          "Assessoria completa na concessão e revisão de aposentadorias e pensões, assegurando a proteção dos seus direitos.",
         description: (
           <div>
             A Definir <br />
@@ -186,8 +191,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir.",
+        title: "Benefícios por Incapacidade",
+        subtitle:
+          "Auxílio-doença, aposentadoria por invalidez e outros benefícios para segurados que enfrentam incapacidades para o trabalho.",
         description: (
           <div>
             A Definir <br />
@@ -207,34 +213,53 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É DR. RINALDO MACHADO DIAS",
+      title: "Minha trajetória",
+      subtitle:
+        "Formado em Direito pela Universidade Federal de Pernambuco (UFPE), atuando a mais de 15 anos na advocacia previdenciária.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          Meu caminho iniciou-se em 2009 quando finalizei o curso de Direito na
+          UFPE e ingressei na jornada da advocacia, inicialmente com o desejo de
+          prestar concurso público.
+          <br />
+          No entanto, ao receber a oportunidade de advogar, descobri minha
+          verdadeira paixão pela profissão.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>A Definir</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
+          <strong>
+            Formado em Direito pela Universidade Federal de Pernambuco (UFPE),
+            atuando a mais de 15 anos na advocacia previdenciária.
+          </strong>
           <br />
           <br />
-          A Definir
+          Meu caminho iniciou-se em 2009 quando finalizei o curso de Direito na
+          UFPE e ingressei na jornada da advocacia, inicialmente com o desejo de
+          prestar concurso público.
           <br />
-          A Definir
-          <br />
-          <br />
-          A Definir
-          <br />
-          <br />
-          A Definir
+          No entanto, ao receber a oportunidade de advogar, descobri minha
+          verdadeira paixão pela profissão.
           <br />
           <br />
-          <p>A Definir</p>
+          Como advogado, priorizo a pontualidade e o respeito aos compromissos
+          com meus clientes. Acredito que a organização dos encontros é
+          essencial para um atendimento eficaz e transparente.
+          <br />
+          <br />
+          Em cada caso, busco me comunicar com clareza, explicando todos os
+          detalhes e desdobramentos que envolvem a situação de cada cliente. Meu
+          objetivo é garantir que você se sinta seguro e informado em todas as
+          etapas do processo.
+          <br />
+          <br />
+          <p>
+            Estou aqui para defender seus direitos e proporcionar um atendimento
+            humanizado e dedicado, sempre com a seriedade que a advocacia exige.
+          </p>
           <br />
         </p>
       ),
@@ -254,69 +279,80 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir!",
-      subtitle: "A Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso processo de atendimento jurídico?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Quais documentos devo apresentar na consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
-      paragraph: "A Definir",
+      paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "A Definir",
-      footerText: "A Definir",
+      midSectionName: "Até mais!",
+      footerText:
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
       footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
     },
