@@ -29,7 +29,13 @@ const observationInfo = {
 
 function FooterSocial({ LightMode }) {
   return (
-    <footer className={LightMode ? "black" : "bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"}>
+    <footer
+      className={
+        LightMode
+          ? "black"
+          : "bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+      }
+    >
       <SectionArea paddingtop={true}>
         {/* <SectionShapeDiv shapeDivArrow shapeColor="text-neutral-100" /> */}
         <SectionWrapper>
@@ -40,7 +46,7 @@ function FooterSocial({ LightMode }) {
                   <img
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
-                    className="max-h-[88px] w-auto"
+                    className="max-h-[88px] w-auto bg-white p-[12px]"
                     // className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
                   ></img>
                 </div>
