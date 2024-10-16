@@ -15,7 +15,7 @@ import imgPoints from "../../assets/imgs/about/points.png";
 import AboutFading from "../sectionElements/AboutFading";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { MoveRight } from "lucide-react";
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -30,6 +30,7 @@ export default function About({modal}) {
     setModalContent(
       <p className="text-paragraph3">
         {content.texts.about.modal}
+        <p className="mb-[20px]">Quer saber mais sobre nós? Clique abaixo 👇</p>
         <div>
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
@@ -37,9 +38,7 @@ export default function About({modal}) {
             buttonLink={whatsappContactLink}
             animation={false}
             className="hover:scale-105"
-            icon={
-              <FaWhatsapp size={24} />
-            }
+            icon={<FaWhatsapp size={24} />}
           />
         </div>
       </p>
@@ -61,7 +60,7 @@ export default function About({modal}) {
             <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
-              className="absolute opacity-30 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
+              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
           </div>
           {/* <img

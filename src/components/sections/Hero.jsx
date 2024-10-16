@@ -9,25 +9,24 @@ import imgLaw from "../../assets/imgs/hero/lawHeroCinza.jpg";
 import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
-
-const whatsappContactLink =  `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Hero() {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark bg-bgSectionDark"
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-bgSectionDark to-bgSectionDark "
       // style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex phone1:flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
+          <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               <MotionDivDownToUp>
-                <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont phone1:text-paragraph4">
+                <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
                   <p className="mb-[16px] bg-white bg-opacity-20 text-white rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                     {content.texts.hero.miniTag}
                   </p>
@@ -39,7 +38,7 @@ export default function Hero() {
                 </div>
               </MotionDivDownToUp>
               <MotionDivDownToUp>
-                <div className="flex justify-center text-center desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
@@ -53,9 +52,7 @@ export default function Hero() {
                     buttonLink={whatsappContactLink}
                     animation
                     className="w-[100%]"
-                    icon={
-                      <FaWhatsapp size={24} />
-                    }
+                    icon={<FaWhatsapp size={24} />}
                   />
                 </div>
               </div>
@@ -92,8 +89,8 @@ export default function Hero() {
                 </MotionDivLeftToRight>
               </div> */}
             </div>
-            <div className="flex justify-center phone1:w-full desktop1:w-[42%] desktop2:w-[42.8%]">
-              <MotionDivDownToUp className="relative flex justify-end phone1:w-full ">
+            <div className="flex justify-center w-full desktop1:w-[42%] desktop2:w-[42.8%]">
+              <MotionDivDownToUp className="relative flex justify-end w-full ">
                 {/* <img
                   src={imgLaw}
                   alt="Foto de itens do direito"
@@ -109,15 +106,13 @@ export default function Hero() {
                 <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
-                  className="absolute opacity-30 phone1:right-[-15px] phone1:top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
+                  className="absolute opacity-30 right-[-15px] top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
                 ></img>
               </MotionDivDownToUp>
             </div>
           </div>
         </div>
-      </div> 
-
-
+      </div>
 
       {/* <div className="bg-black bg-opacity-0">
         <div class="custom-shape-divider-bottom-1720203688">

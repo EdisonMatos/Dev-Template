@@ -26,7 +26,7 @@ const TabComponent = ({ tabs }) => {
   const activeContent = tabs.find((tab) => tab.label === activeTab).content;
 
   return (
-    <div className=" flex justify-center phone1:w-full">
+    <div className=" flex justify-center w-full">
       <div className="flex flex-col border border-gray-300 w-full h-auto rounded-[1%]">
         <div className="flex border-b">
           {tabs.map((tab) => (
