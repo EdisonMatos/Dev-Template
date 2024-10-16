@@ -78,13 +78,14 @@ export default function NavbarSocial({ LightMode }) {
     };
   }, []);
 
-
   return (
     <div className="w-full">
       <div
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           LightMode
-            ? "bg-white"
+            ? scrolling
+              ? "bg-white"
+              : "bg-transparent"
             : scrolling
             ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100"
             : "border-b-[1px] border-transparent border-black"
