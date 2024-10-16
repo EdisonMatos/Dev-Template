@@ -105,7 +105,11 @@ export default function NavbarSocial({ LightMode }) {
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
               className={`${
-                scrolling
+                LightMode
+                  ? scrolling
+                    ? "bg-transparent"
+                    : "bg-white px-3 py-3 transition-all duration-500 ease-in-out"
+                  : scrolling
                   ? "w-[50%] max-w-[50%] tablet2:w-[40%] tablet2:max-w-[40%] desktop1:w-[60%] desktop1:max-w-[60%] transition-all duration-1000 "
                   : "my-[20px] w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[70%] desktop2:w-[100%] transition-all duration-1000 "
               } tablet3:mb-0`}
