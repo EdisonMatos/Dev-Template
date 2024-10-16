@@ -57,9 +57,7 @@ export default function SidebarSocial({ LightMode }) {
 
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            LightMode 
-            ? "text-black"
-            :scrolled ? "text-white" : "text-white"
+            LightMode ? (scrolled ? "text-black" : "text-white") : "text-white"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -74,7 +72,9 @@ export default function SidebarSocial({ LightMode }) {
             <div
               id="app-sidebar-2"
               className={`${
-                LightMode ? "bg-white" : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
+                LightMode
+                  ? "bg-white"
+                  : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
               style={{ width: "280px" }}
             >
@@ -95,7 +95,11 @@ export default function SidebarSocial({ LightMode }) {
                       icon="pi pi-times"
                       rounded
                       outlined
-                      className={`${ LightMode ? "text-black" : "h-2rem w-2rem p-[5px] text-white"}`}
+                      className={`${
+                        LightMode
+                          ? "text-black"
+                          : "h-2rem w-2rem p-[5px] text-white"
+                      }`}
                     ></Button>
                   </span>
                 </div>
@@ -104,9 +108,13 @@ export default function SidebarSocial({ LightMode }) {
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (
-                        <ul className={`${
-                          LightMode ? "text-black" : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"
-                        } list-none text-paragraph3 font-mainFont`}>
+                        <ul
+                          className={`${
+                            LightMode
+                              ? "text-black"
+                              : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"
+                          } list-none text-paragraph3 font-mainFont`}
+                        >
                           <li>
                             <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                               <HomeIcon />
