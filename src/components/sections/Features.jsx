@@ -20,14 +20,9 @@ const modalCardFeatures = {
 export default function Features() {
   return (
     <div>
-      <SectionArea
-        id="service"
-        className="squares"
-        paddingbot={true}
-        paddingtop={false}
-      >
+      <SectionArea id="service" className="squares">
         <SectionShapeDiv
-          shapeDivArrow={true}
+          shapeDivArrow={false}
           shapeColor="text-bgSectionDark"
           paddingbot={false}
         />

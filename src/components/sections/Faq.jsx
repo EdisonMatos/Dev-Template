@@ -12,7 +12,7 @@ export default function Faq() {
     <div className="">
       <SectionArea id="faq" className="bg-neutral-100" paddingtop={false}>
         <SectionShapeDiv
-          shapeDivtriangule
+          shapeDivtriangule={false}
           paddingbot={true}
           shapeColor="text-bgSectionDark"
         />
