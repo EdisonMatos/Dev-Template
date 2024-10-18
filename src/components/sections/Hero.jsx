@@ -5,7 +5,6 @@ import bgHeroImg from "../../assets/imgs/hero/bgHeroPattern.png";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import imgLaw from "../../assets/imgs/hero/lawHeroCinza.jpg";
 import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
@@ -16,7 +15,7 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 export default function Hero() {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-bgSectionDark to-bgSectionDark "
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark "
       // style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
@@ -99,7 +98,7 @@ export default function Hero() {
                 <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[400px] bg-cover desktop1:bg-center bg-no-repeat"
                   style={{
-                    backgroundImage: `url(${imgLaw})`,
+                    backgroundImage: `url(${content.texts.hero.heroImg})`,
                     backgroundSize: "",
                   }}
                 ></div>

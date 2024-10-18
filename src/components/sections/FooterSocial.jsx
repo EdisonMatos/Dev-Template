@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import { Phone } from "lucide-react";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import content from "../../content/content";
+import content, { infos } from "../../content/content";
 import IconButton from "../interactives/IconButton";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
@@ -15,15 +15,13 @@ import { Mail } from "lucide-react";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-
 function FooterSocial({ LightMode, addres, obs }) {
-
   return (
     <footer
       className={
         LightMode
           ? "black"
-          : "bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+          : "bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
       }
     >
       <SectionArea paddingtop={true}>
@@ -152,13 +150,13 @@ function FooterSocial({ LightMode, addres, obs }) {
               </div> */}
 
               {/* Ícones redes sociais */}
-              {/* <MotionDivDownToUp>
+              <MotionDivDownToUp>
                 <p className="opacity-90">{content.texts.footerSocialText}</p>
                 <div className="mt-2 opacity-90">
                   {" "}
                   <div className="flex gap-[10px] items-center">
                     <a
-                      href={content.texts.infos.instagramProfile}
+                      href={infos.instagramProfile}
                       target="_blank"
                       aria-label="Link para o Instagram"
                     >
@@ -191,7 +189,7 @@ function FooterSocial({ LightMode, addres, obs }) {
                         }
                       />
                     </a>
-                    <a
+                    {/* <a
                       href={content.texts.infos.facebookProfile}
                       target="_blank"
                       aria-label="Link para o Facebook"
@@ -240,10 +238,10 @@ function FooterSocial({ LightMode, addres, obs }) {
                           </svg>
                         }
                       />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
-              </MotionDivDownToUp> */}
+              </MotionDivDownToUp>
             </div>
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <MotionDivDownToUp>
