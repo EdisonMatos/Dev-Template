@@ -46,27 +46,27 @@ import { CircleUserRound } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
-const infos = {
-  name: "A Definir",
+export const infos = {
+  name: "Dr. Arthur Nascimento",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "00",
-    firstPart: "90000", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0000", // Apenas os 4 últimos números
+    ddd: "92",
+    firstPart: "98806", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5906", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Avenida Major Gabriel, nº 768 - Centro</p>
+      <p>Manaus - AM</p>
+      <p>CEP 69020-405</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de Expediente:</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 8h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -317,8 +317,9 @@ const content = {
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "A Definir",
-      footerText: "A Definir",
+      midSectionName: "Até mais",
+      footerText:
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
       footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
     },
