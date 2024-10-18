@@ -11,13 +11,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
-// Para manter o modal visível, mantenha o valor de modalFeatures como true,
-// caso queira ocultar, troque true por false
-const modalCardFeatures = {
-  modalFeatures: false,
-};
-
-export default function Features() {
+export default function Features({ modal }) {
   return (
     <div>
       <SectionArea id="service" className="squares">
@@ -60,16 +54,10 @@ export default function Features() {
                 style={{
                   backgroundImage: `url(${content.texts.features.imgFeatures})`,
                 }}
-              >
-                {/* <img
-              src={content.texts.features.imgFeatures}
-              alt="Imagem ilustrativa da seção"
-              className="rounded-2xl"
-            /> */}
-              </div>
+              ></div>
             </MotionDivDownToUp>
             <div className="col3 desktop1:w-[28%] flex flex-col items-center">
-              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
+              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
                 <IconFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
@@ -77,13 +65,13 @@ export default function Features() {
                   className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
                 />
               </MotionDivDownToUp>
-              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
+              <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
                 <IconFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
                   paragraph={content.texts.features.card4.subtitle}
                 >
-                  {modalCardFeatures.modalFeatures && (
+                  {modal && (
                     <div>
                       <ServicesModal />
                     </div>

@@ -19,13 +19,8 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-// Para manter o botão do modal visível, mantenha o valor de modalTextAbout como true,
-// para ocultar o botão, substitua true por false
-const modalAbout = {
-  modalTextAbout: true,
-};
 
-export default function About() {
+export default function About({modal}) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -90,7 +85,7 @@ export default function About() {
             </Paragraphs>
             {/* Início Botão de saiba mais abrindo modal */}
 
-            {modalAbout.modalTextAbout && (
+            {modal && (
               <Button
                 className="mt-[48px]"
                 label={content.texts.about.buttonModalLabelAbout}

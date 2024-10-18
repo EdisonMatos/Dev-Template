@@ -11,21 +11,27 @@ import FooterSocial from "../components/sections/FooterSocial";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 
+
+// Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
+// Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
+// Para ativar as informações de observação no Footer, adicionar (obs={true}) para informações de observação e remover para desativar.
+// Para ativar o endereço no Footer, adicionar (addres={true}) para informações de observação e remover para desativar.
 // Para ativar o modo LightMode na Navbar copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
 // Para ativar o modo LightMode no Footer copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
+
 
 export default function Index() {
   return (
     <div>
       <Navbar LightMode={true} />
       <Hero />
-      <Features />
+      <Features  />
       <About />
       {/* <AboutInstagram /> */}
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial />
+      <FooterSocial obs={true} addres={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
