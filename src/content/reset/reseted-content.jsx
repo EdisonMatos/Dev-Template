@@ -80,7 +80,7 @@ const infos = {
 const content = {
   texts: {
     infos: {
-      phone: `(${infos.phone.ddd})${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       adress: infos.endereco,
       officeHours: infos.expediente,
