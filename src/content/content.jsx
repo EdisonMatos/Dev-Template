@@ -105,9 +105,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
+      miniTag: "ADVOGADO ADMINISTRATIVO E CÍVEL EM MANAUS - AM",
+      title: (
+        <h1 className="mb-[16px]">
+          Especializados em <span className="text-primary">resolver</span> seus
+          problemas
+        </h1>
+      ),
+      subtitle:
+        "Mas de uma década de atuação jurídica dedicada a encontrar soluções eficientes e seguras para nossos clientes.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
