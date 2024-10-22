@@ -39,10 +39,14 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-import { Calculator } from "lucide-react";
-import { Briefcase } from "lucide-react";
-import { HardHat } from "lucide-react";
-import { CircleUserRound } from "lucide-react";
+import {
+  Calculator,
+  User,
+  House,
+  Briefcase,
+  HardHat,
+  CircleUserRound,
+} from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -105,9 +109,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
+      miniTag: "ADVOGADO ADMINISTRATIVO E CÍVEL EM MANAUS - AM",
+      title: (
+        <h1 className="mb-[16px]">
+          Especializados em <span className="text-primary">resolver</span> seus
+          problemas
+        </h1>
+      ),
+      subtitle:
+        "Mas de uma década de atuação jurídica dedicada a encontrar soluções eficientes e seguras para nossos clientes.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
@@ -134,15 +144,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Transformando conflitos em soluções",
+      subtitle:
+        "Com ênfase em diversas áreas nossa experiência garante estratégias jurídicas precisas para resolver desafios complexos",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Administrativo",
+        subtitle:
+          "Defesa em processos administrativos e gestão de demandas com órgãos públicos.",
         description: (
           <div>
             A Definir <br />
@@ -156,8 +168,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Cível",
+        subtitle:
+          "Resolução de disputas contratuais, patrimoniais e de responsabilidade civil.",
         description: (
           <div>
             A Definir <br />
@@ -166,15 +179,16 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <Briefcase />,
+        icon: <User />,
         buttonLabelModal: "Ortodontia",
         buttonLabel:
           "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Trabalhista",
+        subtitle:
+          "Assessoria em questões trabalhistas para empresas e empregados.",
         description: (
           <div>
             A Definir <br />
@@ -188,8 +202,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir.",
+        title: "Imobiliário",
+        subtitle:
+          "Consultoria em compra, venda, locação e regularização de imóveis.",
         description: (
           <div>
             A Definir <br />
@@ -199,7 +214,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <CircleUserRound />,
+        icon: <House />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
@@ -209,34 +224,84 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É DR. ARTHUR NASCIMENTO",
+      title: "Minha trajetória",
+      subtitle:
+        "Uma jornada dedicada à justiça e à transformação de vidas através da advocacia.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          A decisão de seguir a carreira jurídica foi influenciada por diversos
+          fatores. Desde jovem, sempre tive um forte senso de justiça e um
+          desejo ardente de fazer a diferença na vida das pessoas. A advocacia
+          me pareceu o caminho perfeito para unir essa vocação com minha
+          habilidade natural para argumentação e resolução de problemas
+          complexos.
+          <br />
+          Durante minha graduação, tive a oportunidade de estagiar em
+          escritórios de advocacia de prestígio e participar de projetos de
+          assistência jurídica gratuita. Essas experiências solidificaram minha
+          convicção de que a advocacia era mais do que uma profissão para mim -
+          era um chamado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>A Definir</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
+          <strong>
+            Uma jornada dedicada à justiça e à transformação de vidas através da
+            advocacia.
+          </strong>
           <br />
           <br />
-          A Definir
+          A decisão de seguir a carreira jurídica foi influenciada por diversos
+          fatores. Desde jovem, sempre tive um forte senso de justiça e um
+          desejo ardente de fazer a diferença na vida das pessoas. A advocacia
+          me pareceu o caminho perfeito para unir essa vocação com minha
+          habilidade natural para argumentação e resolução de problemas
+          complexos.
           <br />
-          A Definir
+          Durante minha graduação, tive a oportunidade de estagiar em
+          escritórios de advocacia de prestígio e participar de projetos de
+          assistência jurídica gratuita. Essas experiências solidificaram minha
+          convicção de que a advocacia era mais do que uma profissão para mim -
+          era um chamado.
           <br />
           <br />
-          A Definir
+          Após me formar, iniciei minha carreira em varias empresas de São Paulo
+          algumas delas na Faria Lima. Lá, pude aprimorar minhas habilidades e
+          ganhar uma compreensão profunda dos desafios enfrentados por empresas
+          de diversos setores. Com o tempo, expandi minha atuação para áreas
+          como Direito Tributário e Contencioso Cível, sempre buscando oferecer
+          soluções inovadoras e eficazes para meus clientes.
           <br />
           <br />
-          A Definir
+          O que realmente me motiva na advocacia é a oportunidade de ser um
+          agente de transformação. Seja defendendo os direitos de um indivíduo
+          ou orientando uma grande corporação em questões complexas, cada caso é
+          uma chance de fazer justiça e contribuir para um sistema legal mais
+          equitativo e eficiente.
           <br />
           <br />
-          <p>A Definir</p>
+          Ao longo dos anos, tive a honra de trabalhar em casos desafiadores que
+          não apenas expandiram minha expertise, mas também tiveram impactos
+          significativos na jurisprudência brasileira. Essa trajetória me
+          ensinou que a advocacia é uma profissão de aprendizado contínuo, onde
+          cada novo desafio é uma oportunidade de crescimento.
+          <br />
+          <br />
+          Olhando para o futuro, estou entusiasmado com as possibilidades que a
+          tecnologia traz para o campo jurídico. Acredito que a integração de
+          ferramentas de inteligência artificial e análise de dados pode
+          revolucionar a forma como praticamos o Direito, tornando-o mais
+          acessível e eficiente.
+          <br />
+          <br />
+          Em resumo, minha jornada na advocacia tem sido uma busca constante
+          pela excelência e pelo impacto positivo. Cada dia traz novos desafios
+          e oportunidades de aprendizado, e é isso que torna esta profissão tão
+          gratificante e emocionante para mim.
+          <br />
           <br />
         </p>
       ),
@@ -256,63 +321,73 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir!",
-      subtitle: "A Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso processo de atendimento jurídico?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende uma consulta conosco via WhatsApp para discutirmos as necessidades da sua empresa e avaliarmos os custos envolvidos.",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade do caso, mas forneceremos uma estimativa detalhada durante a consulta inicial.",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos sociais, documentos fiscais, contratos de prestação de serviços e quaisquer registros pertinentes, além de documentos de identificação dos representantes legais.",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para ajudar sua empresa a evitar litígios e garantir conformidade legal, promovendo segurança jurídica em suas operações.",
         },
       },
-      paragraph: "A Definir",
+      paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
