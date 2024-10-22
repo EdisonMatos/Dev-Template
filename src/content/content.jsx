@@ -39,10 +39,14 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-import { Calculator } from "lucide-react";
-import { Briefcase } from "lucide-react";
-import { HardHat } from "lucide-react";
-import { CircleUserRound } from "lucide-react";
+import {
+  Calculator,
+  User,
+  House,
+  Briefcase,
+  HardHat,
+  CircleUserRound,
+} from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -140,15 +144,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Transformando conflitos em soluções",
+      subtitle:
+        "Com ênfase em diversas áreas nossa experiência garante estratégias jurídicas precisas para resolver desafios complexos",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Administrativo",
+        subtitle:
+          "Defesa em processos administrativos e gestão de demandas com órgãos públicos.",
         description: (
           <div>
             A Definir <br />
@@ -162,8 +168,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Cível",
+        subtitle:
+          "Resolução de disputas contratuais, patrimoniais e de responsabilidade civil.",
         description: (
           <div>
             A Definir <br />
@@ -172,15 +179,16 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <Briefcase />,
+        icon: <User />,
         buttonLabelModal: "Ortodontia",
         buttonLabel:
           "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Trabalhista",
+        subtitle:
+          "Assessoria em questões trabalhistas para empresas e empregados.",
         description: (
           <div>
             A Definir <br />
@@ -194,8 +202,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir.",
+        title: "Imobiliário",
+        subtitle:
+          "Consultoria em compra, venda, locação e regularização de imóveis.",
         description: (
           <div>
             A Definir <br />
@@ -205,7 +214,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <CircleUserRound />,
+        icon: <House />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
