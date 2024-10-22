@@ -155,7 +155,9 @@ function FooterSocial({ LightMode, addres, obs }) {
                 <div className="mt-2 opacity-90">
                   {" "}
                   <div className="flex gap-[10px] items-center">
-                    <a
+                    {/* Instagram icon */}
+
+                    {/* <a
                       href={infos.instagramProfile}
                       target="_blank"
                       aria-label="Link para o Instagram"
@@ -188,7 +190,10 @@ function FooterSocial({ LightMode, addres, obs }) {
                           </svg>
                         }
                       />
-                    </a>
+                    </a> */}
+
+                    {/* Instagram icon */}
+
                     {/* <a
                       href={content.texts.infos.facebookProfile}
                       target="_blank"
