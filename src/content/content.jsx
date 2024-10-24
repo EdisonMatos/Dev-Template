@@ -51,26 +51,26 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Arthur Nascimento",
+  name: "",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "92",
-    firstPart: "98806", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "5906", // Apenas os 4 últimos números
+    ddd: "A Definir",
+    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
-      <p>Avenida Major Gabriel, nº 768 - Centro</p>
-      <p>Manaus - AM</p>
-      <p>CEP 69020-405</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   expediente: (
     <div>
-      <p>Horário de Expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 17h</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -109,15 +109,13 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO ADMINISTRATIVO E CÍVEL EM MANAUS - AM",
+      miniTag: "A Definir",
       title: (
         <h1 className="mb-[16px]">
-          Especializados em <span className="text-primary">resolver</span> seus
-          problemas
+          A Definir <span className="text-primary">A Definir</span> A Definir
         </h1>
       ),
-      subtitle:
-        "Mas de uma década de atuação jurídica dedicada a encontrar soluções eficientes e seguras para nossos clientes.",
+      subtitle: "A Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
@@ -144,17 +142,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Transformando conflitos em soluções",
-      subtitle:
-        "Com ênfase em diversas áreas nossa experiência garante estratégias jurídicas precisas para resolver desafios complexos",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Administrativo",
-        subtitle:
-          "Defesa em processos administrativos e gestão de demandas com órgãos públicos.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -168,9 +164,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Cível",
-        subtitle:
-          "Resolução de disputas contratuais, patrimoniais e de responsabilidade civil.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -181,14 +176,12 @@ const content = {
         imgModal: imgFeaturesCardModal2,
         icon: <User />,
         buttonLabelModal: "Ortodontia",
-        buttonLabel:
-          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
+        buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhista",
-        subtitle:
-          "Assessoria em questões trabalhistas para empresas e empregados.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -202,9 +195,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Imobiliário",
-        subtitle:
-          "Consultoria em compra, venda, locação e regularização de imóveis.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -224,83 +216,27 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. ARTHUR NASCIMENTO",
-      title: "Minha trajetória",
-      subtitle:
-        "Uma jornada dedicada à justiça e à transformação de vidas através da advocacia.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          A decisão de seguir a carreira jurídica foi influenciada por diversos
-          fatores. Desde jovem, sempre tive um forte senso de justiça e um
-          desejo ardente de fazer a diferença na vida das pessoas. A advocacia
-          me pareceu o caminho perfeito para unir essa vocação com minha
-          habilidade natural para argumentação e resolução de problemas
-          complexos.
-          <br />
-          Durante minha graduação, tive a oportunidade de estagiar em
-          escritórios de advocacia de prestígio e participar de projetos de
-          assistência jurídica gratuita. Essas experiências solidificaram minha
-          convicção de que a advocacia era mais do que uma profissão para mim -
-          era um chamado.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>
-            Uma jornada dedicada à justiça e à transformação de vidas através da
-            advocacia.
-          </strong>
+          <strong>A Definir</strong>
           <br />
           <br />
-          A decisão de seguir a carreira jurídica foi influenciada por diversos
-          fatores. Desde jovem, sempre tive um forte senso de justiça e um
-          desejo ardente de fazer a diferença na vida das pessoas. A advocacia
-          me pareceu o caminho perfeito para unir essa vocação com minha
-          habilidade natural para argumentação e resolução de problemas
-          complexos.
+          A Definir
           <br />
-          Durante minha graduação, tive a oportunidade de estagiar em
-          escritórios de advocacia de prestígio e participar de projetos de
-          assistência jurídica gratuita. Essas experiências solidificaram minha
-          convicção de que a advocacia era mais do que uma profissão para mim -
-          era um chamado.
+          A Definir
           <br />
-          <br />
-          Após me formar, iniciei minha carreira em varias empresas de São Paulo
-          algumas delas na Faria Lima. Lá, pude aprimorar minhas habilidades e
-          ganhar uma compreensão profunda dos desafios enfrentados por empresas
-          de diversos setores. Com o tempo, expandi minha atuação para áreas
-          como Direito Tributário e Contencioso Cível, sempre buscando oferecer
-          soluções inovadoras e eficazes para meus clientes.
-          <br />
-          <br />
-          O que realmente me motiva na advocacia é a oportunidade de ser um
-          agente de transformação. Seja defendendo os direitos de um indivíduo
-          ou orientando uma grande corporação em questões complexas, cada caso é
-          uma chance de fazer justiça e contribuir para um sistema legal mais
-          equitativo e eficiente.
-          <br />
-          <br />
-          Ao longo dos anos, tive a honra de trabalhar em casos desafiadores que
-          não apenas expandiram minha expertise, mas também tiveram impactos
-          significativos na jurisprudência brasileira. Essa trajetória me
-          ensinou que a advocacia é uma profissão de aprendizado contínuo, onde
-          cada novo desafio é uma oportunidade de crescimento.
-          <br />
-          <br />
-          Olhando para o futuro, estou entusiasmado com as possibilidades que a
-          tecnologia traz para o campo jurídico. Acredito que a integração de
-          ferramentas de inteligência artificial e análise de dados pode
-          revolucionar a forma como praticamos o Direito, tornando-o mais
-          acessível e eficiente.
-          <br />
-          <br />
-          Em resumo, minha jornada na advocacia tem sido uma busca constante
-          pela excelência e pelo impacto positivo. Cada dia traz novos desafios
-          e oportunidades de aprendizado, e é isso que torna esta profissão tão
-          gratificante e emocionante para mim.
+          <br />A Definir
           <br />
           <br />
         </p>
