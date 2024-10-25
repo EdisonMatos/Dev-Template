@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import { Phone } from "lucide-react";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import content from "../../content/content";
+import content, { infos } from "../../content/content";
 import IconButton from "../interactives/IconButton";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
@@ -15,22 +15,17 @@ import { Mail } from "lucide-react";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-// Para manter o endereço visível, basta manter o valor de addres como true,
-// caso queira ocultar sua visualozação basta colocar false no lugar do true
-const addresInfo = {
-  addres: true,
-};
-
-// Para manter a mensagem de observação visível, basta manter o valor de obs como true,
-// caso queira ocultar sua visualozação basta colocar false no lugar do true
-const observationInfo = {
-  obs: false,
-};
-
-function FooterSocial({ LightMode }) {
+function FooterSocial({ LightMode, addres, obs }) {
   return (
-    <footer className="bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat">
-      <SectionArea paddingtop={true} >
+
+    <footer
+      className={
+        LightMode
+          ? "black"
+          : "bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+      }
+    >
+      <SectionArea paddingtop={true}>
         {/* <SectionShapeDiv shapeDivArrow shapeColor="text-neutral-100" /> */}
         <SectionWrapper>
           <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
@@ -40,7 +35,7 @@ function FooterSocial({ LightMode }) {
                   <img
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
-                    className="max-h-[88px] w-auto"
+                    className="max-h-[88px] w-auto bg-white p-[12px]"
                     // className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
                   ></img>
                 </div>
@@ -65,7 +60,7 @@ function FooterSocial({ LightMode }) {
                   <p className="text-paragraph2">{content.texts.infos.email}</p>
                 </div>
               </MotionDivDownToUp>
-              {addresInfo.addres && (
+              {addres && (
                 <MotionDivDownToUp>
                   <div className="flex full gap-x-[12px] items-center opacity-90">
                     <div>
@@ -88,7 +83,7 @@ function FooterSocial({ LightMode }) {
 
               {/* Msg de observação */}
 
-              {observationInfo.obs && (
+              {obs && (
                 <MotionDivDownToUp>
                   {" "}
                   <div className="flex full gap-x-[12px] items-center opacity-90">
@@ -156,13 +151,15 @@ function FooterSocial({ LightMode }) {
               </div> */}
 
               {/* Ícones redes sociais */}
-              {/* <MotionDivDownToUp>
+              <MotionDivDownToUp>
                 <p className="opacity-90">{content.texts.footerSocialText}</p>
                 <div className="mt-2 opacity-90">
                   {" "}
                   <div className="flex gap-[10px] items-center">
-                    <a
-                      href={content.texts.infos.instagramProfile}
+                    {/* Instagram icon */}
+
+                    {/* <a
+                      href={infos.instagramProfile}
                       target="_blank"
                       aria-label="Link para o Instagram"
                     >
@@ -194,8 +191,11 @@ function FooterSocial({ LightMode }) {
                           </svg>
                         }
                       />
-                    </a>
-                    <a
+                    </a> */}
+
+                    {/* Instagram icon */}
+
+                    {/* <a
                       href={content.texts.infos.facebookProfile}
                       target="_blank"
                       aria-label="Link para o Facebook"
@@ -244,10 +244,10 @@ function FooterSocial({ LightMode }) {
                           </svg>
                         }
                       />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
-              </MotionDivDownToUp> */}
+              </MotionDivDownToUp>
             </div>
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <MotionDivDownToUp>

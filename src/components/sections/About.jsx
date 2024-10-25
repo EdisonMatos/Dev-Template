@@ -15,17 +15,12 @@ import imgPoints from "../../assets/imgs/about/points.png";
 import AboutFading from "../sectionElements/AboutFading";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { MoveRight } from "lucide-react";
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-// Para manter o botão do modal visível, mantenha o valor de modalTextAbout como true,
-// para ocultar o botão, substitua true por false
-const modalAbout = {
-  modalTextAbout: true,
-};
 
-export default function About() {
+export default function About({modal}) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -35,6 +30,7 @@ export default function About() {
     setModalContent(
       <p className="text-paragraph3">
         {content.texts.about.modal}
+        <p className="mb-[20px]">Quer saber mais sobre nós? Clique abaixo 👇</p>
         <div>
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
@@ -42,9 +38,7 @@ export default function About() {
             buttonLink={whatsappContactLink}
             animation={false}
             className="hover:scale-105"
-            icon={
-              <FaWhatsapp size={24} />
-            }
+            icon={<FaWhatsapp size={24} />}
           />
         </div>
       </p>
@@ -91,7 +85,7 @@ export default function About() {
             </Paragraphs>
             {/* Início Botão de saiba mais abrindo modal */}
 
-            {modalAbout.modalTextAbout && (
+            {modal && (
               <Button
                 className="mt-[48px]"
                 label={content.texts.about.buttonModalLabelAbout}

@@ -1,15 +1,14 @@
 import logo from "../assets/imgs/logo/logo.png";
-import solidLogo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServicesCinza.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImgCinza.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgStepsCinza.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -39,25 +38,21 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-import {
-  Calculator,
-  User,
-  House,
-  Briefcase,
-  HardHat,
-  CircleUserRound,
-} from "lucide-react";
+import { Calculator } from "lucide-react";
+import { Briefcase } from "lucide-react";
+import { HardHat } from "lucide-react";
+import { CircleUserRound } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
-export const infos = {
-  name: "",
+const infos = {
+  name: "A Definir",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "90000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -68,7 +63,7 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>A Definir</p>
+      <p>Horário de Expediente:</p>
       <p>A Definir</p>
       <p>A Definir</p>
     </div>
@@ -110,13 +105,8 @@ const content = {
     },
     hero: {
       miniTag: "A Definir",
-      title: (
-        <h1 className="mb-[16px]">
-          A Definir <span className="text-primary">A Definir</span> A Definir
-        </h1>
-      ),
+      title: <h1 className="mb-[16px]">A Definir</h1>,
       subtitle: "A Definir",
-      heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -174,9 +164,10 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <User />,
+        icon: <Briefcase />,
         buttonLabelModal: "Ortodontia",
-        buttonLabel: "A Definir",
+        buttonLabel:
+          "Correção da posição dos dentes e mandíbulas para um sorriso alinhado e saudável.",
       },
       card3: {
         img: featuresImg3,
@@ -196,7 +187,7 @@ const content = {
       card4: {
         img: featuresImg4,
         title: "A Definir",
-        subtitle: "A Definir",
+        subtitle: "A Definir.",
         description: (
           <div>
             A Definir <br />
@@ -206,7 +197,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <House />,
+        icon: <CircleUserRound />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
@@ -226,7 +217,7 @@ const content = {
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Minha trajetória</strong>,
+      titleModal: <strong>A Definir</strong>,
       modal: (
         <p>
           <strong>A Definir</strong>
@@ -236,8 +227,14 @@ const content = {
           <br />
           A Definir
           <br />
-          <br />A Definir
           <br />
+          A Definir
+          <br />
+          <br />
+          A Definir
+          <br />
+          <br />
+          <p>A Definir</p>
           <br />
         </p>
       ),
@@ -257,80 +254,69 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A Definir",
+      title: "A Definir!",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende uma consulta conosco via WhatsApp para discutirmos as necessidades da sua empresa e avaliarmos os custos envolvidos.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade do caso, mas forneceremos uma estimativa detalhada durante a consulta inicial.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos sociais, documentos fiscais, contratos de prestação de serviços e quaisquer registros pertinentes, além de documentos de identificação dos representantes legais.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para ajudar sua empresa a evitar litígios e garantir conformidade legal, promovendo segurança jurídica em suas operações.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
-      paragraph: "Clique aqui caso tenha mais dúvidas",
+      paragraph: "A Definir",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais",
-      footerText:
-        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      midSectionName: "A Definir",
+      footerText: "A Definir",
       footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
     },

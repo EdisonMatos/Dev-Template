@@ -5,19 +5,17 @@ import bgHeroImg from "../../assets/imgs/hero/bgHeroPattern.png";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import imgLaw from "../../assets/imgs/hero/lawHeroCinza.jpg";
 import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
-
-const whatsappContactLink =  `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Hero() {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark bg-bgSectionDark"
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark "
       // style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
@@ -39,7 +37,7 @@ export default function Hero() {
                 </div>
               </MotionDivDownToUp>
               <MotionDivDownToUp>
-                <div className="flex justify-center text-center desktop1:text-left desktop1:justify-start w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
                   <p className="text-lighter mb-[32px] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
@@ -53,9 +51,7 @@ export default function Hero() {
                     buttonLink={whatsappContactLink}
                     animation
                     className="w-[100%]"
-                    icon={
-                      <FaWhatsapp size={24} />
-                    }
+                    icon={<FaWhatsapp size={24} />}
                   />
                 </div>
               </div>
@@ -102,7 +98,7 @@ export default function Hero() {
                 <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[400px] bg-cover desktop1:bg-center bg-no-repeat"
                   style={{
-                    backgroundImage: `url(${imgLaw})`,
+                    backgroundImage: `url(${content.texts.hero.heroImg})`,
                     backgroundSize: "",
                   }}
                 ></div>
@@ -115,9 +111,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </div> 
-
-
+      </div>
 
       {/* <div className="bg-black bg-opacity-0">
         <div class="custom-shape-divider-bottom-1720203688">
