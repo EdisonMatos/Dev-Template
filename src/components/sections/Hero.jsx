@@ -54,14 +54,16 @@ export default function Hero() {
                     icon={<FaWhatsapp size={24} />}
                   />
                 </div>
-                <div className="flex justify-center desktop1:justify-start">
-                  <div className="flex items-center">
-                    {content.texts.hero.obsHero.icon}
-                    <p className="text-white opacity-80 ml-[10px] text-center">
-                      {content.texts.hero.obsHero.text}
-                    </p>
+                <MotionDivDownToUp>
+                  <div className="flex justify-center desktop1:justify-start">
+                    <div className="flex items-center">
+                      {content.texts.hero.obsHero.icon}
+                      <p className="text-white opacity-80 ml-[10px] text-center">
+                        {content.texts.hero.obsHero.text}
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </MotionDivDownToUp>
               </div>
               {/* <div className="">
                 <MotionDivLeftToRight>

@@ -46,6 +46,9 @@ import {
   Briefcase,
   HardHat,
   CircleUserRound,
+  BadgePercent,
+  FileCheck,
+  Scale,
 } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
@@ -165,15 +168,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções Imobiliárias com excelência",
+      subtitle:
+        "Especializados em regularização fundiária, aquisição de imóveis e correção de registros.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Inventário",
+        subtitle:
+          "Processo de divisão de bens e regularização patrimonial após o falecimento de um ente querido.",
         description: (
           <div>
             A Definir <br />
@@ -181,14 +186,15 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <Calculator />,
+        icon: <BadgePercent />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Usucapião",
+        subtitle:
+          "Aquisição de propriedade pela posse prolongada e pacífica do imóvel.",
         description: (
           <div>
             A Definir <br />
@@ -197,14 +203,15 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <User />,
+        icon: <House />,
         buttonLabelModal: "Ortodontia",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Regularização de Imóveis",
+        subtitle:
+          "Garantia de conformidade com as normas e registros públicos.",
         description: (
           <div>
             A Definir <br />
@@ -212,14 +219,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <HardHat />,
+        icon: <FileCheck />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Adjudicação Compulsória",
+        subtitle: "Obtenção de propriedade mediante ação judicial.",
         description: (
           <div>
             A Definir <br />
@@ -229,7 +236,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <House />,
+        icon: <Scale />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
@@ -239,27 +246,51 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É DR. TIAGO TEIXEIRA SILVA",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogado com MBA em Direito Contratual (FGV), especialista em Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental (Escola Superior do Ministério Público de São Paulo.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          O escritório Tiago Teixeira Silva Advocacia é especializado em
+          INVENTÁRIO JUDICIAL, EXTRAJUDICIAL e REGULARIZAÇÃO DE IMÓVEIS, está
+          sempre se aperfeiçoando para proporcionar segurança na transmissão dos
+          bens a quem de direito e, em colocar o nome do cliente na matrícula do
+          imóvel.
+          <br />
+          Sempre primando por um atendimento personalizado e humano, buscamos a
+          proteção do patrimônio conquistado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
+          <strong>
+            Advogado com MBA em Direito Contratual (FGV), especialista em
+            Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental
+            (Escola Superior do Ministério Público de São Paulo).
+          </strong>
           <br />
           <br />
-          A Definir
+          O escritório Tiago Teixeira Silva Advocacia é especializado em
+          INVENTÁRIO JUDICIAL, EXTRAJUDICIAL e REGULARIZAÇÃO DE IMÓVEIS, está
+          sempre se aperfeiçoando para proporcionar segurança na transmissão dos
+          bens a quem de direito e, em colocar o nome do cliente na matrícula do
+          imóvel.
           <br />
-          A Definir
+          Sempre primando por um atendimento personalizado e humano, buscamos a
+          proteção do patrimônio conquistado.
           <br />
-          <br />A Definir
+          <br />
+          Contamos ainda com a parceria de advogados especialistas para atender
+          demandas necessárias à regularização de imóveis e ao próprio
+          inventário.
+          <br />
+          <br />
+          Contamos com a facilidade de um escritório digital e prezamos pela
+          agilidade do atendimento e reuniões por videoconferência. Caso tenha
+          interesse, atendemos presencialmente na cidade de Campinas - SP.
           <br />
           <br />
         </p>

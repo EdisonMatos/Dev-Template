@@ -23,9 +23,9 @@ export default function Index() {
     <div>
       <Navbar />
       <Hero />
-      <Features />
+      <Features modal={true} />
       <About modal={true} />
-      {/* <AboutInstagram /> */}
+      <AboutInstagram />
       <Cta />
       <Steps />
       <Faq />
