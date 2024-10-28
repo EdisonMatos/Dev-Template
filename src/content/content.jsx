@@ -109,13 +109,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
+      miniTag: "ADVOGADO IMOBILIÁRIO EM CAMPINAS - SP",
       title: (
         <h1 className="mb-[16px]">
-          A Definir <span className="text-primary">A Definir</span> A Definir
+          Transformamos{" "}
+          <span className="text-primary">desafios imobiliários</span> em
+          soluções.
         </h1>
       ),
-      subtitle: "A Definir",
+      subtitle:
+        "Com expertise em inventários e regularização de imóveis, garantimos que seu patrimônio seja protegido e seus direitos plenamente assegurados, do início ao fim do processo.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       ctaButtonAriaLabel:
