@@ -12,6 +12,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { CalendarCheck2 } from "lucide-react";
 import { MapPin } from "lucide-react";
 import { Mail } from "lucide-react";
+import { classNames } from "primereact/utils";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -30,9 +31,9 @@ const observationInfo = {
 function FooterSocial({ LightMode }) {
   return (
     <footer className="bg-bgSectionDark full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat">
-      <SectionArea paddingtop={true} >
+      <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         {/* <SectionShapeDiv shapeDivArrow shapeColor="text-neutral-100" /> */}
-        <SectionWrapper>
+        <SectionWrapper className="gap-[42px]">
           <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
               <MotionDivDownToUp>
@@ -328,7 +329,7 @@ function FooterSocial({ LightMode }) {
 
           <div className="hidden w-[88%] max-w-[1110px] bg-secondary"></div>
 
-          <div className="text-center w-[88%] max-w-[1110px] flex flex-col mt-[60px] mb-[48px] phone2:mb-[80px] tablet1:mb-0">
+          <div className="text-center w-full phone2:w-[90%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
             <p className="w-full opacity-75">
               {content.texts.footer.copyrightLine}
             </p>
