@@ -331,12 +331,12 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
+      miniTag: "A Definir",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "A Definir",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+        "A Definir",
+      ctaButtonText: "A Definir",
     },
     steps: {
       miniTag: "PASSO A PASSO",
@@ -347,57 +347,57 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "A Definir",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "A Definir",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "A Definir",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "A Definir",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "A Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "A Definir",
           answer:
-            "Agende uma consulta conosco via WhatsApp para discutirmos as necessidades da sua empresa e avaliarmos os custos envolvidos.",
+            "A Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "A Definir",
           answer:
-            "O prazo médio varia conforme a complexidade do caso, mas forneceremos uma estimativa detalhada durante a consulta inicial.",
+            "A Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "A Definir",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos sociais, documentos fiscais, contratos de prestação de serviços e quaisquer registros pertinentes, além de documentos de identificação dos representantes legais.",
+            "A Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "A Definir",
           answer:
-            "Sim, oferecemos consultoria preventiva para ajudar sua empresa a evitar litígios e garantir conformidade legal, promovendo segurança jurídica em suas operações.",
+            "A Definir",
         },
       },
-      paragraph: "Clique aqui caso tenha mais dúvidas",
+      paragraph: "A Definir",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
