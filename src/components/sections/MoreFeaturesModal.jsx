@@ -9,6 +9,11 @@ import ServiceDetailCard from "../cards/ServiceDetailCard";
 import content from "../../content/content";
 import AcordionModalServices from "../interactives/AcordionModalServices";
 import Button from "../interactives/Button";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import IconFeatureCard from "../cards/IconFeatureCard";
+import { FaWhatsapp } from "react-icons/fa";
+
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 const MoreFeaturesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -28,7 +33,7 @@ const MoreFeaturesModal = () => {
         removeAnchor={true}
         removeTarget={true}
         tagName="div"
-        label="Ver todos"
+        label="Saber mais"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,15 +57,59 @@ const MoreFeaturesModal = () => {
       />
 
       <Dialog
-        header="Nossos Procedimentos"
+        header="Demais Áreas de Atuação"
+        className="font-mainFont"
         headerStyle={{ paddingBottom: "3px" }}
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "384px", "426px": "90vw" }}
+        breakpoints={{ "4000px": "880px", "1440px": "60vw", "550px": "90vw" }}
         contentStyle={{ padding: "1rem", paddingLeft: "", paddingRight: "" }}
       >
-        <div className="flex flex-col w-full gap-[12px]">Hello world</div>
+        <div className="flex flex-col desktop1:flex-wrap desktop1:flex-row desktop1:justify-center items-center gap-[40px]">
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.moreFeatures.card1.ico}
+              title={content.texts.features.moreFeatures.card1.title}
+              paragraph={content.texts.features.moreFeatures.card1.subtitle}
+              className=" desktop1:h-auto mt-[30px] desktop1:w-[200px] "
+            />
+          </MotionDivDownToUp>
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.moreFeatures.card2.ico}
+              title={content.texts.features.moreFeatures.card2.title}
+              paragraph={content.texts.features.moreFeatures.card2.subtitle}
+              className=" desktop1:h-auto desktop1:w-[200px] "
+            />
+          </MotionDivDownToUp>
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.moreFeatures.card3.ico}
+              title={content.texts.features.moreFeatures.card3.title}
+              paragraph={content.texts.features.moreFeatures.card3.subtitle}
+              className=" desktop1:h-auto desktop1:w-[200px] "
+            />
+          </MotionDivDownToUp>
+          <div className="w-full h-px bg-neutral-400"></div>
+          <div className="flex flex-col mb-[30px] items-center">
+            <p className="mb-[20px] text-center font-mainFont">
+              Quer saber mais detalhes sobre nossas áreas de atuação? <br />
+              <br />
+              Clique abaixo 👇
+            </p>
+            <div>
+              <Button
+                aria-label={content.texts.about.ctaButtonAriaLabel}
+                label={content.texts.about.ctaButtonText}
+                buttonLink={whatsappContactLink}
+                animation={false}
+                className="hover:scale-105"
+                icon={<FaWhatsapp size={24} />}
+              />
+            </div>
+          </div>
+        </div>
       </Dialog>
     </div>
   );

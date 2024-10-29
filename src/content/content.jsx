@@ -57,13 +57,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "",
+  name: "Teixeira Silva Advocacia",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "19",
+    firstPart: "99844", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8664", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -74,13 +74,13 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Horário de expediente</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 8h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
+  instagramProfile: "tsadvocacia.drn", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -323,81 +323,89 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
-        paragraph: <p>A Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Siga-me nas redes sociais!",
+        subtitle:
+          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Teixeira Silva no Instagram!",
+        paragraph: (
+          <p>
+            Acompanhe nossas redes para dicas e insights sobre Regularização
+            Fundiária, Usucapião, Inventário, Retificação de Área e muito mais!
+            Não perca a oportunidade de se informar e entender melhor sobre seus
+            direitos imobiliários.
+          </p>
+        ),
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
+      miniTag: "FALE CONOSCO",
       title:
-        "A Definir",
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "A Definir",
-      ctaButtonText: "A Definir",
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
       miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      title: "Como funciona nosso processo de atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
+          cardTitle: "Consulta inicial",
           cardDescription:
-            "A Definir",
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
+          cardTitle: "Análise detalhada",
           cardDescription:
-            "A Definir",
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "A Definir",
+            "Desenvolvemos uma estratégia personalizada para seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
+          cardTitle: "Ação legal",
           cardDescription:
-            "A Definir",
+            "Iniciamos as ações judiciais necessárias para buscar sua solução.",
         },
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "A Definir",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "A Definir",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "A Definir",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A Definir",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "A Definir",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "A Definir",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
-      paragraph: "A Definir",
+      paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
