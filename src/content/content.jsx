@@ -52,6 +52,10 @@ import {
   FileX,
   HousePlus,
   Grid2x2Check,
+  Building2,
+  Network,
+  Pickaxe,
+  Wallet,
 } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
@@ -168,15 +172,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções sob medida",
+      subtitle:
+        "Combinando especialização e estratégia, oferecemos suporte jurídico promovendo justiça em cada situação.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito de Família",
+        subtitle: "Experiência em divórcio, guarda e revisão de pensão.",
         description: (
           <div>
             A Definir <br />
@@ -184,14 +189,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: "A Definir",
+        icon: <Network />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito Empresarial",
+        subtitle: "Suporte em crédito, penhora e pesquisa extrajudicial.",
         description: (
           <div>
             A Definir <br />
@@ -200,14 +205,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: "A Definir",
+        icon: <Building2 />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa trabalhista com cálculos e orientações precisas.",
         description: (
           <div>
             A Definir <br />
@@ -215,14 +220,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: "A Definir",
+        icon: <Pickaxe />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Defesa do Devedor",
+        subtitle: "Proteção ao devedor: revisão de contratos e dívidas.",
         description: (
           <div>
             A Definir <br />
@@ -232,7 +237,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Scale />,
+        icon: <Wallet />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
@@ -259,32 +264,65 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "A Definir",
+      miniTag: "QUEM É DR. LÚCIO SEMENSSATO",
       title: "Minha trajetória",
-      subtitle: "A Definir",
+      subtitle:
+        "A busca por justiça, igualdade e honestidade sempre guiou minha jornada.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          Características como estas me guiaram até a advocacia, profissão onde
+          encontrei a verdadeira missão de resolver problemas que impactam a
+          sociedade.
+          <br />
+          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
+          na advocacia que descobri minha vocação para atuar diretamente na
+          defesa de direitos e na construção de soluções.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
+          <strong>
+            A busca por justiça, igualdade e honestidade sempre guiou minha
+            jornada.
+          </strong>
           <br />
           <br />
-          A Definir
+          Características como estas me guiaram até a advocacia, profissão onde
+          encontrei a verdadeira missão de resolver problemas que impactam a
+          sociedade.
           <br />
           <br />
-          A Definir
+          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
+          na advocacia que descobri minha vocação para atuar diretamente na
+          defesa de direitos e na construção de soluções.
           <br />
           <br />
-          A Definir
+          Minha trajetória começou antes mesmo da formatura, quando passei no
+          exame da Ordem e concluí o curso de Direito na UNIMAR (Universidade de
+          Marília). Com experiência em diversos escritórios e uma prática sólida
+          adquirida ao longo de anos de estágio, iniciei a advocacia com o
+          compromisso de trazer resultados efetivos e soluções robustas aos meus
+          clientes.
           <br />
           <br />
-          A Definir
+          Buscando sempre o aprofundamento técnico, fiz uma pós-graduação em
+          Direito Civil e Empresarial, áreas que hoje são o coração da minha
+          prática. Em 2020, assumi um novo desafio ao atuar como assessor de
+          gabinete na Prefeitura de Garça (SP) e, de 2021 a 2024, ocupei o cargo
+          de Diretor Municipal de Desenvolvimento Econômico.
+          <br />
+          <br />
+          Essa experiência foi decisiva, ampliando meu conhecimento e prática em
+          Direito Público, especialmente em questões ligadas ao setor
+          empresarial, como multas, doações de áreas e cumprimento de planos de
+          negócios.
+          <br />
+          <br />
+          Hoje, cada caso é uma oportunidade de transformar e resolver, com a
+          dedicação e a experiência que adquiri em cada fase da minha
+          trajetória.
           <br />
           <br />
         </p>
