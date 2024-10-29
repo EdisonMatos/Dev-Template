@@ -57,13 +57,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A definir",
+  name: "Dr. Lúcio Semenssato",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "A definir",
-    firstPart: "A definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A definir", // Apenas os 4 últimos números
+    ddd: "14",
+    firstPart: "99810", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1526", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -74,13 +74,11 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>A definir</p>
-      <p>A definir</p>
-      <p>A definir</p>
+      <p>Atendimento Online 24h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "tsadvocacia.drn", // Sem o @
+  instagramProfile: "A definir", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -115,14 +113,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A definir",
+      miniTag: "ADVOGADO CÍVEL E EMPRESARIAL EM GARÇA - SP",
       title: (
         <h1 className="mb-[16px]">
-          A definir
-          <span className="text-primary">A definir</span> A definir
+          Soluções jurídicas para
+          <span className="text-primary"> seus desafios</span>
         </h1>
       ),
-      subtitle: "A definir",
+      subtitle:
+        "Especialização em Cível e Empresarial para soluções legais rápidas e eficazes.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -143,7 +142,7 @@ const content = {
             <circle cx="12" cy="10" r="3" />
           </svg>
         ),
-        text: "Atendimento presencial ou online",
+        text: "Atendimento  online 24h",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
