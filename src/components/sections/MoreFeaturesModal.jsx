@@ -25,6 +25,7 @@ const MoreFeaturesModal = () => {
   return (
     <div>
       <Button
+        size=""
         removeAnchor={true}
         removeTarget={true}
         tagName="div"
