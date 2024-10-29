@@ -49,6 +49,9 @@ import {
   BadgePercent,
   FileCheck,
   Scale,
+  FileX,
+  HousePlus,
+  Grid2x2Check,
 } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
@@ -117,11 +120,11 @@ const content = {
         <h1 className="mb-[16px]">
           Transformamos{" "}
           <span className="text-primary">desafios imobiliários</span> em
-          soluções.
+          soluções
         </h1>
       ),
       subtitle:
-        "Com expertise em inventários e regularização de imóveis, garantimos que seu patrimônio seja protegido e seus direitos plenamente assegurados, do início ao fim do processo.",
+        "Especialistas em inventários e regularização para proteger seu patrimônio e garantir seus direitos.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -178,7 +181,7 @@ const content = {
         img: featuresImg1,
         title: "Inventário",
         subtitle:
-          "Processo de divisão de bens e regularização patrimonial após o falecimento de um ente querido.",
+          "Divisão de bens e regularização patrimonial pós-falecimento.",
         description: (
           <div>
             A Definir <br />
@@ -193,8 +196,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Usucapião",
-        subtitle:
-          "Aquisição de propriedade pela posse prolongada e pacífica do imóvel.",
+        subtitle: "Posse do imóvel por tempo prolongado e pacífico.",
         description: (
           <div>
             A Definir <br />
@@ -210,8 +212,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Regularização de Imóveis",
-        subtitle:
-          "Garantia de conformidade com as normas e registros públicos.",
+        subtitle: "Legalização de imóveis conforme normas e registros.",
         description: (
           <div>
             A Definir <br />
@@ -225,8 +226,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Adjudicação Compulsória",
-        subtitle: "Obtenção de propriedade mediante ação judicial.",
+        title: "Demais áreas",
+        subtitle: "Clique no botão para saber todas áreas que atuamos",
         description: (
           <div>
             A Definir <br />
@@ -239,6 +240,25 @@ const content = {
         icon: <Scale />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
+      },
+      moreFeatures: {
+        card1: {
+          ico: <FileX />,
+          title: "Adjudicação Compulsória",
+          subtitle:
+            "Ação judicial para obter imóvel quando há quebra de contrato.",
+        },
+        card2: {
+          ico: <HousePlus />,
+          title: "Reurb",
+          subtitle: "Regularização fundiária para garantir segurança jurídica.",
+        },
+        card3: {
+          ico: <Grid2x2Check />,
+          title: "Retificação de Área",
+          subtitle:
+            "Correção de registros para refletir a área real do imóvel.",
+        },
       },
     },
     about: {
@@ -320,7 +340,7 @@ const content = {
     },
     steps: {
       miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento jurídico?",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
