@@ -57,13 +57,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Teixeira Silva Advocacia",
+  name: "A definir",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "19",
-    firstPart: "99844", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8664", // Apenas os 4 últimos números
+    ddd: "A definir",
+    firstPart: "A definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -74,9 +74,9 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Horário de expediente</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 17h</p>
+      <p>A definir</p>
+      <p>A definir</p>
+      <p>A definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -115,16 +115,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO IMOBILIÁRIO EM CAMPINAS - SP",
+      miniTag: "A definir",
       title: (
         <h1 className="mb-[16px]">
-          Transformamos{" "}
-          <span className="text-primary">desafios imobiliários</span> em
-          soluções
+          A definir
+          <span className="text-primary">A definir</span> A definir
         </h1>
       ),
-      subtitle:
-        "Especialistas em inventários e regularização para proteger seu patrimônio e garantir seus direitos.",
+      subtitle: "A definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -171,17 +169,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Soluções Imobiliárias com excelência",
-      subtitle:
-        "Especializados em regularização fundiária, aquisição de imóveis e correção de registros.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Inventário",
-        subtitle:
-          "Divisão de bens e regularização patrimonial pós-falecimento.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -189,14 +185,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <BadgePercent />,
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "Usucapião",
-        subtitle: "Posse do imóvel por tempo prolongado e pacífico.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -205,14 +201,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <House />,
-        buttonLabelModal: "Ortodontia",
+        icon: "A Definir",
+        buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "Regularização de Imóveis",
-        subtitle: "Legalização de imóveis conforme normas e registros.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -220,14 +216,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <FileCheck />,
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Demais áreas",
-        subtitle: "Clique no botão para saber todas áreas que atuamos",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -243,21 +239,19 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: <FileX />,
-          title: "Adjudicação Compulsória",
-          subtitle:
-            "Ação judicial para obter imóvel quando há quebra de contrato.",
+          ico: "A Definir",
+          title: "A Definir",
+          subtitle: "A Definir",
         },
         card2: {
-          ico: <HousePlus />,
-          title: "Reurb",
-          subtitle: "Regularização fundiária para garantir segurança jurídica.",
+          ico: "A Definir",
+          title: "A Definir",
+          subtitle: "A Definir",
         },
         card3: {
-          ico: <Grid2x2Check />,
-          title: "Retificação de Área",
-          subtitle:
-            "Correção de registros para refletir a área real do imóvel.",
+          ico: "A Definir",
+          title: "A Definir",
+          subtitle: "A Definir",
         },
       },
     },
@@ -266,51 +260,32 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. TIAGO TEIXEIRA SILVA",
+      miniTag: "A Definir",
       title: "Minha trajetória",
-      subtitle:
-        "Advogado com MBA em Direito Contratual (FGV), especialista em Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental (Escola Superior do Ministério Público de São Paulo.",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          O escritório Tiago Teixeira Silva Advocacia é especializado em
-          INVENTÁRIO JUDICIAL, EXTRAJUDICIAL e REGULARIZAÇÃO DE IMÓVEIS, está
-          sempre se aperfeiçoando para proporcionar segurança na transmissão dos
-          bens a quem de direito e, em colocar o nome do cliente na matrícula do
-          imóvel.
-          <br />
-          Sempre primando por um atendimento personalizado e humano, buscamos a
-          proteção do patrimônio conquistado.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>
-            Advogado com MBA em Direito Contratual (FGV), especialista em
-            Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental
-            (Escola Superior do Ministério Público de São Paulo).
-          </strong>
+          <strong>A Definir</strong>
           <br />
           <br />
-          O escritório Tiago Teixeira Silva Advocacia é especializado em
-          INVENTÁRIO JUDICIAL, EXTRAJUDICIAL e REGULARIZAÇÃO DE IMÓVEIS, está
-          sempre se aperfeiçoando para proporcionar segurança na transmissão dos
-          bens a quem de direito e, em colocar o nome do cliente na matrícula do
-          imóvel.
-          <br />
-          Sempre primando por um atendimento personalizado e humano, buscamos a
-          proteção do patrimônio conquistado.
+          A Definir
           <br />
           <br />
-          Contamos ainda com a parceria de advogados especialistas para atender
-          demandas necessárias à regularização de imóveis e ao próprio
-          inventário.
+          A Definir
           <br />
           <br />
-          Contamos com a facilidade de um escritório digital e prezamos pela
-          agilidade do atendimento e reuniões por videoconferência. Caso tenha
-          interesse, atendemos presencialmente na cidade de Campinas - SP.
+          A Definir
+          <br />
+          <br />
+          A Definir
           <br />
           <br />
         </p>
@@ -323,18 +298,10 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Siga-me nas redes sociais!",
-        subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Teixeira Silva no Instagram!",
-        paragraph: (
-          <p>
-            Acompanhe nossas redes para dicas e insights sobre Regularização
-            Fundiária, Usucapião, Inventário, Retificação de Área e muito mais!
-            Não perca a oportunidade de se informar e entender melhor sobre seus
-            direitos imobiliários.
-          </p>
-        ),
+        miniTag: "A Definir",
+        title: "A Definir",
+        subtitle: "A Definir",
+        paragraph: <p>A Definir</p>,
       },
     },
     cta: {
