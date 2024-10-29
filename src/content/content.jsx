@@ -52,18 +52,22 @@ import {
   FileX,
   HousePlus,
   Grid2x2Check,
+  Building2,
+  Network,
+  Pickaxe,
+  Wallet,
 } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Teixeira Silva Advocacia",
+  name: "Dr. Lúcio Semenssato",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "19",
-    firstPart: "99844", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8664", // Apenas os 4 últimos números
+    ddd: "14",
+    firstPart: "99810", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1526", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -74,13 +78,11 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Horário de expediente</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 17h</p>
+      <p>Atendimento Online 24h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "tsadvocacia.drn", // Sem o @
+  instagramProfile: "A definir", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -115,16 +117,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO IMOBILIÁRIO EM CAMPINAS - SP",
+      miniTag: "ADVOGADO CÍVEL E EMPRESARIAL EM GARÇA - SP",
       title: (
         <h1 className="mb-[16px]">
-          Transformamos{" "}
-          <span className="text-primary">desafios imobiliários</span> em
-          soluções
+          Soluções jurídicas para
+          <span className="text-primary"> seus desafios</span>
         </h1>
       ),
       subtitle:
-        "Especialistas em inventários e regularização para proteger seu patrimônio e garantir seus direitos.",
+        "Especialização em Cível e Empresarial para soluções legais rápidas e eficazes.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -145,7 +146,7 @@ const content = {
             <circle cx="12" cy="10" r="3" />
           </svg>
         ),
-        text: "Atendimento presencial ou online",
+        text: "Atendimento  online 24h",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -172,16 +173,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Soluções Imobiliárias com excelência",
+      title: "Soluções sob medida",
       subtitle:
-        "Especializados em regularização fundiária, aquisição de imóveis e correção de registros.",
+        "Combinando especialização e estratégia, oferecemos suporte jurídico promovendo justiça em cada situação.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Inventário",
-        subtitle:
-          "Divisão de bens e regularização patrimonial pós-falecimento.",
+        title: "Direito de Família",
+        subtitle: "Experiência em divórcio, guarda e revisão de pensão.",
         description: (
           <div>
             A Definir <br />
@@ -189,14 +189,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <BadgePercent />,
+        icon: <Network />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "Usucapião",
-        subtitle: "Posse do imóvel por tempo prolongado e pacífico.",
+        title: "Direito Empresarial",
+        subtitle: "Suporte em crédito, penhora e pesquisa extrajudicial.",
         description: (
           <div>
             A Definir <br />
@@ -205,14 +205,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <House />,
-        buttonLabelModal: "Ortodontia",
+        icon: <Building2 />,
+        buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "Regularização de Imóveis",
-        subtitle: "Legalização de imóveis conforme normas e registros.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa trabalhista com cálculos e orientações precisas.",
         description: (
           <div>
             A Definir <br />
@@ -220,14 +220,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <FileCheck />,
+        icon: <Pickaxe />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Demais áreas",
-        subtitle: "Clique no botão para saber todas áreas que atuamos",
+        title: "Defesa do Devedor",
+        subtitle: "Proteção ao devedor: revisão de contratos e dívidas.",
         description: (
           <div>
             A Definir <br />
@@ -237,27 +237,25 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Scale />,
+        icon: <Wallet />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       moreFeatures: {
         card1: {
-          ico: <FileX />,
-          title: "Adjudicação Compulsória",
-          subtitle:
-            "Ação judicial para obter imóvel quando há quebra de contrato.",
+          ico: "A Definir",
+          title: "A Definir",
+          subtitle: "A Definir",
         },
         card2: {
-          ico: <HousePlus />,
-          title: "Reurb",
-          subtitle: "Regularização fundiária para garantir segurança jurídica.",
+          ico: "A Definir",
+          title: "A Definir",
+          subtitle: "A Definir",
         },
         card3: {
-          ico: <Grid2x2Check />,
-          title: "Retificação de Área",
-          subtitle:
-            "Correção de registros para refletir a área real do imóvel.",
+          ico: "A Definir",
+          title: "A Definir",
+          subtitle: "A Definir",
         },
       },
     },
@@ -266,20 +264,19 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. TIAGO TEIXEIRA SILVA",
+      miniTag: "QUEM É DR. LÚCIO SEMENSSATO",
       title: "Minha trajetória",
       subtitle:
-        "Advogado com MBA em Direito Contratual (FGV), especialista em Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental (Escola Superior do Ministério Público de São Paulo.",
+        "A busca por justiça, igualdade e honestidade sempre guiou minha jornada.",
       paragraph: (
         <div>
-          O escritório Tiago Teixeira Silva Advocacia é especializado em
-          INVENTÁRIO JUDICIAL, EXTRAJUDICIAL e REGULARIZAÇÃO DE IMÓVEIS, está
-          sempre se aperfeiçoando para proporcionar segurança na transmissão dos
-          bens a quem de direito e, em colocar o nome do cliente na matrícula do
-          imóvel.
+          Características como estas me guiaram até a advocacia, profissão onde
+          encontrei a verdadeira missão de resolver problemas que impactam a
+          sociedade.
           <br />
-          Sempre primando por um atendimento personalizado e humano, buscamos a
-          proteção do patrimônio conquistado.
+          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
+          na advocacia que descobri minha vocação para atuar diretamente na
+          defesa de direitos e na construção de soluções.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -287,30 +284,45 @@ const content = {
       modal: (
         <p>
           <strong>
-            Advogado com MBA em Direito Contratual (FGV), especialista em
-            Direito dos Recursos Naturais (IGE UNICAMP) e Direito Ambiental
-            (Escola Superior do Ministério Público de São Paulo).
+            A busca por justiça, igualdade e honestidade sempre guiou minha
+            jornada.
           </strong>
           <br />
           <br />
-          O escritório Tiago Teixeira Silva Advocacia é especializado em
-          INVENTÁRIO JUDICIAL, EXTRAJUDICIAL e REGULARIZAÇÃO DE IMÓVEIS, está
-          sempre se aperfeiçoando para proporcionar segurança na transmissão dos
-          bens a quem de direito e, em colocar o nome do cliente na matrícula do
-          imóvel.
-          <br />
-          Sempre primando por um atendimento personalizado e humano, buscamos a
-          proteção do patrimônio conquistado.
+          Características como estas me guiaram até a advocacia, profissão onde
+          encontrei a verdadeira missão de resolver problemas que impactam a
+          sociedade.
           <br />
           <br />
-          Contamos ainda com a parceria de advogados especialistas para atender
-          demandas necessárias à regularização de imóveis e ao próprio
-          inventário.
+          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
+          na advocacia que descobri minha vocação para atuar diretamente na
+          defesa de direitos e na construção de soluções.
           <br />
           <br />
-          Contamos com a facilidade de um escritório digital e prezamos pela
-          agilidade do atendimento e reuniões por videoconferência. Caso tenha
-          interesse, atendemos presencialmente na cidade de Campinas - SP.
+          Minha trajetória começou antes mesmo da formatura, quando passei no
+          exame da Ordem e concluí o curso de Direito na UNIMAR (Universidade de
+          Marília). Com experiência em diversos escritórios e uma prática sólida
+          adquirida ao longo de anos de estágio, iniciei a advocacia com o
+          compromisso de trazer resultados efetivos e soluções robustas aos meus
+          clientes.
+          <br />
+          <br />
+          Buscando sempre o aprofundamento técnico, fiz uma pós-graduação em
+          Direito Civil e Empresarial, áreas que hoje são o coração da minha
+          prática. Em 2020, assumi um novo desafio ao atuar como assessor de
+          gabinete na Prefeitura de Garça (SP) e, de 2021 a 2024, ocupei o cargo
+          de Diretor Municipal de Desenvolvimento Econômico.
+          <br />
+          <br />
+          Essa experiência foi decisiva, ampliando meu conhecimento e prática em
+          Direito Público, especialmente em questões ligadas ao setor
+          empresarial, como multas, doações de áreas e cumprimento de planos de
+          negócios.
+          <br />
+          <br />
+          Hoje, cada caso é uma oportunidade de transformar e resolver, com a
+          dedicação e a experiência que adquiri em cada fase da minha
+          trajetória.
           <br />
           <br />
         </p>
@@ -323,18 +335,10 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Siga-me nas redes sociais!",
-        subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Teixeira Silva no Instagram!",
-        paragraph: (
-          <p>
-            Acompanhe nossas redes para dicas e insights sobre Regularização
-            Fundiária, Usucapião, Inventário, Retificação de Área e muito mais!
-            Não perca a oportunidade de se informar e entender melhor sobre seus
-            direitos imobiliários.
-          </p>
-        ),
+        miniTag: "A Definir",
+        title: "A Definir",
+        subtitle: "A Definir",
+        paragraph: <p>A Definir</p>,
       },
     },
     cta: {
