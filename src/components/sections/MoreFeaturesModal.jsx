@@ -9,6 +9,8 @@ import ServiceDetailCard from "../cards/ServiceDetailCard";
 import content from "../../content/content";
 import AcordionModalServices from "../interactives/AcordionModalServices";
 import Button from "../interactives/Button";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import IconFeatureCard from "../cards/IconFeatureCard";
 
 const MoreFeaturesModal = () => {
   const [visible, setVisible] = useState(false);
@@ -60,7 +62,24 @@ const MoreFeaturesModal = () => {
         breakpoints={{ "4000px": "384px", "426px": "90vw" }}
         contentStyle={{ padding: "1rem", paddingLeft: "", paddingRight: "" }}
       >
-        <div className="flex flex-col w-full gap-[12px]">Hello world</div>
+        <div className="flex flex-col items-center gap-[40px]">
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card1.icon}
+              title={content.texts.features.card1.title}
+              paragraph={content.texts.features.card1.subtitle}
+              className=" desktop1:h-auto"
+            />
+          </MotionDivDownToUp>
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card2.icon}
+              title={content.texts.features.card2.title}
+              paragraph={content.texts.features.card2.subtitle}
+              className=" desktop1:h-auto"
+            />
+          </MotionDivDownToUp>
+        </div>
       </Dialog>
     </div>
   );
