@@ -10,6 +10,7 @@ import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
+import MoreFeaturesModal from "./MoreFeaturesModal";
 
 export default function Features({ modal }) {
   return (
@@ -73,7 +74,8 @@ export default function Features({ modal }) {
                 >
                   {modal && (
                     <div>
-                      <ServicesModal />
+                      {/* <ServicesModal /> */}
+                      <MoreFeaturesModal />
                     </div>
                   )}
                 </IconFeatureCard>
