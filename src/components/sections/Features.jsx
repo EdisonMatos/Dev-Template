@@ -74,8 +74,8 @@ export default function Features({ modal }) {
                 >
                   {modal && (
                     <div>
-                      {/* <ServicesModal /> */}
-                      <MoreFeaturesModal />
+                      <ServicesModal />
+                      {/* <MoreFeaturesModal /> */}
                     </div>
                   )}
                 </IconFeatureCard>
