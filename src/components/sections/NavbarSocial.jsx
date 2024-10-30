@@ -127,7 +127,7 @@ export default function NavbarSocial({ LightMode }) {
                 buttonLink={whatsappContactLink}
                 className={`${scrolling ? "" : ""}`}
                 size="small"
-                icon={<FaWhatsapp size={18} />}
+                icon={<FaWhatsapp />}
               />
             </div>
             <div
