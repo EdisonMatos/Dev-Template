@@ -30,6 +30,7 @@ const MoreFeaturesModal = () => {
   return (
     <div>
       <Button
+        size="small"
         removeAnchor={true}
         removeTarget={true}
         tagName="div"
@@ -53,7 +54,7 @@ const MoreFeaturesModal = () => {
           </svg>
         }
         onClick={() => setVisible(true)}
-        className="text-secondary bg-black px-[2%] py-[0.8%]"
+        className="text-secondary bg-black "
       />
 
       <Dialog
