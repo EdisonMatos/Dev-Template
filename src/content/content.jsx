@@ -52,22 +52,18 @@ import {
   FileX,
   HousePlus,
   Grid2x2Check,
-  Building2,
-  Network,
-  Pickaxe,
-  Wallet,
 } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Lúcio Semenssato",
+  name: "A definir",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "14",
-    firstPart: "99810", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1526", // Apenas os 4 últimos números
+    ddd: "A definir",
+    firstPart: "A definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -78,11 +74,13 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Atendimento Online 24h</p>
+      <p>A definir</p>
+      <p>A definir</p>
+      <p>A definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A definir", // Sem o @
+  instagramProfile: "tsadvocacia.drn", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -92,17 +90,6 @@ export const infos = {
 
 const content = {
   texts: {
-    infos: {
-      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
-      email: `${infos.email}@${infos.domain}`,
-      adress: infos.endereco,
-      officeHours: infos.expediente,
-      year: currentYear,
-      footerexpediente: infos.expediente,
-      obsFooter: infos.obs,
-      footerNavegacaoText: "NAVEGAÇÃO",
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-    },
     navbar: {
       logo: {
         img: logo,
@@ -117,15 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL E EMPRESARIAL EM GARÇA - SP",
+      miniTag: "CRÉDITO HOME EQUITY",
       title: (
         <h1 className="mb-[16px]">
-          Soluções jurídicas para
-          <span className="text-primary"> seus desafios</span>
+          Transformamos seu
+          <span className="text-primary"> patrimônio</span> em tranquilidade
         </h1>
       ),
       subtitle:
-        "Especialização em Cível e Empresarial para soluções legais rápidas e eficazes.",
+        "Com nossa assessoria especializada, seu imóvel pode ser a chave para uma vida mais tranquila.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -146,7 +133,7 @@ const content = {
             <circle cx="12" cy="10" r="3" />
           </svg>
         ),
-        text: "Atendimento  online 24h",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -172,16 +159,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Soluções sob medida",
-      subtitle:
-        "Combinando especialização e estratégia, oferecemos suporte jurídico promovendo justiça em cada situação.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito de Família",
-        subtitle: "Experiência em divórcio, guarda e revisão de pensão.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -189,14 +175,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <Network />,
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Empresarial",
-        subtitle: "Suporte em crédito, penhora e pesquisa extrajudicial.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -205,14 +191,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <Building2 />,
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa trabalhista com cálculos e orientações precisas.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -220,14 +206,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <Pickaxe />,
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Defesa do Devedor",
-        subtitle: "Proteção ao devedor: revisão de contratos e dívidas.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -237,7 +223,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Wallet />,
+        icon: <Scale />,
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
@@ -264,65 +250,32 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. LÚCIO SEMENSSATO",
+      miniTag: "A Definir",
       title: "Minha trajetória",
-      subtitle:
-        "A busca por justiça, igualdade e honestidade sempre guiou minha jornada.",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Características como estas me guiaram até a advocacia, profissão onde
-          encontrei a verdadeira missão de resolver problemas que impactam a
-          sociedade.
-          <br />
-          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
-          na advocacia que descobri minha vocação para atuar diretamente na
-          defesa de direitos e na construção de soluções.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>
-            A busca por justiça, igualdade e honestidade sempre guiou minha
-            jornada.
-          </strong>
+          <strong>A Definir</strong>
           <br />
           <br />
-          Características como estas me guiaram até a advocacia, profissão onde
-          encontrei a verdadeira missão de resolver problemas que impactam a
-          sociedade.
+          A Definir
           <br />
           <br />
-          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
-          na advocacia que descobri minha vocação para atuar diretamente na
-          defesa de direitos e na construção de soluções.
+          A Definir
           <br />
           <br />
-          Minha trajetória começou antes mesmo da formatura, quando passei no
-          exame da Ordem e concluí o curso de Direito na UNIMAR (Universidade de
-          Marília). Com experiência em diversos escritórios e uma prática sólida
-          adquirida ao longo de anos de estágio, iniciei a advocacia com o
-          compromisso de trazer resultados efetivos e soluções robustas aos meus
-          clientes.
+          A Definir
           <br />
           <br />
-          Buscando sempre o aprofundamento técnico, fiz uma pós-graduação em
-          Direito Civil e Empresarial, áreas que hoje são o coração da minha
-          prática. Em 2020, assumi um novo desafio ao atuar como assessor de
-          gabinete na Prefeitura de Garça (SP) e, de 2021 a 2024, ocupei o cargo
-          de Diretor Municipal de Desenvolvimento Econômico.
-          <br />
-          <br />
-          Essa experiência foi decisiva, ampliando meu conhecimento e prática em
-          Direito Público, especialmente em questões ligadas ao setor
-          empresarial, como multas, doações de áreas e cumprimento de planos de
-          negócios.
-          <br />
-          <br />
-          Hoje, cada caso é uma oportunidade de transformar e resolver, com a
-          dedicação e a experiência que adquiri em cada fase da minha
-          trajetória.
+          A Definir
           <br />
           <br />
         </p>
@@ -343,70 +296,60 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Desenvolvemos uma estratégia personalizada para seu caso.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos as ações judiciais necessárias para buscar sua solução.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -742,6 +685,17 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+    },
+    infos: {
+      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      email: `${infos.email}@${infos.domain}`,
+      adress: infos.endereco,
+      officeHours: infos.expediente,
+      year: currentYear,
+      footerexpediente: infos.expediente,
+      obsFooter: infos.obs,
+      footerNavegacaoText: "NAVEGAÇÃO",
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
   },
 };
