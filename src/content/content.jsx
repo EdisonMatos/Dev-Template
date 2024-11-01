@@ -1,5 +1,4 @@
 import logo from "../assets/imgs/logo/logo.png";
-import solidLogo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
@@ -96,7 +95,7 @@ const content = {
         alt: `Logomarca ${infos.name}`,
       },
       solidLogo: {
-        img: solidLogo,
+        img: logo,
         alt: `Logomarca ${infos.name}`,
       },
       menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
@@ -334,22 +333,26 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "A Definir",
-      title: "Minha trajetória",
-      subtitle: "A Definir",
+      miniTag: "TRADIÇÃO EM LIBERAÇÃO DE CRÉDITO",
+      title: "Nossa trajetória",
+      subtitle:
+        "Anos de atuação no mercado, com uma sólida reputação em soluções financeiras.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          A FN Consultoria Home Equity é sua parceira financeira inteligente,
+          dedicada a transformar o valor do seu imóvel em oportunidades reais.
+          Oferecemos soluções personalizadas de crédito, permitindo que você
+          utilize o seu patrimônio como garantia sem abrir mão dele, de forma
+          prática e segura.
+          <br />
+          Nossa proposta é simples: permitir que você tenha acesso aos recursos
+          que precisa com as melhores condições do mercado, preservando o que
+          conquistou.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>A Definir</strong>
-          <br />
-          <br />
           A Definir
           <br />
           <br />
@@ -782,6 +785,11 @@ const content = {
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
   },
+};
+
+export const abstractions = {
+  titleModal: <strong>{content.texts.about.title}</strong>,
+  subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
 };
 
 export default content;
