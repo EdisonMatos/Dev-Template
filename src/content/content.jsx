@@ -426,60 +426,71 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando dificuldades financeiras? Deixe que cuidamos disso pra você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação financeira de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "COMO FUNCIONA?",
+      title: "Entenda como adquirir o home equity",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Como inicia-se o processo?",
+          cardDescription:
+            "Entre em contato conosco e informe o valor do crédito que você necessita. ",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Avaliação do Imóvel",
+          cardDescription:
+            "Iniciamos avaliando o valor do seu imóvel para determinar a melhor solução financeira.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Proposta Personalizada",
+          cardDescription:
+            "Em seguida, elaboramos uma proposta personalizada, levando em conta suas necessidades e objetivos específicos.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Ação financeira",
+          cardDescription:
+            "Após a aprovação da proposta, o crédito é liberado rapidamente para seu uso.",
         },
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "O que é Home Equity?",
+          answer:
+            "Home Equity é uma solução financeira que permite que você utilize o valor do seu imóvel como garantia para obter crédito. Isso possibilita o acesso a recursos financeiros sem a necessidade de vender seu patrimônio.",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Quais são os benefícios de optar pelo Home Equity?",
+          answer:
+            "Os principais benefícios incluem taxas de juros mais baixas em comparação a outras modalidades de crédito, flexibilidade no uso do valor, prazos de pagamento adaptáveis à sua realidade e um processo ágil e descomplicado.",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Como é feita a avaliação do meu imóvel?",
+          answer:
+            "Realizamos uma avaliação detalhada do seu imóvel, levando em consideração fatores como localização, estado de conservação e valor de mercado, para determinar o montante de crédito disponível.",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question:
+            "Quanto tempo leva para liberar o crédito após a aprovação?",
+          answer:
+            "Após a aprovação da proposta, o crédito é liberado rapidamente, geralmente em poucos dias, para que você possa utilizá-lo como desejar.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
