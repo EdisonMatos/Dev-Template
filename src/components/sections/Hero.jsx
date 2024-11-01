@@ -56,7 +56,7 @@ export default function Hero() {
                 </div>
                 <MotionDivDownToUp>
                   <div className="flex justify-center desktop1:justify-start">
-                    <div className="flex items-center">
+                    <div className="flex items-center text-primary">
                       {content.texts.hero.obsHero.icon}
                       <p className="text-white opacity-80 ml-[10px] text-center">
                         {content.texts.hero.obsHero.text}
