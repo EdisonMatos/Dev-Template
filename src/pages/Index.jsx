@@ -10,6 +10,7 @@ import FooterSocial from "../components/sections/FooterSocial";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
+import InstagramPosts from "../components/interactives/InstagramPosts";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -25,6 +26,7 @@ export default function Index() {
       <Hero />
       <Features modal={false} />
       <About modal={true} />
+      <InstagramPosts />
       {/* <AboutInstagram /> */}
       <Cta />
       <Steps />
