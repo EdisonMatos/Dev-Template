@@ -21,15 +21,15 @@ import BackToTopButton from "../components/interactives/BackToTopButton";
 export default function Index() {
   return (
     <div>
-      <Navbar LightMode={true} />
+      <Navbar />
       <Hero />
       <Features modal={false} />
       <About modal={true} />
-      {/* <AboutInstagram /> */}
+      <AboutInstagram />
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={false} />
+      <FooterSocial obs={false} addres={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
