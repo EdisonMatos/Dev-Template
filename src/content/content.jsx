@@ -57,30 +57,30 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A definir",
+  name: "FN Consultoria Home Equity",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "A definir",
-    firstPart: "A definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A definir", // Apenas os 4 últimos números
+    ddd: "92",
+    firstPart: "98806", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5906", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Avenida Major Gabriel, nº 768</p>
+      <p>Sala 02 - Centro</p>
+      <p>Manaus/AM - CEP 69020-405</p>
     </div>
   ),
   expediente: (
     <div>
-      <p>A definir</p>
-      <p>A definir</p>
-      <p>A definir</p>
+      <p>Horário de expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 7h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "tsadvocacia.drn", // Sem o @
+  instagramProfile: "fnconsultoria92", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -134,7 +134,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento presencial ou online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -160,15 +160,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A MELHOR ESCOLHA",
+      title: "Porque Home Equity é um bom negócio?",
+      subtitle:
+        "Saiba por que essa modalidade se tornou a escolha ideal para quem busca crédito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Inteligência financeira",
+        subtitle:
+          "Transforme o valor do seu imóvel em oportunidades financeiras inteligentes.",
         description: (
           <div>
             A Definir <br />
@@ -182,8 +184,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Entenda",
+        subtitle:
+          "Use o valor do seu imóvel como garantia e acesse crédito sem vender seu patrimônio.",
         description: (
           <div>
             A Definir <br />
@@ -198,8 +201,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Vantagens",
+        subtitle:
+          "Taxas atrativas, uso flexível, prazos longos e facilidade no acesso ao crédito.",
         description: (
           <div>
             A Definir <br />
@@ -213,8 +217,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Diferenciais",
+        subtitle:
+          "Avaliação, proposta personalizada e crédito rápido para o que você precisa",
         description: (
           <div>
             A Definir <br />
