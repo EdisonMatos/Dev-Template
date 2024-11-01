@@ -410,10 +410,18 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
-        paragraph: <p>A Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Siga-nos nas redes sociais!",
+        subtitle:
+          "🏦 Quer se atualizar sobre soluções financeiras? Siga a FN Consultoria Home Equity no Instagram!",
+        paragraph: (
+          <p>
+            Acompanhe nossas redes para dicas e insights sobre Home Equity,
+            crédito, investimentos e muito mais! Não perca a chance de se
+            informar e aprender como transformar o valor do seu imóvel em
+            oportunidades.
+          </p>
+        ),
       },
     },
     cta: {
