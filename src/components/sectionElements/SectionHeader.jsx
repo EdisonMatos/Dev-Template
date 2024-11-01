@@ -22,7 +22,7 @@ export default function SectionHeader({
   if (color === "dark") {
     miniTitleBgColor = "bg-secondary bg-opacity-5";
     miniTitleTextColor = "text-secondary";
-    titleColor = "text-secondary";
+    titleColor = "text-bgSectionDark";
     subtitleColor = "text-darker opacity-70";
   } else {
     miniTitleBgColor = "bg-lighter bg-opacity-10";
@@ -66,5 +66,11 @@ export default function SectionHeader({
     </div>
   );
 
-  return animation ? <MotionDivDownToUp className="w-full flex justify-center">{Content}</MotionDivDownToUp> : Content;
+  return animation ? (
+    <MotionDivDownToUp className="flex justify-center w-full">
+      {Content}
+    </MotionDivDownToUp>
+  ) : (
+    Content
+  );
 }
