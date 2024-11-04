@@ -13,6 +13,9 @@ module.exports = {
         lighter: "#FFFFFF",
         darker: "#000000",
       },
+      boxShadow: {
+        "custom-opacity": "-20px 20px 0px rgba(0, 0, 0, 0.3)", // 30% de opacidade
+      },
       fontFamily: {
         mainFont: ["Poppins", "sans-serif"],
         secondFont: ["Poppins", "sans-serif"],
