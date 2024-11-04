@@ -8,7 +8,7 @@ import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import content from "../../content/content";
+import content, { abstractions } from "../../content/content";
 import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
@@ -25,9 +25,10 @@ export default function About({ modal }) {
   const [modalTitle, setModalTitle] = useState("");
 
   const onClick = () => {
-    setModalTitle(content.texts.about.titleModal);
+    setModalTitle(abstractions.titleModal);
     setModalContent(
       <p className="text-paragraph3">
+        <p className="mb-[20px]">{abstractions.subtitleModal}</p>
         {content.texts.about.modal}
         <p className="mb-[20px]">Quer saber mais sobre nós? Clique abaixo 👇</p>
         <div>

@@ -1,5 +1,4 @@
 import logo from "../assets/imgs/logo/logo.png";
-import solidLogo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
@@ -52,37 +51,35 @@ import {
   FileX,
   HousePlus,
   Grid2x2Check,
-  Building2,
-  Network,
-  Pickaxe,
-  Wallet,
 } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Lúcio Semenssato",
+  name: "FN Consultoria Home Equity",
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "14",
-    firstPart: "99810", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1526", // Apenas os 4 últimos números
+    ddd: "92",
+    firstPart: "98806", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5906", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Avenida Major Gabriel, nº 768</p>
+      <p>Sala 02 - Centro</p>
+      <p>Manaus/AM - CEP 69020-405</p>
     </div>
   ),
   expediente: (
     <div>
-      <p>Atendimento Online 24h</p>
+      <p>Horário de expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 7h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A definir", // Sem o @
+  instagramProfile: "fnconsultoria92", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -92,24 +89,13 @@ export const infos = {
 
 const content = {
   texts: {
-    infos: {
-      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
-      email: `${infos.email}@${infos.domain}`,
-      adress: infos.endereco,
-      officeHours: infos.expediente,
-      year: currentYear,
-      footerexpediente: infos.expediente,
-      obsFooter: infos.obs,
-      footerNavegacaoText: "NAVEGAÇÃO",
-      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-    },
     navbar: {
       logo: {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
       solidLogo: {
-        img: solidLogo,
+        img: logo,
         alt: `Logomarca ${infos.name}`,
       },
       menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
@@ -117,15 +103,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL E EMPRESARIAL EM GARÇA - SP",
+      miniTag: "CRÉDITO HOME EQUITY",
       title: (
         <h1 className="mb-[16px]">
-          Soluções jurídicas para
-          <span className="text-primary"> seus desafios</span>
+          Transformamos seu
+          <span className="text-primary"> patrimônio</span> em tranquilidade
         </h1>
       ),
       subtitle:
-        "Especialização em Cível e Empresarial para soluções legais rápidas e eficazes.",
+        "Com nossa assessoria especializada, seu imóvel pode ser a chave para uma vida mais tranquila.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -136,17 +122,18 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="#dbb14c"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-map-pin"
+            class="lucide lucide-map-pin-check"
           >
-            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+            <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
             <circle cx="12" cy="10" r="3" />
+            <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento  online 24h",
+        text: "Atendimento presencial ou online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -172,16 +159,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Soluções sob medida",
+      miniTag: "A MELHOR ESCOLHA",
+      title: "Porque Home Equity é um bom negócio?",
       subtitle:
-        "Combinando especialização e estratégia, oferecemos suporte jurídico promovendo justiça em cada situação.",
+        "Saiba por que essa modalidade se tornou a escolha ideal para quem busca crédito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito de Família",
-        subtitle: "Experiência em divórcio, guarda e revisão de pensão.",
+        title: "Inteligência financeira",
+        subtitle:
+          "Transforme o valor do seu imóvel em oportunidades financeiras inteligentes.",
         description: (
           <div>
             A Definir <br />
@@ -189,14 +177,34 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <Network />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hand-coins"
+          >
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Empresarial",
-        subtitle: "Suporte em crédito, penhora e pesquisa extrajudicial.",
+        title: "Entenda",
+        subtitle:
+          "Use o valor do seu imóvel como garantia e acesse crédito sem vender seu patrimônio.",
         description: (
           <div>
             A Definir <br />
@@ -205,14 +213,38 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <Building2 />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-brain"
+          >
+            <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" />
+            <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z" />
+            <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4" />
+            <path d="M17.599 6.5a3 3 0 0 0 .399-1.375" />
+            <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" />
+            <path d="M3.477 10.896a4 4 0 0 1 .585-.396" />
+            <path d="M19.938 10.5a4 4 0 0 1 .585.396" />
+            <path d="M6 18a4 4 0 0 1-1.967-.516" />
+            <path d="M19.967 17.484A4 4 0 0 1 18 18" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa trabalhista com cálculos e orientações precisas.",
+        title: "Vantagens",
+        subtitle:
+          "Taxas atrativas, uso flexível, prazos longos e facilidade no acesso ao crédito.",
         description: (
           <div>
             A Definir <br />
@@ -220,14 +252,34 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <Pickaxe />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-list-checks"
+          >
+            <path d="m3 17 2 2 4-4" />
+            <path d="m3 7 2 2 4-4" />
+            <path d="M13 6h8" />
+            <path d="M13 12h8" />
+            <path d="M13 18h8" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Defesa do Devedor",
-        subtitle: "Proteção ao devedor: revisão de contratos e dívidas.",
+        title: "Diferenciais",
+        subtitle:
+          "Avaliação, proposta personalizada e crédito rápido para o que você precisa",
         description: (
           <div>
             A Definir <br />
@@ -237,7 +289,24 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Wallet />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-copy-check"
+          >
+            <path d="m12 15 2 2 4-4" />
+            <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+            <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
@@ -264,65 +333,71 @@ const content = {
         img: aboutImg1,
         alt: "Imagem ilustrativa de escritório",
       },
-      miniTag: "QUEM É DR. LÚCIO SEMENSSATO",
-      title: "Minha trajetória",
+      miniTag: "TRADIÇÃO EM LIBERAÇÃO DE CRÉDITO",
+      title: "Nossa trajetória",
       subtitle:
-        "A busca por justiça, igualdade e honestidade sempre guiou minha jornada.",
+        "Anos de atuação no mercado, com uma sólida reputação em soluções financeiras.",
       paragraph: (
         <div>
-          Características como estas me guiaram até a advocacia, profissão onde
-          encontrei a verdadeira missão de resolver problemas que impactam a
-          sociedade.
+          A FN Consultoria Home Equity é sua parceira financeira inteligente,
+          dedicada a transformar o valor do seu imóvel em oportunidades reais.
+          Oferecemos soluções personalizadas de crédito, permitindo que você
+          utilize o seu patrimônio como garantia sem abrir mão dele, de forma
+          prática e segura.
           <br />
-          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
-          na advocacia que descobri minha vocação para atuar diretamente na
-          defesa de direitos e na construção de soluções.
+          Nossa proposta é simples: permitir que você tenha acesso aos recursos
+          que precisa com as melhores condições do mercado, preservando o que
+          conquistou.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
-      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
-          <strong>
-            A busca por justiça, igualdade e honestidade sempre guiou minha
-            jornada.
-          </strong>
+          A FN Consultoria Home Equity é sua parceira financeira inteligente,
+          dedicada a transformar o valor do seu imóvel em oportunidades reais.
+          Oferecemos soluções personalizadas de crédito, permitindo que você
+          utilize o seu patrimônio como garantia sem abrir mão dele, de forma
+          prática e segura.
           <br />
           <br />
-          Características como estas me guiaram até a advocacia, profissão onde
-          encontrei a verdadeira missão de resolver problemas que impactam a
-          sociedade.
+          Nossa proposta é simples: permitir que você tenha acesso aos recursos
+          que precisa com as melhores condições do mercado, preservando o que
+          conquistou.
           <br />
           <br />
-          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
-          na advocacia que descobri minha vocação para atuar diretamente na
-          defesa de direitos e na construção de soluções.
+          <strong>Por que o Home Equity é a escolha certa?</strong>
+          <br />
+          Com taxas de juros atraentes, prazos flexíveis e uso livre do crédito,
+          o Home Equity oferece uma alternativa vantajosa em comparação a outras
+          modalidades de financiamento. Seja para investir em novos projetos,
+          quitar dívidas, realizar reformas ou até mesmo expandir seu negócio,
+          nossas soluções são desenhadas para atender às suas necessidades
+          específicas e proporcionar segurança financeira a longo prazo.
           <br />
           <br />
-          Minha trajetória começou antes mesmo da formatura, quando passei no
-          exame da Ordem e concluí o curso de Direito na UNIMAR (Universidade de
-          Marília). Com experiência em diversos escritórios e uma prática sólida
-          adquirida ao longo de anos de estágio, iniciei a advocacia com o
-          compromisso de trazer resultados efetivos e soluções robustas aos meus
-          clientes.
+          <strong>Como funciona o processo?</strong>
+          <br />
+          Em poucas etapas, garantimos um processo ágil e sem burocracia.
+          Avaliamos o valor do seu imóvel, elaboramos uma proposta personalizada
+          e, após a aprovação, o crédito é liberado rapidamente para o seu uso.
+          Tudo isso com um atendimento dedicado e transparente, onde cada passo
+          é pensado para oferecer tranquilidade e clareza a você.
           <br />
           <br />
-          Buscando sempre o aprofundamento técnico, fiz uma pós-graduação em
-          Direito Civil e Empresarial, áreas que hoje são o coração da minha
-          prática. Em 2020, assumi um novo desafio ao atuar como assessor de
-          gabinete na Prefeitura de Garça (SP) e, de 2021 a 2024, ocupei o cargo
-          de Diretor Municipal de Desenvolvimento Econômico.
+          <strong>Nossos Diferenciais</strong>
+          <br />
+          Na FN Consultoria, valorizamos a confiança e a transparência. Nossa
+          equipe está pronta para entender as suas necessidades e oferecer
+          soluções financeiras adequadas, com o compromisso de um processo
+          seguro e eficaz. São anos de experiência no mercado e uma sólida
+          reputação que garantem a você um suporte financeiro confiável para
+          suas conquistas.
           <br />
           <br />
-          Essa experiência foi decisiva, ampliando meu conhecimento e prática em
-          Direito Público, especialmente em questões ligadas ao setor
-          empresarial, como multas, doações de áreas e cumprimento de planos de
-          negócios.
-          <br />
-          <br />
-          Hoje, cada caso é uma oportunidade de transformar e resolver, com a
-          dedicação e a experiência que adquiri em cada fase da minha
-          trajetória.
+          Venha para a FN Consultoria Home Equity e descubra como transformar o
+          valor do seu imóvel em oportunidades concretas, com a confiança de uma
+          equipe especializada que entende suas metas e trabalha para
+          realizá-las.
           <br />
           <br />
         </p>
@@ -335,51 +410,59 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
-        paragraph: <p>A Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Siga-nos nas redes sociais!",
+        subtitle:
+          "🏦 Quer se atualizar sobre soluções financeiras? Siga a FN Consultoria Home Equity no Instagram!",
+        paragraph: (
+          <p>
+            Acompanhe nossas redes para dicas e insights sobre Home Equity,
+            crédito, investimentos e muito mais! Não perca a chance de se
+            informar e aprender como transformar o valor do seu imóvel em
+            oportunidades.
+          </p>
+        ),
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "Enfrentando dificuldades financeiras? Deixe que cuidamos disso pra você!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação financeira de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso processo de atendimento?",
+      miniTag: "COMO FUNCIONA?",
+      title: "Entenda como adquirir o home equity",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Como inicia-se o processo?",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Entre em contato conosco e informe o valor do crédito que você necessita. ",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Avaliação do Imóvel",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Iniciamos avaliando o valor do seu imóvel para determinar a melhor solução financeira.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Proposta Personalizada",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para seu caso.",
+            "Em seguida, elaboramos uma proposta personalizada, levando em conta suas necessidades e objetivos específicos.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Ação financeira",
           cardDescription:
-            "Iniciamos as ações judiciais necessárias para buscar sua solução.",
+            "Após a aprovação da proposta, o crédito é liberado rapidamente para seu uso.",
         },
       },
     },
@@ -389,24 +472,25 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "O que é Home Equity?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Home Equity é uma solução financeira que permite que você utilize o valor do seu imóvel como garantia para obter crédito. Isso possibilita o acesso a recursos financeiros sem a necessidade de vender seu patrimônio.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Quais são os benefícios de optar pelo Home Equity?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Os principais benefícios incluem taxas de juros mais baixas em comparação a outras modalidades de crédito, flexibilidade no uso do valor, prazos de pagamento adaptáveis à sua realidade e um processo ágil e descomplicado.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Como é feita a avaliação do meu imóvel?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Realizamos uma avaliação detalhada do seu imóvel, levando em consideração fatores como localização, estado de conservação e valor de mercado, para determinar o montante de crédito disponível.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question:
+            "Quanto tempo leva para liberar o crédito após a aprovação?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Após a aprovação da proposta, o crédito é liberado rapidamente, geralmente em poucos dias, para que você possa utilizá-lo como desejar.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -743,7 +827,23 @@ const content = {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
+    infos: {
+      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      email: `${infos.email}@${infos.domain}`,
+      adress: infos.endereco,
+      officeHours: infos.expediente,
+      year: currentYear,
+      footerexpediente: infos.expediente,
+      obsFooter: infos.obs,
+      footerNavegacaoText: "NAVEGAÇÃO",
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+    },
   },
+};
+
+export const abstractions = {
+  titleModal: <strong>{content.texts.about.title}</strong>,
+  subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
 };
 
 export default content;

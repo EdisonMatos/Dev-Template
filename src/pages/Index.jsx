@@ -22,16 +22,17 @@ import InstagramPosts from "../components/interactives/InstagramPosts";
 export default function Index() {
   return (
     <div>
-      <Navbar LightMode={true} />
+      <Navbar />
       <Hero />
       <Features modal={false} />
       <About modal={true} />
       <InstagramPosts />
       {/* <AboutInstagram /> */}
+
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={false} />
+      <FooterSocial obs={false} addres={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
