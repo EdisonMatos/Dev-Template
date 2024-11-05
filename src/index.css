@@ -68,28 +68,24 @@
 
 .shadow-Primary {
   box-shadow: -20px 20px 0px rgba(var(--color-primary));
-  /* Mova a sombra 40px para direita */
   border-radius: 10px;
   position: relative;
 }
 
 .shadow-Primary-Opacity {
   box-shadow: -20px 20px 0px rgba(var(--color-primary), var(--shadow-opacity));
-  /* Mova a sombra 40px para direita */
   border-radius: 10px;
   position: relative;
 }
 
 .shadow-Secondary {
   box-shadow: -20px 20px 0px rgba(var(--color-secondary));
-  /* Mova a sombra 40px para direita */
   border-radius: 10px;
   position: relative;
 }
 
 .shadow-Secondary-Opacity {
   box-shadow: -20px 20px 0px rgba(var(--color-secondary), var(--shadow-opacity));
-  /* Mova a sombra 40px para direita */
   border-radius: 10px;
   position: relative;
 }
