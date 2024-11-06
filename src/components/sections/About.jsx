@@ -55,7 +55,7 @@ export default function About({ modal }) {
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
-            className="shadow-Secondary-Opacity relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            className="shadow-custom-opacity shadow-primary/80 relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
             <img
               alt="Imagem de efeito pontilhado"

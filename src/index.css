@@ -59,33 +59,3 @@
   visibility: visible;
   animation: fadeOut 1s ease-in-out;
 }
-
-:root {
-  --color-primary: 227, 210, 134; /* Cor RGB */
-  --color-secondary: 0, 0, 0; /* Cor RGB */
-  --shadow-opacity: 0.4; /* Opacidade */
-}
-
-.shadow-Primary {
-  box-shadow: -20px 20px 0px rgba(var(--color-primary));
-  border-radius: 10px;
-  position: relative;
-}
-
-.shadow-Primary-Opacity {
-  box-shadow: -20px 20px 0px rgba(var(--color-primary), var(--shadow-opacity));
-  border-radius: 10px;
-  position: relative;
-}
-
-.shadow-Secondary {
-  box-shadow: -20px 20px 0px rgba(var(--color-secondary));
-  border-radius: 10px;
-  position: relative;
-}
-
-.shadow-Secondary-Opacity {
-  box-shadow: -20px 20px 0px rgba(var(--color-secondary), var(--shadow-opacity));
-  border-radius: 10px;
-  position: relative;
-}

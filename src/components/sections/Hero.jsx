@@ -92,7 +92,7 @@ export default function Hero() {
                           alt="Botão para a Google Play"
                           className=""
                         />
-                      </a>
+                      </a> 
                     </div>
                   </div>
                 </MotionDivLeftToRight>
@@ -106,7 +106,7 @@ export default function Hero() {
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[400px] bg-cover bg-no-repeat shadow-Secondary-Opacity"
+                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[400px] bg-cover bg-no-repeat shadow-custom-opacity"
                   style={{
                     backgroundImage: `url(${content.texts.hero.heroImg})`,
                     backgroundSize: "",
