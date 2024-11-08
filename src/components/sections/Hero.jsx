@@ -92,7 +92,7 @@ export default function Hero() {
                           alt="Botão para a Google Play"
                           className=""
                         />
-                      </a>
+                      </a> 
                     </div>
                   </div>
                 </MotionDivLeftToRight>
