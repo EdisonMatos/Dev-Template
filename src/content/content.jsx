@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
