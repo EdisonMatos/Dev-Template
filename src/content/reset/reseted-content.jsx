@@ -102,15 +102,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA CÍVEL EM AMAZONAS",
+      miniTag: "A Definir",
       title: (
         <h1 className="mb-[16px]">
-          Ao seu lado
-          <span className="text-primary"> independente</span> da situação
+          A Definir
+          <span className="text-primary"> A Definir</span> A Definir
         </h1>
       ),
-      subtitle:
-        "Defendendo seus direitos com comprometimento, garantindo que a justiça seja sempre feita.",
+      subtitle: "A Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -132,7 +131,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento em todo território nacional",
+        text: "Atendimento presencial ou online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
