@@ -321,25 +321,37 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É A DRA. GABRIELE DIAS",
+      title: "Sobre mim",
+      subtitle: "Comprometida em transformar desafios em soluções jurídicas.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          Sou a Dra. Gabriele Dias, advogada dedicada a oferecer soluções
+          jurídicas personalizadas com ética, empatia e compromisso.
+          <br />
+          Minha atuação é voltada para entender as necessidades de cada cliente,
+          buscando resultados eficientes e justos em diversas áreas do Direito.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Definir
+          Sou a Dra. Gabriele Dias, advogada dedicada a oferecer soluções
+          jurídicas personalizadas com ética, empatia e compromisso.
           <br />
           <br />
-          A Definir
+          Minha atuação é voltada para entender as necessidades de cada cliente,
+          buscando resultados eficientes e justos em diversas áreas do Direito.
           <br />
           <br />
-          A Definir
+          Acredito que cada caso é único e merece atenção especial. Por isso,
+          meu trabalho vai além do técnico, oferecendo um atendimento humanizado
+          e transparente para garantir que você se sinta seguro e bem amparado
+          em cada etapa do processo.
+          <br />
+          <br />
+          Estou aqui para transformar desafios em soluções e fazer a diferença
+          na sua vida com dedicação e excelência.
           <br />
           <br />
         </p>
