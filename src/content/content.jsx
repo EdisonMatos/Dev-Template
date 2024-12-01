@@ -109,14 +109,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
+      miniTag: "ADVOGADO CRIMINAL E CÍVEL EM TRINDADE - GO",
       title: (
         <h1 className="mb-[16px]">
-          A Definir
-          <span className="text-primary"> A Definir</span> A Definir
+          Transforme seu caso com uma
+          <span className="text-primary"> defesa imbatível</span>
         </h1>
       ),
-      subtitle: "A Definir",
+      subtitle:
+        "Com experiência no TJ, ofereço defesa estratégica para proteger seus direitos Criminal e Cível.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
