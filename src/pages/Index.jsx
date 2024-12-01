@@ -21,7 +21,7 @@ import BackToTopButton from "../components/interactives/BackToTopButton";
 export default function Index() {
   return (
     <div>
-      <Navbar />
+      <Navbar LightMode={true} />
       <Hero />
       <Features modal={false} />
       <About modal={true} />
@@ -29,7 +29,7 @@ export default function Index() {
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={false} />
+      <FooterSocial obs={true} addres={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>

@@ -56,29 +56,36 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Gabriele Dias",
-  email: "atendimento", // Email desejado pelo cliente
-  domain: "gabrielediasadv.com.br", // Sem "www"
+  name: "Márcio Assis Advocacia",
+  email: "contato", // Email desejado pelo cliente
+  domain: "marcioassisadvogados.adv.br", // Sem "www"
   phone: {
-    ddd: "92",
-    firstPart: "98517", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1798", // Apenas os 4 últimos números
+    ddd: "62",
+    firstPart: "98607", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8650", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A Definir</p>
+      <p>Rua nº 46, nº 95, Qd. B, Lt. 10, Sala nº 07</p>
+      <p>Setor Carvelo, Trindade - Goiás</p>
+      <p>CEP 75.388-603</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A Definir</p>
+      <p>Das 9h às 17h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "gabrieledias.adv", // Sem o @
+  obs: (
+    <span className="italic">
+      Fora desse período é atendimento em regime de plantão. Favor consultar
+      disponibilidade.
+    </span>
+  ),
+  instagramProfile: "marcioassisadv", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -102,15 +109,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA CÍVEL EM AMAZONAS",
+      miniTag: "ADVOGADO CRIMINAL E CÍVEL EM TRINDADE - GO",
       title: (
         <h1 className="mb-[16px]">
-          Ao seu lado
-          <span className="text-primary"> independente</span> da situação
+          Transforme seu caso com uma
+          <span className="text-primary"> defesa imbatível</span>
         </h1>
       ),
       subtitle:
-        "Defendendo seus direitos com comprometimento, garantindo que a justiça seja sempre feita.",
+        "Com experiência no TJ, ofereço defesa estratégica para proteger seus direitos Criminal e Cível.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -132,7 +139,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento em todo território nacional",
+        text: "Atendimento presencial ou online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -159,14 +166,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Áreas de Atuação",
-      subtitle: "Especialista em soluções jurídicas para você.",
+      title: "Protegendo seus interesses com devoção",
+      subtitle:
+        "Expertise nos principais ramos para assegurar seus direitos com confiança e competência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Bancário",
-        subtitle: "Proteção em disputas financeiras e contratuais.",
+        title: "Direito Criminal",
+        subtitle: "Defesa em acusações criminais e assistência em inquéritos.",
         description: (
           <div>
             A Definir <br />
@@ -185,14 +193,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-landmark"
+            class="lucide lucide-scale"
           >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -200,8 +207,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Consumidor",
-        subtitle: "Defesa contra práticas abusivas e fraudes.",
+        title: "Direito de Família e Sucessões",
+        subtitle: "Divórcios, guarda de filhos, partilhas e inventários.",
         description: (
           <div>
             A Definir <br />
@@ -221,10 +228,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-tag"
+            class="lucide lucide-network"
           >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -232,8 +242,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito de Família",
-        subtitle: "Soluções legais para questões familiares.",
+        title: "Direito Cível",
+        subtitle: "Contratos, indenizações, responsabilidade e disputas.",
         description: (
           <div>
             A Definir <br />
@@ -265,8 +275,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Trabalhista e Previdenciário",
-        subtitle: "Garantia de direitos trabalhistas e benefícios.",
+        title: "Defesa de Devedores e Credores",
+        subtitle: "Acordos, execuções e proteção contra cobranças excessivas.",
         description: (
           <div>
             A Definir <br />
@@ -287,12 +297,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            class="lucide lucide-hand-coins"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -321,37 +332,44 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "QUEM É A DRA. GABRIELE DIAS",
-      title: "Sobre mim",
-      subtitle: "Comprometida em transformar desafios em soluções jurídicas.",
+      miniTag: "QUEM É O DR. MÁRCIO ASSIS",
+      title: "Minha trajetória",
+      subtitle: "Experiência no Judiciário e compromisso com a excelênci",
       paragraph: (
         <div>
-          Sou a Dra. Gabriele Dias, advogada dedicada a oferecer soluções
-          jurídicas personalizadas com ética, empatia e compromisso.
+          Minha jornada no Direito começou em 2012, inspirada pelo legado do meu
+          falecido pai, um policial militar, e pela minha paixão por leis,
+          especialmente na área criminal.
           <br />
-          Minha atuação é voltada para entender as necessidades de cada cliente,
-          buscando resultados eficientes e justos em diversas áreas do Direito.
+          Em 2014, decidi seguir esse sonho e me dediquei ao estágio no Tribunal
+          de Justiça de Goiás, onde atuei em uma Vara Criminal e, com muito
+          esforço, fui promovido a assessor de juíza titular.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Sou a Dra. Gabriele Dias, advogada dedicada a oferecer soluções
-          jurídicas personalizadas com ética, empatia e compromisso.
+          Minha jornada no Direito começou em 2012, inspirada pelo legado do meu
+          falecido pai, um policial militar, e pela minha paixão por leis,
+          especialmente na área criminal.
           <br />
           <br />
-          Minha atuação é voltada para entender as necessidades de cada cliente,
-          buscando resultados eficientes e justos em diversas áreas do Direito.
+          Em 2014, decidi seguir esse sonho e me dediquei ao estágio no Tribunal
+          de Justiça de Goiás, onde atuei em uma Vara Criminal e, com muito
+          esforço, fui promovido a assessor de juíza titular.
           <br />
           <br />
-          Acredito que cada caso é único e merece atenção especial. Por isso,
-          meu trabalho vai além do técnico, oferecendo um atendimento humanizado
-          e transparente para garantir que você se sinta seguro e bem amparado
-          em cada etapa do processo.
+          Formado em 2017 pelo Instituto Aphonsiano de Ensino Superior, uma das
+          melhores faculdades de Direito do estado, adquiri uma sólida base
+          acadêmica. Até 2021, minha experiência no Judiciário incluiu tanto a
+          área criminal quanto o Direito Cível, o que me preparou para um novo
+          desafio: iniciar minha carreira na advocacia.
           <br />
           <br />
-          Estou aqui para transformar desafios em soluções e fazer a diferença
-          na sua vida com dedicação e excelência.
+          Hoje, meu compromisso é oferecer uma defesa de excelência, pautada na
+          ética, dedicação e no olhar técnico de quem já esteve do outro lado do
+          Direito. Meu objetivo é garantir aos meus clientes um atendimento à
+          altura das mais exigentes expectativas do Judiciário.
           <br />
           <br />
         </p>
@@ -365,15 +383,15 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades e atualizações!",
+        title: "Siga-me nas redes sociais!",
         subtitle:
-          "⚖️ Esteja sempre por dentro do mundo jurídico seguindo a Dra. Gabriele Dias nas redes sociais!",
+          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Márcio Assis Advocacia no Instagram e TikTok!",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e fique atualizado sobre Direito
-            Bancário, Família, Consumidor, Trabalhista e Previdenciário. Não
-            perca a oportunidade de transformar conhecimento em poder para
-            proteger seus direitos.
+            Fique por dentro do universo jurídico! Nas nossas redes, você
+            encontra dicas práticas e insights sobre Direito Criminal, Família,
+            Sucessões, Cível e muito mais. Informação que faz a diferença nos
+            seus direitos!
           </p>
         ),
       },
@@ -778,8 +796,8 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
-      linkedin:
-        "https://www.linkedin.com/in/gabriele-dias-de-souza-120b04300/?originalSubdomain=br",
+      tiktok: "https://www.tiktok.com/@marcioassis.adv?_t=ZM-8rlwcwGmzhQ&_r=1",
+      linkedin: "",
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
     infos: {
