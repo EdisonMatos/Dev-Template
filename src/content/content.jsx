@@ -56,13 +56,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A Definir",
-  email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  name: "Dra. Gabriele Dias",
+  email: "atendimento", // Email desejado pelo cliente
+  domain: "gabrielediasadv.com.br", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "92",
+    firstPart: "98517", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1798", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -78,7 +78,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
+  instagramProfile: "gabrieledias.adv", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -158,15 +158,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Áreas de Atuação",
+      subtitle: "Especialista em soluções jurídicas para você.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito Bancário",
+        subtitle: "Proteção em disputas financeiras e contratuais.",
         description: (
           <div>
             A Definir <br />
@@ -174,14 +174,34 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-landmark"
+          >
+            <line x1="3" x2="21" y1="22" y2="22" />
+            <line x1="6" x2="6" y1="18" y2="11" />
+            <line x1="10" x2="10" y1="18" y2="11" />
+            <line x1="14" x2="14" y1="18" y2="11" />
+            <line x1="18" x2="18" y1="18" y2="11" />
+            <polygon points="12 2 20 7 4 7" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito do Consumidor",
+        subtitle: "Defesa contra práticas abusivas e fraudes.",
         description: (
           <div>
             A Definir <br />
@@ -190,14 +210,30 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-tag"
+          >
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito de Família",
+        subtitle: "Soluções legais para questões familiares.",
         description: (
           <div>
             A Definir <br />
@@ -205,14 +241,32 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Trabalhista e Previdenciário",
+        subtitle: "Garantia de direitos trabalhistas e benefícios.",
         description: (
           <div>
             A Definir <br />
@@ -222,7 +276,25 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
+          >
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
