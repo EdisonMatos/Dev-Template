@@ -56,29 +56,36 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A Definir",
+  name: "Márcio Assis Advocacia",
   email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  domain: "marcioassisadvogados.adv.br", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "62",
+    firstPart: "98607", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8650", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A Definir</p>
+      <p>Rua nº 46, nº 95, Qd. B, Lt. 10, Sala nº 07</p>
+      <p>Setor Carvelo, Trindade - Goiás</p>
+      <p>CEP 75.388-603</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A Definir</p>
+      <p>Das 9h às 17h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
+  obs: (
+    <span className="italic">
+      Fora desse período é atendimento em regime de plantão. Favor consultar
+      disponibilidade.
+    </span>
+  ),
+  instagramProfile: "marcioassisadv", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -675,6 +682,7 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      tiktok: "https://www.tiktok.com/@marcioassis.adv?_t=ZM-8rlwcwGmzhQ&_r=1",
       linkedin: "",
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
