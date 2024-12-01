@@ -56,36 +56,29 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Márcio Assis Advocacia",
+  name: "A Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "marcioassisadvogados.adv.br", // Sem "www"
+  domain: "A Definir", // Sem "www"
   phone: {
-    ddd: "62",
-    firstPart: "98607", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8650", // Apenas os 4 últimos números
+    ddd: "A Definir",
+    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua nº 46, nº 95, Qd. B, Lt. 10, Sala nº 07</p>
-      <p>Setor Carvelo, Trindade - Goiás</p>
-      <p>CEP 75.388-603</p>
+      <p>A Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 17h</p>
+      <p>A Definir</p>
     </div>
   ),
-  obs: (
-    <span className="italic">
-      Fora desse período é atendimento em regime de plantão. Favor consultar
-      disponibilidade.
-    </span>
-  ),
-  instagramProfile: "marcioassisadv", // Sem o @
+  obs: <span className="italic">A Definir</span>,
+  instagramProfile: "A Definir", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -109,15 +102,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CRIMINAL E CÍVEL EM TRINDADE - GO",
+      miniTag: "A Definir",
       title: (
         <h1 className="mb-[16px]">
-          Transforme seu caso com uma
-          <span className="text-primary"> defesa imbatível</span>
+          A Definir
+          <span className="text-primary"> A Definir</span> A Definir
         </h1>
       ),
-      subtitle:
-        "Com experiência no TJ, ofereço defesa estratégica para proteger seus direitos Criminal e Cível.",
+      subtitle: "A Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -165,16 +157,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Protegendo seus interesses com devoção",
-      subtitle:
-        "Expertise nos principais ramos para assegurar seus direitos com confiança e competência.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Criminal",
-        subtitle: "Defesa em acusações criminais e assistência em inquéritos.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -182,33 +173,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale"
-          >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-          </svg>
-        ),
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Divórcios, guarda de filhos, partilhas e inventários.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -217,33 +189,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-network"
-          >
-            <rect x="16" y="16" width="6" height="6" rx="1" />
-            <rect x="2" y="16" width="6" height="6" rx="1" />
-            <rect x="9" y="2" width="6" height="6" rx="1" />
-            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-            <path d="M12 12V8" />
-          </svg>
-        ),
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Cível",
-        subtitle: "Contratos, indenizações, responsabilidade e disputas.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -251,32 +204,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-users"
-          >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-          </svg>
-        ),
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Defesa de Devedores e Credores",
-        subtitle: "Acordos, execuções e proteção contra cobranças excessivas.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             A Definir <br />
@@ -286,26 +221,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-hand-coins"
-          >
-            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
-            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
-            <path d="m2 16 6 6" />
-            <circle cx="16" cy="9" r="2.9" />
-            <circle cx="6" cy="5" r="3" />
-          </svg>
-        ),
+        icon: "A Definir",
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
@@ -332,44 +248,25 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "QUEM É O DR. MÁRCIO ASSIS",
-      title: "Minha trajetória",
-      subtitle: "Experiência no Judiciário e compromisso com a excelênci",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Minha jornada no Direito começou em 2012, inspirada pelo legado do meu
-          falecido pai, um policial militar, e pela minha paixão por leis,
-          especialmente na área criminal.
-          <br />
-          Em 2014, decidi seguir esse sonho e me dediquei ao estágio no Tribunal
-          de Justiça de Goiás, onde atuei em uma Vara Criminal e, com muito
-          esforço, fui promovido a assessor de juíza titular.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha jornada no Direito começou em 2012, inspirada pelo legado do meu
-          falecido pai, um policial militar, e pela minha paixão por leis,
-          especialmente na área criminal.
+          A Definir
           <br />
           <br />
-          Em 2014, decidi seguir esse sonho e me dediquei ao estágio no Tribunal
-          de Justiça de Goiás, onde atuei em uma Vara Criminal e, com muito
-          esforço, fui promovido a assessor de juíza titular.
+          A Definir
           <br />
           <br />
-          Formado em 2017 pelo Instituto Aphonsiano de Ensino Superior, uma das
-          melhores faculdades de Direito do estado, adquiri uma sólida base
-          acadêmica. Até 2021, minha experiência no Judiciário incluiu tanto a
-          área criminal quanto o Direito Cível, o que me preparou para um novo
-          desafio: iniciar minha carreira na advocacia.
-          <br />
-          <br />
-          Hoje, meu compromisso é oferecer uma defesa de excelência, pautada na
-          ética, dedicação e no olhar técnico de quem já esteve do outro lado do
-          Direito. Meu objetivo é garantir aos meus clientes um atendimento à
-          altura das mais exigentes expectativas do Judiciário.
+          A Definir
           <br />
           <br />
         </p>
@@ -382,86 +279,68 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Siga-me nas redes sociais!",
-        subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Márcio Assis Advocacia no Instagram e TikTok!",
-        paragraph: (
-          <p>
-            Fique por dentro do universo jurídico! Nas nossas redes, você
-            encontra dicas práticas e insights sobre Direito Criminal, Família,
-            Sucessões, Cível e muito mais. Informação que faz a diferença nos
-            seus direitos!
-          </p>
-        ),
+        miniTag: "A Definir",
+        title: "A Definir",
+        subtitle: "A Definir",
+        paragraph: <p>A Definir</p>,
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -796,8 +675,6 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
-      tiktok: "https://www.tiktok.com/@marcioassis.adv?_t=ZM-8rlwcwGmzhQ&_r=1",
-      linkedin: "",
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
     infos: {
