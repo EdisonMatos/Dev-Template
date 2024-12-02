@@ -56,25 +56,28 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A Definir",
+  name: "NexFiscal",
   email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  domain: "nexfiscal.com.br", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "91",
+    firstPart: "98218", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1585", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A Definir</p>
+      <p>Rua Domingos Marreiros, 49</p>
+      <p>Sala 909 - Umarizal, Belém - Pará</p>
+      <p>CEP: 66055-210.</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A Definir</p>
+      <p>08h às 12h</p>
+      <p>14h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
