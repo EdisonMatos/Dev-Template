@@ -40,7 +40,9 @@ export default function Button({
         // Botão com hover scale sem mudanca de cor
         className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary text-darker hover:scale-110`}
       >
-        <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
+        <div
+          className={`flex items-center text-center ${gap} min-h-[24px] text-white`}
+        >
           <div className="">{icon}</div>
           <p className={`flex items-center ${textclassName}`}>{label}</p>
         </div>
