@@ -24,8 +24,8 @@ export default function Index() {
     <div>
       <Navbar LightMode={true} />
       <Hero />
-      <Features modal={false} />
-      {/* <FeaturesButton /> */}
+      {/* <Features modal={false} /> */}
+      <FeaturesButton />
       <About modal={true} />
       {/* <AboutInstagram /> */}
       <Cta />

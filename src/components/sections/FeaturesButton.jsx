@@ -49,22 +49,23 @@ export default function FeaturesButton() {
               animation
               onClick={() =>
                 onClick(
-                  // content.texts.features.card1.title,
+                  content.texts.features.card1.title,
                   <div>
                     <ServiceDetailCard
-                    // img={content.texts.features.card1.imgModal}
-                    // subtitle={content.texts.features.card1.subtitle}
-                    // description={content.texts.features.card1.description}
-                    // buttonIcon={content.texts.features.card1.icon}
-                    // buttonLabel={
-                    //   content.texts.features.card1.buttonLabelModal
-                    // }
+                    img={content.texts.features.card1.imgModal}
+                    subtitle={content.texts.features.card1.subtitle}
+                    description={content.texts.features.card1.description}
+                    buttonIcon={content.texts.features.card1.icon}
+                    buttonLabel={
+                      content.texts.features.card1.buttonLabelModal
+                    }
+                    buttonLink={whatsappContactLink}
                     />
                   </div>
                 )
               }
             />
-            {/* <FeatureImgOnBgCardButton
+            <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card2.img}
               title={content.texts.features.card2.title}
               description={content.texts.features.card2.subtitle}
@@ -83,6 +84,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card2.buttonLabelModal
                       }
+                      buttonLink={whatsappContactLink}
                     />
                   </div>
                 )
@@ -107,6 +109,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card3.buttonLabelModal
                       }
+                      buttonLink={whatsappContactLink}
                     />
                   </div>
                 )
@@ -131,11 +134,12 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card4.buttonLabelModal
                       }
+                      buttonLink={whatsappContactLink}
                     />
                   </div>
                 )
               }
-            /> */}
+            />
           </div>
         </SectionWrapper>
       </SectionArea>

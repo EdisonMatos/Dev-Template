@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Button from "../interactives/Button";
 
 export default function ServiceDetailCard(props) {
