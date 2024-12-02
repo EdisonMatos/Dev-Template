@@ -52,14 +52,14 @@ export default function FeaturesButton() {
                   content.texts.features.card1.title,
                   <div>
                     <ServiceDetailCard
-                    img={content.texts.features.card1.imgModal}
-                    subtitle={content.texts.features.card1.subtitle}
-                    description={content.texts.features.card1.description}
-                    buttonIcon={content.texts.features.card1.icon}
-                    buttonLabel={
-                      content.texts.features.card1.buttonLabelModal
-                    }
-                    buttonLink={whatsappContactLink}
+                      img={content.texts.features.card1.imgModal}
+                      subtitle={content.texts.features.card1.subtitle}
+                      description={content.texts.features.card1.description}
+                      buttonIcon={content.texts.features.card1.icon}
+                      buttonLabel={
+                        content.texts.features.card1.buttonLabelModal
+                      }
+                      buttonLink={whatsappContactLink}
                     />
                   </div>
                 )

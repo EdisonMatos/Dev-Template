@@ -21,10 +21,10 @@ import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
 import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.png";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.png";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.png";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.png";
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -161,73 +161,150 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções Tributárias de Excelência",
+      subtitle:
+        "Estratégias personalizadas para garantir segurança jurídica e otimizar os resultados da sua empresa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Gestão e Assessoria Fiscal",
+        subtitle: "Soluções fiscais personalizadas e eficazes.",
         description: (
           <div>
-            A Definir <br />
-            <br />A Definir
+            Oferecemos serviços de consultoria e gestão fiscal, auxiliando na
+            elaboração de estratégias tributárias eficientes.
+            <br />
+            <br />
+            Isso inclui a análise e implementação de parcelamentos tributários e
+            a obtenção de benefícios fiscais, visando à redução de encargos e ao
+            cumprimento da legislação vigente. Nosso objetivo é garantir a
+            conformidade fiscal e maximizar os recursos financeiros de nossos
+            clientes, com soluções que atendem às especificidades de cada
+            negócio.
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: "A Definir",
-        buttonLabelModal: "A Definir",
-        buttonLabel: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Defesa Fiscal Estratégica",
+        subtitle: "Protegendo seu negócio contra autuações.",
         description: (
           <div>
-            A Definir <br />
-            A Definir <br />
-            <br />A Definir
+            Prestamos defesa técnica e estratégica em casos de autos de infração
+            emitidos pela Receita Federal e pelas Secretarias da Fazenda (SEFAZ)
+            estaduais. <br />
+            <br />
+            Nossa equipe de especialistas atua na análise e contestação de
+            autuações fiscais, buscando a revogação ou redução de penalidades,
+            visando proteger os interesses do cliente e corrigir eventuais
+            equívocos nas notificações.
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: "A Definir",
-        buttonLabelModal: "A Definir",
-        buttonLabel: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Defesas Fiscais Gerais",
+        subtitle: "Estratégias eficazes para litígios fiscais.",
         description: (
           <div>
-            A Definir <br />
-            <br />A Definir
+            Oferecemos defesas fiscais em diversas esferas, incluindo níveis
+            federal, estadual e municipal, para situações que envolvem disputas
+            tributárias. <br />
+            <br />
+            Nossa equipe desenvolve estratégias eficazes para contestar
+            cobranças indevidas, tributação excessiva e outros litígios fiscais,
+            com foco em resultados positivos para os nossos clientes.
+            Trabalhamos para garantir que todos os processos sejam resolvidos
+            com base na legislação tributária vigente, evitando prejuízos
+            financeiros.
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: "A Definir",
-        buttonLabelModal: "A Definir",
-        buttonLabel: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Recuperação de Créditos",
+        subtitle: "Identificação de tributos pagos a mais.",
         description: (
           <div>
-            A Definir <br />
+            Oferecemos suporte especializado para empresas que buscam recuperar
+            créditos tributários pagos indevidamente ou a maior, abrangendo
+            tributos federais, estaduais e municipais. <br />
+            Nossa atuação envolve uma análise detalhada das operações fiscais,
+            apurando possíveis inconsistências ou pagamentos excessivos, sempre
+            com base na legislação vigente. Trabalhamos de forma estratégica
+            para identificar oportunidades de compensação ou restituição de
+            valores, elaborando e acompanhando os processos administrativos
+            junto aos órgãos competentes.
             <br />
-            A Definir <br />
-            A Definir <br />
+            Nosso objetivo é garantir que as empresas recuperem seus recursos de
+            maneira célere, segura e eficiente, contribuindo para a otimização
+            do fluxo de caixa, a redução da carga tributária e o fortalecimento
+            da saúde financeira do negócio.
+            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: "A Definir",
-        buttonLabelModal: "A Definir",
-        buttonLabel: "A Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
       },
       moreFeatures: {
         card1: {
