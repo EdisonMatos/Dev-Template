@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#98bbd4", // Com primária (variação clara)
+        primary: "#009243", // Com primária (variação clara)
         secondary: "#000000", // Cor primária (variação escura)
         bgSectionLight: "#FFFFFF",
-        bgSectionDark: "#133955",
+        bgSectionDark: "#183420",
         links: "#0189BB", // Links
         buttonColor: "#DBB14C", // Botões
         lighter: "#FFFFFF",
