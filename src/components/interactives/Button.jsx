@@ -47,7 +47,9 @@ export default function Button({
           onClick={onClick}
           className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-darker hover:scale-110`}
         >
-          <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
+          <div
+            className={`flex items-center text-center ${gap} min-h-[24px] text-white`}
+          >
             {React.cloneElement(icon, { className: iconStyle })}
             <p className={`flex items-center ${textclassName}`}>{label}</p>
           </div>
