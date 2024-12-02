@@ -161,15 +161,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções Tributárias de Excelência",
+      subtitle:
+        "Estratégias personalizadas para garantir segurança jurídica e otimizar os resultados da sua empresa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Assessoria e Elaboração de Gestão Fiscal",
+        subtitle:
+          "Oferecemos serviços de consultoria e gestão fiscal, auxiliando na elaboração de estratégias tributárias eficientes.",
         description: (
           <div>
             A Definir <br />
