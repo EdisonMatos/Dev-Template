@@ -10,7 +10,7 @@ import FooterSocial from "../components/sections/FooterSocial";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
-// import FeaturesCards from "../components/sections/FeaturesCards";
+import FeaturesCards from "../components/sections/FeaturesCards";
 import FeaturesButton from "../components/sections/FeaturesButton";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
