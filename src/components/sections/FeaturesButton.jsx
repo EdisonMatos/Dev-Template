@@ -59,6 +59,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card1.buttonLabelModal
                       }
+                      buttonLink={whatsappContactLink}
                     />
                   </div>
                 )
@@ -83,6 +84,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card2.buttonLabelModal
                       }
+                      buttonLink={whatsappContactLink}
                     />
                   </div>
                 )
@@ -107,6 +109,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card3.buttonLabelModal
                       }
+                      buttonLink={whatsappContactLink}
                     />
                   </div>
                 )
@@ -131,6 +134,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card4.buttonLabelModal
                       }
+                      buttonLink={whatsappContactLink}
                     />
                   </div>
                 )
@@ -148,8 +152,8 @@ export default function FeaturesButton() {
         style={{ width: "50vw" }}
         breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }}
       >
-        <h3>{modalSubtitle}</h3>
-        <p className="m-0">{modalContent}</p>
+        <div>{modalSubtitle}</div>
+        <div className="m-0">{modalContent}</div>
       </Dialog>
     </div>
   );

@@ -4,17 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#E3D286", // Com primária (variação clara)
+        primary: "#009243", // Com primária (variação clara)
         secondary: "#000000", // Cor primária (variação escura)
         bgSectionLight: "#FFFFFF",
-        bgSectionDark: "#252329",
+        bgSectionDark: "#183420",
         links: "#0189BB", // Links
         buttonColor: "#DBB14C", // Botões
         lighter: "#FFFFFF",
         darker: "#000000",
       },
       boxShadow: {
-        "custom-opacity": "-20px 20px 0px rgba(0, 0, 0, 0.3)", // 30% de opacidade
+        "custom-opacity": "-20px 20px 0px", // 30% de opacidade
       },
       fontFamily: {
         mainFont: ["Poppins", "sans-serif"],

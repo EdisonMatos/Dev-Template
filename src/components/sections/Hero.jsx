@@ -92,13 +92,13 @@ export default function Hero() {
                           alt="Botão para a Google Play"
                           className=""
                         />
-                      </a>
+                      </a> 
                     </div>
                   </div>
                 </MotionDivLeftToRight>
               </div> */}
             </div>
-            <div className="flex justify-center w-full desktop1:w-[42%] desktop2:w-[42.8%]">
+            <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
               <MotionDivDownToUp className="relative flex justify-end w-full ">
                 {/* <img
                   src={imgLaw}

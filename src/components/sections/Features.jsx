@@ -11,6 +11,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import MoreFeaturesModal from "./MoreFeaturesModal";
+import "../../index.css";
 
 export default function Features({ modal }) {
   return (
@@ -51,12 +52,13 @@ export default function Features({ modal }) {
 
             <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
               <div
-                className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary bg-opacity-40"
+                className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary/50"
                 style={{
                   backgroundImage: `url(${content.texts.features.imgFeatures})`,
                 }}
               ></div>
             </MotionDivDownToUp>
+
             <div className="col3 desktop1:w-[28%] flex flex-col items-center">
               <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
                 <IconFeatureCard

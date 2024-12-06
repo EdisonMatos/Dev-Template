@@ -10,7 +10,8 @@ import FooterSocial from "../components/sections/FooterSocial";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
-import FeaturesCards from "../components/sections/FeaturesCards";
+// import FeaturesCards from "../components/sections/FeaturesCards";
+import FeaturesButton from "../components/sections/FeaturesButton";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -22,12 +23,14 @@ import FeaturesCards from "../components/sections/FeaturesCards";
 export default function Index() {
   return (
     <div>
-      <Navbar />
+      <Navbar LightMode={false} />
       <Hero />
-      <FeaturesCards />
+//       <FeaturesCards />
       {/* <Features modal={false} /> */}
+      {/* <Features modal={false} /> */}
+      <FeaturesButton />
       <About modal={true} />
-      <AboutInstagram />
+      {/* <AboutInstagram /> */}
       <Cta />
       <Steps />
       <Faq />
