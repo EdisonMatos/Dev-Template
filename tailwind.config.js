@@ -7,7 +7,7 @@ module.exports = {
         primary: "#DBB14C", // Com primária (variação clara)
         secondary: "#000000", // Cor primária (variação escura)
         bgSectionLight: "#FFFFFF",
-        bgSectionDark: "#141414",
+        bgSectionDark: "#292929",
         links: "#0189BB", // Links
         buttonColor: "#DBB14C", // Botões
         lighter: "#FFFFFF",

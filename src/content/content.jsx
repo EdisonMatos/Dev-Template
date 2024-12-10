@@ -56,13 +56,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A Definir",
+  name: "Dra. Gabriela Marchetti Spigarollo",
   email: "contato", // Email desejado pelo cliente
   domain: "spigarollo.com.br", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "43",
+    firstPart: "99603", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8878", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -76,12 +76,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
+  instagramProfile: "adv.gabrielamarchetti", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
