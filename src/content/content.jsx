@@ -318,28 +318,41 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É A DRA GABRIELA SPIGAROLLO",
+      title: "Minha trajetória",
+      subtitle:
+        "Especialista em Direito Civil, de Família, Imobiliário e Processo Civil, com pós-graduação pela UEL e LEGALE.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          Desde minha formação em 2019, busco constante aprimoramento para
+          oferecer um atendimento jurídico de excelência, com foco em soluções
+          personalizadas e eficientes para cada cliente.
+          <br />
+          Acredito que o sucesso no direito vai além da técnica; é essencial
+          compreender as necessidades individuais com empatia e respeito.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Definir
+          Desde minha formação em 2019, busco constante aprimoramento para
+          oferecer um atendimento jurídico de excelência, com foco em soluções
+          personalizadas e eficientes para cada cliente.
           <br />
           <br />
-          A Definir
+          Acredito que o sucesso no direito vai além da técnica; é essencial
+          compreender as necessidades individuais com empatia e respeito.
           <br />
           <br />
-          A Definir
+          Com isso, busco promover um atendimento humanizado, adaptado ao
+          ambiente digital, proporcionando conveniência e acessibilidade sem
+          abrir mão da qualidade e da atenção personalizada.
           <br />
           <br />
-          A Definir
+          Meus valores são baseados em humildade, ética, agilidade e compromisso
+          com a verdade. Minha missão é oferecer soluções jurídicas com
+          excelência e segurança, sempre respeitando as necessidades e a
+          confiança de quem me procura.
           <br />
           <br />
         </p>
@@ -352,68 +365,85 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
-        paragraph: <p>A Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe mutias novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do mundo jurídico seguindo a Dra. Gabriela Spigarollo nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
+            Civil, Família, Imobiliário e Processo Civil. Não perca a chance de
+            transformar conhecimento em poder para proteger seus direitos.
+          </p>
+        ),
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuido disso para você!",
+      subtitle:
+        "Converse com minha equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Procedimento eficaz",
+          cardDescription:
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
