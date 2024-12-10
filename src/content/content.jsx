@@ -56,32 +56,31 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "NexFiscal",
+  name: "Dra. Gabriela Marchetti Spigarollo",
   email: "contato", // Email desejado pelo cliente
-  domain: "nexfiscal.com.br", // Sem "www"
+  domain: "spigarollo.com.br", // Sem "www"
   phone: {
-    ddd: "91",
-    firstPart: "98218", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1585", // Apenas os 4 últimos números
+    ddd: "43",
+    firstPart: "99603", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8878", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Domingos Marreiros, 49</p>
-      <p>Sala 909 - Umarizal, Belém - Pará</p>
-      <p>CEP: 66055-210.</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>08h às 12h</p>
-      <p>14h às 18h</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
+  instagramProfile: "adv.gabrielamarchetti", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -105,15 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ASSESSORIA TRIBUTÁRIA EM BELÉM - PA",
+      miniTag: "ADVOGADA CÍVEL EM LONDRINA - PR E ITAPEMA - SC",
       title: (
         <h1 className="mb-[16px]">
-          Estratégias tributárias que geram
-          <span className="text-primary"> resultados</span>
+          Juridicamente
+          <span className="text-primary"> descomplicado</span>
         </h1>
       ),
       subtitle:
-        "Soluções inovadoras em contencioso administrativo para segurança e crescimento sustentável.",
+        "Soluções claras, apoio completo e dedicação para sua jornada jurídica.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -135,7 +134,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento Online",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -162,27 +161,21 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Soluções Tributárias de Excelência",
+      title: "Atuação judicial e extrajudicial",
       subtitle:
-        "Estratégias personalizadas para garantir segurança jurídica e otimizar os resultados da sua empresa.",
+        "Estratégias jurídicas precisas tanto no tribunal quanto fora dele.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Gestão e Assessoria Fiscal",
-        subtitle: "Soluções fiscais personalizadas e eficazes.",
+        title: "Direito do Consumidor",
+        subtitle:
+          "Proteção dos direitos do consumidor em contratos, produtos e serviços.",
         description: (
           <div>
-            Oferecemos serviços de consultoria e gestão fiscal, auxiliando na
-            elaboração de estratégias tributárias eficientes.
+            A Definir
             <br />
-            <br />
-            Isso inclui a análise e implementação de parcelamentos tributários e
-            a obtenção de benefícios fiscais, visando à redução de encargos e ao
-            cumprimento da legislação vigente. Nosso objetivo é garantir a
-            conformidade fiscal e maximizar os recursos financeiros de nossos
-            clientes, com soluções que atendem às especificidades de cada
-            negócio.
+            <br />A Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -191,11 +184,16 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-tag"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -203,18 +201,13 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Defesa Fiscal Estratégica",
-        subtitle: "Protegendo seu negócio contra autuações.",
+        title: "Direito do Trabalho",
+        subtitle:
+          "Assessoria em questões trabalhistas, desde relações empregatícias até disputas.",
         description: (
           <div>
-            Prestamos defesa técnica e estratégica em casos de autos de infração
-            emitidos pela Receita Federal e pelas Secretarias da Fazenda (SEFAZ)
-            estaduais. <br />
             <br />
-            Nossa equipe de especialistas atua na análise e contestação de
-            autuações fiscais, buscando a revogação ou redução de penalidades,
-            visando proteger os interesses do cliente e corrigir eventuais
-            equívocos nas notificações.
+            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -223,11 +216,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -235,20 +235,12 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Defesas Fiscais Gerais",
-        subtitle: "Estratégias eficazes para litígios fiscais.",
+        title: "Direito Imobiliário",
+        subtitle: "Consultoria jurídica em compra, venda e locação de imóveis.",
         description: (
           <div>
-            Oferecemos defesas fiscais em diversas esferas, incluindo níveis
-            federal, estadual e municipal, para situações que envolvem disputas
-            tributárias. <br />
             <br />
-            Nossa equipe desenvolve estratégias eficazes para contestar
-            cobranças indevidas, tributação excessiva e outros litígios fiscais,
-            com foco em resultados positivos para os nossos clientes.
-            Trabalhamos para garantir que todos os processos sejam resolvidos
-            com base na legislação tributária vigente, evitando prejuízos
-            financeiros.
+            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -257,11 +249,16 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -269,24 +266,12 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Recuperação de Créditos",
-        subtitle: "Identificação de tributos pagos a mais.",
+        title: "Fashion Law",
+        subtitle:
+          "Proteção e orientação legal para marcas e criadores no universo da moda.",
         description: (
           <div>
-            Oferecemos suporte especializado para empresas que buscam recuperar
-            créditos tributários pagos indevidamente ou a maior, abrangendo
-            tributos federais, estaduais e municipais. <br />
-            Nossa atuação envolve uma análise detalhada das operações fiscais,
-            apurando possíveis inconsistências ou pagamentos excessivos, sempre
-            com base na legislação vigente. Trabalhamos de forma estratégica
-            para identificar oportunidades de compensação ou restituição de
-            valores, elaborando e acompanhando os processos administrativos
-            junto aos órgãos competentes.
             <br />
-            Nosso objetivo é garantir que as empresas recuperem seus recursos de
-            maneira célere, segura e eficiente, contribuindo para a otimização
-            do fluxo de caixa, a redução da carga tributária e o fortalecimento
-            da saúde financeira do negócio.
             <br />
           </div>
         ),
@@ -296,11 +281,15 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shirt"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -329,50 +318,28 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "QUEM É A NEXFISCAL",
-      title: "Sobre nós",
-      subtitle:
-        "A NexFiscal, sediada em Belém - PA, é uma empresa especializada em soluções fiscais e tributárias, dedicada a atender empresas e pessoas físicas em todo o Brasil. ",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Com vasta experiência e profundo conhecimento no setor tributário,
-          contamos com uma equipe de especialistas altamente qualificados,
-          comprometidos em oferecer serviços inovadores e personalizados, sempre
-          alinhados às necessidades específicas de cada cliente.
-          <br />
-          Nosso compromisso é garantir segurança jurídica e eficiência
-          financeira, ajudando nossos clientes a superar os desafios e as
-          complexidades do sistema tributário brasileiro.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com vasta experiência e profundo conhecimento no setor tributário,
-          contamos com uma equipe de especialistas altamente qualificados,
-          comprometidos em oferecer serviços inovadores e personalizados, sempre
-          alinhados às necessidades específicas de cada cliente.
+          A Definir
           <br />
           <br />
-          Nosso compromisso é garantir segurança jurídica e eficiência
-          financeira, ajudando nossos clientes a superar os desafios e as
-          complexidades do sistema tributário brasileiro. Atuamos com ética,
-          excelência e inovação, desenvolvendo estratégias eficazes que promovem
-          conformidade, otimizam resultados e impulsionam o crescimento
-          sustentável de nossos parceiros.
+          A Definir
           <br />
           <br />
-          Na NexFiscal, acreditamos que o sucesso dos nossos clientes está
-          diretamente ligado à gestão tributária estratégica. Por isso,
-          combinamos conhecimento técnico, soluções modernas e um atendimento
-          próximo e humanizado para construir relações de confiança e entregar
-          resultados concretos.
+          A Definir
           <br />
           <br />
-          Estamos prontos para ser o elo entre sua empresa e a segurança fiscal
-          necessária para prosperar em um mercado dinâmico e exigente. Escolha a
-          NexFiscal como sua parceira em gestão tributária e descubra como
-          transformar desafios fiscais em oportunidades de crescimento.
+          A Definir
           <br />
           <br />
         </p>
@@ -393,72 +360,60 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title: "Converse com especialistas em tributação",
-      subtitle:
-        "Tire suas dúvidas e descubra como podemos ajudar sua empresa a crescer com segurança.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Análise Personalizada",
-          cardDescription:
-            "Estudamos sua situação tributária para identificar riscos, oportunidades e soluções sob medida.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Planejamento Estratégico",
-          cardDescription:
-            "Criamos um plano de ação focado em reduzir custos, garantir conformidade e aumentar sua eficiência.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Execução e Consultoria",
-          cardDescription:
-            "Implementamos as soluções propostas e oferecemos suporte contínuo para decisões assertivas.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Monitoramento e Crescimento",
-          cardDescription:
-            "Acompanhamos resultados e ajustamos estratégias para assegurar segurança e sustentabilidade.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question:
-            "O que é consultoria tributária e qual sua importância para minha empresa?",
-          answer:
-            "A consultoria tributária é um serviço especializado que visa analisar e otimizar a carga tributária de uma empresa, garantindo o cumprimento das obrigações fiscais e identificando oportunidades de economia. Sua importância reside na redução de custos, minimização de riscos fiscais e melhoria da competitividade no mercado.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question:
-            "Como escolher uma empresa de consultoria tributária adequada?",
-          answer:
-            "Ao selecionar uma consultoria tributária, é fundamental avaliar a experiência da empresa no seu ramo de atuação, verificar casos de sucesso e buscar indicações profissionais. Além disso, compreenda a metodologia utilizada e analise o custo-benefício, assegurando que a qualidade do serviço atenda às necessidades específicas do seu negócio.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question:
-            "Quais são os benefícios de um bom planejamento tributário?",
-          answer:
-            "Um planejamento tributário eficaz proporciona maior segurança jurídica, redução de custos com impostos, escolha do regime tributário mais adequado e cumprimento das exigências fiscais. Além disso, contribui para a minimização de riscos e permite que a empresa se concentre em seu core business.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Quanto custa uma consultoria tributária e fiscal?",
-          answer:
-            "O custo de uma consultoria tributária varia conforme a complexidade dos serviços, a experiência dos profissionais envolvidos e a abrangência do trabalho. Consultorias mais abrangentes tendem a ter um custo mais elevado, mas podem oferecer um retorno significativo em termos de economia tributária e eficiência operacional.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
