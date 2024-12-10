@@ -162,7 +162,7 @@ export default function AboutInstagram() {
             />
           </MotionDivDownToUp>
 
-          <MotionDivDownToUp className="mt-[18px]">
+          {/* <MotionDivDownToUp className="mt-[18px]">
             <Button
               label="Siga-me no TikTok"
               buttonLink={content.texts.links.tiktok}
@@ -179,7 +179,7 @@ export default function AboutInstagram() {
                 </svg>
               }
             />
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
 
           {/* Fim Botão de saiba mais abrindo modal */}
         </div>

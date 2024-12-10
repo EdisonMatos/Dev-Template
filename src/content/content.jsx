@@ -56,28 +56,28 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "NexFiscal",
+  name: "A Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "nexfiscal.com.br", // Sem "www"
+  domain: "spigarollo.com.br", // Sem "www"
   phone: {
-    ddd: "91",
-    firstPart: "98218", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1585", // Apenas os 4 últimos números
+    ddd: "A Definir",
+    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Domingos Marreiros, 49</p>
-      <p>Sala 909 - Umarizal, Belém - Pará</p>
-      <p>CEP: 66055-210.</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>08h às 12h</p>
-      <p>14h às 18h</p>
+      <p>A Definir</p>
+      <p>A Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -105,15 +105,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ASSESSORIA TRIBUTÁRIA EM BELÉM - PA",
+      miniTag: "A Definir",
       title: (
         <h1 className="mb-[16px]">
-          Estratégias tributárias que geram
-          <span className="text-primary"> resultados</span>
+          A Definir
+          <span className="text-primary"> A Definir</span>
         </h1>
       ),
-      subtitle:
-        "Soluções inovadoras em contencioso administrativo para segurança e crescimento sustentável.",
+      subtitle: "A Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -161,28 +160,20 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Soluções Tributárias de Excelência",
-      subtitle:
-        "Estratégias personalizadas para garantir segurança jurídica e otimizar os resultados da sua empresa.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Gestão e Assessoria Fiscal",
-        subtitle: "Soluções fiscais personalizadas e eficazes.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
-            Oferecemos serviços de consultoria e gestão fiscal, auxiliando na
-            elaboração de estratégias tributárias eficientes.
+            A Definir
             <br />
-            <br />
-            Isso inclui a análise e implementação de parcelamentos tributários e
-            a obtenção de benefícios fiscais, visando à redução de encargos e ao
-            cumprimento da legislação vigente. Nosso objetivo é garantir a
-            conformidade fiscal e maximizar os recursos financeiros de nossos
-            clientes, com soluções que atendem às especificidades de cada
-            negócio.
+            <br />A Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -203,8 +194,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Defesa Fiscal Estratégica",
-        subtitle: "Protegendo seu negócio contra autuações.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             Prestamos defesa técnica e estratégica em casos de autos de infração
@@ -235,8 +226,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Defesas Fiscais Gerais",
-        subtitle: "Estratégias eficazes para litígios fiscais.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             Oferecemos defesas fiscais em diversas esferas, incluindo níveis
@@ -269,8 +260,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Recuperação de Créditos",
-        subtitle: "Identificação de tributos pagos a mais.",
+        title: "A Definir",
+        subtitle: "A Definir",
         description: (
           <div>
             Oferecemos suporte especializado para empresas que buscam recuperar
@@ -329,50 +320,28 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "QUEM É A NEXFISCAL",
-      title: "Sobre nós",
-      subtitle:
-        "A NexFiscal, sediada em Belém - PA, é uma empresa especializada em soluções fiscais e tributárias, dedicada a atender empresas e pessoas físicas em todo o Brasil. ",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Com vasta experiência e profundo conhecimento no setor tributário,
-          contamos com uma equipe de especialistas altamente qualificados,
-          comprometidos em oferecer serviços inovadores e personalizados, sempre
-          alinhados às necessidades específicas de cada cliente.
-          <br />
-          Nosso compromisso é garantir segurança jurídica e eficiência
-          financeira, ajudando nossos clientes a superar os desafios e as
-          complexidades do sistema tributário brasileiro.
+          A Definir
+          <br />A Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com vasta experiência e profundo conhecimento no setor tributário,
-          contamos com uma equipe de especialistas altamente qualificados,
-          comprometidos em oferecer serviços inovadores e personalizados, sempre
-          alinhados às necessidades específicas de cada cliente.
+          A Definir
           <br />
           <br />
-          Nosso compromisso é garantir segurança jurídica e eficiência
-          financeira, ajudando nossos clientes a superar os desafios e as
-          complexidades do sistema tributário brasileiro. Atuamos com ética,
-          excelência e inovação, desenvolvendo estratégias eficazes que promovem
-          conformidade, otimizam resultados e impulsionam o crescimento
-          sustentável de nossos parceiros.
+          A Definir
           <br />
           <br />
-          Na NexFiscal, acreditamos que o sucesso dos nossos clientes está
-          diretamente ligado à gestão tributária estratégica. Por isso,
-          combinamos conhecimento técnico, soluções modernas e um atendimento
-          próximo e humanizado para construir relações de confiança e entregar
-          resultados concretos.
+          A Definir
           <br />
           <br />
-          Estamos prontos para ser o elo entre sua empresa e a segurança fiscal
-          necessária para prosperar em um mercado dinâmico e exigente. Escolha a
-          NexFiscal como sua parceira em gestão tributária e descubra como
-          transformar desafios fiscais em oportunidades de crescimento.
+          A Definir
           <br />
           <br />
         </p>
@@ -393,72 +362,60 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title: "Converse com especialistas em tributação",
-      subtitle:
-        "Tire suas dúvidas e descubra como podemos ajudar sua empresa a crescer com segurança.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A Definir",
+      title: "A Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Análise Personalizada",
-          cardDescription:
-            "Estudamos sua situação tributária para identificar riscos, oportunidades e soluções sob medida.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Planejamento Estratégico",
-          cardDescription:
-            "Criamos um plano de ação focado em reduzir custos, garantir conformidade e aumentar sua eficiência.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Execução e Consultoria",
-          cardDescription:
-            "Implementamos as soluções propostas e oferecemos suporte contínuo para decisões assertivas.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Monitoramento e Crescimento",
-          cardDescription:
-            "Acompanhamos resultados e ajustamos estratégias para assegurar segurança e sustentabilidade.",
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question:
-            "O que é consultoria tributária e qual sua importância para minha empresa?",
-          answer:
-            "A consultoria tributária é um serviço especializado que visa analisar e otimizar a carga tributária de uma empresa, garantindo o cumprimento das obrigações fiscais e identificando oportunidades de economia. Sua importância reside na redução de custos, minimização de riscos fiscais e melhoria da competitividade no mercado.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question:
-            "Como escolher uma empresa de consultoria tributária adequada?",
-          answer:
-            "Ao selecionar uma consultoria tributária, é fundamental avaliar a experiência da empresa no seu ramo de atuação, verificar casos de sucesso e buscar indicações profissionais. Além disso, compreenda a metodologia utilizada e analise o custo-benefício, assegurando que a qualidade do serviço atenda às necessidades específicas do seu negócio.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question:
-            "Quais são os benefícios de um bom planejamento tributário?",
-          answer:
-            "Um planejamento tributário eficaz proporciona maior segurança jurídica, redução de custos com impostos, escolha do regime tributário mais adequado e cumprimento das exigências fiscais. Além disso, contribui para a minimização de riscos e permite que a empresa se concentre em seu core business.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Quanto custa uma consultoria tributária e fiscal?",
-          answer:
-            "O custo de uma consultoria tributária varia conforme a complexidade dos serviços, a experiência dos profissionais envolvidos e a abrangência do trabalho. Consultorias mais abrangentes tendem a ter um custo mais elevado, mas podem oferecer um retorno significativo em termos de economia tributária e eficiência operacional.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
