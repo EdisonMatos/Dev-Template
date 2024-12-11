@@ -45,7 +45,6 @@ export default function FeaturesButton() {
               title={content.texts.features.card1.title}
               description={content.texts.features.card1.subtitle}
               buttonLabel={content.texts.features.card1.buttonLabel}
-              buttonColor="bg-black"
               animation
               onClick={() =>
                 onClick(
@@ -60,6 +59,7 @@ export default function FeaturesButton() {
                         content.texts.features.card1.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
+                      bgPosition="bg-center"
                     />
                   </div>
                 )
@@ -70,7 +70,6 @@ export default function FeaturesButton() {
               title={content.texts.features.card2.title}
               description={content.texts.features.card2.subtitle}
               buttonLabel={content.texts.features.card2.buttonLabel}
-              buttonColor="bg-black"
               animation
               onClick={() =>
                 onClick(
@@ -95,7 +94,6 @@ export default function FeaturesButton() {
               title={content.texts.features.card3.title}
               description={content.texts.features.card3.subtitle}
               buttonLabel={content.texts.features.card3.buttonLabel}
-              buttonColor="bg-black"
               animation
               onClick={() =>
                 onClick(
@@ -110,6 +108,7 @@ export default function FeaturesButton() {
                         content.texts.features.card3.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
+                      bgPosition="bg-center"
                     />
                   </div>
                 )
@@ -120,8 +119,8 @@ export default function FeaturesButton() {
               title={content.texts.features.card4.title}
               description={content.texts.features.card4.subtitle}
               buttonLabel={content.texts.features.card4.buttonLabel}
-              buttonColor="bg-black"
               animation
+              b
               onClick={() =>
                 onClick(
                   content.texts.features.card4.title,
@@ -135,6 +134,7 @@ export default function FeaturesButton() {
                         content.texts.features.card4.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
+                      bgPosition="bg-center"
                     />
                   </div>
                 )

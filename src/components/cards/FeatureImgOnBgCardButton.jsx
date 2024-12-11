@@ -22,6 +22,7 @@ export default function FeatureImgOnBgCardButton(props) {
     buttonLink: PropTypes.string,
     buttonColor: PropTypes.any,
     onClick: PropTypes.func,
+    bgPosition: PropTypes.any,
   };
 
   return (
