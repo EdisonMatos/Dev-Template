@@ -106,7 +106,7 @@ export default function Hero() {
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[400px] bg-cover bg-no-repeat shadow-custom-opacity shadow-black/30"
+                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-black/30"
                   style={{
                     backgroundImage: `url(${content.texts.hero.heroImg})`,
                     backgroundSize: "",
@@ -115,7 +115,7 @@ export default function Hero() {
                 <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
-                  className="absolute opacity-30 right-[-15px] top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
+                  className="absolute opacity-10 right-[-15px] top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
                 ></img>
               </MotionDivDownToUp>
             </div>
