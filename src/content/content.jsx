@@ -38,50 +38,34 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-import {
-  Calculator,
-  User,
-  House,
-  Briefcase,
-  HardHat,
-  CircleUserRound,
-  BadgePercent,
-  FileCheck,
-  Scale,
-  FileX,
-  HousePlus,
-  Grid2x2Check,
-} from "lucide-react";
-
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A Definir",
+  name: "Souza e Moura Advogados Associados",
   email: "contato", // Email desejado pelo cliente
-  domain: "spigarollo.com.br", // Sem "www"
+  domain: "souzaemouraadv.com.br", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "42",
+    firstPart: "99102", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7889", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Rua Luiz Migliorini, nº 311</p>
+      <p>Cará-Cará - Ponta Grossa - PR</p>
+      <p>CEP 84033-111</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Dás 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
+  instagramProfile: "advogados_mouraesouza", // Sem o @
   facebookProfile: "A Definir",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
@@ -750,6 +734,8 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      facebook:
+        "https://www.facebook.com/profile.php?id=61566211769835&locale=pt_BR",
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
     infos: {

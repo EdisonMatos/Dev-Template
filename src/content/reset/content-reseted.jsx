@@ -58,7 +58,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "A Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "spigarollo.com.br", // Sem "www"
+  domain: "A Definir", // Sem "www"
   phone: {
     ddd: "A Definir",
     firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
@@ -198,14 +198,9 @@ const content = {
         subtitle: "A Definir",
         description: (
           <div>
-            Prestamos defesa técnica e estratégica em casos de autos de infração
-            emitidos pela Receita Federal e pelas Secretarias da Fazenda (SEFAZ)
-            estaduais. <br />
+            A Definir
             <br />
-            Nossa equipe de especialistas atua na análise e contestação de
-            autuações fiscais, buscando a revogação ou redução de penalidades,
-            visando proteger os interesses do cliente e corrigir eventuais
-            equívocos nas notificações.
+            <br />A Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -230,16 +225,8 @@ const content = {
         subtitle: "A Definir",
         description: (
           <div>
-            Oferecemos defesas fiscais em diversas esferas, incluindo níveis
-            federal, estadual e municipal, para situações que envolvem disputas
-            tributárias. <br />
-            <br />
-            Nossa equipe desenvolve estratégias eficazes para contestar
-            cobranças indevidas, tributação excessiva e outros litígios fiscais,
-            com foco em resultados positivos para os nossos clientes.
-            Trabalhamos para garantir que todos os processos sejam resolvidos
-            com base na legislação tributária vigente, evitando prejuízos
-            financeiros.
+            A Definir <br />
+            <br />A Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -264,20 +251,9 @@ const content = {
         subtitle: "A Definir",
         description: (
           <div>
-            Oferecemos suporte especializado para empresas que buscam recuperar
-            créditos tributários pagos indevidamente ou a maior, abrangendo
-            tributos federais, estaduais e municipais. <br />
-            Nossa atuação envolve uma análise detalhada das operações fiscais,
-            apurando possíveis inconsistências ou pagamentos excessivos, sempre
-            com base na legislação vigente. Trabalhamos de forma estratégica
-            para identificar oportunidades de compensação ou restituição de
-            valores, elaborando e acompanhando os processos administrativos
-            junto aos órgãos competentes.
+            A Definir
             <br />
-            Nosso objetivo é garantir que as empresas recuperem seus recursos de
-            maneira célere, segura e eficiente, contribuindo para a otimização
-            do fluxo de caixa, a redução da carga tributária e o fortalecimento
-            da saúde financeira do negócio.
+            A Definir
             <br />
           </div>
         ),
