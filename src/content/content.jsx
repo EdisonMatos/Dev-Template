@@ -730,6 +730,8 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      facebook:
+        "https://www.facebook.com/profile.php?id=61566770215544&mibextid=LQQJ4d&rdid=UPVuZPYPA0oY2wGh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15jwoTeqas%2F%3Fmibextid%3DLQQJ4d",
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,

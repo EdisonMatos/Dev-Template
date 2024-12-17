@@ -23,7 +23,7 @@ import FeaturesResumed from "../components/sections/FeaturesResumed";
 export default function Index() {
   return (
     <div>
-      <Navbar LightMode={true} />
+      <Navbar LightMode={false} />
       <Hero />
       <Features modal={false} />
       {/* <FeaturesResumed /> */}
@@ -32,7 +32,7 @@ export default function Index() {
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={false} />
+      <FooterSocial obs={false} addres={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
