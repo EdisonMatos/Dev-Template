@@ -23,7 +23,7 @@ import FeaturesResumed from "../components/sections/FeaturesResumed";
 export default function Index() {
   return (
     <div>
-      <Navbar LightMode={false} />
+      <Navbar LightMode={true} />
       <Hero />
       <Features modal={false} />
       {/* <FeaturesResumed /> */}
