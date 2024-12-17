@@ -56,31 +56,31 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Rafael Agudo Freire",
   email: "contato", // Email desejado pelo cliente
   domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "18",
+    firstPart: "99104", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7024", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Rui Barbosa, nº 737, Centro</p>
+      <p>Santo Anastácio/SP</p>
+      <p>CEP: 19.360-081</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>8h30 as 17h30</p>
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "A_Definir", // Sem o @
+  instagramProfile: "adv.rafaelfreire", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
