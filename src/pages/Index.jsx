@@ -23,16 +23,16 @@ import FeaturesResumed from "../components/sections/FeaturesResumed";
 export default function Index() {
   return (
     <div>
-      <Navbar LightMode={false} />
+      <Navbar LightMode={true} />
       <Hero />
-      {/* <Features modal={false} /> */}
-      <FeaturesResumed />
+      <Features modal={false} />
+      {/* <FeaturesResumed /> */}
       <About modal={true} />
       <AboutInstagram />
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={true} />
+      <FooterSocial obs={false} addres={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>

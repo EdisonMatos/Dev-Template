@@ -38,36 +38,51 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
+import {
+  Calculator,
+  User,
+  House,
+  Briefcase,
+  HardHat,
+  CircleUserRound,
+  BadgePercent,
+  FileCheck,
+  Scale,
+  FileX,
+  HousePlus,
+  Grid2x2Check,
+} from "lucide-react";
+
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Souza e Moura Advogados Associados",
+  name: "Dr. Ricardo Loretti",
   email: "contato", // Email desejado pelo cliente
-  domain: "souzaemouraadv.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "42",
-    firstPart: "99102", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7889", // Apenas os 4 últimos números
+    ddd: "24",
+    firstPart: "99226", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4478", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Luiz Migliorini, nº 311</p>
-      <p>Cará-Cará - Ponta Grossa - PR</p>
-      <p>CEP 84033-111</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Dás 8h às 18h</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advogados_mouraesouza", // Sem o @
-  facebookProfile: "A Definir",
-  linkeDinProfile: "A Definir",
+  obs: <span className="italic">A_Definir</span>,
+  instagramProfile: "advricardoloretti", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   slogan: "",
@@ -89,15 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM PONTA GROSSA - PR",
+      miniTag: "ADVOGADO EM RESENDE - RJ",
       title: (
         <h1 className="mb-[16px]">
-          Compromisso que <span className="text-primary">protege </span>sua
-          causa
+          Sua defesa
+          <span className="text-primary"> planejada</span> começa aqui
         </h1>
       ),
       subtitle:
-        "Garantimos defesa eficiente com ética, prática e dedicação em cada etapa do processo jurídico.",
+        "Com experiência comprovada, uso minha trajetória para combater injustiças e proteger seus direitos.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +138,7 @@ const content = {
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A Definir",
+      secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -145,56 +160,24 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Experiência jurídica a seu favor",
-      subtitle: "Solucionando demandas com foco no resultado.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades que fazem a diferença no seu caso",
+      subtitle: "Transformando desafios em soluções jurídicas",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito do Trabalho",
-        subtitle: "Garantimos justiça nas relações trabalhistas.",
+        title: "Criminal",
+        subtitle: "Defesa estratégica em processos e investigações.",
         description: (
           <div>
-            A Definir
+            A_Definir
             <br />
-            <br />A Definir
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
-          >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card2: {
-        img: featuresImg2,
-        title: "Direito Criminal",
-        subtitle: "Proteção jurídica eficiente em casos criminais.",
-        description: (
-          <div>
-            A definir. <br />
-            <br />A definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -218,14 +201,51 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card3: {
-        img: featuresImg3,
-        title: "Direito Cível",
-        subtitle: "Soluções rápidas e eficazes para conflitos civis.",
+      card2: {
+        img: featuresImg2,
+        title: "Família e Sucessões",
+        subtitle: "Soluções para divórcios, guarda e inventários.",
         description: (
           <div>
-            A definir <br />
-            <br />A definir
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-network"
+          >
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Previdenciário e Trabalhista",
+        subtitle: "Garantia de benefícios e direitos no trabalho.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -240,12 +260,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -253,13 +273,13 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Médico",
-        subtitle: "Defesa especializada em questões médicas e legais.",
+        title: "Consumidor e Regularização de Imóveis",
+        subtitle: "Consultoria para acordos, imóveis e consumo.",
         description: (
           <div>
-            A definir
+            A_Definir
             <br />
-            A definir
+            A_Definir
             <br />
           </div>
         ),
@@ -275,88 +295,15 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-stethoscope"
+            class="lucide lucide-notepad-text"
           >
-            <path d="M11 2v2" />
-            <path d="M5 2v2" />
-            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
-            <path d="M8 15a6 6 0 0 0 12 0v-3" />
-            <circle cx="20" cy="10" r="2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card5: {
-        img: featuresImg4,
-        title: "Direito Bancário",
-        subtitle: "Resolvemos disputas financeiras com precisão.",
-        description: (
-          <div>
-            A definir
-            <br />
-            A definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-landmark"
-          >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card6: {
-        img: featuresImg4,
-        title: "Consultoria Trabalhista",
-        subtitle: "Assessoria completa para empresas e negócios.",
-        description: (
-          <div>
-            A definir
-            <br />
-            A definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-building-2"
-          >
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
-            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
-            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
-            <path d="M10 6h4" />
-            <path d="M10 10h4" />
-            <path d="M10 14h4" />
-            <path d="M10 18h4" />
+            <path d="M8 2v4" />
+            <path d="M12 2v4" />
+            <path d="M16 2v4" />
+            <rect width="16" height="18" x="4" y="4" rx="2" />
+            <path d="M8 10h6" />
+            <path d="M8 14h8" />
+            <path d="M8 18h5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -364,19 +311,19 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card2: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card3: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
       },
     },
@@ -385,50 +332,45 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "CONHEÇA A SOUZA E MOURA ADVOGADOS ASSOCIADOS",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É O DR RICARDO LORETTI",
+      title: "Minha trajetória",
       subtitle:
-        "Felipe Meira de Moura Luz e Evelyn Vanessa de Souza são advogados com trajetórias complementares e uma abordagem estratégica para oferecer soluções jurídicas personalizadas e eficazes.",
+        "Uma jornada de superação e dedicação para combater as injustiças sociais.",
       paragraph: (
         <div>
-          Felipe é especializado em Direito Trabalhista, com ampla experiência
-          em advocacia patronal, implementação de programas de compliance e
-          defesa de empresas em questões trabalhistas e cíveis.
+          Criado na periferia de Resende, cidade do interior do Estado do Rio de
+          Janeiro, cresci rodeado pelos malefícios que permeiam a criação de um
+          jovem de comunidade.
           <br />
-          Evelyn traz uma perspectiva multidisciplinar ao Direito, com formações
-          anteriores em Letras e Pedagogia, o que fortalece sua análise jurídica
-          e habilidades de comunicação. Especializada em Direito Trabalhista e
-          Previdenciário, sua experiência abrange Direito Empresarial e atuação
-          em órgãos públicos, qualificando-a para oferecer soluções jurídicas
-          precisas e empáticas.
+          Percebi que, para combater injustiças, seria necessário compreender o
+          direito e, sobretudo, aplicá-lo corretamente.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Felipe é especializado em Direito Trabalhista, com ampla experiência
-          em advocacia patronal, implementação de programas de compliance e
-          defesa de empresas em questões trabalhistas e cíveis.
-          <br />
-          Pós-graduando em Direito do Agronegócio e Advocacia contra
-          Instituições Financeiras, ele combina expertise técnica e visão
-          estratégica para atuar em setores complexos, como o agronegócio, com
-          foco em conformidade e mitigação de riscos.
+          Criado na periferia de Resende, cidade do interior do Estado do Rio de
+          Janeiro, cresci rodeado pelos malefícios que permeiam a criação de um
+          jovem de comunidade. Percebi que, para combater injustiças, seria
+          necessário compreender o direito e, sobretudo, aplicá-lo corretamente.
           <br />
           <br />
-          Evelyn traz uma perspectiva multidisciplinar ao Direito, com formações
-          anteriores em Letras e Pedagogia, o que fortalece sua análise jurídica
-          e habilidades de comunicação. Especializada em Direito Trabalhista e
-          Previdenciário, sua experiência abrange Direito Empresarial e atuação
-          em órgãos públicos, qualificando-a para oferecer soluções jurídicas
-          precisas e empáticas.
+          Em 2017 dei início a minha vida acadêmica. Em seguida, recebi a
+          oportunidade de estagiar no Cartório e no Gabinete do Juizado Especial
+          Cível da Comarca de Resende.
           <br />
           <br />
-          Juntos, Felipe e Evelyn formam uma equipe dedicada à excelência, com o
-          compromisso de atender às necessidades de cada cliente com seriedade,
-          ética e foco nos melhores resultados.
+          Também conto com uma passagem como estagiário forense após ser
+          aprovado no X Exame de Admissão para Estagiários Forenses do MPRJ
+          sendo lotado na Promotoria de Justiça da Infância e da Juventude de
+          Resende. Ainda, fui estagiário de pós-graduação na Defensoria Pública
+          do Estado Rio Grande do Sul.
           <br />
           <br />
+          Minha principal missão é ser agente ativo no combate às mazelas
+          sociais. Como advogado, continuo me dedicando à leitura da doutrina,
+          da lei e de informativos para melhor atender e corresponder às
+          necessidades dos meus clientes.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -442,12 +384,12 @@ const content = {
         miniTag: "MANTENHA-SE INFORMADO",
         title: "Conecte-se e acompanhe novidades e atualizações!",
         subtitle:
-          "⚖️ Esteja sempre por dentro do mundo jurídico! Siga Souza e Moura Advogados nas redes sociais.",
+          "⚖️ Fique por dentro do universo jurídico com o Dr. Ricardo Loretti nas redes sociais!",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e mantenha-se informado sobre as áreas de
-            Direito Trabalhista, Cível, Médico, Bancário e Consultoria
-            Trabalhista.
+            Acompanhe nossas postagens e mantenha-se atualizado sobre as áreas
+            de atuação do Dr. Ricardo, como Direito Criminal, Família e
+            Sucessões, e mais.{" "}
           </p>
         ),
       },
@@ -472,32 +414,32 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Procedimento eficaz",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
@@ -532,9 +474,9 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -555,11 +497,11 @@ const content = {
       },
     },
     trustedBy: {
-      title: "A Definir",
-      subtitle: "A Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       trustedMore: {
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
       },
       images: {
         img1: {
@@ -579,15 +521,15 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "A Definir",
+      number1Description: "A_Definir",
       number2: 500,
-      number2Description: "A Definir",
+      number2Description: "A_Definir",
       number3: 1000,
-      number3Description: "A Definir",
+      number3Description: "A_Definir",
     },
     team: {
-      title: "A Definir",
-      subtitle: "A Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       members: {
         member1: {
           img: {
@@ -852,8 +794,6 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
-      facebook:
-        "https://www.facebook.com/profile.php?id=61566211769835&locale=pt_BR",
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
     infos: {
