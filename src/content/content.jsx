@@ -332,31 +332,45 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR RICARDO LORETTI",
+      title: "Minha trajetória",
+      subtitle:
+        "Uma jornada de superação e dedicação para combater as injustiças sociais.",
       paragraph: (
         <div>
-          A_Definir
+          Criado na periferia de Resende, cidade do interior do Estado do Rio de
+          Janeiro, cresci rodeado pelos malefícios que permeiam a criação de um
+          jovem de comunidade.
           <br />
-          A_Definir
+          Percebi que, para combater injustiças, seria necessário compreender o
+          direito e, sobretudo, aplicá-lo corretamente.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Criado na periferia de Resende, cidade do interior do Estado do Rio de
+          Janeiro, cresci rodeado pelos malefícios que permeiam a criação de um
+          jovem de comunidade. Percebi que, para combater injustiças, seria
+          necessário compreender o direito e, sobretudo, aplicá-lo corretamente.
           <br />
           <br />
-          A_Definir
+          Em 2017 dei início a minha vida acadêmica. Em seguida, recebi a
+          oportunidade de estagiar no Cartório e no Gabinete do Juizado Especial
+          Cível da Comarca de Resende.
           <br />
           <br />
-          A_Definir
+          Também conto com uma passagem como estagiário forense após ser
+          aprovado no X Exame de Admissão para Estagiários Forenses do MPRJ
+          sendo lotado na Promotoria de Justiça da Infância e da Juventude de
+          Resende. Ainda, fui estagiário de pós-graduação na Defensoria Pública
+          do Estado Rio Grande do Sul.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
+          Minha principal missão é ser agente ativo no combate às mazelas
+          sociais. Como advogado, continuo me dedicando à leitura da doutrina,
+          da lei e de informativos para melhor atender e corresponder às
+          necessidades dos meus clientes.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -367,10 +381,17 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do universo jurídico com o Dr. Ricardo Loretti nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre as áreas
+            de atuação do Dr. Ricardo, como Direito Criminal, Família e
+            Sucessões, e mais.{" "}
+          </p>
+        ),
       },
     },
     cta: {
