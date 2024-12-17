@@ -194,7 +194,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
 
                     {/* Instagram icon */}
 
-                    <a
+                    {/* <a
                       href={content.texts.links.facebook}
                       target="_blank"
                       aria-label="Link para o Facebook"
@@ -218,7 +218,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                           </svg>
                         }
                       />
-                    </a>
+                    </a> */}
                     {/* <a
                       href={content.texts.infos.linkedInProfile}
                       target="_blank"

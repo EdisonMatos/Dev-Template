@@ -62,7 +62,7 @@ export const infos = {
   phone: {
     ddd: "24",
     firstPart: "99226", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    secondPart: "4478", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -76,12 +76,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "A_Definir", // Sem o @
+  instagramProfile: "advricardoloretti", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
