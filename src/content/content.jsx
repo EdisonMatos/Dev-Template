@@ -335,29 +335,43 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É DR. RAFAEL FREIRE",
+      title: "Minha trajetória",
+      subtitle: "Dedicação, ética e soluções jurídicas personalizadas.",
       paragraph: (
         <div>
-          A_Definir
+          Advogado inscrito na OAB/SP sob o número 434.105, formado em Direito
+          pela Universidade do Oeste Paulista (UNOESTE) em 2019.
           <br />
-          A_Definir
+          Possuo uma sólida trajetória acadêmica, com diversas pós-graduações em
+          áreas como Direito da Seguridade Social, RPPS e Previdência
+          Complementar, Processo Administrativo Previdenciário, além de estar
+          cursando Direito Bancário.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Advogado inscrito na OAB/SP sob o número 434.105, formado em Direito
+          pela Universidade do Oeste Paulista (UNOESTE) em 2019.
           <br />
           <br />
-          A_Definir
+          Possuo uma sólida trajetória acadêmica, com diversas pós-graduações em
+          áreas como Direito da Seguridade Social, RPPS e Previdência
+          Complementar, Processo Administrativo Previdenciário, além de estar
+          cursando Direito Bancário.
           <br />
           <br />
-          A_Definir
+          Desde 2019, tenho como foco oferecer soluções jurídicas personalizadas
+          e um atendimento humanizado, sempre alinhado às necessidades reais de
+          cada cliente. Minha atuação é guiada por valores como ética,
+          transparência, responsabilidade e um compromisso inabalável com a
+          justiça.
           <br />
           <br />
-          A_Definir
+          Acredito que a base de um bom relacionamento profissional é a
+          confiança, construída por meio de diálogo aberto, respeito mútuo e
+          dedicação em buscar a melhor solução para cada caso.
           <br />
           <br />
         </p>
@@ -370,10 +384,16 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
+        subtitle:
+          "⚖️ Esteja sempre atualizado no universo jurídico! Siga o Dr. Rafael Agudo Freire nas redes sociais.",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e fique por dentro de temas importantes
+            nas áreas de Direito Previdenciário, Bancário e Trabalhista.
+          </p>
+        ),
       },
     },
     cta: {
