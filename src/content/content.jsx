@@ -56,31 +56,31 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Ricardo Loretti",
+  name: "Dr. Rafael Agudo Freire",
   email: "contato", // Email desejado pelo cliente
   domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "24",
-    firstPart: "99226", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4478", // Apenas os 4 últimos números
+    ddd: "18",
+    firstPart: "99104", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7024", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Rui Barbosa, nº 737, Centro</p>
+      <p>Santo Anastácio/SP</p>
+      <p>CEP: 19.360-081</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>8h30 as 17h30</p>
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "advricardoloretti", // Sem o @
+  instagramProfile: "adv.rafaelfreire", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
@@ -104,15 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM RESENDE - RJ",
+      miniTag: "ADVOGADO EM SANTO ANASTÁCIO E PRESIDENTE VENCESLAU - SP",
       title: (
         <h1 className="mb-[16px]">
-          Sua defesa
-          <span className="text-primary"> planejada</span> começa aqui
+          A seriedade
+          <span className="text-primary"> que você merece </span> em sua defesa
         </h1>
       ),
       subtitle:
-        "Com experiência comprovada, uso minha trajetória para combater injustiças e proteger seus direitos.",
+        "Com conhecimento profundo e abordagem personalizada, lutamos pelos seus direitos de forma eficaz.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -160,15 +160,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades que fazem a diferença no seu caso",
-      subtitle: "Transformando desafios em soluções jurídicas",
+      miniTag: "ESPECIALIDADES",
+      title: "Protegendo seus direitos com profundo conhecimento",
+      subtitle:
+        "Atendimento especializado em diversas áreas jurídicas, focados em garantir os seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Criminal",
-        subtitle: "Defesa estratégica em processos e investigações.",
+        title: "Direito Previdenciário",
+        subtitle: "Auxílio em aposentadorias e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -189,13 +190,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-hourglass"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -203,8 +203,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Família e Sucessões",
-        subtitle: "Soluções para divórcios, guarda e inventários.",
+        title: "Direito Bancário",
+        subtitle:
+          "Resolução de conflitos com bancos e instituições financeiras.",
         description: (
           <div>
             A_Definir
@@ -225,13 +226,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-network"
+            class="lucide lucide-landmark"
           >
-            <rect x="16" y="16" width="6" height="6" rx="1" />
-            <rect x="2" y="16" width="6" height="6" rx="1" />
-            <rect x="9" y="2" width="6" height="6" rx="1" />
-            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-            <path d="M12 12V8" />
+            <line x1="3" x2="21" y1="22" y2="22" />
+            <line x1="6" x2="6" y1="18" y2="11" />
+            <line x1="10" x2="10" y1="18" y2="11" />
+            <line x1="14" x2="14" y1="18" y2="11" />
+            <line x1="18" x2="18" y1="18" y2="11" />
+            <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -239,8 +241,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Previdenciário e Trabalhista",
-        subtitle: "Garantia de benefícios e direitos no trabalho.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa de direitos trabalhistas e ações de empregadores.",
         description: (
           <div>
             A_Definir <br />
@@ -273,8 +275,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consumidor e Regularização de Imóveis",
-        subtitle: "Consultoria para acordos, imóveis e consumo.",
+        title: "Fraudes Online",
+        subtitle: "Soluções para casos de fraudes e crimes digitais.",
         description: (
           <div>
             A_Definir
@@ -295,15 +297,16 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-notepad-text"
+            class="lucide lucide-siren"
           >
-            <path d="M8 2v4" />
-            <path d="M12 2v4" />
-            <path d="M16 2v4" />
-            <rect width="16" height="18" x="4" y="4" rx="2" />
-            <path d="M8 10h6" />
-            <path d="M8 14h8" />
-            <path d="M8 18h5" />
+            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
+            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
+            <path d="M21 12h1" />
+            <path d="M18.5 4.5 18 5" />
+            <path d="M2 12h1" />
+            <path d="M12 2v1" />
+            <path d="m4.929 4.929.707.707" />
+            <path d="M12 12v6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -332,45 +335,45 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "QUEM É O DR RICARDO LORETTI",
+      miniTag: "QUEM É DR. RAFAEL FREIRE",
       title: "Minha trajetória",
-      subtitle:
-        "Uma jornada de superação e dedicação para combater as injustiças sociais.",
+      subtitle: "Dedicação, ética e soluções jurídicas personalizadas.",
       paragraph: (
         <div>
-          Criado na periferia de Resende, cidade do interior do Estado do Rio de
-          Janeiro, cresci rodeado pelos malefícios que permeiam a criação de um
-          jovem de comunidade.
+          Advogado inscrito na OAB/SP sob o número 434.105, formado em Direito
+          pela Universidade do Oeste Paulista (UNOESTE) em 2019.
           <br />
-          Percebi que, para combater injustiças, seria necessário compreender o
-          direito e, sobretudo, aplicá-lo corretamente.
+          Possuo uma sólida trajetória acadêmica, com diversas pós-graduações em
+          áreas como Direito da Seguridade Social, RPPS e Previdência
+          Complementar, Processo Administrativo Previdenciário, além de estar
+          cursando Direito Bancário.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Criado na periferia de Resende, cidade do interior do Estado do Rio de
-          Janeiro, cresci rodeado pelos malefícios que permeiam a criação de um
-          jovem de comunidade. Percebi que, para combater injustiças, seria
-          necessário compreender o direito e, sobretudo, aplicá-lo corretamente.
+          Advogado inscrito na OAB/SP sob o número 434.105, formado em Direito
+          pela Universidade do Oeste Paulista (UNOESTE) em 2019.
           <br />
           <br />
-          Em 2017 dei início a minha vida acadêmica. Em seguida, recebi a
-          oportunidade de estagiar no Cartório e no Gabinete do Juizado Especial
-          Cível da Comarca de Resende.
+          Possuo uma sólida trajetória acadêmica, com diversas pós-graduações em
+          áreas como Direito da Seguridade Social, RPPS e Previdência
+          Complementar, Processo Administrativo Previdenciário, além de estar
+          cursando Direito Bancário.
           <br />
           <br />
-          Também conto com uma passagem como estagiário forense após ser
-          aprovado no X Exame de Admissão para Estagiários Forenses do MPRJ
-          sendo lotado na Promotoria de Justiça da Infância e da Juventude de
-          Resende. Ainda, fui estagiário de pós-graduação na Defensoria Pública
-          do Estado Rio Grande do Sul.
+          Desde 2019, tenho como foco oferecer soluções jurídicas personalizadas
+          e um atendimento humanizado, sempre alinhado às necessidades reais de
+          cada cliente. Minha atuação é guiada por valores como ética,
+          transparência, responsabilidade e um compromisso inabalável com a
+          justiça.
           <br />
           <br />
-          Minha principal missão é ser agente ativo no combate às mazelas
-          sociais. Como advogado, continuo me dedicando à leitura da doutrina,
-          da lei e de informativos para melhor atender e corresponder às
-          necessidades dos meus clientes.
+          Acredito que a base de um bom relacionamento profissional é a
+          confiança, construída por meio de diálogo aberto, respeito mútuo e
+          dedicação em buscar a melhor solução para cada caso.
+          <br />
+          <br />
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -384,12 +387,11 @@ const content = {
         miniTag: "MANTENHA-SE INFORMADO",
         title: "Conecte-se e acompanhe novidades e atualizações!",
         subtitle:
-          "⚖️ Fique por dentro do universo jurídico com o Dr. Ricardo Loretti nas redes sociais!",
+          "⚖️ Esteja sempre atualizado no universo jurídico! Siga o Dr. Rafael Agudo Freire nas redes sociais.",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e mantenha-se atualizado sobre as áreas
-            de atuação do Dr. Ricardo, como Direito Criminal, Família e
-            Sucessões, e mais.{" "}
+            Acompanhe nossas postagens e fique por dentro de temas importantes
+            nas áreas de Direito Previdenciário, Bancário e Trabalhista.
           </p>
         ),
       },
@@ -795,6 +797,8 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      facebook:
+        "https://www.facebook.com/profile.php?id=61566770215544&mibextid=LQQJ4d&rdid=UPVuZPYPA0oY2wGh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15jwoTeqas%2F%3Fmibextid%3DLQQJ4d",
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
