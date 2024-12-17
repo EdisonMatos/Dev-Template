@@ -15,8 +15,13 @@ import FeaturesResumed from "../components/sections/FeaturesResumed";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
+
 // Para ativar as informações de observação no Footer, adicionar (obs={true}) para informações de observação e remover para desativar.
 // Para ativar o endereço no Footer, adicionar (addres={true}) para informações de observação e remover para desativar.
+// Para ativar o botão do Instagram, adicionar (instagram={true}) e remover para desativar.
+// Para ativar o botão do Facebook, adicionar (facebook={true}) e remover para desativar.
+// Para ativar o botão do LinkedIn, adicionar (linkedin={true}) e remover para desativar.
+
 // Para ativar o modo LightMode na Navbar copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
 // Para ativar o modo LightMode no Footer copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
 
@@ -27,12 +32,12 @@ export default function Index() {
       <Hero />
       {/* <Features modal={false} /> */}
       <FeaturesResumed />
-      <About modal={true} />
+      <About modal={true} />g
       <AboutInstagram />
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={true} />
+      <FooterSocial obs={false} addres={true} instagram={true} facebook={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
