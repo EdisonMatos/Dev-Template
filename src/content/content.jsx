@@ -56,13 +56,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Ricardo Loretti",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "24",
-    firstPart: "99226", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4478", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -80,7 +80,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "advricardoloretti", // Sem o @
+  instagramProfile: "A_Definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
@@ -104,15 +104,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM RESENDE - RJ",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Sua defesa
-          <span className="text-primary"> planejada</span> começa aqui
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Com experiência comprovada, uso minha trajetória para combater injustiças e proteger seus direitos.",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -160,15 +159,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades que fazem a diferença no seu caso",
-      subtitle: "Transformando desafios em soluções jurídicas",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Criminal",
-        subtitle: "Defesa estratégica em processos e investigações.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -183,19 +182,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -203,8 +194,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Família e Sucessões",
-        subtitle: "Soluções para divórcios, guarda e inventários.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -219,19 +210,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-network"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <rect x="16" y="16" width="6" height="6" rx="1" />
-            <rect x="2" y="16" width="6" height="6" rx="1" />
-            <rect x="9" y="2" width="6" height="6" rx="1" />
-            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-            <path d="M12 12V8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -239,8 +222,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Previdenciário e Trabalhista",
-        subtitle: "Garantia de benefícios e direitos no trabalho.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -254,18 +237,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -273,8 +249,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consumidor e Regularização de Imóveis",
-        subtitle: "Consultoria para acordos, imóveis e consumo.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -289,21 +265,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-notepad-text"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M8 2v4" />
-            <path d="M12 2v4" />
-            <path d="M16 2v4" />
-            <rect width="16" height="18" x="4" y="4" rx="2" />
-            <path d="M8 10h6" />
-            <path d="M8 14h8" />
-            <path d="M8 18h5" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -332,45 +298,31 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "QUEM É O DR RICARDO LORETTI",
-      title: "Minha trajetória",
-      subtitle:
-        "Uma jornada de superação e dedicação para combater as injustiças sociais.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          Criado na periferia de Resende, cidade do interior do Estado do Rio de
-          Janeiro, cresci rodeado pelos malefícios que permeiam a criação de um
-          jovem de comunidade.
+          A_Definir
           <br />
-          Percebi que, para combater injustiças, seria necessário compreender o
-          direito e, sobretudo, aplicá-lo corretamente.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Criado na periferia de Resende, cidade do interior do Estado do Rio de
-          Janeiro, cresci rodeado pelos malefícios que permeiam a criação de um
-          jovem de comunidade. Percebi que, para combater injustiças, seria
-          necessário compreender o direito e, sobretudo, aplicá-lo corretamente.
+          A_Definir
           <br />
           <br />
-          Em 2017 dei início a minha vida acadêmica. Em seguida, recebi a
-          oportunidade de estagiar no Cartório e no Gabinete do Juizado Especial
-          Cível da Comarca de Resende.
+          A_Definir
           <br />
           <br />
-          Também conto com uma passagem como estagiário forense após ser
-          aprovado no X Exame de Admissão para Estagiários Forenses do MPRJ
-          sendo lotado na Promotoria de Justiça da Infância e da Juventude de
-          Resende. Ainda, fui estagiário de pós-graduação na Defensoria Pública
-          do Estado Rio Grande do Sul.
+          A_Definir
           <br />
           <br />
-          Minha principal missão é ser agente ativo no combate às mazelas
-          sociais. Como advogado, continuo me dedicando à leitura da doutrina,
-          da lei e de informativos para melhor atender e corresponder às
-          necessidades dos meus clientes.
+          A_Definir
+          <br />
+          <br />
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -381,85 +333,68 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades e atualizações!",
-        subtitle:
-          "⚖️ Fique por dentro do universo jurídico com o Dr. Ricardo Loretti nas redes sociais!",
-        paragraph: (
-          <p>
-            Acompanhe nossas postagens e mantenha-se atualizado sobre as áreas
-            de atuação do Dr. Ricardo, como Direito Criminal, Família e
-            Sucessões, e mais.{" "}
-          </p>
-        ),
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
