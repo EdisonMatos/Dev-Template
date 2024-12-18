@@ -56,31 +56,31 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Rafael Agudo Freire",
+  name: "Dr. Luis Henrique Cabral",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "luishenriquecabraladv.com.br", // Sem "www"
   phone: {
-    ddd: "18",
-    firstPart: "99104", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7024", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98345", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6295", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Rui Barbosa, nº 737, Centro</p>
-      <p>Santo Anastácio/SP</p>
-      <p>CEP: 19.360-081</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h30 as 17h30</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "adv.rafaelfreire", // Sem o @
+  instagramProfile: "luishenriquecabral.adv41", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
@@ -104,15 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SANTO ANASTÁCIO E PRESIDENTE VENCESLAU - SP",
+      miniTag: "ADVOGADO TRABALHISTA E CÍVEL EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          A seriedade
-          <span className="text-primary"> que você merece </span> em sua defesa
+          Proteja seus direitos
+          <span className="text-primary"> com quem entende </span>do assunto
         </h1>
       ),
       subtitle:
-        "Com conhecimento profundo e abordagem personalizada, lutamos pelos seus direitos de forma eficaz.",
+        "Com soluções jurídicas eficazes, garantimos a defesa dos seus interesses em cada situação.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -161,15 +161,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Protegendo seus direitos com profundo conhecimento",
+      title: "Defenda o que é seu com confiança",
       subtitle:
-        "Atendimento especializado em diversas áreas jurídicas, focados em garantir os seus direitos.",
+        "Resultados rápidos e eficazes para as suas necessidades jurídicas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
-        subtitle: "Auxílio em aposentadorias e benefícios do INSS.",
+        title: "Direito Trabalhista",
+        subtitle: "Ações trabalhistas, rescisões e direitos empregatícios.",
         description: (
           <div>
             A_Definir
@@ -179,78 +179,6 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-hourglass"
-          >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card2: {
-        img: featuresImg2,
-        title: "Direito Bancário",
-        subtitle:
-          "Resolução de conflitos com bancos e instituições financeiras.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-landmark"
-          >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa de direitos trabalhistas e ações de empregadores.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -273,10 +201,75 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
+      card2: {
+        img: featuresImg2,
+        title: "Direito do Consumidor",
+        subtitle: "Reclamações, indenizações e proteção ao consumidor",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-tag"
+          >
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Direito Cível",
+        subtitle: "Processos cíveis, contratos e disputas judiciais.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user"
+          >
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
       card4: {
         img: featuresImg4,
-        title: "Fraudes Online",
-        subtitle: "Soluções para casos de fraudes e crimes digitais.",
+        title: "Direito de Família",
+        subtitle: "Divórcios, guarda, pensão e questões familiares.",
         description: (
           <div>
             A_Definir
@@ -297,16 +290,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-siren"
+            class="lucide lucide-network"
           >
-            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
-            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
-            <path d="M21 12h1" />
-            <path d="M18.5 4.5 18 5" />
-            <path d="M2 12h1" />
-            <path d="M12 2v1" />
-            <path d="m4.929 4.929.707.707" />
-            <path d="M12 12v6" />
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -335,43 +325,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "QUEM É DR. RAFAEL FREIRE",
+      miniTag: "QUEM É O DR. LUIS HENRIQUE CABRAL",
       title: "Minha trajetória",
-      subtitle: "Dedicação, ética e soluções jurídicas personalizadas.",
+      subtitle:
+        "Compromisso com a justiça e com o bem-estar dos meus clientes.",
       paragraph: (
         <div>
-          Advogado inscrito na OAB/SP sob o número 434.105, formado em Direito
-          pela Universidade do Oeste Paulista (UNOESTE) em 2019.
+          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
+          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
+          jurídicas de qualidade para seus clientes.
           <br />
-          Possuo uma sólida trajetória acadêmica, com diversas pós-graduações em
-          áreas como Direito da Seguridade Social, RPPS e Previdência
-          Complementar, Processo Administrativo Previdenciário, além de estar
-          cursando Direito Bancário.
+          Sua jornada no Direito começou com o desejo de transformar vidas,
+          oferecendo um suporte legal robusto e humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Advogado inscrito na OAB/SP sob o número 434.105, formado em Direito
-          pela Universidade do Oeste Paulista (UNOESTE) em 2019.
+          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
+          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
+          jurídicas de qualidade para seus clientes. Sua jornada no Direito
+          começou com o desejo de transformar vidas, oferecendo um suporte legal
+          robusto e humanizado.
           <br />
           <br />
-          Possuo uma sólida trajetória acadêmica, com diversas pós-graduações em
-          áreas como Direito da Seguridade Social, RPPS e Previdência
-          Complementar, Processo Administrativo Previdenciário, além de estar
-          cursando Direito Bancário.
+          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência em
+          diversas áreas do Direito, incluindo Direito Trabalhista, Direito do
+          Consumidor, Direito Cível e Direito de Família, sempre com foco na
+          ética, transparência e eficiência.
           <br />
           <br />
-          Desde 2019, tenho como foco oferecer soluções jurídicas personalizadas
-          e um atendimento humanizado, sempre alinhado às necessidades reais de
-          cada cliente. Minha atuação é guiada por valores como ética,
-          transparência, responsabilidade e um compromisso inabalável com a
-          justiça.
+          Sua atuação é pautada pela busca incansável pela justiça, aliando
+          conhecimentos técnicos à sensibilidade necessária para lidar com as
+          particularidades de cada caso. Dr. Luis Henrique acredita que, além de
+          um bom conhecimento jurídico, é essencial estabelecer uma relação de
+          confiança com os clientes, para que juntos possam enfrentar os
+          desafios legais e encontrar as melhores soluções.
           <br />
           <br />
-          Acredito que a base de um bom relacionamento profissional é a
-          confiança, construída por meio de diálogo aberto, respeito mútuo e
-          dedicação em buscar a melhor solução para cada caso.
+          Em sua trajetória, ele tem se destacado não só pela sua competência
+          técnica, mas também pela sua dedicação em entender as necessidades
+          individuais de cada cliente. Seja em disputas trabalhistas, questões
+          familiares ou defesa do consumidor, Dr. Luis Henrique sempre busca
+          proporcionar um atendimento personalizado e de alta qualidade, com o
+          objetivo de alcançar os melhores resultados possíveis.
+          <br />
+          <br />
+          O seu compromisso com a justiça é refletido em cada etapa de sua
+          carreira, sendo cada caso uma oportunidade de defender os direitos de
+          seus clientes com a atenção e seriedade que eles merecem.
           <br />
           <br />
         </p>
@@ -387,11 +389,12 @@ const content = {
         miniTag: "MANTENHA-SE INFORMADO",
         title: "Conecte-se e acompanhe novidades e atualizações!",
         subtitle:
-          "⚖️ Esteja sempre atualizado no universo jurídico! Siga o Dr. Rafael Agudo Freire nas redes sociais.",
+          "⚖️ Esteja sempre por dentro do mundo jurídico seguindo o Dr. Luis Henrique Cabral nas redes sociais!",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e fique por dentro de temas importantes
-            nas áreas de Direito Previdenciário, Bancário e Trabalhista.
+            Acompanhe nossas postagens e fique atualizado sobre Direito Cível,
+            Trabalhista, de Família e mais. Não perca a oportunidade de
+            transformar conhecimento em poder para proteger seus direitos.
           </p>
         ),
       },
@@ -797,8 +800,6 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
-      facebook:
-        "https://www.facebook.com/profile.php?id=61566770215544&mibextid=LQQJ4d&rdid=UPVuZPYPA0oY2wGh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15jwoTeqas%2F%3Fmibextid%3DLQQJ4d",
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
