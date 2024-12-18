@@ -58,7 +58,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dr. Luis Henrique Cabral",
   email: "contato", // Email desejado pelo cliente
-  domain: "luishenriquecabraladv.com.br ", // Sem "www"
+  domain: "luishenriquecabraladv.com.br", // Sem "www"
   phone: {
     ddd: "11",
     firstPart: "98345", // Apenas os 5 primeiros números (incluindo o 9)
@@ -104,14 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO TRABALHISTA E CÍVEL EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Proteja seus direitos
+          <span className="text-primary"> com quem entende </span>do assunto
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com soluções jurídicas eficazes, garantimos a defesa dos seus interesses em cada situação.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
