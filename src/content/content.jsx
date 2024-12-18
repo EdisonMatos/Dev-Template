@@ -56,13 +56,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Luis Henrique Cabral",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "luishenriquecabraladv.com.br ", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98345", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6295", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -80,7 +80,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "A_Definir", // Sem o @
+  instagramProfile: "luishenriquecabral.adv41", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
