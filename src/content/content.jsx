@@ -325,29 +325,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. LUIS HENRIQUE CABRAL",
+      title: "Minha trajetória",
+      subtitle:
+        "Compromisso com a justiça e com o bem-estar dos meus clientes.",
       paragraph: (
         <div>
-          A_Definir
+          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
+          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
+          jurídicas de qualidade para seus clientes.
           <br />
-          A_Definir
+          Sua jornada no Direito começou com o desejo de transformar vidas,
+          oferecendo um suporte legal robusto e humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
+          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
+          jurídicas de qualidade para seus clientes. Sua jornada no Direito
+          começou com o desejo de transformar vidas, oferecendo um suporte legal
+          robusto e humanizado.
           <br />
           <br />
-          A_Definir
+          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência em
+          diversas áreas do Direito, incluindo Direito Trabalhista, Direito do
+          Consumidor, Direito Cível e Direito de Família, sempre com foco na
+          ética, transparência e eficiência.
           <br />
           <br />
-          A_Definir
+          Sua atuação é pautada pela busca incansável pela justiça, aliando
+          conhecimentos técnicos à sensibilidade necessária para lidar com as
+          particularidades de cada caso. Dr. Luis Henrique acredita que, além de
+          um bom conhecimento jurídico, é essencial estabelecer uma relação de
+          confiança com os clientes, para que juntos possam enfrentar os
+          desafios legais e encontrar as melhores soluções.
           <br />
           <br />
-          A_Definir
+          Em sua trajetória, ele tem se destacado não só pela sua competência
+          técnica, mas também pela sua dedicação em entender as necessidades
+          individuais de cada cliente. Seja em disputas trabalhistas, questões
+          familiares ou defesa do consumidor, Dr. Luis Henrique sempre busca
+          proporcionar um atendimento personalizado e de alta qualidade, com o
+          objetivo de alcançar os melhores resultados possíveis.
+          <br />
+          <br />
+          O seu compromisso com a justiça é refletido em cada etapa de sua
+          carreira, sendo cada caso uma oportunidade de defender os direitos de
+          seus clientes com a atenção e seriedade que eles merecem.
           <br />
           <br />
         </p>
