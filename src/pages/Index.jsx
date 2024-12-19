@@ -28,14 +28,14 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      {/* <Features modal={false} /> */}
-      <FeaturesResumed />
+      <Features modal={false} />
+      {/* <FeaturesResumed /> */}
       <About modal={true} />
       <AboutInstagram instagram={true} facebook={true} />
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={true} />
+      <FooterSocial obs={false} addres={false} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>

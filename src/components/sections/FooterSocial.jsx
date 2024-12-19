@@ -34,7 +34,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                   <img
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
-                    className="max-h-[88px] w-auto  p-[12px]"
+                    className="max-h-[88px] w-auto"
                     // className="max-h-[88px] w-auto bg-white p-[12px]"
                   ></img>
                 </div>
@@ -194,7 +194,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
 
                     {/* Instagram icon */}
 
-                    <a
+                    {/* <a
                       href={content.texts.links.facebook}
                       target="_blank"
                       aria-label="Link para o Facebook"
@@ -218,7 +218,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                           </svg>
                         }
                       />
-                    </a>
+                    </a> */}
                     {/* <a
                       href={content.texts.infos.linkedInProfile}
                       target="_blank"

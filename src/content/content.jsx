@@ -38,36 +38,51 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
+import {
+  Calculator,
+  User,
+  House,
+  Briefcase,
+  HardHat,
+  CircleUserRound,
+  BadgePercent,
+  FileCheck,
+  Scale,
+  FileX,
+  HousePlus,
+  Grid2x2Check,
+} from "lucide-react";
+
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Souza e Moura Advogados Associados",
+  name: "Dr. Luis Henrique Cabral",
   email: "contato", // Email desejado pelo cliente
-  domain: "souzaemouraadv.com.br", // Sem "www"
+  domain: "luishenriquecabraladv.com.br", // Sem "www"
   phone: {
-    ddd: "42",
-    firstPart: "99102", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7889", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98345", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6295", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Luiz Migliorini, nº 311</p>
-      <p>Cará-Cará - Ponta Grossa - PR</p>
-      <p>CEP 84033-111</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Dás 8h às 18h</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advogados_mouraesouza", // Sem o @
-  facebookProfile: "A Definir",
-  linkeDinProfile: "A Definir",
+  obs: <span className="italic">A_Definir</span>,
+  instagramProfile: "luishenriquecabral.adv41", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   slogan: "",
@@ -89,15 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM PONTA GROSSA - PR",
+      miniTag: "ADVOGADO TRABALHISTA E CÍVEL EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Compromisso que <span className="text-primary">protege </span>sua
-          causa
+          Proteja seus direitos
+          <span className="text-primary"> com quem entende </span>do assunto
         </h1>
       ),
       subtitle:
-        "Garantimos defesa eficiente com ética, prática e dedicação em cada etapa do processo jurídico.",
+        "Com soluções jurídicas eficazes, garantimos a defesa dos seus interesses em cada situação.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +138,7 @@ const content = {
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A Definir",
+      secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -146,19 +161,21 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Experiência jurídica a seu favor",
-      subtitle: "Solucionando demandas com foco no resultado.",
+      title: "Defenda o que é seu com confiança",
+      subtitle:
+        "Resultados rápidos e eficazes para as suas necessidades jurídicas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito do Trabalho",
-        subtitle: "Garantimos justiça nas relações trabalhistas.",
+        title: "Direito Trabalhista",
+        subtitle: "Ações trabalhistas, rescisões e direitos empregatícios.",
         description: (
           <div>
-            A Definir
+            A_Definir
             <br />
-            <br />A Definir
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -186,12 +203,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Criminal",
-        subtitle: "Proteção jurídica eficiente em casos criminais.",
+        title: "Direito do Consumidor",
+        subtitle: "Reclamações, indenizações e proteção ao consumidor",
         description: (
           <div>
-            A definir. <br />
-            <br />A definir
+            A_Definir
+            <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -206,13 +225,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-tag"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -221,11 +237,12 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Direito Cível",
-        subtitle: "Soluções rápidas e eficazes para conflitos civis.",
+        subtitle: "Processos cíveis, contratos e disputas judiciais.",
         description: (
           <div>
-            A definir <br />
-            <br />A definir
+            A_Definir <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -240,12 +257,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-user"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -253,13 +268,13 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Médico",
-        subtitle: "Defesa especializada em questões médicas e legais.",
+        title: "Direito de Família",
+        subtitle: "Divórcios, guarda, pensão e questões familiares.",
         description: (
           <div>
-            A definir
+            A_Definir
             <br />
-            A definir
+            A_Definir
             <br />
           </div>
         ),
@@ -275,88 +290,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-stethoscope"
+            class="lucide lucide-network"
           >
-            <path d="M11 2v2" />
-            <path d="M5 2v2" />
-            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
-            <path d="M8 15a6 6 0 0 0 12 0v-3" />
-            <circle cx="20" cy="10" r="2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card5: {
-        img: featuresImg4,
-        title: "Direito Bancário",
-        subtitle: "Resolvemos disputas financeiras com precisão.",
-        description: (
-          <div>
-            A definir
-            <br />
-            A definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-landmark"
-          >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card6: {
-        img: featuresImg4,
-        title: "Consultoria Trabalhista",
-        subtitle: "Assessoria completa para empresas e negócios.",
-        description: (
-          <div>
-            A definir
-            <br />
-            A definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-building-2"
-          >
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
-            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
-            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
-            <path d="M10 6h4" />
-            <path d="M10 10h4" />
-            <path d="M10 14h4" />
-            <path d="M10 18h4" />
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -364,19 +304,19 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card2: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card3: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
       },
     },
@@ -385,48 +325,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "CONHEÇA A SOUZA E MOURA ADVOGADOS ASSOCIADOS",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É O DR. LUIS HENRIQUE CABRAL",
+      title: "Minha trajetória",
       subtitle:
-        "Felipe Meira de Moura Luz e Evelyn Vanessa de Souza são advogados com trajetórias complementares e uma abordagem estratégica para oferecer soluções jurídicas personalizadas e eficazes.",
+        "Compromisso com a justiça e com o bem-estar dos meus clientes.",
       paragraph: (
         <div>
-          Felipe é especializado em Direito Trabalhista, com ampla experiência
-          em advocacia patronal, implementação de programas de compliance e
-          defesa de empresas em questões trabalhistas e cíveis.
+          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
+          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
+          jurídicas de qualidade para seus clientes.
           <br />
-          Evelyn traz uma perspectiva multidisciplinar ao Direito, com formações
-          anteriores em Letras e Pedagogia, o que fortalece sua análise jurídica
-          e habilidades de comunicação. Especializada em Direito Trabalhista e
-          Previdenciário, sua experiência abrange Direito Empresarial e atuação
-          em órgãos públicos, qualificando-a para oferecer soluções jurídicas
-          precisas e empáticas.
+          Sua jornada no Direito começou com o desejo de transformar vidas,
+          oferecendo um suporte legal robusto e humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Felipe é especializado em Direito Trabalhista, com ampla experiência
-          em advocacia patronal, implementação de programas de compliance e
-          defesa de empresas em questões trabalhistas e cíveis.
-          <br />
-          Pós-graduando em Direito do Agronegócio e Advocacia contra
-          Instituições Financeiras, ele combina expertise técnica e visão
-          estratégica para atuar em setores complexos, como o agronegócio, com
-          foco em conformidade e mitigação de riscos.
+          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
+          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
+          jurídicas de qualidade para seus clientes. Sua jornada no Direito
+          começou com o desejo de transformar vidas, oferecendo um suporte legal
+          robusto e humanizado.
           <br />
           <br />
-          Evelyn traz uma perspectiva multidisciplinar ao Direito, com formações
-          anteriores em Letras e Pedagogia, o que fortalece sua análise jurídica
-          e habilidades de comunicação. Especializada em Direito Trabalhista e
-          Previdenciário, sua experiência abrange Direito Empresarial e atuação
-          em órgãos públicos, qualificando-a para oferecer soluções jurídicas
-          precisas e empáticas.
+          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência em
+          diversas áreas do Direito, incluindo Direito Trabalhista, Direito do
+          Consumidor, Direito Cível e Direito de Família, sempre com foco na
+          ética, transparência e eficiência.
           <br />
           <br />
-          Juntos, Felipe e Evelyn formam uma equipe dedicada à excelência, com o
-          compromisso de atender às necessidades de cada cliente com seriedade,
-          ética e foco nos melhores resultados.
+          Sua atuação é pautada pela busca incansável pela justiça, aliando
+          conhecimentos técnicos à sensibilidade necessária para lidar com as
+          particularidades de cada caso. Dr. Luis Henrique acredita que, além de
+          um bom conhecimento jurídico, é essencial estabelecer uma relação de
+          confiança com os clientes, para que juntos possam enfrentar os
+          desafios legais e encontrar as melhores soluções.
+          <br />
+          <br />
+          Em sua trajetória, ele tem se destacado não só pela sua competência
+          técnica, mas também pela sua dedicação em entender as necessidades
+          individuais de cada cliente. Seja em disputas trabalhistas, questões
+          familiares ou defesa do consumidor, Dr. Luis Henrique sempre busca
+          proporcionar um atendimento personalizado e de alta qualidade, com o
+          objetivo de alcançar os melhores resultados possíveis.
+          <br />
+          <br />
+          O seu compromisso com a justiça é refletido em cada etapa de sua
+          carreira, sendo cada caso uma oportunidade de defender os direitos de
+          seus clientes com a atenção e seriedade que eles merecem.
           <br />
           <br />
         </p>
@@ -442,12 +389,12 @@ const content = {
         miniTag: "MANTENHA-SE INFORMADO",
         title: "Conecte-se e acompanhe novidades e atualizações!",
         subtitle:
-          "⚖️ Esteja sempre por dentro do mundo jurídico! Siga Souza e Moura Advogados nas redes sociais.",
+          "⚖️ Esteja sempre por dentro do mundo jurídico seguindo o Dr. Luis Henrique Cabral nas redes sociais!",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e mantenha-se informado sobre as áreas de
-            Direito Trabalhista, Cível, Médico, Bancário e Consultoria
-            Trabalhista.
+            Acompanhe nossas postagens e fique atualizado sobre Direito Cível,
+            Trabalhista, de Família e mais. Não perca a oportunidade de
+            transformar conhecimento em poder para proteger seus direitos.
           </p>
         ),
       },
@@ -472,32 +419,32 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Procedimento eficaz",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
@@ -532,9 +479,9 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -555,11 +502,11 @@ const content = {
       },
     },
     trustedBy: {
-      title: "A Definir",
-      subtitle: "A Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       trustedMore: {
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
       },
       images: {
         img1: {
@@ -579,15 +526,15 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "A Definir",
+      number1Description: "A_Definir",
       number2: 500,
-      number2Description: "A Definir",
+      number2Description: "A_Definir",
       number3: 1000,
-      number3Description: "A Definir",
+      number3Description: "A_Definir",
     },
     team: {
-      title: "A Definir",
-      subtitle: "A Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       members: {
         member1: {
           img: {
@@ -852,8 +799,6 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
-      facebook:
-        "https://www.facebook.com/profile.php?id=61566211769835&locale=pt_BR",
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
     },
     infos: {
