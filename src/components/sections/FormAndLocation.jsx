@@ -16,7 +16,7 @@ import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import WhatsappForm from "../interactives/WhatsappForm";
 
-export default function FormAndLocation() {
+export default function Steps() {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -31,7 +31,7 @@ export default function FormAndLocation() {
         color=""
       /> */}
       {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
-      <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between  desktop1:items-start">
+      <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
         <MotionDivDownToUp className="flex-col w-full desktop1:w-[415px] desktop2:w-[485px] flex justify-center items-center ">
           <SectionHeader
             className="text-center desktop1:flex desktop1:w-full"
