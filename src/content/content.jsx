@@ -57,34 +57,33 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A Definir",
+  name: "Dr. Luis Henrique Cabral",
   email: "contato", // Email desejado pelo cliente
-  domain: "spigarollo.com.br", // Sem "www"
+  domain: "luishenriquecabraladv.com.br", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98345", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6295", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
-  facebookProfile: "A Definir",
-  linkeDinProfile: "A Definir",
+  obs: <span className="italic">A_Definir</span>,
+  instagramProfile: "luishenriquecabral.adv41", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   slogan: "",
@@ -106,14 +105,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
+      miniTag: "ADVOGADO TRABALHISTA E CÍVEL EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          A Definir
-          <span className="text-primary"> A Definir</span>
+          Proteja seus direitos
+          <span className="text-primary"> com quem entende </span>do assunto
         </h1>
       ),
-      subtitle: "A Definir",
+      subtitle:
+        "Com soluções jurídicas eficazes, garantimos a defesa dos seus interesses em cada situação.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -139,7 +139,7 @@ const content = {
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A Definir",
+      secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -161,20 +161,22 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Defenda o que é seu com confiança",
+      subtitle:
+        "Resultados rápidos e eficazes para as suas necessidades jurídicas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito Trabalhista",
+        subtitle: "Ações trabalhistas, rescisões e direitos empregatícios.",
         description: (
           <div>
-            A Definir
+            A_Definir
             <br />
-            <br />A Definir
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -191,7 +193,10 @@ const content = {
             stroke-linejoin="round"
             class="lucide lucide-hand-coins"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -199,18 +204,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito do Consumidor",
+        subtitle: "Reclamações, indenizações e proteção ao consumidor",
         description: (
           <div>
-            Prestamos defesa técnica e estratégica em casos de autos de infração
-            emitidos pela Receita Federal e pelas Secretarias da Fazenda (SEFAZ)
-            estaduais. <br />
+            A_Definir
             <br />
-            Nossa equipe de especialistas atua na análise e contestação de
-            autuações fiscais, buscando a revogação ou redução de penalidades,
-            visando proteger os interesses do cliente e corrigir eventuais
-            equívocos nas notificações.
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -226,8 +227,10 @@ const content = {
             stroke-linecap="round"
             stroke-linejoin="round"
             class="lucide lucide-brain"
+
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -235,20 +238,13 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito Cível",
+        subtitle: "Processos cíveis, contratos e disputas judiciais.",
         description: (
           <div>
-            Oferecemos defesas fiscais em diversas esferas, incluindo níveis
-            federal, estadual e municipal, para situações que envolvem disputas
-            tributárias. <br />
+            A_Definir <br />
             <br />
-            Nossa equipe desenvolve estratégias eficazes para contestar
-            cobranças indevidas, tributação excessiva e outros litígios fiscais,
-            com foco em resultados positivos para os nossos clientes.
-            Trabalhamos para garantir que todos os processos sejam resolvidos
-            com base na legislação tributária vigente, evitando prejuízos
-            financeiros.
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -265,7 +261,8 @@ const content = {
             stroke-linejoin="round"
             class="lucide lucide-list-checks"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -273,24 +270,13 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "Direito de Família",
+        subtitle: "Divórcios, guarda, pensão e questões familiares.",
         description: (
           <div>
-            Oferecemos suporte especializado para empresas que buscam recuperar
-            créditos tributários pagos indevidamente ou a maior, abrangendo
-            tributos federais, estaduais e municipais. <br />
-            Nossa atuação envolve uma análise detalhada das operações fiscais,
-            apurando possíveis inconsistências ou pagamentos excessivos, sempre
-            com base na legislação vigente. Trabalhamos de forma estratégica
-            para identificar oportunidades de compensação ou restituição de
-            valores, elaborando e acompanhando os processos administrativos
-            junto aos órgãos competentes.
+            A_Definir
             <br />
-            Nosso objetivo é garantir que as empresas recuperem seus recursos de
-            maneira célere, segura e eficiente, contribuindo para a otimização
-            do fluxo de caixa, a redução da carga tributária e o fortalecimento
-            da saúde financeira do negócio.
+            A_Definir
             <br />
           </div>
         ),
@@ -307,8 +293,13 @@ const content = {
             stroke-linecap="round"
             stroke-linejoin="round"
             class="lucide lucide-copy-check"
+
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -316,19 +307,19 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card2: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card3: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
       },
     },
@@ -337,28 +328,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "QUEM É O DR. LUIS HENRIQUE CABRAL",
+      title: "Minha trajetória",
+      subtitle:
+        "Compromisso com a justiça e com o bem-estar dos meus clientes.",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
+          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
+          jurídicas de qualidade para seus clientes.
+          <br />
+          Sua jornada no Direito começou com o desejo de transformar vidas,
+          oferecendo um suporte legal robusto e humanizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Definir
+          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
+          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
+          jurídicas de qualidade para seus clientes. Sua jornada no Direito
+          começou com o desejo de transformar vidas, oferecendo um suporte legal
+          robusto e humanizado.
           <br />
           <br />
-          A Definir
+          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência em
+          diversas áreas do Direito, incluindo Direito Trabalhista, Direito do
+          Consumidor, Direito Cível e Direito de Família, sempre com foco na
+          ética, transparência e eficiência.
           <br />
           <br />
-          A Definir
+          Sua atuação é pautada pela busca incansável pela justiça, aliando
+          conhecimentos técnicos à sensibilidade necessária para lidar com as
+          particularidades de cada caso. Dr. Luis Henrique acredita que, além de
+          um bom conhecimento jurídico, é essencial estabelecer uma relação de
+          confiança com os clientes, para que juntos possam enfrentar os
+          desafios legais e encontrar as melhores soluções.
           <br />
           <br />
-          A Definir
+          Em sua trajetória, ele tem se destacado não só pela sua competência
+          técnica, mas também pela sua dedicação em entender as necessidades
+          individuais de cada cliente. Seja em disputas trabalhistas, questões
+          familiares ou defesa do consumidor, Dr. Luis Henrique sempre busca
+          proporcionar um atendimento personalizado e de alta qualidade, com o
+          objetivo de alcançar os melhores resultados possíveis.
+          <br />
+          <br />
+          O seu compromisso com a justiça é refletido em cada etapa de sua
+          carreira, sendo cada caso uma oportunidade de defender os direitos de
+          seus clientes com a atenção e seriedade que eles merecem.
           <br />
           <br />
         </p>
@@ -371,68 +389,85 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
-        paragraph: <p>A Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
+        subtitle:
+          "⚖️ Esteja sempre por dentro do mundo jurídico seguindo o Dr. Luis Henrique Cabral nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e fique atualizado sobre Direito Cível,
+            Trabalhista, de Família e mais. Não perca a oportunidade de
+            transformar conhecimento em poder para proteger seus direitos.
+          </p>
+        ),
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -447,9 +482,9 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -470,11 +505,11 @@ const content = {
       },
     },
     trustedBy: {
-      title: "A Definir",
-      subtitle: "A Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       trustedMore: {
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
       },
       images: {
         img1: {
@@ -494,15 +529,15 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "A Definir",
+      number1Description: "A_Definir",
       number2: 500,
-      number2Description: "A Definir",
+      number2Description: "A_Definir",
       number3: 1000,
-      number3Description: "A Definir",
+      number3Description: "A_Definir",
     },
     team: {
-      title: "A Definir",
-      subtitle: "A Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       members: {
         member1: {
           img: {

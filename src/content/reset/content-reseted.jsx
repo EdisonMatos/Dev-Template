@@ -56,34 +56,33 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A Definir",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "spigarollo.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A Definir</p>
-      <p>A Definir</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A Definir", // Sem o @
-  facebookProfile: "A Definir",
-  linkeDinProfile: "A Definir",
+  obs: <span className="italic">A_Definir</span>,
+  instagramProfile: "A_Definir", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   slogan: "",
@@ -105,14 +104,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          A Definir
-          <span className="text-primary"> A Definir</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle: "A Definir",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -138,7 +137,7 @@ const content = {
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A Definir",
+      secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -160,20 +159,21 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            A Definir
+            A_Definir
             <br />
-            <br />A Definir
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -194,18 +194,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            Prestamos defesa técnica e estratégica em casos de autos de infração
-            emitidos pela Receita Federal e pelas Secretarias da Fazenda (SEFAZ)
-            estaduais. <br />
+            A_Definir
             <br />
-            Nossa equipe de especialistas atua na análise e contestação de
-            autuações fiscais, buscando a revogação ou redução de penalidades,
-            visando proteger os interesses do cliente e corrigir eventuais
-            equívocos nas notificações.
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -226,20 +222,13 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            Oferecemos defesas fiscais em diversas esferas, incluindo níveis
-            federal, estadual e municipal, para situações que envolvem disputas
-            tributárias. <br />
+            A_Definir <br />
             <br />
-            Nossa equipe desenvolve estratégias eficazes para contestar
-            cobranças indevidas, tributação excessiva e outros litígios fiscais,
-            com foco em resultados positivos para os nossos clientes.
-            Trabalhamos para garantir que todos os processos sejam resolvidos
-            com base na legislação tributária vigente, evitando prejuízos
-            financeiros.
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -260,24 +249,13 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            Oferecemos suporte especializado para empresas que buscam recuperar
-            créditos tributários pagos indevidamente ou a maior, abrangendo
-            tributos federais, estaduais e municipais. <br />
-            Nossa atuação envolve uma análise detalhada das operações fiscais,
-            apurando possíveis inconsistências ou pagamentos excessivos, sempre
-            com base na legislação vigente. Trabalhamos de forma estratégica
-            para identificar oportunidades de compensação ou restituição de
-            valores, elaborando e acompanhando os processos administrativos
-            junto aos órgãos competentes.
+            A_Definir
             <br />
-            Nosso objetivo é garantir que as empresas recuperem seus recursos de
-            maneira célere, segura e eficiente, contribuindo para a otimização
-            do fluxo de caixa, a redução da carga tributária e o fortalecimento
-            da saúde financeira do negócio.
+            A_Definir
             <br />
           </div>
         ),
@@ -299,19 +277,19 @@ const content = {
       },
       moreFeatures: {
         card1: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card2: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card3: {
-          ico: "A Definir",
-          title: "A Definir",
-          subtitle: "A Definir",
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
       },
     },
@@ -320,28 +298,29 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          A Definir
-          <br />A Definir
+          A_Definir
+          <br />
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Definir
+          A_Definir
           <br />
           <br />
-          A Definir
+          A_Definir
           <br />
           <br />
-          A Definir
+          A_Definir
           <br />
           <br />
-          A Definir
+          A_Definir
           <br />
           <br />
         </p>
@@ -354,68 +333,68 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "A Definir",
-        paragraph: <p>A Definir</p>,
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A Definir",
-      title: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A Definir",
-          cardDescription: "A Definir",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
     faq: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       questions: {
         question1: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question2: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question3: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question4: {
-          question: "A Definir",
-          answer: "A Definir",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -430,9 +409,9 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -453,11 +432,11 @@ const content = {
       },
     },
     trustedBy: {
-      title: "A Definir",
-      subtitle: "A Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       trustedMore: {
-        title: "A Definir",
-        subtitle: "A Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
       },
       images: {
         img1: {
@@ -477,15 +456,15 @@ const content = {
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: "A Definir",
+      number1Description: "A_Definir",
       number2: 500,
-      number2Description: "A Definir",
+      number2Description: "A_Definir",
       number3: 1000,
-      number3Description: "A Definir",
+      number3Description: "A_Definir",
     },
     team: {
-      title: "A Definir",
-      subtitle: "A Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       members: {
         member1: {
           img: {
