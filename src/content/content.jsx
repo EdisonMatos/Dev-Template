@@ -104,14 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "GESTÃO DE DEPARTAMENTO PESSOAL EM UBERABA - MG",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Revolucione sua empresa com uma
+          <span className="text-primary"> gestão de excelência</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Soluções estratégicas que garantem eficiência, conformidade e crescimento sustentável.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -159,15 +160,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Estratégias em departamento pessoal",
+      subtitle:
+        "Serviços personalizados para a gestão eficiente da sua equipe.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Administração de folha de pagamento",
+        subtitle: "Gerenciamento preciso e eficiente da folha salarial.",
         description: (
           <div>
             A_Definir
@@ -182,11 +184,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hand-coins"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -194,8 +204,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Controle de admissões e demissões",
+        subtitle: "Processos alinhados às normas trabalhistas vigentes.",
         description: (
           <div>
             A_Definir
@@ -210,11 +220,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-contact-round"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M16 2v2" />
+            <path d="M17.915 22a6 6 0 0 0-12 0" />
+            <path d="M8 2v2" />
+            <circle cx="12" cy="12" r="4" />
+            <rect x="3" y="4" width="18" height="18" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -222,8 +240,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Assessoria em benefícios corporativos",
+        subtitle: "Otimização de benefícios para satisfação da equipe.",
         description: (
           <div>
             A_Definir <br />
@@ -237,11 +255,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -249,8 +274,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Gestão de ponto eletrônico",
+        subtitle: "Controle automatizado para maior produtividade.",
         description: (
           <div>
             A_Definir
@@ -265,11 +290,16 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-clock-8"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 8 14" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -298,29 +328,59 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É UILLIAN FERREIRA",
+      title: "Minha trajetória",
+      subtitle:
+        "Apaixonado por negócios, encontrei na contabilidade meu propósito profissional.",
       paragraph: (
         <div>
-          A_Definir
+          Minha relação com a contabilidade começou de forma despretensiosa, mas
+          cheia de significado. Em 2012, eu enxerguei nessa profissão uma
+          oportunidade de empreender em algo com que me identificava
+          profundamente.
           <br />
-          A_Definir
+          Sempre tive fascínio por negócios. Desde jovem, gostava de simular
+          empresas, criar cenários em planilhas, calcular custos e imaginar
+          estratégias. Mesmo sem conhecer a fundo sobre impostos e
+          regulamentações, eu fazia tudo do meu jeito, guiado por uma paixão
+          genuína.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha relação com a contabilidade começou de forma despretensiosa, mas
+          cheia de significado. Em 2012, eu enxerguei nessa profissão uma
+          oportunidade de empreender em algo com que me identificava
+          profundamente.
           <br />
           <br />
-          A_Definir
+          Sempre tive fascínio por negócios. Desde jovem, gostava de simular
+          empresas, criar cenários em planilhas, calcular custos e imaginar
+          estratégias. Mesmo sem conhecer a fundo sobre impostos e
+          regulamentações, eu fazia tudo do meu jeito, guiado por uma paixão
+          genuína.
           <br />
           <br />
-          A_Definir
+          Quando finalmente entrei para a faculdade de contabilidade, em 2014,
+          senti que estava no caminho certo. A cada semestre, minha confiança
+          crescia, e ao me formar em 2019, tive a certeza de que havia
+          encontrado meu propósito. O momento mais marcante foi ser aprovado no
+          exame do conselho com aproximadamente 80% de acertos, um reflexo do
+          meu empenho e dedicação.
           <br />
           <br />
-          A_Definir
+          Ao longo da minha trajetória, passei por diferentes áreas, acumulando
+          experiências valiosas. Fui analista de departamento pessoal, analista
+          fiscal e contábil. Cada função contribuiu para a construção do
+          profissional que sou hoje.
+          <br />
+          <br />
+          Atualmente, atuo como coordenador de recursos humanos e departamento
+          pessoal. Essa posição me permite unir minha paixão por negócios com a
+          experiência acumulada, ajudando empresas a crescerem de forma
+          estruturada e eficiente. Cada desafio que enfrento reforça meu amor
+          pela profissão e o desejo de continuar fazendo a diferença.
           <br />
           <br />
         </p>
@@ -341,60 +401,70 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "FALE CONOSCO",
+      title: "Precisa de ajuda com gestão de pessoal? Estamos aqui para isso!",
+      subtitle:
+        "Fale com nossa equipe. Estamos prontos para oferecer soluções completas em departamento pessoal.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Primeiro contato e análise inicial",
+          cardDescription:
+            "Entendemos as necessidades do cliente e identificamos os principais desafios em gestão de pessoal.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Planejamento personalizado",
+          cardDescription:
+            "Desenvolvemos estratégias sob medida para otimizar processos e garantir eficiência.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Implementação das soluções",
+          cardDescription:
+            "Aplicamos as soluções acordadas, garantindo alinhamento com as normas trabalhistas.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Acompanhamento contínuo",
+          cardDescription:
+            "Monitoramos os resultados e ajustamos os processos para manter a excelência.",
         },
       },
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "O que faz um profissional de departamento pessoal?",
+          answer:
+            "O departamento pessoal é responsável por gerenciar a relação entre empresa e funcionários, cuidando de processos como folha de pagamento, admissões e demissões, benefícios e controle de ponto, sempre alinhado às leis trabalhistas.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Qual a diferença entre departamento pessoal e recursos humanos?",
+          answer:
+            "Enquanto o departamento pessoal foca nos processos administrativos e legais, o RH trabalha com o desenvolvimento de pessoas, incluindo recrutamento, treinamentos e engajamento dos colaboradores.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Por que é importante terceirizar o departamento pessoal?",
+          answer:
+            "A terceirização permite que especialistas cuidem da gestão de pessoal, reduzindo erros, garantindo conformidade com as normas legais e otimizando o tempo da empresa para focar em seu core business.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como funciona o cálculo da folha de pagamento?",
+          answer:
+            "O cálculo inclui o salário bruto, descontos obrigatórios (INSS, IRRF, etc.) e adicionais como horas extras e benefícios. Tudo isso deve ser feito de acordo com a legislação trabalhista vigente.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
