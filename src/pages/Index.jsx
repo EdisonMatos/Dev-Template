@@ -31,7 +31,7 @@ export default function Index() {
       <Features modal={false} />
       {/* <FeaturesResumed /> */}
       <About modal={true} />
-      <AboutInstagram instagram={true} facebook={true} />
+      <AboutInstagram instagram={false} facebook={false} />
       <Cta />
       <Steps />
       <Faq />
