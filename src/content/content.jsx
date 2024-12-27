@@ -56,31 +56,31 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Luis Henrique Cabral",
+  name: "Uillian Ferreira Gestão de Departamento Pessoal",
   email: "contato", // Email desejado pelo cliente
-  domain: "luishenriquecabraladv.com.br", // Sem "www"
+  domain: "uillianferreira.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98345", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6295", // Apenas os 4 últimos números
+    ddd: "34",
+    firstPart: "98433", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9190", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida Josias Ferreira Sobrinho, nº 345</p>
+      <p>Uberaba - MG</p>
+      <p>CEP 38041-040</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "luishenriquecabral.adv41", // Sem o @
+  instagramProfile: "A_Definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
@@ -104,15 +104,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO TRABALHISTA E CÍVEL EM SÃO PAULO - SP",
+      miniTag: "GESTÃO DE DEPARTAMENTO PESSOAL EM UBERABA - MG",
       title: (
         <h1 className="mb-[16px]">
-          Proteja seus direitos
-          <span className="text-primary"> com quem entende </span>do assunto
+          Revolucione sua empresa com uma
+          <span className="text-primary"> gestão de excelência</span>
         </h1>
       ),
       subtitle:
-        "Com soluções jurídicas eficazes, garantimos a defesa dos seus interesses em cada situação.",
+        "Soluções estratégicas que garantem eficiência, conformidade e crescimento sustentável.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -161,15 +161,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Defenda o que é seu com confiança",
+      title: "Estratégias em departamento pessoal",
       subtitle:
-        "Resultados rápidos e eficazes para as suas necessidades jurídicas.",
+        "Serviços personalizados para a gestão eficiente da sua equipe.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Trabalhista",
-        subtitle: "Ações trabalhistas, rescisões e direitos empregatícios.",
+        title: "Administração de folha de pagamento",
+        subtitle: "Gerenciamento preciso e eficiente da folha salarial.",
         description: (
           <div>
             A_Definir
@@ -179,6 +179,77 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hand-coins"
+          >
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: featuresImg2,
+        title: "Controle de admissões e demissões",
+        subtitle: "Processos alinhados às normas trabalhistas vigentes.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-contact-round"
+          >
+            <path d="M16 2v2" />
+            <path d="M17.915 22a6 6 0 0 0-12 0" />
+            <path d="M8 2v2" />
+            <circle cx="12" cy="12" r="4" />
+            <rect x="3" y="4" width="18" height="18" rx="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Assessoria em benefícios corporativos",
+        subtitle: "Otimização de benefícios para satisfação da equipe.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -201,75 +272,10 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card2: {
-        img: featuresImg2,
-        title: "Direito do Consumidor",
-        subtitle: "Reclamações, indenizações e proteção ao consumidor",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-tag"
-          >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Direito Cível",
-        subtitle: "Processos cíveis, contratos e disputas judiciais.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-user"
-          >
-            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-            <circle cx="12" cy="7" r="4" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
       card4: {
         img: featuresImg4,
-        title: "Direito de Família",
-        subtitle: "Divórcios, guarda, pensão e questões familiares.",
+        title: "Gestão de ponto eletrônico",
+        subtitle: "Controle automatizado para maior produtividade.",
         description: (
           <div>
             A_Definir
@@ -290,13 +296,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-network"
+            class="lucide lucide-clock-8"
           >
-            <rect x="16" y="16" width="6" height="6" rx="1" />
-            <rect x="2" y="16" width="6" height="6" rx="1" />
-            <rect x="9" y="2" width="6" height="6" rx="1" />
-            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-            <path d="M12 12V8" />
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 8 14" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -325,55 +328,59 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório",
       },
-      miniTag: "QUEM É O DR. LUIS HENRIQUE CABRAL",
+      miniTag: "QUEM É UILLIAN FERREIRA",
       title: "Minha trajetória",
       subtitle:
-        "Compromisso com a justiça e com o bem-estar dos meus clientes.",
+        "Apaixonado por negócios, encontrei na contabilidade meu propósito profissional.",
       paragraph: (
         <div>
-          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
-          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
-          jurídicas de qualidade para seus clientes.
+          Minha relação com a contabilidade começou de forma despretensiosa, mas
+          cheia de significado. Em 2012, eu enxerguei nessa profissão uma
+          oportunidade de empreender em algo com que me identificava
+          profundamente.
           <br />
-          Sua jornada no Direito começou com o desejo de transformar vidas,
-          oferecendo um suporte legal robusto e humanizado.
+          Sempre tive fascínio por negócios. Desde jovem, gostava de simular
+          empresas, criar cenários em planilhas, calcular custos e imaginar
+          estratégias. Mesmo sem conhecer a fundo sobre impostos e
+          regulamentações, eu fazia tudo do meu jeito, guiado por uma paixão
+          genuína.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
-          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
-          jurídicas de qualidade para seus clientes. Sua jornada no Direito
-          começou com o desejo de transformar vidas, oferecendo um suporte legal
-          robusto e humanizado.
+          Minha relação com a contabilidade começou de forma despretensiosa, mas
+          cheia de significado. Em 2012, eu enxerguei nessa profissão uma
+          oportunidade de empreender em algo com que me identificava
+          profundamente.
           <br />
           <br />
-          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência em
-          diversas áreas do Direito, incluindo Direito Trabalhista, Direito do
-          Consumidor, Direito Cível e Direito de Família, sempre com foco na
-          ética, transparência e eficiência.
+          Sempre tive fascínio por negócios. Desde jovem, gostava de simular
+          empresas, criar cenários em planilhas, calcular custos e imaginar
+          estratégias. Mesmo sem conhecer a fundo sobre impostos e
+          regulamentações, eu fazia tudo do meu jeito, guiado por uma paixão
+          genuína.
           <br />
           <br />
-          Sua atuação é pautada pela busca incansável pela justiça, aliando
-          conhecimentos técnicos à sensibilidade necessária para lidar com as
-          particularidades de cada caso. Dr. Luis Henrique acredita que, além de
-          um bom conhecimento jurídico, é essencial estabelecer uma relação de
-          confiança com os clientes, para que juntos possam enfrentar os
-          desafios legais e encontrar as melhores soluções.
+          Quando finalmente entrei para a faculdade de contabilidade, em 2014,
+          senti que estava no caminho certo. A cada semestre, minha confiança
+          crescia, e ao me formar em 2019, tive a certeza de que havia
+          encontrado meu propósito. O momento mais marcante foi ser aprovado no
+          exame do conselho com aproximadamente 80% de acertos, um reflexo do
+          meu empenho e dedicação.
           <br />
           <br />
-          Em sua trajetória, ele tem se destacado não só pela sua competência
-          técnica, mas também pela sua dedicação em entender as necessidades
-          individuais de cada cliente. Seja em disputas trabalhistas, questões
-          familiares ou defesa do consumidor, Dr. Luis Henrique sempre busca
-          proporcionar um atendimento personalizado e de alta qualidade, com o
-          objetivo de alcançar os melhores resultados possíveis.
+          Ao longo da minha trajetória, passei por diferentes áreas, acumulando
+          experiências valiosas. Fui analista de departamento pessoal, analista
+          fiscal e contábil. Cada função contribuiu para a construção do
+          profissional que sou hoje.
           <br />
           <br />
-          O seu compromisso com a justiça é refletido em cada etapa de sua
-          carreira, sendo cada caso uma oportunidade de defender os direitos de
-          seus clientes com a atenção e seriedade que eles merecem.
+          Atualmente, atuo como coordenador de recursos humanos e departamento
+          pessoal. Essa posição me permite unir minha paixão por negócios com a
+          experiência acumulada, ajudando empresas a crescerem de forma
+          estruturada e eficiente. Cada desafio que enfrento reforça meu amor
+          pela profissão e o desejo de continuar fazendo a diferença.
           <br />
           <br />
         </p>
@@ -386,26 +393,18 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades e atualizações!",
-        subtitle:
-          "⚖️ Esteja sempre por dentro do mundo jurídico seguindo o Dr. Luis Henrique Cabral nas redes sociais!",
-        paragraph: (
-          <p>
-            Acompanhe nossas postagens e fique atualizado sobre Direito Cível,
-            Trabalhista, de Família e mais. Não perca a oportunidade de
-            transformar conhecimento em poder para proteger seus direitos.
-          </p>
-        ),
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      title: "Precisa de ajuda com gestão de pessoal? Estamos aqui para isso!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Fale com nossa equipe. Estamos prontos para oferecer soluções completas em departamento pessoal.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
@@ -417,54 +416,55 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Primeiro contato e análise inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Entendemos as necessidades do cliente e identificamos os principais desafios em gestão de pessoal.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Planejamento personalizado",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Desenvolvemos estratégias sob medida para otimizar processos e garantir eficiência.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Implementação das soluções",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Aplicamos as soluções acordadas, garantindo alinhamento com as normas trabalhistas.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Acompanhamento contínuo",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Monitoramos os resultados e ajustamos os processos para manter a excelência.",
         },
       },
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "O que faz um profissional de departamento pessoal?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "O departamento pessoal é responsável por gerenciar a relação entre empresa e funcionários, cuidando de processos como folha de pagamento, admissões e demissões, benefícios e controle de ponto, sempre alinhado às leis trabalhistas.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question:
+            "Qual a diferença entre departamento pessoal e recursos humanos?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Enquanto o departamento pessoal foca nos processos administrativos e legais, o RH trabalha com o desenvolvimento de pessoas, incluindo recrutamento, treinamentos e engajamento dos colaboradores.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Por que é importante terceirizar o departamento pessoal?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "A terceirização permite que especialistas cuidem da gestão de pessoal, reduzindo erros, garantindo conformidade com as normas legais e otimizando o tempo da empresa para focar em seu core business.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Como funciona o cálculo da folha de pagamento?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "O cálculo inclui o salário bruto, descontos obrigatórios (INSS, IRRF, etc.) e adicionais como horas extras e benefícios. Tudo isso deve ser feito de acordo com a legislação trabalhista vigente.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
