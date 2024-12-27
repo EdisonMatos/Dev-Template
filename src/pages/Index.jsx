@@ -30,7 +30,6 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      <About modal={true} />
       <Features modal={false} />
       {/* <FeaturesResumed /> */}
       <About modal={true} />
