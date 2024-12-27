@@ -36,11 +36,16 @@ export default function Index() {
       <Features modal={false} />
       {/* <FeaturesResumed /> */}
       <About modal={true} />
-      <AboutInstagram instagram={true} facebook={true} />
+      {/* <AboutInstagram instagram={true} facebook={true} /> */}
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={true} instagram={true} facebook={false} />
+      <FooterSocial
+        obs={false}
+        addres={true}
+        instagram={false}
+        facebook={false}
+      />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
