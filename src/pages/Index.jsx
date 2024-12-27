@@ -20,6 +20,9 @@ import FeaturesResumed from "../components/sections/FeaturesResumed";
 // Para ativar o modo LightMode na Navbar copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
 // Para ativar o modo LightMode no Footer copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
 
+// Para ativar o botão do Instagram no AboutSocial, adicionar (instagram={true}) e remover para desativar.
+// Para ativar o botão do Facebook no AboutSocial, adicionar (facebook={true}) e remover para desativar.
+
 export default function Index() {
   return (
     <div>
@@ -28,7 +31,7 @@ export default function Index() {
       <Features modal={false} />
       {/* <FeaturesResumed /> */}
       <About modal={true} />
-      <AboutInstagram />
+      <AboutInstagram instagram={true} facebook={true} />
       <Cta />
       <Steps />
       <Faq />
