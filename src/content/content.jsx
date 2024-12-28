@@ -797,6 +797,17 @@ const content = {
         },
       },
     },
+    contactForm: {
+      miniTag: "",
+      title: "Fale conosco",
+      subtitle: "Nos envie uma mensagem e te responderemos em breve.",
+    },
+    maps: {
+      miniTag: "",
+      title: "Como nos encontrar?",
+      subtitle:
+        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
+    },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
@@ -812,7 +823,7 @@ const content = {
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
-  },
+    },
 };
 
 export const abstractions = {
