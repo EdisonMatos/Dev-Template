@@ -35,17 +35,17 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero />
       <Features modal={false} />
-      <FormAndLocation/>
+      {/* <FormAndLocation/> */}
       {/* <FeaturesResumed /> */}
       <About modal={true} />
-      {/* <AboutInstagram instagram={true} facebook={true} /> */}
+      <AboutInstagram instagram={true} />
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
         obs={false}
         addres={true}
-        instagram={false}
+        instagram={true}
         facebook={false}
       />
       <FloatingWhatsappButton />
