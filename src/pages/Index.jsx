@@ -36,9 +36,9 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero />
       {/* <Features modal={false} /> */}
-      <FeaturesWithIcons />
       {/* <FeaturesResumed /> */}
       {/* <FormAndLocation/> */}
+      <FeaturesWithIcons />
       <About modal={true} />
       <AboutInstagram instagram={true} />
       <Cta />

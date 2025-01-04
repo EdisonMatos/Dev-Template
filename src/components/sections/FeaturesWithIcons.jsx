@@ -25,7 +25,7 @@ export default function FeaturesWithIcons() {
         color="dark"
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center justify-evenly w-full tablet1:flex-row">
+        <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
           <div className="col1 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
