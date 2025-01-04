@@ -13,6 +13,7 @@ import BackToTopButton from "../components/interactives/BackToTopButton";
 import FeaturesButton from "../components/sections/FeaturesButton";
 import FeaturesResumed from "../components/sections/FeaturesResumed";
 import FormAndLocation from "../components/sections/FormAndLocation";
+import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -34,9 +35,10 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      <Features modal={false} />
-      {/* <FormAndLocation/> */}
+      {/* <Features modal={false} /> */}
+      <FeaturesWithIcons />
       {/* <FeaturesResumed /> */}
+      {/* <FormAndLocation/> */}
       <About modal={true} />
       <AboutInstagram instagram={true} />
       <Cta />
