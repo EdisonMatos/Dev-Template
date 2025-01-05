@@ -9,10 +9,6 @@ import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
-// import Icon1 from "../../assets/imgs/icons/icon1.png";
-// import Icon2 from "../../assets/imgs/icons/icon2.png";
-// import Icon3 from "../../assets/imgs/icons/icon3.png";
-// import Icon4 from "../../assets/imgs/icons/icon4.png";
 
 export default function FeaturesWithIcons() {
   return (
@@ -50,13 +46,7 @@ export default function FeaturesWithIcons() {
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
-            >
-              {/* <img
-              src={content.texts.features.imgFeatures}
-              alt="Imagem ilustrativa da seção"
-              className="rounded-2xl"
-            /> */}
-            </div>
+            ></div>
           </MotionDivDownToUp>
           <div className="col3 desktop1:w-[28%] flex flex-col items-center">
             <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">

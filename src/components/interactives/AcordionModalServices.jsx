@@ -46,7 +46,7 @@ export default function AcordionModalServices() {
           id="panel1-header"
         >
           <Typography>
-            <h1 className="font-bold font-secondFont">Harmonização Facial</h1>
+            <h1 className="font-bold font-secondFont">Demais áreas</h1>
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
@@ -54,21 +54,20 @@ export default function AcordionModalServices() {
             <p className="flex flex-col gap-[8px] font-secondFont text-paragraph4 text-paragraphLight">
               {/* Link 1 */}
               <ModalComponent
-                header={services.moreServices.harmonizacao.service1.name}
+                header={services.moreServices.demaisAreas.service1.name}
                 content={
                   <ServiceDetailCard
-                    img={services.moreServices.harmonizacao.service1.img.img}
+                    img={services.moreServices.demaisAreas.service1.img.img}
                     subtitle={
-                      services.moreServices.harmonizacao.service1.cardSubtitle
+                      services.moreServices.demaisAreas.service1.cardSubtitle
                     }
                     description={
-                      services.moreServices.harmonizacao.service1
-                        .cardDescription
+                      services.moreServices.demaisAreas.service1.cardDescription
                     }
                     buttonLabel={services.moreServices.ctaButtons.buttonLabel}
                     buttonIcon={services.moreServices.ctaButtons.icon}
                     buttonLink={
-                      services.moreServices.harmonizacao.service1.buttonLink
+                      services.moreServices.demaisAreas.service1.buttonLink
                     }
                   />
                 }
@@ -76,7 +75,7 @@ export default function AcordionModalServices() {
                 <button className="flex text-blue-600">
                   <span>{services.moreServices.arrowIcon}</span>
                   <span className="ml-2 text-left text-blue-600 text-paragraph3">
-                    {services.moreServices.harmonizacao.service1.name}
+                    {services.moreServices.demaisAreas.service1.name}
                   </span>
                 </button>
               </ModalComponent>

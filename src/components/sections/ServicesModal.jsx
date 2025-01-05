@@ -55,7 +55,7 @@ const ServicesModal = () => {
       />
 
       <Dialog
-        header="Nossos Procedimentos"
+        header="Áreas de atuação"
         headerStyle={{ paddingBottom: "3px" }}
         visible={visible}
         onHide={() => setVisible(false)}
