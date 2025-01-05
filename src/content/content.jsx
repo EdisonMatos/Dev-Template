@@ -105,14 +105,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO ESPECIALIZADO EM CARUARU - PE",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Transformando
+          <span className="text-primary"> sua luta </span> em vitória jurídica
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com dedicação única e táticas incisivas, fazemos de cada caso uma verdadeira conquista para seus direitos.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -160,15 +161,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Nossas áreas de expertise",
+      subtitle: "Soluções jurídicas especializadas para cada necessidade.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Correspondência Jurídica",
+        subtitle:
+          "Representação em processos, audiências e despachos com excelência.",
         description: (
           <div>
             A_Definir
@@ -183,11 +185,17 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-mails"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <rect width="16" height="13" x="6" y="4" rx="2" />
+            <path d="m22 7-7.1 3.78c-.57.3-1.23.3-1.8 0L6 7" />
+            <path d="M2 8v11c0 1.1.9 2 2 2h14" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -195,8 +203,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Trabalhista",
+        subtitle:
+          "Defesa em conflitos trabalhistas para empresas e trabalhadores.",
         description: (
           <div>
             A_Definir
@@ -211,11 +220,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -223,8 +239,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Criminal",
+        subtitle:
+          "Defesa penal com rigor técnico e compromisso com a justiça. Atendimento 24h.",
         description: (
           <div>
             A_Definir <br />
@@ -238,11 +255,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -250,8 +275,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Mais áreas de atuação",
+        subtitle: "Clique abaixo para ver mais",
         description: (
           <div>
             A_Definir
@@ -266,11 +291,20 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-list"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M3 12h.01" />
+            <path d="M3 18h.01" />
+            <path d="M3 6h.01" />
+            <path d="M8 12h13" />
+            <path d="M8 18h13" />
+            <path d="M8 6h13" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -297,31 +331,56 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Imagem profissional de escritório",
+        alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É MATTHÄUS ADVOCACIA ESPECIALIZADA",
+      title: "Minha trajetória",
+      subtitle:
+        "Desde sua fundação em 2016, o Matthäus Advocacia Especializada tem se consolidado como um escritório jurídico reconhecido pela excelência e dedicação em cada caso que assume.",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Com sede em Pernambuco, nossa missão é oferecer soluções jurídicas
+          personalizadas, sempre pautadas por valores como ética, transparência
+          e comprometimento.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com sede em Pernambuco, nossa missão é oferecer soluções jurídicas
+          personalizadas, sempre pautadas por valores como ética, transparência
+          e comprometimento.
           <br />
           <br />
-          A_Definir
+          Sob a liderança do Dr. Matthäus Lima, inscrito na OAB/PE 43.389, o
+          escritório atua em diversas áreas do Direito, com destaque para
+          Correspondência Jurídica, Direito Trabalhista, Previdenciário, Direito
+          de Família, Criminal, Aeroportuário, Saúde, Defesa do Consumidor,
+          Propriedade Intelectual e Empresarial. Cada uma dessas áreas reflete
+          nosso compromisso em atender às demandas mais complexas com
+          estratégias eficazes e resultados concretos.
           <br />
           <br />
-          A_Definir
+          A trajetória do Dr. Matthäus é marcada pela paixão em transformar
+          vidas por meio da advocacia. Formado em Direito pela UNIFAVIP em 2016,
+          ele iniciou sua carreira aos 22 anos, guiado pelo desejo de garantir
+          justiça e defender os direitos de seus clientes. Sua atuação em áreas
+          sensíveis, como Direito de Saúde e Previdenciário, destaca-se pela
+          empatia e pela busca incansável por soluções que realmente façam a
+          diferença.
           <br />
           <br />
-          A_Definir
+          Cada caso é tratado como único, respeitando a história e os objetivos
+          de nossos clientes. No Matthäus Advocacia Especializada, acreditamos
+          que a advocacia é mais do que um serviço: é uma missão que exige
+          dedicação e excelência. Trabalhamos para construir relações de
+          confiança e entregar resultados que superem expectativas, sempre
+          alinhados aos valores que nos guiam desde o início.
+          <br />
+          <br />
+          Aqui, o compromisso vai além da prática jurídica. Nosso objetivo é
+          transformar desafios em soluções e garantir que nossos clientes se
+          sintam amparados em todas as etapas de suas jornadas jurídicas.
           <br />
           <br />
         </p>
@@ -334,68 +393,86 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Conecte-se e fique por dentro das novidades jurídicas!",
+        subtitle:
+          "⚖️ Acompanhe Dr. Matthäus Lima nas redes sociais e esteja sempre atualizado sobre temas do Direito.",
+        paragraph: (
+          <p>
+            Aqui você encontra conteúdos relevantes sobre Correspondência
+            Jurídica, Direito de Família, Trabalhista, Previdenciário, Criminal,
+            Saúde e muito mais. Transforme conhecimento em poder e garanta a
+            proteção dos seus direitos!
+          </p>
+        ),
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Procedimento eficaz",
+          cardDescription:
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

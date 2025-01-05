@@ -31,7 +31,7 @@ const ServicesModal = () => {
         removeAnchor={true}
         removeTarget={true}
         tagName="div"
-        label="Ver todos"
+        label="Ver todas"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
