@@ -31,11 +31,11 @@ export default function Steps() {
             }}
             className="shadow-custom-opacity shadow-darker/25 relative desktop1:bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
-            <img
+            {/* <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
               className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-            ></img>
+            ></img> */}
           </div>
           {/* <img
             src={content.texts.steps.imgSteps}

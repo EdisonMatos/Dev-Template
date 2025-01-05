@@ -56,32 +56,33 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Matthäus Advocacia Especializada",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "matthausadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "81",
+    firstPart: "99577", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0777", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida Dom Bosco, nº 113</p>
+      <p>Bairro Maurício de Nassau</p>
+      <p>Caruaru - PE, CEP: 55012-550</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 8h às 18h</p>
+      <p>Atendimento Online: 24h</p>
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "A_Definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "adv.matthaus", // Sem o @
+  facebookProfile: "adv.matthaus",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -730,6 +731,7 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      facebook: `https://www.facebook.com/${infos.facebookProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
