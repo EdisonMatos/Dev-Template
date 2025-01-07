@@ -57,32 +57,33 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Luis Henrique Cabral",
+  name: "Matthäus Advocacia Especializada",
   email: "contato", // Email desejado pelo cliente
-  domain: "luishenriquecabraladv.com.br", // Sem "www"
+  domain: "matthausadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98345", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6295", // Apenas os 4 últimos números
+    ddd: "81",
+    firstPart: "99577", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0777", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida Dom Bosco, nº 113</p>
+      <p>Bairro Maurício de Nassau</p>
+      <p>Caruaru - PE, CEP: 55012-550</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 8h às 18h</p>
+      <p>Atendimento Online: 24h</p>
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "luishenriquecabral.adv41", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "adv.matthaus", // Sem o @
+  facebookProfile: "adv.matthaus",
   linkeDinProfile: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -105,15 +106,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO TRABALHISTA E CÍVEL EM SÃO PAULO - SP",
+      miniTag: "ADVOGADO ESPECIALIZADO EM CARUARU - PE",
       title: (
         <h1 className="mb-[16px]">
-          Proteja seus direitos
-          <span className="text-primary"> com quem entende </span>do assunto
+          Transformando
+          <span className="text-primary"> sua luta </span> em vitória jurídica
         </h1>
       ),
       subtitle:
-        "Com soluções jurídicas eficazes, garantimos a defesa dos seus interesses em cada situação.",
+        "Com dedicação única e táticas incisivas, fazemos de cada caso uma verdadeira conquista para seus direitos.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -162,15 +163,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Defenda o que é seu com confiança",
-      subtitle:
-        "Resultados rápidos e eficazes para as suas necessidades jurídicas.",
+      title: "Nossas áreas de expertise",
+      subtitle: "Soluções jurídicas especializadas para cada necessidade.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Trabalhista",
-        subtitle: "Ações trabalhistas, rescisões e direitos empregatícios.",
+        title: "Correspondência Jurídica",
+        subtitle:
+          "Representação em processos, audiências e despachos com excelência.",
         description: (
           <div>
             A_Definir
@@ -192,11 +193,11 @@ const content = {
             stroke-linecap="round"
             stroke-linejoin="round"
             class="lucide lucide-hand-coins"
+
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <rect width="16" height="13" x="6" y="4" rx="2" />
+            <path d="m22 7-7.1 3.78c-.57.3-1.23.3-1.8 0L6 7" />
+            <path d="M2 8v11c0 1.1.9 2 2 2h14" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -204,8 +205,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Consumidor",
-        subtitle: "Reclamações, indenizações e proteção ao consumidor",
+        title: "Direito Trabalhista",
+        subtitle:
+          "Defesa em conflitos trabalhistas para empresas e trabalhadores.",
         description: (
           <div>
             A_Definir
@@ -227,10 +229,10 @@ const content = {
             stroke-linecap="round"
             stroke-linejoin="round"
             class="lucide lucide-brain"
-
-          >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -238,8 +240,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Cível",
-        subtitle: "Processos cíveis, contratos e disputas judiciais.",
+        title: "Direito Criminal",
+        subtitle:
+          "Defesa penal com rigor técnico e compromisso com a justiça. Atendimento 24h.",
         description: (
           <div>
             A_Definir <br />
@@ -261,8 +264,11 @@ const content = {
             stroke-linejoin="round"
             class="lucide lucide-list-checks"
           >
-            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-            <circle cx="12" cy="7" r="4" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -270,8 +276,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito de Família",
-        subtitle: "Divórcios, guarda, pensão e questões familiares.",
+        title: "Mais áreas de atuação",
+        subtitle: "Clique abaixo para ver mais",
         description: (
           <div>
             A_Definir
@@ -293,13 +299,13 @@ const content = {
             stroke-linecap="round"
             stroke-linejoin="round"
             class="lucide lucide-copy-check"
-
           >
-            <rect x="16" y="16" width="6" height="6" rx="1" />
-            <rect x="2" y="16" width="6" height="6" rx="1" />
-            <rect x="9" y="2" width="6" height="6" rx="1" />
-            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-            <path d="M12 12V8" />
+            <path d="M3 12h.01" />
+            <path d="M3 18h.01" />
+            <path d="M3 6h.01" />
+            <path d="M8 12h13" />
+            <path d="M8 18h13" />
+            <path d="M8 6h13" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -326,57 +332,56 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "Imagem profissional de escritório",
+        alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. LUIS HENRIQUE CABRAL",
+      miniTag: "QUEM É MATTHÄUS ADVOCACIA ESPECIALIZADA",
       title: "Minha trajetória",
       subtitle:
-        "Compromisso com a justiça e com o bem-estar dos meus clientes.",
+        "Desde sua fundação em 2016, o Matthäus Advocacia Especializada tem se consolidado como um escritório jurídico reconhecido pela excelência e dedicação em cada caso que assume.",
       paragraph: (
         <div>
-          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
-          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
-          jurídicas de qualidade para seus clientes.
-          <br />
-          Sua jornada no Direito começou com o desejo de transformar vidas,
-          oferecendo um suporte legal robusto e humanizado.
+          Com sede em Pernambuco, nossa missão é oferecer soluções jurídicas
+          personalizadas, sempre pautadas por valores como ética, transparência
+          e comprometimento.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
-          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
-          jurídicas de qualidade para seus clientes. Sua jornada no Direito
-          começou com o desejo de transformar vidas, oferecendo um suporte legal
-          robusto e humanizado.
+          Com sede em Pernambuco, nossa missão é oferecer soluções jurídicas
+          personalizadas, sempre pautadas por valores como ética, transparência
+          e comprometimento.
           <br />
           <br />
-          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência em
-          diversas áreas do Direito, incluindo Direito Trabalhista, Direito do
-          Consumidor, Direito Cível e Direito de Família, sempre com foco na
-          ética, transparência e eficiência.
+          Sob a liderança do Dr. Matthäus Lima, inscrito na OAB/PE 43.389, o
+          escritório atua em diversas áreas do Direito, com destaque para
+          Correspondência Jurídica, Direito Trabalhista, Previdenciário, Direito
+          de Família, Criminal, Aeroportuário, Saúde, Defesa do Consumidor,
+          Propriedade Intelectual e Empresarial. Cada uma dessas áreas reflete
+          nosso compromisso em atender às demandas mais complexas com
+          estratégias eficazes e resultados concretos.
           <br />
           <br />
-          Sua atuação é pautada pela busca incansável pela justiça, aliando
-          conhecimentos técnicos à sensibilidade necessária para lidar com as
-          particularidades de cada caso. Dr. Luis Henrique acredita que, além de
-          um bom conhecimento jurídico, é essencial estabelecer uma relação de
-          confiança com os clientes, para que juntos possam enfrentar os
-          desafios legais e encontrar as melhores soluções.
+          A trajetória do Dr. Matthäus é marcada pela paixão em transformar
+          vidas por meio da advocacia. Formado em Direito pela UNIFAVIP em 2016,
+          ele iniciou sua carreira aos 22 anos, guiado pelo desejo de garantir
+          justiça e defender os direitos de seus clientes. Sua atuação em áreas
+          sensíveis, como Direito de Saúde e Previdenciário, destaca-se pela
+          empatia e pela busca incansável por soluções que realmente façam a
+          diferença.
           <br />
           <br />
-          Em sua trajetória, ele tem se destacado não só pela sua competência
-          técnica, mas também pela sua dedicação em entender as necessidades
-          individuais de cada cliente. Seja em disputas trabalhistas, questões
-          familiares ou defesa do consumidor, Dr. Luis Henrique sempre busca
-          proporcionar um atendimento personalizado e de alta qualidade, com o
-          objetivo de alcançar os melhores resultados possíveis.
+          Cada caso é tratado como único, respeitando a história e os objetivos
+          de nossos clientes. No Matthäus Advocacia Especializada, acreditamos
+          que a advocacia é mais do que um serviço: é uma missão que exige
+          dedicação e excelência. Trabalhamos para construir relações de
+          confiança e entregar resultados que superem expectativas, sempre
+          alinhados aos valores que nos guiam desde o início.
           <br />
           <br />
-          O seu compromisso com a justiça é refletido em cada etapa de sua
-          carreira, sendo cada caso uma oportunidade de defender os direitos de
-          seus clientes com a atenção e seriedade que eles merecem.
+          Aqui, o compromisso vai além da prática jurídica. Nosso objetivo é
+          transformar desafios em soluções e garantir que nossos clientes se
+          sintam amparados em todas as etapas de suas jornadas jurídicas.
           <br />
           <br />
         </p>
@@ -390,14 +395,15 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "MANTENHA-SE INFORMADO",
-        title: "Conecte-se e acompanhe novidades e atualizações!",
+        title: "Conecte-se e fique por dentro das novidades jurídicas!",
         subtitle:
-          "⚖️ Esteja sempre por dentro do mundo jurídico seguindo o Dr. Luis Henrique Cabral nas redes sociais!",
+          "⚖️ Acompanhe Dr. Matthäus Lima nas redes sociais e esteja sempre atualizado sobre temas do Direito.",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e fique atualizado sobre Direito Cível,
-            Trabalhista, de Família e mais. Não perca a oportunidade de
-            transformar conhecimento em poder para proteger seus direitos.
+            Aqui você encontra conteúdos relevantes sobre Correspondência
+            Jurídica, Direito de Família, Trabalhista, Previdenciário, Criminal,
+            Saúde e muito mais. Transforme conhecimento em poder e garanta a
+            proteção dos seus direitos!
           </p>
         ),
       },
@@ -422,32 +428,32 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Procedimento eficaz",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
@@ -803,6 +809,7 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      facebook: `https://www.facebook.com/${infos.facebookProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,

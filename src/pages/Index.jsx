@@ -13,13 +13,23 @@ import BackToTopButton from "../components/interactives/BackToTopButton";
 import FeaturesCards from "../components/sections/FeaturesCards";
 import FeaturesButton from "../components/sections/FeaturesButton";
 import FeaturesResumed from "../components/sections/FeaturesResumed";
+import FormAndLocation from "../components/sections/FormAndLocation";
+import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
+
 // Para ativar as informações de observação no Footer, adicionar (obs={true}) para informações de observação e remover para desativar.
 // Para ativar o endereço no Footer, adicionar (addres={true}) para informações de observação e remover para desativar.
+// Para ativar o botão do Instagram, adicionar (instagram={true}) e remover para desativar.
+// Para ativar o botão do Facebook, adicionar (facebook={true}) e remover para desativar.
+// Para ativar o botão do LinkedIn, adicionar (linkedin={true}) e remover para desativar.
+
 // Para ativar o modo LightMode na Navbar copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
 // Para ativar o modo LightMode no Footer copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
+
+// Para ativar o botão do Instagram no AboutSocial, adicionar (instagram={true}) e remover para desativar.
+// Para ativar o botão do Facebook no AboutSocial, adicionar (facebook={true}) e remover para desativar.
 
 export default function Index() {
   return (
@@ -28,13 +38,21 @@ export default function Index() {
       <Hero />
        <FeaturesCards />
       <Features modal={false} />
+
       {/* <FeaturesResumed /> */}
+      {/* <FormAndLocation/> */}
+      <FeaturesWithIcons />
       <About modal={true} />
-      <AboutInstagram />
+      <AboutInstagram instagram={true} facebook={true} />
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={false} />
+      <FooterSocial
+        obs={false}
+        addres={true}
+        instagram={true}
+        facebook={true}
+      />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
