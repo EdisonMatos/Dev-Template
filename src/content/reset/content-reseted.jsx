@@ -83,6 +83,7 @@ export const infos = {
   instagramProfile: "A_Definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
+  x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   slogan: "",
