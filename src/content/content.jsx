@@ -106,14 +106,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM RIO BRANCO - AC",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Seu aliado na busca por
+          <span className="text-primary"> justiça e respeito </span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Dr. Gabriel Machado transforma desafios em vitórias, guiado por valores que colocam você em primeiro lugar.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
