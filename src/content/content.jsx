@@ -56,33 +56,35 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Gabriel Machado",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "gabrielmachadoadv.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "68",
+    firstPart: "99242", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3232", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Isaura Parente, nº 822</p>
+      <p>Bosque, Rio Branco - AC</p>
+      <p>CEP: 69918-270</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 8h às 12h</p>
+      <p>Das 14h às 18:30</p>
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "A_Definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "gabrielmfeitoza", // Sem o @
+  facebookProfile: "bielmachadofeitoza",
   linkeDinProfile: "A_Definir",
+  x: "gabrielmfeitoza",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   slogan: "",
@@ -731,6 +733,7 @@ const content = {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
+      x: `https://x.com/${infos.x}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,

@@ -35,12 +35,12 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      {/* <Features modal={false} /> */}
+      <Features modal={false} />
       {/* <FeaturesResumed /> */}
+      {/* <FeaturesWithIcons /> */}
       {/* <FormAndLocation/> */}
-      <FeaturesWithIcons />
       <About modal={true} />
-      <AboutInstagram instagram={true} facebook={true} />
+      <AboutInstagram instagram={true} facebook={true} x={true} />
       <Cta />
       <Steps />
       <Faq />
@@ -49,6 +49,7 @@ export default function Index() {
         addres={true}
         instagram={true}
         facebook={true}
+        x={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

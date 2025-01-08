@@ -13,7 +13,7 @@ import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 
-export default function AboutInstagram({ instagram, facebook }) {
+export default function AboutInstagram({ instagram, facebook, x }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -183,6 +183,30 @@ export default function AboutInstagram({ instagram, facebook }) {
                     class="lucide lucide-facebook"
                   >
                     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  </svg>
+                }
+              />
+            </MotionDivDownToUp>
+          )}
+
+          {x && (
+            <MotionDivDownToUp className="mt-[18px]">
+              <Button
+                label="Siga-nos no X"
+                buttonLink={content.texts.links.x}
+                icon={
+                  <svg
+                    viewBox="0 0 21.573 19.5"
+                    version="1.1"
+                    id="svg4"
+                    width="20"
+                    height="20"
+                  >
+                    <defs id="defs8" />
+                    <path
+                      d="m 16.998462,0 h 3.308 l -7.227,8.26 8.502,11.24 h -6.657 l -5.2139994,-6.817 -5.966,6.817 H 0.43446256 L 8.1644626,10.665 0.00846256,0 H 6.8344626 l 4.7129994,6.231 z m -1.161,17.52 h 1.833 L 5.8384626,1.876 h -1.967 z"
+                      id="path2"
+                    />
                   </svg>
                 }
               />
