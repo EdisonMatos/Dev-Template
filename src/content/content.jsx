@@ -336,30 +336,47 @@ const content = {
       miniTag: "QUEM É MATTHÄUS ADVOCACIA ESPECIALIZADA",
       title: "Minha trajetória",
       subtitle:
-        "Desde sua fundação em 2016, o Matthäus Advocacia Especializada tem se consolidado como um escritório jurídico reconhecido pela excelência e dedicação em cada caso que assume.",
+        "Desde sua fundação em 2016, o Matthäus Advocacia Especializada se consolidou como um escritório jurídico reconhecido pela excelência e dedicação em cada caso.",
       paragraph: (
         <div>
-          Com sede em Pernambuco, nossa missão é oferecer soluções jurídicas
-          personalizadas, sempre pautadas por valores como ética, transparência
-          e comprometimento.
+          Minha missão sempre foi oferecer soluções jurídicas personalizadas,
+          pautadas por ética, transparência e comprometimento.
+          <br />
+          Natural de Pernambuco, graduado em Direito pela UNIFAVIP, e desde
+          2016, com 22 anos, iniciei minha jornada na advocacia com o objetivo
+          de garantir justiça e defender os direitos de meus clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          aa
+          Minha missão sempre foi oferecer soluções jurídicas personalizadas,
+          pautadas por ética, transparência e comprometimento.
           <br />
           <br />
-          aa
+          Natural de Pernambuco, graduado em Direito pela UNIFAVIP, e desde
+          2016, com 22 anos, iniciei minha jornada na advocacia com o objetivo
+          de garantir justiça e defender os direitos de meus clientes.
           <br />
           <br />
-          a
+          Ao longo dessa trajetória, especializei-me em diversas áreas do
+          Direito, incluindo Correspondência Jurídica, Direito Trabalhista,
+          Previdenciário, Direito de Família, Criminal, Aeroportuário, Saúde,
+          Defesa do Consumidor, Propriedade Intelectual e Empresarial. Cada uma
+          dessas áreas reflete meu compromisso em atender às demandas mais
+          complexas com estratégias eficazes e resultados concretos.
           <br />
           <br />
-          a
+          Com uma visão clara de que a advocacia vai além de um simples serviço,
+          trato cada caso como único, respeitando a história e os objetivos dos
+          meus clientes. Em meu escritório, acredito que a verdadeira missão da
+          advocacia é transformar vidas, oferecendo não apenas conhecimento
+          jurídico, mas também empatia e dedicação.
           <br />
           <br />
-          aa
+          Trabalho constantemente para construir relações de confiança e
+          entregar resultados que superem as expectativas, sempre alinhado aos
+          valores que me guiam desde o início.
           <br />
           <br />
         </p>
