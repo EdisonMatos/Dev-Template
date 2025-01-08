@@ -108,12 +108,12 @@ const content = {
       miniTag: "ADVOGADO ESPECIALIZADO EM CARUARU - PE",
       title: (
         <h1 className="mb-[16px]">
-          Transformando
-          <span className="text-primary"> sua luta </span> em vitória jurídica
+          Defendemos
+          <span className="text-primary"> seu direito </span>com excelência
         </h1>
       ),
       subtitle:
-        "Com dedicação única e táticas incisivas, fazemos de cada caso uma verdadeira conquista para seus direitos.",
+        "8 anos de experiência, dedicação inigualável e reconhecimento de 5 estrelas, protegendo seus direitos de norte a sul do país.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -336,51 +336,47 @@ const content = {
       miniTag: "QUEM É MATTHÄUS ADVOCACIA ESPECIALIZADA",
       title: "Minha trajetória",
       subtitle:
-        "Desde sua fundação em 2016, o Matthäus Advocacia Especializada tem se consolidado como um escritório jurídico reconhecido pela excelência e dedicação em cada caso que assume.",
+        "Desde sua fundação em 2016, o Matthäus Advocacia Especializada se consolidou como um escritório jurídico reconhecido pela excelência e dedicação em cada caso.",
       paragraph: (
         <div>
-          Com sede em Pernambuco, nossa missão é oferecer soluções jurídicas
-          personalizadas, sempre pautadas por valores como ética, transparência
-          e comprometimento.
+          Minha missão sempre foi oferecer soluções jurídicas personalizadas,
+          pautadas por ética, transparência e comprometimento.
+          <br />
+          Natural de Pernambuco, graduado em Direito pela UNIFAVIP, e desde
+          2016, com 22 anos, iniciei minha jornada na advocacia com o objetivo
+          de garantir justiça e defender os direitos de meus clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com sede em Pernambuco, nossa missão é oferecer soluções jurídicas
-          personalizadas, sempre pautadas por valores como ética, transparência
-          e comprometimento.
+          Minha missão sempre foi oferecer soluções jurídicas personalizadas,
+          pautadas por ética, transparência e comprometimento.
           <br />
           <br />
-          Sob a liderança do Dr. Matthäus Lima, inscrito na OAB/PE 43.389, o
-          escritório atua em diversas áreas do Direito, com destaque para
-          Correspondência Jurídica, Direito Trabalhista, Previdenciário, Direito
-          de Família, Criminal, Aeroportuário, Saúde, Defesa do Consumidor,
-          Propriedade Intelectual e Empresarial. Cada uma dessas áreas reflete
-          nosso compromisso em atender às demandas mais complexas com
-          estratégias eficazes e resultados concretos.
+          Natural de Pernambuco, graduado em Direito pela UNIFAVIP, e desde
+          2016, com 22 anos, iniciei minha jornada na advocacia com o objetivo
+          de garantir justiça e defender os direitos de meus clientes.
           <br />
           <br />
-          A trajetória do Dr. Matthäus é marcada pela paixão em transformar
-          vidas por meio da advocacia. Formado em Direito pela UNIFAVIP em 2016,
-          ele iniciou sua carreira aos 22 anos, guiado pelo desejo de garantir
-          justiça e defender os direitos de seus clientes. Sua atuação em áreas
-          sensíveis, como Direito de Saúde e Previdenciário, destaca-se pela
-          empatia e pela busca incansável por soluções que realmente façam a
-          diferença.
+          Ao longo dessa trajetória, especializei-me em diversas áreas do
+          Direito, incluindo Correspondência Jurídica, Direito Trabalhista,
+          Previdenciário, Direito de Família, Criminal, Aeroportuário, Saúde,
+          Defesa do Consumidor, Propriedade Intelectual e Empresarial. Cada uma
+          dessas áreas reflete meu compromisso em atender às demandas mais
+          complexas com estratégias eficazes e resultados concretos.
           <br />
           <br />
-          Cada caso é tratado como único, respeitando a história e os objetivos
-          de nossos clientes. No Matthäus Advocacia Especializada, acreditamos
-          que a advocacia é mais do que um serviço: é uma missão que exige
-          dedicação e excelência. Trabalhamos para construir relações de
-          confiança e entregar resultados que superem expectativas, sempre
-          alinhados aos valores que nos guiam desde o início.
+          Com uma visão clara de que a advocacia vai além de um simples serviço,
+          trato cada caso como único, respeitando a história e os objetivos dos
+          meus clientes. Em meu escritório, acredito que a verdadeira missão da
+          advocacia é transformar vidas, oferecendo não apenas conhecimento
+          jurídico, mas também empatia e dedicação.
           <br />
           <br />
-          Aqui, o compromisso vai além da prática jurídica. Nosso objetivo é
-          transformar desafios em soluções e garantir que nossos clientes se
-          sintam amparados em todas as etapas de suas jornadas jurídicas.
+          Trabalho constantemente para construir relações de confiança e
+          entregar resultados que superem as expectativas, sempre alinhado aos
+          valores que me guiam desde o início.
           <br />
           <br />
         </p>
