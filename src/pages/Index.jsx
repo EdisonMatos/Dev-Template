@@ -14,6 +14,7 @@ import FeaturesButton from "../components/sections/FeaturesButton";
 import FeaturesResumed from "../components/sections/FeaturesResumed";
 import FormAndLocation from "../components/sections/FormAndLocation";
 import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
+import FeaturesTransparent from "../components/sections/FeatureTransparent";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -35,10 +36,11 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
+      <FeaturesTransparent/>
       {/* <Features modal={false} /> */}
       {/* <FeaturesResumed /> */}
       {/* <FormAndLocation/> */}
-      <FeaturesWithIcons />
+      {/* <FeaturesWithIcons /> */}
       <About modal={true} />
       <AboutInstagram instagram={true} facebook={true} />
       <Cta />
