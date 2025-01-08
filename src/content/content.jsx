@@ -333,29 +333,43 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR GABRIEL MACHADO",
+      title: "Minha trajetória",
+      subtitle:
+        "Com uma trajetória sólida, Dr. Gabriel Machado iniciou sua jornada no direito em 2017 e, após estágios importantes na Procuradoria do Estado, Polícia Federal e PRF, se formou em 2021.",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Desde 2023, atua como advogado, com foco em oferecer soluções
+          jurídicas humanizadas e personalizadas, sempre prezando pela
+          transparência e confiança.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Desde 2023, atua como advogado, com foco em oferecer soluções
+          jurídicas humanizadas e personalizadas, sempre prezando pela
+          transparência e confiança.
           <br />
           <br />
-          A_Definir
+          Natural de Feijó, no Acre, comecei minha jornada no direito em 2017,
+          aos 19 anos. Após conquistar meu diploma em 2021, tive a oportunidade
+          de estagiar na Procuradoria do Estado, na Polícia Federal, na PRF e no
+          escritório de uma professora da faculdade, o que me proporcionou uma
+          visão ampla das diversas áreas do direito.
           <br />
           <br />
-          A_Definir
+          Em 2023, fui aprovado no exame de ordem e iniciei minha carreira como
+          advogado, buscando novas possibilidades além dos concursos públicos. O
+          que me guia no exercício da advocacia é a transparência, a honestidade
+          e a humanização no atendimento, sempre buscando compreender a
+          realidade de cada cliente, especialmente em relação à sua situação
+          financeira.
           <br />
           <br />
-          A_Definir
+          Mais do que oferecer um serviço jurídico de qualidade, meu compromisso
+          é proporcionar um atendimento que traga segurança, conforto e
+          confiança a todos que me procuram.
           <br />
           <br />
         </p>
@@ -368,68 +382,85 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe todas as novidades e atualizações",
+        subtitle:
+          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Gabriel Machado nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito do
+            Consumidor, Família, Sucessões, Penal e ações junto à Justiça
+            Federal.
+          </p>
+        ),
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Procedimento eficaz",
+          cardDescription:
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
