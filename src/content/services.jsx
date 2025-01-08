@@ -64,6 +64,86 @@ const services = {
           "Resolução de divórcios, pensões e disputas sucessórias com foco em empatia e eficiência.",
         buttonLink: whatsappContactLink,
       },
+      service2: {
+        name: "Direito Administrativo",
+        img: {
+          img: lawService2,
+        },
+        cardSubtitle: "Sobre o que se trata:",
+        cardDescription:
+          "Soluções para demandas administrativas e judiciais com atuação completa.",
+        buttonLink: whatsappContactLink,
+      },
+      service3: {
+        name: "Propriedade Intelectual",
+        img: {
+          img: lawService3,
+        },
+        cardSubtitle: "Sobre o que se trata:",
+        cardDescription:
+          "Proteção de marcas e contratos para preservar seus direitos.",
+        buttonLink: whatsappContactLink,
+      },
+      service4: {
+        name: "Direito Empresarial",
+        img: {
+          img: lawService4,
+        },
+        cardSubtitle: "Sobre o que se trata:",
+        cardDescription:
+          "Suporte jurídico estratégico para empresas de todos os portes.",
+        buttonLink: whatsappContactLink,
+      },
+      service5: {
+        name: "Direito Aeroportuário",
+        img: {
+          img: lawService5,
+        },
+        cardSubtitle: "Sobre o que se trata:",
+        cardDescription:
+          "Assistência em casos de voos atrasados, cancelados e bagagens extraviadas.",
+        buttonLink: whatsappContactLink,
+      },
+      service6: {
+        name: "Direito Bancário",
+        img: {
+          img: lawService6,
+        },
+        cardSubtitle: "Sobre o que se trata:",
+        cardDescription:
+          "Defesa em busca em apreensão, desbloqueio de contas, golpe do pix, fraudes bancárias, revisão de juros.",
+        buttonLink: whatsappContactLink,
+      },
+      service7: {
+        name: "Direito Previdenciário",
+        img: {
+          img: lawService7,
+        },
+        cardSubtitle: "Sobre o que se trata:",
+        cardDescription:
+          "Busca de benefícios para segurados e suporte para empresas.",
+        buttonLink: whatsappContactLink,
+      },
+      service8: {
+        name: "Direito à Saúde",
+        img: {
+          img: lawService8,
+        },
+        cardSubtitle: "Sobre o que se trata:",
+        cardDescription:
+          "Defesa dos direitos à saúde contra abusos financeiros e contratuais.",
+        buttonLink: whatsappContactLink,
+      },
+      service9: {
+        name: "Defesa do Consumidor",
+        img: {
+          img: lawService9,
+        },
+        cardSubtitle: "Sobre o que se trata:",
+        cardDescription:
+          "Proteção ao consumidor em questões jurídicas e contratuais.",
+        buttonLink: whatsappContactLink,
+      },
     },
   },
 };
