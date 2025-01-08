@@ -57,7 +57,11 @@ export default function SidebarSocial({ LightMode }) {
 
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            LightMode ? (scrolled ? "text-black" : "text-white") : "text-white"
+            LightMode
+              ? scrolled
+                ? "text-black"
+                : "text-white"
+              : "text-primary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
