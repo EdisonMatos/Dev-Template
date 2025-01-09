@@ -79,13 +79,15 @@ export const infos = {
       <p>Das 9h às 18h</p>
     </div>
   ),
-  obs: <span className="italic">A_Definir</span>,
-  instagramProfile: "A_Definir", // Sem o @
+  obs: <span className="italic">A Definir</span>,
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+  whatsChatDefaultMessage:
+    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
 };
 
