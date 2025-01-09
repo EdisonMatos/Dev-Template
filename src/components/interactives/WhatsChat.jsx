@@ -23,7 +23,7 @@ export default function WhatsChat() {
         startChatText="Falar no whatsapp"
         tooltipText={
           <p className="text-paragraph4">
-            Disponível <strong>24h</strong>
+            Disponível <strong>24h</strong> ashduahds
           </p>
         }
         allowEsc={true}
