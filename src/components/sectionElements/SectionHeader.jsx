@@ -29,7 +29,7 @@ export default function SectionHeader({
     miniTitleTextColor = "text-lighter";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-lighter bg-opacity-10";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-black bg-opacity-30";
   }
 
   // Configurações baseadas no tipo

@@ -42,7 +42,7 @@ export default function Index() {
       {/* <FeaturesWithIcons /> */}
       {/* <FormAndLocation/> */}
       <About modal={true} />
-      <AboutInstagram instagram={true} facebook={true} x={true} />
+      <AboutInstagram instagram={true} facebook={false} x={false} />
       <Cta />
       <Steps />
       <Faq />
@@ -50,8 +50,8 @@ export default function Index() {
         obs={false}
         addres={true}
         instagram={true}
-        facebook={true}
-        x={true}
+        facebook={false}
+        x={false}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

@@ -56,31 +56,33 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dra. Franciele Cavalheiro",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "direitoparadirigir.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "66",
+    firstPart: "99201", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7003", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida Ariosto da Riva Neto, 2909</p>
+      <p>Sala comercial Dona Laura, Sala 06</p>
+      <p>Centro - Alta Floresta - MT</p>
+      <p>CEP 78580-959</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 8h às 11h</p>
+      <p>Das 13h às 17:30</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "francielegscavalheiro.adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
