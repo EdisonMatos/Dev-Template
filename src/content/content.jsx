@@ -88,7 +88,7 @@ export const infos = {
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
-    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
+    "Gostaria de falar conosco agora mesmo? Clque no botão abaixo 👇",
   slogan: "",
 };
 
@@ -339,40 +339,47 @@ const content = {
       miniTag: "QUEM É O DR GABRIEL MACHADO",
       title: "Minha trajetória",
       subtitle:
-        "Com uma trajetória sólida, Dr. Gabriel Machado iniciou sua jornada no direito em 2017 e, após estágios importantes na Procuradoria do Estado, Polícia Federal e PRF, se formou em 2021.",
+        "Comprometido com a transparência e o acolhimento, construo relações de confiança em cada passo da minha trajetória.",
       paragraph: (
         <div>
-          Desde 2023, atua como advogado, com foco em oferecer soluções
-          jurídicas humanizadas e personalizadas, sempre prezando pela
-          transparência e confiança.
+          Com uma trajetória sólida, iniciei minha jornada no direito em 2017.
+          Durante minha formação, tive a oportunidade de estagiar na
+          Procuradoria do Estado, na Polícia Federal, na PRF e no escritório de
+          uma professora da faculdade.
+          <br />
+          Essas experiências me proporcionaram uma visão ampla das diversas
+          áreas do direito e foram fundamentais para o meu crescimento
+          profissional.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Desde 2023, atua como advogado, com foco em oferecer soluções
-          jurídicas humanizadas e personalizadas, sempre prezando pela
-          transparência e confiança.
+          Com uma trajetória sólida, iniciei minha jornada no direito em 2017.
+          Durante minha formação, tive a oportunidade de estagiar na
+          Procuradoria do Estado, na Polícia Federal, na PRF e no escritório de
+          uma professora da faculdade. Essas experiências me proporcionaram uma
+          visão ampla das diversas áreas do direito e foram fundamentais para o
+          meu crescimento profissional.
           <br />
           <br />
-          Natural de Feijó, no Acre, comecei minha jornada no direito em 2017,
-          aos 19 anos. Após conquistar meu diploma em 2021, tive a oportunidade
-          de estagiar na Procuradoria do Estado, na Polícia Federal, na PRF e no
-          escritório de uma professora da faculdade, o que me proporcionou uma
-          visão ampla das diversas áreas do direito.
+          Natural de Feijó, no Acre, comecei minha trajetória aos 19 anos. Após
+          conquistar meu diploma em 2021, continuei me dedicando e, em 2023, fui
+          aprovado no exame de ordem, iniciando minha carreira como advogado.
+          Desde então, tenho me dedicado a oferecer soluções jurídicas
+          humanizadas e personalizadas, sempre prezando pela transparência e
+          confiança.
           <br />
           <br />
-          Em 2023, fui aprovado no exame de ordem e iniciei minha carreira como
-          advogado, buscando novas possibilidades além dos concursos públicos. O
-          que me guia no exercício da advocacia é a transparência, a honestidade
-          e a humanização no atendimento, sempre buscando compreender a
-          realidade de cada cliente, especialmente em relação à sua situação
-          financeira.
+          Meu compromisso vai além de oferecer um serviço jurídico de qualidade.
+          Busco proporcionar um atendimento que traga segurança, conforto e
+          confiança a todos que me procuram, sempre compreendendo a realidade de
+          cada cliente, especialmente em relação à sua situação financeira.
           <br />
           <br />
-          Mais do que oferecer um serviço jurídico de qualidade, meu compromisso
-          é proporcionar um atendimento que traga segurança, conforto e
-          confiança a todos que me procuram.
+          O que me guia no exercício da advocacia é a transparência, a
+          honestidade e a humanização no atendimento, elementos que considero
+          essenciais para construir relações de confiança com meus clientes.
           <br />
           <br />
         </p>
