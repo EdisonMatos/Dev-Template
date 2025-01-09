@@ -109,14 +109,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag:
+        "ADVOGADA ESPECIALISTA EM DIREITO DO TRÂNSITO EM ALTA FLORESTA - MT",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Resolvo seus
+          <span className="text-primary"> desafios legais </span> com eficiência
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Dedicação total para garantir soluções jurídicas que fazem a diferença na sua vida.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -164,15 +166,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ESPECIALIZAÇÃO",
+      title: "Defendendo seus direitos com força e precisão",
+      subtitle:
+        "Cada caso é tratado com atenção única para assegurar resultados que importam.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito de Trânsito",
+        subtitle: "Revisão de multas e defesa com foco em resultados.",
         description: (
           <div>
             A_Definir
@@ -187,11 +190,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-cctv"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97" />
+            <path d="M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3z" />
+            <path d="M2 19h3.76a2 2 0 0 0 1.8-1.1L9 15" />
+            <path d="M2 21v-4" />
+            <path d="M7 9h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -199,8 +210,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Trabalhista",
+        subtitle: "Assistência em disputas trabalhistas e acordos justos.",
         description: (
           <div>
             A_Definir
@@ -215,11 +226,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +245,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Auxílio em Sinistros",
+        subtitle: "Proteção de direitos em acidentes e busca de indenizações.",
         description: (
           <div>
             A_Definir <br />
@@ -242,11 +260,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-car"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+            <circle cx="7" cy="17" r="2" />
+            <path d="M9 17h6" />
+            <circle cx="17" cy="17" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -254,8 +279,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle: "Soluções práticas e seguras para questões cíveis.",
         description: (
           <div>
             A_Definir
@@ -270,11 +295,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -303,29 +335,61 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA FRANCIELE CAVALHEIRO",
+      title: "Minha trajetória",
+      subtitle: "Uma jornada marcada pela determinação e dedicação ao direito.",
       paragraph: (
         <div>
-          A_Definir
+          Minha trajetória no direito é uma história de superação, aprendizado
+          constante e muito trabalho.
           <br />
-          A_Definir
+          Formei-me em 2019, e minha caminhada foi repleta de desafios que,
+          longe de me desmotivar, me tornaram mais forte e determinada a seguir
+          meu propósito.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha trajetória no direito é uma história de superação, aprendizado
+          constante e muito trabalho. Formei-me em 2019, e minha caminhada foi
+          repleta de desafios que, longe de me desmotivar, me tornaram mais
+          forte e determinada a seguir meu propósito.
           <br />
           <br />
-          A_Definir
+          Acredito que, para alcançar meus objetivos, é preciso ter perseverança
+          e me manter firme, mesmo diante das adversidades.
           <br />
           <br />
-          A_Definir
+          Durante a faculdade, enfrentei períodos de incertezas e obstáculos
+          pessoais, mas nunca desisti do meu sonho de ser advogada. A aprovação
+          na OAB foi um marco fundamental nessa jornada, permitindo-me avançar
+          para a realização do meu maior objetivo: abrir meu próprio escritório
+          em 2024.
           <br />
           <br />
-          A_Definir
+          Com a experiência adquirida ao longo dos anos, especializei-me em
+          áreas essenciais do direito, como Trânsito, Trabalhista e Civil, com
+          foco em oferecer soluções jurídicas práticas, transparentes e
+          personalizadas para cada cliente.
+          <br />
+          <br />
+          A cada novo caso, dedico-me com empenho, aplicando meus princípios de
+          honestidade, justiça e ética, sempre buscando resultados que realmente
+          façam a diferença na vida das pessoas que confiam em meu trabalho.
+          <br />
+          <br />
+          Minha paixão pelo direito vai além da prática cotidiana, pois acredito
+          que o conhecimento é a chave para transformar realidades e garantir
+          que a justiça seja cumprida de maneira equânime e eficaz. Com isso em
+          mente, continuo investindo em cursos de especialização e
+          aperfeiçoamento, pois o aprendizado constante é a base de um bom
+          advogado.
+          <br />
+          <br />
+          Meu compromisso é claro: garantir que, através do meu trabalho, meus
+          clientes possam se sentir seguros, confiantes e, principalmente,
+          representados com excelência.
           <br />
           <br />
         </p>
@@ -338,10 +402,19 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
+        subtitle:
+          "⚖️ Esteja sempre por dentro do mundo jurídico me seguindo nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe minhas postagens e fique atualizado sobre Direito de
+            Trânsito, Trabalhista, Civil e muito mais.
+            <br />
+            Não perca a oportunidade de transformar conhecimento em poder e
+            garantir a proteção dos seus direitos.
+          </p>
+        ),
       },
     },
     cta: {
