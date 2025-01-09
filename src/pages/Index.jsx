@@ -53,10 +53,9 @@ export default function Index() {
         facebook={false}
         x={false}
       />
-      <FloatingWhatsappButton />
+      {/* <FloatingWhatsappButton /> */}
       <BackToTopButton />
-      {/* <WhatsChat /> */}
-      {/* <FloatingWhatsChat /> */}
+      <WhatsChat />
     </div>
   );
 }
