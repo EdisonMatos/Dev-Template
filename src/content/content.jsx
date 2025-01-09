@@ -56,39 +56,40 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Gabriel Machado",
+  name: "Dra. Franciele Cavalheiro",
   email: "contato", // Email desejado pelo cliente
-  domain: "gabrielmachadoadv.com.br", // Sem "www"
+  domain: "direitoparadirigir.com.br", // Sem "www"
   phone: {
-    ddd: "68",
-    firstPart: "99242", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3232", // Apenas os 4 últimos números
+    ddd: "66",
+    firstPart: "99201", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7003", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Isaura Parente, nº 822</p>
-      <p>Bosque, Rio Branco - AC</p>
-      <p>CEP: 69918-270</p>
+      <p>Avenida Ariosto da Riva Neto, 2909</p>
+      <p>Sala comercial Dona Laura, Sala 06</p>
+      <p>Centro - Alta Floresta - MT</p>
+      <p>CEP 78580-959</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 12h</p>
-      <p>Das 14h às 18:30</p>
+      <p>Das 8h às 11h</p>
+      <p>Das 13h às 17:30</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "francielegscavalheiro.adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
-    "Gostaria de falar conosco agora mesmo? Clque no botão abaixo 👇",
+    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
 };
 
@@ -108,15 +109,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM RIO BRANCO - AC",
+      miniTag:
+        "ADVOGADA ESPECIALISTA EM DIREITO DO TRÂNSITO EM ALTA FLORESTA - MT",
       title: (
         <h1 className="mb-[16px]">
-          Seu aliado na busca por
-          <span className="text-primary"> justiça e respeito </span>
+          Resolvo seus
+          <span className="text-primary"> desafios legais </span> com eficiência
         </h1>
       ),
       subtitle:
-        "Dr. Gabriel Machado transforma desafios em vitórias, guiado por valores que colocam você em primeiro lugar.",
+        "Dedicação total para garantir soluções jurídicas que fazem a diferença na sua vida.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -164,16 +166,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialista em Direito com compromisso e dedicação ao seu caso.",
+      miniTag: "ÁREAS DE ESPECIALIZAÇÃO",
+      title: "Defendendo seus direitos com força e precisão",
       subtitle:
-        "Soluções jurídicas personalizadas para atender às suas necessidades com compromisso e eficácia.",
+        "Cada caso é tratado com atenção única para assegurar resultados que importam.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito do consumidor",
-        subtitle: "Defesa e orientação em questões de consumo e contratos.",
+        title: "Direito de Trânsito",
+        subtitle: "Revisão de multas e defesa com foco em resultados.",
         description: (
           <div>
             A_Definir
@@ -194,10 +196,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-tag"
+            class="lucide lucide-cctv"
           >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+            <path d="M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97" />
+            <path d="M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3z" />
+            <path d="M2 19h3.76a2 2 0 0 0 1.8-1.1L9 15" />
+            <path d="M2 21v-4" />
+            <path d="M7 9h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -205,9 +210,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de Família e Sucessões",
-        subtitle:
-          "Especialista em inventários judiciais e extrajudiciais, divórcios e disputas familiares.",
+        title: "Direito Trabalhista",
+        subtitle: "Assistência em disputas trabalhistas e acordos justos.",
         description: (
           <div>
             A_Definir
@@ -228,13 +232,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-network"
+            class="lucide lucide-briefcase-business"
           >
-            <rect x="16" y="16" width="6" height="6" rx="1" />
-            <rect x="2" y="16" width="6" height="6" rx="1" />
-            <rect x="9" y="2" width="6" height="6" rx="1" />
-            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-            <path d="M12 12V8" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -242,9 +245,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Penal",
-        subtitle:
-          "Experiência em inquéritos policiais, exceto casos de facções.",
+        title: "Auxílio em Sinistros",
+        subtitle: "Proteção de direitos em acidentes e busca de indenizações.",
         description: (
           <div>
             A_Definir <br />
@@ -264,13 +266,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-car"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+            <circle cx="7" cy="17" r="2" />
+            <path d="M9 17h6" />
+            <circle cx="17" cy="17" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -278,9 +279,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Condução de Ações na Justiça Federal",
-        subtitle:
-          "Acompanhamento detalhado em ações cíveis, fiscais e previdenciárias.",
+        title: "Direito Cível",
+        subtitle: "Soluções práticas e seguras para questões cíveis.",
         description: (
           <div>
             A_Definir
@@ -301,13 +301,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            class="lucide lucide-users"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -336,50 +335,61 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR GABRIEL MACHADO",
+      miniTag: "QUEM É A DRA FRANCIELE CAVALHEIRO",
       title: "Minha trajetória",
-      subtitle:
-        "Comprometido com a transparência e o acolhimento, construo relações de confiança em cada passo da minha trajetória.",
+      subtitle: "Uma jornada marcada pela determinação e dedicação ao direito.",
       paragraph: (
         <div>
-          Com uma trajetória sólida, iniciei minha jornada no direito em 2017.
-          Durante minha formação, tive a oportunidade de estagiar na
-          Procuradoria do Estado, na Polícia Federal, na PRF e no escritório de
-          uma professora da faculdade.
+          Minha trajetória no direito é uma história de superação, aprendizado
+          constante e muito trabalho.
           <br />
-          Essas experiências me proporcionaram uma visão ampla das diversas
-          áreas do direito e foram fundamentais para o meu crescimento
-          profissional.
+          Formei-me em 2019, e minha caminhada foi repleta de desafios que,
+          longe de me desmotivar, me tornaram mais forte e determinada a seguir
+          meu propósito.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com uma trajetória sólida, iniciei minha jornada no direito em 2017.
-          Durante minha formação, tive a oportunidade de estagiar na
-          Procuradoria do Estado, na Polícia Federal, na PRF e no escritório de
-          uma professora da faculdade. Essas experiências me proporcionaram uma
-          visão ampla das diversas áreas do direito e foram fundamentais para o
-          meu crescimento profissional.
+          Minha trajetória no direito é uma história de superação, aprendizado
+          constante e muito trabalho. Formei-me em 2019, e minha caminhada foi
+          repleta de desafios que, longe de me desmotivar, me tornaram mais
+          forte e determinada a seguir meu propósito.
           <br />
           <br />
-          Natural de Feijó, no Acre, comecei minha trajetória aos 19 anos. Após
-          conquistar meu diploma em 2021, continuei me dedicando e, em 2023, fui
-          aprovado no exame de ordem, iniciando minha carreira como advogado.
-          Desde então, tenho me dedicado a oferecer soluções jurídicas
-          humanizadas e personalizadas, sempre prezando pela transparência e
-          confiança.
+          Acredito que, para alcançar meus objetivos, é preciso ter perseverança
+          e me manter firme, mesmo diante das adversidades.
           <br />
           <br />
-          Meu compromisso vai além de oferecer um serviço jurídico de qualidade.
-          Busco proporcionar um atendimento que traga segurança, conforto e
-          confiança a todos que me procuram, sempre compreendendo a realidade de
-          cada cliente, especialmente em relação à sua situação financeira.
+          Durante a faculdade, enfrentei períodos de incertezas e obstáculos
+          pessoais, mas nunca desisti do meu sonho de ser advogada. A aprovação
+          na OAB foi um marco fundamental nessa jornada, permitindo-me avançar
+          para a realização do meu maior objetivo: abrir meu próprio escritório
+          em 2024.
           <br />
           <br />
-          O que me guia no exercício da advocacia é a transparência, a
-          honestidade e a humanização no atendimento, elementos que considero
-          essenciais para construir relações de confiança com meus clientes.
+          Com a experiência adquirida ao longo dos anos, especializei-me em
+          áreas essenciais do direito, como Trânsito, Trabalhista e Civil, com
+          foco em oferecer soluções jurídicas práticas, transparentes e
+          personalizadas para cada cliente.
+          <br />
+          <br />
+          A cada novo caso, dedico-me com empenho, aplicando meus princípios de
+          honestidade, justiça e ética, sempre buscando resultados que realmente
+          façam a diferença na vida das pessoas que confiam em meu trabalho.
+          <br />
+          <br />
+          Minha paixão pelo direito vai além da prática cotidiana, pois acredito
+          que o conhecimento é a chave para transformar realidades e garantir
+          que a justiça seja cumprida de maneira equânime e eficaz. Com isso em
+          mente, continuo investindo em cursos de especialização e
+          aperfeiçoamento, pois o aprendizado constante é a base de um bom
+          advogado.
+          <br />
+          <br />
+          Meu compromisso é claro: garantir que, através do meu trabalho, meus
+          clientes possam se sentir seguros, confiantes e, principalmente,
+          representados com excelência.
           <br />
           <br />
         </p>
@@ -393,14 +403,16 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Acompanhe todas as novidades e atualizações",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
         subtitle:
-          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Gabriel Machado nas redes sociais!",
+          "⚖️ Esteja sempre por dentro do mundo jurídico me seguindo nas redes sociais!",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito do
-            Consumidor, Família, Sucessões, Penal e ações junto à Justiça
-            Federal.
+            Acompanhe minhas postagens e fique atualizado sobre Direito de
+            Trânsito, Trabalhista, Civil e muito mais.
+            <br />
+            Não perca a oportunidade de transformar conhecimento em poder e
+            garantir a proteção dos seus direitos.
           </p>
         ),
       },
