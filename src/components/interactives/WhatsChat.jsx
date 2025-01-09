@@ -5,54 +5,30 @@ import { infos } from "../../content/content";
 
 const whatsNumber = `${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}`;
 
-export default function WhatsChat({ Chat }) {
+export default function WhatsChat() {
   return (
     <div>
-      {Chat ? (
-        <FloatingWhatsApp
-          status="w-3"
-          chatboxHeight="auto"
-          phoneNumber={whatsNumber}
-          notification={true}
-          notificationDelay={5}
-          notificationLoop={2}
-          accountName={infos.name}
-          avatar={imgProfilePicture}
-          initialMessageByServer={infos.whatsChatDefaultMessage}
-          initialMessageByClient={infos.whatsappDefaultMessage}
-          statusMessage="Disponível"
-          startChatText="Falar no whatsapp"
-          tooltipText={
-            <p className="text-paragraph4">
-              Disponível <strong>24h</strong>
-            </p>
-          }
-          allowEsc={true}
-          className=""
-        />
-      ) : (
-        <FloatingWhatsApp
-          status="w-3"
-          chatboxHeight="auto"
-          phoneNumber={whatsNumber}
-          notification={true}
-          notificationDelay={5}
-          notificationLoop={2}
-          accountName={infos.name}
-          avatar={imgProfilePicture}
-          initialMessageByServer={infos.whatsChatDefaultMessage}
-          initialMessageByClient={infos.whatsappDefaultMessage}
-          statusMessage="Disponível"
-          startChatText="Falar no whatsapp"
-          tooltipText={
-            <p className="text-paragraph4">
-              Disponível <strong>24h</strong>
-            </p>
-          }
-          allowEsc={true}
-          className=""
-        />
-      )}
+      <FloatingWhatsApp
+        status="w-3"
+        chatboxHeight="auto"
+        phoneNumber={whatsNumber}
+        notification={true}
+        notificationDelay={5}
+        notificationLoop={2}
+        accountName={infos.name}
+        avatar={imgProfilePicture}
+        initialMessageByServer={infos.whatsChatDefaultMessage}
+        initialMessageByClient={infos.whatsappDefaultMessage}
+        statusMessage="Disponível"
+        startChatText="Falar no whatsapp"
+        // tooltipText={
+        //   <p className="text-paragraph4">
+        //     Disponível <strong>24h</strong>
+        //   </p>
+        // }
+        allowEsc={true}
+        className=""
+      />
     </div>
   );
 }

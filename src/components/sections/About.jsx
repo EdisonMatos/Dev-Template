@@ -30,7 +30,7 @@ export default function About({ modal }) {
       <p className="text-paragraph3">
         <p className="mb-[20px]">{abstractions.subtitleModal}</p>
         {content.texts.about.modal}
-        <p className="mb-[20px]">Quer saber mais sobre nós? Clique abaixo 👇</p>
+        <p className="mb-[20px]">Quer saber mais? Clique abaixo 👇</p>
         <div>
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
