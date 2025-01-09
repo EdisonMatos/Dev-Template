@@ -55,8 +55,7 @@ export default function Index() {
       />
       {/* <FloatingWhatsappButton /> */}
       <BackToTopButton />
-      {/* <WhatsChat /> */}
-      <FloatingWhatsChat />
+      <WhatsChat />
     </div>
   );
 }

@@ -21,11 +21,11 @@ export default function WhatsChat() {
         initialMessageByClient={infos.whatsappDefaultMessage}
         statusMessage="Disponível"
         startChatText="Falar no whatsapp"
-        // tooltipText={
-        //   <p className="text-paragraph4">
-        //     Disponível <strong>24h</strong>
-        //   </p>
-        // }
+        tooltipText={
+          <p className="text-paragraph4">
+            Disponível <strong>24h</strong>
+          </p>
+        }
         allowEsc={true}
         className=""
       />
