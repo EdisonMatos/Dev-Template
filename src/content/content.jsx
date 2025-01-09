@@ -88,7 +88,7 @@ export const infos = {
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
-    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
+    "Gostaria de falar conosco agora mesmo? Clque no botão abaixo 👇",
   slogan: "",
 };
 

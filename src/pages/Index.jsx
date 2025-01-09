@@ -14,6 +14,7 @@ import FeaturesButton from "../components/sections/FeaturesButton";
 import FeaturesResumed from "../components/sections/FeaturesResumed";
 import FormAndLocation from "../components/sections/FormAndLocation";
 import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
+import WhatsChat from "../components/interactives/WhatsChat";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -51,7 +52,8 @@ export default function Index() {
         facebook={true}
         x={true}
       />
-      <FloatingWhatsappButton />
+      <WhatsChat />
+      {/* <FloatingWhatsappButton /> */}
       <BackToTopButton />
     </div>
   );
