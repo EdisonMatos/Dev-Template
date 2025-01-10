@@ -59,3 +59,77 @@
   visibility: visible;
   animation: fadeOut 1s ease-in-out;
 }
+
+
+/* WhatsChat */
+
+/* Ajustes para telas pequenas */
+@media (max-width: 374px) {
+  ._chatHeader_181xn_163 {
+    gap: 0px !important;
+    padding: 9px !important;
+  }
+
+  ._chatHeader_181xn_163 ._avatar_181xn_181 {
+    width: 60px;
+  }
+
+  ._avatar_181xn_181 img {
+    width: 60px;
+  }
+
+  ._status_181xn_229 {
+    width: 90%;
+    margin-left: 5px;
+    font-size: 12px !important;
+  }
+
+  div._message_181xn_435 {
+    max-width: 175px !important;
+  }
+
+  ._messageBody_181xn_471 {
+    width: 100%;
+  }
+
+  /* Tooltip ajustado para crescer para cima e para baixo */
+  ._tooltip_181xn_903 {
+    position: relative;
+    bottom: 50%; /* Ajuste da posição para centralizar a seta verticalmente */
+    transform: translateY(50%); /* Move o balão para garantir que ele fique centralizado */
+    max-width: 62%;
+    padding: 10px;
+  }
+}
+
+/* Estilo da tooltip para outras telas */
+._tooltip_181xn_903 {
+  position: relative;
+  bottom: 40px !important; /* Ajuste de posição para a tooltip */
+  margin: 8%;
+}
+
+
+._tooltipArrow_181xn_935 {
+  position: absolute !important; /* ou absolute, dependendo do contexto */
+  top: 50% !important;
+}
+
+
+
+/* chat ou redirecionamento */
+.floating-chat {
+  position: relative;
+  display: inline-block;
+}
+
+/* Quando isChatEnabled é false, o botão age como um link */
+.whatsapp-redirect {
+  text-decoration: none;
+  pointer-events: all;
+}
+
+/* Oculta qualquer chatbox ou conteúdo adicional */
+.whatsapp-redirect .floating-chatbox {
+  display: none !important;
+}
