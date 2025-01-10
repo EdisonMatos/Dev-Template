@@ -1,4 +1,4 @@
-import LpContent from "../../../content/LpContent";
+import contentLp03 from "../../../content/contentLp03";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 
@@ -9,10 +9,10 @@ export default function FooterLP() {
         <SectionWrapper>
           <div className="w-full text-center font-mainFont py-[36px] opacity-70">
             <p>
-              {LpContent.footer.copyrightLine}
+              {contentLp03.footer.copyrightLine}
               <br />
               <br />
-              {LpContent.footer.disclaimer}
+              {/* {contentLp03.footer.disclaimer} */}
             </p>
           </div>
         </SectionWrapper>
