@@ -1,9 +1,11 @@
+import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
+
 export default function ContactCardLP({ icon, label, description }) {
   return (
-    <>
+    <MotionDivDownToUp>
       <div className="flex flex-wrap bg-white p-[16px]">
         <div className="flex gap-[20px]">
-          <div className="h-[60px] w-[60px] bg-primary flex justify-center items-center">
+          <div className="h-[60px] w-[60px] bg-primary flex justify-center items-center text-black">
             {icon}
           </div>
           <div className="flex flex-col justify-center text-darker">
@@ -14,6 +16,6 @@ export default function ContactCardLP({ icon, label, description }) {
           </div>
         </div>
       </div>
-    </>
+    </MotionDivDownToUp>
   );
 }
