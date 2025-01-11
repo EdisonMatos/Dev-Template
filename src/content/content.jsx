@@ -504,14 +504,23 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR MARCOS BARROS",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogado dedicado a proteger seus direitos com discrição e eficiência.",
       paragraph: (
         <div>
-          A_Definir
+          Com mais de uma década de experiência em direito do consumidor e da
+          saúde, dedico minha carreira a defender os direitos dos meus clientes
+          com seriedade e comprometimento.
           <br />
-          A_Definir
+          Atuo com discrição e eficiência, sempre buscando as melhores soluções
+          para cada caso, garantindo que você tenha a segurança e o respaldo
+          jurídico necessários.
+          <br />
+          Meu objetivo é oferecer um atendimento personalizado, com zelo e
+          atenção, para proteger seus direitos e alcançar os melhores resultados
+          possíveis.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -539,10 +548,16 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe todas as novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Marcos Barros nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito do
+            Consumidor, Saúde e muito mais.
+          </p>
+        ),
       },
     },
     cta: {
