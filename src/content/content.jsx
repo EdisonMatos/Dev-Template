@@ -56,13 +56,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Marcos Barros",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "marcosbarros.adv.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "98233", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6272", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -76,12 +76,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "marcosbarrosadvocacia", // Sem o @
+  facebookProfile: "profile.php?id=61567044328070&_rdc=1&_rdr",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
