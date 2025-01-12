@@ -154,7 +154,7 @@ export default function FeaturesExtended({ modal }) {
                   }
                 />
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-white">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-white">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card5.icon}
                   title={content.texts.features.card5.title}
@@ -273,7 +273,7 @@ export default function FeaturesExtended({ modal }) {
                     </svg>
                   }
                 />
-              </MotionDivDownToUp>
+              </MotionDivDownToUp> */}
             </div>
           </div>
         </SectionWrapper>

@@ -56,13 +56,13 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Marcos Barros",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "marcosbarros.adv.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "21",
-    firstPart: "98233", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6272", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -76,12 +76,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 18h</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "marcosbarrosadvocacia", // Sem o @
-  facebookProfile: "profile.php?id=61567044328070&_rdc=1&_rdr",
+  instagramProfile: "A_definir", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -107,16 +107,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SAÚDE NO RIO DE JANEIRO - RJ",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Ações eficazes contra
-          <span className="text-primary"> Planos de Saúde </span>e{" "}
-          <span className="text-primary"> Consumidores </span> prejudicados
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Com 12 anos de experiência, zelamos por seus direitos com rapidez e afinco, garantindo justiça em saúde e consumo.",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -164,17 +162,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Nossas Especialidades",
-      subtitle:
-        "Expert em Direito Médico e do Consumidor, com soluções rápidas e eficientes.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Home Care Negado",
-        subtitle:
-          "Planos de saúde frequentemente negam o Home Care, mesmo quando ele é essencial para o bem-estar do paciente. Essa prática, muitas vezes abusiva, pode ser contestada judicialmente. Nossa advocacia atua para garantir que o paciente receba o atendimento domiciliar prescrito por seu médico.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -189,18 +185,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-house-plus"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M13.22 2.416a2 2 0 0 0-2.511.057l-7 5.999A2 2 0 0 0 3 10v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7.354" />
-            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-            <path d="M15 6h6" />
-            <path d="M18 3v6" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -208,9 +197,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Medicamento de Alto Custo",
-        subtitle:
-          "Atuação quando o Sistema Único de Saúde (“SUS”) ou os planos de saúde, de forma ilegal e abusiva, apresentam negativa integral ou parcial ao tratamento medicamentoso indicado expressamente pelo médico, repassando os custos, indevidamente, ao consumidor.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -225,16 +213,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-pill"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z" />
-            <path d="m8.5 8.5 7 7" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -242,9 +225,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Negativa de Cobertura",
-        subtitle:
-          "Muitos tratamentos são negados indevidamente pelas operadoras de planos de saúde. Nossa advocacia atua para liberar esses procedimentos aos pacientes e buscar indenizações em todos os casos.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -258,202 +240,17 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-x"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="m14.5 12.5-5 5" />
-            <path d="m9.5 12.5 5 5" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
-        img: featuresImg4,
-        title: "Cirurgia Bariátrica",
-        subtitle:
-          "Necessária por motivo de saúde, quando o médico constata obesidade mórbida. É direito do paciente obtê-la, cabendo ação judicial em caso de negativa de autorização.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-stethoscope"
-          >
-            <path d="M11 2v2" />
-            <path d="M5 2v2" />
-            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
-            <path d="M8 15a6 6 0 0 0 12 0v-3" />
-            <circle cx="20" cy="10" r="2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card5: {
-        img: featuresImg4,
-        title: "Plástica Pós-Bariátrica",
-        subtitle:
-          "Mostra-se necessária após o paciente realizar uma cirurgia bariátrica, para diminuir a quantidade de pele e aumentar o bem-estar físico e psicológico do paciente. Apesar de difícil no início, os juízes vêm concedendo esse tipo de tratamento.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-syringe"
-          >
-            <path d="m18 2 4 4" />
-            <path d="m17 7 3-3" />
-            <path d="M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5" />
-            <path d="m9 11 4 4" />
-            <path d="m5 19-3 3" />
-            <path d="m14 4 6 6" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card6: {
-        img: featuresImg4,
-        title: "Tratamento Autismo Negado - TEA",
-        subtitle:
-          "É importante que o tratamento através da terapia ABA seja feito o mais rápido possível, buscando uma melhora da qualidade de vida do paciente. Nesses casos, muitos profissionais estão envolvidos, como psicólogo, terapeuta ocupacional, fisioterapeuta, psicopedagogo, etc. Caso o tratamento seja recusado, é importante buscar o auxílio de um especialista para encontrar a melhor solução e talvez o amparo judicial.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-puzzle"
-          >
-            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card7: {
-        img: featuresImg4,
-        title: "Direito do Consumidor",
-        subtitle:
-          "Atuação contra cancelamentos, atrasos de voos e não envio de compras.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-tag"
-          >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card8: {
-        img: featuresImg4,
-        title: "Demais áreas",
-        subtitle: "Entre em contato para consultar disponibilidade.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-list-checks"
-          >
-            <path d="m3 17 2 2 4-4" />
-            <path d="m3 7 2 2 4-4" />
-            <path d="M13 6h8" />
-            <path d="M13 12h8" />
-            <path d="M13 18h8" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card9: {
         img: featuresImg4,
         title: "A_Definir",
         subtitle: "A_Definir",
@@ -504,23 +301,14 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR MARCOS BARROS",
-      title: "Minha trajetória",
-      subtitle:
-        "Advogado dedicado a proteger seus direitos com discrição e eficiência.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          Com mais de uma década de experiência em direito do consumidor e da
-          saúde, dedico minha carreira a defender os direitos dos meus clientes
-          com seriedade e comprometimento.
+          A_Definir
           <br />
-          Atuo com discrição e eficiência, sempre buscando as melhores soluções
-          para cada caso, garantindo que você tenha a segurança e o respaldo
-          jurídico necessários.
-          <br />
-          Meu objetivo é oferecer um atendimento personalizado, com zelo e
-          atenção, para proteger seus direitos e alcançar os melhores resultados
-          possíveis.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -548,16 +336,10 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Acompanhe todas as novidades e atualizações!",
-        subtitle:
-          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Marcos Barros nas redes sociais!",
-        paragraph: (
-          <p>
-            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito do
-            Consumidor, Saúde e muito mais.
-          </p>
-        ),
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
