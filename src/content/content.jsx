@@ -7,6 +7,7 @@ import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImgBackground from "../assets/imgs/about/aboutInstagramImg.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -333,7 +334,7 @@ const content = {
 
       aboutSocial: {
         img: {
-          img: aboutSocialImg,
+          img: aboutSocialImgBackground,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "A_Definir",
