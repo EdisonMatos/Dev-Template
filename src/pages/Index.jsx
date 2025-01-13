@@ -17,6 +17,7 @@ import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import WhatsChat from "../components/interactives/WhatsChat";
 import FloatingWhatsChat from "../components/interactives/FloatingWhatsChat";
 import FeaturesExtended from "../components/sections/FeaturesExtended";
+import AboutInstagramBgImg from "../components/sections/AboutInstagramBgImg";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -44,15 +45,16 @@ export default function Index() {
       {/* <FeaturesWithIcons /> */}
       {/* <FormAndLocation/> */}
       <About modal={true} />
-      <AboutInstagram instagram={true} facebook={true} x={false} />
+      {/* <AboutInstagram instagram={true} facebook={true} x={false} /> */}
+      <AboutInstagramBgImg />
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
         obs={false}
-        addres={false}
+        addres={true}
         instagram={true}
-        facebook={true}
+        facebook={false}
         x={false}
       />
       <FloatingWhatsappButton />
