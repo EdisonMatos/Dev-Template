@@ -39,8 +39,8 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      <Features modal={false} />
-      {/* <FeaturesExtended /> */}
+      {/* <Features modal={false} /> */}
+      <FeaturesExtended />
       {/* <FeaturesResumed /> */}
       {/* <FeaturesWithIcons /> */}
       {/* <FormAndLocation/> */}
@@ -52,7 +52,7 @@ export default function Index() {
       <Faq />
       <FooterSocial
         obs={false}
-        addres={false}
+        addres={true}
         instagram={true}
         facebook={false}
         x={false}

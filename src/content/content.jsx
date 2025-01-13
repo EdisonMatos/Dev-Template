@@ -57,31 +57,31 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Guilherme Miranda",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "gmadvogado.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98986", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9959", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Alameda Santos 2159 - 15º Andar</p>
+      <p>São Paulo - SP</p>
+      <p>CEP: 01419-100</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Segunda, Quarta e Sexta-feira</p>
+      <p>Das 9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "advdrguilhermemiranda", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -108,14 +108,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO CRIMINALISTA EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          A defesa que
+          <span className="text-primary"> garante </span> seus direitos
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com experiência e competência, o Dr. Guilherme Miranda é a escolha certa para sua defesa criminal de excelência.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -163,15 +164,32 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "DIREITO PENAL",
+      title: "Defesa criminal especializada",
+      subtitle: "Estratégia e dedicação em todas as fases do processo.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Fase investigativa",
+        subtitle: (
+          <ul>
+            <li>- Requerimento de Instauração de Inquérito Policial;</li>
+            <li>
+              - Acompanhamento de Inquérito Policial e Operações no Âmbito
+              Estadual e Federal;
+            </li>
+            <li>- Intimação Policial - Levantamento e Ciência;</li>
+            <li>
+              - Depoimento / Esclarecimentos - Orientação, Preparação e
+              Acompanhamento;
+            </li>
+            <li>
+              - Habeas Corpus (preventivo / contra ato ilegal / configurar
+              constrangimento ilegal).
+            </li>
+          </ul>
+        ),
         description: (
           <div>
             A_Definir
@@ -198,8 +216,24 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Fase pré-processual",
+        subtitle: (
+          <ul>
+            <li>- Pedido de Revogação da Prisão Preventiva;</li>
+            <li>- Audiência de Custódia;</li>
+            <li>
+              - ANPP - Acordo de Não Persecução Penal (Pena mínima até 4 anos);
+            </li>
+            <li>
+              - Transação Penal e Suspensão Condicional do Processo (Lei 9.099);
+            </li>
+            <li>- Menor Potencial Ofensivo;</li>
+            <li>
+              - Habeas Corpus (preventivo / contra ato ilegal / configurar
+              constrangimento ilegal).
+            </li>
+          </ul>
+        ),
         description: (
           <div>
             A_Definir
@@ -226,8 +260,19 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Fase processual",
+        subtitle: (
+          <ul>
+            <li>- Pedido de Revogação da Prisão Preventiva;</li>
+            <li>- Denúncia / Resposta à Acusação;</li>
+            <li>- Audiência de Instrução e Julgamento;</li>
+            <li>- Alegações Finais;</li>
+            <li>- Sentença;</li>
+            <li>
+              - Habeas Corpus (contra ato ilegal e/ou constrangimento ilegal).
+            </li>
+          </ul>
+        ),
         description: (
           <div>
             A_Definir <br />
@@ -253,8 +298,19 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title:
+          "Apelação em Tribunais de Justiça e Tribunais Regionais Federais",
+        subtitle: (
+          <ul>
+            <li>- Entrega de Memoriais e Sustentação Oral;</li>
+            <li>
+              - Recurso Especial perante o STJ (Superior Tribunal de Justiça);
+            </li>
+            <li>
+              - Recurso Extraordinário perante o STF (Supremo Tribunal Federal).
+            </li>
+          </ul>
+        ),
         description: (
           <div>
             A_Definir
@@ -302,29 +358,50 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR GUILHERME MIRANDA",
+      title: "Minha trajetória",
+      subtitle:
+        "Dr. Guilherme Miranda é um advogado criminalista com uma carreira dedicada à busca por justiça e equidade.",
       paragraph: (
         <div>
-          A_Definir
+          Desde o início de sua trajetória, ele compreendeu que o direito penal
+          não se resume a processos e julgamentos, mas envolve profundamente as
+          vidas e histórias das pessoas que defende.
           <br />
-          A_Definir
+          Essa visão humanizada tem sido a base de seu trabalho, guiando cada
+          decisão e estratégia.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Desde o início de sua trajetória, ele compreendeu que o direito penal
+          não se resume a processos e julgamentos, mas envolve profundamente as
+          vidas e histórias das pessoas que defende. Essa visão humanizada tem
+          sido a base de seu trabalho, guiando cada decisão e estratégia.
           <br />
           <br />
-          A_Definir
+          Com uma sólida formação acadêmica em direito penal e uma constante
+          atualização em legislações e jurisprudências, Dr. Guilherme não apenas
+          domina os aspectos técnicos da lei, mas também se empenha em entender
+          as necessidades individuais de seus clientes. Ao longo dos anos, sua
+          experiência prática em casos complexos lhe permitiu desenvolver uma
+          abordagem estratégica e personalizada, garantindo que cada cliente
+          receba uma defesa robusta e eficaz.
           <br />
           <br />
-          A_Definir
+          Além de sua competência técnica, o Dr. Guilherme acredita firmemente
+          na importância do respeito e da dignidade. Para ele, cada caso é uma
+          oportunidade de fazer a diferença, oferecendo orientação clara,
+          objetiva e um suporte inabalável em momentos de incerteza. Seja na
+          fase investigatória, pré-processual ou processual, seu compromisso é
+          trabalhar incansavelmente para restaurar o equilíbrio e proporcionar
+          justiça.
           <br />
           <br />
-          A_Definir
+          Ao escolher o Dr. Guilherme Miranda, os clientes encontram não apenas
+          um advogado, mas um parceiro dedicado que compreende a complexidade de
+          suas situações e luta com determinação por seus direitos e interesses.
           <br />
           <br />
         </p>
@@ -337,10 +414,18 @@ const content = {
           img: aboutSocialImgBackground,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Guilherme Miranda nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
+            Penal, Processual Penal e temas relacionados à justiça criminal. Não
+            perca a chance de transformar conhecimento em poder para proteger
+            seus direitos.
+          </p>
+        ),
       },
     },
     cta: {
