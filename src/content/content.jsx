@@ -334,7 +334,7 @@ const content = {
           Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
           década de experiência para oferecer soluções jurídicas completas e
           personalizadas, com foco em excelência e compromisso com os clientes.
-          <br />
+          <br /> <br />
           Nossa equipe é composta por profissionais altamente qualificados,
           incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
           (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
