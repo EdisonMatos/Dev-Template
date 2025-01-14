@@ -7,7 +7,6 @@ import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import aboutSocialImgBackground from "../assets/imgs/about/aboutInstagramImg.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -57,31 +56,31 @@ import {
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Guilherme Miranda",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "gmadvogado.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98986", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9959", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Alameda Santos 2159 - 15º Andar</p>
-      <p>São Paulo - SP</p>
-      <p>CEP: 01419-100</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda, Quarta e Sexta-feira</p>
-      <p>Das 9h às 17h</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advdrguilhermemiranda", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -108,15 +107,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CRIMINALISTA EM SÃO PAULO - SP",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Proteção
-          <span className="text-primary"> inabalável </span> para seus direitos
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Com experiência e competência, o Dr. Guilherme Miranda é a escolha certa para sua defesa criminal de excelência.",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -164,32 +162,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "DIREITO PENAL",
-      title: "Defesa criminal especializada",
-      subtitle: "Estratégia e dedicação em todas as fases do processo.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Fase investigativa",
-        subtitle: (
-          <ul>
-            <li>- Requerimento de Instauração de Inquérito Policial;</li>
-            <li>
-              - Acompanhamento de Inquérito Policial e Operações no Âmbito
-              Estadual e Federal;
-            </li>
-            <li>- Intimação Policial - Levantamento e Ciência;</li>
-            <li>
-              - Depoimento / Esclarecimentos - Orientação, Preparação e
-              Acompanhamento;
-            </li>
-            <li>
-              - Habeas Corpus (preventivo / contra ato ilegal / configurar
-              constrangimento ilegal).
-            </li>
-          </ul>
-        ),
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -204,16 +185,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-search"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -221,24 +197,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Fase pré-processual",
-        subtitle: (
-          <ul>
-            <li>- Pedido de Revogação da Prisão Preventiva;</li>
-            <li>- Audiência de Custódia;</li>
-            <li>
-              - ANPP - Acordo de Não Persecução Penal (Pena mínima até 4 anos);
-            </li>
-            <li>
-              - Transação Penal e Suspensão Condicional do Processo (Lei 9.099);
-            </li>
-            <li>- Menor Potencial Ofensivo;</li>
-            <li>
-              - Habeas Corpus (preventivo / contra ato ilegal / configurar
-              constrangimento ilegal).
-            </li>
-          </ul>
-        ),
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -253,18 +213,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scroll-text"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M15 12h-5" />
-            <path d="M15 8h-5" />
-            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
-            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -272,19 +225,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Fase processual",
-        subtitle: (
-          <ul>
-            <li>- Pedido de Revogação da Prisão Preventiva;</li>
-            <li>- Denúncia / Resposta à Acusação;</li>
-            <li>- Audiência de Instrução e Julgamento;</li>
-            <li>- Alegações Finais;</li>
-            <li>- Sentença;</li>
-            <li>
-              - Habeas Corpus (contra ato ilegal e/ou constrangimento ilegal).
-            </li>
-          </ul>
-        ),
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -298,19 +240,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -318,19 +252,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title:
-          "Apelação em Tribunais de Justiça e Tribunais Regionais Federais",
-        subtitle: (
-          <ul>
-            <li>- Entrega de Memoriais e Sustentação Oral;</li>
-            <li>
-              - Recurso Especial perante o STJ (Superior Tribunal de Justiça);
-            </li>
-            <li>
-              - Recurso Extraordinário perante o STF (Supremo Tribunal Federal).
-            </li>
-          </ul>
-        ),
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -345,20 +268,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-landmark"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -387,50 +301,29 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR GUILHERME MIRANDA",
-      title: "Minha trajetória",
-      subtitle:
-        "Dr. Guilherme Miranda é um advogado criminalista com uma carreira dedicada à busca por justiça e equidade.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          Desde o início de sua trajetória, ele compreendeu que o direito penal
-          não se resume a processos e julgamentos, mas envolve profundamente as
-          vidas e histórias das pessoas que defende.
+          A_Definir
           <br />
-          Essa visão humanizada tem sido a base de seu trabalho, guiando cada
-          decisão e estratégia.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Desde o início de sua trajetória, ele compreendeu que o direito penal
-          não se resume a processos e julgamentos, mas envolve profundamente as
-          vidas e histórias das pessoas que defende. Essa visão humanizada tem
-          sido a base de seu trabalho, guiando cada decisão e estratégia.
+          A_Definir
           <br />
           <br />
-          Com uma sólida formação acadêmica em direito penal e uma constante
-          atualização em legislações e jurisprudências, Dr. Guilherme não apenas
-          domina os aspectos técnicos da lei, mas também se empenha em entender
-          as necessidades individuais de seus clientes. Ao longo dos anos, sua
-          experiência prática em casos complexos lhe permitiu desenvolver uma
-          abordagem estratégica e personalizada, garantindo que cada cliente
-          receba uma defesa robusta e eficaz.
+          A_Definir
           <br />
           <br />
-          Além de sua competência técnica, o Dr. Guilherme acredita firmemente
-          na importância do respeito e da dignidade. Para ele, cada caso é uma
-          oportunidade de fazer a diferença, oferecendo orientação clara,
-          objetiva e um suporte inabalável em momentos de incerteza. Seja na
-          fase investigatória, pré-processual ou processual, seu compromisso é
-          trabalhar incansavelmente para restaurar o equilíbrio e proporcionar
-          justiça.
+          A_Definir
           <br />
           <br />
-          Ao escolher o Dr. Guilherme Miranda, os clientes encontram não apenas
-          um advogado, mas um parceiro dedicado que compreende a complexidade de
-          suas situações e luta com determinação por seus direitos e interesses.
+          A_Definir
           <br />
           <br />
         </p>
@@ -440,21 +333,13 @@ const content = {
 
       aboutSocial: {
         img: {
-          img: aboutSocialImgBackground,
+          img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Acompanhe muitas novidades e atualizações!",
-        subtitle:
-          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Guilherme Miranda nas redes sociais!",
-        paragraph: (
-          <p>
-            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
-            Penal, Processual Penal e temas relacionados à justiça criminal. Não
-            perca a chance de transformar conhecimento em poder para proteger
-            seus direitos.
-          </p>
-        ),
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
