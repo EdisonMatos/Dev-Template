@@ -324,29 +324,66 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "SOBRE NÓS",
+      title: "Nossa trajetória",
+      subtitle: "Experiência e dedicação que fazem a diferença",
       paragraph: (
         <div>
-          A_Definir
+          A Molina & Spigarollo é um escritório de advocacia especializado,
+          fruto da parceria entre os advogados Jadson Molina (OAB/PR 63.996) e
+          Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
+          década de experiência para oferecer soluções jurídicas completas e
+          personalizadas, com foco em excelência e compromisso com os clientes.
           <br />
-          A_Definir
+          Nossa equipe é composta por profissionais altamente qualificados,
+          incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
+          (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
+          Isaga Castro Gregório (estagiária), além da expertise de Sabryna
+          Hypolito, nossa Controller Jurídico.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A Molina & Spigarollo é um escritório de advocacia especializado,
+          fruto da parceria entre os advogados Jadson Molina (OAB/PR 63.996) e
+          Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
+          década de experiência para oferecer soluções jurídicas completas e
+          personalizadas, com foco em excelência e compromisso com os clientes.
           <br />
           <br />
-          A_Definir
+          Nossa equipe é composta por profissionais altamente qualificados,
+          incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
+          (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
+          Isaga Castro Gregório (estagiária), além da expertise de Sabryna
+          Hypolito, nossa Controller Jurídico.
           <br />
           <br />
-          A_Definir
+          Jadson Molina, com sólida carreira em Direito Condominial e
+          Imobiliário, é amplamente reconhecido por seu trabalho junto a
+          condomínios, oferecendo soluções jurídicas eficazes e estratégicas.
           <br />
           <br />
-          A_Definir
+          Nosso escritório se destaca pela dedicação, qualidade e agilidade,
+          sempre proporcionando um atendimento personalizado e próximo a cada
+          cliente.
+          <br />
+          <br />
+          Leonardo Spigarollo, desde 2019, trouxe sua expertise em Direito
+          Cível, Trabalhista e Empresarial, consolidando sua reputação na defesa
+          de grandes empresas. A união dessas experiências ampliou a capacidade
+          do escritório, atendendo não só condomínios e empresas, mas também
+          pessoas físicas com questões imobiliárias e trabalhistas.
+          <br />
+          <br />
+          Nosso compromisso é oferecer soluções jurídicas eficazes, com foco na
+          prevenção e resolução de conflitos, além de ajudar na adequação de
+          condomínios às exigências da <strong>LGPD</strong>.
+          <br />
+          <br />
+          Na <strong>Molina & Spigarollo</strong>, buscamos ser mais do que
+          advogados; queremos ser parceiros confiáveis na busca por justiça e
+          proteção dos seus direitos.
           <br />
           <br />
         </p>
@@ -359,10 +396,17 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do mundo jurídico seguindo a Molina & Spigarollo nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
+            Condominial, Imobiliário, Cível, Trabalhista e LGPD. Transforme
+            conhecimento em poder para proteger seus direitos. Não perca!
+          </p>
+        ),
       },
     },
     cta: {
