@@ -38,21 +38,6 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-import {
-  Calculator,
-  User,
-  House,
-  Briefcase,
-  HardHat,
-  CircleUserRound,
-  BadgePercent,
-  FileCheck,
-  Scale,
-  FileX,
-  HousePlus,
-  Grid2x2Check,
-} from "lucide-react";
-
 const currentYear = new Date().getFullYear();
 
 export const infos = {

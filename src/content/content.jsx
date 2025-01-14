@@ -38,21 +38,6 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-import {
-  Calculator,
-  User,
-  House,
-  Briefcase,
-  HardHat,
-  CircleUserRound,
-  BadgePercent,
-  FileCheck,
-  Scale,
-  FileX,
-  HousePlus,
-  Grid2x2Check,
-} from "lucide-react";
-
 const currentYear = new Date().getFullYear();
 
 export const infos = {
@@ -108,14 +93,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM LONDRINA - PR",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Transformando
+          <span className="text-primary"> desafios </span> em soluções jurídicas
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Unindo experiência e dedicação para defender seus direitos com excelência.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
