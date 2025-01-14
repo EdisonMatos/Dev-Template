@@ -3,10 +3,10 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      primary: "#ffd45c",
+      primary: "#e6d687",
       secondary: "#000000",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#242424",
+      bgSectionDark: "#041636",
       links: "#0189BB",
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",
@@ -16,8 +16,9 @@ export const theme = {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
     },
     fontFamily: {
-      mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Poppins", "sans-serif"],
+      mainFont: ["Merriweather", "sans-serif"],
+      // mainFont: ["Poppins", "sans-serif"],
+      secondFont: ["Merriweather", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },

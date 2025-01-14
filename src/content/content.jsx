@@ -7,7 +7,6 @@ import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import aboutSocialImgBackground from "../assets/imgs/about/aboutInstagramImg.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -39,51 +38,37 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-import {
-  Calculator,
-  User,
-  House,
-  Briefcase,
-  HardHat,
-  CircleUserRound,
-  BadgePercent,
-  FileCheck,
-  Scale,
-  FileX,
-  HousePlus,
-  Grid2x2Check,
-} from "lucide-react";
-
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Guilherme Miranda",
+  name: "Molina & Spigarollo",
   email: "contato", // Email desejado pelo cliente
-  domain: "gmadvogado.com.br", // Sem "www"
+  domain: "molinaspigarollo.adv.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98986", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9959", // Apenas os 4 últimos números
+    ddd: "43",
+    firstPart: "99930", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6776", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Alameda Santos 2159 - 15º Andar</p>
-      <p>São Paulo - SP</p>
-      <p>CEP: 01419-100</p>
+      <p>Rua Humaitá, nº. 244</p>
+      <p>Londrina - PR</p>
+      <p>CEP 86015-100</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda, Quarta e Sexta-feira</p>
-      <p>Das 9h às 17h</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>8h às 12h</p>
+      <p>13h às 17:30</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advdrguilhermemiranda", // Sem o @
+  instagramProfile: "molinaspigarollo", // Sem o @
   facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  linkeDinProfile: "company/molina-spigarollo-advogados",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -108,15 +93,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CRIMINALISTA EM SÃO PAULO - SP",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM LONDRINA - PR",
       title: (
         <h1 className="mb-[16px]">
-          Proteção
-          <span className="text-primary"> inabalável </span> para seus direitos
+          Transformando
+          <span className="text-primary"> desafios </span> em soluções jurídicas
         </h1>
       ),
       subtitle:
-        "Com experiência e competência, o Dr. Guilherme Miranda é a escolha certa para sua defesa criminal de excelência.",
+        "Unindo experiência e dedicação para defender seus direitos com excelência.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -164,32 +149,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "DIREITO PENAL",
-      title: "Defesa criminal especializada",
-      subtitle: "Estratégia e dedicação em todas as fases do processo.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas",
+      subtitle: "Experiência e dedicação em diversas áreas do Direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Fase investigativa",
-        subtitle: (
-          <ul>
-            <li>- Requerimento de Instauração de Inquérito Policial;</li>
-            <li>
-              - Acompanhamento de Inquérito Policial e Operações no Âmbito
-              Estadual e Federal;
-            </li>
-            <li>- Intimação Policial - Levantamento e Ciência;</li>
-            <li>
-              - Depoimento / Esclarecimentos - Orientação, Preparação e
-              Acompanhamento;
-            </li>
-            <li>
-              - Habeas Corpus (preventivo / contra ato ilegal / configurar
-              constrangimento ilegal).
-            </li>
-          </ul>
-        ),
+        title: "Direito Condominial e Imobiliário",
+        subtitle:
+          "Proteção e soluções em conflitos condominiais e imobiliários.",
         description: (
           <div>
             A_Definir
@@ -210,10 +179,19 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-search"
+            class="lucide lucide-building"
           >
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
+            <rect width="16" height="20" x="4" y="2" rx="2" ry="2" />
+            <path d="M9 22v-4h6v4" />
+            <path d="M8 6h.01" />
+            <path d="M16 6h.01" />
+            <path d="M12 6h.01" />
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -221,24 +199,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Fase pré-processual",
-        subtitle: (
-          <ul>
-            <li>- Pedido de Revogação da Prisão Preventiva;</li>
-            <li>- Audiência de Custódia;</li>
-            <li>
-              - ANPP - Acordo de Não Persecução Penal (Pena mínima até 4 anos);
-            </li>
-            <li>
-              - Transação Penal e Suspensão Condicional do Processo (Lei 9.099);
-            </li>
-            <li>- Menor Potencial Ofensivo;</li>
-            <li>
-              - Habeas Corpus (preventivo / contra ato ilegal / configurar
-              constrangimento ilegal).
-            </li>
-          </ul>
-        ),
+        title: "Direito do Trabalho",
+        subtitle:
+          "Defesa de direitos trabalhistas com foco em soluções justas.",
         description: (
           <div>
             A_Definir
@@ -259,12 +222,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scroll-text"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M15 12h-5" />
-            <path d="M15 8h-5" />
-            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
-            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -272,19 +235,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Fase processual",
-        subtitle: (
-          <ul>
-            <li>- Pedido de Revogação da Prisão Preventiva;</li>
-            <li>- Denúncia / Resposta à Acusação;</li>
-            <li>- Audiência de Instrução e Julgamento;</li>
-            <li>- Alegações Finais;</li>
-            <li>- Sentença;</li>
-            <li>
-              - Habeas Corpus (contra ato ilegal e/ou constrangimento ilegal).
-            </li>
-          </ul>
-        ),
+        title: "LGPD",
+        subtitle:
+          "Consultoria para conformidade com a Lei Geral de Proteção de Dados.",
         description: (
           <div>
             A_Definir <br />
@@ -304,13 +257,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            class="lucide lucide-laptop-minimal-check"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M2 20h20" />
+            <path d="m9 10 2 2 4-4" />
+            <rect x="3" y="4" width="18" height="12" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -318,19 +269,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title:
-          "Apelação em Tribunais de Justiça e Tribunais Regionais Federais",
-        subtitle: (
-          <ul>
-            <li>- Entrega de Memoriais e Sustentação Oral;</li>
-            <li>
-              - Recurso Especial perante o STJ (Superior Tribunal de Justiça);
-            </li>
-            <li>
-              - Recurso Extraordinário perante o STF (Supremo Tribunal Federal).
-            </li>
-          </ul>
-        ),
+        title: "Compliance Trabalhista",
+        subtitle:
+          "Implementação de normas e práticas para evitar riscos trabalhistas.",
         description: (
           <div>
             A_Definir
@@ -351,14 +292,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-landmark"
+            class="lucide lucide-book-check"
           >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+            <path d="m9 9.5 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -387,50 +324,66 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR GUILHERME MIRANDA",
-      title: "Minha trajetória",
-      subtitle:
-        "Dr. Guilherme Miranda é um advogado criminalista com uma carreira dedicada à busca por justiça e equidade.",
+      miniTag: "SOBRE NÓS",
+      title: "Nossa trajetória",
+      subtitle: "Experiência e dedicação que fazem a diferença",
       paragraph: (
         <div>
-          Desde o início de sua trajetória, ele compreendeu que o direito penal
-          não se resume a processos e julgamentos, mas envolve profundamente as
-          vidas e histórias das pessoas que defende.
-          <br />
-          Essa visão humanizada tem sido a base de seu trabalho, guiando cada
-          decisão e estratégia.
+          A Molina & Spigarollo é um escritório de advocacia especializado,
+          fruto da parceria entre os advogados Jadson Molina (OAB/PR 63.996) e
+          Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
+          década de experiência para oferecer soluções jurídicas completas e
+          personalizadas, com foco em excelência e compromisso com os clientes.
+          <br /> <br />
+          Nossa equipe é composta por profissionais altamente qualificados,
+          incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
+          (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
+          Isaga Castro Gregório (estagiária), além da expertise de Sabryna
+          Hypolito, nossa Controller Jurídico.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Desde o início de sua trajetória, ele compreendeu que o direito penal
-          não se resume a processos e julgamentos, mas envolve profundamente as
-          vidas e histórias das pessoas que defende. Essa visão humanizada tem
-          sido a base de seu trabalho, guiando cada decisão e estratégia.
+          A Molina & Spigarollo é um escritório de advocacia especializado,
+          fruto da parceria entre os advogados Jadson Molina (OAB/PR 63.996) e
+          Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
+          década de experiência para oferecer soluções jurídicas completas e
+          personalizadas, com foco em excelência e compromisso com os clientes.
           <br />
           <br />
-          Com uma sólida formação acadêmica em direito penal e uma constante
-          atualização em legislações e jurisprudências, Dr. Guilherme não apenas
-          domina os aspectos técnicos da lei, mas também se empenha em entender
-          as necessidades individuais de seus clientes. Ao longo dos anos, sua
-          experiência prática em casos complexos lhe permitiu desenvolver uma
-          abordagem estratégica e personalizada, garantindo que cada cliente
-          receba uma defesa robusta e eficaz.
+          Nossa equipe é composta por profissionais altamente qualificados,
+          incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
+          (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
+          Isaga Castro Gregório (estagiária), além da expertise de Sabryna
+          Hypolito, nossa Controller Jurídico.
           <br />
           <br />
-          Além de sua competência técnica, o Dr. Guilherme acredita firmemente
-          na importância do respeito e da dignidade. Para ele, cada caso é uma
-          oportunidade de fazer a diferença, oferecendo orientação clara,
-          objetiva e um suporte inabalável em momentos de incerteza. Seja na
-          fase investigatória, pré-processual ou processual, seu compromisso é
-          trabalhar incansavelmente para restaurar o equilíbrio e proporcionar
-          justiça.
+          Jadson Molina, com sólida carreira em Direito Condominial e
+          Imobiliário, é amplamente reconhecido por seu trabalho junto a
+          condomínios, oferecendo soluções jurídicas eficazes e estratégicas.
           <br />
           <br />
-          Ao escolher o Dr. Guilherme Miranda, os clientes encontram não apenas
-          um advogado, mas um parceiro dedicado que compreende a complexidade de
-          suas situações e luta com determinação por seus direitos e interesses.
+          Nosso escritório se destaca pela dedicação, qualidade e agilidade,
+          sempre proporcionando um atendimento personalizado e próximo a cada
+          cliente.
+          <br />
+          <br />
+          Leonardo Spigarollo, desde 2019, trouxe sua expertise em Direito
+          Cível, Trabalhista e Empresarial, consolidando sua reputação na defesa
+          de grandes empresas. A união dessas experiências ampliou a capacidade
+          do escritório, atendendo não só condomínios e empresas, mas também
+          pessoas físicas com questões imobiliárias e trabalhistas.
+          <br />
+          <br />
+          Nosso compromisso é oferecer soluções jurídicas eficazes, com foco na
+          prevenção e resolução de conflitos, além de ajudar na adequação de
+          condomínios às exigências da <strong>LGPD</strong>.
+          <br />
+          <br />
+          Na <strong>Molina & Spigarollo</strong>, buscamos ser mais do que
+          advogados; queremos ser parceiros confiáveis na busca por justiça e
+          proteção dos seus direitos.
           <br />
           <br />
         </p>
@@ -440,19 +393,18 @@ const content = {
 
       aboutSocial: {
         img: {
-          img: aboutSocialImgBackground,
+          img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
         title: "Acompanhe muitas novidades e atualizações!",
         subtitle:
-          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Guilherme Miranda nas redes sociais!",
+          "⚖️ Fique por dentro do mundo jurídico seguindo a Molina & Spigarollo nas redes sociais!",
         paragraph: (
           <p>
             Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
-            Penal, Processual Penal e temas relacionados à justiça criminal. Não
-            perca a chance de transformar conhecimento em poder para proteger
-            seus direitos.
+            Condominial, Imobiliário, Cível, Trabalhista e LGPD. Transforme
+            conhecimento em poder para proteger seus direitos. Não perca!
           </p>
         ),
       },
@@ -590,9 +542,18 @@ const content = {
       number3: 1000,
       number3Description: "A_Definir",
     },
+    maps: {
+      minitag: "Google Maps",
+      title: "Como nos encontrar?",
+      subtitle:
+        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+    },
     team: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      title: "Nossa Equipe",
+      subtitle: "Conheça as mentes brilhantes por trás de nosso sucesso.",
+      paragraph: "",
       members: {
         member1: {
           img: {
@@ -860,6 +821,7 @@ const content = {
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
+      linkedin: `https://www.linkedin.com/${infos.linkeDinProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,

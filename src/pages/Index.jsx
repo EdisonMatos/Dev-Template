@@ -18,6 +18,7 @@ import WhatsChat from "../components/interactives/WhatsChat";
 import FloatingWhatsChat from "../components/interactives/FloatingWhatsChat";
 import FeaturesExtended from "../components/sections/FeaturesExtended";
 import AboutInstagramBgImg from "../components/sections/AboutInstagramBgImg";
+import Maps from "../components/sections/Maps";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -39,22 +40,29 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      {/* <Features modal={false} /> */}
-      <FeaturesExtended />
+      <Features modal={false} />
+      {/* <FeaturesExtended /> */}
       {/* <FeaturesResumed /> */}
       {/* <FeaturesWithIcons /> */}
       {/* <FormAndLocation/> */}
       <About modal={true} />
-      {/* <AboutInstagram instagram={true} facebook={true} x={false} /> */}
-      <AboutInstagramBgImg />
+      <AboutInstagram
+        instagram={true}
+        facebook={false}
+        x={false}
+        linkedin={true}
+      />
+      {/* <AboutInstagramBgImg /> */}
       <Cta />
       <Steps />
+      <Maps />
       <Faq />
       <FooterSocial
         obs={false}
         addres={true}
         instagram={true}
         facebook={false}
+        linkedin={true}
         x={false}
       />
       <FloatingWhatsappButton />

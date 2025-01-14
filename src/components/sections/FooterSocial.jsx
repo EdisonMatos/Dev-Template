@@ -269,10 +269,7 @@ export default function FooterSocial({
                     {linkedin && (
                       <MotionDivDownToUp>
                         {" "}
-                        <a
-                          href={content.texts.infos.linkedInProfile}
-                          target="_blank"
-                        >
+                        <a href={content.texts.links.linkedin} target="_blank">
                           <IconButton
                             icon={
                               <svg
