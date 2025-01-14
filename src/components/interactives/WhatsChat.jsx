@@ -51,8 +51,8 @@ export default function WhatsChat() {
           tooltipText={
             <p ref={tooltipTextRef} className="">
               Disponível <strong>24h</strong>
-              Disponível Disponível Disponível Disponível Disponível Disponível
-              Disponível Disponível Disponível jshjsdhdjs dsdhsdhdshk
+              Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível
+
             </p>
           }
           allowEsc={true}
