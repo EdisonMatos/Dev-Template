@@ -36,6 +36,7 @@ export default function WhatsChat() {
     <div>
       {isVisible && ( // Exibe o chat apenas se isVisible for true
         <FloatingWhatsApp
+          className="custom-whatsapp-button"
           status="w-3"
           chatboxHeight="auto"
           phoneNumber={whatsNumber}
@@ -49,14 +50,12 @@ export default function WhatsChat() {
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
           tooltipText={
-            <p ref={tooltipTextRef} className="">
-              Disponível <strong>24h</strong>
-              Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível Disponível
-
+            <p ref={tooltipTextRef} className="_tooltip_181xn_903">
+              Disponível Disponível Disponível Disponível Disponível <strong>24h</strong>
+              <br />
             </p>
           }
           allowEsc={true}
-          className=""
           onClose={handleCloseChat} // Aciona ao fechar o chat
         />
       )}

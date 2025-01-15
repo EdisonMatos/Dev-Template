@@ -99,24 +99,36 @@
   ._messageBody_181xn_471 {
     width: 100%;
   }
-  
+
   ._tooltip_181xn_903 {
     max-width: 195px !important;
-    bottom: 35px !important; /* Ajuste de posição para a tooltip */
+    align-items: center !important;
+    top: auto !important; /* Ajuste de posição para a tooltip */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 402px) {
+  /* Seta da tooltip */
+  ._tooltipArrow_181xn_935 {
+    top: -60% !important;
   }
 }
 
 /* Estilos para telas de 375px a 402px */
 @media (min-width: 375px) and (max-width: 402px) {
   ._tooltip_181xn_903 {
-    bottom: 35px !important; /* Ajuste de posição para a tooltip */
+    bottom: 30px !important; /* Ajuste de posição para a tooltip */
   }
 }
 
-/* Estilos para telas de 425px a 639px */
+/* Estilos para telas de 403px a 639px */
 @media (min-width: 403px) and (max-width: 639px) {
   ._tooltip_181xn_903 {
     bottom: 37px !important; /* Ajuste de posição para a tooltip */
+  }
+  /* Seta da tooltip */
+  ._tooltipArrow_181xn_935 {
+    top: -40% !important;
   }
 }
 
@@ -124,6 +136,10 @@
 @media (min-width: 639px) and (max-width: 724px) {
   ._tooltip_181xn_903 {
     bottom: 38px !important; /* Ajuste de posição para a tooltip */
+  }
+  /* Seta da tooltip */
+  ._tooltipArrow_181xn_935 {
+    top: 0% !important;
   }
 }
 
@@ -133,7 +149,6 @@
     bottom: 45px !important; /* Ajuste de posição para a tooltip */
   }
 }
-
 
 /* chat ou redirecionamento */
 .floating-chat {
@@ -152,8 +167,29 @@
   display: none !important;
 }
 
-
 /* Seta da tooltip */
-._tooltipArrow_181xn_935 {
-top: 70% !important;
+
+.custom-whatsapp-button {
+  position: fixed;
+}
+
+._tooltip_181xn_903,
+.floating-whatsapp-button {
+  margin: 0 !important; /* Remova margens conflitantes */
+}
+
+._floatingWhatsapp_181xn_1 {
+  display: flex !important; /* Ativa Flexbox */
+  align-items: center !important; /* Alinha os itens no centro verticalmente */
+  justify-content: flex-start !important; /* Alinha os itens no início horizontalmente */
+  gap: 10px !important; /* Espaçamento horizontal entre os itens */
+  position: fixed !important;
+  bottom: 80px !important; /* Ajuste conforme necessário */
+  right: 20px !important;
+}
+
+.floating-whatsapp-button {
+  width: 50px !important; /* Tamanho fixo do botão */
+  height: 50px !important;
+  flex-shrink: 0 !important; /* Impede que o botão diminua se o tooltip aumentar */
 }
