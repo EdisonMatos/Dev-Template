@@ -12,7 +12,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FeaturesButton from "../components/sections/FeaturesButton";
 import FeaturesResumed from "../components/sections/FeaturesResumed";
-import FormAndLocation from "../components/sections/FormAndLocation";
+import FormAndMap from "../components/sections/FormAndLocation";
 import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import WhatsChat from "../components/interactives/WhatsChat";
 import FloatingWhatsChat from "../components/interactives/FloatingWhatsChat";
@@ -55,7 +55,8 @@ export default function Index() {
       {/* <AboutInstagramBgImg /> */}
       <Cta />
       <Steps />
-      <Maps />
+      {/* <Maps /> */}
+    <FormAndMap/>
       <Faq />
       <FooterSocial
         obs={false}
