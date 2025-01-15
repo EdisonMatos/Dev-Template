@@ -50,19 +50,19 @@ export default function Index() {
         instagram={true}
         facebook={false}
         x={false}
-        linkedin={true}
+        linkedin={false}
       />
       {/* <AboutInstagramBgImg /> */}
       <Cta />
       <Steps />
-      <Maps />
+      {/* <Maps /> */}
       <Faq />
       <FooterSocial
         obs={false}
         addres={true}
         instagram={true}
         facebook={false}
-        linkedin={true}
+        linkedin={false}
         x={false}
       />
       <FloatingWhatsappButton />
