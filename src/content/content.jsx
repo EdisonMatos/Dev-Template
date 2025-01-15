@@ -123,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento Online 24h",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -320,29 +320,38 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR RICHARD MÁRIO",
+      title: "Minha trajetória",
+      subtitle: "Comprometimento, experiência e uma abordagem personalizada.",
       paragraph: (
         <div>
-          A_Definir
+          Formado em 2023 pela Unisul (Universidade do Sul de Santa Catarina),
+          acumulo experiência de dois anos de estágio na Defensoria Pública do
+          Estado.
           <br />
-          A_Definir
+          Durante esse período, desenvolvi uma abordagem humanizada e discreta,
+          sempre priorizando o atendimento técnico e eficaz.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Formado em 2023 pela Unisul (Universidade do Sul de Santa Catarina),
+          acumulo experiência de dois anos de estágio na Defensoria Pública do
+          Estado.
           <br />
           <br />
-          A_Definir
+          Durante esse período, desenvolvi uma abordagem humanizada e discreta,
+          sempre priorizando o atendimento técnico e eficaz.
           <br />
           <br />
-          A_Definir
+          Minha atuação é pautada na personalização de cada caso, garantindo que
+          cada cliente receba um suporte jurídico adaptado às suas necessidades
+          individuais.
           <br />
           <br />
-          A_Definir
+          Estou comprometido em oferecer soluções legais que realmente façam a
+          diferença na vida das pessoas.
           <br />
           <br />
         </p>
@@ -355,10 +364,16 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Richard Mario nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
+            Penal, Processo Penal, Execução Penal e Defesa Criminal.
+          </p>
+        ),
       },
     },
     cta: {
