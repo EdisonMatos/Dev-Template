@@ -112,11 +112,11 @@ export default function Hero() {
                     backgroundSize: "",
                   }}
                 ></div>
-                <img
+                {/* <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
                   className="absolute opacity-5 right-[-15px] top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
-                ></img>
+                ></img> */}
               </MotionDivDownToUp>
             </div>
           </div>

@@ -38,53 +38,37 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
-import {
-  Calculator,
-  User,
-  House,
-  Briefcase,
-  HardHat,
-  CircleUserRound,
-  BadgePercent,
-  FileCheck,
-  Scale,
-  FileX,
-  HousePlus,
-  Grid2x2Check,
-} from "lucide-react";
-
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Franciele Cavalheiro",
+  name: "Molina & Spigarollo",
   email: "contato", // Email desejado pelo cliente
-  domain: "direitoparadirigir.com.br", // Sem "www"
+  domain: "molinaspigarollo.adv.br", // Sem "www"
   phone: {
-    ddd: "66",
-    firstPart: "99201", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7003", // Apenas os 4 últimos números
+    ddd: "43",
+    firstPart: "99930", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6776", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Ariosto da Riva Neto, 2909</p>
-      <p>Sala comercial Dona Laura, Sala 06</p>
-      <p>Centro - Alta Floresta - MT</p>
-      <p>CEP 78580-959</p>
+      <p>Rua Humaitá, nº. 244</p>
+      <p>Londrina - PR</p>
+      <p>CEP 86015-100</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 11h</p>
-      <p>Das 13h às 17:30</p>
+      <p>8h às 12h</p>
+      <p>13h às 17:30</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "francielegscavalheiro.adv", // Sem o @
+  instagramProfile: "molinaspigarollo", // Sem o @
   facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  linkeDinProfile: "company/molina-spigarollo-advogados",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -109,16 +93,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag:
-        "ADVOGADA ESPECIALISTA EM DIREITO DO TRÂNSITO EM ALTA FLORESTA - MT",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM LONDRINA - PR",
       title: (
         <h1 className="mb-[16px]">
-          Resolvo seus
-          <span className="text-primary"> desafios legais </span> com eficiência
+          Transformando
+          <span className="text-primary"> desafios </span> em soluções jurídicas
         </h1>
       ),
       subtitle:
-        "Dedicação total para garantir soluções jurídicas que fazem a diferença na sua vida.",
+        "Unindo experiência e dedicação para defender seus direitos com excelência.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -166,16 +149,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ESPECIALIZAÇÃO",
-      title: "Defendendo seus direitos com força e precisão",
-      subtitle:
-        "Cada caso é tratado com atenção única para assegurar resultados que importam.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas",
+      subtitle: "Experiência e dedicação em diversas áreas do Direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito de Trânsito",
-        subtitle: "Revisão de multas e defesa com foco em resultados.",
+        title: "Direito Condominial e Imobiliário",
+        subtitle:
+          "Proteção e soluções em conflitos condominiais e imobiliários.",
         description: (
           <div>
             A_Definir
@@ -196,13 +179,19 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-cctv"
+            class="lucide lucide-building"
           >
-            <path d="M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97" />
-            <path d="M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3z" />
-            <path d="M2 19h3.76a2 2 0 0 0 1.8-1.1L9 15" />
-            <path d="M2 21v-4" />
-            <path d="M7 9h.01" />
+            <rect width="16" height="20" x="4" y="2" rx="2" ry="2" />
+            <path d="M9 22v-4h6v4" />
+            <path d="M8 6h.01" />
+            <path d="M16 6h.01" />
+            <path d="M12 6h.01" />
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -210,8 +199,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Trabalhista",
-        subtitle: "Assistência em disputas trabalhistas e acordos justos.",
+        title: "Direito do Trabalho",
+        subtitle:
+          "Defesa de direitos trabalhistas com foco em soluções justas.",
         description: (
           <div>
             A_Definir
@@ -245,8 +235,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Auxílio em Sinistros",
-        subtitle: "Proteção de direitos em acidentes e busca de indenizações.",
+        title: "LGPD",
+        subtitle:
+          "Consultoria para conformidade com a Lei Geral de Proteção de Dados.",
         description: (
           <div>
             A_Definir <br />
@@ -266,12 +257,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-car"
+            class="lucide lucide-laptop-minimal-check"
           >
-            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-            <circle cx="7" cy="17" r="2" />
-            <path d="M9 17h6" />
-            <circle cx="17" cy="17" r="2" />
+            <path d="M2 20h20" />
+            <path d="m9 10 2 2 4-4" />
+            <rect x="3" y="4" width="18" height="12" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -279,8 +269,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Cível",
-        subtitle: "Soluções práticas e seguras para questões cíveis.",
+        title: "Compliance Trabalhista",
+        subtitle:
+          "Implementação de normas e práticas para evitar riscos trabalhistas.",
         description: (
           <div>
             A_Definir
@@ -301,12 +292,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-book-check"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
+            <path d="m9 9.5 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -335,61 +324,66 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA FRANCIELE CAVALHEIRO",
-      title: "Minha trajetória",
-      subtitle: "Uma jornada marcada pela determinação e dedicação ao direito.",
+      miniTag: "SOBRE NÓS",
+      title: "Nossa trajetória",
+      subtitle: "Experiência e dedicação que fazem a diferença",
       paragraph: (
         <div>
-          Minha trajetória no direito é uma história de superação, aprendizado
-          constante e muito trabalho.
-          <br />
-          Formei-me em 2019, e minha caminhada foi repleta de desafios que,
-          longe de me desmotivar, me tornaram mais forte e determinada a seguir
-          meu propósito.
+          A Molina & Spigarollo é um escritório de advocacia especializado,
+          fruto da parceria entre os advogados Jadson Molina (OAB/PR 63.996) e
+          Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
+          década de experiência para oferecer soluções jurídicas completas e
+          personalizadas, com foco em excelência e compromisso com os clientes.
+          <br /> <br />
+          Nossa equipe é composta por profissionais altamente qualificados,
+          incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
+          (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
+          Isaga Castro Gregório (estagiária), além da expertise de Sabryna
+          Hypolito, nossa Controller Jurídico.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha trajetória no direito é uma história de superação, aprendizado
-          constante e muito trabalho. Formei-me em 2019, e minha caminhada foi
-          repleta de desafios que, longe de me desmotivar, me tornaram mais
-          forte e determinada a seguir meu propósito.
+          A Molina & Spigarollo é um escritório de advocacia especializado,
+          fruto da parceria entre os advogados Jadson Molina (OAB/PR 63.996) e
+          Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
+          década de experiência para oferecer soluções jurídicas completas e
+          personalizadas, com foco em excelência e compromisso com os clientes.
           <br />
           <br />
-          Acredito que, para alcançar meus objetivos, é preciso ter perseverança
-          e me manter firme, mesmo diante das adversidades.
+          Nossa equipe é composta por profissionais altamente qualificados,
+          incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
+          (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
+          Isaga Castro Gregório (estagiária), além da expertise de Sabryna
+          Hypolito, nossa Controller Jurídico.
           <br />
           <br />
-          Durante a faculdade, enfrentei períodos de incertezas e obstáculos
-          pessoais, mas nunca desisti do meu sonho de ser advogada. A aprovação
-          na OAB foi um marco fundamental nessa jornada, permitindo-me avançar
-          para a realização do meu maior objetivo: abrir meu próprio escritório
-          em 2024.
+          Jadson Molina, com sólida carreira em Direito Condominial e
+          Imobiliário, é amplamente reconhecido por seu trabalho junto a
+          condomínios, oferecendo soluções jurídicas eficazes e estratégicas.
           <br />
           <br />
-          Com a experiência adquirida ao longo dos anos, especializei-me em
-          áreas essenciais do direito, como Trânsito, Trabalhista e Civil, com
-          foco em oferecer soluções jurídicas práticas, transparentes e
-          personalizadas para cada cliente.
+          Nosso escritório se destaca pela dedicação, qualidade e agilidade,
+          sempre proporcionando um atendimento personalizado e próximo a cada
+          cliente.
           <br />
           <br />
-          A cada novo caso, dedico-me com empenho, aplicando meus princípios de
-          honestidade, justiça e ética, sempre buscando resultados que realmente
-          façam a diferença na vida das pessoas que confiam em meu trabalho.
+          Leonardo Spigarollo, desde 2019, trouxe sua expertise em Direito
+          Cível, Trabalhista e Empresarial, consolidando sua reputação na defesa
+          de grandes empresas. A união dessas experiências ampliou a capacidade
+          do escritório, atendendo não só condomínios e empresas, mas também
+          pessoas físicas com questões imobiliárias e trabalhistas.
           <br />
           <br />
-          Minha paixão pelo direito vai além da prática cotidiana, pois acredito
-          que o conhecimento é a chave para transformar realidades e garantir
-          que a justiça seja cumprida de maneira equânime e eficaz. Com isso em
-          mente, continuo investindo em cursos de especialização e
-          aperfeiçoamento, pois o aprendizado constante é a base de um bom
-          advogado.
+          Nosso compromisso é oferecer soluções jurídicas eficazes, com foco na
+          prevenção e resolução de conflitos, além de ajudar na adequação de
+          condomínios às exigências da <strong>LGPD</strong>.
           <br />
           <br />
-          Meu compromisso é claro: garantir que, através do meu trabalho, meus
-          clientes possam se sentir seguros, confiantes e, principalmente,
-          representados com excelência.
+          Na <strong>Molina & Spigarollo</strong>, buscamos ser mais do que
+          advogados; queremos ser parceiros confiáveis na busca por justiça e
+          proteção dos seus direitos.
           <br />
           <br />
         </p>
@@ -403,16 +397,14 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Conecte-se e acompanhe novidades e atualizações!",
+        title: "Acompanhe muitas novidades e atualizações!",
         subtitle:
-          "⚖️ Esteja sempre por dentro do mundo jurídico me seguindo nas redes sociais!",
+          "⚖️ Fique por dentro do mundo jurídico seguindo a Molina & Spigarollo nas redes sociais!",
         paragraph: (
           <p>
-            Acompanhe minhas postagens e fique atualizado sobre Direito de
-            Trânsito, Trabalhista, Civil e muito mais.
-            <br />
-            Não perca a oportunidade de transformar conhecimento em poder e
-            garantir a proteção dos seus direitos.
+            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
+            Condominial, Imobiliário, Cível, Trabalhista e LGPD. Transforme
+            conhecimento em poder para proteger seus direitos. Não perca!
           </p>
         ),
       },
@@ -550,9 +542,18 @@ const content = {
       number3: 1000,
       number3Description: "A_Definir",
     },
+    maps: {
+      minitag: "Google Maps",
+      title: "Como nos encontrar?",
+      subtitle:
+        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+    },
     team: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      title: "Nossa Equipe",
+      subtitle: "Conheça as mentes brilhantes por trás de nosso sucesso.",
+      paragraph: "",
       members: {
         member1: {
           img: {
@@ -820,6 +821,7 @@ const content = {
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
+      linkedin: `https://www.linkedin.com/${infos.linkeDinProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
