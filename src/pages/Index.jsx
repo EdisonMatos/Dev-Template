@@ -51,6 +51,8 @@ export default function Index() {
         facebook={false}
         x={false}
         linkedin={true}
+        bgImg={false}
+        longImg={true}
       />
       {/* <AboutInstagramBgImg /> */}
       <Cta />

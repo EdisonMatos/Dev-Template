@@ -13,7 +13,14 @@ import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 
-export default function AboutInstagram({ instagram, facebook, x, linkedin }) {
+export default function AboutInstagram({
+  instagram,
+  facebook,
+  x,
+  linkedin,
+  bgImg,
+  longImg
+}) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -26,11 +33,25 @@ export default function AboutInstagram({ instagram, facebook, x, linkedin }) {
             src={imgPhone}
             className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
           ></img> */}
-          <img
-            src={content.texts.about.aboutSocial.img.img}
-            alt={content.texts.about.aboutSocial.img.alt}
-            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]"
-          />
+
+          {bgImg && (
+            <div
+              style={{
+                backgroundImage: `url(${content.texts.about.aboutSocial.img.img})`,
+              }}
+              className="relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl shadow-custom-opacity shadow-secondary/25"
+            ></div>
+          )}
+
+          {longImg && (
+            <div>
+              <img
+                src={content.texts.about.aboutSocial.img.img}
+                alt={content.texts.about.aboutSocial.img.alt}
+                className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]"
+              />
+            </div>
+          )}
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
