@@ -41,34 +41,33 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Molina & Spigarollo",
+  name: "Dr. Richard Mario",
   email: "contato", // Email desejado pelo cliente
-  domain: "molinaspigarollo.adv.br", // Sem "www"
+  domain: "richardmarioadv.com.br", // Sem "www"
   phone: {
-    ddd: "43",
-    firstPart: "99930", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6776", // Apenas os 4 últimos números
+    ddd: "48",
+    firstPart: "99965", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0563", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Humaitá, nº. 244</p>
-      <p>Londrina - PR</p>
-      <p>CEP 86015-100</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 12h</p>
-      <p>13h às 17:30</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "molinaspigarollo", // Sem o @
+  instagramProfile: "adv_richard_mario", // Sem o @
   facebookProfile: "A_Definir",
-  linkeDinProfile: "company/molina-spigarollo-advogados",
+  linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -93,15 +92,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM LONDRINA - PR",
+      miniTag: "ADVOGADO CRIMINAL EM FLORIANÓPOLIS - SC",
       title: (
         <h1 className="mb-[16px]">
-          Transformando
-          <span className="text-primary"> desafios </span> em soluções jurídicas
+          Em prol do Direito,
+          <span className="text-primary"> contra as injustiças </span> do
+          sistema.
         </h1>
       ),
       subtitle:
-        "Unindo experiência e dedicação para defender seus direitos com excelência.",
+        "Defesa implacável contra as injustiças, garantindo a proteção dos seus direitos a cada passo.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento Online 24h",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -149,16 +149,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades jurídicas",
-      subtitle: "Experiência e dedicação em diversas áreas do Direito.",
+      miniTag: "ESPECIALIDADE JURÍDICA",
+      title: "Compromisso real com a defesa do seu direito",
+      subtitle: "Estratégias jurídicas que fazem a diferença em cada caso.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Condominial e Imobiliário",
-        subtitle:
-          "Proteção e soluções em conflitos condominiais e imobiliários.",
+        title: "Atuação em Flagrante",
+        subtitle: "Assistência ágil e estratégica em situações de flagrante.",
         description: (
           <div>
             A_Definir
@@ -179,19 +178,16 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-building"
+            class="lucide lucide-siren"
           >
-            <rect width="16" height="20" x="4" y="2" rx="2" ry="2" />
-            <path d="M9 22v-4h6v4" />
-            <path d="M8 6h.01" />
-            <path d="M16 6h.01" />
-            <path d="M12 6h.01" />
-            <path d="M12 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M16 10h.01" />
-            <path d="M16 14h.01" />
-            <path d="M8 10h.01" />
-            <path d="M8 14h.01" />
+            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
+            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
+            <path d="M21 12h1" />
+            <path d="M18.5 4.5 18 5" />
+            <path d="M2 12h1" />
+            <path d="M12 2v1" />
+            <path d="m4.929 4.929.707.707" />
+            <path d="M12 12v6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -199,9 +195,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Trabalho",
-        subtitle:
-          "Defesa de direitos trabalhistas com foco em soluções justas.",
+        title: "Audiência de Custódia",
+        subtitle: "Defesa assertiva para garantir seus direitos na custódia.",
         description: (
           <div>
             A_Definir
@@ -222,12 +217,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            class="lucide lucide-speech"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
+            <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
+            <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -235,9 +229,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "LGPD",
+        title: "Processos Criminais",
         subtitle:
-          "Consultoria para conformidade com a Lei Geral de Proteção de Dados.",
+          "Representação eficiente em todas as fases do processo criminal.",
         description: (
           <div>
             A_Definir <br />
@@ -257,11 +251,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-laptop-minimal-check"
+            class="lucide lucide-files"
           >
-            <path d="M2 20h20" />
-            <path d="m9 10 2 2 4-4" />
-            <rect x="3" y="4" width="18" height="12" rx="2" />
+            <path d="M20 7h-3a2 2 0 0 1-2-2V2" />
+            <path d="M9 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h7l4 4v10a2 2 0 0 1-2 2Z" />
+            <path d="M3 7.6v12.8A1.6 1.6 0 0 0 4.6 22h9.8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -269,9 +263,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Compliance Trabalhista",
-        subtitle:
-          "Implementação de normas e práticas para evitar riscos trabalhistas.",
+        title: "Execução Penal",
+        subtitle: "Foco na reintegração e no cumprimento justo da pena.",
         description: (
           <div>
             A_Definir
@@ -292,10 +285,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-book-check"
+            class="lucide lucide-gavel"
           >
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-            <path d="m9 9.5 2 2 4-4" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -324,66 +320,38 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "SOBRE NÓS",
-      title: "Nossa trajetória",
-      subtitle: "Experiência e dedicação que fazem a diferença",
+      miniTag: "QUEM É O DR RICHARD MÁRIO",
+      title: "Minha trajetória",
+      subtitle: "Comprometimento, experiência e uma abordagem personalizada.",
       paragraph: (
         <div>
-          A Molina & Spigarollo é um escritório de advocacia especializado,
-          fruto da parceria entre os advogados Jadson Molina (OAB/PR 63.996) e
-          Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
-          década de experiência para oferecer soluções jurídicas completas e
-          personalizadas, com foco em excelência e compromisso com os clientes.
-          <br /> <br />
-          Nossa equipe é composta por profissionais altamente qualificados,
-          incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
-          (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
-          Isaga Castro Gregório (estagiária), além da expertise de Sabryna
-          Hypolito, nossa Controller Jurídico.
+          Formado em 2023 pela Unisul (Universidade do Sul de Santa Catarina),
+          acumulo experiência de dois anos de estágio na Defensoria Pública do
+          Estado.
+          <br />
+          Durante esse período, desenvolvi uma abordagem humanizada e discreta,
+          sempre priorizando o atendimento técnico e eficaz.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Molina & Spigarollo é um escritório de advocacia especializado,
-          fruto da parceria entre os advogados Jadson Molina (OAB/PR 63.996) e
-          Leonardo Spigarollo (OAB/PR 99.057). Juntos, eles unem mais de uma
-          década de experiência para oferecer soluções jurídicas completas e
-          personalizadas, com foco em excelência e compromisso com os clientes.
+          Formado em 2023 pela Unisul (Universidade do Sul de Santa Catarina),
+          acumulo experiência de dois anos de estágio na Defensoria Pública do
+          Estado.
           <br />
           <br />
-          Nossa equipe é composta por profissionais altamente qualificados,
-          incluindo Denise Amaral Gomes (OAB/PR 123.895), Gabriel Frotté Goldin
-          (OAB/PR 123.174), Paula Carolina Fernandes (OAB/PR 97.944), e Beatriz
-          Isaga Castro Gregório (estagiária), além da expertise de Sabryna
-          Hypolito, nossa Controller Jurídico.
+          Durante esse período, desenvolvi uma abordagem humanizada e discreta,
+          sempre priorizando o atendimento técnico e eficaz.
           <br />
           <br />
-          Jadson Molina, com sólida carreira em Direito Condominial e
-          Imobiliário, é amplamente reconhecido por seu trabalho junto a
-          condomínios, oferecendo soluções jurídicas eficazes e estratégicas.
+          Minha atuação é pautada na personalização de cada caso, garantindo que
+          cada cliente receba um suporte jurídico adaptado às suas necessidades
+          individuais.
           <br />
           <br />
-          Nosso escritório se destaca pela dedicação, qualidade e agilidade,
-          sempre proporcionando um atendimento personalizado e próximo a cada
-          cliente.
-          <br />
-          <br />
-          Leonardo Spigarollo, desde 2019, trouxe sua expertise em Direito
-          Cível, Trabalhista e Empresarial, consolidando sua reputação na defesa
-          de grandes empresas. A união dessas experiências ampliou a capacidade
-          do escritório, atendendo não só condomínios e empresas, mas também
-          pessoas físicas com questões imobiliárias e trabalhistas.
-          <br />
-          <br />
-          Nosso compromisso é oferecer soluções jurídicas eficazes, com foco na
-          prevenção e resolução de conflitos, além de ajudar na adequação de
-          condomínios às exigências da <strong>LGPD</strong>.
-          <br />
-          <br />
-          Na <strong>Molina & Spigarollo</strong>, buscamos ser mais do que
-          advogados; queremos ser parceiros confiáveis na busca por justiça e
-          proteção dos seus direitos.
+          Estou comprometido em oferecer soluções legais que realmente façam a
+          diferença na vida das pessoas.
           <br />
           <br />
         </p>
@@ -399,12 +367,11 @@ const content = {
         miniTag: "REDES SOCIAIS",
         title: "Acompanhe muitas novidades e atualizações!",
         subtitle:
-          "⚖️ Fique por dentro do mundo jurídico seguindo a Molina & Spigarollo nas redes sociais!",
+          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Richard Mario nas redes sociais!",
         paragraph: (
           <p>
             Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
-            Condominial, Imobiliário, Cível, Trabalhista e LGPD. Transforme
-            conhecimento em poder para proteger seus direitos. Não perca!
+            Penal, Processo Penal, Execução Penal e Defesa Criminal.
           </p>
         ),
       },
@@ -551,9 +518,8 @@ const content = {
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     team: {
-      title: "Nossa Equipe",
-      subtitle: "Conheça as mentes brilhantes por trás de nosso sucesso.",
-      paragraph: "",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       members: {
         member1: {
           img: {
@@ -821,7 +787,6 @@ const content = {
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
-      linkedin: `https://www.linkedin.com/${infos.linkeDinProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
