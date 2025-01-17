@@ -6,7 +6,7 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutInstagramImg.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -387,10 +387,16 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle:
+          "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
+        paragraph: (
+          <p>
+            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as
+            últimas tendências e mudanças no mundo do direito.{" "}
+          </p>
+        ),
       },
     },
     cta: {
