@@ -41,13 +41,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Richard Mario",
+  name: "Mendes e Prado Advocacia",
   email: "contato", // Email desejado pelo cliente
-  domain: "richardmarioadv.com.br", // Sem "www"
+  domain: "mendeseprado.com.br", // Sem "www"
   phone: {
-    ddd: "48",
-    firstPart: "99965", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0563", // Apenas os 4 últimos números
+    ddd: "71",
+    firstPart: "98332", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0063", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -61,11 +61,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 18h</p>
+      <p>Das 9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "adv_richard_mario", // Sem o @
+  instagramProfile: "mendeseprado", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -92,16 +92,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CRIMINAL EM FLORIANÓPOLIS - SC",
+      miniTag: "ADVOGADOS EM SALVADOR - BA E TERESINA - PI",
       title: (
-        <h1 className="mb-[16px]">
-          Em prol do Direito,
-          <span className="text-primary"> contra as injustiças </span> do
-          sistema.
+        <h1 className="font-light mb-[16px]">
+          Soluções jurídicas
+          <span className="font-bold text-primary"> para cada momento </span> da
+          sua vida
         </h1>
       ),
       subtitle:
-        "Defesa implacável contra as injustiças, garantindo a proteção dos seus direitos a cada passo.",
+        "Combinando tradição e inovação, cuidamos de seus direitos com ética e responsabilidade.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento Online 24h",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -149,15 +149,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADE JURÍDICA",
-      title: "Compromisso real com a defesa do seu direito",
-      subtitle: "Estratégias jurídicas que fazem a diferença em cada caso.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Abrangência jurídica completa",
+      subtitle:
+        "Respostas nas principais áreas do direito para atender suas necessidades com excelência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Atuação em Flagrante",
-        subtitle: "Assistência ágil e estratégica em situações de flagrante.",
+        title: "Direito Constitucional e Administrativo",
+        subtitle: "Proteção dos seus direitos e gestão pública eficiente.",
         description: (
           <div>
             A_Definir
@@ -178,16 +179,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-siren"
+            class="lucide lucide-book-open-text"
           >
-            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
-            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
-            <path d="M21 12h1" />
-            <path d="M18.5 4.5 18 5" />
-            <path d="M2 12h1" />
-            <path d="M12 2v1" />
-            <path d="m4.929 4.929.707.707" />
-            <path d="M12 12v6" />
+            <path d="M12 7v14" />
+            <path d="M16 12h2" />
+            <path d="M16 8h2" />
+            <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+            <path d="M6 12h2" />
+            <path d="M6 8h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -195,8 +194,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Audiência de Custódia",
-        subtitle: "Defesa assertiva para garantir seus direitos na custódia.",
+        title: "Direito Médico e do Consumidor",
+        subtitle: "Defendemos sua saúde e direitos nas relações de consumo.",
         description: (
           <div>
             A_Definir
@@ -217,11 +216,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-speech"
+            class="lucide lucide-stethoscope"
           >
-            <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
-            <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
-            <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
+            <path d="M11 2v2" />
+            <path d="M5 2v2" />
+            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
+            <path d="M8 15a6 6 0 0 0 12 0v-3" />
+            <circle cx="20" cy="10" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -229,9 +230,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Processos Criminais",
+        title: "Direito do Trabalho e Previdenciário",
         subtitle:
-          "Representação eficiente em todas as fases do processo criminal.",
+          "Segurança nas relações trabalhistas e benefícios previdenciários.",
         description: (
           <div>
             A_Definir <br />
@@ -251,11 +252,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-files"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M20 7h-3a2 2 0 0 1-2-2V2" />
-            <path d="M9 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h7l4 4v10a2 2 0 0 1-2 2Z" />
-            <path d="M3 7.6v12.8A1.6 1.6 0 0 0 4.6 22h9.8" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -263,8 +265,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Execução Penal",
-        subtitle: "Foco na reintegração e no cumprimento justo da pena.",
+        title: "Direito Tributário e Soluções Empresariais",
+        subtitle:
+          "Planejamento tributário eficaz para pessoas físicas e empresas.",
         description: (
           <div>
             A_Definir
@@ -285,13 +288,18 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            class="lucide lucide-calculator"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <rect width="16" height="20" x="4" y="2" rx="2" />
+            <line x1="8" x2="16" y1="6" y2="6" />
+            <line x1="16" x2="16" y1="14" y2="18" />
+            <path d="M16 10h.01" />
+            <path d="M12 10h.01" />
+            <path d="M8 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M8 14h.01" />
+            <path d="M12 18h.01" />
+            <path d="M8 18h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -320,38 +328,53 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR RICHARD MÁRIO",
-      title: "Minha trajetória",
-      subtitle: "Comprometimento, experiência e uma abordagem personalizada.",
+      miniTag: "QUEM É A MENDES E PRADO ADVOCACIA",
+      title: "Nossa trajetória",
+      subtitle: "Tradição e inovação a serviço da justiça e dos seus direitos.",
       paragraph: (
         <div>
-          Formado em 2023 pela Unisul (Universidade do Sul de Santa Catarina),
-          acumulo experiência de dois anos de estágio na Defensoria Pública do
-          Estado.
+          Com uma história marcada por dedicação e compromisso, a Mendes e Prado
+          Advocacia se destaca como referência no cenário jurídico.
           <br />
-          Durante esse período, desenvolvi uma abordagem humanizada e discreta,
-          sempre priorizando o atendimento técnico e eficaz.
+          Fundada e liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e
+          filho, a nossa advocacia combina a sabedoria da experiência com a
+          energia da inovação, criando uma parceria sólida e harmoniosa.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Formado em 2023 pela Unisul (Universidade do Sul de Santa Catarina),
-          acumulo experiência de dois anos de estágio na Defensoria Pública do
-          Estado.
+          Com uma história marcada por dedicação e compromisso, a Mendes e Prado
+          Advocacia se destaca como referência no cenário jurídico. Fundada e
+          liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e filho, a
+          nossa advocacia combina a sabedoria da experiência com a energia da
+          inovação, criando uma parceria sólida e harmoniosa.
           <br />
           <br />
-          Durante esse período, desenvolvi uma abordagem humanizada e discreta,
-          sempre priorizando o atendimento técnico e eficaz.
+          Ao longo dos anos, nos especializamos em diversas áreas do direito,
+          incluindo Constitucional, Administrativo, Médico, Cível, do
+          Consumidor, do Trabalho, Previdenciário e Tributário. Nosso objetivo é
+          oferecer soluções jurídicas sob medida, adaptadas às necessidades
+          específicas de cada cliente, seja ele pessoa física ou jurídica.
           <br />
           <br />
-          Minha atuação é pautada na personalização de cada caso, garantindo que
-          cada cliente receba um suporte jurídico adaptado às suas necessidades
-          individuais.
+          Acreditamos que um relacionamento próximo e de confiança com nossos
+          clientes é essencial para alcançar os melhores resultados. Por isso,
+          nossa equipe se dedica a entender profundamente cada caso, buscando
+          sempre as estratégias mais eficazes e éticas.
           <br />
           <br />
-          Estou comprometido em oferecer soluções legais que realmente façam a
-          diferença na vida das pessoas.
+          Além disso, nossa atuação é guiada por valores como integridade,
+          transparência e respeito. Sabemos que cada decisão jurídica pode ter
+          um impacto significativo na vida de nossos clientes, e, por isso,
+          tratamos cada caso com a atenção e o cuidado que ele merece.
+          <br />
+          <br />
+          Na Mendes e Prado Advocacia, você encontrará uma equipe preparada para
+          enfrentar desafios e oferecer soluções práticas e estratégicas.
+          Estamos aqui para ser mais do que advogados; queremos ser seus
+          parceiros na busca pela justiça e na proteção dos seus direitos e
+          interesses.
           <br />
           <br />
         </p>
@@ -364,16 +387,10 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Acompanhe muitas novidades e atualizações!",
-        subtitle:
-          "⚖️ Fique por dentro do mundo jurídico seguindo o Dr. Richard Mario nas redes sociais!",
-        paragraph: (
-          <p>
-            Acompanhe nossas postagens e mantenha-se atualizado sobre Direito
-            Penal, Processo Penal, Execução Penal e Defesa Criminal.
-          </p>
-        ),
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
