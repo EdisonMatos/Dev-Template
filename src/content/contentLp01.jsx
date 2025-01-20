@@ -6,9 +6,9 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir1",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title: "Regys Fernando - Recuperação de Veículos Apreendidos",
+    description:
+      "Busca e Apreensão de Veículos, Recuperação de Veículos Apreendidos, Defesa de Veículos Apreendidos, Advogado para Recuperação de Veículos, Veículo Apreendido, Recuperação de Bem Apreendido, Advogado de Busca e Apreensão, Ações de Busca e Apreensão, Processo de Recuperação de Veículos, Defesa Patrimonial, Reverter Apreensão de Veículo, Advogado para Veículo Apreendido, Recuperação Rápida de Veículos, Reverter Busca e Apreensão, Proteção de Veículo, Ajuda Jurídica para Apreensão de Veículo, Advogado Especializado em Recuperação de Veículos, Recuperação Judicial de Veículos, Soluções Jurídicas para Apreensão de Veículos, Consultoria Jurídica de Veículos Apreendidos, Recuperação de Carros Apreendidos.",
   },
   hero: {
     bgImg: bgImg,
@@ -19,41 +19,119 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
-          <span className="text-lpTitle"> A_Definir</span>
+          Não deixe seu veículo{" "}
+          <span className="text-primary"> ser levado! </span> Recupere-o
+          <span className="text-primary"> antes que seja tarde </span> demais!
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "Quero falar com um especialista",
+      subtitle:
+        "Sofreu com busca e apreensão de veículo? Nosso time de especialistas está aqui para ajudar você a recuperar seu bem com segurança e assertividade. Não perca tempo, cada minuto conta para proteger o que é seu.",
+      buttonLabel: "Recuperar meu veículo agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "SOLUÇÕES PARA BUSCA E APREENSÃO DE VEÍCULOS",
+      title:
+        "Descubra se você pode evitar ou reverter a busca e apreensão do seu veículo!",
     },
     cards: {
       card1: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hand-coins"
+          >
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
+          </svg>
+        ),
+        title: "Proprietários com financiamento em atraso",
+        description:
+          "Se você está com parcelas do financiamento em atraso, saiba que ainda há chances de evitar a apreensão do seu veículo. Nós analisamos seu caso e agimos rapidamente para proteger seu patrimônio.",
       },
       card2: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-car"
+          >
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+            <circle cx="7" cy="17" r="2" />
+            <path d="M9 17h6" />
+            <circle cx="17" cy="17" r="2" />
+          </svg>
+        ),
+        title: "Empresas com frota financiada",
+        description:
+          "Empresas que dependem de sua frota para operar não podem se dar ao luxo de perder veículos. Oferecemos soluções personalizadas para evitar a busca e apreensão, garantindo a continuidade dos seus negócios.",
       },
       card3: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-triangle-alert"
+          >
+            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
+            <path d="M12 9v4" />
+            <path d="M12 17h.01" />
+          </svg>
+        ),
+        title: "Pessoas que já tiveram o veículo apreendido",
+        description:
+          "Se seu veículo já foi apreendido, ainda há tempo para agir. Nossa equipe especializada trabalha para recuperar o bem e reverter a situação, minimizando os danos e protegendo seus direitos.",
       },
       card4: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-check"
+          >
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="m9 15 2 2 4-4" />
+          </svg>
+        ),
+        title: "Gestores preocupados com a regularização de veículos",
+        description:
+          "Gestores que desejam manter a frota em conformidade e evitar problemas futuros podem contar com nossa assessoria. Garantimos a regularização dos veículos e a segurança jurídica necessária para operar sem riscos.",
       },
     },
   },
