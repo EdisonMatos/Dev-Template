@@ -6,7 +6,7 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutInstagramImg.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -41,13 +41,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Mendes e Prado Advocacia",
+  name: "Regys Fernando",
   email: "contato", // Email desejado pelo cliente
-  domain: "mendeseprado.com.br", // Sem "www"
+  domain: "regysadvogado.com.br", // Sem "www"
   phone: {
-    ddd: "71",
-    firstPart: "98332", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0063", // Apenas os 4 últimos números
+    ddd: "65",
+    firstPart: "98106", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3486", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -61,11 +61,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 17h</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "mendeseprado", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -92,16 +92,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADOS EM SALVADOR - BA E TERESINA - PI",
+      miniTag: "A_Definir",
       title: (
-        <h1 className="font-light mb-[16px]">
-          Soluções jurídicas
-          <span className="font-bold text-primary"> para cada momento </span> da
-          sua vida
+        <h1 className="mb-[16px]">
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Combinando tradição e inovação, cuidamos de seus direitos com ética e responsabilidade.",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -149,16 +147,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Abrangência jurídica completa",
-      subtitle:
-        "Respostas nas principais áreas do direito para atender suas necessidades com excelência.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Constitucional e Administrativo",
-        subtitle: "Proteção dos seus direitos e gestão pública eficiente.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -173,20 +170,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-book-open-text"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12 7v14" />
-            <path d="M16 12h2" />
-            <path d="M16 8h2" />
-            <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
-            <path d="M6 12h2" />
-            <path d="M6 8h2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -194,8 +182,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Médico e do Consumidor",
-        subtitle: "Defendemos sua saúde e direitos nas relações de consumo.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -210,19 +198,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-stethoscope"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M11 2v2" />
-            <path d="M5 2v2" />
-            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
-            <path d="M8 15a6 6 0 0 0 12 0v-3" />
-            <circle cx="20" cy="10" r="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -230,9 +210,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito do Trabalho e Previdenciário",
-        subtitle:
-          "Segurança nas relações trabalhistas e benefícios previdenciários.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -246,18 +225,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -265,9 +237,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Tributário e Soluções Empresariais",
-        subtitle:
-          "Planejamento tributário eficaz para pessoas físicas e empresas.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -282,24 +253,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-calculator"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <rect width="16" height="20" x="4" y="2" rx="2" />
-            <line x1="8" x2="16" y1="6" y2="6" />
-            <line x1="16" x2="16" y1="14" y2="18" />
-            <path d="M16 10h.01" />
-            <path d="M12 10h.01" />
-            <path d="M8 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M8 14h.01" />
-            <path d="M12 18h.01" />
-            <path d="M8 18h.01" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -328,53 +286,29 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A MENDES E PRADO ADVOCACIA",
-      title: "Nossa trajetória",
-      subtitle: "Tradição e inovação a serviço da justiça e dos seus direitos.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          Com uma história marcada por dedicação e compromisso, a Mendes e Prado
-          Advocacia se destaca como referência no cenário jurídico.
+          A_Definir
           <br />
-          Fundada e liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e
-          filho, a nossa advocacia combina a sabedoria da experiência com a
-          energia da inovação, criando uma parceria sólida e harmoniosa.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com uma história marcada por dedicação e compromisso, a Mendes e Prado
-          Advocacia se destaca como referência no cenário jurídico. Fundada e
-          liderada por Dr. Wellington Mendes e Dr. Yago Prado, pai e filho, a
-          nossa advocacia combina a sabedoria da experiência com a energia da
-          inovação, criando uma parceria sólida e harmoniosa.
+          A_Definir
           <br />
           <br />
-          Ao longo dos anos, nos especializamos em diversas áreas do direito,
-          incluindo Constitucional, Administrativo, Médico, Cível, do
-          Consumidor, do Trabalho, Previdenciário e Tributário. Nosso objetivo é
-          oferecer soluções jurídicas sob medida, adaptadas às necessidades
-          específicas de cada cliente, seja ele pessoa física ou jurídica.
+          A_Definir
           <br />
           <br />
-          Acreditamos que um relacionamento próximo e de confiança com nossos
-          clientes é essencial para alcançar os melhores resultados. Por isso,
-          nossa equipe se dedica a entender profundamente cada caso, buscando
-          sempre as estratégias mais eficazes e éticas.
+          A_Definir
           <br />
           <br />
-          Além disso, nossa atuação é guiada por valores como integridade,
-          transparência e respeito. Sabemos que cada decisão jurídica pode ter
-          um impacto significativo na vida de nossos clientes, e, por isso,
-          tratamos cada caso com a atenção e o cuidado que ele merece.
-          <br />
-          <br />
-          Na Mendes e Prado Advocacia, você encontrará uma equipe preparada para
-          enfrentar desafios e oferecer soluções práticas e estratégicas.
-          Estamos aqui para ser mais do que advogados; queremos ser seus
-          parceiros na busca pela justiça e na proteção dos seus direitos e
-          interesses.
+          A_Definir
           <br />
           <br />
         </p>
@@ -387,16 +321,10 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Acompanhe muitas novidades e atualizações!",
-        subtitle:
-          "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
-        paragraph: (
-          <p>
-            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as
-            últimas tendências e mudanças no mundo do direito.{" "}
-          </p>
-        ),
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
@@ -447,24 +375,25 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Como posso recuperar meu veículo apreendido?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "A recuperação de um veículo apreendido depende de diversos fatores, incluindo o motivo da apreensão e a documentação disponível. Agende uma consulta para uma análise detalhada do seu caso.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question:
+            "O que acontece se eu não pagar as parcelas do financiamento do meu veículo?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Em caso de inadimplência, o banco pode iniciar um processo de busca e apreensão do veículo. É importante agir rapidamente para negociar ou buscar soluções legais.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Quanto tempo leva para recuperar um veículo apreendido?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "O tempo varia conforme a complexidade do caso e o andamento do processo judicial. Durante a consulta, podemos fornecer uma estimativa baseada na experiência em casos semelhantes.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Posso evitar a busca e apreensão do meu veículo?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Sim, em alguns casos é possível negociar com o credor antes que o processo de apreensão seja iniciado. Nossa equipe pode ajudar a buscar soluções para evitar a perda do veículo.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
