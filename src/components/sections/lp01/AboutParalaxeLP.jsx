@@ -24,28 +24,27 @@ export default function AboutParalaxeLP() {
                 <MotionDivDownToUp className="flex justify-center ">
                   {/* Logo */}
 
-                  {/* <img
+                  <img
                     src={contentLp01.about.logo.logoImg}
                     alt={contentLp01.about.logo.alt}
                     className="w-[90%] desktop1:w-[70%]"
-                  /> */}
+                  />
 
                   {/* Foto  */}
 
-                  <img
+                  {/* <img
                     src={content.texts.about.imagem.img}
                     alt={content.texts.about.imagem.alt}
                     className="w-[90%] desktop1:w-[90%] rounded-xl shadow-custom-opacity shadow-secondary/50"
-                  />
+                  /> */}
                 </MotionDivDownToUp>
 
                 {/* Sendo logo */}
 
-                {/* <div className="desktop1:w-[60%]"> */}
+                <div className="desktop1:w-[60%]">
+                  {/* Sendo foto */}
 
-                {/* Sendo foto */}
-
-                <div className="desktop1:w-[100%] ">
+                  {/* <div className="desktop1:w-[100%] "> */}
                   <SectionHeader
                     className="text-center"
                     miniTitle={contentLp01.about.sectionHeader.miniTag}

@@ -142,13 +142,18 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "EXPERTISE EM RECUPERAÇÃO DE VEÍCULOS APREENDIDOS",
+      title: "Não perca seu veículo! Recupere-o com quem entende do assunto",
     },
     paragraph: (
       <p>
-        A_Definir <br />
-        <br /> A_Definir
+        Com ampla experiência em questões jurídicas relacionadas à busca e
+        apreensão, nossa equipe é especializada em reverter a apreensão de
+        veículos. <br />
+        <br /> Atuamos rapidamente para proteger seu patrimônio e garantir que
+        seus direitos sejam respeitados, oferecendo soluções eficazes e seguras.
+        Conte com a nossa expertise para recuperar seu veículo e restaurar a
+        normalidade da sua vida.
       </p>
     ),
     buttonLabel: "Quero falar com um especialista",
@@ -156,40 +161,115 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A MELHOR ESCOLHA",
+      title: "Por que escolher o Regys Fernando Advocacia e Consultoria?",
     },
     cards: {
       card1: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        title: "Especialização Jurídica",
+        description:
+          "Com a experiência do Dr Regys Fernando, analisamos profundamente cada caso para garantir a recuperação dos seus direitos, com total conformidade legal.",
       },
       card2: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-chart-column-increasing"
+          >
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M8 18v-2" />
+            <path d="M12 18v-4" />
+            <path d="M16 18v-6" />
+          </svg>
+        ),
+        title: "Análise Inicial",
+        description:
+          "Oferecemos uma avaliação detalhada da sua situação, sem compromisso, para ajudar a entender os próximos passos no processo de recuperação do seu veículo.",
       },
       card3: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-history"
+          >
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+            <path d="M12 7v5l4 2" />
+          </svg>
+        ),
+        title: "Agilidade e Transparência",
+        description:
+          "Com uma abordagem rápida e eficiente, você receberá atualizações constantes em cada fase do processo, sem surpresas ou custos ocultos.",
       },
       card4: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-check"
+          >
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        ),
+        title: "Recuperação e Proteção",
+        description:
+          "O escritório Regys Fernando Advocacia e Consultoria trabalha para garantir que seu veículo seja recuperado de forma legal e segura. Conte com nossa expertise para restaurar sua tranquilidade e proteger seus bens.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: `A_Definir`,
+      miniTag: "NÃO DEIXE SEU VEÍCULO PERDIDO",
+      title: "Recupere seu veículo agora!",
+      subtitle: `Não deixe seu veículo ser levado sem lutar. Nossa equipe especializada pode ajudá-lo a reverter a apreensão e proteger seu patrimônio. A análise inicial é gratuita, então não perca tempo.`,
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Recuperar meu veículo agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {

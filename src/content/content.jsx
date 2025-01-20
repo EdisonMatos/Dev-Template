@@ -375,24 +375,25 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Como posso recuperar meu veículo apreendido?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "A recuperação de um veículo apreendido depende de diversos fatores, incluindo o motivo da apreensão e a documentação disponível. Agende uma consulta para uma análise detalhada do seu caso.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question:
+            "O que acontece se eu não pagar as parcelas do financiamento do meu veículo?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Em caso de inadimplência, o banco pode iniciar um processo de busca e apreensão do veículo. É importante agir rapidamente para negociar ou buscar soluções legais.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Quanto tempo leva para recuperar um veículo apreendido?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "O tempo varia conforme a complexidade do caso e o andamento do processo judicial. Durante a consulta, podemos fornecer uma estimativa baseada na experiência em casos semelhantes.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Posso evitar a busca e apreensão do meu veículo?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Sim, em alguns casos é possível negociar com o credor antes que o processo de apreensão seja iniciado. Nossa equipe pode ajudar a buscar soluções para evitar a perda do veículo.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
