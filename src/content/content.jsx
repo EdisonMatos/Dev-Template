@@ -41,13 +41,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Regys Fernando",
+  name: "Dra. Michelle Florentino",
   email: "contato", // Email desejado pelo cliente
-  domain: "regysadvogado.com.br", // Sem "www"
+  domain: "michelleflorentino.adv.br", // Sem "www"
   phone: {
-    ddd: "65",
-    firstPart: "98106", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3486", // Apenas os 4 últimos números
+    ddd: "16",
+    firstPart: "99400", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8601", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -65,7 +65,7 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "advmichelleflorentino", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -375,25 +375,24 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso recuperar meu veículo apreendido?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "A recuperação de um veículo apreendido depende de diversos fatores, incluindo o motivo da apreensão e a documentação disponível. Agende uma consulta para uma análise detalhada do seu caso.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question:
-            "O que acontece se eu não pagar as parcelas do financiamento do meu veículo?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Em caso de inadimplência, o banco pode iniciar um processo de busca e apreensão do veículo. É importante agir rapidamente para negociar ou buscar soluções legais.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "Quanto tempo leva para recuperar um veículo apreendido?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "O tempo varia conforme a complexidade do caso e o andamento do processo judicial. Durante a consulta, podemos fornecer uma estimativa baseada na experiência em casos semelhantes.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Posso evitar a busca e apreensão do meu veículo?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Sim, em alguns casos é possível negociar com o credor antes que o processo de apreensão seja iniciado. Nossa equipe pode ajudar a buscar soluções para evitar a perda do veículo.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
