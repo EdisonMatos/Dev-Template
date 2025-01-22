@@ -17,7 +17,6 @@ import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import WhatsChat from "../components/interactives/WhatsChat";
 import FloatingWhatsChat from "../components/interactives/FloatingWhatsChat";
 import FeaturesExtended from "../components/sections/FeaturesExtended";
-import AboutInstagramBgImg from "../components/sections/AboutInstagramBgImg";
 import Maps from "../components/sections/Maps";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
