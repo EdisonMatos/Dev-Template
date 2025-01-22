@@ -47,13 +47,14 @@ export default function Index() {
       {/* <FeaturesWithIcons /> */}
       {/* <FormAndLocation/> */}
       <About modal={true} />
-      {/* <AboutInstagram
+      <AboutInstagram
+        socialPrint={false}
         instagram={true}
-        facebook={false}
-        x={false}
+        facebook={true}
+        x={true}
         linkedin={false}
-      /> */}
-      <AboutInstagramBgImg instagram={true} facebook={true} x={true} />
+      />
+
       <Cta />
       <Steps />
       {/* <Maps /> */}
