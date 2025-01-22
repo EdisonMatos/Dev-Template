@@ -45,7 +45,7 @@ export default function Lp01() {
       <AboutParalaxeLP />
       <WhyUs />
       <CtaLP />
-      <Faq />
+      {/* <Faq /> */}
       <ContactLP />
       <FooterLP />
       {/* <LPFloatingWhatsappButton /> */}

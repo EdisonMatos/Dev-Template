@@ -6,9 +6,9 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "Regys Fernando - Recuperação de Veículos Apreendidos",
+    title: "Dra. Michelle Florentino - Garanta seu BPC/LOAS",
     description:
-      "Busca e Apreensão de Veículos, Recuperação de Veículos Apreendidos, Defesa de Veículos Apreendidos, Advogado para Recuperação de Veículos, Veículo Apreendido, Recuperação de Bem Apreendido, Advogado de Busca e Apreensão, Ações de Busca e Apreensão, Processo de Recuperação de Veículos, Defesa Patrimonial, Reverter Apreensão de Veículo, Advogado para Veículo Apreendido, Recuperação Rápida de Veículos, Reverter Busca e Apreensão, Proteção de Veículo, Ajuda Jurídica para Apreensão de Veículo, Advogado Especializado em Recuperação de Veículos, Recuperação Judicial de Veículos, Soluções Jurídicas para Apreensão de Veículos, Consultoria Jurídica de Veículos Apreendidos, Recuperação de Carros Apreendidos.",
+      "Precisa de ajuda para garantir seu BPC/LOAS? A Dra. Michelle Florentino, especialista em direito previdenciário, oferece orientação personalizada para assegurar seus direitos. Entre em contato e conquiste o benefício que você merece.",
   },
   hero: {
     bgImg: bgImg,
@@ -19,23 +19,21 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Não deixe seu veículo{" "}
-          <span className="text-primary"> ser levado! </span> Recupere-o
-          <span className="text-primary"> antes que seja tarde </span> demais!
+          <span className="text-primary"> Qualidade de vida </span> ao seu
+          alcance com o<span className="text-primary"> BPC/LOAS! </span>
         </h1>
       ),
       subtitle:
-        "Sofreu com busca e apreensão de veículo? Nosso time de especialistas está aqui para ajudar você a recuperar seu bem com segurança e assertividade. Não perca tempo, cada minuto conta para proteger o que é seu.",
-      buttonLabel: "Recuperar meu veículo agora",
+        "Descubra como acessar o BPC/LOAS e proporcionar bem-estar para quem mais precisa. Estamos aqui para ajudar você e sua família.",
+      buttonLabel: "Quero solicitar o BPC/LOAS",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "SOLUÇÕES PARA BUSCA E APREENSÃO DE VEÍCULOS",
-      title:
-        "Descubra se você pode evitar ou reverter a busca e apreensão do seu veículo!",
+      miniTag: "SEU DIREITO AO BPC/LOAS",
+      title: "Quem pode se qualificar?",
     },
     cards: {
       card1: {
@@ -59,9 +57,9 @@ const contentLp01 = {
             <circle cx="6" cy="5" r="3" />
           </svg>
         ),
-        title: "Proprietários com financiamento em atraso",
+        title: "Idosos em situação de risco",
         description:
-          "Se você está com parcelas do financiamento em atraso, saiba que ainda há chances de evitar a apreensão do seu veículo. Nós analisamos seu caso e agimos rapidamente para proteger seu patrimônio.",
+          "Se você ou um ente querido acima de 65 anos está em situação de vulnerabilidade social e não tem acesso à aposentadoria, o BPC/LOAS pode ser a solução para assegurar seus direitos.",
       },
       card2: {
         icon: (
@@ -83,9 +81,9 @@ const contentLp01 = {
             <circle cx="17" cy="17" r="2" />
           </svg>
         ),
-        title: "Empresas com frota financiada",
+        title: "Pessoas com deficiência ou condições graves de saúde",
         description:
-          "Empresas que dependem de sua frota para operar não podem se dar ao luxo de perder veículos. Oferecemos soluções personalizadas para evitar a busca e apreensão, garantindo a continuidade dos seus negócios.",
+          "Se você ou um membro da sua família tem uma deficiência ou uma doença grave, pode ter direito ao BPC. Realize uma avaliação e veja como garantir esse benefício.",
       },
       card3: {
         icon: (
@@ -106,9 +104,9 @@ const contentLp01 = {
             <path d="M12 17h.01" />
           </svg>
         ),
-        title: "Pessoas que já tiveram o veículo apreendido",
+        title: "Crianças no espectro autista",
         description:
-          "Se seu veículo já foi apreendido, ainda há tempo para agir. Nossa equipe especializada trabalha para recuperar o bem e reverter a situação, minimizando os danos e protegendo seus direitos.",
+          "Famílias com crianças autistas podem ter acesso ao BPC, ajudando a cobrir despesas com terapias e cuidados médicos fundamentais. Saiba mais sobre como solicitar.",
       },
       card4: {
         icon: (
@@ -129,9 +127,9 @@ const contentLp01 = {
             <path d="m9 15 2 2 4-4" />
           </svg>
         ),
-        title: "Gestores preocupados com a regularização de veículos",
+        title: "Benefício recusado ou suspenso",
         description:
-          "Gestores que desejam manter a frota em conformidade e evitar problemas futuros podem contar com nossa assessoria. Garantimos a regularização dos veículos e a segurança jurídica necessária para operar sem riscos.",
+          "Se o seu benefício foi indevidamente recusado ou suspenso, buscamos reverter a decisão e garantir que seus direitos ao BPC sejam respeitados.",
       },
     },
   },
@@ -142,27 +140,28 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "EXPERTISE EM RECUPERAÇÃO DE VEÍCULOS APREENDIDOS",
-      title: "Não perca seu veículo! Recupere-o com quem entende do assunto",
+      miniTag: "EXCELÊNCIA EM DEFESA PREVIDENCIÁRIO",
+      title: "Dedicação e eficiência",
     },
     paragraph: (
       <p>
-        Com ampla experiência em questões jurídicas relacionadas à busca e
-        apreensão, nossa equipe é especializada em reverter a apreensão de
-        veículos. <br />
-        <br /> Atuamos rapidamente para proteger seu patrimônio e garantir que
-        seus direitos sejam respeitados, oferecendo soluções eficazes e seguras.
-        Conte com a nossa expertise para recuperar seu veículo e restaurar a
-        normalidade da sua vida.
+        Compreendo que, em questões previdenciárias, a agilidade é essencial
+        para nossos clientes. Por isso, atuo de maneira rápida e estratégica,
+        sempre mantendo a excelência na qualidade. Meu compromisso é garantir
+        que seus direitos sejam protegidos com eficiência e determinação. <br />
+        <br /> Independentemente da sua necessidade previdenciária, estou aqui
+        para oferecer a melhor solução jurídica. Entre em contato com Matthäus
+        Advocacia e descubra como podemos ser fundamentais na defesa dos seus
+        direitos.
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Quero falar com a Dra. Michelle",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A MELHOR ESCOLHA",
-      title: "Por que escolher o Regys Fernando Advocacia e Consultoria?",
+      miniTag: "GARANTA SEU BPC/LOAS CONOSCO",
+      title: "Por que confiar em nós para defender seus direitos?",
     },
     cards: {
       card1: {
@@ -186,9 +185,9 @@ const contentLp01 = {
             <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
-        title: "Especialização Jurídica",
+        title: "Estratégia sob medida para seu BPC/LOAS",
         description:
-          "Com a experiência do Dr Regys Fernando, analisamos profundamente cada caso para garantir a recuperação dos seus direitos, com total conformidade legal.",
+          "Examinamos seu pedido de BPC/LOAS com atenção aos detalhes. Juntos, criaremos uma estratégia sob medida para garantir que você obtenha o benefício que merece. Conte com nosso apoio em todas as etapas do processo!",
       },
       card2: {
         icon: (
@@ -211,9 +210,9 @@ const contentLp01 = {
             <path d="M16 18v-6" />
           </svg>
         ),
-        title: "Análise Inicial",
+        title: "Plano de ação personalizado",
         description:
-          "Oferecemos uma avaliação detalhada da sua situação, sem compromisso, para ajudar a entender os próximos passos no processo de recuperação do seu veículo.",
+          "Desenvolvemos um plano de ação exclusivo para seu caso, focando em uma solução rápida e eficiente para o seu BPC/LOAS. Cada detalhe é pensado para atender suas necessidades. Estamos aqui para transformar sua situação em uma conquista.",
       },
       card3: {
         icon: (
@@ -234,9 +233,9 @@ const contentLp01 = {
             <path d="M12 7v5l4 2" />
           </svg>
         ),
-        title: "Agilidade e Transparência",
+        title: "Foco total na sua aprovação",
         description:
-          "Com uma abordagem rápida e eficiente, você receberá atualizações constantes em cada fase do processo, sem surpresas ou custos ocultos.",
+          "Nosso compromisso é garantir que seu pedido de BPC/LOAS seja aprovado. Defendemos seus direitos com dedicação em todas as etapas, cuidando de cada detalhe para alcançar o resultado que você merece.",
       },
       card4: {
         icon: (
@@ -256,20 +255,20 @@ const contentLp01 = {
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "Recuperação e Proteção",
+        title: "Confiança respaldada por experiência",
         description:
-          "O escritório Regys Fernando Advocacia e Consultoria trabalha para garantir que seu veículo seja recuperado de forma legal e segura. Conte com nossa expertise para restaurar sua tranquilidade e proteger seus bens.",
+          "Com vasta experiência em pedidos de BPC/LOAS, cuidamos do seu processo com segurança e eficiência. Estaremos ao seu lado, garantindo que seus direitos sejam respeitados e que você receba o benefício a que tem direito. Confie em nós para fazer a diferença!",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO DEIXE SEU VEÍCULO PERDIDO",
-      title: "Recupere seu veículo agora!",
-      subtitle: `Não deixe seu veículo ser levado sem lutar. Nossa equipe especializada pode ajudá-lo a reverter a apreensão e proteger seu patrimônio. A análise inicial é gratuita, então não perca tempo.`,
+      miniTag: "CHEGOU A HORA",
+      title: "Conquiste seu BPC/LOAS hoje mesmo!",
+      subtitle: `Com a Dra. Michelle Florentino, você conta com uma especialista em direito previdenciário para orientar e assegurar seu direito ao BPC/LOAS. Não deixe que dificuldades financeiras ou burocráticas impeçam você de conquistar o benefício que merece.`,
     },
-    buttonLabel: "Recuperar meu veículo agora",
+    buttonLabel: "Quero solicitar o BPC/LOAS",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
