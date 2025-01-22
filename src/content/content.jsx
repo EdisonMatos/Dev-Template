@@ -442,7 +442,7 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Fique por dentro",
+        title: "Conecte-se conosco",
         subtitle: "",
         paragraph: (
           <p>
