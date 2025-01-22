@@ -15,7 +15,7 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 export default function Hero() {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark "
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#250308] to-bgSectionDark "
       // style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
