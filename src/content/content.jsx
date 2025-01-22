@@ -41,13 +41,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Michelle Florentino",
+  name: "Pereira e Dorta | Escritório de Advocacia",
   email: "contato", // Email desejado pelo cliente
-  domain: "michelleflorentino.adv.br", // Sem "www"
+  domain: "pereiraedortaadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: "16",
-    firstPart: "99400", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8601", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "91337", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0899", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -61,14 +61,14 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 10h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advmichelleflorentino", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "pereira_e_dorta_advocacia", // Sem o @
+  facebookProfile: "profile.php?id=61572261351054",
   linkeDinProfile: "A_Definir",
-  x: "A_Definir",
+  x: "pereiraedorta",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:

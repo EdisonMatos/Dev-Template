@@ -13,7 +13,12 @@ import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 
-export default function AboutInstagramBgImg() {
+export default function AboutInstagramBgImg({
+  instagram,
+  facebook,
+  x,
+  linkedin,
+}) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -51,16 +56,11 @@ export default function AboutInstagramBgImg() {
             </Paragraphs>
           </MotionDivDownToUp>
 
-          {/* Início Botões das redes sociais */}
-
-          {/* <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
+          {instagram && (
             <MotionDivDownToUp>
               <Button
-                label="Me siga no Instagram"
-                className="w-[75%]"
-                buttonLink={content.texts.infos.instagramProfile}
-                textclassName="text-paragraph3"
-                size="small"
+                label="Siga-nos no Instagram"
+                buttonLink={content.texts.links.instagram}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -81,13 +81,13 @@ export default function AboutInstagramBgImg() {
                 }
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp>
+          )}
+
+          {facebook && (
+            <MotionDivDownToUp className="mt-[18px]">
               <Button
-                label="Me siga no Facebook"
-                className="w-[75%]"
-                buttonLink={content.texts.infos.facebookProfile}
-                textclassName="text-paragraph3"
-                size="small"
+                label="Siga-nos no Facebook"
+                buttonLink={content.texts.links.facebook}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -106,13 +106,37 @@ export default function AboutInstagramBgImg() {
                 }
               />
             </MotionDivDownToUp>
-            <MotionDivDownToUp>
+          )}
+
+          {x && (
+            <MotionDivDownToUp className="mt-[18px]">
               <Button
-                label="Me siga no Linkedin"
-                className="w-[75%]"
-                buttonLink={content.texts.infos.linkedInProfile}
-                textclassName="text-paragraph3"
-                size="small"
+                label="Siga-nos no X"
+                buttonLink={content.texts.links.x}
+                icon={
+                  <svg
+                    viewBox="0 0 21.573 19.5"
+                    version="1.1"
+                    id="svg4"
+                    width="20"
+                    height="20"
+                  >
+                    <defs id="defs8" />
+                    <path
+                      d="m 16.998462,0 h 3.308 l -7.227,8.26 8.502,11.24 h -6.657 l -5.2139994,-6.817 -5.966,6.817 H 0.43446256 L 8.1644626,10.665 0.00846256,0 H 6.8344626 l 4.7129994,6.231 z m -1.161,17.52 h 1.833 L 5.8384626,1.876 h -1.967 z"
+                      id="path2"
+                    />
+                  </svg>
+                }
+              />
+            </MotionDivDownToUp>
+          )}
+
+          {linkedin && (
+            <MotionDivDownToUp className="mt-[18px]">
+              <Button
+                label="Siga-nos no Linkedin"
+                buttonLink={content.texts.links.linkedin}
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -133,58 +157,9 @@ export default function AboutInstagramBgImg() {
                 }
               />
             </MotionDivDownToUp>
-          </div> */}
-
-          {/* Fim Botões das redes sociais */}
-
-          {/* Início Botão de saiba mais abrindo modal */}
-
-          <MotionDivDownToUp>
-            <Button
-              label="Siga-me no Instagram"
-              buttonLink={content.texts.links.instagram}
-              icon={
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-instagram"
-                >
-                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                </svg>
-              }
-            />
-          </MotionDivDownToUp>
-
-          {/* Fim Botão de saiba mais abrindo modal */}
+          )}
         </div>
       </SectionWrapper>
-
-      {/* Início de shape div 
-
-      <div class="custom-shape-divider-bottom-1722451194 mt-[64px] desktop1:mt-[96px]">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
-
-              Fim de shape div */}
     </SectionArea>
   );
 }

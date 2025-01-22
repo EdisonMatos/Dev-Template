@@ -52,7 +52,7 @@ export default function Index() {
         x={false}
         linkedin={false}
       /> */}
-      <AboutInstagramBgImg />
+      <AboutInstagramBgImg instagram={true} facebook={true} x={true} />
       <Cta />
       <Steps />
       {/* <Maps /> */}
@@ -61,9 +61,9 @@ export default function Index() {
         obs={false}
         addres={false}
         instagram={true}
-        facebook={false}
+        facebook={true}
         linkedin={false}
-        x={false}
+        x={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
