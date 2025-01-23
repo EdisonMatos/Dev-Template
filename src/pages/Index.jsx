@@ -43,25 +43,25 @@ export default function Index() {
       <Features6cards />
       <FeatureModalWithCards />
       <FeaturesParagraphs />
-      <About modal={true} />
+      <About modal={false} />
       <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={true}
-        x={true}
         linkedin={false}
+        x={true}
       />
       <Cta />
       <Steps />
       {/* <Maps /> */}
       <Faq />
       <FooterSocial
-        obs={false}
         addres={false}
         instagram={true}
         facebook={true}
         linkedin={false}
         x={true}
+        obs={false}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

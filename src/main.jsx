@@ -1,5 +1,5 @@
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ReactDOM from "react-dom";
 import Index from "./pages/Index.jsx";
 
 import "./index.css";
