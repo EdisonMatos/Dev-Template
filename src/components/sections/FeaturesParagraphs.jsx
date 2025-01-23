@@ -14,7 +14,7 @@ import MoreFeaturesModal from "./MoreFeaturesModal";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
 
-export default function FeaturesExtended({ modal }) {
+export default function FeaturesParagraphs({ modal }) {
   return (
     <div>
       <SectionArea id="service" className="squares">

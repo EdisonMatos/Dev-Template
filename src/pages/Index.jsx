@@ -11,13 +11,13 @@ import FooterSocial from "../components/sections/FooterSocial";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FeaturesButton from "../components/sections/FeaturesButton";
-import FeaturesResumed from "../components/sections/FeaturesResumed";
 import FormAndLocation from "../components/sections/FormAndLocation";
-import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import WhatsChat from "../components/interactives/WhatsChat";
 import FloatingWhatsChat from "../components/interactives/FloatingWhatsChat";
-import FeaturesExtended from "../components/sections/FeaturesExtended";
 import Maps from "../components/sections/Maps";
+import FeatureModalWithCards from "../components/sections/FeatureModalWithCards";
+import Features6cards from "../components/sections/Features6cards";
+import FeaturesParagraphs from "../components/sections/FeaturesParagraphs";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -39,21 +39,18 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      <FeaturesResumed />
-      {/* <Features modal={false} /> */}
-      {/* <FeaturesExtended /> */}
-      {/* <FeaturesResumed /> */}
-      {/* <FeaturesWithIcons /> */}
-      {/* <FormAndLocation/> */}
+      <Features modal={true} />
+      <Features6cards />
+      <FeatureModalWithCards />
+      <FeaturesParagraphs />
       <About modal={true} />
       <AboutInstagram
-        socialPrint={false}
+        socialPrint={true}
         instagram={true}
         facebook={true}
         x={true}
         linkedin={false}
       />
-
       <Cta />
       <Steps />
       {/* <Maps /> */}
