@@ -39,7 +39,7 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      <Features modal={true} />
+      <Features />
       <Features6cards />
       <FeatureModalWithCards />
       <FeaturesParagraphs />
