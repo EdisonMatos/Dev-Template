@@ -40,16 +40,16 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero />
       <Features />
-      <Features6cards />
+      {/* <Features6cards />
       <FeatureModalWithCards />
-      <FeaturesParagraphs />
+      <FeaturesParagraphs /> */}
       <About modal={false} />
       <AboutInstagram
         socialPrint={false}
         instagram={true}
-        facebook={true}
+        facebook={false}
         linkedin={false}
-        x={true}
+        x={false}
       />
       <Cta />
       <Steps />
@@ -58,9 +58,9 @@ export default function Index() {
       <FooterSocial
         addres={false}
         instagram={true}
-        facebook={true}
+        facebook={false}
         linkedin={false}
-        x={true}
+        x={false}
         obs={false}
       />
       <FloatingWhatsappButton />

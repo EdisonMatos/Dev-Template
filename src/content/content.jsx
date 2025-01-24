@@ -42,31 +42,31 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Nogueira Oliveira Escritório de Advocacia",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "nogueiraoliveira.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "84",
+    firstPart: "99449", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1605", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua dos Potiguares, nº 2323</p>
+      <p>Bairro Lagoa Nova Natal - RN</p>
+      <p>CEP 59063-450</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "adv.previdenc", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -93,14 +93,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM NATAL - RN",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Transforme seu problema com nossa
+          <span className="text-primary"> solução jurídica</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com 15 anos de experiência e especializações, lutamos pela solução que você merece.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
