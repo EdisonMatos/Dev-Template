@@ -14,7 +14,10 @@ import MoreFeaturesModal from "./MoreFeaturesModal";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
 
-export default function FeaturesParagraphs({ modal }) {
+export default function FeaturesParagraphs({ modal, paragraphs }) {
+  if (!paragraphs) return null; // Retorna null se paragraphs for false, impedindo a renderização
+
+  
   return (
     <div>
       <SectionArea id="service" className="squares">
