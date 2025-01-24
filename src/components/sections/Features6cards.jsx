@@ -13,7 +13,9 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import MoreFeaturesModal from "./MoreFeaturesModal";
 import "../../index.css";
 
-export default function FeaturesResumed({ modal }) {
+export default function Features6cards({ modal }) {
+  
+  
   return (
     <div>
       <SectionArea id="service" className="squares">

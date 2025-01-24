@@ -1,13 +1,6 @@
-import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import content from "../../content/content";
-import bgHeroImg from "../../assets/imgs/hero/bgHeroPattern.png";
 import Button from "../interactives/Button";
-import imgAppStore from "../../assets/imgs/hero/appStore.png";
-import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import SectionArea from "../sectionElements/SectionArea";
-import imgPoints from "../../assets/imgs/about/points.png";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
@@ -16,7 +9,6 @@ export default function Hero() {
   return (
     <div
       className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark "
-      // style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
@@ -26,7 +18,7 @@ export default function Hero() {
             <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               <MotionDivDownToUp>
                 <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
-                  <p className="mb-[16px] bg-black bg-opacity-30 text-white rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                  <p className="mb-[16px] bg-primary bg-opacity-100 text-black rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
                     {content.texts.hero.miniTag}
                   </p>
                 </div>
@@ -65,46 +57,9 @@ export default function Hero() {
                   </div>
                 </MotionDivDownToUp>
               </div>
-              {/* <div className="">
-                <MotionDivLeftToRight>
-                  <p className="mb-[20px]">Baixe nosso app:</p>
-                  <div className="">
-                    {" "}
-                    <div className="flex items-start gap-[20px]">
-                      <a
-                        href="#"
-                        target="_blank"
-                        className="transition hover:scale-110"
-                      >
-                        <img
-                          src={imgAppStore}
-                          alt="Botão para a App Store"
-                          className=""
-                        />
-                      </a>
-                      <a
-                        href="#"
-                        target="_blank"
-                        className="transition hover:scale-110"
-                      >
-                        <img
-                          src={imgGooglePlay}
-                          alt="Botão para a Google Play"
-                          className=""
-                        />
-                      </a> 
-                    </div>
-                  </div>
-                </MotionDivLeftToRight>
-              </div> */}
             </div>
             <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
               <MotionDivDownToUp className="relative flex justify-end w-full ">
-                {/* <img
-                  src={imgLaw}
-                  alt="Foto de itens do direito"
-                  className="bg-red-500 "
-                /> */}
                 <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-black/30"
                   style={{
@@ -112,32 +67,11 @@ export default function Hero() {
                     backgroundSize: "",
                   }}
                 ></div>
-                {/* <img
-                  src={imgPoints}
-                  alt="Imagem de efeito pontilhado"
-                  className="absolute opacity-5 right-[-15px] top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
-                ></img> */}
               </MotionDivDownToUp>
             </div>
           </div>
         </div>
       </div>
-
-      {/* <div className="bg-black bg-opacity-0">
-        <div class="custom-shape-divider-bottom-1720203688">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
-          </svg>
-        </div>
-      </div> */}
     </div>
   );
 }

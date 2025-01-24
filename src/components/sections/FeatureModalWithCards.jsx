@@ -10,7 +10,10 @@ import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 
-export default function FeaturesWithIcons() {
+export default function FeatureModalWithCards({modalWithCards}) {
+  if (!modalWithCards) return null; // Retorna null se default for false, impedindo a renderização
+
+ 
   return (
     <SectionArea id="service" className="squares">
       <SectionHeader

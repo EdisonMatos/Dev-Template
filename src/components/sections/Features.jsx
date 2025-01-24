@@ -13,7 +13,10 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import MoreFeaturesModal from "./MoreFeaturesModal";
 import "../../index.css";
 
-export default function Features({ modal }) {
+export default function Features({ modal, defaultFeature }) {
+  if (!defaultFeature) return null; // Retorna null se default for false, impedindo a renderização
+
+
   return (
     <div>
       <SectionArea id="service" className="squares">

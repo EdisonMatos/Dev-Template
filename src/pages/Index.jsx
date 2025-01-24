@@ -11,14 +11,13 @@ import FooterSocial from "../components/sections/FooterSocial";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FeaturesButton from "../components/sections/FeaturesButton";
-import FeaturesResumed from "../components/sections/FeaturesResumed";
 import FormAndLocation from "../components/sections/FormAndLocation";
-import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import WhatsChat from "../components/interactives/WhatsChat";
 import FloatingWhatsChat from "../components/interactives/FloatingWhatsChat";
-import FeaturesExtended from "../components/sections/FeaturesExtended";
-import AboutInstagramBgImg from "../components/sections/AboutInstagramBgImg";
 import Maps from "../components/sections/Maps";
+import FeatureModalWithCards from "../components/sections/FeatureModalWithCards";
+import Features6cards from "../components/sections/Features6cards";
+import FeaturesParagraphs from "../components/sections/FeaturesParagraphs";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -40,30 +39,29 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      <Features modal={false} />
-      {/* <FeaturesExtended /> */}
-      {/* <FeaturesResumed /> */}
-      {/* <FeaturesWithIcons /> */}
-      {/* <FormAndLocation/> */}
+      <Features defaultFeature={false}/>
+      <Features6cards />
+      <FeatureModalWithCards modalWithCards={true} />
+      <FeaturesParagraphs />
       <About modal={true} />
-      {/* <AboutInstagram
+      <AboutInstagram
+        socialPrint={false}
         instagram={true}
         facebook={false}
-        x={false}
         linkedin={false}
-      /> */}
-      <AboutInstagramBgImg />
+        x={false}
+      />
       <Cta />
       <Steps />
       {/* <Maps /> */}
       <Faq />
       <FooterSocial
-        obs={false}
         addres={false}
         instagram={true}
         facebook={false}
         linkedin={false}
         x={false}
+        obs={false}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

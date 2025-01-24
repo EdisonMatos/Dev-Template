@@ -6,7 +6,8 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.jpg";
+import aboutSocialPrint from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -41,31 +42,31 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Regys Fernando",
+  name: "Nogueira Oliveira Escritório de Advocacia",
   email: "contato", // Email desejado pelo cliente
-  domain: "regysadvogado.com.br", // Sem "www"
+  domain: "nogueiraoliveira.com.br", // Sem "www"
   phone: {
-    ddd: "65",
-    firstPart: "98106", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3486", // Apenas os 4 últimos números
+    ddd: "84",
+    firstPart: "99449", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1605", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua dos Potiguares, nº 2323</p>
+      <p>Bairro Lagoa Nova Natal - RN</p>
+      <p>CEP 59063-450</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "adv.previdenc", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -92,14 +93,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM NATAL - RN",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Transforme seu problema com nossa
+          <span className="text-primary"> solução jurídica</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com 15 anos de experiência e especializações, lutamos pela solução que você merece.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -147,15 +149,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Soluções jurídicas para todas as suas necessidades",
+      subtitle:
+        "Com expertise em foco previdenciário, garantimos sua segurança legal.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Previdenciário",
+        subtitle:
+          "Apoio completo em questões de aposentadoria e benefícios (INSS).",
         description: (
           <div>
             A_Definir
@@ -170,11 +174,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hourglass"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -182,8 +193,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Servidor",
+        subtitle: "Recupere FGTS e IRPF: direitos garantidos ao servidor.",
         description: (
           <div>
             A_Definir
@@ -198,11 +209,21 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-building-2"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+            <path d="M10 6h4" />
+            <path d="M10 10h4" />
+            <path d="M10 14h4" />
+            <path d="M10 18h4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -210,8 +231,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Licitações e Contratos Públicos",
+        subtitle:
+          "Assessoria jurídica para empresas e órgãos em processos licitatórios.",
         description: (
           <div>
             A_Definir <br />
@@ -220,6 +242,78 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-text"
+          >
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: featuresImg4,
+        title: "Direito Cível",
+        subtitle:
+          "Protegemos seus interesses em questões contratuais e cíveis.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            A_Definir
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card5: {
+        img: featuresImg4,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            A_Definir
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -235,7 +329,7 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card4: {
+      card6: {
         img: featuresImg4,
         title: "A_Definir",
         subtitle: "A_Definir",
@@ -286,29 +380,61 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "CONHEÇA A NOGUEIRA OLIVEIRA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Com 15 anos de experiência, unimos conhecimento jurídico e dedicação para proteger seus direitos.",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          A Nogueira Oliveira é um escritório com 15 anos de sólida trajetória
+          no campo jurídico, formado por profissionais altamente qualificados e
+          dedicados à proteção dos direitos de seus clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A Nogueira Oliveira é um escritório com 15 anos de sólida trajetória
+          no campo jurídico, formado por profissionais altamente qualificados e
+          dedicados à proteção dos direitos de seus clientes.
           <br />
           <br />
-          A_Definir
+          Especializados em Direito Tributário, Constitucional e Imobiliário,
+          nossa equipe é composta por advogados comprometidos com a excelência,
+          a ética e a busca constante pela solução mais eficaz para cada caso.
           <br />
           <br />
-          A_Definir
+          Fundada por Dr. Marcus Sobrinho, bacharel em Direito pela Universidade
+          Potiguar, com especialização em Direito Tributário e Constitucional, e
+          Dra. Thássia Nogueira, também graduada pela mesma universidade e com
+          especialização em Direito Imobiliário e Direito dos Contratos, a
+          Nogueira Oliveira é reconhecida por sua experiência e pelo seu
+          compromisso com a justiça.
           <br />
           <br />
-          A_Definir
+          A equipe do escritório é composta por profissionais com uma visão
+          multidisciplinar e uma abordagem personalizada para cada cliente. A
+          Dra. Thássia, além de sua experiência acadêmica, atuou como Assessora
+          Jurídica de Licitações e Contratos na Câmara Municipal de Natal,
+          trazendo uma perspectiva estratégica única em questões contratuais e
+          de governança.
+          <br />
+          <br />
+          Já o Dr. Marcus, com vasta experiência em Direito Tributário, é um
+          especialista na defesa de interesses em disputas fiscais e
+          tributárias, sempre buscando soluções criativas e eficazes.
+          <br />
+          <br />
+          Nosso time é formado por advogados especializados, com um compromisso
+          constante em se atualizar nas áreas do Direito em que atuam,
+          garantindo assim um atendimento de altíssimo nível.
+          <br />
+          <br />
+          Trabalhamos com dedicação e paixão para oferecer a melhor defesa,
+          buscando sempre soluções rápidas, justas e eficientes. Na Nogueira
+          Oliveira, cada caso é tratado com a atenção e a importância que ele
+          merece, porque acreditamos que o sucesso de nossos clientes é o nosso
+          maior objetivo.
           <br />
           <br />
         </p>
@@ -319,12 +445,19 @@ const content = {
       aboutSocial: {
         img: {
           img: aboutSocialImg,
+          imgPrint: aboutSocialPrint,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle: "",
+        paragraph: (
+          <p>
+            Fique por dentro das atualizações mais importantes e aproveite
+            nossas redes sociais para mantermos contato. Estamos sempre por
+            aqui, compartilhando o que faz a diferença.
+          </p>
+        ),
       },
     },
     cta: {
@@ -347,25 +480,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Procedimento eficaz",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
@@ -375,25 +508,24 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso recuperar meu veículo apreendido?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "A recuperação de um veículo apreendido depende de diversos fatores, incluindo o motivo da apreensão e a documentação disponível. Agende uma consulta para uma análise detalhada do seu caso.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question:
-            "O que acontece se eu não pagar as parcelas do financiamento do meu veículo?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Em caso de inadimplência, o banco pode iniciar um processo de busca e apreensão do veículo. É importante agir rapidamente para negociar ou buscar soluções legais.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "Quanto tempo leva para recuperar um veículo apreendido?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "O tempo varia conforme a complexidade do caso e o andamento do processo judicial. Durante a consulta, podemos fornecer uma estimativa baseada na experiência em casos semelhantes.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Posso evitar a busca e apreensão do meu veículo?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Sim, em alguns casos é possível negociar com o credor antes que o processo de apreensão seja iniciado. Nossa equipe pode ajudar a buscar soluções para evitar a perda do veículo.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
