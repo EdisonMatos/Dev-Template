@@ -10,8 +10,7 @@ import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 
-export default function FeatureModalWithCards({modalWithCards}) {
-  if (!modalWithCards) return null; // Retorna null se default for false, impedindo a renderização
+export default function FeatureModalWithCards() {
 
  
   return (

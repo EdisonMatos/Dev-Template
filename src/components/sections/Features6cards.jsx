@@ -13,8 +13,7 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import MoreFeaturesModal from "./MoreFeaturesModal";
 import "../../index.css";
 
-export default function Features6cards({ modal, sixCards }) {
-  if (!sixCards) return null; // Retorna null se sixCards for false, impedindo a renderização
+export default function Features6cards({ modal }) {
 
   
   return (

@@ -14,8 +14,7 @@ import MoreFeaturesModal from "./MoreFeaturesModal";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
 
-export default function FeaturesParagraphs({ modal, paragraphs }) {
-  if (!paragraphs) return null; // Retorna null se paragraphs for false, impedindo a renderização
+export default function FeaturesParagraphs({ modal }) {
 
   
   return (
