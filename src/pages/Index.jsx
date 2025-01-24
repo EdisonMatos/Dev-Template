@@ -43,7 +43,7 @@ export default function Index() {
       {/* <Features6cards />
       <FeatureModalWithCards />
       <FeaturesParagraphs /> */}
-      <About modal={false} />
+      <About modal={true} />
       <AboutInstagram
         socialPrint={false}
         instagram={true}
