@@ -40,9 +40,7 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero />
       <Features defaultFeature={true}/>
-      {/* <Features6cards />
-      <FeatureModalWithCards />
-      <FeaturesParagraphs /> */}
+        
       <About modal={true} />
       <AboutInstagram
         socialPrint={false}
