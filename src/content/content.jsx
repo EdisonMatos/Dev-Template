@@ -6,8 +6,8 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.jpg";
-import aboutSocialPrint from "../assets/imgs/about/aboutSocial.png";
+import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
@@ -42,31 +42,32 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Nogueira Oliveira Escritório de Advocacia",
+  name: "Dr. Thiago Soares",
   email: "contato", // Email desejado pelo cliente
-  domain: "nogueiraoliveira.com.br", // Sem "www"
+  domain: "thiagosoaresadv.com.br", // Sem "www"
   phone: {
-    ddd: "84",
-    firstPart: "99449", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1605", // Apenas os 4 últimos números
+    ddd: "95",
+    firstPart: "98106", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4824", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua dos Potiguares, nº 2323</p>
-      <p>Bairro Lagoa Nova Natal - RN</p>
-      <p>CEP 59063-450</p>
+      <p>Avenida Ville Roy, nº 2478/A</p>
+      <p>Bairro Caçari, Boa Vista - RR</p>
+      <p>CEP: 69307-725</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 18h</p>
+      <p>Das 8h às 12h</p>
+      <p>Das 14h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "adv.previdenc", // Sem o @
+  instagramProfile: "thiagosoarest", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -93,15 +94,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM NATAL - RN",
+      miniTag: "ADVOGADO EM BOA VISTA - RR",
       title: (
         <h1 className="mb-[16px]">
-          Transforme seu problema com nossa
-          <span className="text-primary"> solução jurídica</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
       subtitle:
-        "Com 15 anos de experiência e especializações, lutamos pela solução que você merece.",
+        "Com sólida experiência, o Dr. Thiago Soares oferece soluções jurídicas claras, justas e eficazes para sua segurança e tranquilidade.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -150,16 +151,14 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Soluções jurídicas para todas as suas necessidades",
-      subtitle:
-        "Com expertise em foco previdenciário, garantimos sua segurança legal.",
+      title: "Nosso Compromisso com seu direito",
+      subtitle: "Assessoria jurídica completa para todas as suas necessidades",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
-        subtitle:
-          "Apoio completo em questões de aposentadoria e benefícios (INSS).",
+        title: "Direito de Família e Sucessões",
+        subtitle: "Soluções legais para divórcios e inventários com cuidado.",
         description: (
           <div>
             A_Definir
@@ -180,12 +179,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hourglass"
+            class="lucide lucide-network"
           >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -193,8 +193,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Servidor",
-        subtitle: "Recupere FGTS e IRPF: direitos garantidos ao servidor.",
+        title: "Direito do Consumidor",
+        subtitle: "Defenda seus direitos contra abusos e práticas ilegais.",
         description: (
           <div>
             A_Definir
@@ -215,15 +215,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-building-2"
+            class="lucide lucide-tag"
           >
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
-            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
-            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
-            <path d="M10 6h4" />
-            <path d="M10 10h4" />
-            <path d="M10 14h4" />
-            <path d="M10 18h4" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -231,9 +226,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Licitações e Contratos Públicos",
-        subtitle:
-          "Assessoria jurídica para empresas e órgãos em processos licitatórios.",
+        title: "Direito Público e Administrativo",
+        subtitle: "Assessoria jurídica em questões administrativas e públicas.",
         description: (
           <div>
             A_Definir <br />
@@ -253,13 +247,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-text"
+            class="lucide lucide-scroll"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
+            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -267,9 +258,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Cível",
-        subtitle:
-          "Protegemos seus interesses em questões contratuais e cíveis.",
+        title: "Direito Empresarial, Tributário e Imobiliário",
+        subtitle: "Consultoria completa para sua empresa e patrimônio.",
         description: (
           <div>
             A_Definir
@@ -290,12 +280,15 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-building-2"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+            <path d="M10 6h4" />
+            <path d="M10 10h4" />
+            <path d="M10 14h4" />
+            <path d="M10 18h4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -380,61 +373,52 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "CONHEÇA A NOGUEIRA OLIVEIRA",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É O DR THIAGO SOARES",
+      title: "Minha trajetória",
       subtitle:
-        "Com 15 anos de experiência, unimos conhecimento jurídico e dedicação para proteger seus direitos.",
+        "De servidor a advogado, sempre em busca de justiça e ética no Direito.",
       paragraph: (
         <div>
-          A Nogueira Oliveira é um escritório com 15 anos de sólida trajetória
-          no campo jurídico, formado por profissionais altamente qualificados e
-          dedicados à proteção dos direitos de seus clientes.
+          Minha jornada no Direito começou em 2009, quando fui aprovado para o
+          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
+          sobre o funcionamento da justiça e do sistema jurídico de perto.
+          <br />
+          Durante esse período, percebi que o que realmente me motivava era a
+          prática da advocacia, o contato direto com as pessoas e a chance de
+          fazer a diferença em suas vidas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Nogueira Oliveira é um escritório com 15 anos de sólida trajetória
-          no campo jurídico, formado por profissionais altamente qualificados e
-          dedicados à proteção dos direitos de seus clientes.
+          Minha jornada no Direito começou em 2009, quando fui aprovado para o
+          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
+          sobre o funcionamento da justiça e do sistema jurídico de perto.
           <br />
           <br />
-          Especializados em Direito Tributário, Constitucional e Imobiliário,
-          nossa equipe é composta por advogados comprometidos com a excelência,
-          a ética e a busca constante pela solução mais eficaz para cada caso.
+          Durante esse período, percebi que o que realmente me motivava era a
+          prática da advocacia, o contato direto com as pessoas e a chance de
+          fazer a diferença em suas vidas.
           <br />
           <br />
-          Fundada por Dr. Marcus Sobrinho, bacharel em Direito pela Universidade
-          Potiguar, com especialização em Direito Tributário e Constitucional, e
-          Dra. Thássia Nogueira, também graduada pela mesma universidade e com
-          especialização em Direito Imobiliário e Direito dos Contratos, a
-          Nogueira Oliveira é reconhecida por sua experiência e pelo seu
-          compromisso com a justiça.
+          Em agosto de 2012, alcancei um marco importante na minha carreira: fui
+          aprovado em um concurso federal para o INSS, o que me permitiu, além
+          de continuar com meu trabalho como servidor público, também advogar.
           <br />
           <br />
-          A equipe do escritório é composta por profissionais com uma visão
-          multidisciplinar e uma abordagem personalizada para cada cliente. A
-          Dra. Thássia, além de sua experiência acadêmica, atuou como Assessora
-          Jurídica de Licitações e Contratos na Câmara Municipal de Natal,
-          trazendo uma perspectiva estratégica única em questões contratuais e
-          de governança.
+          Esse concurso me deu a possibilidade de conciliar ambas as funções,
+          algo que sempre foi essencial para mim, pois acredito que cada uma
+          delas contribui para minha visão mais ampla do Direito.
           <br />
           <br />
-          Já o Dr. Marcus, com vasta experiência em Direito Tributário, é um
-          especialista na defesa de interesses em disputas fiscais e
-          tributárias, sempre buscando soluções criativas e eficazes.
+          Desde então, venho atuando como advogado, sempre focado em princípios
+          de justiça, ética e respeito ao próximo.
           <br />
           <br />
-          Nosso time é formado por advogados especializados, com um compromisso
-          constante em se atualizar nas áreas do Direito em que atuam,
-          garantindo assim um atendimento de altíssimo nível.
-          <br />
-          <br />
-          Trabalhamos com dedicação e paixão para oferecer a melhor defesa,
-          buscando sempre soluções rápidas, justas e eficientes. Na Nogueira
-          Oliveira, cada caso é tratado com a atenção e a importância que ele
-          merece, porque acreditamos que o sucesso de nossos clientes é o nosso
-          maior objetivo.
+          Para mim, o Direito é mais do que uma profissão, é uma forma de
+          contribuir para uma sociedade mais justa e igualitária, buscando a
+          melhor solução para cada cliente, com dedicação e transparência em
+          todas as etapas.
           <br />
           <br />
         </p>
@@ -444,8 +428,8 @@ const content = {
 
       aboutSocial: {
         img: {
-          img: aboutSocialImg,
-          imgPrint: aboutSocialPrint,
+          img: aboutSocial,
+          imgPrint: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
@@ -480,25 +464,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Procedimento eficaz",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },
