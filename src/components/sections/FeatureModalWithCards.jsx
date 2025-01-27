@@ -11,6 +11,8 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 
 export default function FeatureModalWithCards() {
+
+ 
   return (
     <SectionArea id="service" className="squares">
       <SectionHeader

@@ -14,6 +14,9 @@ import MoreFeaturesModal from "./MoreFeaturesModal";
 import "../../index.css";
 
 export default function Features6cards({ modal }) {
+
+  
+
   return (
     <div>
       <SectionArea id="service" className="squares">
