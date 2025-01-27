@@ -80,9 +80,11 @@ export default function About({ modal }) {
             type="article"
           />
           <MotionDivDownToUp>
-            <Paragraphs className="text-white text-opacity-80">
-              <AboutFading />
-            </Paragraphs>
+            {modal && (
+              <Paragraphs className="text-white text-opacity-80">
+                <AboutFading />
+              </Paragraphs>
+            )}
             {/* Início Botão de saiba mais abrindo modal */}
 
             {modal && (
