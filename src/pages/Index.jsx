@@ -26,7 +26,7 @@ export default function Index() {
       />
       <About modal={true} />
       <AboutInstagram
-        socialPrint={false}
+        socialPrint={true}
         instagram={true}
         facebook={false}
         linkedin={false}
