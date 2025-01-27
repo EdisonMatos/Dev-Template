@@ -94,7 +94,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM BOA VISTA - RR",
       title: (
         <h1 className="mb-[16px]">
           A_Definir
@@ -373,29 +373,52 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR THIAGO SOARES",
+      title: "Minha trajetória",
+      subtitle:
+        "De servidor a advogado, sempre em busca de justiça e ética no Direito.",
       paragraph: (
         <div>
-          A_Definir
+          Minha jornada no Direito começou em 2009, quando fui aprovado para o
+          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
+          sobre o funcionamento da justiça e do sistema jurídico de perto.
           <br />
-          A_Definir
+          Durante esse período, percebi que o que realmente me motivava era a
+          prática da advocacia, o contato direto com as pessoas e a chance de
+          fazer a diferença em suas vidas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha jornada no Direito começou em 2009, quando fui aprovado para o
+          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
+          sobre o funcionamento da justiça e do sistema jurídico de perto.
           <br />
           <br />
-          A_Definir
+          Durante esse período, percebi que o que realmente me motivava era a
+          prática da advocacia, o contato direto com as pessoas e a chance de
+          fazer a diferença em suas vidas.
           <br />
           <br />
-          A_Definir
+          Em agosto de 2012, alcancei um marco importante na minha carreira: fui
+          aprovado em um concurso federal para o INSS, o que me permitiu, além
+          de continuar com meu trabalho como servidor público, também advogar.
           <br />
           <br />
-          A_Definir
+          Esse concurso me deu a possibilidade de conciliar ambas as funções,
+          algo que sempre foi essencial para mim, pois acredito que cada uma
+          delas contribui para minha visão mais ampla do Direito.
+          <br />
+          <br />
+          Desde então, venho atuando como advogado, sempre focado em princípios
+          de justiça, ética e respeito ao próximo.
+          <br />
+          <br />
+          Para mim, o Direito é mais do que uma profissão, é uma forma de
+          contribuir para uma sociedade mais justa e igualitária, buscando a
+          melhor solução para cada cliente, com dedicação e transparência em
+          todas as etapas.
           <br />
           <br />
         </p>
