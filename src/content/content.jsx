@@ -17,14 +17,15 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
-import imgFeaturesCardModal1 from "../assets/imgs/features/featuresImg1.png";
-import imgFeaturesCardModal2 from "../assets/imgs/features/featuresImg2.png";
-import imgFeaturesCardModal3 from "../assets/imgs/features/featuresImg3.png";
-import imgFeaturesCardModal4 from "../assets/imgs/features/featuresImg4.png";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+
+import imgFeaturesCardModal1 from "../assets/imgs/features/featuresImg1.jpg";
+import imgFeaturesCardModal2 from "../assets/imgs/features/featuresImg2.jpg";
+import imgFeaturesCardModal3 from "../assets/imgs/features/featuresImg3.jpg";
+import imgFeaturesCardModal4 from "../assets/imgs/features/featuresImg4.jpg";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -37,37 +38,35 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
-import { FaWhatsapp} from "react-icons/fa";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Thiago Soares",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "thiagosoaresadv.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "95",
-    firstPart: "98106", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4824", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Ville Roy, nº 2478/A</p>
-      <p>Bairro Caçari, Boa Vista - RR</p>
-      <p>CEP: 69307-725</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 12h</p>
-      <p>Das 14h às 18h</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "thiagosoarest", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -94,15 +93,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM BOA VISTA - RR",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
           A_Definir
           <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Com sólida experiência, o Dr. Thiago Soares oferece soluções jurídicas claras, justas e eficazes para sua segurança e tranquilidade.",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -264,8 +262,9 @@ const content = {
             em disputas, incluindo arbitragens, litígios e negociações.
             <br />
             <br />
-            <strong>Representação em Eventos:</strong> Representação do atleta em eventos, incluindo competições,
-            cerimônias de premiação e outros eventos públicos
+            <strong>Representação em Eventos:</strong> Representação do atleta
+            em eventos, incluindo competições, cerimônias de premiação e outros
+            eventos públicos
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -415,52 +414,29 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR THIAGO SOARES",
-      title: "Minha trajetória",
-      subtitle:
-        "De servidor a advogado, sempre em busca de justiça e ética no Direito.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          Minha jornada no Direito começou em 2009, quando fui aprovado para o
-          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
-          sobre o funcionamento da justiça e do sistema jurídico de perto.
+          A_Definir
           <br />
-          Durante esse período, percebi que o que realmente me motivava era a
-          prática da advocacia, o contato direto com as pessoas e a chance de
-          fazer a diferença em suas vidas.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha jornada no Direito começou em 2009, quando fui aprovado para o
-          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
-          sobre o funcionamento da justiça e do sistema jurídico de perto.
+          A_Definir
           <br />
           <br />
-          Durante esse período, percebi que o que realmente me motivava era a
-          prática da advocacia, o contato direto com as pessoas e a chance de
-          fazer a diferença em suas vidas.
+          A_Definir
           <br />
           <br />
-          Em agosto de 2012, alcancei um marco importante na minha carreira: fui
-          aprovado em um concurso federal para o INSS, o que me permitiu, além
-          de continuar com meu trabalho como servidor público, também advogar.
+          A_Definir
           <br />
           <br />
-          Esse concurso me deu a possibilidade de conciliar ambas as funções,
-          algo que sempre foi essencial para mim, pois acredito que cada uma
-          delas contribui para minha visão mais ampla do Direito.
-          <br />
-          <br />
-          Desde então, venho atuando como advogado, sempre focado em princípios
-          de justiça, ética e respeito ao próximo.
-          <br />
-          <br />
-          Para mim, o Direito é mais do que uma profissão, é uma forma de
-          contribuir para uma sociedade mais justa e igualitária, buscando a
-          melhor solução para cada cliente, com dedicação e transparência em
-          todas as etapas.
+          A_Definir
           <br />
           <br />
         </p>
