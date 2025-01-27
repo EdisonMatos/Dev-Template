@@ -59,7 +59,7 @@ export default function FeaturesButton() {
                         content.texts.features.card1.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
-                      bgPosition="bg-center"
+                      bgPosition="bg-top"
                     />
                   </div>
                 )
@@ -108,7 +108,7 @@ export default function FeaturesButton() {
                         content.texts.features.card3.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
-                      bgPosition="bg-center"
+                      bgPosition="bg-top"
                     />
                   </div>
                 )
@@ -134,7 +134,7 @@ export default function FeaturesButton() {
                         content.texts.features.card4.buttonLabelModal
                       }
                       buttonLink={whatsappContactLink}
-                      bgPosition="bg-center"
+                      bgPosition="bg-top"
                     />
                   </div>
                 )

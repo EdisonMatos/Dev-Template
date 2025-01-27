@@ -17,15 +17,14 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
-
-import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
-import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
+import imgFeaturesCardModal1 from "../assets/imgs/features/featuresImg1.png";
+import imgFeaturesCardModal2 from "../assets/imgs/features/featuresImg2.png";
+import imgFeaturesCardModal3 from "../assets/imgs/features/featuresImg3.png";
+import imgFeaturesCardModal4 from "../assets/imgs/features/featuresImg4.png";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -38,6 +37,7 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import { FaWhatsapp} from "react-icons/fa";
 
 const currentYear = new Date().getFullYear();
 
@@ -150,21 +150,34 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Nosso Compromisso com seu direito",
-      subtitle: "Assessoria jurídica completa para todas as suas necessidades",
+      miniTag: "NOSSOS SERVIÇOS",
+      title: "Tudo que você precisa para alcançar o sucesso",
+      subtitle:
+        "Oferecemos soluções completas para impulsionar sua carreira no mundo esportivo.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Soluções legais para divórcios e inventários com cuidado.",
+        title: "Assessoria Jurídica",
+        subtitle: "Proteção e direitos legais",
         description: (
           <div>
-            A_Definir
+            <strong>Contratos:</strong> Revisão e negociação de contratos com
+            clubes, patrocinadores, agentes e outros.
             <br />
             <br />
-            A_Definir
+            <strong>Direitos de Imagem:</strong> Proteção e gestão dos direitos
+            de imagem e marca do atleta.
+            <br />
+            <br />
+            <strong>Propriedade Intelectual:</strong> Registro e proteção de
+            marcas, patentes e direitos autorais relacionados à carreira do
+            atleta.
+            <br />
+            <br />
+            <strong>Responsabilidade Civil:</strong> Assessoria em casos de
+            responsabilidade civil, como acidentes ou danos causados durante
+            competições.
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -193,14 +206,26 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Consumidor",
-        subtitle: "Defenda seus direitos contra abusos e práticas ilegais.",
+        title: "Serviços de Gestão de Carreira",
+        subtitle: "Carreira planejada e segura",
         description: (
           <div>
-            A_Definir
+            <strong>lanejamento de Carreira:</strong> Desenvolvimento de um
+            plano de carreira personalizado, incluindo objetivos, estratégias e
+            metas.
             <br />
             <br />
-            A_Definir
+            <strong>Negociação de Contratos:</strong> Representação do atleta em
+            negociações com clubes, patrocinadores e outros.
+            <br />
+            <br />
+            <strong>Gestão de Relações Públicas:</strong> Assessoria em relações
+            públicas, incluindo gerenciamento de mídia social, entrevistas e
+            aparições públicas.
+            <br />
+            <br />
+            <strong>Planejamento Financeiro:</strong> Assessoria em planejamento
+            financeiro, incluindo gestão de renda, investimentos e impostos.
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -226,13 +251,21 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Público e Administrativo",
-        subtitle: "Assessoria jurídica em questões administrativas e públicas.",
+        title: "Serviços de Representação",
+        subtitle: "Defesa e negociações estratégicas",
         description: (
           <div>
-            A_Definir <br />
+            <strong>Representação em Negociações:</strong> Representação do
+            atleta em negociações com clubes, patrocinadores e outros
+            stakeholders.
             <br />
-            A_Definir
+            <br />
+            <strong>Representação em Disputas:</strong> Representação do atleta
+            em disputas, incluindo arbitragens, litígios e negociações.
+            <br />
+            <br />
+            <strong>Representação em Eventos:</strong> Representação do atleta em eventos, incluindo competições,
+            cerimônias de premiação e outros eventos públicos
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -258,14 +291,23 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Empresarial, Tributário e Imobiliário",
-        subtitle: "Consultoria completa para sua empresa e patrimônio.",
+        title: "Outros Serviços",
+        subtitle: "Planejamento e métodos legais",
         description: (
           <div>
-            A_Definir
+            <strong>Assessoria em Questões Legais:</strong> Assessoria em
+            questões legais relacionadas à carreira do atleta, incluindo doping,
+            lesões e outros assuntos.
             <br />
-            A_Definir
             <br />
+            <strong>Gestão de Riscos:</strong> Assessoria em gestão de riscos,
+            incluindo identificação, avaliação e mitigação de riscos
+            relacionados à carreira do atleta.
+            <br />
+            <br />
+            <strong>Desenvolvimento de Estratégias:</strong>
+            Desenvolvimento de estratégias para promover a carreira do atleta,
+            incluindo marketing, relações públicas e outras áreas.
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
