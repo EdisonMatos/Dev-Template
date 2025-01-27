@@ -18,22 +18,27 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero />
       <Features
+        defaultFeature={false}
         button={true}
+        modalWithCards={false}
+        paragraphs={false}
+        sixCards={false}
       />
+
       <About modal={true} />
-      <AboutInstagram
+      {/* <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={false}
         linkedin={false}
         x={false}
-      />
+      /> */}
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
-        addres={true}
-        instagram={true}
+        addres={false}
+        instagram={false}
         facebook={false}
         linkedin={false}
         x={false}

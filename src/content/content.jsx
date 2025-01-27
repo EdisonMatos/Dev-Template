@@ -17,14 +17,15 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg1.png";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.png";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.png";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.png";
-import imgFeaturesCardModal1 from "../assets/imgs/features/featuresImg1.png";
-import imgFeaturesCardModal2 from "../assets/imgs/features/featuresImg2.png";
-import imgFeaturesCardModal3 from "../assets/imgs/features/featuresImg3.png";
-import imgFeaturesCardModal4 from "../assets/imgs/features/featuresImg4.png";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
+import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+
+import imgFeaturesCardModal1 from "../assets/imgs/features/featuresImg1.jpg";
+import imgFeaturesCardModal2 from "../assets/imgs/features/featuresImg2.jpg";
+import imgFeaturesCardModal3 from "../assets/imgs/features/featuresImg3.jpg";
+import imgFeaturesCardModal4 from "../assets/imgs/features/featuresImg4.jpg";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -37,37 +38,35 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
-import { FaWhatsapp} from "react-icons/fa";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Thiago Soares",
+  name: "Eleitos - Gestão de Carreira de Atletas",
   email: "contato", // Email desejado pelo cliente
-  domain: "thiagosoaresadv.com.br", // Sem "www"
+  domain: "eleitosgestaodeatletas.com.br", // Sem "www"
   phone: {
-    ddd: "95",
-    firstPart: "98106", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4824", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98986", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9959", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Ville Roy, nº 2478/A</p>
-      <p>Bairro Caçari, Boa Vista - RR</p>
-      <p>CEP: 69307-725</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 12h</p>
-      <p>Das 14h às 18h</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "thiagosoarest", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -94,15 +93,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM BOA VISTA - RR",
+      miniTag: "GESTÃO DE ATLETAS EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Conquiste seu lugar
+          <span className="text-primary"> no topo </span> do futebol
         </h1>
       ),
       subtitle:
-        "Com sólida experiência, o Dr. Thiago Soares oferece soluções jurídicas claras, justas e eficazes para sua segurança e tranquilidade.",
+        "Com expertise em gestão de atletas, oferecemos estratégias personalizadas para transformar sua carreira.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -124,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento online ou presencial em escritório agendado",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -210,7 +209,7 @@ const content = {
         subtitle: "Carreira planejada e segura",
         description: (
           <div>
-            <strong>lanejamento de Carreira:</strong> Desenvolvimento de um
+            <strong>Planejamento de Carreira:</strong> Desenvolvimento de um
             plano de carreira personalizado, incluindo objetivos, estratégias e
             metas.
             <br />
@@ -264,8 +263,9 @@ const content = {
             em disputas, incluindo arbitragens, litígios e negociações.
             <br />
             <br />
-            <strong>Representação em Eventos:</strong> Representação do atleta em eventos, incluindo competições,
-            cerimônias de premiação e outros eventos públicos
+            <strong>Representação em Eventos:</strong> Representação do atleta
+            em eventos, incluindo competições, cerimônias de premiação e outros
+            eventos públicos
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -415,52 +415,66 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR THIAGO SOARES",
-      title: "Minha trajetória",
+      miniTag: "QUEM É A ELEITOS GESTÃO DE ATLETAS",
+      title: "Nossa trajetória",
       subtitle:
-        "De servidor a advogado, sempre em busca de justiça e ética no Direito.",
+        "Da paixão ao profissionalismo: construindo oportunidades no mercado do futebol.",
       paragraph: (
         <div>
-          Minha jornada no Direito começou em 2009, quando fui aprovado para o
-          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
-          sobre o funcionamento da justiça e do sistema jurídico de perto.
+          A jornada de Guilherme Miranda no futebol começou em 2015, quando, com
+          paixão e determinação, assumiu o desafio de organizar campeonatos de
+          médio porte.
           <br />
-          Durante esse período, percebi que o que realmente me motivava era a
-          prática da advocacia, o contato direto com as pessoas e a chance de
-          fazer a diferença em suas vidas.
+          Foram mais de cinco competições anuais, que não apenas revelaram
+          talentos, mas também fomentaram o amor pelo esporte em diversas
+          comunidades. Sua experiência como organizador foi apenas o início de
+          uma trajetória marcada por visão e liderança.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha jornada no Direito começou em 2009, quando fui aprovado para o
-          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
-          sobre o funcionamento da justiça e do sistema jurídico de perto.
+          A jornada de Guilherme Miranda no futebol começou em 2015, quando, com
+          paixão e determinação, assumiu o desafio de organizar campeonatos de
+          médio porte.
           <br />
           <br />
-          Durante esse período, percebi que o que realmente me motivava era a
-          prática da advocacia, o contato direto com as pessoas e a chance de
-          fazer a diferença em suas vidas.
+          Foram mais de cinco competições anuais, que não apenas revelaram
+          talentos, mas também fomentaram o amor pelo esporte em diversas
+          comunidades. Sua experiência como organizador foi apenas o início de
+          uma trajetória marcada por visão e liderança.
           <br />
           <br />
-          Em agosto de 2012, alcancei um marco importante na minha carreira: fui
-          aprovado em um concurso federal para o INSS, o que me permitiu, além
-          de continuar com meu trabalho como servidor público, também advogar.
+          Em 2017, ele fundou o Knights F.C., um projeto inovador que
+          rapidamente se destacou no cenário esportivo. Até o final de 2019, o
+          Knights F.C. foi um exemplo de como planejamento e dedicação podem
+          transformar sonhos em realidade. Após os desafios trazidos pela
+          pandemia, Guilherme não desistiu.
           <br />
           <br />
-          Esse concurso me deu a possibilidade de conciliar ambas as funções,
-          algo que sempre foi essencial para mim, pois acredito que cada uma
-          delas contribui para minha visão mais ampla do Direito.
+          Em 2021, ele revitalizou o projeto sob o nome Futebol Clube Nova
+          Geração, mostrando resiliência e comprometimento. Finalmente, em 2024,
+          o clube alcançou sua identidade definitiva como Futebol Clube Jovens
+          Eleitos, um nome que reflete propósito e estabilidade — e que veio
+          para ficar.
           <br />
           <br />
-          Desde então, venho atuando como advogado, sempre focado em princípios
-          de justiça, ética e respeito ao próximo.
+          Mas Guilherme Miranda não é apenas um gestor dedicado ao futebol. Ele
+          é também um advogado experiente, e essa combinação única de
+          conhecimentos lhe permite enxergar além das quatro linhas.
           <br />
           <br />
-          Para mim, o Direito é mais do que uma profissão, é uma forma de
-          contribuir para uma sociedade mais justa e igualitária, buscando a
-          melhor solução para cada cliente, com dedicação e transparência em
-          todas as etapas.
+          Hoje, sua missão vai além de administrar projetos: ele está
+          comprometido em ajudar atletas a realizarem o sonho de entrar no
+          mercado profissional de futebol, oferecendo suporte técnico, jurídico
+          e estratégico.
+          <br />
+          <br />
+          Com anos de experiência em organização de competições, treinamento de
+          atletas e gestão de projetos esportivos, Guilherme Miranda é um
+          exemplo de como paixão e expertise podem transformar o esporte em uma
+          plataforma de oportunidades reais. Seu objetivo é claro: ser o elo que
+          conecta sonhos ao sucesso no futebol profissional.
           <br />
           <br />
         </p>
@@ -489,10 +503,9 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      title: "Quer apoio na sua carreira no futebol? Estamos aqui para ajudar!",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Converse com nossa equipe. Oferecemos suporte completo para transformar sua carreira esportiva.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
@@ -504,27 +517,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Primeiro contato",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Agendamos uma conversa para conhecer seus objetivos e entender suas necessidades como atleta.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Análise personalizada",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Estudamos todos os detalhes da sua carreira, avaliando contratos, oportunidades e possíveis desafios.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Planejamento estratégico",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Desenvolvemos um plano completo, incluindo gestão de carreira, negociações e suporte jurídico.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Procedimento eficaz",
+          cardTitle: "Execução e acompanhamento",
           cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+            "Implementamos as estratégias definidas e acompanhamos de perto cada etapa para garantir o sucesso da sua carreira.",
         },
       },
     },
@@ -534,24 +547,25 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Quais serviços são oferecidos na gestão de carreira?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Atletas buscam entender quais áreas serão abrangidas pela empresa de gestão, como planejamento de carreira, negociação de contratos, gerenciamento de imagem, assessoria financeira e suporte jurídico. ",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Como é desenvolvido o plano de carreira personalizado?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Há interesse em saber como a empresa elabora estratégias específicas para cada atleta, incluindo definição de objetivos a curto, médio e longo prazo, além de métodos para alcançar metas estabelecidas.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question:
+            "De que forma ocorre a gestão de relacionamentos e networking?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Atletas questionam como a empresa auxilia na construção e manutenção de relacionamentos com clubes, patrocinadores, mídia e outras partes interessadas, visando ampliar oportunidades na carreira.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Quais são as qualificações e experiências dos gestores?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "É comum que atletas queiram saber sobre a formação e a experiência dos profissionais que estarão gerenciando suas carreiras, incluindo conhecimentos específicos no esporte, habilidades de negociação e histórico de sucesso na área. ",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
