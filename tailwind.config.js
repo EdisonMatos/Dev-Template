@@ -16,9 +16,9 @@ export const theme = {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
     },
     fontFamily: {
-      mainFont: ["Poppins", "sans-serif"],
+      mainFont: ["Merriweather", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Poppins", "sans-serif"],
+      secondFont: ["Merriweather", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },
