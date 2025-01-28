@@ -17,15 +17,15 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
-import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.jpg";
-import featuresImg4 from "../assets/imgs/features/featuresImg4.jpg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
+import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
-import imgFeaturesCardModal1 from "../assets/imgs/features/featuresImg1.jpg";
-import imgFeaturesCardModal2 from "../assets/imgs/features/featuresImg2.jpg";
-import imgFeaturesCardModal3 from "../assets/imgs/features/featuresImg3.jpg";
-import imgFeaturesCardModal4 from "../assets/imgs/features/featuresImg4.jpg";
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -42,13 +42,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Eleitos - Gestão de Carreira de Atletas",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "eleitosgestaodeatletas.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98986", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9959", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -62,7 +62,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 18h</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -93,15 +93,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "GESTÃO DE ATLETAS EM SÃO PAULO - SP",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Conquiste seu lugar
-          <span className="text-primary"> no topo </span> do futebol
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Com expertise em gestão de atletas, oferecemos estratégias personalizadas para transformar sua carreira.",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +122,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online ou presencial em escritório agendado",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -149,34 +148,21 @@ const content = {
       },
     },
     features: {
-      miniTag: "NOSSOS SERVIÇOS",
-      title: "Tudo que você precisa para alcançar o sucesso",
-      subtitle:
-        "Oferecemos soluções completas para impulsionar sua carreira no mundo esportivo.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Assessoria Jurídica",
-        subtitle: "Proteção e direitos legais",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            <strong>Contratos:</strong> Revisão e negociação de contratos com
-            clubes, patrocinadores, agentes e outros.
+            A_Definir
             <br />
             <br />
-            <strong>Direitos de Imagem:</strong> Proteção e gestão dos direitos
-            de imagem e marca do atleta.
-            <br />
-            <br />
-            <strong>Propriedade Intelectual:</strong> Registro e proteção de
-            marcas, patentes e direitos autorais relacionados à carreira do
-            atleta.
-            <br />
-            <br />
-            <strong>Responsabilidade Civil:</strong> Assessoria em casos de
-            responsabilidade civil, como acidentes ou danos causados durante
-            competições.
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -185,19 +171,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-network"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <rect x="16" y="16" width="6" height="6" rx="1" />
-            <rect x="2" y="16" width="6" height="6" rx="1" />
-            <rect x="9" y="2" width="6" height="6" rx="1" />
-            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-            <path d="M12 12V8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -205,26 +183,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Serviços de Gestão de Carreira",
-        subtitle: "Carreira planejada e segura",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            <strong>Planejamento de Carreira:</strong> Desenvolvimento de um
-            plano de carreira personalizado, incluindo objetivos, estratégias e
-            metas.
+            A_Definir
             <br />
             <br />
-            <strong>Negociação de Contratos:</strong> Representação do atleta em
-            negociações com clubes, patrocinadores e outros.
-            <br />
-            <br />
-            <strong>Gestão de Relações Públicas:</strong> Assessoria em relações
-            públicas, incluindo gerenciamento de mídia social, entrevistas e
-            aparições públicas.
-            <br />
-            <br />
-            <strong>Planejamento Financeiro:</strong> Assessoria em planejamento
-            financeiro, incluindo gestão de renda, investimentos e impostos.
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -233,16 +199,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-tag"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -250,22 +211,13 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Serviços de Representação",
-        subtitle: "Defesa e negociações estratégicas",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            <strong>Representação em Negociações:</strong> Representação do
-            atleta em negociações com clubes, patrocinadores e outros
-            stakeholders.
+            A_Definir <br />
             <br />
-            <br />
-            <strong>Representação em Disputas:</strong> Representação do atleta
-            em disputas, incluindo arbitragens, litígios e negociações.
-            <br />
-            <br />
-            <strong>Representação em Eventos:</strong> Representação do atleta
-            em eventos, incluindo competições, cerimônias de premiação e outros
-            eventos públicos
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -274,16 +226,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scroll"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
-            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -291,23 +238,14 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Outros Serviços",
-        subtitle: "Planejamento e métodos legais",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            <strong>Assessoria em Questões Legais:</strong> Assessoria em
-            questões legais relacionadas à carreira do atleta, incluindo doping,
-            lesões e outros assuntos.
+            A_Definir
             <br />
+            A_Definir
             <br />
-            <strong>Gestão de Riscos:</strong> Assessoria em gestão de riscos,
-            incluindo identificação, avaliação e mitigação de riscos
-            relacionados à carreira do atleta.
-            <br />
-            <br />
-            <strong>Desenvolvimento de Estratégias:</strong>
-            Desenvolvimento de estratégias para promover a carreira do atleta,
-            incluindo marketing, relações públicas e outras áreas.
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -316,21 +254,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-building-2"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
-            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
-            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
-            <path d="M10 6h4" />
-            <path d="M10 10h4" />
-            <path d="M10 14h4" />
-            <path d="M10 18h4" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -415,66 +343,29 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A ELEITOS GESTÃO DE ATLETAS",
-      title: "Nossa trajetória",
-      subtitle:
-        "Da paixão ao profissionalismo: construindo oportunidades no mercado do futebol.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          A jornada de Guilherme Miranda no futebol começou em 2015, quando, com
-          paixão e determinação, assumiu o desafio de organizar campeonatos de
-          médio porte.
+          A_Definir
           <br />
-          Foram mais de cinco competições anuais, que não apenas revelaram
-          talentos, mas também fomentaram o amor pelo esporte em diversas
-          comunidades. Sua experiência como organizador foi apenas o início de
-          uma trajetória marcada por visão e liderança.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A jornada de Guilherme Miranda no futebol começou em 2015, quando, com
-          paixão e determinação, assumiu o desafio de organizar campeonatos de
-          médio porte.
+          A_Definir
           <br />
           <br />
-          Foram mais de cinco competições anuais, que não apenas revelaram
-          talentos, mas também fomentaram o amor pelo esporte em diversas
-          comunidades. Sua experiência como organizador foi apenas o início de
-          uma trajetória marcada por visão e liderança.
+          A_Definir
           <br />
           <br />
-          Em 2017, ele fundou o Knights F.C., um projeto inovador que
-          rapidamente se destacou no cenário esportivo. Até o final de 2019, o
-          Knights F.C. foi um exemplo de como planejamento e dedicação podem
-          transformar sonhos em realidade. Após os desafios trazidos pela
-          pandemia, Guilherme não desistiu.
+          A_Definir
           <br />
           <br />
-          Em 2021, ele revitalizou o projeto sob o nome Futebol Clube Nova
-          Geração, mostrando resiliência e comprometimento. Finalmente, em 2024,
-          o clube alcançou sua identidade definitiva como Futebol Clube Jovens
-          Eleitos, um nome que reflete propósito e estabilidade — e que veio
-          para ficar.
-          <br />
-          <br />
-          Mas Guilherme Miranda não é apenas um gestor dedicado ao futebol. Ele
-          é também um advogado experiente, e essa combinação única de
-          conhecimentos lhe permite enxergar além das quatro linhas.
-          <br />
-          <br />
-          Hoje, sua missão vai além de administrar projetos: ele está
-          comprometido em ajudar atletas a realizarem o sonho de entrar no
-          mercado profissional de futebol, oferecendo suporte técnico, jurídico
-          e estratégico.
-          <br />
-          <br />
-          Com anos de experiência em organização de competições, treinamento de
-          atletas e gestão de projetos esportivos, Guilherme Miranda é um
-          exemplo de como paixão e expertise podem transformar o esporte em uma
-          plataforma de oportunidades reais. Seu objetivo é claro: ser o elo que
-          conecta sonhos ao sucesso no futebol profissional.
+          A_Definir
           <br />
           <br />
         </p>
@@ -503,9 +394,10 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title: "Quer apoio na sua carreira no futebol? Estamos aqui para ajudar!",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        "Converse com nossa equipe. Oferecemos suporte completo para transformar sua carreira esportiva.",
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
@@ -517,27 +409,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Primeiro contato",
+          cardTitle: "Consulta inicial",
           cardDescription:
-            "Agendamos uma conversa para conhecer seus objetivos e entender suas necessidades como atleta.",
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise personalizada",
+          cardTitle: "Análise detalhada",
           cardDescription:
-            "Estudamos todos os detalhes da sua carreira, avaliando contratos, oportunidades e possíveis desafios.",
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Planejamento estratégico",
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos um plano completo, incluindo gestão de carreira, negociações e suporte jurídico.",
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Execução e acompanhamento",
+          cardTitle: "Procedimento eficaz",
           cardDescription:
-            "Implementamos as estratégias definidas e acompanhamos de perto cada etapa para garantir o sucesso da sua carreira.",
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },
@@ -547,25 +439,24 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Quais serviços são oferecidos na gestão de carreira?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "Atletas buscam entender quais áreas serão abrangidas pela empresa de gestão, como planejamento de carreira, negociação de contratos, gerenciamento de imagem, assessoria financeira e suporte jurídico. ",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "Como é desenvolvido o plano de carreira personalizado?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Há interesse em saber como a empresa elabora estratégias específicas para cada atleta, incluindo definição de objetivos a curto, médio e longo prazo, além de métodos para alcançar metas estabelecidas.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question:
-            "De que forma ocorre a gestão de relacionamentos e networking?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Atletas questionam como a empresa auxilia na construção e manutenção de relacionamentos com clubes, patrocinadores, mídia e outras partes interessadas, visando ampliar oportunidades na carreira.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Quais são as qualificações e experiências dos gestores?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "É comum que atletas queiram saber sobre a formação e a experiência dos profissionais que estarão gerenciando suas carreiras, incluindo conhecimentos específicos no esporte, habilidades de negociação e histórico de sucesso na área. ",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
