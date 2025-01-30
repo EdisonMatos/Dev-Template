@@ -24,14 +24,21 @@ export default function Index() {
         paragraphs={false}
         sixCards={false}
       />
-      <About modal={false} />
+
+      <About modal={true} />
       <AboutInstagram
+        socialPrint={true}
+        instagram={true}
+        facebook={false}
+        linkedin={false}
+        x={false}
+      />
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
         addres={true}
-        instagram={false}
+        instagram={true}
         facebook={false}
         linkedin={false}
         x={false}
