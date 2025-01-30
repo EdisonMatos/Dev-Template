@@ -19,25 +19,19 @@ export default function Index() {
       <Hero />
       <Features
         defaultFeature={true}
-        paragraphs={false}
-        modal={false}
-        sixCards={false}
+        button={false}
         modalWithCards={false}
+        paragraphs={false}
+        sixCards={false}
       />
       <About modal={false} />
       <AboutInstagram
-        socialPrint={true}
-        instagram={true}
-        facebook={false}
-        linkedin={false}
-        x={false}
-      />
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
         addres={true}
-        instagram={true}
+        instagram={false}
         facebook={false}
         linkedin={false}
         x={false}

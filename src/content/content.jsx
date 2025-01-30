@@ -42,32 +42,31 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Thiago Soares",
+  name: "Dr. Murilo Canônico",
   email: "contato", // Email desejado pelo cliente
-  domain: "thiagosoaresadv.com.br", // Sem "www"
+  domain: "murilocanonicoadvcom.br", // Sem "www"
   phone: {
-    ddd: "95",
-    firstPart: "98106", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4824", // Apenas os 4 últimos números
+    ddd: "43",
+    firstPart: "99141", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7186", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Ville Roy, nº 2478/A</p>
-      <p>Bairro Caçari, Boa Vista - RR</p>
-      <p>CEP: 69307-725</p>
+      <p>Avenida Faria Lima, nº 755</p>
+      <p>Londrina - PR</p>
+      <p>CEP 86061-450</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 12h</p>
-      <p>Das 14h às 18h</p>
+      <p>Das 8h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "thiagosoarest", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -94,15 +93,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM BOA VISTA - RR",
+      miniTag: "ADVOGADO CÍVEL EM LONDRINA - PR",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Recupere o que é seu
+          <span className="text-primary"> com agilidade e confiança </span>
         </h1>
       ),
       subtitle:
-        "Com sólida experiência, o Dr. Thiago Soares oferece soluções jurídicas claras, justas e eficazes para sua segurança e tranquilidade.",
+        "Com quase 10 anos de experiência, resolvo rapidamente questões bancárias e golpes financeiros para você.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -151,14 +150,16 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Nosso Compromisso com seu direito",
-      subtitle: "Assessoria jurídica completa para todas as suas necessidades",
+      title:
+        "Proteja seus direitos com soluções rápidas e eficazes contra fraudes",
+      subtitle:
+        "Com experiência em direito bancário, oferecemos soluções rápidas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Soluções legais para divórcios e inventários com cuidado.",
+        title: "Direito Bancário e Financeiro",
+        subtitle: "Empréstimo consignado e juros abusivos.",
         description: (
           <div>
             A_Definir
@@ -179,13 +180,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-network"
+            class="lucide lucide-landmark"
           >
-            <rect x="16" y="16" width="6" height="6" rx="1" />
-            <rect x="2" y="16" width="6" height="6" rx="1" />
-            <rect x="9" y="2" width="6" height="6" rx="1" />
-            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
-            <path d="M12 12V8" />
+            <line x1="3" x2="21" y1="22" y2="22" />
+            <line x1="6" x2="6" y1="18" y2="11" />
+            <line x1="10" x2="10" y1="18" y2="11" />
+            <line x1="14" x2="14" y1="18" y2="11" />
+            <line x1="18" x2="18" y1="18" y2="11" />
+            <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -193,8 +195,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Consumidor",
-        subtitle: "Defenda seus direitos contra abusos e práticas ilegais.",
+        title: "Fraudes e Golpes",
+        subtitle:
+          "Ações contra fraudes bancárias, incluindo golpes envolvendo PIX.",
         description: (
           <div>
             A_Definir
@@ -215,10 +218,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-tag"
+            class="lucide lucide-triangle-alert"
           >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
+            <path d="M12 9v4" />
+            <path d="M12 17h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -226,8 +230,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Público e Administrativo",
-        subtitle: "Assessoria jurídica em questões administrativas e públicas.",
+        title: "Financiamentos e Empréstimos",
+        subtitle: "Defesa contra juros abusivos em empréstimos consignados.",
         description: (
           <div>
             A_Definir <br />
@@ -247,10 +251,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scroll"
+            class="lucide lucide-hand-coins"
           >
-            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
-            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -258,8 +265,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Empresarial, Tributário e Imobiliário",
-        subtitle: "Consultoria completa para sua empresa e patrimônio.",
+        title: "Financiamentos Defeituosos",
+        subtitle:
+          "Ações envolvendo financiamentos defeituosos de veículos e imóveis.",
         description: (
           <div>
             A_Definir
@@ -280,15 +288,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-building-2"
+            class="lucide lucide-thumbs-down"
           >
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
-            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
-            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
-            <path d="M10 6h4" />
-            <path d="M10 10h4" />
-            <path d="M10 14h4" />
-            <path d="M10 18h4" />
+            <path d="M17 14V2" />
+            <path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -373,52 +376,57 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR THIAGO SOARES",
+      miniTag: "QUEM É O DR MURILO CANÔNICO",
       title: "Minha trajetória",
       subtitle:
-        "De servidor a advogado, sempre em busca de justiça e ética no Direito.",
+        "Advogado cível com foco em soluções rápidas para questões bancárias complexas.",
       paragraph: (
         <div>
-          Minha jornada no Direito começou em 2009, quando fui aprovado para o
-          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
-          sobre o funcionamento da justiça e do sistema jurídico de perto.
+          Sou advogado cível desde 2017, com quase 10 anos de experiência na
+          área. Durante esse período, tive a oportunidade de atuar em diversas
+          questões do direito civil, o que me proporcionou um conhecimento amplo
+          das mais variadas situações.
           <br />
-          Durante esse período, percebi que o que realmente me motivava era a
-          prática da advocacia, o contato direto com as pessoas e a chance de
-          fazer a diferença em suas vidas.
+          No entanto, ao longo dos últimos anos, percebi que muitos dos meus
+          clientes estavam enfrentando problemas complexos no setor bancário,
+          como financiamentos defeituosos, empréstimos não contratados e,
+          principalmente, fraudes como os golpes envolvendo o PIX.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha jornada no Direito começou em 2009, quando fui aprovado para o
-          cargo de servidor no Tribunal, onde tive a oportunidade de aprender
-          sobre o funcionamento da justiça e do sistema jurídico de perto.
+          Sou advogado cível desde 2017, com quase 10 anos de experiência na
+          área. Durante esse período, tive a oportunidade de atuar em diversas
+          questões do direito civil, o que me proporcionou um conhecimento amplo
+          das mais variadas situações.
           <br />
           <br />
-          Durante esse período, percebi que o que realmente me motivava era a
-          prática da advocacia, o contato direto com as pessoas e a chance de
-          fazer a diferença em suas vidas.
+          No entanto, ao longo dos últimos anos, percebi que muitos dos meus
+          clientes estavam enfrentando problemas complexos no setor bancário,
+          como financiamentos defeituosos, empréstimos não contratados e,
+          principalmente, fraudes como os golpes envolvendo o PIX.
           <br />
           <br />
-          Em agosto de 2012, alcancei um marco importante na minha carreira: fui
-          aprovado em um concurso federal para o INSS, o que me permitiu, além
-          de continuar com meu trabalho como servidor público, também advogar.
+          Esses casos são desafiadores, pois envolvem não apenas aspectos
+          jurídicos, mas também questões de fraudes e ações de golpistas que
+          prejudicam diretamente os consumidores.
           <br />
           <br />
-          Esse concurso me deu a possibilidade de conciliar ambas as funções,
-          algo que sempre foi essencial para mim, pois acredito que cada uma
-          delas contribui para minha visão mais ampla do Direito.
+          Diante disso, passei a me especializar nessas áreas, buscando sempre
+          oferecer soluções rápidas e eficazes para quem procura justiça.
           <br />
           <br />
-          Desde então, venho atuando como advogado, sempre focado em princípios
-          de justiça, ética e respeito ao próximo.
+          O que me diferencia é a minha abordagem prática e eficiente. Sei que,
+          ao procurar um advogado, o cliente deseja uma solução ágil para
+          resolver seu problema, e é justamente isso que busco oferecer.
           <br />
           <br />
-          Para mim, o Direito é mais do que uma profissão, é uma forma de
-          contribuir para uma sociedade mais justa e igualitária, buscando a
-          melhor solução para cada cliente, com dedicação e transparência em
-          todas as etapas.
+          Meu compromisso é atuar com celeridade, buscando sempre o melhor
+          resultado para cada caso, com uma taxa de sucesso significativa. Essas
+          questões bancárias, por serem muitas vezes complicadas e burocráticas,
+          exigem um advogado comprometido em entregar resultados rápidos e
+          eficazes. E é isso que faço com dedicação e expertise.
           <br />
           <br />
         </p>
