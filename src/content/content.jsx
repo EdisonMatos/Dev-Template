@@ -410,13 +410,11 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle: "",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle: "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais",
         paragraph: (
           <p>
-            Fique por dentro das atualizações mais importantes e aproveite
-            nossas redes sociais para mantermos contato. Estamos sempre por
-            aqui, compartilhando o que faz a diferença.
+            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as últimas tendências e mudanças no mundo do direito.
           </p>
         ),
       },
