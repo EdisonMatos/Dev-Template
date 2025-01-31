@@ -411,7 +411,7 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Acompanhe muitas novidades e atualizações!",
-        subtitle: "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais",
+        subtitle: "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
         paragraph: (
           <p>
             Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as últimas tendências e mudanças no mundo do direito.
