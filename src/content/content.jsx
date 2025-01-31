@@ -42,27 +42,28 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Saulo Rodrigues",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "advocaciasaulorc.adv.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "35",
+    firstPart: "98829", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5659", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Santa Cruz, nº 604</p>
+      <p>1º Andar, Centro</p>
+      <p>Varginha - MG, CEP 37002-089</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 9h às 12h</p>
+      <p>Das 14h às 18:30</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -93,14 +94,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM VARGINHA - MG",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          A advocacia não é a profissão das
+          <span className="text-primary"> certezas</span>, mas das{" "}
+          <span className="text-primary">esperanças</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle: "Com ética e dedicação, luto pelos seus direitos com justiça.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -148,15 +150,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas",
+      subtitle:
+        "Compromisso em defender seus direitos em diversas áreas do direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Previdenciário e Administrativo",
+        subtitle: "Assessoria completa em benefícios, servidores e concursos.",
         description: (
           <div>
             A_Definir
@@ -171,11 +174,20 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-book-open-text"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12 7v14" />
+            <path d="M16 12h2" />
+            <path d="M16 8h2" />
+            <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+            <path d="M6 12h2" />
+            <path d="M6 8h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -183,8 +195,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Consumidor e Bancário",
+        subtitle: "Defesa de direitos no consumo e questões bancárias.",
         description: (
           <div>
             A_Definir
@@ -199,11 +211,20 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-landmark"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <line x1="3" x2="21" y1="22" y2="22" />
+            <line x1="6" x2="6" y1="18" y2="11" />
+            <line x1="10" x2="10" y1="18" y2="11" />
+            <line x1="14" x2="14" y1="18" y2="11" />
+            <line x1="18" x2="18" y1="18" y2="11" />
+            <polygon points="12 2 20 7 4 7" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -211,8 +232,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Penal",
+        subtitle: "Assistência jurídica em prisões e processos criminais.",
         description: (
           <div>
             A_Definir <br />
@@ -226,11 +247,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -238,8 +267,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito de Família e Sucessões",
+        subtitle: "Resolução de disputas familiares e sucessões patrimoniais.",
         description: (
           <div>
             A_Definir
@@ -254,11 +283,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-network"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -343,29 +380,44 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR SAULO RODRIGUES",
+      title: "Minha trajetória",
+      subtitle: "Comprometido com a justiça, movido pela esperança.",
       paragraph: (
         <div>
-          A_Definir
+          Minha jornada no direito começou em 2003, como estagiário no Juizado
+          Especial, onde tive meu primeiro contato com a prática jurídica e
+          descobri o impacto transformador do direito na vida das pessoas.
           <br />
-          A_Definir
+          Apesar de precisar interromper a graduação no primeiro ano, retomei os
+          estudos em 2006, concluindo minha formação em 2010.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha jornada no direito começou em 2003, como estagiário no Juizado
+          Especial, onde tive meu primeiro contato com a prática jurídica e
+          descobri o impacto transformador do direito na vida das pessoas.
           <br />
           <br />
-          A_Definir
+          Apesar de precisar interromper a graduação no primeiro ano, retomei os
+          estudos em 2006, concluindo minha formação em 2010.
           <br />
           <br />
-          A_Definir
+          Desde 2012, atuo como advogado, sempre guiado por valores como
+          transparência, comprometimento e ética.
           <br />
           <br />
-          A_Definir
+          Aperfeiçoar constantemente meu conhecimento, sendo pós-graduado em
+          Direito Administrativo pela Faculdade Damásio de Jesus e atualmente
+          cursando especializações em Direito e Processo Constitucional e
+          Direito do Consumidor.
+          <br />
+          <br />
+          Para mim, a advocacia é mais do que uma profissão: é a chance de
+          transformar vidas, lutar por justiça e abraçar histórias com empatia e
+          dedicação. Cada caso é uma oportunidade de fazer a diferença.
           <br />
           <br />
         </p>
