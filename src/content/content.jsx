@@ -6,7 +6,7 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
+import aboutSocial from "../assets/imgs/about/aboutSocial.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -438,7 +438,7 @@ const content = {
       aboutSocial: {
         img: {
           img: aboutSocial,
-          imgPrint: aboutSocialImg,
+          imgPrint: aboutSocial,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
@@ -450,6 +450,15 @@ const content = {
             Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as
             últimas tendências e mudanças no mundo do direito.
           </p>
+        ),
+        labelButtonInstagram:(
+          <p>Siga-me</p>
+        ),
+        labelButtonFacebook:(
+          <p>a_Definir</p>
+        ),
+        labelButtonX:(
+          <p>a_Definir</p>
         ),
       },
     },
