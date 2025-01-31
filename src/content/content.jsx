@@ -42,6 +42,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
+
   name: "Dr. Rafael Nascimento",
   email: "contato", // Email desejado pelo cliente
   domain: "rnascimentoadv.com.br", // Sem "www"
@@ -49,6 +50,7 @@ export const infos = {
     ddd: "19",
     firstPart: "98227", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "9369", // Apenas os 4 últimos números
+
   },
   endereco: (
     <div>
@@ -57,6 +59,7 @@ export const infos = {
       <p>Sala E.C 16</p>
       <p>Parque Taquaral Campinas</p>
       <p>SP, CEP 13087-018</p>
+
     </div>
   ),
   expediente: (
@@ -64,6 +67,7 @@ export const infos = {
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
       <p>Das 9h às 17h</p>
+
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -103,6 +107,7 @@ const content = {
       ),
       subtitle:
         "Com experiência e dedicação, garanto justiça em cada caso, lutando sempre pelo que é seu por direito.",
+
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -153,12 +158,14 @@ const content = {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Defesa sólida para seus direitos e seu futuro",
       subtitle: "Compromisso e expertise para defender o que é seu.",
+
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
         title: "Direito de Família",
         subtitle: "Soluções legais para divórcios, guarda e pensão.",
+
         description: (
           <div>
             A_Definir
@@ -184,6 +191,7 @@ const content = {
             <path d="M15 13a3 3 0 1 0-6 0" />
             <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
             <circle cx="12" cy="8" r="2" />
+
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -222,6 +230,7 @@ const content = {
             <path d="M8 7v10" />
             <path d="M12 7v10" />
             <path d="M17 7v10" />
+
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -258,6 +267,7 @@ const content = {
             <line x1="14" x2="14" y1="18" y2="11" />
             <line x1="18" x2="18" y1="18" y2="11" />
             <polygon points="12 2 20 7 4 7" />
+
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -391,6 +401,7 @@ const content = {
           Sua vivência profissional o levou a enfrentar diretamente grandes
           instituições financeiras, defendendo os direitos de clientes lesados
           por práticas abusivas
+
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
