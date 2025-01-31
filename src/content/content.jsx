@@ -452,7 +452,7 @@ const content = {
           </p>
         ),
         labelButtonInstagram:(
-          <p>Siga-me</p>
+          <p>Siga-me no Instagram</p>
         ),
         labelButtonFacebook:(
           <p>a_Definir</p>
