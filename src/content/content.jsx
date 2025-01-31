@@ -101,7 +101,8 @@ const content = {
           <span className="text-primary"> seus direitos</span>
         </h1>
       ),
-      subtitle: "Com experiência e dedicação, garanto justiça em cada caso, lutando sempre pelo que é seu por direito.",
+      subtitle:
+        "Com experiência e dedicação, garanto justiça em cada caso, lutando sempre pelo que é seu por direito.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -344,31 +345,59 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR RAFAEL NASCIMENTO",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogado desde 2014, com experiência em bancário e consumidor.",
       paragraph: (
         <div>
-          A_Definir
+          Dr. Rafael da Silva Nascimento, inscrito na OAB/SP sob o número
+          434.803, iniciou sua trajetória jurídica em 2014, atuando no Direito
+          Bancário e no Direito do Consumidor.
           <br />
-          A_Definir
+          <br />
+          Sua vivência profissional o levou a enfrentar diretamente grandes
+          instituições financeiras, defendendo os direitos de clientes lesados
+          por práticas abusivas
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Dr. Rafael da Silva Nascimento, inscrito na OAB/SP sob o número
+          434.803, iniciou sua trajetória jurídica em 2014, atuando no Direito
+          Bancário e no Direito do Consumidor.
           <br />
           <br />
-          A_Definir
+          Sua vivência profissional o levou a enfrentar diretamente grandes
+          instituições financeiras, defendendo os direitos de clientes lesados
+          por práticas abusivas.
           <br />
           <br />
-          A_Definir
+          Concluiu sua graduação em Direito pelo grupo Kroton em 2017,
+          consolidando sua base teórica e prática para atuar com excelência.
           <br />
           <br />
-          A_Definir
+          Durante sua carreira, integrou a Comissão de Direito Civil da OAB
+          Campinas e a Comissão de Mediação e Arbitragem, contribuindo
+          ativamente para o desenvolvimento dessas áreas entre os anos de 2022 e
+          2024.
           <br />
           <br />
+          Em 24 de setembro de 2019, fundou o escritório{" "}
+          <strong>Dr. Rafael Nascimento Advocacia</strong>, um espaço dedicado à
+          busca por justiça e à defesa dos direitos de seus clientes.
+          <br />
+          <br />
+          Desde 2022, além de sua atuação no setor privado, também passou a
+          integrar a Defensoria Pública de Sumaré/SP como advogado conveniado,
+          ampliando seu compromisso em oferecer suporte jurídico àqueles que
+          mais precisam.
+          <br />
+          <br />
+          Com anos de experiência e uma trajetória marcada por dedicação e
+          ética, Dr. Rafael Nascimento segue firme na missão de proporcionar
+          segurança jurídica e soluções eficazes para seus clientes.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
