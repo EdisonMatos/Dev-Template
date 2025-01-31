@@ -149,15 +149,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Defesa sólida para seus direitos e seu futuro",
+      subtitle: "Compromisso e expertise para defender o que é seu.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito de Família",
+        subtitle: "Soluções legais para divórcios, guarda e pensão.",
         description: (
           <div>
             A_Definir
@@ -184,8 +184,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Consumidor",
+        subtitle: "Defesa contra abusos, cobranças indevidas e fraudes.",
         description: (
           <div>
             A_Definir
@@ -212,8 +212,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Bancário, Danos Morais e Materiais",
+        subtitle: "Reparação por cobranças indevidas e prejuízos.",
         description: (
           <div>
             A_Definir <br />
@@ -239,8 +239,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Trabalhista",
+        subtitle: "Direitos do trabalhador em rescisões e processos.",
         description: (
           <div>
             A_Definir
