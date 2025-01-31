@@ -94,14 +94,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO CÍVEL E TRABALHISTA EM CAMPINAS - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Mais de uma década defendendo
+          <span className="text-primary"> seus direitos</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle: "Com experiência e dedicação, garanto justiça em cada caso, lutando sempre pelo que é seu por direito.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento presencial em Campinas - SP e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
