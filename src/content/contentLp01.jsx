@@ -4,14 +4,14 @@ import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
 
-const contentLp02 = {
+const contentLp01 = {
   infos: {
     title:
-      "Barros e Braga - Defesa em Flagrante | Escritório Criminalista em Teresina - PI",
+      "Finance - Soluções Financeiras | Recuperação de Crédito e Empréstimos para todo Brasil",
     description:
-      "O Escritório de Advocacia Barros e Braga é especializado em defesa criminal em Teresina - PI. Atuamos com rapidez e estratégia em flagrante, audiência de custódia e liberdade provisória.",
+      "Recupere seu crédito e consiga empréstimos sem burocracia. Nossa equipe especializada oferece soluções rápidas e seguras para você ter o que é seu de volta.",
     keywords:
-      "Advogado Criminalista, Defesa em Flagrante, Audiência de Custódia, Liberdade Provisória, Fiança Criminal, Advogado Penal, Defesa Penal, Criminalista em Teresina, Advogado Especialista em Flagrante, Defesa de Acusados, Advocacia Criminal, Advogado para Prisão em Flagrante, Consultoria Criminal, Recurso Criminal, Habeas Corpus, Liberdade Assistida, Direito Penal, Defesa Jurídica Criminal, Prisão Preventiva, Assessoria Jurídica Criminalista.",
+      "Recuperação de crédito, Empréstimos sem burocracia, Recuperação de crédito fácil, Empréstimos rápidos, Empréstimos para negativado, Crédito pessoal, Recuperação de crédito para todo Brasil, Empréstimos com garantia, Soluções financeiras, Recuperação de crédito sem comprovação de renda, Empréstimos rápidos para todo Brasil, Crédito sem análise de CPF, Empréstimos sem juros, Recuperação de crédito para autônomos, Recuperação de crédito para aposentados, Empréstimos para pequenas empresas, Consultoria financeira, Empréstimos para negativados para todo Brasil, Crédito fácil, Soluções financeiras rápidas.",
   },
   hero: {
     bgImg: bgImg,
@@ -22,13 +22,13 @@ const contentLp02 = {
     textArea: {
       title: (
         <h1>
-          Defenda-se
-          <span className="text-primary"> com quem entende </span>
-          do assunto
+          Recupere <span className="text-primary"> crédito </span> e tenha
+          acesso ao
+          <span className="text-primary"> empréstimo </span> que você merece!
         </h1>
       ),
       subtitle:
-        "Tenha orientação especializada para proteger seus direitos e garantir o melhor suporte em audiências de custódia.",
+        "Com mais de 10 anos de experiência, somos especialistas em recuperar seu crédito e liberar empréstimos sem burocracia. Simples, rápido e sem complicação!",
       buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -36,8 +36,9 @@ const contentLp02 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "DEFESA IMEDIATA",
-      title: "Como funciona a defesa em casos de flagrante?",
+      miniTag: "Quem pode se beneficiar?",
+      title:
+        "Confira se você ou alguém da sua família pode se beneficiar da nossa ajuda financeira.",
     },
     cards: {
       card1: {
@@ -52,18 +53,18 @@ const contentLp02 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-hand-coins"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
           </svg>
         ),
-        title: "Análise da legalidade da prisão",
+        title: "Aposentados e Pensionistas",
         description:
-          "Ao ser detido em flagrante, o primeiro passo é verificar se a prisão seguiu todos os procedimentos legais. Identificamos possíveis abusos ou falhas processuais e tomamos as medidas necessárias para anular a prisão e proteger seus direitos.",
+          "Aposentados, pensionistas e militares têm isenção de Imposto de Renda, o que facilita a recuperação de crédito e empréstimos com condições especiais.",
       },
       card2: {
         icon: (
@@ -77,16 +78,15 @@ const contentLp02 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-speech"
+            class="lucide lucide-ban"
           >
-            <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
-            <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
-            <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="m4.9 4.9 14.2 14.2" />
           </svg>
         ),
-        title: "Atuação estratégica na audiência de custódia",
+        title: "Pessoas com Nome Sujo",
         description:
-          "Na audiência de custódia, buscamos a melhor solução para o seu caso, trabalhando para garantir a liberdade imediata ou medidas alternativas. Defendemos seus direitos com firmeza para assegurar um tratamento justo.",
+          "Mesmo com o nome negativado, é possível recuperar crédito após regularizar as pendências e negociar dívidas.",
       },
       card3: {
         icon: (
@@ -100,15 +100,141 @@ const contentLp02 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-book-check"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-            <path d="m9 9.5 2 2 4-4" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
-        title: "Pedido de liberdade provisória ou fiança",
+        title: "Autônomos e Empreendedores",
         description:
-          "Após a prisão, avaliamos a possibilidade de solicitar liberdade provisória ou fiança, sempre considerando as particularidades do caso. Nossa prioridade é evitar detenções desnecessárias, garantindo seus direitos legais.",
+          "Autônomos e donos de pequenas empresas também têm acesso a empréstimos e facilidades na recuperação de crédito.",
+      },
+      card4: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          </svg>
+        ),
+        title: "Pessoas com Garantias",
+        description:
+          "Quem tem garantia, como imóvel ou veículo, pode conseguir empréstimos com taxas de juros mais baixas.",
+      },
+    },
+  },
+  about: {
+    bgImg: bgImg,
+    logo: {
+      logoImg: logo,
+      alt: "Logomarca",
+    },
+    sectionHeader: {
+      miniTag: "TRADIÇÃO EM RECUPERAÇÃO E EMPRÉSTIMOS",
+      title: "Especialistas em Recuperação de Crédito e Empréstimos",
+    },
+    paragraph: (
+      <p>
+        Com mais de uma década de experiência, nossa equipe é especializada em
+        ajudar pessoas a recuperar seu crédito e acessar empréstimos com
+        condições vantajosas. Entendemos que cada situação é única, por isso
+        realizamos uma análise detalhada e oferecemos um serviço completo, desde
+        a regularização de pendências até a liberação do crédito. <br />
+        <br /> Conte conosco para garantir a solução financeira que você
+        precisa, com rapidez e sem burocracia.
+      </p>
+    ),
+    buttonLabel: "Quero falar com um especialista",
+    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+  },
+  whyUs: {
+    sectionHeader: {
+      miniTag: "A MELHOR ESCOLHA",
+      title: "Porque escolher a Finance?",
+    },
+    cards: {
+      card1: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-network"
+          >
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
+          </svg>
+        ),
+        title: "Equipe Especializada",
+        description:
+          "Profissionais capacitados para resolver toda a parte burocrática e técnica para você.",
+      },
+      card2: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-piggy-bank"
+          >
+            <path d="M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2V5z" />
+            <path d="M2 9v1c0 1.1.9 2 2 2h1" />
+            <path d="M16 11h.01" />
+          </svg>
+        ),
+        title: "Economia Garantida",
+        description:
+          "Maximizamos seus direitos para aumentar seus recursos financeiros.",
+      },
+      card3: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-thumbs-up"
+          >
+            <path d="M7 10v12" />
+            <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
+          </svg>
+        ),
+        title: "Processo Simplificado",
+        description:
+          "Cuidamos de tudo, com transparência e segurança para você acompanhar.",
       },
       card4: {
         icon: (
@@ -128,149 +254,18 @@ const contentLp02 = {
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "Recursos e defesa contínua",
+        title: "Segurança e Confidencialidade",
         description:
-          "Se a prisão for mantida, recorremos a instâncias superiores para reverter a decisão. Atuamos para assegurar que seus direitos sejam respeitados em todas as fases do processo, buscando sempre a justiça.",
-      },
-    },
-  },
-  about: {
-    bgImg: bgImg,
-    logo: {
-      logoImg: logo,
-      alt: "Logomarca",
-    },
-    sectionHeader: {
-      miniTag: "EXCELÊNCIA EM DEFESA PENAL",
-      title: "Compromisso e defesa estratégica",
-    },
-    paragraph: (
-      <p>
-        Em situações de flagrante, agir com rapidez e precisão é fundamental
-        para resguardar seus direitos. Por isso, atuo com eficiência e
-        estratégia, garantindo uma defesa sólida sem comprometer a qualidade e o
-        compromisso com a justiça. Cada etapa do processo é conduzida com
-        determinação para assegurar o melhor resultado. <br />
-        <br /> Não importa a complexidade do seu caso, estamos prontos para
-        oferecer a solução jurídica mais adequada. Fale com Barros e Braga e
-        veja como podemos fazer a diferença na sua defesa.
-      </p>
-    ),
-    buttonLabel: "Quero falar com um especialista",
-    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
-  },
-  whyUs: {
-    sectionHeader: {
-      miniTag: "A DEFESA CERTA",
-      title: "Por que confiar em nossa defesa em casos de flagrante?",
-    },
-    cards: {
-      card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-lightbulb"
-          >
-            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
-            <path d="M9 18h6" />
-            <path d="M10 22h4" />
-          </svg>
-        ),
-        title: "Defesa estratégica e personalizada",
-        description:
-          "Cada caso de flagrante é único, e nossa abordagem também. Analisamos todos os detalhes para construir uma defesa personalizada, garantindo proteção total aos seus direitos em cada etapa do processo.",
-      },
-      card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-handshake"
-          >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
-          </svg>
-        ),
-        title: "Compromisso inabalável com sua liberdade",
-        description:
-          "Defendemos sua liberdade com total dedicação, assegurando que seus direitos sejam respeitados do início ao fim do processo. Cuidamos de cada detalhe para alcançar o melhor desfecho para sua situação.",
-      },
-      card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-clock-4"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <polyline points="12 6 12 12 16 14" />
-          </svg>
-        ),
-        title: "Soluções ágeis e eficientes para sua defesa",
-        description:
-          "Montamos um plano de ação sob medida para resolver seu caso com rapidez e eficiência. Nossa prioridade é garantir uma defesa sólida que atenda às suas necessidades e ofereça o melhor caminho jurídico.",
-      },
-      card4: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-siren"
-          >
-            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
-            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
-            <path d="M21 12h1" />
-            <path d="M18.5 4.5 18 5" />
-            <path d="M2 12h1" />
-            <path d="M12 2v1" />
-            <path d="m4.929 4.929.707.707" />
-            <path d="M12 12v6" />
-          </svg>
-        ),
-        title: "Experiência e excelência na defesa penal",
-        description:
-          "Com ampla experiência em flagrantes e audiências de custódia, garantimos que seu caso será tratado com seriedade e competência. Estaremos ao seu lado em cada fase do processo, buscando sempre o melhor resultado.",
+          "Protegemos suas informações com total segurança e confidencialidade.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA TEMPO",
-      title: "Agir rápido faz toda a diferença!",
-      subtitle: `No Barros e Braga, sua defesa é nossa prioridade. Com atuação ágil e estratégica, garantimos a melhor orientação e representação para proteger seus direitos. Não deixe que a demora comprometa sua liberdade, conte com especialistas prontos para agir!`,
+      miniTag: "NÃO PERCA MAIS TEMPO",
+      title: "Recupere sua estabilidade financeira com mais tranquilidade.",
+      subtitle: `Liberte-se da burocracia, foque no que importa e recupere valores pagos indevidamente, evitando gastos desnecessários no futuro.`,
     },
     buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
@@ -333,7 +328,7 @@ const contentLp02 = {
         </svg>
       ),
       title: "Whatsapp",
-      description: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart} | (86) 99481-9000`,
+      description: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
     },
   },
   footer: {
@@ -346,4 +341,4 @@ const contentLp02 = {
   },
 };
 
-export default contentLp02;
+export default contentLp01;
