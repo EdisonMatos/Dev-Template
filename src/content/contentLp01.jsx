@@ -172,7 +172,7 @@ const contentLp02 = {
         </svg>
       ),
       title: "Whatsapp",
-      description: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      description: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart} | (86) 99481-9000`,
     },
   },
   footer: {
