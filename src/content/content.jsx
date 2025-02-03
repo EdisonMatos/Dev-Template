@@ -60,6 +60,7 @@ export const infos = {
       <p>Parque Taquaral Campinas</p>
       <p>SP, CEP 13087-018</p>
 
+
     </div>
   ),
   expediente: (
@@ -73,6 +74,7 @@ export const infos = {
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "dr_rafaelnascimento", // Sem o @
   facebookProfile: "advocaciarafaelnascimento",
+
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -107,7 +109,6 @@ const content = {
       ),
       subtitle:
         "Com experiência e dedicação, garanto justiça em cada caso, lutando sempre pelo que é seu por direito.",
-
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -129,7 +130,9 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
+
         text: "Atendimento presencial em Campinas - SP e online para todo Brasil",
+
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -159,12 +162,14 @@ const content = {
       title: "Defesa sólida para seus direitos e seu futuro",
       subtitle: "Compromisso e expertise para defender o que é seu.",
 
+
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
         title: "Direito de Família",
         subtitle: "Soluções legais para divórcios, guarda e pensão.",
+
 
         description: (
           <div>
@@ -268,6 +273,76 @@ const content = {
             <line x1="18" x2="18" y1="18" y2="11" />
             <polygon points="12 2 20 7 4 7" />
 
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: featuresImg2,
+        title: "Direito Empresarial e Trabalhista",
+        subtitle: "Consultoria para empresas e resolução trabalhista.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
+          >
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Direito de Família e Sucessões",
+        subtitle: "Assistência jurídica em questões familiares e sucessões.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-network"
+          >
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -401,7 +476,6 @@ const content = {
           Sua vivência profissional o levou a enfrentar diretamente grandes
           instituições financeiras, defendendo os direitos de clientes lesados
           por práticas abusivas
-
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",

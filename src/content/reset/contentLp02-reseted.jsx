@@ -4,9 +4,9 @@ import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
 
-const contentLp01 = {
+const contentLp02 = {
   infos: {
-    title: "A_Definir1",
+    title: "A_Definir2",
     description: "A_Definir",
     keywords: "A_Definir",
   },
@@ -185,4 +185,4 @@ const contentLp01 = {
   },
 };
 
-export default contentLp01;
+export default contentLp02;
