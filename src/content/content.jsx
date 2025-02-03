@@ -42,27 +42,28 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dr. Rafael Nascimento",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "rnascimentoadv.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "19",
+    firstPart: "98227", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9369", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Luiz Otávio</p>
+      <p> nº 2565 - Sala E.C 16</p>
+      <p>Parque Taquaral Campinas</p>
+      <p>SP, CEP 13087-018</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -93,14 +94,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO CÍVEL E TRABALHISTA EM CAMPINAS - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Mais de uma década defendendo
+          <span className="text-primary"> seus direitos</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com experiência e dedicação, garanto justiça em cada caso, lutando sempre pelo que é seu por direito.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -122,7 +124,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento presencial em Campinas - SP e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
