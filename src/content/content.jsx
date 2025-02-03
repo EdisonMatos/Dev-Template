@@ -42,33 +42,32 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Rafael Nascimento",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "rnascimentoadv.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "19",
-    firstPart: "98227", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9369", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Luiz Otávio</p>
-      <p> nº 2565 - Sala E.C 16</p>
-      <p>Parque Taquaral Campinas</p>
-      <p>SP, CEP 13087-018</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 17h</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "dr_rafaelnascimento", // Sem o @
-  facebookProfile: "advocaciarafaelnascimento",
+  instagramProfile: "A_definir", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -94,15 +93,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "a_Definir",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          a_Definir
-          <span className="text-primary"> a_Definir</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "a_Definir",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -124,7 +122,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "a_Definir",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -150,15 +148,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "a_Definir",
-      title: "a_Definir",
-      subtitle: "a_Definir",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "a_Definir",
-        subtitle: "a_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -185,8 +183,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "a_Definir",
-        subtitle: "a_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -213,8 +211,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "a_Definir",
-        subtitle: "a_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -240,8 +238,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "a_Definir",
-        subtitle: "a_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -345,58 +343,29 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR RAFAEL NASCIMENTO",
-      title: "Minha trajetória",
-      subtitle:
-        "Advogado desde 2014, com experiência em bancário e consumidor.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          Dr. Rafael da Silva Nascimento, inscrito na OAB/SP sob o número
-          434.803, iniciou sua trajetória jurídica em 2014, atuando no Direito
-          Bancário e no Direito do Consumidor.
+          A_Definir
           <br />
-          Sua vivência profissional o levou a enfrentar diretamente grandes
-          instituições financeiras, defendendo os direitos de clientes lesados
-          por práticas abusivas.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Dr. Rafael da Silva Nascimento, inscrito na OAB/SP sob o número
-          434.803, iniciou sua trajetória jurídica em 2014, atuando no Direito
-          Bancário e no Direito do Consumidor.
+          A_Definir
           <br />
           <br />
-          Sua vivência profissional o levou a enfrentar diretamente grandes
-          instituições financeiras, defendendo os direitos de clientes lesados
-          por práticas abusivas.
+          A_Definir
           <br />
           <br />
-          Concluiu sua graduação em Direito pelo grupo Kroton em 2017,
-          consolidando sua base teórica e prática para atuar com excelência.
+          A_Definir
           <br />
           <br />
-          Durante sua carreira, integrou a Comissão de Direito Civil da OAB
-          Campinas e a Comissão de Mediação e Arbitragem, contribuindo
-          ativamente para o desenvolvimento dessas áreas entre os anos de 2022 e
-          2024.
-          <br />
-          <br />
-          Em 24 de setembro de 2019, fundou o escritório{" "}
-          <strong>Dr. Rafael Nascimento Advocacia</strong>, um espaço dedicado à
-          busca por justiça e à defesa dos direitos de seus clientes.
-          <br />
-          <br />
-          Desde 2022, além de sua atuação no setor privado, também passou a
-          integrar a Defensoria Pública de Sumaré/SP como advogado conveniado,
-          ampliando seu compromisso em oferecer suporte jurídico àqueles que
-          mais precisam.
-          <br />
-          <br />
-          Com anos de experiência e uma trajetória marcada por dedicação e
-          ética, Dr. Rafael Nascimento segue firme na missão de proporcionar
-          segurança jurídica e soluções eficazes para seus clientes.
+          A_Definir
           <br />
           <br />
         </p>
@@ -411,26 +380,14 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Acompanhe muitas novidades e atualizações!",
-        subtitle:
-          "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
+        title: "Conecte-se conosco",
+        subtitle: "",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as
-            últimas tendências e mudanças no mundo do direito.
+            Fique por dentro das atualizações mais importantes e aproveite
+            nossas redes sociais para mantermos contato. Estamos sempre por
+            aqui, compartilhando o que faz a diferença.
           </p>
-        ),
-        labelInstagram:(
-          <p>Siga-me no Instagram</p>
-        ),
-        labelFacebook:(
-          <p>Siga-me no Facebook</p>
-        ),
-        labelX:(
-          <p>Siga-me no X</p>
-        ),
-        labelLinkedIn:(
-          <p>Siga-me no LinkedIn</p>
         ),
       },
     },
@@ -454,25 +411,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Procedimento eficaz",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },
