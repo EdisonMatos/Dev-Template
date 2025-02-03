@@ -204,26 +204,25 @@ const content = {
         imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-scan-barcode"
-        >
-          <path d="M3 7V5a2 2 0 0 1 2-2h2" />
-          <path d="M17 3h2a2 2 0 0 1 2 2v2" />
-          <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
-          <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
-          <path d="M8 7v10" />
-          <path d="M12 7v10" />
-          <path d="M17 7v10" />
-
-        </svg>
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scan-barcode"
+          >
+            <path d="M3 7V5a2 2 0 0 1 2-2h2" />
+            <path d="M17 3h2a2 2 0 0 1 2 2v2" />
+            <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
+            <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
+            <path d="M8 7v10" />
+            <path d="M12 7v10" />
+            <path d="M17 7v10" />
+          </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
@@ -259,7 +258,6 @@ const content = {
             <line x1="14" x2="14" y1="18" y2="11" />
             <line x1="18" x2="18" y1="18" y2="11" />
             <polygon points="12 2 20 7 4 7" />
-
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -379,29 +377,58 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR RAFAEL NASCIMENTO",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogado desde 2014, com experiência em bancário e consumidor.",
       paragraph: (
         <div>
-          A_Definir
+          Dr. Rafael da Silva Nascimento, inscrito na OAB/SP sob o número
+          434.803, iniciou sua trajetória jurídica em 2014, atuando no Direito
+          Bancário e no Direito do Consumidor.
           <br />
-          A_Definir
+          Sua vivência profissional o levou a enfrentar diretamente grandes
+          instituições financeiras, defendendo os direitos de clientes lesados
+          por práticas abusivas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Dr. Rafael da Silva Nascimento, inscrito na OAB/SP sob o número
+          434.803, iniciou sua trajetória jurídica em 2014, atuando no Direito
+          Bancário e no Direito do Consumidor.
           <br />
           <br />
-          A_Definir
+          Sua vivência profissional o levou a enfrentar diretamente grandes
+          instituições financeiras, defendendo os direitos de clientes lesados
+          por práticas abusivas.
           <br />
           <br />
-          A_Definir
+          Concluiu sua graduação em Direito pelo grupo Kroton em 2017,
+          consolidando sua base teórica e prática para atuar com excelência.
           <br />
           <br />
-          A_Definir
+          Durante sua carreira, integrou a Comissão de Direito Civil da OAB
+          Campinas e a Comissão de Mediação e Arbitragem, contribuindo
+          ativamente para o desenvolvimento dessas áreas entre os anos de 2022 e
+          2024.
+          <br />
+          <br />
+          Em 24 de setembro de 2019, fundou o escritório <strong>Dr. Rafael Nascimento
+          Advocacia</strong>, um espaço dedicado à busca por justiça e à defesa dos
+          direitos de seus clientes.
+          <br />
+          <br />
+          Desde 2022, além de sua atuação no setor privado, também passou a
+          integrar a Defensoria Pública de Sumaré/SP como advogado conveniado,
+          ampliando seu compromisso em oferecer suporte jurídico àqueles que
+          mais precisam.
+          <br />
+          <br />
+          Com anos de experiência e uma trajetória marcada por dedicação e
+          ética, Dr. Rafael Nascimento segue firme na missão de proporcionar
+          segurança jurídica e soluções eficazes para seus clientes.
           <br />
           <br />
         </p>
@@ -416,13 +443,11 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle: "",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle: "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
         paragraph: (
           <p>
-            Fique por dentro das atualizações mais importantes e aproveite
-            nossas redes sociais para mantermos contato. Estamos sempre por
-            aqui, compartilhando o que faz a diferença.
+            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as últimas tendências e mudanças no mundo do direito. 
           </p>
         ),
       },
