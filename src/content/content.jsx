@@ -67,8 +67,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "dr_rafaelnascimento", // Sem o @
+  facebookProfile: "advocaciarafaelnascimento",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -451,6 +451,18 @@ const content = {
             Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as
             últimas tendências e mudanças no mundo do direito.
           </p>
+        ),
+        labelInstagram:(
+          <p>Siga-me no Instagram</p>
+        ),
+        labelFacebook:(
+          <p>Siga-me no Facebook</p>
+        ),
+        labelX:(
+          <p>Siga-me no X</p>
+        ),
+        labelLinkedIn:(
+          <p>Siga-me no LinkedIn</p>
         ),
       },
     },
