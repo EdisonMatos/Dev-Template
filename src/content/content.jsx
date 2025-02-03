@@ -415,9 +415,9 @@ const content = {
           2024.
           <br />
           <br />
-          Em 24 de setembro de 2019, fundou o escritório <strong>Dr. Rafael Nascimento
-          Advocacia</strong>, um espaço dedicado à busca por justiça e à defesa dos
-          direitos de seus clientes.
+          Em 24 de setembro de 2019, fundou o escritório{" "}
+          <strong>Dr. Rafael Nascimento Advocacia</strong>, um espaço dedicado à
+          busca por justiça e à defesa dos direitos de seus clientes.
           <br />
           <br />
           Desde 2022, além de sua atuação no setor privado, também passou a
@@ -444,10 +444,12 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Acompanhe muitas novidades e atualizações!",
-        subtitle: "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
+        subtitle:
+          "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as últimas tendências e mudanças no mundo do direito. 
+            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as
+            últimas tendências e mudanças no mundo do direito.
           </p>
         ),
       },
@@ -472,25 +474,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Procedimento eficaz",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
