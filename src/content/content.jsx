@@ -379,29 +379,64 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR GILENO FERNANDES",
+      title: "Minha trajetória",
+      subtitle: "Experiência em Direito Penal e Previdenciário",
       paragraph: (
         <div>
-          A_Definir
+          Minha jornada na advocacia começou em 2016, movida pelo desejo de
+          oferecer um serviço jurídico sólido e comprometido com a defesa dos
+          direitos dos meus clientes.
           <br />
-          A_Definir
+          Logo percebi que, para prestar um atendimento realmente diferenciado,
+          era essencial me aprofundar ainda mais no Direito. Foi então que, em
+          2018, concluí minha especialização em Direito Penal e Empresarial,
+          consolidando meu conhecimento nessas áreas tão desafiadoras e
+          estratégicas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha jornada na advocacia começou em 2016, movida pelo desejo de
+          oferecer um serviço jurídico sólido e comprometido com a defesa dos
+          direitos dos meus clientes.
           <br />
           <br />
-          A_Definir
+          Logo percebi que, para prestar um atendimento realmente diferenciado,
+          era essencial me aprofundar ainda mais no Direito. Foi então que, em
+          2018, concluí minha especialização em Direito Penal e Empresarial,
+          consolidando meu conhecimento nessas áreas tão desafiadoras e
+          estratégicas.
           <br />
           <br />
-          A_Definir
+          Ao longo dos anos, enfrentei casos complexos, nos quais a experiência
+          técnica precisava caminhar lado a lado com a sensibilidade e a
+          determinação.
           <br />
           <br />
-          A_Definir
+          A advocacia não é apenas um ofício, mas uma missão que exige empenho,
+          resiliência e, acima de tudo, lealdade. Para mim, a confiança dos meus
+          clientes é um compromisso inegociável, e cada desafio é encarado com
+          dedicação absoluta.
+          <br />
+          <br />
+          Além da atuação jurídica, desde 2020 compartilho meu conhecimento como
+          docente no ensino superior, contribuindo para a formação de novos
+          profissionais e fortalecendo a importância do direito na sociedade.
+          <br />
+          <br />
+          Acredito que ensinar é também uma forma de aprender e aprimorar a
+          prática advocatícia.
+          <br />
+          <br />
+          Minha trajetória é marcada pela convicção de que a justiça deve ser
+          acessível e bem representada. Por isso, busco sempre superar
+          obstáculos, defender os interesses dos meus clientes com coragem e
+          honrar as prerrogativas da advocacia.
+          <br />
+          <br />
+          Porque, mais do que advogar, meu compromisso é lutar pelo que é certo.
           <br />
           <br />
         </p>
@@ -416,17 +451,15 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle: "",
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        title: "Acompanhe muitas novidades e atualizações!",
+        subtitle: "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
         paragraph: (
           <p>
-            Fique por dentro das atualizações mais importantes e aproveite
-            nossas redes sociais para mantermos contato. Estamos sempre por
-            aqui, compartilhando o que faz a diferença.
+            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as últimas tendências e mudanças no mundo do direito. 
           </p>
         ),
       },
