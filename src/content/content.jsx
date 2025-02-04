@@ -100,7 +100,8 @@ const content = {
           há mais de uma década
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Experiência, estratégia e defesa jurídica para políticos que não podem correr riscos.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -373,29 +374,72 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É ALVES ADVOGADOS",
+      title: "Nossa história",
+      subtitle:
+        "Compromisso e excelência há mais de 12 anos no direito público.",
       paragraph: (
         <div>
-          A_Definir
+          Minha trajetória na advocacia começou na{" "}
+          <strong>UDC Cataratas, no Paraná</strong>, onde me formei em{" "}
+          <strong>2014</strong>. Desde a graduação, sempre tive um olhar
+          diferenciado para áreas muitas vezes subestimadas na advocacia, como
+          <strong>Direito Constitucional, Administrativo e Eleitoral.</strong>
           <br />
-          A_Definir
+          Enquanto muitos colegas se dedicavam ao Direito Civil, Penal e
+          Trabalhista, eu enxergava no Constitucional e no Administrativo as
+          bases que sustentam todo o ordenamento jurídico.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha trajetória na advocacia começou na UDC Cataratas, no Paraná,
+          onde me formei em 2014. Desde a graduação, sempre tive um olhar
+          diferenciado para áreas muitas vezes subestimadas na advocacia, como
+          Direito Constitucional, Administrativo e Eleitoral.
           <br />
           <br />
-          A_Definir
+          Enquanto muitos colegas se dedicavam ao Direito Civil, Penal e
+          Trabalhista, eu enxergava no Constitucional e no Administrativo as
+          bases que sustentam todo o ordenamento jurídico.
           <br />
           <br />
-          A_Definir
+          Durante a faculdade, aprofundei meus estudos no Direito Eleitoral,
+          compreendendo sua importância para a organização política e social do
+          país. Foi nessa época que decidi prestar concurso para o Tribunal
+          Regional Eleitoral do Paraná (TRE-PR).
           <br />
           <br />
-          A_Definir
+          Obtive uma excelente colocação, mas não fui nomeado. No entanto, essa
+          experiência me proporcionou um conhecimento aprofundado da estrutura e
+          funcionamento da Justiça Eleitoral, algo que posteriormente se tornou
+          um diferencial na minha carreira.
+          <br />
+          <br />
+          Ao concluir a graduação, já possuía uma rede de contatos sólida no
+          meio jurídico e político, o que me permitiu ingressar no mercado com
+          segurança.
+          <br />
+          <br />
+          Desde então, dediquei minha carreira à advocacia pública e eleitoral,
+          assessorando políticos, gestores e agentes públicos em diversas
+          demandas, como prestação de contas, cassações e defesas eleitorais.
+          <br />
+          <br />
+          Hoje, atuo em mais de 40 municípios do Paraná, acompanhando processos
+          estratégicos e auxiliando na construção de mandatos sólidos e
+          juridicamente seguros.
+          <br />
+          <br />
+          Minha experiência abrange três eleições municipais e duas eleições
+          gerais, o que me permitiu acompanhar de perto os desafios e
+          transformações do cenário político ao longo dos anos.
+          <br />
+          <br />
+          Mais do que advogar, meu compromisso é garantir que a atuação política
+          e administrativa seja feita dentro da legalidade, sempre pautada pela
+          transparência e pela defesa da justiça.
           <br />
           <br />
         </p>
@@ -412,6 +456,10 @@ const content = {
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
         subtitle: "",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
         paragraph: (
           <p>
             Fique por dentro das atualizações mais importantes e aproveite
