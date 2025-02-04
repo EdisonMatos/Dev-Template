@@ -6,7 +6,7 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocial from "../assets/imgs/about/aboutSocial.png";
+import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -382,6 +382,10 @@ const content = {
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
         subtitle: "",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
         paragraph: (
           <p>
             Fique por dentro das atualizações mais importantes e aproveite
