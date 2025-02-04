@@ -175,7 +175,7 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -211,7 +211,7 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -249,7 +249,7 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -285,7 +285,7 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -379,7 +379,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR GILENO FERNANDES",
+      miniTag: <p className="text-white">QUEM É O DR GILENO FERNANDES</p>,
       title: "Minha trajetória",
       subtitle: "Experiência em Direito Penal e Previdenciário",
       paragraph: (
@@ -450,7 +450,8 @@ const content = {
           imgPrint: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
+        miniTag: (
+          <p className="text-white">REDES SOCIAIS</p>),
         title: "Acompanhe muitas novidades e atualizações!",
         subtitle:
           "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
@@ -476,32 +477,37 @@ const content = {
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
+      miniTag: (
+        <p className="text-white">PASSO A PASSO</p>),
       title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
-          stepNumber: 1,
+          stepNumber: (
+            <p className="text-white">1</p>),
           cardTitle: "Consulta inicial",
           cardDescription:
             "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
-          stepNumber: 2,
+          stepNumber:(
+            <p className="text-white">2</p>),
           cardTitle: "Análise detalhada",
           cardDescription:
             "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
-          stepNumber: 3,
+          stepNumber:(
+            <p className="text-white">3</p>),
           cardTitle: "Elaboração da estratégia",
           cardDescription:
             "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
-          stepNumber: 4,
+          stepNumber: (
+            <p className="text-white">4</p>),
           cardTitle: "Ação legal",
           cardDescription:
             "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
