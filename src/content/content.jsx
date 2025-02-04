@@ -498,7 +498,7 @@ const content = {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
