@@ -42,21 +42,20 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Rafael Nascimento",
+  name: "Alves Advocacia",
   email: "contato", // Email desejado pelo cliente
-  domain: "rnascimentoadv.com.br", // Sem "www"
+  domain: "alvesjuridico.adv.br", // Sem "www"
   phone: {
-    ddd: "19",
-    firstPart: "98227", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9369", // Apenas os 4 últimos números
+    ddd: "45",
+    firstPart: "99102", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0837", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Luiz Otávio</p>
-      <p> nº 2565 - Sala E.C 16</p>
-      <p>Parque Taquaral Campinas</p>
-      <p>SP, CEP 13087-018</p>
+      <p>Avenida Carneiro Leão, nº 563</p>
+      <p>Sala 1003, Centro, Maringá - PR</p>
+      <p>CEP 87014-010</p>
     </div>
   ),
   expediente: (
@@ -67,8 +66,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "dr_rafaelnascimento", // Sem o @
-  facebookProfile: "advocaciarafaelnascimento",
+  instagramProfile: "aadvocacia", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -94,15 +93,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL E TRABALHISTA EM CAMPINAS - SP",
+      miniTag: "ADVOGADO ELEITORAL EM MARINGÁ - PR",
       title: (
         <h1 className="mb-[16px]">
-          Mais de uma década defendendo
-          <span className="text-primary"> seus direitos</span>
+          Segurança e<span className="text-primary"> sucesso eleitoral </span>
+          há mais de uma década
         </h1>
       ),
       subtitle:
-        "Com experiência e dedicação, garanto justiça em cada caso, lutando sempre pelo que é seu por direito.",
+        "Experiência, estratégia e defesa jurídica para políticos que não podem correr riscos.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -124,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial em Campinas - SP e online para todo Brasil",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -151,14 +150,14 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Defesa sólida para seus direitos e seu futuro",
-      subtitle: "Compromisso e expertise para defender o que é seu.",
+      title: "Especialidades jurídicas para sua necessidade",
+      subtitle: "Soluções completas para áreas do direito público.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito de Família",
-        subtitle: "Soluções legais para divórcios, guarda e pensão.",
+        title: "Eleitoral",
+        subtitle: "Defesa e consultoria em direito eleitoral.",
         description: (
           <div>
             A_Definir
@@ -179,11 +178,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-book-user"
+            class="lucide lucide-speech"
           >
-            <path d="M15 13a3 3 0 1 0-6 0" />
-            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
-            <circle cx="12" cy="8" r="2" />
+            <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
+            <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
+            <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -191,8 +190,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Consumidor",
-        subtitle: "Defesa contra abusos, cobranças indevidas e fraudes.",
+        title: "Constitucional",
+        subtitle: "Atuação em direitos fundamentais e garantias.",
         description: (
           <div>
             A_Definir
@@ -213,15 +212,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scan-barcode"
+            class="lucide lucide-book-open-check"
           >
-            <path d="M3 7V5a2 2 0 0 1 2-2h2" />
-            <path d="M17 3h2a2 2 0 0 1 2 2v2" />
-            <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
-            <path d="M7 21H5a2 2 0 0 1-2-2v-2" />
-            <path d="M8 7v10" />
-            <path d="M12 7v10" />
-            <path d="M17 7v10" />
+            <path d="M12 21V7" />
+            <path d="m16 12 2 2 4-4" />
+            <path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -229,8 +224,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Bancário, Danos Morais e Materiais",
-        subtitle: "Reparação por cobranças indevidas e prejuízos.",
+        title: "Administrativo Público",
+        subtitle: "Soluções jurídicas para gestão pública eficiente.",
         description: (
           <div>
             A_Definir <br />
@@ -250,14 +245,15 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-landmark"
+            class="lucide lucide-building-2"
           >
-            <line x1="3" x2="21" y1="22" y2="22" />
-            <line x1="6" x2="6" y1="18" y2="11" />
-            <line x1="10" x2="10" y1="18" y2="11" />
-            <line x1="14" x2="14" y1="18" y2="11" />
-            <line x1="18" x2="18" y1="18" y2="11" />
-            <polygon points="12 2 20 7 4 7" />
+            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+            <path d="M10 6h4" />
+            <path d="M10 10h4" />
+            <path d="M10 14h4" />
+            <path d="M10 18h4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -265,8 +261,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Trabalhista",
-        subtitle: "Direitos do trabalhador em rescisões e processos.",
+        title: "Assessoria Jurídica",
+        subtitle: "Consultoria estratégica para questões legais.",
         description: (
           <div>
             A_Definir
@@ -287,12 +283,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            class="lucide lucide-scale"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -377,58 +374,72 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR RAFAEL NASCIMENTO",
-      title: "Minha trajetória",
+      miniTag: "QUEM É ALVES ADVOGADOS",
+      title: "Nossa história",
       subtitle:
-        "Advogado desde 2014, com experiência em bancário e consumidor.",
+        "Compromisso e excelência há mais de 12 anos no direito público.",
       paragraph: (
         <div>
-          Dr. Rafael da Silva Nascimento, inscrito na OAB/SP sob o número
-          434.803, iniciou sua trajetória jurídica em 2014, atuando no Direito
-          Bancário e no Direito do Consumidor.
+          Minha trajetória na advocacia começou na{" "}
+          <strong>UDC Cataratas, no Paraná</strong>, onde me formei em{" "}
+          <strong>2014</strong>. Desde a graduação, sempre tive um olhar
+          diferenciado para áreas muitas vezes subestimadas na advocacia, como
+          <strong>Direito Constitucional, Administrativo e Eleitoral.</strong>
           <br />
-          Sua vivência profissional o levou a enfrentar diretamente grandes
-          instituições financeiras, defendendo os direitos de clientes lesados
-          por práticas abusivas.
+          Enquanto muitos colegas se dedicavam ao Direito Civil, Penal e
+          Trabalhista, eu enxergava no Constitucional e no Administrativo as
+          bases que sustentam todo o ordenamento jurídico.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Dr. Rafael da Silva Nascimento, inscrito na OAB/SP sob o número
-          434.803, iniciou sua trajetória jurídica em 2014, atuando no Direito
-          Bancário e no Direito do Consumidor.
+          Minha trajetória na advocacia começou na UDC Cataratas, no Paraná,
+          onde me formei em 2014. Desde a graduação, sempre tive um olhar
+          diferenciado para áreas muitas vezes subestimadas na advocacia, como
+          Direito Constitucional, Administrativo e Eleitoral.
           <br />
           <br />
-          Sua vivência profissional o levou a enfrentar diretamente grandes
-          instituições financeiras, defendendo os direitos de clientes lesados
-          por práticas abusivas.
+          Enquanto muitos colegas se dedicavam ao Direito Civil, Penal e
+          Trabalhista, eu enxergava no Constitucional e no Administrativo as
+          bases que sustentam todo o ordenamento jurídico.
           <br />
           <br />
-          Concluiu sua graduação em Direito pelo grupo Kroton em 2017,
-          consolidando sua base teórica e prática para atuar com excelência.
+          Durante a faculdade, aprofundei meus estudos no Direito Eleitoral,
+          compreendendo sua importância para a organização política e social do
+          país. Foi nessa época que decidi prestar concurso para o Tribunal
+          Regional Eleitoral do Paraná (TRE-PR).
           <br />
           <br />
-          Durante sua carreira, integrou a Comissão de Direito Civil da OAB
-          Campinas e a Comissão de Mediação e Arbitragem, contribuindo
-          ativamente para o desenvolvimento dessas áreas entre os anos de 2022 e
-          2024.
+          Obtive uma excelente colocação, mas não fui nomeado. No entanto, essa
+          experiência me proporcionou um conhecimento aprofundado da estrutura e
+          funcionamento da Justiça Eleitoral, algo que posteriormente se tornou
+          um diferencial na minha carreira.
           <br />
           <br />
-          Em 24 de setembro de 2019, fundou o escritório{" "}
-          <strong>Dr. Rafael Nascimento Advocacia</strong>, um espaço dedicado à
-          busca por justiça e à defesa dos direitos de seus clientes.
+          Ao concluir a graduação, já possuía uma rede de contatos sólida no
+          meio jurídico e político, o que me permitiu ingressar no mercado com
+          segurança.
           <br />
           <br />
-          Desde 2022, além de sua atuação no setor privado, também passou a
-          integrar a Defensoria Pública de Sumaré/SP como advogado conveniado,
-          ampliando seu compromisso em oferecer suporte jurídico àqueles que
-          mais precisam.
+          Desde então, dediquei minha carreira à advocacia pública e eleitoral,
+          assessorando políticos, gestores e agentes públicos em diversas
+          demandas, como prestação de contas, cassações e defesas eleitorais.
           <br />
           <br />
-          Com anos de experiência e uma trajetória marcada por dedicação e
-          ética, Dr. Rafael Nascimento segue firme na missão de proporcionar
-          segurança jurídica e soluções eficazes para seus clientes.
+          Hoje, atuo em mais de 40 municípios do Paraná, acompanhando processos
+          estratégicos e auxiliando na construção de mandatos sólidos e
+          juridicamente seguros.
+          <br />
+          <br />
+          Minha experiência abrange três eleições municipais e duas eleições
+          gerais, o que me permitiu acompanhar de perto os desafios e
+          transformações do cenário político ao longo dos anos.
+          <br />
+          <br />
+          Mais do que advogar, meu compromisso é garantir que a atuação política
+          e administrativa seja feita dentro da legalidade, sempre pautada pela
+          transparência e pela defesa da justiça.
           <br />
           <br />
         </p>
@@ -443,26 +454,18 @@ const content = {
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
-        title: "Acompanhe muitas novidades e atualizações!",
-        subtitle:
-          "⚖️ Fique por dentro do universo jurídico seguindo nossos perfis nas redes sociais!",
+        title: "Conecte-se conosco",
+        subtitle: "",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e mantenha-se sempre atualizado sobre as
-            últimas tendências e mudanças no mundo do direito.
+            Fique por dentro das atualizações mais importantes e aproveite
+            nossas redes sociais para mantermos contato. Estamos sempre por
+            aqui, compartilhando o que faz a diferença.
           </p>
-        ),
-        labelInstagram:(
-          <p>Siga-me no Instagram</p>
-        ),
-        labelFacebook:(
-          <p>Siga-me no Facebook</p>
-        ),
-        labelX:(
-          <p>Siga-me no X</p>
-        ),
-        labelLinkedIn:(
-          <p>Siga-me no LinkedIn</p>
         ),
       },
     },
@@ -486,25 +489,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Procedimento eficaz",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },
