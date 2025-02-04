@@ -94,14 +94,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO CRIMINAL E PREVIDENCIÁRIO EM SANTARÉM - PA",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          A proteção dos seus direitos
+          <span className="text-primary"> começa aqui</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com experiência em Direito Penal e Previdenciário, Dr. Gileno Tavares luta pelos seus direitos com dedicação e lealdade inabaláveis.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +124,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento online e presencial",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
