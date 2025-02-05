@@ -335,34 +335,55 @@ const content = {
           criminal, guiado por valores inegociáveis:{" "}
           <strong> ética, justiça e compromisso com a liberdade.</strong>
           <br />
-          Acredito que todo cidadão tem o direito a uma defesa técnica, combativa e estratégica, garantindo que a lei seja aplicada com equilíbrio e imparcialidade.
+          Acredito que todo cidadão tem o direito a uma defesa técnica,
+          combativa e estratégica, garantindo que a lei seja aplicada com
+          equilíbrio e imparcialidade.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Há mais de 25 anos, dedico minha carreira exclusivamente à advocacia criminal, guiado por valores inegociáveis: <strong>ética, justiça e compromisso com a liberdade.</strong>
+          Há mais de 25 anos, dedico minha carreira exclusivamente à advocacia
+          criminal, guiado por valores inegociáveis:{" "}
+          <strong>ética, justiça e compromisso com a liberdade.</strong>
           <br />
           <br />
-          Acredito que todo cidadão tem o direito a uma defesa técnica, combativa e estratégica, garantindo que a lei seja aplicada com equilíbrio e imparcialidade.
+          Acredito que todo cidadão tem o direito a uma defesa técnica,
+          combativa e estratégica, garantindo que a lei seja aplicada com
+          equilíbrio e imparcialidade.
           <br />
           <br />
-          Atualmente, tenho a honra de ser <strong>Presidente da Comissão Especial de Audiência de Custódia da OAB-PE</strong>, um papel que reforça minha missão de assegurar o respeito aos direitos fundamentais desde o primeiro momento de uma prisão. 
+          Atualmente, tenho a honra de ser{" "}
+          <strong>
+            Presidente da Comissão Especial de Audiência de Custódia da OAB-PE
+          </strong>
+          , um papel que reforça minha missão de assegurar o respeito aos
+          direitos fundamentais desde o primeiro momento de uma prisão.
           <br />
           <br />
-          Minha atuação é pautada na busca por um sistema de justiça mais humano e justo, onde a presunção de inocência e o devido processo legal sejam sempre respeitados.
+          Minha atuação é pautada na busca por um sistema de justiça mais humano
+          e justo, onde a presunção de inocência e o devido processo legal sejam
+          sempre respeitados.
           <br />
           <br />
-          Com trânsito sólido nas varas criminais de Recife e forte atuação no <strong>Tribunal do Júri</strong>, defendo clientes com técnica e determinação, especialmente em casos envolvendo a <strong>Lei de Drogas (Lei 11.343/06).</strong>
+          Com trânsito sólido nas varas criminais de Recife e forte atuação no{" "}
+          <strong>Tribunal do Júri</strong>, defendo clientes com técnica e
+          determinação, especialmente em casos envolvendo a{" "}
+          <strong>Lei de Drogas (Lei 11.343/06).</strong>
           <br />
           <br />
-          Penso que cada caso merece uma abordagem individualizada, baseada na verdade dos fatos e na construção de uma defesa sólida e estratégica.
+          Penso que cada caso merece uma abordagem individualizada, baseada na
+          verdade dos fatos e na construção de uma defesa sólida e estratégica.
           <br />
           <br />
-          Mais do que advogar, minha missão é proteger direitos, enfrentar injustiças e lutar por um sistema penal mais equilibrado. 
+          Mais do que advogar, minha missão é proteger direitos, enfrentar
+          injustiças e lutar por um sistema penal mais equilibrado.
           <br />
           <br />
-          <strong>A liberdade e a dignidade de cada indivíduo são princípios que me guiam diariamente.</strong>
+          <strong>
+            A liberdade e a dignidade de cada indivíduo são princípios que me
+            guiam diariamente.
+          </strong>
           <br />
           <br />
         </p>
@@ -383,9 +404,9 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "FALE CONOSCO",
+      title: "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle: "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
