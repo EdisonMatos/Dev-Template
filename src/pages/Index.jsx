@@ -40,6 +40,7 @@ export default function Index() {
         addres={true}
         instagram={true}
         facebook={true}
+
         linkedin={false}
         x={false}
         obs={false}
