@@ -92,14 +92,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO CRIMINALISTA EM RECIFE - PE",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Sua defesa criminal
+          <span className="text-primary"> começa aqui</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com 25 anos de experiência, Dr. Marconi Dias lidera sua defesa com estratégias imbatíveis e compromisso.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -121,7 +122,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento online com hora marcada",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
