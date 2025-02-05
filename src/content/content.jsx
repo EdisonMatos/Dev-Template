@@ -321,33 +321,48 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR MARCONI DIAS",
+      title: "Minha trajetória",
+      subtitle:
+        "25 anos de experiência na defesa criminal e liderança na OAB - PE",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Há mais de 25 anos, dedico minha carreira exclusivamente à advocacia
+          criminal, guiado por valores inegociáveis:{" "}
+          <strong> ética, justiça e compromisso com a liberdade.</strong>
           <br />
-          A_Definir
+          Acredito que todo cidadão tem o direito a uma defesa técnica, combativa e estratégica, garantindo que a lei seja aplicada com equilíbrio e imparcialidade.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Há mais de 25 anos, dedico minha carreira exclusivamente à advocacia criminal, guiado por valores inegociáveis: <strong>ética, justiça e compromisso com a liberdade.</strong>
           <br />
           <br />
-          A_Definir
+          Acredito que todo cidadão tem o direito a uma defesa técnica, combativa e estratégica, garantindo que a lei seja aplicada com equilíbrio e imparcialidade.
           <br />
           <br />
-          A_Definir
+          Atualmente, tenho a honra de ser <strong>Presidente da Comissão Especial de Audiência de Custódia da OAB-PE</strong>, um papel que reforça minha missão de assegurar o respeito aos direitos fundamentais desde o primeiro momento de uma prisão. 
           <br />
           <br />
-          A_Definir
+          Minha atuação é pautada na busca por um sistema de justiça mais humano e justo, onde a presunção de inocência e o devido processo legal sejam sempre respeitados.
+          <br />
+          <br />
+          Com trânsito sólido nas varas criminais de Recife e forte atuação no <strong>Tribunal do Júri</strong>, defendo clientes com técnica e determinação, especialmente em casos envolvendo a <strong>Lei de Drogas (Lei 11.343/06).</strong>
+          <br />
+          <br />
+          Penso que cada caso merece uma abordagem individualizada, baseada na verdade dos fatos e na construção de uma defesa sólida e estratégica.
+          <br />
+          <br />
+          Mais do que advogar, minha missão é proteger direitos, enfrentar injustiças e lutar por um sistema penal mais equilibrado. 
+          <br />
+          <br />
+          <strong>A liberdade e a dignidade de cada indivíduo são princípios que me guiam diariamente.</strong>
           <br />
           <br />
         </p>
