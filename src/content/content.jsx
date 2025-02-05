@@ -6,7 +6,6 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -264,62 +263,6 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card5: {
-        img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
-          >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card6: {
-        img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
-          >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
       moreFeatures: {
         card1: {
           ico: "A_Definir",
@@ -338,6 +281,14 @@ const content = {
         },
       },
     },
+    maps: {
+      minitag: "Google Maps",
+      title: "Como nos encontrar?",
+      subtitle:
+        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+    },
     about: {
       imagem: {
         img: aboutImg1,
@@ -346,6 +297,10 @@ const content = {
       miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
           A_Definir
@@ -375,92 +330,71 @@ const content = {
 
       aboutSocial: {
         img: {
-          img: aboutSocial,
-          imgPrint: aboutSocialImg,
+          img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle: "",
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
-        paragraph: (
-          <p>
-            Fique por dentro das atualizações mais importantes e aproveite
-            nossas redes sociais para mantermos contato. Estamos sempre por
-            aqui, compartilhando o que faz a diferença.
-          </p>
-        ),
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Procedimento eficaz",
-          cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -527,14 +461,6 @@ const content = {
       number2Description: "A_Definir",
       number3: 1000,
       number3Description: "A_Definir",
-    },
-    maps: {
-      minitag: "Google Maps",
-      title: "Como nos encontrar?",
-      subtitle:
-        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     team: {
       title: "A_Definir",
