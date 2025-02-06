@@ -98,7 +98,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           A proteção dos seus direitos
-          <span className="text-primary"> começa aqui</span>
+          <span className="text-[#CEA09E]"> começa aqui</span>
         </h1>
       ),
       subtitle:
