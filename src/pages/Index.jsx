@@ -26,21 +26,20 @@ export default function Index() {
       />
 
       <About modal={true} />
-      <AboutInstagram
+      {/* <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={true}
         linkedin={false}
         x={false}
-      />
+      /> */}
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
         addres={true}
-        instagram={true}
-        facebook={true}
-
+        instagram={false}
+        facebook={false}
         linkedin={false}
         x={false}
         obs={false}
