@@ -6,11 +6,7 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-<<<<<<< HEAD
-=======
-//img que estava conflitando "aboutSocial"
-import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
->>>>>>> ac2290b48f954e6d3c8095ffd0073fb3db629a41
+
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -438,7 +434,7 @@ const content = {
     },
     steps: {
       miniTag: (
-        <p className="text-white">PASSO A PASSO</p>),
+        <p className="">PASSO A PASSO</p>),
       title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
@@ -446,21 +442,21 @@ const content = {
       cards: {
         card1: {
           stepNumber: (
-            <p className="text-white">1</p>),
+            <p className="">1</p>),
           cardTitle: "Consulta inicial",
           cardDescription:
             "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber:(
-            <p className="text-white">2</p>),
+            <p className="">2</p>),
           cardTitle: "Análise detalhada",
           cardDescription:
             "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber:(
-            <p className="text-white">3</p>),
+            <p className="">3</p>),
           cardTitle: "Elaboração da estratégia",
           cardDescription:
             "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
