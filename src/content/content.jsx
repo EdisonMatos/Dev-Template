@@ -6,6 +6,11 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+<<<<<<< HEAD
+=======
+//img que estava conflitando "aboutSocial"
+import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
+>>>>>>> ac2290b48f954e6d3c8095ffd0073fb3db629a41
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -41,6 +46,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
+
   name: "Dr. Marconi Dias",
   email: "contato", // Email desejado pelo cliente
   domain: "mdadvcriminal.com.br", // Sem "www"
@@ -65,8 +71,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "fernandesadvocaciadf", // Sem o @
+  facebookProfile: "fernandesadvocaciadf",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -123,6 +129,7 @@ const content = {
           </svg>
         ),
         text: "Atendimento online com hora marcada",
+
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -148,16 +155,24 @@ const content = {
       },
     },
     features: {
+
       miniTag: "EXCELÊNCIA EM DEFESA CRIME",
       title: "Proteção dos seus direitos com estratégia e compromisso",
       subtitle:
         "Atuação especializada em defesa criminal para garantir justiça e preservar sua liberdade.",
+
+      miniTag: "ESPECIALIDADES",
+      title: "Áreas de Atuação",
+      subtitle: "Protegendo seus direitos com experiência e compromisso.",
+
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
         title: "Defesa em Crimes de Tráfico de Drogas",
         subtitle: "Defesa estratégica em casos de tráfico e associação.",
+        title: "Penal - Processos Criminais",
+        subtitle: "Defesa em ações penais, recursos e revisões criminais.",
         description: (
           <div>
             A_Definir
@@ -181,6 +196,7 @@ const content = {
             class="lucide lucide-shield"
           >
             <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -188,8 +204,10 @@ const content = {
       },
       card2: {
         img: featuresImg2,
+
         title: "Crimes Contra a Pessoa",
         subtitle: "Defesa em casos de homicídio, lesão corporal e ameaças.",
+
         description: (
           <div>
             A_Definir
@@ -214,6 +232,7 @@ const content = {
           >
             <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
             <circle cx="12" cy="7" r="4" />
+
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -223,6 +242,7 @@ const content = {
         img: featuresImg3,
         title: "Revisão Criminal e Progressão de Regime",
         subtitle: "Revisão de sentenças e pedidos de progressão de regime.",
+
         description: (
           <div>
             A_Definir <br />
@@ -249,6 +269,7 @@ const content = {
             <path d="M10 9H8" />
             <path d="M16 13H8" />
             <path d="M16 17H8" />
+
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -258,6 +279,7 @@ const content = {
         img: featuresImg4,
         title: "Prisões em Flagrante e Audiências de Custódia",
         subtitle: "Atuação rápida para soltura e direitos do preso.",
+
         description: (
           <div>
             A_Definir
@@ -285,6 +307,7 @@ const content = {
             <path d="m8 8 6-6" />
             <path d="m9 7 8 8" />
             <path d="m21 11-8-8" />
+
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -338,6 +361,7 @@ const content = {
           Acredito que todo cidadão tem o direito a uma defesa técnica,
           combativa e estratégica, garantindo que a lei seja aplicada com
           equilíbrio e imparcialidade.
+
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -400,6 +424,7 @@ const content = {
         title: "A_Definir",
         subtitle: "A_Definir",
         paragraph: <p>A_Definir</p>,
+
       },
     },
     cta: {
@@ -412,32 +437,37 @@ const content = {
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
+      miniTag: (
+        <p className="text-white">PASSO A PASSO</p>),
       title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
-          stepNumber: 1,
+          stepNumber: (
+            <p className="text-white">1</p>),
           cardTitle: "Consulta inicial",
           cardDescription:
             "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
-          stepNumber: 2,
+          stepNumber:(
+            <p className="text-white">2</p>),
           cardTitle: "Análise detalhada",
           cardDescription:
             "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
-          stepNumber: 3,
+          stepNumber:(
+            <p className="text-white">3</p>),
           cardTitle: "Elaboração da estratégia",
           cardDescription:
             "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
+
           cardTitle: "Ação legal",
           cardDescription:
             "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
