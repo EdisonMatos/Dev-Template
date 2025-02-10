@@ -15,7 +15,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function DefaultModals() {
+export default function DefaultModals({ modal }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -53,48 +53,52 @@ export default function DefaultModals() {
                   paragraph="a_Definir"
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
-                <Button
-                  size="small"
-                  label="Saber Mais"
-                  onClick={() =>
-                    onClick(
-                      content.texts.features.card1.title,
-                      content.texts.features.card1.subtitle,
-                      <>
-                        <p className="my-[20px]">
-                          Quer saber mais? Clique abaixo 👇
-                        </p>
-                        <div>
-                          <Button
-                            aria-label={content.texts.about.ctaButtonAriaLabel}
-                            label={content.texts.about.ctaButtonText}
-                            buttonLink={whatsappContactLink}
-                            animation={false}
-                            className="hover:scale-105"
-                            icon={<FaWhatsapp size={24} />}
-                          />
-                        </div>
-                      </>
-                    )
-                  }
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right"
-                    >
-                      <polyline points="15 10 20 15 15 20" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
-                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card1.title,
+                        content.texts.features.card1.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
               </MotionDivDownToUp>
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
@@ -103,48 +107,52 @@ export default function DefaultModals() {
                   paragraph="a_Definir"
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
-                <Button
-                  size="small"
-                  label="Saber Mais"
-                  onClick={() =>
-                    onClick(
-                      content.texts.features.card2.title,
-                      content.texts.features.card2.subtitle,
-                      <>
-                        <p className="my-[20px]">
-                          Quer saber mais? Clique abaixo 👇
-                        </p>
-                        <div>
-                          <Button
-                            aria-label={content.texts.about.ctaButtonAriaLabel}
-                            label={content.texts.about.ctaButtonText}
-                            buttonLink={whatsappContactLink}
-                            animation={false}
-                            className="hover:scale-105"
-                            icon={<FaWhatsapp size={24} />}
-                          />
-                        </div>
-                      </>
-                    )
-                  }
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right"
-                    >
-                      <polyline points="15 10 20 15 15 20" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
-                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card2.title,
+                        content.texts.features.card2.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
               </MotionDivDownToUp>{" "}
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
@@ -153,48 +161,52 @@ export default function DefaultModals() {
                   paragraph="a_Definir."
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
-                <Button
-                  size="small"
-                  label="Saber Mais"
-                  onClick={() =>
-                    onClick(
-                      content.texts.features.card3.title,
-                      content.texts.features.card3.subtitle,
-                      <>
-                        <p className="my-[20px]">
-                          Quer saber mais? Clique abaixo 👇
-                        </p>
-                        <div>
-                          <Button
-                            aria-label={content.texts.about.ctaButtonAriaLabel}
-                            label={content.texts.about.ctaButtonText}
-                            buttonLink={whatsappContactLink}
-                            animation={false}
-                            className="hover:scale-105"
-                            icon={<FaWhatsapp size={24} />}
-                          />
-                        </div>
-                      </>
-                    )
-                  }
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right"
-                    >
-                      <polyline points="15 10 20 15 15 20" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
-                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card3.title,
+                        content.texts.features.card3.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
               </MotionDivDownToUp>{" "}
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
@@ -203,48 +215,52 @@ export default function DefaultModals() {
                   paragraph="a_Definir "
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
-                <Button
-                  size="small"
-                  label="Saber Mais"
-                  onClick={() =>
-                    onClick(
-                      content.texts.features.card4.title,
-                      content.texts.features.card4.subtitle,
-                      <>
-                        <p className="my-[20px]">
-                          Quer saber mais? Clique abaixo 👇
-                        </p>
-                        <div>
-                          <Button
-                            aria-label={content.texts.about.ctaButtonAriaLabel}
-                            label={content.texts.about.ctaButtonText}
-                            buttonLink={whatsappContactLink}
-                            animation={false}
-                            className="hover:scale-105"
-                            icon={<FaWhatsapp size={24} />}
-                          />
-                        </div>
-                      </>
-                    )
-                  }
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right"
-                    >
-                      <polyline points="15 10 20 15 15 20" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
-                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label="Saber Mais"
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card4.title,
+                        content.texts.features.card4.subtitle,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={whatsappContactLink}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
               </MotionDivDownToUp>{" "}
             </div>
           </div>
