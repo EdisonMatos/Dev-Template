@@ -16,8 +16,9 @@ import FeatureModalWithCards from "./FeatureModalWithCards";
 import Features6cards from "./Features6cards";
 import FeaturesParagraphs from "./FeaturesParagraphs";
 import FeaturesButton from "./FeaturesButton";
+import DefaultModals from "./DefaultModals";
 
-export default function Features({ modal, defaultFeature, modalWithCards, sixCards, paragraphs, button }) {
+export default function Features({ modal, defaultFeature, modalWithCards, sixCards, paragraphs, button, paragraphsModal }) {
   return (
     <div>
       {defaultFeature && (
@@ -96,7 +97,7 @@ export default function Features({ modal, defaultFeature, modalWithCards, sixCar
       {sixCards && <Features6cards />}
       {paragraphs && <FeaturesParagraphs />}
       {button && <FeaturesButton />}
-
+      {paragraphsModal && <DefaultModals />}
     </div>
   );
 }
