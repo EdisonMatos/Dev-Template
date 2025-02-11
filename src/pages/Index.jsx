@@ -3,6 +3,7 @@ import Hero from "../components/sections/Hero";
 import Features from "../components/sections/Features";
 import About from "../components/sections/About";
 import AboutInstagram from "../components/sections/AboutInstagram";
+import Blog from "../components/sections/Blog";
 import Cta from "../components/sections/Cta";
 import Steps from "../components/sections/Steps";
 import Maps from "../components/sections/Maps";
@@ -33,6 +34,7 @@ export default function Index() {
         linkedin={false}
         x={false}
       />
+      <Blog/>
       <Cta />
       <Steps />
       <Faq />
