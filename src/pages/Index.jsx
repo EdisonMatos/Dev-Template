@@ -16,7 +16,7 @@ export default function Index() {
   return (
     <div>
       <Navbar LightMode={false} />
-      <Hero appDownloadButtons={true} />
+      <Hero appDownloadButtons={false} />
       <Features
         defaultFeature={true}
         button={false}
