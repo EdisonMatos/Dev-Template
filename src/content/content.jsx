@@ -1,17 +1,16 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgAppStore from "../assets/imgs/hero/appStore.webp";
 import imgGooglePlay from "../assets/imgs/hero/googlePlay.webp";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
-
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -44,31 +43,31 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Luiz Eduardo",
+  name: "Advogado Sidney Gomes",
   email: "contato", // Email desejado pelo cliente
-  domain: "luizeduardoadv.com.br", // Sem "www"
+  domain: "sagadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: "87",
-    firstPart: "99636", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1703", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98591", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2229", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Professora Zelina Alves, nº 406</p>
-      <p>Centro, Paranacity - PR</p>
-      <p>CEP 87660-970</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 16h</p>
+      <p>Das 9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "luizeduardo.adv", // Sem o @
+  instagramProfile: "sidneianastaciogomes", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -95,15 +94,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CRIMINALISTA EM PARANACITY - PR",
+      miniTag: "ADVOGADO EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Da busca por
-          <span className="text-primary"> justiça </span> à solução estratégica
+          Defenda
+          <span className="text-primary"> seus direitos </span> com quem entende
+          do assunto
         </h1>
       ),
       subtitle:
-        "Com estratégia, técnica e dedicação, defendo seus direitos para que você tenha alívio e justiça de verdade.",
+        "Com experiência e compromisso, ofereço suporte jurídico estratégico para defender o que realmente importa",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -125,7 +125,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento exclusivamente online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -155,26 +155,26 @@ const content = {
           appStore: {
             img: imgAppStore,
             alt: "Ícone da App Store",
-            link: "https://apps.apple.com/br/app/fazconnect/id1608177954",
+            link: "#",
           },
           playStore: {
             img: imgGooglePlay,
             alt: "Ícone da Play Store",
-            link: "https://play.google.com/store/apps/details?id=com.sedep.fazconnect",
+            link: "#",
           },
         },
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Excelência jurídica em diversas áreas",
-      subtitle: "Atendimento especializado para cada necessidade legal.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Soluções jurídicas especializadas",
+      subtitle: "Atendimento estratégico para proteger seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Penal",
-        subtitle: "Defesa e representação em processos criminais.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa dos direitos do trabalhador e do empregador.",
         description: (
           <div>
             A_Definir
@@ -184,6 +184,75 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
+          >
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: featuresImg2,
+        title: "Direito Cível",
+        subtitle: "Soluções jurídicas para contratos, danos e disputas.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias, benefícios e revisões previdenciárias.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -207,76 +276,10 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card2: {
-        img: featuresImg2,
-        title: "Tribunal do Júri",
-        subtitle: "Atuação estratégica na defesa em crimes dolosos.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-speech"
-          >
-            <path d="M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20" />
-            <path d="M19.8 17.8a7.5 7.5 0 0 0 .003-10.603" />
-            <path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Direito do Consumidor",
-        subtitle: "Proteção contra práticas abusivas e violações.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-tag"
-          >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
       card4: {
         img: featuresImg4,
-        title: "Direito Cível",
-        subtitle: "Soluções jurídicas para questões civis e contratuais.",
+        title: "Consultoria e Assessoria Jurídica",
+        subtitle: "Orientação estratégica para segurança jurídica.",
         description: (
           <div>
             A_Definir
@@ -297,12 +300,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-gavel"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -387,57 +391,60 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É DR LUIZ EDUARDO",
+      miniTag: "QUEM É O DR SIDNEY GOMES",
       title: "Minha trajetória",
-      subtitle:
-        "Do sonho à advocacia: dedicação, justiça e paixão pelo direito.",
+      subtitle: "Da feira ao direito: uma jornada de dedicação e justiça.",
       paragraph: (
         <div>
-          Meu nome é Luiz Eduardo Medeiros, iniciei minha jornada no Direito em
-          2017, em Afogados da Ingazeira – PE, fazendo parte da primeira turma
-          do curso na cidade.
+          Minha paixão pelo direito começou na infância. Filho de uma feirante,
+          desde cedo aprendi o valor do trabalho e da dedicação.
           <br />
-          Antes mesmo da formatura, fui aprovado no Exame da Ordem no 8º período
-          e, em 2022, comecei oficialmente minha atuação como advogado no estado
-          de Pernambuco.
+          Com apenas 11 anos, enquanto ajudava minha mãe na feira, imaginava um
+          futuro no direito, sonhando em ser delegado de polícia e brincando com
+          arminhas de brinquedo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Meu nome é Luiz Eduardo Medeiros, iniciei minha jornada no Direito em
-          2017, em Afogados da Ingazeira – PE, fazendo parte da primeira turma
-          do curso na cidade.
+          Minha paixão pelo direito começou na infância. Filho de uma feirante,
+          desde cedo aprendi o valor do trabalho e da dedicação.
           <br />
           <br />
-          Antes mesmo da formatura, fui aprovado no Exame da Ordem no 8º período
-          e, em 2022, comecei oficialmente minha atuação como advogado no estado
-          de Pernambuco.
+          Com apenas 11 anos, enquanto ajudava minha mãe na feira, imaginava um
+          futuro no direito, sonhando em ser delegado de polícia e brincando com
+          arminhas de brinquedo.
           <br />
           <br />
-          Minha prática abrange Direito do Consumidor e Cível, mas minha
-          verdadeira vocação está no Direito Penal. Em 2023, concluí
-          pós-graduações em Tribunal do Júri, Execução Penal e Ciências
-          Criminais, e sigo me especializando com estudos em Direito e Processo
-          Civil.
+          Anos depois, deixei minha cidade natal e segui para São Paulo,
+          determinado a transformar esse sonho em realidade. A vida, no entanto,
+          me levou por outro caminho antes de chegar à advocacia. Trabalhei por
+          muitos anos no chão de fábrica, onde pude vivenciar de perto as
+          dificuldades e desafios enfrentados pelos trabalhadores.
           <br />
           <br />
-          Minha decisão de seguir essa carreira surgiu de uma conversa com meu
-          pai, que me sugeriu o Direito como profissão.
+          Foi ali, no contato diário com colegas de profissão, que compreendi a
+          importância de ter alguém que realmente lute pelos direitos daqueles
+          que muitas vezes não sabem a quem recorrer.
           <br />
           <br />
-          Ao conhecer a área, percebi o impacto que um advogado pode ter na vida
-          das pessoas. Meu fascínio está nos desafios diários, na busca por
-          justiça e no compromisso com cada cliente.
+          Movido por essa necessidade, em 2015 iniciei minha graduação em
+          Direito pela UNIBAN, em São Bernardo do Campo – SP.
           <br />
           <br />
-          Advogar exige atenção aos detalhes, dedicação e resiliência. No nosso
-          escritório, prezamos por um atendimento humanizado, garantindo que
-          cada cliente se sinta acolhido e seguro.
+          Foram anos de estudo, esforço e resiliência para conciliar trabalho e
+          faculdade, sempre com o objetivo de me tornar um profissional capaz de
+          oferecer justiça e segurança jurídica àqueles que mais precisam.
           <br />
           <br />
-          Oferecemos um aplicativo para o acompanhamento em tempo real dos
-          processos, reforçando nossa transparência e compromisso com a justiça.
+          Em 2023, tornei-me advogado e passei a atuar como audiencista e
+          representante correspondente jurídico. Hoje, minha missão é prestar um
+          atendimento humanizado e comprometido, garantindo que cada cliente
+          tenha sua voz ouvida e seus direitos protegidos.
+          <br />
+          <br />
+          Acredito que a advocacia vai além das leis – é sobre acolher, orientar
+          e lutar por justiça com ética, transparência e dedicação.
           <br />
           <br />
         </p>
@@ -460,8 +467,9 @@ const content = {
         labelX: "Siga-nos no X",
         paragraph: (
           <p>
-            Fique por dentro de atualizações importantes e aproveite nossas
-            redes sociais para mantermos contato.
+            Fique por dentro das atualizações mais importantes e aproveite
+            nossas redes sociais para mantermos contato. Estamos sempre por
+            aqui, compartilhando o que faz a diferença.
           </p>
         ),
       },

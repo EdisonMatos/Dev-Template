@@ -1,17 +1,16 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgAppStore from "../assets/imgs/hero/appStore.webp";
 import imgGooglePlay from "../assets/imgs/hero/googlePlay.webp";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
-
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
