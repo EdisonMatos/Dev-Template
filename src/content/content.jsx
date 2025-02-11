@@ -475,11 +475,11 @@ const content = {
       },
     },
     blog: {
-      miniTag: "BLOG",
+      miniTag: "a_Definir",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "a_Definir",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "a_Definir",
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
