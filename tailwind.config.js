@@ -3,10 +3,10 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      primary: "#F8B91A",
+      primary: "#FAE4A4",
       secondary: "#000000",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#530E17",
+      bgSectionDark: "#252525",
       links: "#0189BB",
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",

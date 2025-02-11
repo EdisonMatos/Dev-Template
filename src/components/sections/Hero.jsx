@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function Hero() {
+export default function Hero({ appDownloadButtons }) {
   return (
     <div
       className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark "
@@ -56,6 +56,42 @@ export default function Hero() {
                     </div>
                   </div>
                 </MotionDivDownToUp>
+                {appDownloadButtons && (
+                  <MotionDivDownToUp>
+                    <div className="flex flex-col items-center desktop1:items-start">
+                      <p className="mb-[20px] mt-[60px] text-lighter opacity-80 text-center">
+                        {content.texts.hero.app.description}
+                      </p>
+                      <div className="">
+                        {" "}
+                        <div className="flex items-start gap-[20px]">
+                          <a
+                            href={content.texts.hero.app.imgs.appStore.link}
+                            target="_blank"
+                            className="transition hover:scale-110 opacity-80 invert"
+                          >
+                            <img
+                              src={content.texts.hero.app.imgs.appStore.img}
+                              alt={content.texts.hero.app.imgs.appStore.alt}
+                              className=""
+                            />
+                          </a>
+                          <a
+                            href={content.texts.hero.app.imgs.playStore.link}
+                            target="_blank"
+                            className="transition hover:scale-110 opacity-80 invert"
+                          >
+                            <img
+                              src={content.texts.hero.app.imgs.playStore.img}
+                              alt={content.texts.hero.app.imgs.playStore.alt}
+                              className=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </MotionDivDownToUp>
+                )}
               </div>
             </div>
             <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">

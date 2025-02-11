@@ -1,6 +1,8 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import imgAppStore from "../assets/imgs/hero/appStore.webp";
+import imgGooglePlay from "../assets/imgs/hero/googlePlay.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -144,6 +146,21 @@ const content = {
         slide3: {
           img: {},
           alt: "",
+        },
+      },
+      app: {
+        description: "Baixe nosso aplicativo para companhar seu processo:",
+        imgs: {
+          appStore: {
+            img: imgAppStore,
+            alt: "Ícone da App Store",
+            link: "#",
+          },
+          playStore: {
+            img: imgGooglePlay,
+            alt: "Ícone da Play Store",
+            link: "#",
+          },
         },
       },
     },
@@ -431,9 +448,9 @@ const content = {
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Procedimento eficaz",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
