@@ -18,15 +18,14 @@ export default function Index() {
     <div>
       <Navbar LightMode={false} />
       <Hero />
-      {/* <Features
+      <Features
         defaultFeature={false}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
         paragraphsModal={true}
-      /> */}
-      <DefaultModals modal={true}/>
+      /> 
 
       <About modal={true} />
       {/* <AboutInstagram
