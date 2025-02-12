@@ -94,14 +94,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADA EM CARAVELAS - BA",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Defesa
+          <span className="text-primary"> incansável </span> para quem busca
+          justiça
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com ética e expertise, ofereço soluções jurídicas eficazes para proteger o que é mais importante para você.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -164,15 +166,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Atuação estratégica no Direito",
+      subtitle:
+        "Atendimento especializado para garantir seus direitos com segurança e eficiência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -199,8 +202,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Imobiliário",
+        subtitle: "Regularização de imóveis e transações imobiliárias.",
         description: (
           <div>
             A_Definir
@@ -227,8 +230,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Inventários e Partilhas",
+        subtitle: "Planejamento sucessório e solução de heranças.",
         description: (
           <div>
             A_Definir <br />
@@ -254,8 +257,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito de Família",
+        subtitle: "Divórcios, guarda, pensão alimentícia e união estável.",
         description: (
           <div>
             A_Definir
@@ -282,8 +285,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Consumidor",
+        subtitle: "Defesa dos direitos em relações de consumo.",
         description: (
           <div>
             A_Definir
@@ -310,8 +313,9 @@ const content = {
       },
       card6: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Trabalho",
+        subtitle:
+          "Direitos trabalhistas, rescisões, ações contra empregadores.",
         description: (
           <div>
             A_Definir
