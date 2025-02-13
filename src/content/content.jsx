@@ -43,31 +43,31 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Sidney Gomes",
+  name: "Dra. Thábata Lopes Siquara",
   email: "contato", // Email desejado pelo cliente
-  domain: "sagadvocacia.com.br", // Sem "www"
+  domain: "thabatasiquaraadvogada.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "98591", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2229", // Apenas os 4 últimos números
+    ddd: "73",
+    firstPart: "99957", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9787", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Travessa Dias Adorno, nº 135</p>
+      <p>Centro, Caravelas - BA</p>
+      <p>CEP 45900-000</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 17h</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "sidneianastaciogomes", // Sem o @
+  instagramProfile: "thabataadv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -94,16 +94,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SÃO PAULO - SP",
+      miniTag: "ADVOGADA EM CARAVELAS - BA",
       title: (
         <h1 className="mb-[16px]">
-          Defenda
-          <span className="text-primary"> seus direitos </span> com quem entende
-          do assunto
+          Defesa
+          <span className="text-primary"> incansável </span> para quem busca
+          justiça
         </h1>
       ),
       subtitle:
-        "Com experiência e compromisso, ofereço suporte jurídico estratégico para defender o que realmente importa",
+        "Com ética e expertise, ofereço soluções jurídicas eficazes para proteger o que é mais importante para você.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -125,7 +125,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento exclusivamente online para todo Brasil",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -166,15 +166,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Soluções jurídicas especializadas",
-      subtitle: "Atendimento estratégico para proteger seus direitos.",
+      miniTag: "ESPECIALIDADES",
+      title: "Atuação estratégica no Direito",
+      subtitle:
+        "Atendimento especializado para garantir seus direitos com segurança e eficiência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa dos direitos do trabalhador e do empregador.",
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -184,75 +185,6 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
-          >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card2: {
-        img: featuresImg2,
-        title: "Direito Cível",
-        subtitle: "Soluções jurídicas para contratos, danos e disputas.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-users"
-          >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Direito Previdenciário",
-        subtitle: "Aposentadorias, benefícios e revisões previdenciárias.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -276,10 +208,75 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
+      card2: {
+        img: featuresImg2,
+        title: "Direito Imobiliário",
+        subtitle: "Regularização de imóveis e transações imobiliárias.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Inventários e Partilhas",
+        subtitle: "Planejamento sucessório e solução de heranças.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-blocks"
+          >
+            <rect width="7" height="7" x="14" y="3" rx="1" />
+            <path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
       card4: {
         img: featuresImg4,
-        title: "Consultoria e Assessoria Jurídica",
-        subtitle: "Orientação estratégica para segurança jurídica.",
+        title: "Direito de Família",
+        subtitle: "Divórcios, guarda, pensão alimentícia e união estável.",
         description: (
           <div>
             A_Definir
@@ -300,13 +297,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            class="lucide lucide-network"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -314,8 +311,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Consumidor",
+        subtitle: "Defesa dos direitos em relações de consumo.",
         description: (
           <div>
             A_Definir
@@ -330,11 +327,16 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-tag"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -342,8 +344,9 @@ const content = {
       },
       card6: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Trabalho",
+        subtitle:
+          "Direitos trabalhistas, rescisões, ações contra empregadores.",
         description: (
           <div>
             A_Definir
@@ -358,11 +361,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -391,60 +401,49 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR SIDNEY GOMES",
+      miniTag: "QUEM É A DRA. THÁBATA SIQUARA",
       title: "Minha trajetória",
-      subtitle: "Da feira ao direito: uma jornada de dedicação e justiça.",
+      subtitle:
+        "Uma trajetória marcada por dedicação, especialização e defesa dos seus direitos.",
       paragraph: (
         <div>
-          Minha paixão pelo direito começou na infância. Filho de uma feirante,
-          desde cedo aprendi o valor do trabalho e da dedicação.
+          Sou Thábata Lopes Siquara, advogada desde 2013, com especialização em
+          Direito Previdenciário e Direito Imobiliário.
           <br />
-          Com apenas 11 anos, enquanto ajudava minha mãe na feira, imaginava um
-          futuro no direito, sonhando em ser delegado de polícia e brincando com
-          arminhas de brinquedo.
+          Minha atuação é pautada pela ética, transparência e compromisso em
+          garantir a segurança jurídica e a defesa dos direitos dos meus
+          clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha paixão pelo direito começou na infância. Filho de uma feirante,
-          desde cedo aprendi o valor do trabalho e da dedicação.
+          Sou Thábata Lopes Siquara, advogada desde 2013, com especialização em
+          Direito Previdenciário e Direito Imobiliário.
           <br />
           <br />
-          Com apenas 11 anos, enquanto ajudava minha mãe na feira, imaginava um
-          futuro no direito, sonhando em ser delegado de polícia e brincando com
-          arminhas de brinquedo.
+          Minha atuação é pautada pela ética, transparência e compromisso em
+          garantir a segurança jurídica e a defesa dos direitos dos meus
+          clientes.
           <br />
           <br />
-          Anos depois, deixei minha cidade natal e segui para São Paulo,
-          determinado a transformar esse sonho em realidade. A vida, no entanto,
-          me levou por outro caminho antes de chegar à advocacia. Trabalhei por
-          muitos anos no chão de fábrica, onde pude vivenciar de perto as
-          dificuldades e desafios enfrentados pelos trabalhadores.
+          Acredito que o Direito vai além das leis – envolve pessoas, histórias
+          e desafios únicos. Por isso, busco oferecer um atendimento próximo e
+          humanizado, compreendendo as necessidades de cada cliente e
+          proporcionando soluções jurídicas eficazes e seguras.
           <br />
           <br />
-          Foi ali, no contato diário com colegas de profissão, que compreendi a
-          importância de ter alguém que realmente lute pelos direitos daqueles
-          que muitas vezes não sabem a quem recorrer.
+          Meu objetivo é assegurar que todos tenham acesso à melhor orientação e
+          proteção legal, conduzindo cada caso com responsabilidade e dedicação.
           <br />
           <br />
-          Movido por essa necessidade, em 2015 iniciei minha graduação em
-          Direito pela UNIBAN, em São Bernardo do Campo – SP.
+          Estou sempre em busca de atualização e aprimoramento profissional para
+          oferecer um serviço cada vez mais qualificado.
           <br />
           <br />
-          Foram anos de estudo, esforço e resiliência para conciliar trabalho e
-          faculdade, sempre com o objetivo de me tornar um profissional capaz de
-          oferecer justiça e segurança jurídica àqueles que mais precisam.
-          <br />
-          <br />
-          Em 2023, tornei-me advogado e passei a atuar como audiencista e
-          representante correspondente jurídico. Hoje, minha missão é prestar um
-          atendimento humanizado e comprometido, garantindo que cada cliente
-          tenha sua voz ouvida e seus direitos protegidos.
-          <br />
-          <br />
-          Acredito que a advocacia vai além das leis – é sobre acolher, orientar
-          e lutar por justiça com ética, transparência e dedicação.
+          Para mim, a advocacia é mais do que uma profissão: é uma missão de
+          promover a justiça e transformar vidas por meio do conhecimento e da
+          defesa dos direitos.
           <br />
           <br />
         </p>
@@ -467,9 +466,8 @@ const content = {
         labelX: "Siga-nos no X",
         paragraph: (
           <p>
-            Fique por dentro das atualizações mais importantes e aproveite
-            nossas redes sociais para mantermos contato. Estamos sempre por
-            aqui, compartilhando o que faz a diferença.
+            Aproveite nossas redes sociais para mantermos contato e ficar por
+            dentro de atualizações importantes no mundo do direito.
           </p>
         ),
       },
