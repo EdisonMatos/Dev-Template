@@ -11,7 +11,7 @@ export const theme = {
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",
       darker: "#000000",
-      labelsIcons: "#000000",
+      labelsIcons: "#ff0000",
     },
     boxShadow: {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
