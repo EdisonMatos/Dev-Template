@@ -9,7 +9,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function  NavbarSocial({ LightMode }) {
+export default function NavbarSocial({ LightMode }) {
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
   const [showSidebar, setShowSidebar] = useState(false);
@@ -35,7 +35,7 @@ export default function  NavbarSocial({ LightMode }) {
         setTimeout(() => {
           setShowSidebar(false);
           setIsAnimating(false);
-        }, 940); 
+        }, 940);
       } else {
         setShowSidebar(true);
         setTimeout(() => {
@@ -92,19 +92,6 @@ export default function  NavbarSocial({ LightMode }) {
         }`}
       >
         <Navbar>
-          <img
-              src={content.texts.navbar.logo.img}
-              alt={content.texts.navbar.logo.alt}
-              className={`${
-                LightMode
-                  ? scrolling
-                    ? "bg-transparent w-[40%] tablet1:w-[40%] tablet2:w-[30%] desktop1:w-[20%] transition-all duration-1000"
-                    : "bg-white w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[20%] desktop2:w-[30%] px-3 py-3 transition-all duration-1000"
-                  : scrolling
-                  ? "bg-transparent w-[40%] tablet1:w-[40%] tablet2:w-[30%] desktop1:w-[20%] transition-all duration-1000"
-                  : "bg-transparent w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[20%] desktop2:w-[30%] transition-all duration-1000"
-              } tablet3:mb-0`}
-            />
           <ScrollLink
             to="home"
             className="cursor-pointer"
@@ -114,7 +101,19 @@ export default function  NavbarSocial({ LightMode }) {
             offset={-100}
             href="#"
           >
-            
+            <img
+              src={content.texts.navbar.logo.img}
+              alt={content.texts.navbar.logo.alt}
+              className={`${
+                LightMode
+                  ? scrolling
+                    ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
+                    : "bg-white w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[70%] px-3 py-3 transition-all duration-1000"
+                  : scrolling
+                  ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
+                  : "bg-transparent w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[70%] transition-all duration-1000"
+              } tablet3:mb-0`}
+            />
           </ScrollLink>
           <div className="flex items-center justify-between gap-[16px]">
             <div
