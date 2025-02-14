@@ -404,9 +404,8 @@ const content = {
         labelX: "Siga-nos no X",
         paragraph: (
           <p>
-            Fique por dentro das atualizações mais importantes e aproveite
-            nossas redes sociais para mantermos contato. Estamos sempre por
-            aqui, compartilhando o que faz a diferença.
+            Aproveite nossas redes sociais para mantermos contato e ficar por
+            dentro de atualizações importantes no mundo do direito.
           </p>
         ),
       },
