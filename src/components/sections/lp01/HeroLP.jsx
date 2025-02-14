@@ -7,7 +7,7 @@ import contentLp01 from "../../../content/contentLp01";
 export default function HeroLP({ bgImg }) {
   return bgImg ? (
     <div
-      className="bg-top bg-[#EEA935] font-mainFont bg-[size:auto_23%] phone2:bg-[size:auto_24%] phone3:bg-[size:auto_27%] bg-no-repeat"
+      className="bg-top bg-[#EEA935] font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto]  tablet1:bg-cover bg-no-repeat"
       style={{
         backgroundImage: `url(${contentLp01.hero.bgImg})`,
         backgroundPosition: "top",
@@ -18,17 +18,17 @@ export default function HeroLP({ bgImg }) {
         className="bg-black bg-opacity-70"
       >
         <SectionWrapper className="">
-          <div className="flex w-full ">
+          <div className="flex w-full">
             <div className="flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
               <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
-                <MotionDivDownToUp className="flex justify-start">
+                <MotionDivDownToUp className="flex justify-start tablet1:justify-center desktop1:justify-start">
                   <img
                     src={contentLp01.hero.logo.logoImg}
                     alt={contentLp01.hero.logo.alt}
-                    className=" max-w-[180px] phone2:max-w-[320px] phone3:max-w-[270px]"
+                    className=" max-w-[180px] phone3:max-w-[270px] tablet1:w-[280px] desktop1:mb-[60px]"
                   />
                 </MotionDivDownToUp>
-                <div className="mt-[90px] bg-yellow-900">
+                <div className="mt-[30%] phone3:mt-[35%] tablet1:mt-[30px] bg-black/30 desktop1:mt-0">
                   <MotionDivDownToUp className="">
                     <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                       {contentLp01.hero.textArea.title}
@@ -78,7 +78,7 @@ export default function HeroLP({ bgImg }) {
   ) : (
     <div className="">
       <div
-        className="bg-top font-mainFont bg-auto bg-no-repeat"
+        className="bg-top font-mainFont bg-cover bg-no-repeat"
         style={{
           backgroundImage: `url(${contentLp01.hero.bgImg})`,
           backgroundPosition: "top",
@@ -92,7 +92,7 @@ export default function HeroLP({ bgImg }) {
             <div className="flex w-full ">
               <div className="flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
                 <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
-                  <MotionDivDownToUp className="flex justify-center">
+                  <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
                     <img
                       src={contentLp01.hero.logo.logoImg}
                       alt={contentLp01.hero.logo.alt}
