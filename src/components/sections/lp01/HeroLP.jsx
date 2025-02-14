@@ -4,8 +4,8 @@ import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import contentLp01 from "../../../content/contentLp01";
 
-export default function HeroLP({ bgImg }) {
-  return bgImg ? (
+export default function HeroLP({ fullImg }) {
+  return fullImg ? (
     <div
       className="bg-top bg-[#EEA935] font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto]  tablet1:bg-cover bg-no-repeat"
       style={{
