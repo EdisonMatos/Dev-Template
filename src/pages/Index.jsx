@@ -29,9 +29,9 @@ export default function Index() {
       <AboutInstagram
         socialPrint={true}
         instagram={true}
-        facebook={false}
-        linkedin={false}
-        x={false}
+        facebook={true}
+        linkedin={true}
+        x={true}
       />
       <Cta />
       <Steps />
