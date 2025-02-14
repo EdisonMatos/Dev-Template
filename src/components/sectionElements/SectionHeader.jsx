@@ -21,12 +21,12 @@ export default function SectionHeader({
 }) {
   // Configurações baseadas na cor
   if (color === "dark") {
-    miniTitleTextColor = "text-secondary";
+    miniTitleTextColor = "text-black";
     titleColor = "text-bgSectionDark";
     subtitleColor = "text-darker opacity-70";
     if (miniTitleBgColor) miniTitleBgColor = "bg-secondary bg-opacity-5";
   } else {
-    miniTitleTextColor = "text-black";
+    miniTitleTextColor = "text-labelsIcons";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";
     if (miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
