@@ -62,8 +62,8 @@ export default function AboutInstagram({
             </Paragraphs>
           </MotionDivDownToUp>
 
-          {instagram && (
-            <MotionDivDownToUp>
+          <div className="flex flex-col gap-4">
+            {instagram && (
               <Button
                 label={content.texts.about.aboutSocial.labelInstagram}
                 buttonLink={content.texts.links.instagram}
@@ -86,11 +86,9 @@ export default function AboutInstagram({
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          )}
+            )}
 
-          {facebook && (
-            <MotionDivDownToUp className="mt-[18px]">
+            {facebook && (
               <Button
                 label={content.texts.about.aboutSocial.labelFacebook}
                 buttonLink={content.texts.links.facebook}
@@ -111,11 +109,9 @@ export default function AboutInstagram({
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          )}
+            )}
 
-          {x && (
-            <MotionDivDownToUp className="mt-[18px]">
+            {x && (
               <Button
                 label={content.texts.about.aboutSocial.labelX}
                 buttonLink={content.texts.links.x}
@@ -135,13 +131,11 @@ export default function AboutInstagram({
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          )}
+            )}
 
-          {linkedin && (
-            <MotionDivDownToUp className="mt-[18px]">
+            {linkedin && (
               <Button
-                label={content.texts.about.aboutSocial.labelLinkedIn}
+                label={content.texts.about.aboutSocial.labelLinkedin}
                 buttonLink={content.texts.links.linkedin}
                 icon={
                   <svg
@@ -162,8 +156,8 @@ export default function AboutInstagram({
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          )}
+            )}
+          </div>
         </div>
       </SectionWrapper>
     </SectionArea>
