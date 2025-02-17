@@ -8,7 +8,7 @@ export default function FooterLP() {
     <div>
       <SectionArea paddingTopAndBottom={false}>
         <SectionWrapper>
-          <div className="w-full text-center font-mainFont py-[36px] opacity-70">
+          <div className="w-full text-center font-mainFont pt-[36px] pb-[70px] phone2:pb-[25%] phone3:pb-[27%] tablet1:pb-[10%] tablet2:pb-[36px] opacity-70">
             <p>
               {contentLp01.footer.copyrightLine}
               <br />
