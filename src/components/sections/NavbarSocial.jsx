@@ -92,29 +92,39 @@ export default function NavbarSocial({ LightMode }) {
         }`}
       >
         <Navbar>
-          <ScrollLink
-            to="home"
-            className="cursor-pointer"
-            spy={true}
-            smooth={true}
-            duration={400}
-            offset={-100}
-            href="#"
-          >
-            <img
-              src={content.texts.navbar.logo.img}
-              alt={content.texts.navbar.logo.alt}
-              className={`${
+          <div>
+            <ScrollLink
+              to="home"
+              className={`cursor-pointer bg-blue-900 w-auto inline-block transition-all duration-1000 ${
                 LightMode
                   ? scrolling
-                    ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
-                    : "bg-white w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[70%] px-3 py-3 transition-all duration-1000"
+                    ? "w-auto transition-all duration-1000"
+                    : "w-auto transition-all duration-1000"
                   : scrolling
-                  ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
-                  : "bg-transparent w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[70%] transition-all duration-1000"
-              } tablet3:mb-0`}
-            />
-          </ScrollLink>
+                  ? "w-auto transition-all duration-1000"
+                  : "w-auto transition-all duration-1000"
+              }`}
+              spy={true}
+              smooth={true}
+              duration={400}
+              offset={-100}
+              href="#"
+            >
+              <img
+                src={content.texts.navbar.logo.img}
+                alt={content.texts.navbar.logo.alt}
+                className={`${
+                  LightMode
+                    ? scrolling
+                      ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
+                      : "bg-white w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[70%] px-3 py-3 transition-all duration-1000"
+                    : scrolling
+                    ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
+                    : "bg-transparent w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[70%] transition-all duration-1000"
+                } tablet3:mb-0`}
+              />
+            </ScrollLink>
+          </div>
           <div className="flex items-center justify-between gap-[16px]">
             <div
               className={`hidden tablet1:flex desktop1:hidden ${
