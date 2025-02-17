@@ -19,6 +19,7 @@ export default function AboutInstagram({
   x,
   linkedin,
   socialPrint,
+  test,
 }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");

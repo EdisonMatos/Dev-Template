@@ -19,31 +19,31 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero appDownloadButtons={false} />
       <Features
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
-      /> 
-
+        paragraphsModal={false}
+      />
 
       <About modal={true} />
       <AboutInstagram
         socialPrint={true}
-        instagram={true}
+        instagram={false}
         facebook={false}
-        linkedin={false}
+        linkedin={true}
         x={false}
+        test={true}
       />
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
-        addres={true}
-        instagram={true}
+        addres={false}
+        instagram={false}
         facebook={false}
-        linkedin={false}
+        linkedin={true}
         x={false}
         obs={false}
       />

@@ -43,13 +43,13 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dra. Roberta Zani",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "robertazani.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "27",
+    firstPart: "99953", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9220", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -63,13 +63,13 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Das 13h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "A_Definir", // Sem o @
   facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  linkeDinProfile: "roberta-zani-silva",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -94,14 +94,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: (
+        <p className="text-paragraph1 tablet1:text-paragraph2">
+          ADVOGADA CONSULTIVA E CONTENCIOSA
+          <br className="phone3:hidden" /> EM GUARAPARI - ES
+        </p>
+      ),
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Seus direitos
+          <span className="text-primary"> defendidos </span> com eficiência
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Com a experiência da Dra. Roberta Zani, cada ação é pensada para garantir a proteção dos seus direitos, sempre com foco em resultados.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +129,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento online com hora marcada",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -164,15 +170,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Nossas especialidades",
+      subtitle: "Oferecemos soluções jurídicas em diversas áreas do direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Cível",
+        subtitle: "Defesa de direitos, resolução de disputas e litígios civis.",
         description: (
           <div>
             A_Definir
@@ -199,8 +205,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Consumidor",
+        subtitle:
+          "Proteção aos direitos do consumidor em conflitos e contratos.",
         description: (
           <div>
             A_Definir
@@ -227,8 +234,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Administrativo",
+        subtitle: "Assessoria e defesa em questões administrativas e públicas.",
         description: (
           <div>
             A_Definir <br />
@@ -254,8 +261,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Outras áreas",
+        subtitle: "Fale com nossa equipe e tire todas as suas dúvidas.",
         description: (
           <div>
             A_Definir
@@ -359,29 +366,65 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. ROBERTA ZANI",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogada com vasta experiência no Direito Cível e do Consumidor desde 2007.",
       paragraph: (
         <div>
-          A_Definir
+          Com anos de atuação e especialização, a Dra. Roberta Zani se dedica ao
+          Direito Cível e do Consumidor, oferecendo suporte jurídico estratégico
+          e eficaz.
           <br />
-          A_Definir
+          Sua formação inclui uma pós-graduação em Direito Processual Civil, que
+          a capacita a atuar com profundidade nos processos judiciais e na
+          estratégia legal de seus clientes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com anos de atuação e especialização, a Dra. Roberta Zani se dedica ao
+          Direito Cível e do Consumidor, oferecendo suporte jurídico estratégico
+          e eficaz.
           <br />
           <br />
-          A_Definir
+          Sua formação inclui uma pós-graduação em Direito Processual Civil, que
+          a capacita a atuar com profundidade nos processos judiciais e na
+          estratégia legal de seus clientes.
           <br />
           <br />
-          A_Definir
+          Com uma carreira voltada à proteção dos direitos do consumidor, Dra.
+          Roberta se destaca pelo conhecimento prático adquirido ao longo dos
+          anos, especialmente em sua vivência com instituições financeiras e
+          empresas de transporte de passageiros, sempre focando na defesa e
+          orientação dos consumidores em situações complexas.
           <br />
           <br />
-          A_Definir
+          Além de sua atuação direta com clientes, Dra. Roberta tem vasta
+          experiência na elaboração de estudos e pareceres jurídicos{" "}
+          <i>(legal opinions)</i>, sempre com um olhar atento às implicações
+          jurídicas e riscos administrativos e judiciais.
+          <br />
+          <br />
+          Sua expertise também abrange a gestão de processos, sendo capaz de
+          coordenar equipes e escritórios credenciados para garantir a máxima
+          eficiência nas demandas legais.
+          <br />
+          <br />
+          Sua colaboração com outros advogados, escritórios e empresas é uma
+          marca de seu trabalho, especialmente no que se refere à criação de
+          petições, documentos jurídicos e acadêmicos.
+          <br />
+          <br />
+          Dra. Roberta também se dedica ao ensino, ministrando minicursos e
+          palestras, compartilhando seu vasto conhecimento com outros
+          profissionais e o público em geral.
+          <br />
+          <br />
+          Com uma visão holística da prática jurídica, Dra. Roberta Zani se
+          dedica a promover soluções eficazes para seus clientes, sempre com
+          ética, comprometimento e paixão pelo Direito.
           <br />
           <br />
         </p>
@@ -821,6 +864,7 @@ const content = {
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
+      linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
