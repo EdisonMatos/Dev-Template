@@ -6,7 +6,7 @@ import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 
-export default function AboutParalaxeLP() {
+export default function AboutParalaxeLP({ logo }) {
   return (
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
@@ -20,31 +20,26 @@ export default function AboutParalaxeLP() {
         <div className="flex justify-center w-full bg-black bg-opacity-80">
           <SectionArea>
             <SectionWrapper>
-              <div className="gap-y-[60px]  flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[120px]">
-                <MotionDivDownToUp className="flex justify-center ">
+              <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[120px]">
+                <MotionDivDownToUp className="flex justify-center">
                   {/* Logo */}
-
-                  {/* <img
-                    src={contentLp01.about.logo.logoImg}
-                    alt={contentLp01.about.logo.alt}
-                    className="w-[90%] desktop1:w-[70%]"
-                  /> */}
-
-                  {/* Foto  */}
-
-                  <img
-                    src={content.texts.about.imagem.img}
-                    alt={content.texts.about.imagem.alt}
-                    className="w-[90%] desktop1:w-[90%] rounded-xl shadow-custom-opacity shadow-secondary/50"
-                  />
+                  {logo ? (
+                    <img
+                      src={contentLp01.about.logo.logoImg}
+                      alt={contentLp01.about.logo.alt}
+                      className="w-[90%] desktop1:w-[70%]"
+                    />
+                  ) : (
+                    <img
+                      src={content.texts.about.imagem.img}
+                      alt={content.texts.about.imagem.alt}
+                      className="w-[90%] desktop1:w-[90%] rounded-xl shadow-custom-opacity shadow-secondary/50"
+                    />
+                  )}
                 </MotionDivDownToUp>
 
-                {/* Sendo logo */}
-
-                {/* <div className="desktop1:w-[60%]"> */}
-                {/* Sendo foto */}
-
-                <div className="desktop1:w-[100%] ">
+                {/* Texto ao lado da logo */}
+                <div className={logo ? "desktop1:w-[60%]" : "desktop1:w-[100%]"}>
                   <SectionHeader
                     className="text-center"
                     miniTitle={contentLp01.about.sectionHeader.miniTag}
@@ -60,9 +55,7 @@ export default function AboutParalaxeLP() {
                   <MotionDivDownToUp>
                     <div className="w-full">
                       <Button
-                        aria-label={
-                          contentLp01.hero.textArea.ctaButtonAriaLabel
-                        }
+                        aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                         label={contentLp01.about.buttonLabel}
                         buttonLink={contentLp01.links.ctaWhatsapp}
                         animation

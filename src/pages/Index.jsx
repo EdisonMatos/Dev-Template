@@ -8,6 +8,7 @@ import Steps from "../components/sections/Steps";
 import Maps from "../components/sections/Maps";
 import Faq from "../components/sections/Faq";
 import FooterSocial from "../components/sections/FooterSocial";
+import DefaultModals from "../components/sections/DefaultModals";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
@@ -22,8 +23,10 @@ export default function Index() {
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={true}
-      />
+        sixCards={false}
+        paragraphsModal={true}
+      /> 
+
 
       <About modal={true} />
       <AboutInstagram
