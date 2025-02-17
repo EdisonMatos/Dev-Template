@@ -7,11 +7,11 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Dra. Tábatha Siquara – Advogada especialista em BPC/LOAS e Direito Previdenciário",
+      "Dra. Roberta Zani | Indenização por Voo Cancelado em Guarapari - ES",
     description:
-      "Dra. Tábatha Siquara é uma especialista renomada em BPC/LOAS e Direito Previdenciário. Com ampla experiência, oferece consultoria e assessoria jurídica para garantir o acesso ao Benefício de Prestação Continuada (BPC/LOAS), aposentadorias, pensões e outros direitos previdenciários.",
+      "Teve um voo cancelado ou atrasado? A advogada Roberta Zani garante seus direitos e busca sua indenização. Fale com um especialista agora!",
     keywords:
-      "Direito Previdenciário, BPC/LOAS, Benefício de Prestação Continuada, Dra. Tábatha Siquara, Consultoria Previdenciária, Assessoria Jurídica, Aposentadoria, Pensões, Direitos Previdenciários, Defesa BPC, Solicitação de BPC, Consultoria BPC/LOAS, Recurso Judicial BPC, Direitos do Idoso, Deficiência e Doenças Graves, Defesa de Benefício Previdenciário, Cancelamento de Benefício, Suporte Jurídico Previdenciário, Especialista em BPC, Caravelas Bahia.",
+      "Indenização Por Voo Cancelado, Direitos Do Passageiro, Voo Atrasado Indenização, Advogada Especialista Em Voos, Dra. Roberta Zani, Ação Contra Companhia Aérea, Compensação Por Voo Cancelado, Problema Com Voo O Que Fazer, Reembolso De Passagem Aérea, Advogada Para Passageiros Aéreos, Direito Do Consumidor Aéreo, Voo Cancelado Sem Aviso, Companhia Aérea Não Deu Assistência, Processo Contra Companhia Aérea, Passagem Aérea Não Reembolsada, Indenização Por Atraso De Voo, Cancelamento De Voo Direitos, Atraso Superior A 4 Horas, Reclamação Contra Companhia Aérea, Danos Morais Por Voo Cancelado.",
   },
   hero: {
     bgImg: bgImg,
@@ -22,13 +22,12 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Descubra se você tem direito ao{" "}
-          <span className="text-primary"> BPC/LOAS </span> e melhore a sua
-          <span className="text-primary"> qualidade de vida</span>!
+          Teve seu <span className="text-primary"> voo cancelado</span>? Você
+          pode ter direito a<span className="text-primary"> indenização</span>!
         </h1>
       ),
       subtitle:
-        "Saiba como garantir o seu benefício e oferecer mais dignidade à sua família. Conte com nossa orientação especializada!",
+        "Descubra se você pode receber compensação por danos causados pelo cancelamento do seu voo. Conte com suporte jurídico especializado para garantir seus direitos.",
       buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -36,8 +35,8 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "GARANTA SEU BPC/LOAS",
-      title: "Quem está apto a solicitar?",
+      miniTag: "RECLAME SEUS DIREITOS",
+      title: "Quem pode solicitar indenização?",
     },
     cards: {
       card1: {
@@ -52,18 +51,14 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-plane"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
           </svg>
         ),
-        title: "Idosos em situação de vulnerabilidade social",
+        title: "Voo cancelado sem aviso prévio",
         description:
-          "Se você ou um familiar idoso, com mais de 65 anos, vive em vulnerabilidade social e não recebe aposentadoria, o BPC/LOAS pode ser a chave para garantir seus direitos.",
+          "Se sua viagem foi interrompida por um cancelamento inesperado e você não recebeu suporte adequado da companhia aérea, pode ter direito a uma indenização.",
       },
       card2: {
         icon: (
@@ -77,18 +72,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-accessibility"
+            class="lucide lucide-clock-alert"
           >
-            <circle cx="16" cy="4" r="1" />
-            <path d="m18 19 1-7-6 1" />
-            <path d="m5 8 3-3 5.5 3-2.36 3.5" />
-            <path d="M4.24 14.5a5 5 0 0 0 6.88 6" />
-            <path d="M13.76 17.5a5 5 0 0 0-6.88-6" />
+            <path d="M12 6v6l4 2" />
+            <path d="M16 21.16a10 10 0 1 1 5-13.516" />
+            <path d="M20 11.5v6" />
+            <path d="M20 21.5h.01" />
           </svg>
         ),
-        title: "Pessoas com deficiência ou condições graves de saúde",
+        title: "Atrasos superiores a 4 horas",
         description:
-          "Caso você ou um familiar tenha uma deficiência ou sofra de doença grave, pode ter direito ao BPC/LOAS. Estamos aqui para ajudar a solicitar o benefício.",
+          "Se o seu voo sofreu um atraso de mais de 4 horas e a companhia não ofereceu reacomodação ou assistência adequada, você pode exigir compensação.",
       },
       card3: {
         icon: (
@@ -102,17 +96,21 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-baby"
+            class="lucide lucide-siren"
           >
-            <path d="M9 12h.01" />
-            <path d="M15 12h.01" />
-            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
-            <path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
+            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
+            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
+            <path d="M21 12h1" />
+            <path d="M18.5 4.5 18 5" />
+            <path d="M2 12h1" />
+            <path d="M12 2v1" />
+            <path d="m4.929 4.929.707.707" />
+            <path d="M12 12v6" />
           </svg>
         ),
-        title: "Benefício para crianças com autismo",
+        title: "Perda de compromissos importantes",
         description:
-          "Se você é pai ou mãe de uma criança com autismo, pode garantir o BPC para cobrir os custos de tratamentos essenciais e acompanhamento médico.",
+          "Se o cancelamento ou atraso do voo fez você perder eventos, reuniões ou conexões essenciais, você pode ter direito a reparação por danos.",
       },
       card4: {
         icon: (
@@ -126,15 +124,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-ban"
+            class="lucide lucide-triangle-alert"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
+            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
+            <path d="M12 9v4" />
+            <path d="M12 17h.01" />
           </svg>
         ),
-        title: "BPC negado ou interrompido",
+        title: "Negativa de reembolso ou assistência",
         description:
-          "Se o seu BPC foi negado ou cancelado de forma injusta, lutamos para garantir seus direitos e restabelecer o benefício.",
+          "Se a companhia aérea se recusou a reembolsar sua passagem ou não ofereceu alimentação e hospedagem quando necessário, podemos buscar seus direitos na justiça.",
       },
     },
   },
@@ -145,18 +144,19 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA EM DEFESA PREVIDENCIÁRIA",
-      title: "Compromisso com agilidade eficiência",
+      miniTag: "EXCELÊNCIA NA DEFESA DOS SEUS DIREITOS",
+      title: "Dedicação e eficiência na sua indenização",
     },
     paragraph: (
       <p>
-        Em questões previdenciárias, sei que o tempo é fundamental. Por isso, me
-        dedico a agir de forma rápida e eficaz, sem abrir mão da qualidade no
-        serviço prestado. Meu objetivo é proteger seus direitos com a máxima
-        eficiência e seriedade. <br />
-        <br /> Seja qual for a sua necessidade previdenciária, estou aqui para
-        encontrar a melhor solução. Entre em contato com a Dra Tábatha Siqueira
-        e descubra como podemos ser determinantes na defesa dos seus direitos.
+        Sabemos que imprevistos em viagens podem causar grandes transtornos. Por
+        isso, atuo de maneira rápida e estratégica para garantir que seus
+        direitos sejam respeitados. Se você teve um voo cancelado, atrasado ou
+        não recebeu o suporte devido da companhia aérea, posso ajudar a buscar
+        sua indenização. <br />
+        <br /> Independentemente da sua situação, estou aqui para oferecer a
+        melhor solução jurídica. Entre em contato e descubra como podemos ser
+        fundamentais na defesa dos seus direitos.
       </p>
     ),
     buttonLabel: "Quero falar com um especialista",
@@ -165,34 +165,10 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "O que nos torna a melhor opção para defender seus direitos?",
+      title: "Por que nos escolher para garantir sua indenização?",
     },
     cards: {
       card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-square-chart-gantt"
-          >
-            <rect width="18" height="18" x="3" y="3" rx="2" />
-            <path d="M9 8h7" />
-            <path d="M8 12h6" />
-            <path d="M11 16h5" />
-          </svg>
-        ),
-        title: "Plano estratégico sob medida para seu BPC/LOAS",
-        description:
-          "Examinamos seu pedido de BPC/LOAS com cuidado, elaborando uma estratégia personalizada para garantir que você receba o benefício a que tem direito. Estamos com você em todas as fases do processo.",
-      },
-      card2: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -211,9 +187,34 @@ const contentLp01 = {
             <path d="M10 22h4" />
           </svg>
         ),
-        title: "Planejamento personalizado para seu caso",
+        title: "Estratégia personalizada para o seu caso",
         description:
-          "Criamos um plano de ação personalizado, com o objetivo de oferecer uma solução eficaz e ágil para o seu pedido de BPC/LOAS. Cada detalhe é cuidadosamente planejado para atender exatamente ao que você precisa. Estamos aqui para garantir um resultado favorável.",
+          "Analisamos cada detalhe do cancelamento ou atraso do seu voo para construir a melhor estratégia jurídica. Nosso objetivo é garantir que você receba a indenização que merece, com suporte especializado em todas as etapas do processo.",
+      },
+      card2: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-ruler"
+          >
+            <path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z" />
+            <path d="m14.5 12.5 2-2" />
+            <path d="m11.5 9.5 2-2" />
+            <path d="m8.5 6.5 2-2" />
+            <path d="m17.5 15.5 2-2" />
+          </svg>
+        ),
+        title: "Soluções sob medida",
+        description:
+          "Criamos um plano de ação específico para o seu caso, buscando uma solução rápida e eficaz. Cada passo é pensado estrategicamente para maximizar suas chances de indenização. Estamos aqui para transformar sua frustração em uma conquista.",
       },
       card3: {
         icon: (
@@ -227,15 +228,15 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-check"
+            class="lucide lucide-shield-check"
           >
-            <circle cx="12" cy="12" r="10" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "Foco na aprovação do seu BPC/LOAS",
+        title: "Compromisso total com seus direitos",
         description:
-          "Nosso compromisso é completo com o seu pedido de BPC/LOAS, defendendo seus direitos em cada etapa do processo. Com nossa ajuda, você pode ter certeza de que estamos focados em garantir sua aprovação, cuidando de cada detalhe para atingir o resultado que você deseja.",
+          "Defendemos seus direitos com total dedicação, acompanhando seu caso em cada fase do processo. Com nossa assistência, você pode ter certeza de que trabalhamos para garantir a melhor solução para você.",
       },
       card4: {
         icon: (
@@ -257,18 +258,18 @@ const contentLp01 = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Experiência que traz segurança e confiança",
+        title: "Experiência que inspira confiança",
         description:
-          "Com nossa vasta experiência em pedidos de BPC/LOAS, você pode ter a certeza de que seu processo será conduzido com total segurança e eficiência. Estaremos ao seu lado em cada momento, garantindo que seus direitos sejam respeitados e que você receba o benefício que merece.",
+          "Com ampla experiência em casos de cancelamento e atraso de voos, tratamos seu processo com máxima segurança e eficiência. Estaremos ao seu lado para garantir que seus direitos sejam respeitados e que você receba a compensação devida. Conte conosco para fazer a diferença na sua jornada!",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA TEMPO",
-      title: "Seu BPC/LOAS está ao seu alcance, não espere mais!",
-      subtitle: `Na Tábatha Siquara Advocacia e Consultoria Jurídica, estamos preparados para te apoiar. Nossa equipe especializada em direito previdenciário vai te guiar em cada etapa, assegurando que você tenha acesso ao BPC/LOAS que você tem direito. Não deixe que obstáculos financeiros ou burocráticos te impeçam de obter esse benefício.`,
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Garanta sua indenização agora mesmo!",
+      subtitle: `Se seu voo foi cancelado ou sofreu um grande atraso, você pode ter direito a uma indenização. Nossa equipe especializada está pronta para oferecer toda a orientação necessária para que você receba a compensação que merece. Não deixe que a burocracia impeça você de buscar seus direitos!`,
     },
     buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
@@ -278,23 +279,23 @@ const contentLp01 = {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="28"
-          height="28"
+          width="20"
+          height="20"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-instagram"
+          class="lucide lucide-linkedin"
         >
-          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-          <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+          <rect width="4" height="12" x="2" y="9" />
+          <circle cx="4" cy="4" r="2" />
         </svg>
       ),
-      title: "Instagram",
-      description: `@${infos.instagramProfile}`,
+      title: "LinkedIn",
+      description: `@${infos.linkeDinProfile}`,
     },
     card2: {
       icon: (
