@@ -6,12 +6,12 @@ import contentLp01 from "../../../content/contentLp01";
 
 export default function HeroLP({ fullImg }) {
   return fullImg ? (
-    <div>
+    <div className="gradient-LP-Hero">
       <div
-        className="tablet1:hidden bg-top bg-[#311911] font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-[100vh]"
+        className="tablet1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
-          backgroundPosition: "top",
+         
         }}
       >
         <MotionDivDownToUp className="flex justify-start tablet1:justify-center absolute desktop1:justify-start z-10">
@@ -24,11 +24,11 @@ export default function HeroLP({ fullImg }) {
         <SectionArea paddingTopAndBottom={false}>
           <SectionWrapper className="">
             <div className="flex w-full mt-[25%] mr-[20%] ">
-              <div className=" flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[38%] phone2:pt-[33%] phone3:pt-[28%] desktop1:pt-[68px] desktop1:pb-[96px]">
+              <div className=" flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[46px] pt-[15%] desktop1:pt-[68px] desktop1:pb-[96px]">
                 <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <div className=" desktop1:mt-0">
                     <MotionDivDownToUp className="">
-                      <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                      <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[35px] phone2:leading-[40px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                         {contentLp01.hero.textArea.title}
                       </div>
                     </MotionDivDownToUp>
