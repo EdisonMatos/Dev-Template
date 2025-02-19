@@ -94,14 +94,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM SÃO LUÍS - MA",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Transforme desafios em soluções
+          <span className="text-primary"> jurídicas eficazes</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle: "Com experiência internacional e visão estratégica, protejo seus direitos e potencializo seus resultados.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento presencial e online (preferencialmente)",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
