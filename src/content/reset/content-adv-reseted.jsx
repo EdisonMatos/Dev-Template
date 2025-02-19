@@ -821,6 +821,7 @@ const content = {
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
+      linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
