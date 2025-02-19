@@ -7,11 +7,10 @@ import contentLp01 from "../../../content/contentLp01";
 export default function HeroLP({ fullImg }) {
   return fullImg ? (
     <div>
-        <div className="absolute inset-0 bg-black opacity-30 z-0"></div>
       <div
         className="tablet1:hidden bg-top bg-[#311911] font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-[100vh]"
         style={{
-          backgroundImage: `url(${contentLp01.hero.bgImg})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
           backgroundPosition: "top",
         }}
       >
@@ -24,7 +23,7 @@ export default function HeroLP({ fullImg }) {
         </MotionDivDownToUp>
         <SectionArea paddingTopAndBottom={false}>
           <SectionWrapper className="">
-            <div className="flex w-full mt-[25%] ">
+            <div className="flex w-full mt-[25%] mr-[20%] ">
               <div className=" flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[38%] phone2:pt-[33%] phone3:pt-[28%] desktop1:pt-[68px] desktop1:pb-[96px]">
                 <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <div className=" desktop1:mt-0">
