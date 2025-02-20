@@ -8,7 +8,7 @@ export default function ContactLP() {
     <>
       <SectionArea paddingTopAndBottom={false}>
         <SectionWrapper>
-          <div className="mt-[60px] font-mainFont desktop1:flex desktop1:flex-wrap justify-center">
+          <div className="mt-[60px] font-mainFont tablet1:flex desktop1:flex-wrap justify-center">
             {/* <h1 className="text-center mb-[16px]">Entre em contato</h1> */}
             <ContactCardLP
               label={contentLp01.contact.card1.title}
