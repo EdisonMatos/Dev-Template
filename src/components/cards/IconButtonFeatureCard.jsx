@@ -5,7 +5,7 @@ export default function IconButtonFeatureCard(props) {
     <div
       className={`w-full p-0 flex flex-col items-center desktop1:hover:scale-110 transition desktop1:p-0 ${className}`}
     >
-      <div className="h-[64px] w-[64px] mb-[24px]  rounded-md flex justify-center items-center text-secondary">
+      <div className="h-[64px] w-[64px] mb-[24px] rounded-md flex justify-center items-center text-primary">
         {icon}
       </div>
       <h1 className="h-auto font-bold font-mainFont text-title1 text-center mb-[16px] text-secondary">
