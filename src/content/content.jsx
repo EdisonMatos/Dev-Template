@@ -408,30 +408,41 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. FAUSTO NASCIMENTO",
+      title: "Minha trajetória",
+      subtitle:
+        "Do mercado global à advocacia estratégica, a experiência que faz a diferença.",
       paragraph: (
         <div>
-          A_Definir
+          Sou advogado com formação em Ciências Contábeis e uma trajetória
+          consolidada no mercado jurídico e empresarial.
           <br />
-          A_Definir
+          Minha experiência profissional inclui atuação em multinacionais, tanto
+          no Brasil quanto no exterior, onde aprimorei minha visão estratégica e
+          a capacidade de lidar com cenários complexos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Sou advogado com formação em Ciências Contábeis e uma trajetória
+          consolidada no mercado jurídico e empresarial.
           <br />
           <br />
-          A_Definir
+          Minha experiência profissional inclui atuação em multinacionais, tanto
+          no Brasil quanto no exterior, onde aprimorei minha visão estratégica e
+          a capacidade de lidar com cenários complexos.
           <br />
           <br />
-          A_Definir
+          Atuo em diversas áreas do Direito Empresarial, como contratos,
+          tributário, trabalhista, financeiro e soluções de conflitos, sempre
+          buscando proporcionar segurança jurídica e eficiência para empresas e
+          empreendedores.
           <br />
           <br />
-          A_Definir
-          <br />
+          Minha missão é oferecer assessoria qualificada, fundamentada na ética,
+          na transparência e no compromisso com os melhores interesses dos meus
+          clientes. <br />
           <br />
         </p>
       ),
