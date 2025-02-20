@@ -174,8 +174,14 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Empresarial",
-        subtitle:
-          "Oferecemos assessoria jurídica completa para empresas, desde a constituição até a gestão de riscos e solução de conflitos. Atuamos na elaboração e revisão de contratos, recuperação de crédito, compliance, fusões e aquisições, além de defesa em processos administrativos e judiciais. Proteja seu negócio com segurança jurídica e estratégias eficazes.",
+        subtitle: (
+          <p>
+            Assessoria jurídica completa para empresas, desde a constituição até
+            a solução de conflitos. Atuamos com contratos, recuperação de
+            crédito, <i>compliance</i>, fusões e defesas judiciais e
+            administrativas.
+          </p>
+        ),
         description: (
           <div>
             A_Definir
@@ -188,8 +194,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="48"
+            height="48"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -209,7 +215,7 @@ const content = {
         img: featuresImg2,
         title: "Tributário",
         subtitle:
-          "Reduza a carga tributária da sua empresa de forma legal e segura! Prestamos consultoria especializada em planejamento tributário, recuperação de tributos pagos indevidamente e defesa em execuções fiscais. Atuamos na contestação de autuações e na busca de benefícios fiscais, garantindo a conformidade fiscal e a economia para seu negócio.",
+          "Reduza tributos de forma legal e segura com planejamento tributário, recuperação de valores pagos indevidamente e defesa em execuções fiscais, garantindo economia e conformidade.",
         description: (
           <div>
             A_Definir
@@ -222,8 +228,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="48"
+            height="48"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -246,7 +252,7 @@ const content = {
         img: featuresImg3,
         title: "Trabalhista",
         subtitle:
-          "Atendemos empresas e trabalhadores na defesa de direitos e na prevenção de passivos trabalhistas. Realizamos consultoria para adequação à legislação, elaboração de contratos, defesa em reclamações trabalhistas e negociações sindicais. Para empregados, garantimos a reivindicação de direitos como verbas rescisórias, indenizações e reconhecimento de vínculos empregatícios.",
+          "Proteção para empresas e trabalhadores. Consultoria para evitar passivos, elaboração de contratos e defesa em reclamações trabalhistas, garantindo direitos e segurança jurídica.",
         description: (
           <div>
             A_Definir <br />
@@ -258,8 +264,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="48"
+            height="48"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -282,7 +288,7 @@ const content = {
         img: featuresImg4,
         title: "Previdenciário",
         subtitle:
-          "Garantimos seus direitos previdenciários, auxiliando na obtenção de aposentadorias, pensões por morte, auxílio-doença e revisões de benefícios. Atendemos tanto segurados do INSS quanto servidores públicos, buscando sempre a melhor estratégia para concessão ou revisão de benefícios previdenciários.",
+          "Aposentadorias, pensões, auxílio-doença e revisões de benefícios. Atendimento a segurados do INSS e servidores públicos para garantir direitos previdenciários.",
         description: (
           <div>
             A_Definir
@@ -295,8 +301,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="48"
+            height="48"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -316,7 +322,7 @@ const content = {
         img: featuresImg4,
         title: "Sucessões e Família",
         subtitle:
-          "Cuidamos do seu patrimônio e dos seus direitos familiares com segurança e sensibilidade. Atuamos em processos de inventário, planejamento sucessório, testamentos, divórcios, guarda e pensão alimentícia. Nossa equipe trabalha para garantir soluções ágeis e justas, preservando seus interesses e de sua família.",
+          "Inventários, testamentos, divórcios, guarda e pensão alimentícia. Soluções ágeis e justas para proteger seu patrimônio e sua família.",
         description: (
           <div>
             A_Definir
@@ -329,8 +335,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="48"
+            height="48"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -352,7 +358,7 @@ const content = {
         img: featuresImg4,
         title: "Cível",
         subtitle:
-          "Defendemos seus direitos em questões contratuais, indenizações, posse e propriedade, responsabilidade civil e litígios diversos. Nossa atuação abrange cobranças, revisão de contratos, defesa do consumidor, ações de dano moral e patrimonial, garantindo soluções jurídicas eficazes para indivíduos e empresas.",
+          "Atuação em contratos, indenizações, posse, responsabilidade civil e litígios. Defesa do consumidor e ações por danos morais e patrimoniais.",
         description: (
           <div>
             A_Definir
@@ -365,8 +371,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="48"
+            height="48"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
