@@ -36,7 +36,7 @@ export default function FeaturesParagraphs({ modal }) {
 
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
-            <div className="flex flex-wrap items-start justify-center w-full gap-[90px]">
+            <div className="flex flex-wrap items-start justify-center w-full gap-[40px] desktop1:gap-[90px]">
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-white">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
