@@ -101,7 +101,8 @@ const content = {
           <span className="text-primary"> jurídicas eficazes</span>
         </h1>
       ),
-      subtitle: "Com experiência internacional e visão estratégica, protejo seus direitos e potencializo seus resultados.",
+      subtitle:
+        "Com experiência internacional e visão estratégica, protejo seus direitos e potencializo seus resultados.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -164,15 +165,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções que definem seu futuro",
+      subtitle:
+        "Com estratégias jurídicas poderosas, garantimos a segurança do seu direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Empresarial",
+        subtitle:
+          "Oferecemos assessoria jurídica completa para empresas, desde a constituição até a gestão de riscos e solução de conflitos. Atuamos na elaboração e revisão de contratos, recuperação de crédito, compliance, fusões e aquisições, além de defesa em processos administrativos e judiciais. Proteja seu negócio com segurança jurídica e estratégias eficazes.",
         description: (
           <div>
             A_Definir
@@ -199,8 +202,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Tributário",
+        subtitle:
+          "Reduza a carga tributária da sua empresa de forma legal e segura! Prestamos consultoria especializada em planejamento tributário, recuperação de tributos pagos indevidamente e defesa em execuções fiscais. Atuamos na contestação de autuações e na busca de benefícios fiscais, garantindo a conformidade fiscal e a economia para seu negócio.",
         description: (
           <div>
             A_Definir
@@ -227,8 +231,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Trabalhista",
+        subtitle:
+          "Atendemos empresas e trabalhadores na defesa de direitos e na prevenção de passivos trabalhistas. Realizamos consultoria para adequação à legislação, elaboração de contratos, defesa em reclamações trabalhistas e negociações sindicais. Para empregados, garantimos a reivindicação de direitos como verbas rescisórias, indenizações e reconhecimento de vínculos empregatícios.",
         description: (
           <div>
             A_Definir <br />
@@ -254,8 +259,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Previdenciário",
+        subtitle:
+          "Garantimos seus direitos previdenciários, auxiliando na obtenção de aposentadorias, pensões por morte, auxílio-doença e revisões de benefícios. Atendemos tanto segurados do INSS quanto servidores públicos, buscando sempre a melhor estratégia para concessão ou revisão de benefícios previdenciários.",
         description: (
           <div>
             A_Definir
@@ -282,8 +288,9 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Sucessões e Família",
+        subtitle:
+          "Cuidamos do seu patrimônio e dos seus direitos familiares com segurança e sensibilidade. Atuamos em processos de inventário, planejamento sucessório, testamentos, divórcios, guarda e pensão alimentícia. Nossa equipe trabalha para garantir soluções ágeis e justas, preservando seus interesses e de sua família.",
         description: (
           <div>
             A_Definir
@@ -310,8 +317,9 @@ const content = {
       },
       card6: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Cível",
+        subtitle:
+          "Defendemos seus direitos em questões contratuais, indenizações, posse e propriedade, responsabilidade civil e litígios diversos. Nossa atuação abrange cobranças, revisão de contratos, defesa do consumidor, ações de dano moral e patrimonial, garantindo soluções jurídicas eficazes para indivíduos e empresas.",
         description: (
           <div>
             A_Definir
