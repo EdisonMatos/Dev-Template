@@ -1,3 +1,4 @@
+import content from "../../../content/content";
 import contentLp01 from "../../../content/contentLp01";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
@@ -11,8 +12,18 @@ export default function FooterLP() {
             <p>
               {contentLp01.footer.copyrightLine}
               <br />
-              <br />
+
               {/* {contentLp01.footer.disclaimer} */}
+              <p>
+                <a
+                  className="transition hover:underline"
+                  target="_blank"
+                  href="https://www.paperstreet.com.br"
+                >
+                  {" "}
+                  {content.texts.footer.footerDivulgacaoText}
+                </a>
+              </p>
             </p>
           </div>
         </SectionWrapper>

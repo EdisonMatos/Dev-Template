@@ -9,6 +9,7 @@ import FeaturesLP from "../components/sections/lp01/FeaturesLP";
 import FooterLP from "../components/sections/lp01/FooterLP";
 import HeroLP from "../components/sections/lp01/HeroLP";
 import WhyUs from "../components/sections/lp01/WhyUs";
+import WhatsChat from "../components/interactives/WhatsChat";
 
 import contentLp01 from "../content/contentLp01";
 
@@ -42,14 +43,15 @@ export default function Lp01() {
     <div>
       <HeroLP />
       <FeaturesLP />
-      <AboutParalaxeLP />
+      <AboutParalaxeLP logo={true} />
       <WhyUs />
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />
       <FooterLP />
       {/* <LPFloatingWhatsappButton /> */}
-      <FloatingWhatsappButton />
+      {/* <FloatingWhatsappButton /> */}
+      <WhatsChat />
       <BackToTopButton />
     </div>
   );

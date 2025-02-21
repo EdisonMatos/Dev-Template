@@ -19,6 +19,7 @@ export default function AboutInstagram({
   x,
   linkedin,
   socialPrint,
+  test,
 }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
@@ -62,10 +63,10 @@ export default function AboutInstagram({
             </Paragraphs>
           </MotionDivDownToUp>
 
-          {instagram && (
-            <MotionDivDownToUp>
+          <div className="flex flex-col gap-4">
+            {instagram && (
               <Button
-                label="Siga-nos no Instagram"
+                label={content.texts.about.aboutSocial.labelInstagram}
                 buttonLink={content.texts.links.instagram}
                 icon={
                   <svg
@@ -86,13 +87,11 @@ export default function AboutInstagram({
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          )}
+            )}
 
-          {facebook && (
-            <MotionDivDownToUp className="mt-[18px]">
+            {facebook && (
               <Button
-                label="Siga-nos no Facebook"
+                label={content.texts.about.aboutSocial.labelFacebook}
                 buttonLink={content.texts.links.facebook}
                 icon={
                   <svg
@@ -111,13 +110,11 @@ export default function AboutInstagram({
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          )}
+            )}
 
-          {x && (
-            <MotionDivDownToUp className="mt-[18px]">
+            {x && (
               <Button
-                label="Siga-nos no X"
+                label={content.texts.about.aboutSocial.labelX}
                 buttonLink={content.texts.links.x}
                 icon={
                   <svg
@@ -135,13 +132,11 @@ export default function AboutInstagram({
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          )}
+            )}
 
-          {linkedin && (
-            <MotionDivDownToUp className="mt-[18px]">
+            {linkedin && (
               <Button
-                label="Siga-nos no Linkedin"
+                label={content.texts.about.aboutSocial.labelLinkedin}
                 buttonLink={content.texts.links.linkedin}
                 icon={
                   <svg
@@ -162,8 +157,8 @@ export default function AboutInstagram({
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
-          )}
+            )}
+          </div>
         </div>
       </SectionWrapper>
     </SectionArea>

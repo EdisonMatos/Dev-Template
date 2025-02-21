@@ -8,6 +8,7 @@ import Steps from "../components/sections/Steps";
 import Maps from "../components/sections/Maps";
 import Faq from "../components/sections/Faq";
 import FooterSocial from "../components/sections/FooterSocial";
+import DefaultModals from "../components/sections/DefaultModals";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
@@ -16,29 +17,30 @@ export default function Index() {
   return (
     <div>
       <Navbar LightMode={false} />
-      <Hero />
+      <Hero appDownloadButtons={false} />
       <Features
-        defaultFeature={true}
+        defaultFeature={false}
         button={false}
         modalWithCards={false}
-        paragraphs={false}
+        paragraphs={true}
         sixCards={false}
+        paragraphsModal={false}
       />
-
       <About modal={false} />
       <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={false}
-        linkedin={false}
+        linkedin={true}
         x={false}
-      />
+        test={true}
+      /> */}
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
-        addres={true}
-        instagram={true}
+        addres={false}
+        instagram={false}
         facebook={false}
         linkedin={false}
         x={false}
