@@ -345,12 +345,12 @@ const content = {
       },
       miniTag: "A_Definir",
       title: "A_Definir",
-      subtitle: "A_Definir",
+      subtitle: "A propriedade deve ser modal por padrão. Quando for false, o efeitinho de fade que tem no about deve sumir (só o efeito, não o texto ou a seção), assim como o botão de...",
       paragraph: (
         <div>
-          A_Definir
+          A propriedade deve ser modal por padrão. Quando for false, o efeitinho de fade que tem no about deve sumir (só o efeito, não o texto ou a seção), assim como o botão de "Continuar Lendo".
           <br />
-          A_Definir
+          A propriedade deve ser modal por padrão. Quando for false, o efeitinho de fade que tem no about deve sumir (só o efeito, não o texto ou a seção), assim como o botão de "Continuar Lendo".
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
