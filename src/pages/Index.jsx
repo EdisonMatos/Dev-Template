@@ -22,26 +22,26 @@ export default function Index() {
         defaultFeature={false}
         button={false}
         modalWithCards={false}
-        paragraphs={false}
+        paragraphs={true}
         sixCards={false}
-        paragraphsModal={true}
-      /> 
-
+        paragraphsModal={false}
+      />
 
       <About modal={true} />
-      <AboutInstagram
-        socialPrint={true}
-        instagram={true}
+      {/* <AboutInstagram
+        socialPrint={false}
+        instagram={false}
         facebook={false}
-        linkedin={false}
+        linkedin={true}
         x={false}
-      />
+        test={true}
+      /> */}
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
-        addres={true}
-        instagram={true}
+        addres={false}
+        instagram={false}
         facebook={false}
         linkedin={false}
         x={false}
