@@ -26,11 +26,10 @@ export default function Index() {
         sixCards={false}
         paragraphsModal={false}
       />
-
       <About modal={true} />
       {/* <AboutInstagram
-        socialPrint={false}
-        instagram={false}
+        socialPrint={true}
+        instagram={true}
         facebook={false}
         linkedin={true}
         x={false}

@@ -19,7 +19,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function About({ modal }) {
+export default function About({ modal="true" }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -80,9 +80,15 @@ export default function About({ modal }) {
             type="article"
           />
           <MotionDivDownToUp>
-            <Paragraphs className="text-white text-opacity-80">
-              <AboutFading />
-            </Paragraphs>
+            {modal ? (
+              <Paragraphs className="text-white text-opacity-80">
+                <AboutFading />
+              </Paragraphs>
+            ) : (
+              <Paragraphs className="text-white text-opacity-80">
+                {content.texts.about.paragraph}
+              </Paragraphs>
+            )}
             {/* Início Botão de saiba mais abrindo modal */}
 
             {modal && (
