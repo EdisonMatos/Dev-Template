@@ -8,22 +8,22 @@ export default function HeroLP({ fullImg }) {
   return fullImg ? (
     <div className="gradient-LP-Hero">
       <div
-        className="tablet1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
+        className="desktop1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto]  bg-no-repeat h-auto"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
          
         }}
       >
-        <MotionDivDownToUp className="flex justify-start tablet1:justify-center absolute desktop1:justify-start z-10">
+        <MotionDivDownToUp className="flex justify-start desktop1:justify-start z-10">
           <img
             src={contentLp01.hero.logo.logoImg}
             alt={contentLp01.hero.logo.alt}
-            className="ml-[5%] max-w-[40%] pt-[15%] fixed"
+            className="ml-[5%] max-w-[40%] pt-[15%]"
           />
         </MotionDivDownToUp>
         <SectionArea paddingTopAndBottom={false}>
           <SectionWrapper className="">
-            <div className="flex w-full mt-[25%] mr-[20%] ">
+            <div className="flex w-full mt-[-4%] mr-[20%] ">
               <div className=" flex phone1:flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[46px] pt-[15%] desktop1:pt-[68px] desktop1:pb-[96px]">
                 <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <div className=" desktop1:mt-0">
@@ -75,7 +75,7 @@ export default function HeroLP({ fullImg }) {
       </div>
       {/*-------- Versão para tablet1 pra frente -------- */}
       <div
-        className="hidden tablet1:flex bg-top bg-[#EEA935] font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
+        className="hidden desktop1:flex bg-top bg-[#EEA935] font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
         style={{
           backgroundImage: `url(${contentLp01.hero.bgImg})`,
           backgroundPosition: "top",
