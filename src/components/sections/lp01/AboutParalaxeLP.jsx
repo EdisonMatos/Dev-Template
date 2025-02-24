@@ -21,13 +21,13 @@ export default function AboutParalaxeLP({ logo }) {
           <SectionArea>
             <SectionWrapper>
               <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[120px]">
-                <MotionDivDownToUp className="flex justify-center">
+                <MotionDivDownToUp className="flex justify-cente w-full">
                   {/* Logo */}
                   {logo ? (
                     <img
                       src={contentLp01.about.logo.logoImg}
                       alt={contentLp01.about.logo.alt}
-                      className="w-[90%] desktop1:w-[70%]"
+                      className="w-[55.5%] flex justify-start desktop1:w-[70%]"
                     />
                   ) : (
                     <img
