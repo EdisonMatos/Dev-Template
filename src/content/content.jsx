@@ -451,7 +451,7 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle: "",
+        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
