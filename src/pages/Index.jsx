@@ -40,8 +40,8 @@ export default function Index() {
       <Faq />
       <FooterSocial
         addres={false}
-        instagram={false}
-        facebook={false}
+        instagram={true}
+        facebook={true}
         linkedin={false}
         x={false}
         obs={false}
