@@ -18,8 +18,8 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
+import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
+import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
 import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
@@ -98,10 +98,11 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Atendimento personalizado e acessibilidade total
-          <span className="text-primary">  ao seu caso</span>
+          <span className="text-primary"> ao seu caso</span>
         </h1>
       ),
-      subtitle: "Atentos às mudanças legislativas, cuidamos de toda burocracia para você garantir seus direitos previdenciários.",
+      subtitle:
+        "Atentos às mudanças legislativas, cuidamos de toda burocracia para você garantir seus direitos previdenciários.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -164,15 +165,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Parcerias estratégicas e soluções inovadoras",
+      subtitle:
+        "Atendendo às necessidades de cada cliente com excelência, empatia e soluções personalizadas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Previdenciário",
+        subtitle:
+          "Oferecemos suporte completo para garantir seu benefício previdenciário, auxiliando em toda documentação, acompanhando de perto seu processo e diminuindo as chances de atrasos, tudo com um atendimento transparente e acessível.",
         description: (
           <div>
             A_Definir
@@ -199,8 +202,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Passageiro Aéreo",
+        subtitle: "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos e cancelamentos, extravio de bagagens e overbooking, garantindo que você receba o suporte necessário para uma solução justa.",
         description: (
           <div>
             A_Definir

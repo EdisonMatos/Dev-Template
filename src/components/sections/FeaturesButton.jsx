@@ -89,7 +89,7 @@ export default function FeaturesButton() {
                 )
               }
             />
-            <FeatureImgOnBgCardButton
+            {/* <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card3.img}
               title={content.texts.features.card3.title}
               description={content.texts.features.card3.subtitle}
@@ -139,7 +139,7 @@ export default function FeaturesButton() {
                   </div>
                 )
               }
-            />
+            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>
