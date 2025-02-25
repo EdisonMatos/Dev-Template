@@ -203,7 +203,8 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Direito do Passageiro Aéreo",
-        subtitle: "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos e cancelamentos, extravio de bagagens e overbooking, garantindo que você receba o suporte necessário para uma solução justa.",
+        subtitle:
+          "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos e cancelamentos, extravio de bagagens e overbooking, garantindo que você receba o suporte necessário para uma solução justa.",
         description: (
           <div>
             A_Definir
@@ -362,29 +363,79 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. JEOVÁ MIRANDA",
+      title: "Minha trajetória",
+      subtitle:
+        "Apoio moderno e direto para garantir seus direitos com firmeza e transparência.",
       paragraph: (
         <div>
-          A_Definir
+          Eu comecei minha trajetória como um jovem advogado ambicioso, com um
+          propósito claro: ajudar pessoas. Foi observando a luta de minha avó
+          para conquistar a aposentadoria que a minha paixão pelo direito
+          previdenciário nasceu.
           <br />
-          A_Definir
+          Percebi o quão complexo e difícil o processo pode ser para muitos,
+          especialmente para os mais vulneráveis. Essa experiência me motivou a
+          me especializar em direito previdenciário, com a missão de fazer a
+          diferença na vida das pessoas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Eu comecei minha trajetória como um jovem advogado ambicioso, com um
+          propósito claro: ajudar pessoas. Foi observando a luta de minha avó
+          para conquistar a aposentadoria que a minha paixão pelo direito
+          previdenciário nasceu.
           <br />
           <br />
-          A_Definir
+          Percebi o quão complexo e difícil o processo pode ser para muitos,
+          especialmente para os mais vulneráveis. Essa experiência me motivou a
+          me especializar em direito previdenciário, com a missão de fazer a
+          diferença na vida das pessoas.
           <br />
           <br />
-          A_Definir
+          Com o tempo, surgiram demandas no campo do direito aéreo, e
+          prontamente me especializei nessa área, que passou a ser minha segunda
+          grande paixão na advocacia.
           <br />
           <br />
-          A_Definir
+          Hoje, dedico meu trabalho a garantir que cada cliente receba o suporte
+          necessário para conquistar a aposentadoria e os benefícios a que tem
+          direito. Entendo que cada caso é único, e é por isso que meu
+          atendimento é personalizado, buscando sempre uma solução eficaz e
+          ágil.
+          <br />
+          <br />
+          Ao longo da minha trajetória, aprimorei minhas habilidades e
+          conhecimentos para lidar com a complexidade dos processos
+          previdenciários, garantindo que a burocracia não seja um obstáculo
+          para quem precisa de apoio jurídico.
+          <br />
+          <br />
+          Minha atuação é transparente, clara e objetiva, e meu objetivo é
+          orientar os clientes em todas as etapas, desde a coleta de documentos
+          até a resolução do caso, sempre mantendo uma comunicação acessível e
+          direta.
+          <br />
+          <br />
+          Com um compromisso contínuo com a atualização e aperfeiçoamento, estou
+          sempre atento às mudanças na legislação e jurisprudência, para
+          oferecer as melhores soluções legais.
+          <br />
+          <br />
+          Utilizo de tecnologias e métodos inovadores, sempre buscando agilizar
+          os processos e garantir que meus clientes não percam nenhum direito.
+          <br />
+          <br />
+          Minha missão é ser um defensor confiável, acessível e comprometido com
+          a justiça, tratando cada cliente com a devida atenção e respeito, para
+          que todos tenham acesso ao que lhes é de direito, independentemente de
+          sua condição social ou financeira.
+          <br />
+          <br />
+          E assim seguimos nossa missão de transformar vidas, proporcionando
+          justiça e segurança para todos os nossos clientes.
           <br />
           <br />
         </p>
