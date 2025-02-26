@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
-import imgProfilePicture from "../../assets/favico/android-icon-192x192.png";
+// import imgProfilePicture from "../../assets/favico/android-icon-192x192.png";
 import "../../../src/index.css";
 import { infos } from "../../content/content";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
