@@ -34,29 +34,29 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "RECLAME AGORA",
+      title: "Você tem direito a indenização? Descubra se o seu caso se encaixa.",
     },
     cards: {
       card1: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Voo cancelado sem aviso",
+        description: "Se sua viagem foi interrompida de última hora e você não recebeu suporte da companhia aérea, pode ter direito a uma compensação.",
       },
       card2: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Extravio de bagagem",
+        description: "Se a companhia aérea perdeu sua bagagem e não tomou as devidas providências, você tem direito a ser ressarcido.",
       },
       card3: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Vítima de Overbooking",
+        description: "Se você foi barrado de embarcar devido a overbooking e não recebeu o suporte necessário, você tem direito a indenização.",
       },
       card4: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Compensação inadequada",
+        description: "Se a companhia aérea ofereceu compensações abaixo do que é devido, podemos ajudar a garantir a reparação justa para o seu caso.",
       },
     },
   },
