@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp01.jpeg";
+import bgImg from "../assets/imgs/hero/bgHeroLp02.jpg";
 import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 
@@ -329,8 +329,8 @@ const contentLp01 = {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
+          width="28"
+          height="28"
           fill="currentColor"
           className="bi bi-whatsapp"
           viewBox="0 0 16 16"
