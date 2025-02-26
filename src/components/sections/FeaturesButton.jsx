@@ -39,7 +39,7 @@ export default function FeaturesButton() {
           color="dark"
         />
         <SectionWrapper>
-          <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[720px]">
+          <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">
             <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card1.img}
               title={content.texts.features.card1.title}
@@ -89,7 +89,7 @@ export default function FeaturesButton() {
                 )
               }
             />
-            {/* <FeatureImgOnBgCardButton
+            <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card3.img}
               title={content.texts.features.card3.title}
               description={content.texts.features.card3.subtitle}
@@ -100,8 +100,8 @@ export default function FeaturesButton() {
                   content.texts.features.card3.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card3.imgModal}
-                      subtitle={content.texts.features.card3.subtitle}
+                      img={content.texts.features.card3.img}
+                      // subtitle={content.texts.features.card3.subtitle}
                       description={content.texts.features.card3.description}
                       buttonIcon={content.texts.features.card3.icon}
                       buttonLabel={
@@ -114,7 +114,7 @@ export default function FeaturesButton() {
                 )
               }
             />
-            <FeatureImgOnBgCardButton
+            {/* <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card4.img}
               title={content.texts.features.card4.title}
               description={content.texts.features.card4.subtitle}

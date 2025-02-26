@@ -20,7 +20,7 @@ import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
 import featuresImg1 from "../assets/imgs/features/featuresImg2.jpeg";
 import featuresImg2 from "../assets/imgs/features/featuresImg1.jpeg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.jpeg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
@@ -174,7 +174,8 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Direito Previdenciário",
-        subtitle: "Oferecemos suporte completo para garantir seu benefício previdenciário, auxiliando em toda documentação...",
+        subtitle:
+          "Oferecemos suporte completo para garantir seu benefício previdenciário, auxiliando em toda documentação...",
         description: (
           <div>
             Oferecemos suporte completo para garantir seu benefício
@@ -202,7 +203,8 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Direito do Passageiro Aéreo",
-        subtitle: "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos...",
+        subtitle:
+          "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos...",
         description: (
           <div>
             Lutamos pelos seus direitos como passageiro aéreo, auxiliando em
@@ -229,13 +231,14 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Consultoria Jurídica",
+        subtitle: "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais...",
         description: (
           <div>
-            A_Definir <br />
-            <br />
-            A_Definir
+            Oferecemos orientação especializada para pessoas físicas e empresas,
+            auxiliando na prevenção e resolução de questões legais com
+            segurança, clareza e estratégias personalizadas para cada
+            necessidade.
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
