@@ -174,14 +174,13 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Direito Previdenciário",
-        subtitle:
-          "Oferecemos suporte completo para garantir seu benefício previdenciário, auxiliando em toda documentação, acompanhando de perto seu processo e diminuindo as chances de atrasos, tudo com um atendimento transparente e acessível.",
+        subtitle: "Oferecemos suporte completo para garantir seu benefício previdenciário, auxiliando em toda documentação...",
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            Oferecemos suporte completo para garantir seu benefício
+            previdenciário, auxiliando em toda documentação, acompanhando de
+            perto seu processo e diminuindo as chances de atrasos, tudo com um
+            atendimento transparente e acessível.
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -203,14 +202,13 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Direito do Passageiro Aéreo",
-        subtitle:
-          "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos e cancelamentos, extravio de bagagens e overbooking, garantindo que você receba o suporte necessário para uma solução justa.",
+        subtitle: "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos...",
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            Lutamos pelos seus direitos como passageiro aéreo, auxiliando em
+            reembolsos, indenizações por atrasos e cancelamentos, extravio de
+            bagagens e overbooking, garantindo que você receba o suporte
+            necessário para uma solução justa.
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -451,7 +449,8 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",

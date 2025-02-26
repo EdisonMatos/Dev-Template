@@ -51,8 +51,8 @@ export default function FeaturesButton() {
                   content.texts.features.card1.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card1.imgModal}
-                      subtitle={content.texts.features.card1.subtitle}
+                      img={content.texts.features.card1.img}
+                      // subtitle={content.texts.features.card1.subtitle}
                       description={content.texts.features.card1.description}
                       buttonIcon={content.texts.features.card1.icon}
                       buttonLabel={
@@ -76,8 +76,8 @@ export default function FeaturesButton() {
                   content.texts.features.card2.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card2.imgModal}
-                      subtitle={content.texts.features.card2.subtitle}
+                      img={content.texts.features.card2.img}
+                      // subtitle={content.texts.features.card2.subtitle}
                       description={content.texts.features.card2.description}
                       buttonIcon={content.texts.features.card2.icon}
                       buttonLabel={

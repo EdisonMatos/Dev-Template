@@ -26,7 +26,7 @@ export default function FeatureImgOnBgCardButton(props) {
   };
 
   return (
-    <MotionDivDownToUp className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] tablet1:w-[47%] desktop1:w-[23%]">
+    <MotionDivDownToUp className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] tablet1:w-[47%] desktop1:w-[45%]">
       <div
         className={`${bgPosition} w-full h-[560px] rounded-2xl flex flex-col justify-end bg-bottom bg-no-repeat bg-cover`}
         style={{ backgroundImage: `url(${bgImg})` }}
