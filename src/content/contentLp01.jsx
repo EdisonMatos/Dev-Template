@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp01.webp";
-import logo from "../assets/imgs/logo/logoLp.png";
+import bgImg from "../assets/imgs/hero/bgHeroLp02.jpg";
+import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
@@ -7,11 +7,11 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Dra. Roberta Zani | Indenização por Voo Cancelado em Guarapari - ES",
+      "Advogado Jeová Miranda | Indenização por cancelamento de voo, atraso, overbooking e extravio de bagagem",
     description:
-      "Teve um voo cancelado ou atrasado? A advogada Roberta Zani garante seus direitos e busca sua indenização. Fale com um especialista agora!",
+      "Se você sofreu com o cancelamento ou atraso de voo, overbooking ou extravio de bagagem, Jeová Miranda é especialista em garantir sua compensação.",
     keywords:
-      "Indenização Por Voo Cancelado, Direitos Do Passageiro, Voo Atrasado Indenização, Advogada Especialista Em Voos, Dra. Roberta Zani, Ação Contra Companhia Aérea, Compensação Por Voo Cancelado, Problema Com Voo O Que Fazer, Reembolso De Passagem Aérea, Advogada Para Passageiros Aéreos, Direito Do Consumidor Aéreo, Voo Cancelado Sem Aviso, Companhia Aérea Não Deu Assistência, Processo Contra Companhia Aérea, Passagem Aérea Não Reembolsada, Indenização Por Atraso De Voo, Cancelamento De Voo Direitos, Atraso Superior A 4 Horas, Reclamação Contra Companhia Aérea, Danos Morais Por Voo Cancelado.",
+      "Indenização por cancelamento de voo, Advogado especialista em voo cancelado, Indenização por atraso de voo, Assistência jurídica por extravio de bagagem, Direito do passageiro aéreo, Compensação por overbooking, Como pedir indenização por voo atrasado, Como agir em caso de voo cancelado, Indenização por perda de bagagem, Atraso de voo compensação, Reclamação de overbooking, Reembolso de voo cancelado, Indenização por danos de voo, Atraso em voo compensação jurídica, Cancelamento de voo jurídico, Voo cancelado indenização, Direito a compensação de voo, Indenização por problemas com voo, Advogado para compensação de voo, Direito a assistência em voo atrasado.",
   },
   hero: {
     bgImg: bgImg,
@@ -22,21 +22,25 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Teve seu <span className="text-primary"> voo cancelado</span>? Você
-          pode ter direito a<span className="text-primary"> indenização</span>!
+          Problemas com seu voo?{" "}
+          <span className="text-lpTitle">
+            {" "}
+            Conheça seus direitos como passageiro aéreo!
+          </span>
         </h1>
       ),
       subtitle:
-        "Descubra se você pode receber compensação por danos causados pelo cancelamento do seu voo. Conte com suporte jurídico especializado para garantir seus direitos.",
-      buttonLabel: "Quero falar com um especialista",
+        "Atrasos, cancelamentos, extravio de bagagem e mais. Saiba como garantir compensações justas com o auxílio de um advogado especializado.",
+      buttonLabel: "Exija seus direitos agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "RECLAME SEUS DIREITOS",
-      title: "Quem pode solicitar indenização?",
+      miniTag: "RECLAME AGORA",
+      title:
+        "Você tem direito a indenização? Descubra se o seu caso se encaixa.",
     },
     cards: {
       card1: {
@@ -51,14 +55,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-plane"
+            class="lucide lucide-circle-x"
           >
-            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="m15 9-6 6" />
+            <path d="m9 9 6 6" />
           </svg>
         ),
-        title: "Voo cancelado sem aviso prévio",
+        title: "Voo cancelado sem aviso",
         description:
-          "Se sua viagem foi interrompida por um cancelamento inesperado e você não recebeu suporte adequado da companhia aérea, pode ter direito a uma indenização.",
+          "Se sua viagem foi interrompida de última hora e você não recebeu suporte da companhia aérea, pode ter direito a uma compensação.",
       },
       card2: {
         icon: (
@@ -72,17 +78,18 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clock-alert"
+            class="lucide lucide-baggage-claim"
           >
-            <path d="M12 6v6l4 2" />
-            <path d="M16 21.16a10 10 0 1 1 5-13.516" />
-            <path d="M20 11.5v6" />
-            <path d="M20 21.5h.01" />
+            <path d="M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2" />
+            <path d="M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10" />
+            <rect width="13" height="8" x="8" y="6" rx="1" />
+            <circle cx="18" cy="20" r="2" />
+            <circle cx="9" cy="20" r="2" />
           </svg>
         ),
-        title: "Atrasos superiores a 4 horas",
+        title: "Extravio de bagagem",
         description:
-          "Se o seu voo sofreu um atraso de mais de 4 horas e a companhia não ofereceu reacomodação ou assistência adequada, você pode exigir compensação.",
+          "Se a companhia aérea perdeu sua bagagem e não tomou as devidas providências, você tem direito a ser ressarcido.",
       },
       card3: {
         icon: (
@@ -96,21 +103,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-siren"
+            class="lucide lucide-users"
           >
-            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
-            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
-            <path d="M21 12h1" />
-            <path d="M18.5 4.5 18 5" />
-            <path d="M2 12h1" />
-            <path d="M12 2v1" />
-            <path d="m4.929 4.929.707.707" />
-            <path d="M12 12v6" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
         ),
-        title: "Perda de compromissos importantes",
+        title: "Vítima de Overbooking",
         description:
-          "Se o cancelamento ou atraso do voo fez você perder eventos, reuniões ou conexões essenciais, você pode ter direito a reparação por danos.",
+          "Se você foi barrado de embarcar devido a overbooking e não recebeu o suporte necessário, você tem direito a indenização.",
       },
       card4: {
         icon: (
@@ -124,16 +127,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-triangle-alert"
+            class="lucide lucide-badge-dollar-sign"
           >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
-        title: "Negativa de reembolso ou assistência",
+        title: "Compensação inadequada",
         description:
-          "Se a companhia aérea se recusou a reembolsar sua passagem ou não ofereceu alimentação e hospedagem quando necessário, podemos buscar seus direitos na justiça.",
+          "Se a companhia aérea ofereceu compensações abaixo do que é devido, podemos ajudar a garantir a reparação justa para o seu caso.",
       },
     },
   },
@@ -144,28 +147,28 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA NA DEFESA DOS SEUS DIREITOS",
-      title: "Dedicação e eficiência na sua indenização",
+      miniTag: "EXCELÊNCIA NA DEFESA DE PASSAGEIROS AÉREOS",
+      title: "Indenização garantida com dedicação e eficiência",
     },
     paragraph: (
       <p>
-        Sabemos que imprevistos em viagens podem causar grandes transtornos. Por
-        isso, atuo de maneira rápida e estratégica para garantir que seus
-        direitos sejam respeitados. Se você teve um voo cancelado, atrasado ou
-        não recebeu o suporte devido da companhia aérea, posso ajudar a buscar
-        sua indenização. <br />
-        <br /> Independentemente da sua situação, estou aqui para oferecer a
-        melhor solução jurídica. Entre em contato e descubra como podemos ser
-        fundamentais na defesa dos seus direitos.
+        Imprevistos em viagens são frustrantes. Por isso, atuo de forma ágil e
+        eficiente para garantir seus direitos. Se seu voo foi cancelado,
+        atrasado ou a companhia não prestou o suporte devido, busco a
+        compensação que você merece.
+        <br />
+        <br />
+        Minha missão é encontrar a melhor solução jurídica para você. Entre em
+        contato e saiba como podemos ajudar!
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Garanta sua indenização",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para garantir sua indenização?",
+      title: "Por que nos escolher para lutar por sua indenização?",
     },
     cards: {
       card1: {
@@ -180,65 +183,20 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-lightbulb"
+            class="lucide lucide-list-checks"
           >
-            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
-            <path d="M9 18h6" />
-            <path d="M10 22h4" />
+            <path d="m3 17 2 2 4-4" />
+            <path d="m3 7 2 2 4-4" />
+            <path d="M13 6h8" />
+            <path d="M13 12h8" />
+            <path d="M13 18h8" />
           </svg>
         ),
-        title: "Estratégia personalizada para o seu caso",
+        title: "Estratégia personalizada para garantir a melhor solução",
         description:
-          "Analisamos cada detalhe do cancelamento ou atraso do seu voo para construir a melhor estratégia jurídica. Nosso objetivo é garantir que você receba a indenização que merece, com suporte especializado em todas as etapas do processo.",
+          "Não tratamos seu caso como um simples número. Cada detalhe do seu voo cancelado ou atrasado é analisado minuciosamente para desenvolver a melhor estratégia. Garantir sua compensação é nossa missão, e vamos até o fim para conquistar o que você merece.",
       },
       card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-ruler"
-          >
-            <path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z" />
-            <path d="m14.5 12.5 2-2" />
-            <path d="m11.5 9.5 2-2" />
-            <path d="m8.5 6.5 2-2" />
-            <path d="m17.5 15.5 2-2" />
-          </svg>
-        ),
-        title: "Soluções sob medida",
-        description:
-          "Criamos um plano de ação específico para o seu caso, buscando uma solução rápida e eficaz. Cada passo é pensado estrategicamente para maximizar suas chances de indenização. Estamos aqui para transformar sua frustração em uma conquista.",
-      },
-      card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-check"
-          >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-        ),
-        title: "Compromisso total com seus direitos",
-        description:
-          "Defendemos seus direitos com total dedicação, acompanhando seu caso em cada fase do processo. Com nossa assistência, você pode ter certeza de que trabalhamos para garantir a melhor solução para você.",
-      },
-      card4: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -258,9 +216,57 @@ const contentLp01 = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Experiência que inspira confiança",
+        title: "Soluções rápidas e eficazes",
         description:
-          "Com ampla experiência em casos de cancelamento e atraso de voos, tratamos seu processo com máxima segurança e eficiência. Estaremos ao seu lado para garantir que seus direitos sejam respeitados e que você receba a compensação devida. Conte conosco para fazer a diferença na sua jornada!",
+          "Nada de burocracia ou processos intermináveis. Criamos um plano de ação específico e direto, para que sua indenização aconteça o mais rápido possível. Seu caso será tratado com urgência para transformar sua frustração em uma vitória concreta.",
+      },
+      card3: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-handshake"
+          >
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
+          </svg>
+        ),
+        title: "Compromisso total com você",
+        description:
+          "Não deixamos seu caso de lado em momento algum. Nosso time está totalmente dedicado a garantir que seus direitos sejam respeitados em todas as fases do processo. Se você quer resultados, nós somos a escolha certa.",
+      },
+      card4: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-graduation-cap"
+          >
+            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+            <path d="M22 10v6" />
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+          </svg>
+        ),
+        title: "Experiência que garante resultados",
+        description:
+          "Com anos de experiência em casos de cancelamento e atraso de voos, sabemos exatamente como agir para garantir sua compensação. A nossa experiência é sua garantia de que o processo será tratado com segurança, eficiência e resultados concretos.",
       },
     },
   },
@@ -268,10 +274,10 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO ESPERE MAIS",
-      title: "Garanta sua indenização agora mesmo!",
-      subtitle: `Se seu voo foi cancelado ou sofreu um grande atraso, você pode ter direito a uma indenização. Nossa equipe especializada está pronta para oferecer toda a orientação necessária para que você receba a compensação que merece. Não deixe que a burocracia impeça você de buscar seus direitos!`,
+      title: "Receba sua indenização agora mesmo!",
+      subtitle: `Teve seu voo cancelado, sofreu um atraso significativo, enfrentou overbooking ou teve sua bagagem extraviada? Você pode ter direito à compensação. Nossa equipe especializada está pronta para te ajudar a garantir a indenização que você merece. Não perca tempo com a burocracia e busque agora seus direitos!`,
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Falar com um especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
@@ -279,23 +285,23 @@ const contentLp01 = {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
+          width="28"
+          height="28"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-linkedin"
+          class="lucide lucide-instagram"
         >
-          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-          <rect width="4" height="12" x="2" y="9" />
-          <circle cx="4" cy="4" r="2" />
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+          <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
         </svg>
       ),
-      title: "LinkedIn",
-      description: `@${infos.linkeDinProfile}`,
+      title: "Instagram",
+      description: `@${infos.instagramProfile}`,
     },
     card2: {
       icon: (

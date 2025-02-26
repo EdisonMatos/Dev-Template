@@ -20,28 +20,28 @@ export default function Index() {
       <Hero appDownloadButtons={false} />
       <Features
         defaultFeature={false}
-        button={false}
+        button={true}
         modalWithCards={false}
-        paragraphs={true}
+        paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
       />
       <About modal={true} />
-      {/* <AboutInstagram
+      <AboutInstagram
         socialPrint={true}
         instagram={true}
-        facebook={false}
-        linkedin={true}
+        facebook={true}
+        linkedin={false}
         x={false}
         test={true}
-      /> */}
+      />
       <Cta />
       <Steps />
       <Faq />
       <FooterSocial
-        addres={false}
-        instagram={false}
-        facebook={false}
+        addres={true}
+        instagram={true}
+        facebook={true}
         linkedin={false}
         x={false}
         obs={false}

@@ -198,6 +198,11 @@
   flex-shrink: 0 !important; /* Impede que o botão diminua se o tooltip aumentar */
 }
 
-
 .gradient-LP-Hero {
-  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(49,25,17,1) 35%, rgba(49,25,17,1) 100%);}
+  background: radial-gradient(
+    circle,
+    rgba(32, 37, 44, 1) 0%,
+    rgba(32, 37, 44, 1) 35%,
+    rgba(32, 37, 44, 1) 100%
+  );
+}

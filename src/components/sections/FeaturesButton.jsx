@@ -39,7 +39,7 @@ export default function FeaturesButton() {
           color="dark"
         />
         <SectionWrapper>
-          <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
+          <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">
             <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card1.img}
               title={content.texts.features.card1.title}
@@ -51,8 +51,8 @@ export default function FeaturesButton() {
                   content.texts.features.card1.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card1.imgModal}
-                      subtitle={content.texts.features.card1.subtitle}
+                      img={content.texts.features.card1.img}
+                      // subtitle={content.texts.features.card1.subtitle}
                       description={content.texts.features.card1.description}
                       buttonIcon={content.texts.features.card1.icon}
                       buttonLabel={
@@ -76,8 +76,8 @@ export default function FeaturesButton() {
                   content.texts.features.card2.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card2.imgModal}
-                      subtitle={content.texts.features.card2.subtitle}
+                      img={content.texts.features.card2.img}
+                      // subtitle={content.texts.features.card2.subtitle}
                       description={content.texts.features.card2.description}
                       buttonIcon={content.texts.features.card2.icon}
                       buttonLabel={
@@ -100,8 +100,8 @@ export default function FeaturesButton() {
                   content.texts.features.card3.title,
                   <div>
                     <ServiceDetailCard
-                      img={content.texts.features.card3.imgModal}
-                      subtitle={content.texts.features.card3.subtitle}
+                      img={content.texts.features.card3.img}
+                      // subtitle={content.texts.features.card3.subtitle}
                       description={content.texts.features.card3.description}
                       buttonIcon={content.texts.features.card3.icon}
                       buttonLabel={
@@ -114,7 +114,7 @@ export default function FeaturesButton() {
                 )
               }
             />
-            <FeatureImgOnBgCardButton
+            {/* <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card4.img}
               title={content.texts.features.card4.title}
               description={content.texts.features.card4.subtitle}
@@ -139,7 +139,7 @@ export default function FeaturesButton() {
                   </div>
                 )
               }
-            />
+            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>
@@ -149,8 +149,16 @@ export default function FeaturesButton() {
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }}
+        style={{ width: "30vw" }}
+        breakpoints={{
+          "1440px": "25vw",
+          "1024px": "35vw",
+          "768px": "50vw",
+          "640px": "60vw",
+          "639px": "80vw",
+          "425px": "90vw",
+        }}
+        // breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }} versão original
       >
         <div>{modalSubtitle}</div>
         <div className="m-0">{modalContent}</div>

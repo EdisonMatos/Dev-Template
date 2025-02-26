@@ -18,9 +18,9 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
+import featuresImg1 from "../assets/imgs/features/featuresImg2.jpeg";
+import featuresImg2 from "../assets/imgs/features/featuresImg1.jpeg";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.jpeg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
@@ -43,20 +43,20 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Fausto Nascimento",
+  name: "Dr. Jeová Miranda",
   email: "contato", // Email desejado pelo cliente
-  domain: "faustonascimento.com.br", // Sem "www"
+  domain: "drjeovamiranda.com.br", // Sem "www"
   phone: {
-    ddd: "98",
-    firstPart: "98189", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9770", // Apenas os 4 últimos números
+    ddd: "99",
+    firstPart: "98423", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4461", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Roraima, nº 2940, Primavera</p>
+      <p>Teresina - PI,</p>
+      <p> CEP 64007-200</p>
     </div>
   ),
   expediente: (
@@ -67,8 +67,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "jeovamiranda.adv", // Sem o @
+  facebookProfile: "61566209530481",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -94,15 +94,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SÃO LUÍS - MA",
+      miniTag: "ADVOGADO PREVIDENCIARISTA EM TERESINA - PI",
       title: (
         <h1 className="mb-[16px]">
-          Transforme desafios em soluções
-          <span className="text-primary"> jurídicas eficazes</span>
+          Atendimento personalizado e acessibilidade total
+          <span className="text-primary"> ao seu caso</span>
         </h1>
       ),
       subtitle:
-        "Com experiência internacional e visão estratégica, protejo seus direitos e potencializo seus resultados.",
+        "Atentos às mudanças legislativas, cuidamos de toda burocracia para você garantir seus direitos previdenciários.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -124,7 +124,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online (preferencialmente)",
+        text: "Atendimento presencial sob consulta e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -166,46 +166,35 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Soluções que definem seu futuro",
+      title: "Parcerias estratégicas e soluções inovadoras",
       subtitle:
-        "Com estratégias jurídicas poderosas, garantimos a segurança do seu direito.",
+        "Atendendo às necessidades de cada cliente com excelência, empatia e soluções personalizadas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Empresarial",
-        subtitle: (
-          <p>
-            Assessoria jurídica completa para empresas, desde a constituição até
-            a solução de conflitos. Atuamos com contratos, recuperação de
-            crédito, <i>compliance</i>, fusões e defesas judiciais e
-            administrativas.
-          </p>
-        ),
+        title: "Direito Previdenciário",
+        subtitle:
+          "Oferecemos suporte completo para garantir seu benefício previdenciário, auxiliando em toda documentação...",
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            Oferecemos suporte completo para garantir seu benefício
+            previdenciário, auxiliando em toda documentação, acompanhando de
+            perto seu processo e diminuindo as chances de atrasos, tudo com um
+            atendimento transparente e acessível.
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-badge-check"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -213,36 +202,28 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Tributário",
+        title: "Direito do Passageiro Aéreo",
         subtitle:
-          "Reduza tributos de forma legal e segura com planejamento tributário, recuperação de valores pagos indevidamente e defesa em execuções fiscais, garantindo economia e conformidade.",
+          "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos...",
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            Lutamos pelos seus direitos como passageiro aéreo, auxiliando em
+            reembolsos, indenizações por atrasos e cancelamentos, extravio de
+            bagagens e overbooking, garantindo que você receba o suporte
+            necessário para uma solução justa.
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -250,35 +231,27 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhista",
-        subtitle:
-          "Proteção para empresas e trabalhadores. Consultoria para evitar passivos, elaboração de contratos e defesa em reclamações trabalhistas, garantindo direitos e segurança jurídica.",
+        title: "Consultoria Jurídica",
+        subtitle: "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais...",
         description: (
           <div>
-            A_Definir <br />
-            <br />
-            A_Definir
+            Oferecemos orientação especializada para pessoas físicas e empresas,
+            auxiliando na prevenção e resolução de questões legais com
+            segurança, clareza e estratégias personalizadas para cada
+            necessidade.
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-handshake"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -286,9 +259,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Previdenciário",
-        subtitle:
-          "Aposentadorias, pensões, auxílio-doença e revisões de benefícios. Atendimento a segurados do INSS e servidores públicos para garantir direitos previdenciários.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -301,18 +273,13 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-shield-check"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -320,9 +287,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "Sucessões e Família",
-        subtitle:
-          "Inventários, testamentos, divórcios, guarda e pensão alimentícia. Soluções ágeis e justas para proteger seu patrimônio e sua família.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -335,20 +301,13 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-users"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -356,9 +315,8 @@ const content = {
       },
       card6: {
         img: featuresImg4,
-        title: "Cível",
-        subtitle:
-          "Atuação em contratos, indenizações, posse, responsabilidade civil e litígios. Defesa do consumidor e ações por danos morais e patrimoniais.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -371,21 +329,13 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="48"
-            height="48"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -414,41 +364,80 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. FAUSTO NASCIMENTO",
+      miniTag: "QUEM É O DR. JEOVÁ MIRANDA",
       title: "Minha trajetória",
       subtitle:
-        "Do mercado global à advocacia estratégica, a experiência que faz a diferença.",
+        "Apoio moderno e direto para garantir seus direitos com firmeza e transparência.",
       paragraph: (
         <div>
-          Sou advogado com formação em Ciências Contábeis e uma trajetória
-          consolidada no mercado jurídico e empresarial.
+          Eu comecei minha trajetória como um jovem advogado ambicioso, com um
+          propósito claro: ajudar pessoas. Foi observando a luta de minha avó
+          para conquistar a aposentadoria que a minha paixão pelo direito
+          previdenciário nasceu.
           <br />
-          Minha experiência profissional inclui atuação em multinacionais, tanto
-          no Brasil quanto no exterior, onde aprimorei minha visão estratégica e
-          a capacidade de lidar com cenários complexos.
+          Percebi o quão complexo e difícil o processo pode ser para muitos,
+          especialmente para os mais vulneráveis. Essa experiência me motivou a
+          me especializar em direito previdenciário, com a missão de fazer a
+          diferença na vida das pessoas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Sou advogado com formação em Ciências Contábeis e uma trajetória
-          consolidada no mercado jurídico e empresarial.
+          Eu comecei minha trajetória como um jovem advogado ambicioso, com um
+          propósito claro: ajudar pessoas. Foi observando a luta de minha avó
+          para conquistar a aposentadoria que a minha paixão pelo direito
+          previdenciário nasceu.
           <br />
           <br />
-          Minha experiência profissional inclui atuação em multinacionais, tanto
-          no Brasil quanto no exterior, onde aprimorei minha visão estratégica e
-          a capacidade de lidar com cenários complexos.
+          Percebi o quão complexo e difícil o processo pode ser para muitos,
+          especialmente para os mais vulneráveis. Essa experiência me motivou a
+          me especializar em direito previdenciário, com a missão de fazer a
+          diferença na vida das pessoas.
           <br />
           <br />
-          Atuo em diversas áreas do Direito Empresarial, como contratos,
-          tributário, trabalhista, financeiro e soluções de conflitos, sempre
-          buscando proporcionar segurança jurídica e eficiência para empresas e
-          empreendedores.
+          Com o tempo, surgiram demandas no campo do direito aéreo, e
+          prontamente me especializei nessa área, que passou a ser minha segunda
+          grande paixão na advocacia.
           <br />
           <br />
-          Minha missão é oferecer assessoria qualificada, fundamentada na ética,
-          na transparência e no compromisso com os melhores interesses dos meus
-          clientes. <br />
+          Hoje, dedico meu trabalho a garantir que cada cliente receba o suporte
+          necessário para conquistar a aposentadoria e os benefícios a que tem
+          direito. Entendo que cada caso é único, e é por isso que meu
+          atendimento é personalizado, buscando sempre uma solução eficaz e
+          ágil.
+          <br />
+          <br />
+          Ao longo da minha trajetória, aprimorei minhas habilidades e
+          conhecimentos para lidar com a complexidade dos processos
+          previdenciários, garantindo que a burocracia não seja um obstáculo
+          para quem precisa de apoio jurídico.
+          <br />
+          <br />
+          Minha atuação é transparente, clara e objetiva, e meu objetivo é
+          orientar os clientes em todas as etapas, desde a coleta de documentos
+          até a resolução do caso, sempre mantendo uma comunicação acessível e
+          direta.
+          <br />
+          <br />
+          Com um compromisso contínuo com a atualização e aperfeiçoamento, estou
+          sempre atento às mudanças na legislação e jurisprudência, para
+          oferecer as melhores soluções legais.
+          <br />
+          <br />
+          Utilizo de tecnologias e métodos inovadores, sempre buscando agilizar
+          os processos e garantir que meus clientes não percam nenhum direito.
+          <br />
+          <br />
+          Minha missão é ser um defensor confiável, acessível e comprometido com
+          a justiça, tratando cada cliente com a devida atenção e respeito, para
+          que todos tenham acesso ao que lhes é de direito, independentemente de
+          sua condição social ou financeira.
+          <br />
+          <br />
+          E assim seguimos nossa missão de transformar vidas, proporcionando
+          justiça e segurança para todos os nossos clientes.
+          <br />
           <br />
         </p>
       ),
@@ -463,9 +452,10 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle: "",
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
         paragraph: (
@@ -514,7 +504,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais e extrajudiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
