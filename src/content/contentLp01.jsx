@@ -67,13 +67,13 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "EXCELÊNCIA NA DEFESA DE PASSAGEIROS AÉREOS",
+      title: "Indenização garantida com dedicação e eficiência",
     },
     paragraph: (
       <p>
-        A_Definir <br />
-        <br /> A_Definir
+        Sabemos que imprevistos durante a viagem podem ser extremamente frustrantes. É por isso que atuo de forma rápida, eficiente e focada, para assegurar que seus direitos sejam respeitados. Se o seu voo foi cancelado, atrasado, ou se a companhia aérea não ofereceu o suporte necessário, estou aqui para buscar a compensação que você merece. <br />
+        <br /> Não importa qual seja o seu caso, minha missão é fornecer a melhor solução jurídica e garantir que você receba o que tem direito. Entre em contato agora e descubra como podemos ser essenciais na defesa dos seus direitos.
       </p>
     ),
     buttonLabel: "Quero falar com um especialista",
@@ -81,40 +81,40 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A ESCOLHA CERTA",
+      title: "Por que nos escolher para lutar por sua indenização?",
     },
     cards: {
       card1: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Estratégia personalizada para garantir a melhor solução",
+        description: "Não tratamos seu caso como um simples número. Cada detalhe do seu voo cancelado ou atrasado é analisado minuciosamente para desenvolver a melhor estratégia. Garantir sua compensação é nossa missão, e vamos até o fim para conquistar o que você merece.",
       },
       card2: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Soluções rápidas e eficazes",
+        description: "Nada de burocracia ou processos intermináveis. Criamos um plano de ação específico e direto, para que sua indenização aconteça o mais rápido possível. Seu caso será tratado com urgência para transformar sua frustração em uma vitória concreta.",
       },
       card3: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Compromisso total com você",
+        description: "Não deixamos seu caso de lado em momento algum. Nosso time está totalmente dedicado a garantir que seus direitos sejam respeitados em todas as fases do processo. Se você quer resultados, nós somos a escolha certa.",
       },
       card4: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Experiência que garante resultados",
+        description: "Com anos de experiência em casos de cancelamento e atraso de voos, sabemos exatamente como agir para garantir sua compensação. A nossa experiência é sua garantia de que o processo será tratado com segurança, eficiência e resultados concretos.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: `A_Definir`,
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Receba sua indenização agora mesmo!",
+      subtitle: `Teve seu voo cancelado, sofreu um atraso significativo, enfrentou overbooking ou teve sua bagagem extraviada? Você pode ter direito à compensação. Nossa equipe especializada está pronta para te ajudar a garantir a indenização que você merece. Não perca tempo com a burocracia e busque agora seus direitos!`,
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Falar com um especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
