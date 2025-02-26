@@ -39,7 +39,7 @@ export default function Index() {
       <Steps />
       <Faq />
       <FooterSocial
-        addres={false}
+        addres={true}
         instagram={true}
         facebook={true}
         linkedin={false}
