@@ -22,11 +22,15 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Problemas com seu voo? <span className="text-lpTitle"> Conheça seus direitos como passageiro aéreo!
-          </span> 
+          Problemas com seu voo?{" "}
+          <span className="text-lpTitle">
+            {" "}
+            Conheça seus direitos como passageiro aéreo!
+          </span>
         </h1>
       ),
-      subtitle: "Atrasos, cancelamentos, extravio de bagagem e mais. Saiba como garantir compensações justas com o auxílio de um advogado especializado.",
+      subtitle:
+        "Atrasos, cancelamentos, extravio de bagagem e mais. Saiba como garantir compensações justas com o auxílio de um advogado especializado.",
       buttonLabel: "Exija seus direitos agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -35,28 +39,104 @@ const contentLp01 = {
   features: {
     sectionHeader: {
       miniTag: "RECLAME AGORA",
-      title: "Você tem direito a indenização? Descubra se o seu caso se encaixa.",
+      title:
+        "Você tem direito a indenização? Descubra se o seu caso se encaixa.",
     },
     cards: {
       card1: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-x"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m15 9-6 6" />
+            <path d="m9 9 6 6" />
+          </svg>
+        ),
         title: "Voo cancelado sem aviso",
-        description: "Se sua viagem foi interrompida de última hora e você não recebeu suporte da companhia aérea, pode ter direito a uma compensação.",
+        description:
+          "Se sua viagem foi interrompida de última hora e você não recebeu suporte da companhia aérea, pode ter direito a uma compensação.",
       },
       card2: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-baggage-claim"
+          >
+            <path d="M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2" />
+            <path d="M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10" />
+            <rect width="13" height="8" x="8" y="6" rx="1" />
+            <circle cx="18" cy="20" r="2" />
+            <circle cx="9" cy="20" r="2" />
+          </svg>
+        ),
         title: "Extravio de bagagem",
-        description: "Se a companhia aérea perdeu sua bagagem e não tomou as devidas providências, você tem direito a ser ressarcido.",
+        description:
+          "Se a companhia aérea perdeu sua bagagem e não tomou as devidas providências, você tem direito a ser ressarcido.",
       },
       card3: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+        ),
         title: "Vítima de Overbooking",
-        description: "Se você foi barrado de embarcar devido a overbooking e não recebeu o suporte necessário, você tem direito a indenização.",
+        description:
+          "Se você foi barrado de embarcar devido a overbooking e não recebeu o suporte necessário, você tem direito a indenização.",
       },
       card4: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-badge-dollar-sign"
+          >
+            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
         title: "Compensação inadequada",
-        description: "Se a companhia aérea ofereceu compensações abaixo do que é devido, podemos ajudar a garantir a reparação justa para o seu caso.",
+        description:
+          "Se a companhia aérea ofereceu compensações abaixo do que é devido, podemos ajudar a garantir a reparação justa para o seu caso.",
       },
     },
   },
@@ -72,11 +152,18 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
-        Sabemos que imprevistos durante a viagem podem ser extremamente frustrantes. É por isso que atuo de forma rápida, eficiente e focada, para assegurar que seus direitos sejam respeitados. Se o seu voo foi cancelado, atrasado, ou se a companhia aérea não ofereceu o suporte necessário, estou aqui para buscar a compensação que você merece. <br />
-        <br /> Não importa qual seja o seu caso, minha missão é fornecer a melhor solução jurídica e garantir que você receba o que tem direito. Entre em contato agora e descubra como podemos ser essenciais na defesa dos seus direitos.
+        Sabemos que imprevistos durante a viagem podem ser extremamente
+        frustrantes. É por isso que atuo de forma rápida, eficiente e focada,
+        para assegurar que seus direitos sejam respeitados. Se o seu voo foi
+        cancelado, atrasado, ou se a companhia aérea não ofereceu o suporte
+        necessário, estou aqui para buscar a compensação que você merece. <br />
+        <br /> Não importa qual seja o seu caso, minha missão é fornecer a
+        melhor solução jurídica e garantir que você receba o que tem direito.
+        Entre em contato agora e descubra como podemos ser essenciais na defesa
+        dos seus direitos.
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Garanta sua indenização",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
@@ -86,24 +173,101 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-list-checks"
+          >
+            <path d="m3 17 2 2 4-4" />
+            <path d="m3 7 2 2 4-4" />
+            <path d="M13 6h8" />
+            <path d="M13 12h8" />
+            <path d="M13 18h8" />
+          </svg>
+        ),
         title: "Estratégia personalizada para garantir a melhor solução",
-        description: "Não tratamos seu caso como um simples número. Cada detalhe do seu voo cancelado ou atrasado é analisado minuciosamente para desenvolver a melhor estratégia. Garantir sua compensação é nossa missão, e vamos até o fim para conquistar o que você merece.",
+        description:
+          "Não tratamos seu caso como um simples número. Cada detalhe do seu voo cancelado ou atrasado é analisado minuciosamente para desenvolver a melhor estratégia. Garantir sua compensação é nossa missão, e vamos até o fim para conquistar o que você merece.",
       },
       card2: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hourglass"
+          >
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+          </svg>
+        ),
         title: "Soluções rápidas e eficazes",
-        description: "Nada de burocracia ou processos intermináveis. Criamos um plano de ação específico e direto, para que sua indenização aconteça o mais rápido possível. Seu caso será tratado com urgência para transformar sua frustração em uma vitória concreta.",
+        description:
+          "Nada de burocracia ou processos intermináveis. Criamos um plano de ação específico e direto, para que sua indenização aconteça o mais rápido possível. Seu caso será tratado com urgência para transformar sua frustração em uma vitória concreta.",
       },
       card3: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-handshake"
+          >
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
+          </svg>
+        ),
         title: "Compromisso total com você",
-        description: "Não deixamos seu caso de lado em momento algum. Nosso time está totalmente dedicado a garantir que seus direitos sejam respeitados em todas as fases do processo. Se você quer resultados, nós somos a escolha certa.",
+        description:
+          "Não deixamos seu caso de lado em momento algum. Nosso time está totalmente dedicado a garantir que seus direitos sejam respeitados em todas as fases do processo. Se você quer resultados, nós somos a escolha certa.",
       },
       card4: {
-        icon: "A_Definir",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-graduation-cap"
+          >
+            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+            <path d="M22 10v6" />
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+          </svg>
+        ),
         title: "Experiência que garante resultados",
-        description: "Com anos de experiência em casos de cancelamento e atraso de voos, sabemos exatamente como agir para garantir sua compensação. A nossa experiência é sua garantia de que o processo será tratado com segurança, eficiência e resultados concretos.",
+        description:
+          "Com anos de experiência em casos de cancelamento e atraso de voos, sabemos exatamente como agir para garantir sua compensação. A nossa experiência é sua garantia de que o processo será tratado com segurança, eficiência e resultados concretos.",
       },
     },
   },
