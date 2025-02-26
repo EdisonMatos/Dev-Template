@@ -1,14 +1,17 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp01.webp";
-import logo from "../assets/imgs/logo/logoLp.png";
+import bgImg from "../assets/imgs/hero/bgHeroLp01.jpeg";
+import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir1",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title:
+      "Advogado Jeová Miranda | Indenização por cancelamento de voo, atraso, overbooking e extravio de bagagem",
+    description:
+      "Se você sofreu com o cancelamento ou atraso de voo, overbooking ou extravio de bagagem, Jeová Miranda é especialista em garantir sua compensação.",
+    keywords:
+      "Indenização por cancelamento de voo, Advogado especialista em voo cancelado, Indenização por atraso de voo, Assistência jurídica por extravio de bagagem, Direito do passageiro aéreo, Compensação por overbooking, Como pedir indenização por voo atrasado, Como agir em caso de voo cancelado, Indenização por perda de bagagem, Atraso de voo compensação, Reclamação de overbooking, Reembolso de voo cancelado, Indenização por danos de voo, Atraso em voo compensação jurídica, Cancelamento de voo jurídico, Voo cancelado indenização, Direito a compensação de voo, Indenização por problemas com voo, Advogado para compensação de voo, Direito a assistência em voo atrasado.",
   },
   hero: {
     bgImg: bgImg,
