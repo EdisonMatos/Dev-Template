@@ -39,7 +39,7 @@ export default function FeaturesButton() {
           color="dark"
         />
         <SectionWrapper>
-          <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">
+          <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">
             <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card1.img}
               title={content.texts.features.card1.title}
@@ -150,7 +150,14 @@ export default function FeaturesButton() {
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "30vw" }}
-        breakpoints={{ "1440px": "25vw", "1024px": "35vw", "768px": "50vw", "640px": "60vw", "639px":"80vw", "425px": "90vw" }}
+        breakpoints={{
+          "1440px": "25vw",
+          "1024px": "35vw",
+          "768px": "50vw",
+          "640px": "60vw",
+          "639px": "80vw",
+          "425px": "90vw",
+        }}
         // breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }} versão original
       >
         <div>{modalSubtitle}</div>
