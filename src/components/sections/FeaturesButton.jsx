@@ -39,7 +39,7 @@ export default function FeaturesButton() {
           color="dark"
         />
         <SectionWrapper>
-          <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px]">
+          <div className="flex flex-wrap justify-between w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[691px]">
             <FeatureImgOnBgCardButton
               bgImg={content.texts.features.card1.img}
               title={content.texts.features.card1.title}
