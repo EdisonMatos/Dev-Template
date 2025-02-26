@@ -20,8 +20,8 @@ export default function AboutParalaxeLP({ logo }) {
         <div className="flex justify-center w-full bg-black bg-opacity-80">
           <SectionArea>
             <SectionWrapper>
-              <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[120px]">
-              <MotionDivDownToUp className="flex justify-start w-full desktop1:w-auto">
+              <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[80px]">
+              <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
                   {/* Logo */}
                   {logo ? (
                     <img
@@ -33,13 +33,13 @@ export default function AboutParalaxeLP({ logo }) {
                     <img
                       src={content.texts.about.imagem.img}
                       alt={content.texts.about.imagem.alt}
-                      className="w-[90%] desktop1:w-[90%] rounded-xl shadow-custom-opacity shadow-secondary/50"
+                      className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-auto w-[90%] tablet1:w-full rounded-xl"
                     />
                   )}
                 </MotionDivDownToUp>
 
                 {/* Texto ao lado da logo */}
-                <div className={logo ? "desktop1:w-[60%]" : "desktop1:w-[100%]"}>
+                <div className={logo ? "desktop1:w-[60%]" : "desktop1:w-[60%]"}>
                   <SectionHeader
                     className="text-center"
                     miniTitle={contentLp01.about.sectionHeader.miniTag}
