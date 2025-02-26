@@ -152,15 +152,14 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
-        Sabemos que imprevistos durante a viagem podem ser extremamente
-        frustrantes. É por isso que atuo de forma rápida, eficiente e focada,
-        para assegurar que seus direitos sejam respeitados. Se o seu voo foi
-        cancelado, atrasado, ou se a companhia aérea não ofereceu o suporte
-        necessário, estou aqui para buscar a compensação que você merece. <br />
-        <br /> Não importa qual seja o seu caso, minha missão é fornecer a
-        melhor solução jurídica e garantir que você receba o que tem direito.
-        Entre em contato agora e descubra como podemos ser essenciais na defesa
-        dos seus direitos.
+        Imprevistos em viagens são frustrantes. Por isso, atuo de forma ágil e
+        eficiente para garantir seus direitos. Se seu voo foi cancelado,
+        atrasado ou a companhia não prestou o suporte devido, busco a
+        compensação que você merece.
+        <br />
+        <br />
+        Minha missão é encontrar a melhor solução jurídica para você. Entre em
+        contato e saiba como podemos ajudar!
       </p>
     ),
     buttonLabel: "Garanta sua indenização",
