@@ -22,12 +22,12 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
-          <span className="text-lpTitle"> A_Definir</span>
+          Problemas com seu voo? <span className="text-lpTitle"> Conheça seus direitos como passageiro aéreo!
+          </span> 
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "Quero falar com um especialista",
+      subtitle: "Atrasos, cancelamentos, extravio de bagagem e mais. Saiba como garantir compensações justas com o auxílio de um advogado especializado.",
+      buttonLabel: "Exija seus direitos agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
