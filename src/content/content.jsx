@@ -164,15 +164,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Defendendo seus direitos com excelência jurídica",
+      subtitle: "Atuação especializada para garantir justiça e proteção ao trabalhador.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Reconhecimento de vínculo empregatício",
+        subtitle: "Garantindo seus direitos quando o trabalho sem registro se torna injusto.",
         description: (
           <div>
             A_Definir
@@ -199,8 +199,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Rescisão Indireta",
+        subtitle: "Quando a empresa descumpre a lei, você pode rescindir o contrato com justa causa.",
         description: (
           <div>
             A_Definir
@@ -227,8 +227,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Pagamento de Verbas Rescisórias em atraso (Rescisão)",
+        subtitle: "Receba tudo o que lhe é devido no fim do contrato de trabalho.",
         description: (
           <div>
             A_Definir <br />
@@ -254,8 +254,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Adicional de Insalubridade e Periculosidade",
+        subtitle: "Compensação justa para quem trabalha exposto a riscos e agentes nocivos.",
         description: (
           <div>
             A_Definir
@@ -282,8 +282,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Acidente de Trabalho (indenização por dano moral, estético e material)",
+        subtitle: "Defendemos sua reparação por danos sofridos no ambiente de trabalho.",
         description: (
           <div>
             A_Definir
@@ -310,8 +310,8 @@ const content = {
       },
       card6: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Demais especialidades",
+        subtitle: "Entre em contato e com equipe e tire suas dúvidas",
         description: (
           <div>
             A_Definir
