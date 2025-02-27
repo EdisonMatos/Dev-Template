@@ -94,14 +94,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADA TRABALHISTA EM PORTO VELHO - RO",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Defendendo seus direitos
+          <span className="text-primary"> como trabalhador!</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle: "Garantimos a proteção de seus direitos, enfrentando abusos e lutando por uma justiça justa e acessível.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento em todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
