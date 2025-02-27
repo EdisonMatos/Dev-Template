@@ -20,10 +20,10 @@ export default function Index() {
       <Hero appDownloadButtons={false} />
       <Features
         defaultFeature={false}
-        button={true}
+        button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={false}
+        sixCards={true}
         paragraphsModal={false}
       />
       <About modal={true} />
@@ -33,7 +33,6 @@ export default function Index() {
         facebook={true}
         linkedin={false}
         x={false}
-        test={true}
       />
       <Cta />
       <Steps />
@@ -42,7 +41,7 @@ export default function Index() {
         addres={true}
         instagram={true}
         facebook={true}
-        linkedin={false}
+        linkedin={false}c
         x={false}
         obs={false}
       />

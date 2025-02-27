@@ -4,7 +4,7 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpeg";
 
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgAppStore from "../assets/imgs/hero/appStore.webp";
@@ -18,9 +18,9 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg2.jpeg";
-import featuresImg2 from "../assets/imgs/features/featuresImg1.jpeg";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.jpeg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
@@ -43,32 +43,32 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Jeová Miranda",
+  name: "Dra. Agnes Cristina – Advogada Trabalhista em Porto Velho - RO",
   email: "contato", // Email desejado pelo cliente
-  domain: "drjeovamiranda.com.br", // Sem "www"
+  domain: "agnescristinaadvocacia.adv.br", // Sem "www"
   phone: {
-    ddd: "99",
-    firstPart: "98423", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4461", // Apenas os 4 últimos números
+    ddd: "69",
+    firstPart: "99240", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5236", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Roraima, nº 2940, Primavera</p>
-      <p>Teresina - PI,</p>
-      <p> CEP 64007-200</p>
+      <p>Av. Jatuarana - nº 4699</p>
+      <p>Nova Floresta Porto Velho - RO</p>
+      <p>CEP 76807-313</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à sexta-feira</p>
+      <p>Segunda à sexta-feira:</p>
       <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "jeovamiranda.adv", // Sem o @
-  facebookProfile: "61566209530481",
+  instagramProfile: "agnescristina.adv", // Sem o @
+  facebookProfile: "resenhadedireito3",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -94,15 +94,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO PREVIDENCIARISTA EM TERESINA - PI",
+      miniTag: "ADVOGADA TRABALHISTA EM PORTO VELHO - RO",
       title: (
         <h1 className="mb-[16px]">
-          Atendimento personalizado e acessibilidade total
-          <span className="text-primary"> ao seu caso</span>
+          Defendendo seus direitos
+          <span className="text-primary"> como trabalhador!</span>
         </h1>
       ),
       subtitle:
-        "Atentos às mudanças legislativas, cuidamos de toda burocracia para você garantir seus direitos previdenciários.",
+        "Garantimos a proteção de seus direitos, enfrentando abusos e lutando por uma justiça justa e acessível.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -124,7 +124,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial sob consulta e online",
+        text: "Atendimento em todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -165,23 +165,23 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Parcerias estratégicas e soluções inovadoras",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Defendendo seus direitos com excelência jurídica",
       subtitle:
-        "Atendendo às necessidades de cada cliente com excelência, empatia e soluções personalizadas.",
+        "Atuação especializada para garantir justiça e proteção ao trabalhador.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
+        title: "Reconhecimento de vínculo empregatício",
         subtitle:
-          "Oferecemos suporte completo para garantir seu benefício previdenciário, auxiliando em toda documentação...",
+          "Garantindo seus direitos quando o trabalho sem registro se torna injusto.",
         description: (
           <div>
-            Oferecemos suporte completo para garantir seu benefício
-            previdenciário, auxiliando em toda documentação, acompanhando de
-            perto seu processo e diminuindo as chances de atrasos, tudo com um
-            atendimento transparente e acessível.
+            A_Definir
+            <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -190,11 +190,21 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-car-taxi-front"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M10 2h4" />
+            <path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8" />
+            <path d="M7 14h.01" />
+            <path d="M17 14h.01" />
+            <rect width="18" height="8" x="3" y="10" rx="2" />
+            <path d="M5 18v2" />
+            <path d="M19 18v2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -202,15 +212,15 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Passageiro Aéreo",
+        title: "Rescisão Indireta",
         subtitle:
-          "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos...",
+          "Quando a empresa descumpre a lei, você pode rescindir o contrato com justa causa.",
         description: (
           <div>
-            Lutamos pelos seus direitos como passageiro aéreo, auxiliando em
-            reembolsos, indenizações por atrasos e cancelamentos, extravio de
-            bagagens e overbooking, garantindo que você receba o suporte
-            necessário para uma solução justa.
+            A_Definir
+            <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -219,11 +229,19 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-text"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -231,14 +249,14 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Consultoria Jurídica",
-        subtitle: "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais...",
+        title: "Pagamento de Verbas Rescisórias em atraso (Rescisão)",
+        subtitle:
+          "Receba tudo o que lhe é devido no fim do contrato de trabalho.",
         description: (
           <div>
-            Oferecemos orientação especializada para pessoas físicas e empresas,
-            auxiliando na prevenção e resolução de questões legais com
-            segurança, clareza e estratégias personalizadas para cada
-            necessidade.
+            A_Definir <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -247,11 +265,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-x"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <line x1="17" x2="22" y1="8" y2="13" />
+            <line x1="22" x2="17" y1="8" y2="13" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -259,8 +284,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Adicional de Insalubridade e Periculosidade",
+        subtitle:
+          "Compensação justa para quem trabalha exposto a riscos e agentes nocivos.",
         description: (
           <div>
             A_Definir
@@ -275,11 +301,18 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-radiation"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M12 12h.01" />
+            <path d="M7.5 4.2c-.3-.5-.9-.7-1.3-.4C3.9 5.5 2.3 8.1 2 11c-.1.5.4 1 1 1h5c0-1.5.8-2.8 2-3.4-1.1-1.9-2-3.5-2.5-4.4z" />
+            <path d="M21 12c.6 0 1-.4 1-1-.3-2.9-1.8-5.5-4.1-7.1-.4-.3-1.1-.2-1.3.3-.6.9-1.5 2.5-2.6 4.3 1.2.7 2 2 2 3.5h5z" />
+            <path d="M7.5 19.8c-.3.5-.1 1.1.4 1.3 2.6 1.2 5.6 1.2 8.2 0 .5-.2.7-.8.4-1.3-.5-.9-1.4-2.5-2.5-4.3-1.2.7-2.8.7-4 0-1.1 1.8-2 3.4-2.5 4.3z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -287,8 +320,9 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Acidente de Trabalho",
+        subtitle:
+          "Reparação por danos, indenização por dano moral, estético e material.",
         description: (
           <div>
             A_Definir
@@ -303,11 +337,21 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-ambulance"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M10 10H6" />
+            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+            <path d="M19 18h2a1 1 0 0 0 1-1v-3.28a1 1 0 0 0-.684-.948l-1.923-.641a1 1 0 0 1-.578-.502l-1.539-3.076A1 1 0 0 0 16.382 8H14" />
+            <path d="M8 8v4" />
+            <path d="M9 18h6" />
+            <circle cx="17" cy="18" r="2" />
+            <circle cx="7" cy="18" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -315,8 +359,8 @@ const content = {
       },
       card6: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Demais especialidades",
+        subtitle: "Entre em contato e com equipe e tire suas dúvidas",
         description: (
           <div>
             A_Definir
@@ -331,11 +375,17 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-plus"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M8 12h8" />
+            <path d="M12 8v8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -364,79 +414,66 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. JEOVÁ MIRANDA",
+      miniTag: "QUEM É A DRA. AGNES CRISTINA",
       title: "Minha trajetória",
-      subtitle:
-        "Apoio moderno e direto para garantir seus direitos com firmeza e transparência.",
+      subtitle: "Um caminho dedicado a garantir justiça para o trabalhador.",
       paragraph: (
         <div>
-          Eu comecei minha trajetória como um jovem advogado ambicioso, com um
-          propósito claro: ajudar pessoas. Foi observando a luta de minha avó
-          para conquistar a aposentadoria que a minha paixão pelo direito
-          previdenciário nasceu.
+          Desde o início da minha carreira, percebi que muitos trabalhadores
+          enfrentam dificuldades para fazer valer seus direitos. A insegurança,
+          a falta de informação e o receio de enfrentar grandes empresas fazem
+          com que muitos aceitem situações injustas, sem saber que podem lutar
+          por algo melhor.
           <br />
-          Percebi o quão complexo e difícil o processo pode ser para muitos,
-          especialmente para os mais vulneráveis. Essa experiência me motivou a
-          me especializar em direito previdenciário, com a missão de fazer a
-          diferença na vida das pessoas.
+          Foi essa realidade que me motivou a criar um escritório jurídico que
+          fosse além da burocracia: um espaço onde cada trabalhador se sentisse
+          acolhido, compreendido e representado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Eu comecei minha trajetória como um jovem advogado ambicioso, com um
-          propósito claro: ajudar pessoas. Foi observando a luta de minha avó
-          para conquistar a aposentadoria que a minha paixão pelo direito
-          previdenciário nasceu.
+          Desde o início da minha carreira, percebi que muitos trabalhadores
+          enfrentam dificuldades para fazer valer seus direitos. A insegurança,
+          a falta de informação e o receio de enfrentar grandes empresas fazem
+          com que muitos aceitem situações injustas, sem saber que podem lutar
+          por algo melhor.
           <br />
           <br />
-          Percebi o quão complexo e difícil o processo pode ser para muitos,
-          especialmente para os mais vulneráveis. Essa experiência me motivou a
-          me especializar em direito previdenciário, com a missão de fazer a
-          diferença na vida das pessoas.
+          Foi essa realidade que me motivou a criar um escritório jurídico que
+          fosse além da burocracia: um espaço onde cada trabalhador se sentisse
+          acolhido, compreendido e representado.
           <br />
           <br />
-          Com o tempo, surgiram demandas no campo do direito aéreo, e
-          prontamente me especializei nessa área, que passou a ser minha segunda
-          grande paixão na advocacia.
+          Meu compromisso sempre foi oferecer um serviço acessível e humanizado,
+          onde o cliente não se sentisse apenas mais um processo. Eu queria que
+          cada pessoa que me procurasse tivesse a certeza de que estava sendo
+          ouvida e que sua causa era importante.
           <br />
           <br />
-          Hoje, dedico meu trabalho a garantir que cada cliente receba o suporte
-          necessário para conquistar a aposentadoria e os benefícios a que tem
-          direito. Entendo que cada caso é único, e é por isso que meu
-          atendimento é personalizado, buscando sempre uma solução eficaz e
-          ágil.
+          Ao longo dos anos, entendi que um bom advogado trabalhista não deve
+          apenas conhecer as leis, mas também compreender as dores de quem está
+          do outro lado, muitas vezes angustiado e sem saber por onde começar.
           <br />
           <br />
-          Ao longo da minha trajetória, aprimorei minhas habilidades e
-          conhecimentos para lidar com a complexidade dos processos
-          previdenciários, garantindo que a burocracia não seja um obstáculo
-          para quem precisa de apoio jurídico.
+          Com a tecnologia, ampliei essa missão, oferecendo um atendimento
+          online que mantém a proximidade e o acolhimento que sempre foram a
+          base do meu trabalho.
           <br />
           <br />
-          Minha atuação é transparente, clara e objetiva, e meu objetivo é
-          orientar os clientes em todas as etapas, desde a coleta de documentos
-          até a resolução do caso, sempre mantendo uma comunicação acessível e
-          direta.
+          Dessa forma, posso ajudar trabalhadores de todo o Brasil a reivindicar
+          seus direitos de maneira ágil e eficiente, sem que precisem enfrentar
+          deslocamentos ou burocracias desnecessárias. Meu objetivo é tornar o
+          acesso à justiça mais simples, transparente e, acima de tudo, humano.
           <br />
           <br />
-          Com um compromisso contínuo com a atualização e aperfeiçoamento, estou
-          sempre atento às mudanças na legislação e jurisprudência, para
-          oferecer as melhores soluções legais.
+          Mais do que advogar, minha missão é dar voz a quem precisa e garantir
+          que nenhum trabalhador fique sem a devida proteção.
           <br />
           <br />
-          Utilizo de tecnologias e métodos inovadores, sempre buscando agilizar
-          os processos e garantir que meus clientes não percam nenhum direito.
-          <br />
-          <br />
-          Minha missão é ser um defensor confiável, acessível e comprometido com
-          a justiça, tratando cada cliente com a devida atenção e respeito, para
-          que todos tenham acesso ao que lhes é de direito, independentemente de
-          sua condição social ou financeira.
-          <br />
-          <br />
-          E assim seguimos nossa missão de transformar vidas, proporcionando
-          justiça e segurança para todos os nossos clientes.
+          Aqui, cada caso é tratado com dedicação e estratégia, porque sei que
+          por trás de cada processo existe uma história, uma família e um
+          direito que precisa ser respeitado.
           <br />
           <br />
         </p>
@@ -458,12 +495,7 @@ const content = {
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
-        paragraph: (
-          <p>
-            Aproveite nossas redes sociais para mantermos contato e ficar por
-            dentro de atualizações importantes no mundo do direito.
-          </p>
-        ),
+        paragraph: <p></p>,
       },
     },
     cta: {
@@ -504,7 +536,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais e extrajudiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
