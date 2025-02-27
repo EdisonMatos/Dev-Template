@@ -62,8 +62,8 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Segunda à sexta-feira:</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
