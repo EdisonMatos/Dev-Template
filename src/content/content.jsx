@@ -54,8 +54,8 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Jatuarana</p>
-      <p>nº 4699 - Nova Floresta Porto Velho - RO</p>
+      <p>Av. Jatuarana - nº 4699</p>
+      <p>Nova Floresta Porto Velho - RO</p>
       <p>CEP 76807-313</p>
     </div>
   ),
