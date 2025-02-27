@@ -43,20 +43,20 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dra. Agnes Cristina – Advogada Trabalhista em Porto Velho - RO",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "agnescristinaadvocacia.adv.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "69",
+    firstPart: "99240", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5236", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Jatuarana</p>
+      <p>nº 4699 - Nova Floresta Porto Velho - RO</p>
+      <p>CEP 76807-313</p>
     </div>
   ),
   expediente: (
