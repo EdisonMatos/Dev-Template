@@ -18,9 +18,9 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg2.jpeg";
-import featuresImg2 from "../assets/imgs/features/featuresImg1.jpeg";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.jpeg";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
@@ -43,32 +43,32 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Jeová Miranda",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
-  domain: "drjeovamiranda.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "99",
-    firstPart: "98423", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4461", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Roraima, nº 2940, Primavera</p>
-      <p>Teresina - PI,</p>
-      <p> CEP 64007-200</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "jeovamiranda.adv", // Sem o @
-  facebookProfile: "61566209530481",
+  instagramProfile: "A_definir", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -94,15 +94,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO PREVIDENCIARISTA EM TERESINA - PI",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Atendimento personalizado e acessibilidade total
-          <span className="text-primary"> ao seu caso</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Atentos às mudanças legislativas, cuidamos de toda burocracia para você garantir seus direitos previdenciários.",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -124,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial sob consulta e online",
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -165,23 +164,21 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Parcerias estratégicas e soluções inovadoras",
-      subtitle:
-        "Atendendo às necessidades de cada cliente com excelência, empatia e soluções personalizadas.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
-        subtitle:
-          "Oferecemos suporte completo para garantir seu benefício previdenciário, auxiliando em toda documentação...",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            Oferecemos suporte completo para garantir seu benefício
-            previdenciário, auxiliando em toda documentação, acompanhando de
-            perto seu processo e diminuindo as chances de atrasos, tudo com um
-            atendimento transparente e acessível.
+            A_Definir
+            <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -202,15 +199,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Passageiro Aéreo",
-        subtitle:
-          "Lutamos pelos seus direitos como passageiro aéreo, auxiliando em reembolsos, indenizações por atrasos...",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            Lutamos pelos seus direitos como passageiro aéreo, auxiliando em
-            reembolsos, indenizações por atrasos e cancelamentos, extravio de
-            bagagens e overbooking, garantindo que você receba o suporte
-            necessário para uma solução justa.
+            A_Definir
+            <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -231,14 +227,13 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Consultoria Jurídica",
-        subtitle: "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais...",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            Oferecemos orientação especializada para pessoas físicas e empresas,
-            auxiliando na prevenção e resolução de questões legais com
-            segurança, clareza e estratégias personalizadas para cada
-            necessidade.
+            A_Definir <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -364,79 +359,29 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. JEOVÁ MIRANDA",
-      title: "Minha trajetória",
-      subtitle:
-        "Apoio moderno e direto para garantir seus direitos com firmeza e transparência.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       paragraph: (
         <div>
-          Eu comecei minha trajetória como um jovem advogado ambicioso, com um
-          propósito claro: ajudar pessoas. Foi observando a luta de minha avó
-          para conquistar a aposentadoria que a minha paixão pelo direito
-          previdenciário nasceu.
+          A_Definir
           <br />
-          Percebi o quão complexo e difícil o processo pode ser para muitos,
-          especialmente para os mais vulneráveis. Essa experiência me motivou a
-          me especializar em direito previdenciário, com a missão de fazer a
-          diferença na vida das pessoas.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Eu comecei minha trajetória como um jovem advogado ambicioso, com um
-          propósito claro: ajudar pessoas. Foi observando a luta de minha avó
-          para conquistar a aposentadoria que a minha paixão pelo direito
-          previdenciário nasceu.
+          A_Definir
           <br />
           <br />
-          Percebi o quão complexo e difícil o processo pode ser para muitos,
-          especialmente para os mais vulneráveis. Essa experiência me motivou a
-          me especializar em direito previdenciário, com a missão de fazer a
-          diferença na vida das pessoas.
+          A_Definir
           <br />
           <br />
-          Com o tempo, surgiram demandas no campo do direito aéreo, e
-          prontamente me especializei nessa área, que passou a ser minha segunda
-          grande paixão na advocacia.
+          A_Definir
           <br />
           <br />
-          Hoje, dedico meu trabalho a garantir que cada cliente receba o suporte
-          necessário para conquistar a aposentadoria e os benefícios a que tem
-          direito. Entendo que cada caso é único, e é por isso que meu
-          atendimento é personalizado, buscando sempre uma solução eficaz e
-          ágil.
-          <br />
-          <br />
-          Ao longo da minha trajetória, aprimorei minhas habilidades e
-          conhecimentos para lidar com a complexidade dos processos
-          previdenciários, garantindo que a burocracia não seja um obstáculo
-          para quem precisa de apoio jurídico.
-          <br />
-          <br />
-          Minha atuação é transparente, clara e objetiva, e meu objetivo é
-          orientar os clientes em todas as etapas, desde a coleta de documentos
-          até a resolução do caso, sempre mantendo uma comunicação acessível e
-          direta.
-          <br />
-          <br />
-          Com um compromisso contínuo com a atualização e aperfeiçoamento, estou
-          sempre atento às mudanças na legislação e jurisprudência, para
-          oferecer as melhores soluções legais.
-          <br />
-          <br />
-          Utilizo de tecnologias e métodos inovadores, sempre buscando agilizar
-          os processos e garantir que meus clientes não percam nenhum direito.
-          <br />
-          <br />
-          Minha missão é ser um defensor confiável, acessível e comprometido com
-          a justiça, tratando cada cliente com a devida atenção e respeito, para
-          que todos tenham acesso ao que lhes é de direito, independentemente de
-          sua condição social ou financeira.
-          <br />
-          <br />
-          E assim seguimos nossa missão de transformar vidas, proporcionando
-          justiça e segurança para todos os nossos clientes.
+          A_Definir
           <br />
           <br />
         </p>
@@ -452,10 +397,9 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
+        subtitle: "",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
         paragraph: (
@@ -486,25 +430,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Reunião para entender seu caso e identificar suas necessidades.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Análise detalhada de documentos e evidências do seu caso.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Desenvolvemos uma estratégia personalizada para o seu caso.",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais e extrajudiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
