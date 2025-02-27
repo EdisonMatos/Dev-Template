@@ -33,7 +33,6 @@ export default function Index() {
         facebook={true}
         linkedin={false}
         x={false}
-        test={true}
       />
       <Cta />
       <Steps />
