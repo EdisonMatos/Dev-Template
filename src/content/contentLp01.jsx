@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp02.jpg";
+import bgImg from "../assets/imgs/hero/bgHeroLp02.webp";
 import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 
@@ -7,11 +7,11 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Advogado Jeová Miranda | Indenização por cancelamento de voo, atraso, overbooking e extravio de bagagem",
+      "Edan Contabilidade - Especialistas em Isenção e Restituição do Imposto de Renda",
     description:
-      "Se você sofreu com o cancelamento ou atraso de voo, overbooking ou extravio de bagagem, Jeová Miranda é especialista em garantir sua compensação.",
+      "A Edan Contabilidade oferece serviços especializados em isenção e restituição do Imposto de Renda para aposentados, pensionistas e pessoas com doenças graves. Conte com profissionais experientes para maximizar seus benefícios fiscais.",
     keywords:
-      "Indenização por cancelamento de voo, Advogado especialista em voo cancelado, Indenização por atraso de voo, Assistência jurídica por extravio de bagagem, Direito do passageiro aéreo, Compensação por overbooking, Como pedir indenização por voo atrasado, Como agir em caso de voo cancelado, Indenização por perda de bagagem, Atraso de voo compensação, Reclamação de overbooking, Reembolso de voo cancelado, Indenização por danos de voo, Atraso em voo compensação jurídica, Cancelamento de voo jurídico, Voo cancelado indenização, Direito a compensação de voo, Indenização por problemas com voo, Advogado para compensação de voo, Direito a assistência em voo atrasado.",
+      "Isenção de Imposto de Renda, Restituição de Imposto de Renda, Contabilidade para Aposentados, Contabilidade para Pensionistas, Imposto de Renda 2024, Isenção de IR para Doenças Graves, Restituição de IR, Edan Contabilidade, Consultoria Fiscal, Consultoria de Imposto de Renda, Benefícios Fiscais, Imposto de Renda para Aposentados, Restituição de Impostos, Isenção de Impostos, Imposto de Renda para Doenças Graves, Contabilidade de Imposto de Renda, Consultoria de IR, Contabilidade Profissional, Imposto de Renda no Brasil, Recuperação de Impostos.",
   },
   hero: {
     bgImg: bgImg,
@@ -22,25 +22,22 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Problemas com seu voo?{" "}
-          <span className="text-lpTitle">
-            {" "}
-            Conheça seus direitos como passageiro aéreo!
-          </span>
+          <span className="text-lpTitle">Evite problemas</span> com o Leão:
+          Declare seu Imposto de Renda com{" "}
+          <span className="text-lpTitle">especialistas!</span>
         </h1>
       ),
       subtitle:
-        "Atrasos, cancelamentos, extravio de bagagem e mais. Saiba como garantir compensações justas com o auxílio de um advogado especializado.",
-      buttonLabel: "Exija seus direitos agora!",
+        "Não arrisque cair na malha fina. Nossa equipe de contadores certificados garante uma declaração precisa e dentro do prazo. Aproveite nossa consultoria e assegure sua tranquilidade fiscal.",
+      buttonLabel: "Falar com um contador",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "RECLAME AGORA",
-      title:
-        "Você tem direito a indenização? Descubra se o seu caso se encaixa.",
+      miniTag: "QUEM PRECISA DECLARAR?",
+      title: "Saiba se você precisa declarar!",
     },
     cards: {
       card1: {
@@ -55,16 +52,18 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-x"
+            class="lucide lucide-hand-coins"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m15 9-6 6" />
-            <path d="m9 9 6 6" />
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
           </svg>
         ),
-        title: "Voo cancelado sem aviso",
+        title: "Se recebeu rendimentos tributáveis",
         description:
-          "Se sua viagem foi interrompida de última hora e você não recebeu suporte da companhia aérea, pode ter direito a uma compensação.",
+          "Se seus rendimentos tributáveis ultrapassaram R$ 30.639,90 em 2024, você está obrigado a declarar o Imposto de Renda.",
       },
       card2: {
         icon: (
@@ -78,18 +77,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-baggage-claim"
+            class="lucide lucide-circle-dollar-sign"
           >
-            <path d="M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2" />
-            <path d="M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10" />
-            <rect width="13" height="8" x="8" y="6" rx="1" />
-            <circle cx="18" cy="20" r="2" />
-            <circle cx="9" cy="20" r="2" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
-        title: "Extravio de bagagem",
+        title: "Se recebeu Rendimentos isentos",
         description:
-          "Se a companhia aérea perdeu sua bagagem e não tomou as devidas providências, você tem direito a ser ressarcido.",
+          "Recebeu mais de R$ 200 mil em rendimentos isentos, como indenizações, heranças, ou ganhos de loterias? A declaração é obrigatória.",
       },
       card3: {
         icon: (
@@ -103,17 +100,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-coins"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <circle cx="8" cy="8" r="6" />
+            <path d="M18.09 10.37A6 6 0 1 1 10.34 18" />
+            <path d="M7 6h1v4" />
+            <path d="m16.71 13.88.7.71-2.82 2.82" />
           </svg>
         ),
-        title: "Vítima de Overbooking",
+        title: "Recebeu Ganho de capital na venda de bens",
         description:
-          "Se você foi barrado de embarcar devido a overbooking e não recebeu o suporte necessário, você tem direito a indenização.",
+          "Se você obteve ganho de capital com a venda de bens ou direitos, independentemente do valor, é necessário declarar.",
       },
       card4: {
         icon: (
@@ -127,16 +124,15 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-badge-dollar-sign"
+            class="lucide lucide-house"
           >
-            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
-        title: "Compensação inadequada",
+        title: "Fez uso de Isenção de Imposto sobre imóvel residencial",
         description:
-          "Se a companhia aérea ofereceu compensações abaixo do que é devido, podemos ajudar a garantir a reparação justa para o seu caso.",
+          "Para a isenção do imposto sobre o ganho de capital na venda de imóvel residencial, a declaração é obrigatória, caso adquira outro imóvel no prazo de 180 dias.",
       },
     },
   },
@@ -147,56 +143,28 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA NA DEFESA DE PASSAGEIROS AÉREOS",
-      title: "Indenização garantida com dedicação e eficiência",
+      miniTag: "ESPECIALISTAS EM IMPOSTO DE RENDA",
+      title:
+        "Sua parceira na garantia de isenção e restituição do Imposto de Renda",
     },
     paragraph: (
       <p>
-        Imprevistos em viagens são frustrantes. Por isso, atuo de forma ágil e
-        eficiente para garantir seus direitos. Se seu voo foi cancelado,
-        atrasado ou a companhia não prestou o suporte devido, busco a
-        compensação que você merece.
-        <br />
-        <br />
-        Minha missão é encontrar a melhor solução jurídica para você. Entre em
-        contato e saiba como podemos ajudar!
+        Na Edan Contabilidade, ajudamos você a garantir seus direitos fiscais.
+        Nossa equipe de contadores e advogados cuida de todo o processo para que
+        você obtenha a isenção ou restituição do Imposto de Renda de forma
+        rápida, sem burocracia e com segurança.
       </p>
     ),
-    buttonLabel: "Garanta sua indenização",
+    buttonLabel: "Falar com um contador",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para lutar por sua indenização?",
+      title: "Por que confiar na Edan Contabilidade",
     },
     cards: {
       card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-list-checks"
-          >
-            <path d="m3 17 2 2 4-4" />
-            <path d="m3 7 2 2 4-4" />
-            <path d="M13 6h8" />
-            <path d="M13 12h8" />
-            <path d="M13 18h8" />
-          </svg>
-        ),
-        title: "Estratégia personalizada para garantir a melhor solução",
-        description:
-          "Não tratamos seu caso como um simples número. Cada detalhe do seu voo cancelado ou atrasado é analisado minuciosamente para desenvolver a melhor estratégia. Garantir sua compensação é nossa missão, e vamos até o fim para conquistar o que você merece.",
-      },
-      card2: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -216,9 +184,32 @@ const contentLp01 = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Soluções rápidas e eficazes",
+        title: "Mais de 40 anos de experiência",
         description:
-          "Nada de burocracia ou processos intermináveis. Criamos um plano de ação específico e direto, para que sua indenização aconteça o mais rápido possível. Seu caso será tratado com urgência para transformar sua frustração em uma vitória concreta.",
+          "Nossa equipe de contadores e advogados especializados garante que você receba todos os benefícios fiscais a que tem direito, sem complicação.",
+      },
+      card2: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-history"
+          >
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+            <path d="M12 7v5l4 2" />
+          </svg>
+        ),
+        title: "Processo ágil e sem burocracia",
+        description:
+          "Cuidamos de toda a documentação e trâmites legais de forma rápida e eficiente, para que você tenha mais tempo e tranquilidade.",
       },
       card3: {
         icon: (
@@ -232,18 +223,15 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake"
+            class="lucide lucide-shield-check"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "Compromisso total com você",
+        title: "Segurança e transparência",
         description:
-          "Não deixamos seu caso de lado em momento algum. Nosso time está totalmente dedicado a garantir que seus direitos sejam respeitados em todas as fases do processo. Se você quer resultados, nós somos a escolha certa.",
+          "Trabalhamos com total sigilo e transparência, garantindo que você tenha confiança em cada etapa do processo.",
       },
       card4: {
         icon: (
@@ -257,27 +245,27 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-graduation-cap"
+            class="lucide lucide-thumbs-up"
           >
-            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
-            <path d="M22 10v6" />
-            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+            <path d="M7 10v12" />
+            <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
           </svg>
         ),
-        title: "Experiência que garante resultados",
+        title: "Maximize seus benefícios fiscais",
         description:
-          "Com anos de experiência em casos de cancelamento e atraso de voos, sabemos exatamente como agir para garantir sua compensação. A nossa experiência é sua garantia de que o processo será tratado com segurança, eficiência e resultados concretos.",
+          "Nós buscamos sempre o melhor resultado para você, garantindo a isenção ou a restituição de valores pagos indevidamente.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO ESPERE MAIS",
-      title: "Receba sua indenização agora mesmo!",
-      subtitle: `Teve seu voo cancelado, sofreu um atraso significativo, enfrentou overbooking ou teve sua bagagem extraviada? Você pode ter direito à compensação. Nossa equipe especializada está pronta para te ajudar a garantir a indenização que você merece. Não perca tempo com a burocracia e busque agora seus direitos!`,
+      miniTag: "SEU IMPOSTO DE RENDA SEM COMPLICAÇÃO",
+      title:
+        "Não perca mais tempo! Garantimos sua isenção ou restituição do Imposto de Renda de forma rápida e sem complicações.",
+      subtitle: `Entre em contato com a Edan Contabilidade agora mesmo e descubra como podemos ajudar você a maximizar seus benefícios fiscais.`,
     },
-    buttonLabel: "Falar com um especialista agora",
+    buttonLabel: "Falar com um contador",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
