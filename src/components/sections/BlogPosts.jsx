@@ -30,7 +30,7 @@ function BlogPosts() {
             type=""
           />
           <ul className="flex flex-wrap gap-[30px]  justify-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[80px]">
-            {posts.map((post) => (
+            {posts.slice(0, 3).map((post) => (
               <li key={post.ID}>
                 <WordPressBlogCard
                   img={

@@ -455,7 +455,7 @@ const content = {
     blog: {
       miniTag: "BLOG",
       title: "Informação jurídica ao seu alcance",
-      subtitle: "",
+      subtitle: "Acompanhe nossos artigos e notícias",
       img: imgSteps,
       blogApiEndpoint:
         "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
