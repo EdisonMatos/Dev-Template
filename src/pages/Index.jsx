@@ -21,7 +21,8 @@ export default function Index() {
       <Hero appDownloadButtons={false} />
 
       <Features
-        defaultFeature={true}
+        defaultFeature={false}
+        featureIcons={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
