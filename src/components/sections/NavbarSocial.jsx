@@ -94,7 +94,7 @@ export default function  NavbarSocial({ LightMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer"
+            className="cursor-pointer max-w-[450px]"
             spy={true}
             smooth={true}
             duration={500}
@@ -103,15 +103,15 @@ export default function  NavbarSocial({ LightMode }) {
           >
             <img
               src={content.texts.navbar.logo.img}
-              alt={content.texts.navbar.logo.alt}
+              alt={content.texts.navbar.logo.alt} 
               className={`${
                 LightMode
                   ? scrolling
                     ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[30%] transition-all duration-1000"
                     : "bg-white w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[40%] px-3 py-3 transition-all duration-1000"
                   : scrolling
-                  ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[50%] desktop2:w-[50%] transition-all duration-1000"
-                  : "bg-transparent my-[20px] w-[80%] phone3:w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
+                  ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[50%] desktop2:w-[60%] transition-all duration-1000"
+                  : "bg-transparent my-[20px] w-[80%] phone3:w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[60%] desktop2:w-[70%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
