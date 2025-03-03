@@ -32,7 +32,7 @@ export default function Index() {
       <AboutInstagram
         socialPrint={true}
         instagram={true}
-        facebook={true}
+        facebook={false}
         linkedin={false}
         x={false}
       />
@@ -43,7 +43,7 @@ export default function Index() {
       <FooterSocial
         addres={false}
         instagram={true}
-        facebook={true}
+        facebook={false}
         linkedin={false}
         x={false}
         obs={false}
