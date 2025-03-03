@@ -5,14 +5,14 @@ import About from "../components/sections/About";
 import AboutInstagram from "../components/sections/AboutInstagram";
 import Cta from "../components/sections/Cta";
 import Steps from "../components/sections/Steps";
-import Maps from "../components/sections/Maps";
+// import Maps from "../components/sections/Maps";
 import Faq from "../components/sections/Faq";
 import FooterSocial from "../components/sections/FooterSocial";
-import DefaultModals from "../components/sections/DefaultModals";
+// import DefaultModals from "../components/sections/DefaultModals";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
-import BlogPosts from "../components/sections/BlogPosts";
+// import BlogPosts from "../components/sections/BlogPosts";
 
 export default function Index() {
   return (
@@ -38,14 +38,13 @@ export default function Index() {
       />
       <Cta />
       <Steps />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
         addres={true}
         instagram={true}
         facebook={true}
         linkedin={false}
-        c
         x={false}
         obs={false}
       />
