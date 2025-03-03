@@ -41,7 +41,7 @@ export default function Index() {
       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
-        addres={true}
+        addres={false}
         instagram={true}
         facebook={true}
         linkedin={false}
