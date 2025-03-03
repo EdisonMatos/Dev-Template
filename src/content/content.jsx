@@ -164,15 +164,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Defesa especializada",
+      subtitle: "Atuação estratégica em demandas jurídicas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Defesa Médica",
+        subtitle: "Proteção jurídica especializada para médicos e profissionais da área.",
         description: (
           <div>
             A_Definir
@@ -199,8 +199,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Defesa Preventiva",
+        subtitle: "Prevenção de riscos legais e proteção contra litígios no campo médico.",
         description: (
           <div>
             A_Definir
@@ -227,8 +227,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Defesa Judicial",
+        subtitle: "Atuação estratégica em processos judiciais para médicos e clínicas.",
         description: (
           <div>
             A_Definir <br />
@@ -254,8 +254,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Defesa Administrativa",
+        subtitle: "Representação de médicos e instituições perante conselhos reguladores.",
         description: (
           <div>
             A_Definir
