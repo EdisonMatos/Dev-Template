@@ -12,12 +12,14 @@ import DefaultModals from "../components/sections/DefaultModals";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
+import BlogPosts from "../components/sections/BlogPosts";
 
 export default function Index() {
   return (
     <div>
       <Navbar LightMode={false} />
       <Hero appDownloadButtons={false} />
+
       <Features
         defaultFeature={false}
         button={false}
@@ -36,12 +38,14 @@ export default function Index() {
       />
       <Cta />
       <Steps />
+      <BlogPosts />
       <Faq />
       <FooterSocial
         addres={true}
         instagram={true}
         facebook={true}
-        linkedin={false}c
+        linkedin={false}
+        c
         x={false}
         obs={false}
       />
