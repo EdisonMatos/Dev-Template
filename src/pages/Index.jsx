@@ -26,7 +26,7 @@ export default function Index() {
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
+        paragraphsModal={false}
       />
       <About modal={true} />
       <AboutInstagram

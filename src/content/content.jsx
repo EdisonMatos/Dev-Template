@@ -389,29 +389,73 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. CARLA BOTELHO",
+      title: "Minha trajetória",
+      subtitle:
+        "Uma jornada da advocacia pública à especialização em Direito Médico.",
       paragraph: (
         <div>
-          A_Definir
+          Desde 2005, trilho meu caminho na advocacia, sempre guiada pelo
+          compromisso com a justiça e a busca por soluções eficazes para meus
+          clientes.
           <br />
-          A_Definir
+          Minha trajetória passou por diferentes áreas do Direito, mas foi na
+          assessoria jurídica para médicos e clínicas que encontrei minha
+          verdadeira vocação.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Desde 2005, trilho meu caminho na advocacia, sempre guiada pelo
+          compromisso com a justiça e a busca por soluções eficazes para meus
+          clientes.
           <br />
           <br />
-          A_Definir
+          Minha trajetória passou por diferentes áreas do Direito, mas foi na
+          assessoria jurídica para médicos e clínicas que encontrei minha
+          verdadeira vocação.
           <br />
           <br />
-          A_Definir
+          Por anos, conciliei a advocacia com o serviço público, onde aprendi
+          sobre gestão e regulamentação. Meu envolvimento com o Direito Médico
+          começou ao assessorar a clínica do meu irmão, despertando meu
+          interesse pelos desafios jurídicos da área da saúde.
           <br />
           <br />
-          A_Definir
+          Percebi que minha atuação fazia diferença, mas dividir meu tempo
+          limitava meu crescimento.
+          <br />
+          <br />
+          Foi então que decidi deixar a estabilidade do serviço público para
+          empreender e me dedicar integralmente à advocacia. Fundar meu próprio
+          escritório foi um desafio, mas também um passo essencial para oferecer
+          um suporte jurídico especializado e preventivo a médicos, clínicas e
+          profissionais da saúde.
+          <br />
+          <br />
+          Meu objetivo é garantir que exerçam sua profissão com segurança,
+          minimizando riscos legais.
+          <br />
+          <br />
+          Sou formada em Direito pela Universidade de Cuiabá, pós-graduada em
+          Direito e Processo do Trabalho, Direito Público e Direito Empresarial,
+          e estou concluindo minha especialização em Direito Médico e Bioética.
+          <br />
+          <br />
+          Com essa experiência, atuo estrategicamente tanto na defesa judicial e
+          administrativa quanto na prevenção de litígios.
+          <br />
+          <br />
+          Acredito que a advocacia vai além dos tribunais. Meu trabalho é
+          pautado na ética, transparência e estratégias jurídicas
+          personalizadas. Mais do que defesa, ofereço orientação contínua,
+          ajudando profissionais da saúde a atuarem com segurança.
+          <br />
+          <br />
+          Hoje, meu escritório se consolida como referência no Direito Médico,
+          sempre com foco na excelência e na proteção dos que cuidam da saúde e
+          bem-estar das pessoas.
           <br />
           <br />
         </p>
