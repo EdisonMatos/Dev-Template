@@ -21,12 +21,12 @@ export default function Index() {
       <Hero appDownloadButtons={false} />
 
       <Features
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={true}
-        paragraphsModal={false}
+        sixCards={false}
+        paragraphsModal={true}
       />
       <About modal={true} />
       <AboutInstagram
