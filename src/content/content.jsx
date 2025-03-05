@@ -428,19 +428,31 @@ const content = {
           melhor suporte jurídico.
           <br />
           <br />
-          Com pós-graduação em Recuperação de Créditos Tributários e Previdenciários e em Processo Civil, me dedico a trazer um conhecimento técnico de excelência, sempre aliado a uma abordagem empática.
+          Com pós-graduação em Recuperação de Créditos Tributários e
+          Previdenciários e em Processo Civil, me dedico a trazer um
+          conhecimento técnico de excelência, sempre aliado a uma abordagem
+          empática.
           <br />
           <br />
-          Compreendo que, muitas vezes, a saúde é uma batalha diária e, quando os meus clientes precisam de ajuda, o suporte jurídico deve ser muito mais do que técnico: deve ser humanizado, direto e eficaz. 
+          Compreendo que, muitas vezes, a saúde é uma batalha diária e, quando
+          os meus clientes precisam de ajuda, o suporte jurídico deve ser muito
+          mais do que técnico: deve ser humanizado, direto e eficaz.
           <br />
           <br />
-          Por isso, foco em questões tributárias que afetam diretamente aposentados e pensionistas, oferecendo soluções jurídicas que visam aliviar o peso financeiro dessas pessoas, que, além de lidarem com a saúde, ainda enfrentam encargos que podem ser insustentáveis.
+          Por isso, foco em questões tributárias que afetam diretamente
+          aposentados e pensionistas, oferecendo soluções jurídicas que visam
+          aliviar o peso financeiro dessas pessoas, que, além de lidarem com a
+          saúde, ainda enfrentam encargos que podem ser insustentáveis.
           <br />
           <br />
-          Para mim, ética, confiança e compromisso com a verdade são valores essenciais. Cada pessoa que me procura sabe que encontrará não só a melhor solução jurídica, mas também alguém que os escuta, compreende suas dores e oferece respostas claras. 
+          Para mim, ética, confiança e compromisso com a verdade são valores
+          essenciais. Cada pessoa que me procura sabe que encontrará não só a
+          melhor solução jurídica, mas também alguém que os escuta, compreende
+          suas dores e oferece respostas claras.
           <br />
           <br />
-          Meu trabalho não é apenas sobre ganhar casos, mas sobre fazer a diferença na vida daqueles com quem tenho a honra de trabalhar.
+          Meu trabalho não é apenas sobre ganhar casos, mas sobre fazer a
+          diferença na vida daqueles com quem tenho a honra de trabalhar.
           <br />
           <br />
         </p>
@@ -456,16 +468,13 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
-        paragraph: (
-          <p>
-            
-          </p>
-        ),
+        paragraph: <p></p>,
       },
     },
     cta: {
@@ -488,19 +497,19 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Reunião para entender seu caso e identificar suas necessidades.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Análise detalhada de documentos e evidências do seu caso.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia personalizada para o seu caso.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
