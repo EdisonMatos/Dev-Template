@@ -21,7 +21,7 @@ export default function AboutParalaxeLP({ logo }) {
           <SectionArea>
             <SectionWrapper>
               <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[80px]">
-              <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+              <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-start">
                   {/* Logo */}
                   {logo ? (
                     <img
@@ -46,6 +46,7 @@ export default function AboutParalaxeLP({ logo }) {
                     sectionHeaderTitle={contentLp01.about.sectionHeader.title}
                     color=""
                     type="article"
+                    titleColorSet="text-white"
                   />
                   <MotionDivDownToUp>
                     <p className="font-mainFont mb-[36px]">

@@ -25,6 +25,8 @@ export default function AboutParalaxeLP() {
                 sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
                 sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
                 color=""
+                titleColorSet="text-white"
+                subtitleColorSet="text-white"
               />
               <MotionDivDownToUp>
                 <Button

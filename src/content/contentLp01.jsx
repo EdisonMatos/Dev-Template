@@ -163,7 +163,7 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que confiar na Edan Contabilidade",
+      title: "Por que nos escolher para garantir sua isenção ou restituição?",
     },
     cards: {
       card1: {
@@ -186,9 +186,9 @@ const contentLp01 = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Mais de 40 anos de experiência",
+        title: "Análise detalhada para sua isenção",
         description:
-          "Nossa equipe de contadores e advogados especializados garante que você receba todos os benefícios fiscais a que tem direito, sem complicação.",
+          "Cada caso é único. Avaliamos sua situação com atenção para garantir sua isenção ou restituição de forma segura e sem complicações.",
       },
       card2: {
         icon: (
@@ -209,9 +209,9 @@ const contentLp01 = {
             <path d="M12 7v5l4 2" />
           </svg>
         ),
-        title: "Processo ágil e sem burocracia",
+        title: "Processo rápido e sem burocracia",
         description:
-          "Cuidamos de toda a documentação e trâmites legais de forma rápida e eficiente, para que você tenha mais tempo e tranquilidade.",
+          "Atuamos com agilidade para que você tenha acesso ao seu direito sem enrolação ou processos demorados.",
       },
       card3: {
         icon: (
@@ -231,9 +231,9 @@ const contentLp01 = {
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "Segurança e transparência",
+        title: "Compromisso total com você",
         description:
-          "Trabalhamos com total sigilo e transparência, garantindo que você tenha confiança em cada etapa do processo.",
+          "Acompanhamos seu caso de perto, oferecendo suporte personalizado em todas as etapas do processo.",
       },
       card4: {
         icon: (
@@ -253,21 +253,21 @@ const contentLp01 = {
             <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
           </svg>
         ),
-        title: "Maximize seus benefícios fiscais",
+        title: "Experiência que faz a diferença",
         description:
-          "Nós buscamos sempre o melhor resultado para você, garantindo a isenção ou a restituição de valores pagos indevidamente.",
+          "Com anos de atuação, sabemos exatamente como garantir sua isenção ou restituição com segurança e eficiência.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "SEU IMPOSTO DE RENDA SEM COMPLICAÇÃO",
+      miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
       title:
-        "Não perca mais tempo! Garantimos sua isenção ou restituição do Imposto de Renda de forma rápida e sem complicações.",
-      subtitle: `Entre em contato com a Edan Contabilidade agora mesmo e descubra como podemos ajudar você a maximizar seus benefícios fiscais.`,
+        "Garanta sua isenção ou restituição agora mesmo!",
+      subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção ou até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
     },
-    buttonLabel: "Falar com um contador",
+    buttonLabel: "Falar com uma especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
