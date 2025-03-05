@@ -201,8 +201,8 @@
 .gradient-LP-Hero {
   background: radial-gradient(
     circle,
-    rgba(0, 44, 24) 0%,
-    rgba(0, 44, 24) 35%,
-    rgb(0, 44, 24) 100%
+    rgba(48, 38, 32) 0%,
+    rgba(48, 38, 32) 35%,
+    rgba(48, 38, 32) 100%
   );
 }
