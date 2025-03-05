@@ -163,15 +163,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Expertise em Direito Cível e Tributário",
+      subtitle: "Estratégias jurídicas poderosas para garantir seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Contratos e Obrigações",
+        subtitle: "Assessoria e soluções em contratos e responsabilidades.",
         description: (
           <div>
             A_Definir
@@ -198,8 +198,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Família e Sucessões",
+        subtitle: "Resolução de conflitos familiares e questões sucessórias.",
         description: (
           <div>
             A_Definir
@@ -226,8 +226,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Planejamento Tributário",
+        subtitle: "Estratégias jurídicas para otimizar a carga tributária.",
         description: (
           <div>
             A_Definir <br />
@@ -253,8 +253,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Contencioso Tributário",
+        subtitle: "Defesa contra tributos indevidos e cobrança excessiva.",
         description: (
           <div>
             A_Definir
