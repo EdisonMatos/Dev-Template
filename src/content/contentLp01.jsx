@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp02.webp";
+import bgImg from "../assets/imgs/hero/bgHeroLp.jpg";
 import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 
@@ -6,12 +6,11 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title:
-      "Edan Contabilidade - Especialistas em Isenção e Restituição do Imposto de Renda",
+    title: "Advogada Dra. Vasti Gomes |  Isenção de Impostos em Sorocaba - SP",
     description:
-      "A Edan Contabilidade oferece serviços especializados em isenção e restituição do Imposto de Renda para aposentados, pensionistas e pessoas com doenças graves. Conte com profissionais experientes para maximizar seus benefícios fiscais.",
+      "Dra. Vasti Gomes é especialista em buscar isenção de impostos ou restituição de Imposto de Renda para aposentados e pensionistas em Sorocaba - SP",
     keywords:
-      "Isenção de Imposto de Renda, Restituição de Imposto de Renda, Contabilidade para Aposentados, Contabilidade para Pensionistas, Imposto de Renda 2024, Isenção de IR para Doenças Graves, Restituição de IR, Edan Contabilidade, Consultoria Fiscal, Consultoria de Imposto de Renda, Benefícios Fiscais, Imposto de Renda para Aposentados, Restituição de Impostos, Isenção de Impostos, Imposto de Renda para Doenças Graves, Contabilidade de Imposto de Renda, Consultoria de IR, Contabilidade Profissional, Imposto de Renda no Brasil, Recuperação de Impostos.",
+      "Isenção de Imposto de Renda,Imposto de Renda aposentados, Isenção IR doenças graves, Restituição IR aposentados, Imposto de Renda pensionistas, Benefícios fiscais aposentados, Isenção IR para doenças, Isenção Imposto de Renda 2025, Aposentado com câncer isenção, Doença grave Imposto de Renda, Restituição Imposto de Renda pensionistas, Isenção IR por doença grave, Imposto de Renda para idosos, Consultoria Imposto de Renda, Isenção de IR aposentados e pensionistas, IR para aposentado com doença grave, Benefícios fiscais para pensionistas, Restituição de IR 2025, Dra. Vasti Gomes isenção IR, Dra. Vasti Gomes consultoria fiscal, Dra. Vasti Gomes Sorocaba SP.",
   },
   hero: {
     bgImg: bgImg,
@@ -22,14 +21,14 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <span className="text-lpTitle">Evite problemas</span> com o Leão:
-          Declare seu Imposto de Renda com{" "}
-          <span className="text-lpTitle">especialistas!</span>
+          <span className="text-lpTitle">Aposentado ou pensionista</span>sabia
+          que você pode ter direito à
+          <span className="text-lpTitle">isenção do Imposto de Renda?</span>
         </h1>
       ),
       subtitle:
-        "Não arrisque cair na malha fina. Nossa equipe de contadores certificados garante uma declaração precisa e dentro do prazo. Aproveite nossa consultoria e assegure sua tranquilidade fiscal.",
-      buttonLabel: "Falar com um contador",
+        "Se você tem uma doença grave, pode garantir a isenção ou restituição do Imposto de Renda. Descubra seus direitos com uma advogada especializada.",
+      buttonLabel: "Solicite sua isenção agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
