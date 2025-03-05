@@ -36,7 +36,8 @@ const contentLp01 = {
   features: {
     sectionHeader: {
       miniTag: "ISENÇÃO DE IMPOSTO",
-      title: "Você tem direito à isenção ou restituição do Imposto de Renda? Descubra agora!",
+      title:
+        "Você tem direito à isenção ou restituição do Imposto de Renda? Descubra agora!",
     },
     cards: {
       card1: {
@@ -142,19 +143,21 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "ESPECIALISTAS EM IMPOSTO DE RENDA",
-      title:
-        "Sua parceira na garantia de isenção e restituição do Imposto de Renda",
+      miniTag: "EXPERTISE EM ISENÇÃO DE IMPOSTO DE RENDA",
+      title: "Isenção e restituição com compromisso e eficiência",
     },
     paragraph: (
       <p>
-        Na Edan Contabilidade, ajudamos você a garantir seus direitos fiscais.
-        Nossa equipe de contadores e advogados cuida de todo o processo para que
-        você obtenha a isenção ou restituição do Imposto de Renda de forma
-        rápida, sem burocracia e com segurança.
+        Pagar imposto indevidamente é um problema que muitos aposentados e
+        pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
+        garantir seus direitos. Se você tem uma doença grave, pode ter direito à
+        isenção ou até à restituição do Imposto de Renda já pago.
+        <br /><br />
+        Minha missão é encontrar a melhor solução jurídica para você. Entre em
+        contato e descubra como podemos ajudar!
       </p>
     ),
-    buttonLabel: "Falar com um contador",
+    buttonLabel: "Solicite sua isenção agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
