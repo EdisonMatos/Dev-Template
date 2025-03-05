@@ -12,7 +12,7 @@ import FooterSocial from "../components/sections/FooterSocial";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
-// import BlogPosts from "../components/sections/BlogPosts";
+import BlogPosts from "../components/sections/BlogPosts";
 
 export default function Index() {
   return (
@@ -39,7 +39,7 @@ export default function Index() {
       />
       <Cta />
       <Steps />
-      {/* <BlogPosts /> */}
+      <BlogPosts />
       <Faq />
       <FooterSocial
         addres={false}
