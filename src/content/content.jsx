@@ -94,14 +94,13 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADA CÍVEL E TRIBUTÁRIA EM SOROCABA - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Justiça que cuida da sua história com empatia
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle: "Com a Dra. Vasti Gomes, você recebe assessoria jurídica especializada e humanizada para aposentados e pensionistas.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -123,7 +122,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento online e presencial",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
