@@ -35,8 +35,8 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "QUEM PRECISA DECLARAR?",
-      title: "Saiba se você precisa declarar!",
+      miniTag: "ISENÇÃO DE IMPOSTO",
+      title: "Você tem direito à isenção ou restituição do Imposto de Renda? Descubra agora!",
     },
     cards: {
       card1: {
@@ -60,9 +60,9 @@ const contentLp01 = {
             <circle cx="6" cy="5" r="3" />
           </svg>
         ),
-        title: "Se recebeu rendimentos tributáveis",
+        title: "Isenção do Imposto de Renda",
         description:
-          "Se seus rendimentos tributáveis ultrapassaram R$ 30.639,90 em 2024, você está obrigado a declarar o Imposto de Renda.",
+          "Aposentados e pensionistas com doenças graves podem ter direito à isenção do IR. ",
       },
       card2: {
         icon: (
@@ -83,9 +83,9 @@ const contentLp01 = {
             <path d="M12 18V6" />
           </svg>
         ),
-        title: "Se recebeu Rendimentos isentos",
+        title: "Restituição de valores pagos",
         description:
-          "Recebeu mais de R$ 200 mil em rendimentos isentos, como indenizações, heranças, ou ganhos de loterias? A declaração é obrigatória.",
+          "Se você pagou imposto indevidamente, é possível recuperar esses valores.",
       },
       card3: {
         icon: (
@@ -107,9 +107,9 @@ const contentLp01 = {
             <path d="m16.71 13.88.7.71-2.82 2.82" />
           </svg>
         ),
-        title: "Recebeu Ganho de capital na venda de bens",
+        title: "Doenças que garantem o benefício",
         description:
-          "Se você obteve ganho de capital com a venda de bens ou direitos, independentemente do valor, é necessário declarar.",
+          "Diversas doenças dão direito à isenção do IR, como câncer, cardiopatia grave e mais.",
       },
       card4: {
         icon: (
@@ -129,9 +129,9 @@ const contentLp01 = {
             <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
-        title: "Fez uso de Isenção de Imposto sobre imóvel residencial",
+        title: "Suporte jurídico especializado",
         description:
-          "Para a isenção do imposto sobre o ganho de capital na venda de imóvel residencial, a declaração é obrigatória, caso adquira outro imóvel no prazo de 180 dias.",
+          "Conte com uma advogada especializada para garantir sua isenção ou restituição sem complicações.",
       },
     },
   },
