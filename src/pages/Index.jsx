@@ -33,8 +33,8 @@ export default function Index() {
       <AboutInstagram
         socialPrint={true}
         instagram={true}
-        facebook={false}
-        linkedin={false}
+        facebook={true}
+        linkedin={true}
         x={false}
       />
       <Cta />
@@ -44,8 +44,8 @@ export default function Index() {
       <FooterSocial
         addres={false}
         instagram={true}
-        facebook={false}
-        linkedin={false}
+        facebook={true}
+        linkedin={true}
         x={false}
         obs={false}
       />

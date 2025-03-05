@@ -43,33 +43,33 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Advogada Dra. Vasti Gomes",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "vastigomes.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "15",
+    firstPart: "99706", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0951", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Alameda das Azaléias, nª 409</p>
+      <p>Salão I, Jardim Simus, Sorocaba - SP</p>
+      <p>CEP 18055-183</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Segunda à sexta-feira</p>
+      <p>8h às 20h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  instagramProfile: "vastigomes.adv", // Sem o @
+  facebookProfile: "vasti.gomesdasilva?rdid=acRA5N01MijZiPBt&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1AQXPNSMit%2F%3F_rdc%3D1%26_rdr#",
+  linkeDinProfile: "vasti-gomes-972578215/?originalSubdomain=br",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
