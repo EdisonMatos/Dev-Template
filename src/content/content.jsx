@@ -388,29 +388,59 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. VASTI GOMES",
+      title: "Minha trajetória",
+      subtitle: "Dedicação exclusiva a quem precisa de uma defensora.",
       paragraph: (
         <div>
-          A_Definir
+          Iniciei minha jornada na advocacia com um propósito claro: ser mais do
+          que uma simples advogada, mas uma parceira verdadeira para meus
+          clientes. Acredito que a justiça não está apenas em ganhar processos,
+          mas em transformar a vida das pessoas, oferecendo soluções que
+          realmente façam diferença.
           <br />
-          A_Definir
+          Especializei-me em Isenção e Restituição do Imposto de Renda para
+          Aposentados e Pensionistas com Doenças Graves, porque entendo
+          profundamente a complexidade que envolve não só a luta contra a
+          doença, mas também os desafios financeiros que surgem no caminho.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Iniciei minha jornada na advocacia com um propósito claro: ser mais do
+          que uma simples advogada, mas uma parceira verdadeira para meus
+          clientes. Acredito que a justiça não está apenas em ganhar processos,
+          mas em transformar a vida das pessoas, oferecendo soluções que
+          realmente façam diferença.
           <br />
           <br />
-          A_Definir
+          Especializei-me em Isenção e Restituição do Imposto de Renda para
+          Aposentados e Pensionistas com Doenças Graves, porque entendo
+          profundamente a complexidade que envolve não só a luta contra a
+          doença, mas também os desafios financeiros que surgem no caminho.
           <br />
           <br />
-          A_Definir
+          Meu escritório reflete essa visão – um espaço moderno, acessível e
+          acolhedor, onde a confiança, o respeito e o sigilo são fundamentais.
+          Eu trato cada cliente de maneira única, com a atenção e dedicação que
+          merecem, buscando sempre entender suas necessidades e oferecer o
+          melhor suporte jurídico.
           <br />
           <br />
-          A_Definir
+          Com pós-graduação em Recuperação de Créditos Tributários e Previdenciários e em Processo Civil, me dedico a trazer um conhecimento técnico de excelência, sempre aliado a uma abordagem empática.
+          <br />
+          <br />
+          Compreendo que, muitas vezes, a saúde é uma batalha diária e, quando os meus clientes precisam de ajuda, o suporte jurídico deve ser muito mais do que técnico: deve ser humanizado, direto e eficaz. 
+          <br />
+          <br />
+          Por isso, foco em questões tributárias que afetam diretamente aposentados e pensionistas, oferecendo soluções jurídicas que visam aliviar o peso financeiro dessas pessoas, que, além de lidarem com a saúde, ainda enfrentam encargos que podem ser insustentáveis.
+          <br />
+          <br />
+          Para mim, ética, confiança e compromisso com a verdade são valores essenciais. Cada pessoa que me procura sabe que encontrará não só a melhor solução jurídica, mas também alguém que os escuta, compreende suas dores e oferece respostas claras. 
+          <br />
+          <br />
+          Meu trabalho não é apenas sobre ganhar casos, mas sobre fazer a diferença na vida daqueles com quem tenho a honra de trabalhar.
           <br />
           <br />
         </p>
