@@ -55,6 +55,7 @@ export default function AboutInstagram({
               color=""
               type="article"
               titleColorSet="text-white"
+              subtitleColorSet="text-white"
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
