@@ -51,6 +51,7 @@ export default function Steps() {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color=""
             type="article"
+            titleColorSet="text-white"
           />
           <SectionHeader
             className="text-center desktop1:hidden"

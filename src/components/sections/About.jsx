@@ -19,7 +19,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function About({ modal="true" }) {
+export default function About({ modal = "true" }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -78,14 +78,16 @@ export default function About({ modal="true" }) {
             sectionHeaderSubtitle={content.texts.about.subtitle}
             color=""
             type="article"
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
           />
           <MotionDivDownToUp>
             {modal ? (
-              <Paragraphs className="text-black text-opacity-80">
+              <Paragraphs className="text-white text-opacity-80">
                 <AboutFading />
               </Paragraphs>
             ) : (
-              <Paragraphs className="text-black text-opacity-80">
+              <Paragraphs className="text-white text-opacity-80">
                 {content.texts.about.paragraph}
               </Paragraphs>
             )}

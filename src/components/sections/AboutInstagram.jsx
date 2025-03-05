@@ -54,6 +54,7 @@ export default function AboutInstagram({
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
               color=""
               type="article"
+              titleColorSet="text-white"
             />
           </MotionDivDownToUp>
           <MotionDivDownToUp>
