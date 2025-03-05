@@ -29,7 +29,6 @@ export default function Button({
   }
 
   const Animation = animation ? MotionDivDownToUp : "div";
-
   const CustomTagName = removeAnchor ? "div" : tagName || "a";
 
   return (
@@ -37,19 +36,37 @@ export default function Button({
       tagName={CustomTagName}
       {...(removeTarget ? {} : { target: "_blank" })}
       {...(removeAnchor ? {} : { href: buttonLink })}
-      className=""
+      className="inline-block w-fit max-w-full"
     >
-      <Animation>
-        <button
-          onClick={onClick}
-          className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-darker hover:scale-110`}
-        >
-          <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
-            <div className="">{icon}</div>
-            <p className={`flex items-center ${textclassName}`}>{label}</p>
-          </div>
-        </button>
-      </Animation>
+      {animation ? (
+        <MotionDivDownToUp className="w-auto">
+          <button
+            onClick={onClick}
+            className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-labelsIcons desktop1:hover:scale-110`}
+          >
+            <div
+              className={`flex items-center text-center ${gap} min-h-[24px]`}
+            >
+              <div className="">{icon}</div>
+              <p className={`flex items-center ${textclassName}`}>{label}</p>
+            </div>
+          </button>
+        </MotionDivDownToUp>
+      ) : (
+        <div className="w-auto">
+          <button
+            onClick={onClick}
+            className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-labelsIcons desktop1:hover:scale-110`}
+          >
+            <div
+              className={`flex items-center text-center ${gap} min-h-[24px]`}
+            >
+              <div className="">{icon}</div>
+              <p className={`flex items-center ${textclassName}`}>{label}</p>
+            </div>
+          </button>
+        </div>
+      )}
     </CustomTag>
   );
 }

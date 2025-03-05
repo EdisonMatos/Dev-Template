@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp01.webp";
-import logo from "../assets/imgs/logo/logoLp.png";
+import bgImg from "../assets/imgs/hero/bgHeroLp02.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 
 const currentYear = new Date().getFullYear();
@@ -7,11 +7,11 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Dra. Tábatha Siquara – Advogada especialista em BPC/LOAS e Direito Previdenciário",
+      "Edan Contabilidade - Especialistas em Isenção e Restituição do Imposto de Renda",
     description:
-      "Dra. Tábatha Siquara é uma especialista renomada em BPC/LOAS e Direito Previdenciário. Com ampla experiência, oferece consultoria e assessoria jurídica para garantir o acesso ao Benefício de Prestação Continuada (BPC/LOAS), aposentadorias, pensões e outros direitos previdenciários.",
+      "A Edan Contabilidade oferece serviços especializados em isenção e restituição do Imposto de Renda para aposentados, pensionistas e pessoas com doenças graves. Conte com profissionais experientes para maximizar seus benefícios fiscais.",
     keywords:
-      "Direito Previdenciário, BPC/LOAS, Benefício de Prestação Continuada, Dra. Tábatha Siquara, Consultoria Previdenciária, Assessoria Jurídica, Aposentadoria, Pensões, Direitos Previdenciários, Defesa BPC, Solicitação de BPC, Consultoria BPC/LOAS, Recurso Judicial BPC, Direitos do Idoso, Deficiência e Doenças Graves, Defesa de Benefício Previdenciário, Cancelamento de Benefício, Suporte Jurídico Previdenciário, Especialista em BPC, Caravelas Bahia.",
+      "Isenção de Imposto de Renda, Restituição de Imposto de Renda, Contabilidade para Aposentados, Contabilidade para Pensionistas, Imposto de Renda 2024, Isenção de IR para Doenças Graves, Restituição de IR, Edan Contabilidade, Consultoria Fiscal, Consultoria de Imposto de Renda, Benefícios Fiscais, Imposto de Renda para Aposentados, Restituição de Impostos, Isenção de Impostos, Imposto de Renda para Doenças Graves, Contabilidade de Imposto de Renda, Consultoria de IR, Contabilidade Profissional, Imposto de Renda no Brasil, Recuperação de Impostos.",
   },
   hero: {
     bgImg: bgImg,
@@ -22,22 +22,22 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Descubra se você tem direito ao{" "}
-          <span className="text-primary"> BPC/LOAS </span> e melhore a sua
-          <span className="text-primary"> qualidade de vida</span>!
+          <span className="text-lpTitle">Evite problemas</span> com o Leão:
+          Declare seu Imposto de Renda com{" "}
+          <span className="text-lpTitle">especialistas!</span>
         </h1>
       ),
       subtitle:
-        "Saiba como garantir o seu benefício e oferecer mais dignidade à sua família. Conte com nossa orientação especializada!",
-      buttonLabel: "Quero falar com um especialista",
+        "Não arrisque cair na malha fina. Nossa equipe de contadores certificados garante uma declaração precisa e dentro do prazo. Aproveite nossa consultoria e assegure sua tranquilidade fiscal.",
+      buttonLabel: "Falar com um contador",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "GARANTA SEU BPC/LOAS",
-      title: "Quem está apto a solicitar?",
+      miniTag: "QUEM PRECISA DECLARAR?",
+      title: "Saiba se você precisa declarar!",
     },
     cards: {
       card1: {
@@ -52,18 +52,18 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-hand-coins"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
           </svg>
         ),
-        title: "Idosos em situação de vulnerabilidade social",
+        title: "Se recebeu rendimentos tributáveis",
         description:
-          "Se você ou um familiar idoso, com mais de 65 anos, vive em vulnerabilidade social e não recebe aposentadoria, o BPC/LOAS pode ser a chave para garantir seus direitos.",
+          "Se seus rendimentos tributáveis ultrapassaram R$ 30.639,90 em 2024, você está obrigado a declarar o Imposto de Renda.",
       },
       card2: {
         icon: (
@@ -77,18 +77,16 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-accessibility"
+            class="lucide lucide-circle-dollar-sign"
           >
-            <circle cx="16" cy="4" r="1" />
-            <path d="m18 19 1-7-6 1" />
-            <path d="m5 8 3-3 5.5 3-2.36 3.5" />
-            <path d="M4.24 14.5a5 5 0 0 0 6.88 6" />
-            <path d="M13.76 17.5a5 5 0 0 0-6.88-6" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
-        title: "Pessoas com deficiência ou condições graves de saúde",
+        title: "Se recebeu Rendimentos isentos",
         description:
-          "Caso você ou um familiar tenha uma deficiência ou sofra de doença grave, pode ter direito ao BPC/LOAS. Estamos aqui para ajudar a solicitar o benefício.",
+          "Recebeu mais de R$ 200 mil em rendimentos isentos, como indenizações, heranças, ou ganhos de loterias? A declaração é obrigatória.",
       },
       card3: {
         icon: (
@@ -102,17 +100,17 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-baby"
+            class="lucide lucide-coins"
           >
-            <path d="M9 12h.01" />
-            <path d="M15 12h.01" />
-            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
-            <path d="M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
+            <circle cx="8" cy="8" r="6" />
+            <path d="M18.09 10.37A6 6 0 1 1 10.34 18" />
+            <path d="M7 6h1v4" />
+            <path d="m16.71 13.88.7.71-2.82 2.82" />
           </svg>
         ),
-        title: "Benefício para crianças com autismo",
+        title: "Recebeu Ganho de capital na venda de bens",
         description:
-          "Se você é pai ou mãe de uma criança com autismo, pode garantir o BPC para cobrir os custos de tratamentos essenciais e acompanhamento médico.",
+          "Se você obteve ganho de capital com a venda de bens ou direitos, independentemente do valor, é necessário declarar.",
       },
       card4: {
         icon: (
@@ -126,15 +124,15 @@ const contentLp01 = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-ban"
+            class="lucide lucide-house"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m4.9 4.9 14.2 14.2" />
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
-        title: "BPC negado ou interrompido",
+        title: "Fez uso de Isenção de Imposto sobre imóvel residencial",
         description:
-          "Se o seu BPC foi negado ou cancelado de forma injusta, lutamos para garantir seus direitos e restabelecer o benefício.",
+          "Para a isenção do imposto sobre o ganho de capital na venda de imóvel residencial, a declaração é obrigatória, caso adquira outro imóvel no prazo de 180 dias.",
       },
     },
   },
@@ -145,99 +143,28 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA EM DEFESA PREVIDENCIÁRIA",
-      title: "Compromisso com agilidade eficiência",
+      miniTag: "ESPECIALISTAS EM IMPOSTO DE RENDA",
+      title:
+        "Sua parceira na garantia de isenção e restituição do Imposto de Renda",
     },
     paragraph: (
       <p>
-        Em questões previdenciárias, sei que o tempo é fundamental. Por isso, me
-        dedico a agir de forma rápida e eficaz, sem abrir mão da qualidade no
-        serviço prestado. Meu objetivo é proteger seus direitos com a máxima
-        eficiência e seriedade. <br />
-        <br /> Seja qual for a sua necessidade previdenciária, estou aqui para
-        encontrar a melhor solução. Entre em contato com a Dra Tábatha Siqueira
-        e descubra como podemos ser determinantes na defesa dos seus direitos.
+        Na Edan Contabilidade, ajudamos você a garantir seus direitos fiscais.
+        Nossa equipe de contadores e advogados cuida de todo o processo para que
+        você obtenha a isenção ou restituição do Imposto de Renda de forma
+        rápida, sem burocracia e com segurança.
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Falar com um contador",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "O que nos torna a melhor opção para defender seus direitos?",
+      title: "Por que confiar na Edan Contabilidade",
     },
     cards: {
       card1: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-square-chart-gantt"
-          >
-            <rect width="18" height="18" x="3" y="3" rx="2" />
-            <path d="M9 8h7" />
-            <path d="M8 12h6" />
-            <path d="M11 16h5" />
-          </svg>
-        ),
-        title: "Plano estratégico sob medida para seu BPC/LOAS",
-        description:
-          "Examinamos seu pedido de BPC/LOAS com cuidado, elaborando uma estratégia personalizada para garantir que você receba o benefício a que tem direito. Estamos com você em todas as fases do processo.",
-      },
-      card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-lightbulb"
-          >
-            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
-            <path d="M9 18h6" />
-            <path d="M10 22h4" />
-          </svg>
-        ),
-        title: "Planejamento personalizado para seu caso",
-        description:
-          "Criamos um plano de ação personalizado, com o objetivo de oferecer uma solução eficaz e ágil para o seu pedido de BPC/LOAS. Cada detalhe é cuidadosamente planejado para atender exatamente ao que você precisa. Estamos aqui para garantir um resultado favorável.",
-      },
-      card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-circle-check"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="m9 12 2 2 4-4" />
-          </svg>
-        ),
-        title: "Foco na aprovação do seu BPC/LOAS",
-        description:
-          "Nosso compromisso é completo com o seu pedido de BPC/LOAS, defendendo seus direitos em cada etapa do processo. Com nossa ajuda, você pode ter certeza de que estamos focados em garantir sua aprovação, cuidando de cada detalhe para atingir o resultado que você deseja.",
-      },
-      card4: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -257,20 +184,88 @@ const contentLp01 = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Experiência que traz segurança e confiança",
+        title: "Mais de 40 anos de experiência",
         description:
-          "Com nossa vasta experiência em pedidos de BPC/LOAS, você pode ter a certeza de que seu processo será conduzido com total segurança e eficiência. Estaremos ao seu lado em cada momento, garantindo que seus direitos sejam respeitados e que você receba o benefício que merece.",
+          "Nossa equipe de contadores e advogados especializados garante que você receba todos os benefícios fiscais a que tem direito, sem complicação.",
+      },
+      card2: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-history"
+          >
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+            <path d="M3 3v5h5" />
+            <path d="M12 7v5l4 2" />
+          </svg>
+        ),
+        title: "Processo ágil e sem burocracia",
+        description:
+          "Cuidamos de toda a documentação e trâmites legais de forma rápida e eficiente, para que você tenha mais tempo e tranquilidade.",
+      },
+      card3: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-check"
+          >
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        ),
+        title: "Segurança e transparência",
+        description:
+          "Trabalhamos com total sigilo e transparência, garantindo que você tenha confiança em cada etapa do processo.",
+      },
+      card4: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-thumbs-up"
+          >
+            <path d="M7 10v12" />
+            <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
+          </svg>
+        ),
+        title: "Maximize seus benefícios fiscais",
+        description:
+          "Nós buscamos sempre o melhor resultado para você, garantindo a isenção ou a restituição de valores pagos indevidamente.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA TEMPO",
-      title: "Seu BPC/LOAS está ao seu alcance, não espere mais!",
-      subtitle: `Na Tábatha Siquara Advocacia e Consultoria Jurídica, estamos preparados para te apoiar. Nossa equipe especializada em direito previdenciário vai te guiar em cada etapa, assegurando que você tenha acesso ao BPC/LOAS que você tem direito. Não deixe que obstáculos financeiros ou burocráticos te impeçam de obter esse benefício.`,
+      miniTag: "SEU IMPOSTO DE RENDA SEM COMPLICAÇÃO",
+      title:
+        "Não perca mais tempo! Garantimos sua isenção ou restituição do Imposto de Renda de forma rápida e sem complicações.",
+      subtitle: `Entre em contato com a Edan Contabilidade agora mesmo e descubra como podemos ajudar você a maximizar seus benefícios fiscais.`,
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Falar com um contador",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
@@ -321,8 +316,8 @@ const contentLp01 = {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
+          width="28"
+          height="28"
           fill="currentColor"
           className="bi bi-whatsapp"
           viewBox="0 0 16 16"

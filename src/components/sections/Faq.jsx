@@ -30,7 +30,7 @@ export default function Faq() {
             </div>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs className="text-center underline transition text-secondary hover:scale-110">
+            <Paragraphs className="text-center underline transition text-primary hover:scale-110">
               <a href={content.texts.links.ctaWhatsapp} target="_blank">
                 {content.texts.faq.paragraph}
               </a>

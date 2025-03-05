@@ -21,14 +21,14 @@ export default function SectionHeader({
 }) {
   // Configurações baseadas na cor
   if (color === "dark") {
-    miniTitleTextColor = "text-secondary";
-    titleColor = "text-bgSectionDark";
-    subtitleColor = "text-darker opacity-70";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-secondary bg-opacity-5";
-  } else {
     miniTitleTextColor = "text-black";
-    titleColor = "text-lighter";
-    subtitleColor = "text-lighter text-opacity-80";
+    titleColor = "text-primary";
+    subtitleColor = "text-darker opacity-70";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-secondary ";
+  } else {
+    miniTitleTextColor = "text-labelsIcons";
+    titleColor = "text-primary";
+    subtitleColor = "text-black text-opacity-80";
     if (miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
   }
 

@@ -19,7 +19,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function About({ modal }) {
+export default function About({ modal="true" }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -55,7 +55,7 @@ export default function About({ modal }) {
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
-            className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            className="shadow-custom-opacity shadow-primary relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
             {/* <img
               alt="Imagem de efeito pontilhado"
@@ -80,9 +80,15 @@ export default function About({ modal }) {
             type="article"
           />
           <MotionDivDownToUp>
-            <Paragraphs className="text-white text-opacity-80">
-              <AboutFading />
-            </Paragraphs>
+            {modal ? (
+              <Paragraphs className="text-black text-opacity-80">
+                <AboutFading />
+              </Paragraphs>
+            ) : (
+              <Paragraphs className="text-black text-opacity-80">
+                {content.texts.about.paragraph}
+              </Paragraphs>
+            )}
             {/* Início Botão de saiba mais abrindo modal */}
 
             {modal && (

@@ -375,6 +375,17 @@ const content = {
         },
       },
     },
+    blog: {
+      miniTag: "BLOG",
+      title: "Informação jurídica ao seu alcance",
+      subtitle: "",
+      img: imgSteps,
+      blogApiEndpoint:
+        "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
+      labelCards: "Ver mais",
+      label: "Clique aqui para ver todas as matérias",
+      blogLink: "https://blogtestepaper.wordpress.com/",
+    },
     faq: {
       miniTag: "A_Definir",
       title: "A_Definir",
@@ -732,6 +743,7 @@ const content = {
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
+      linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
