@@ -1,4 +1,5 @@
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import Button from "../interactives/Button";
 
 export default function WordPressBlogCard({ img, title, subtitle, link }) {
   return (
@@ -6,23 +7,49 @@ export default function WordPressBlogCard({ img, title, subtitle, link }) {
       <MotionDivDownToUp>
         <div
           id="cardBlog"
-          className="w-[350px] flex flex-col desktop1:max-w-[500px] desktop3:max-w-[375px] desktop1:min-h-[600px] bg-green-800 rounded-2xl p-[20px]"
+          className="w-[350px] font-mainFont flex flex-col desktop1:max-w-[500px] desktop3:max-w-[375px] bg-white rounded-2xl p-[20px]"
         >
           <div className="w-full h-[250px] tablet1:h-[300px] flex justify-center items-center overflow-hidden rounded-2xl">
             <div className="w-full">{img}</div>
           </div>
-          <h1 className=" tablet1:h-[60px] mt-4 text-title2 leading-[25px] font-medium bg-yellow-800" title="blogTitle">
+          <h1
+            className="mt-4 text-title1 leading-[25px] font-medium mb-[12px]"
+            title="blogTitle"
+          >
             {title}
           </h1>
-          <h2 className="tablet1:h-[90px] mt-2 text-paragraph5 leading-[25px] bg-blue-900" title="blogSubtitle">
+          <h2
+            className="text-paragraph2 desktop2:text-paragraph3 mb-[32px] text-black/60 leading-[18px] desktop1:leading-[21px]  "
+            title="blogSubtitle"
+          >
             {subtitle}
           </h2>
-          <button
-            id="botãoSaberMais"
-            className="mt-[20px] bg-primary p-[20px] rounded-2xl w-full text-paragraph5 transition desktop1:hover:scale-105"
-          >
-            {link}
-          </button>
+          <div className="flex ">
+            <Button
+              removeAnchor={true}
+              label="Ver matéria completa"
+              buttonLink={link}
+              className="text-white"
+              size="small"
+              icon={
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-corner-down-right"
+                >
+                  <polyline points="15 10 20 15 15 20" />
+                  <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                </svg>
+              }
+            />
+          </div>
         </div>
       </MotionDivDownToUp>
     </div>
