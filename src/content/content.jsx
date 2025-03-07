@@ -69,7 +69,7 @@ export const infos = {
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "vastigomes.adv", // Sem o @
   facebookProfile:
-    "vasti.gomesdasilva?rdid=acRA5N01MijZiPBt&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1AQXPNSMit%2F%3F_rdc%3D1%26_rdr#",
+    "vasti.gomesdasilva",
   linkeDinProfile: "vasti-gomes-972578215/?originalSubdomain=br",
   x: "A_Definir",
   whatsappDefaultMessage:
