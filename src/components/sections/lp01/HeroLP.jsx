@@ -8,7 +8,7 @@ export default function HeroLP({ fullImg }) {
   return fullImg ? (
     <div className="gradient-LP-Hero">
       <div
-        className="desktop1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto]  bg-no-repeat h-auto"
+        className="desktop1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] bg-no-repeat h-auto"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
         }}
@@ -118,7 +118,7 @@ export default function HeroLP({ fullImg }) {
                             label={contentLp01.hero.textArea.buttonLabel}
                             buttonLink={contentLp01.links.ctaWhatsapp}
                             animation
-                            className="w-[100%] text-white"
+                            className="w-[100%] text-black"
                             icon={
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"

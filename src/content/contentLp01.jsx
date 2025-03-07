@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp02.webp";
+import bgImg from "../assets/imgs/hero/bgHeroLp.jpg";
 import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 
@@ -6,12 +6,11 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title:
-      "Edan Contabilidade - Especialistas em Isenção e Restituição do Imposto de Renda",
+    title: "Advogada Dra. Vasti Gomes |  Isenção de Impostos em Sorocaba - SP",
     description:
-      "A Edan Contabilidade oferece serviços especializados em isenção e restituição do Imposto de Renda para aposentados, pensionistas e pessoas com doenças graves. Conte com profissionais experientes para maximizar seus benefícios fiscais.",
+      "Dra. Vasti Gomes é especialista em buscar isenção de impostos ou restituição de Imposto de Renda para aposentados e pensionistas em Sorocaba - SP",
     keywords:
-      "Isenção de Imposto de Renda, Restituição de Imposto de Renda, Contabilidade para Aposentados, Contabilidade para Pensionistas, Imposto de Renda 2024, Isenção de IR para Doenças Graves, Restituição de IR, Edan Contabilidade, Consultoria Fiscal, Consultoria de Imposto de Renda, Benefícios Fiscais, Imposto de Renda para Aposentados, Restituição de Impostos, Isenção de Impostos, Imposto de Renda para Doenças Graves, Contabilidade de Imposto de Renda, Consultoria de IR, Contabilidade Profissional, Imposto de Renda no Brasil, Recuperação de Impostos.",
+      "Isenção de Imposto de Renda,Imposto de Renda aposentados, Isenção IR doenças graves, Restituição IR aposentados, Imposto de Renda pensionistas, Benefícios fiscais aposentados, Isenção IR para doenças, Isenção Imposto de Renda 2025, Aposentado com câncer isenção, Doença grave Imposto de Renda, Restituição Imposto de Renda pensionistas, Isenção IR por doença grave, Imposto de Renda para idosos, Consultoria Imposto de Renda, Isenção de IR aposentados e pensionistas, IR para aposentado com doença grave, Benefícios fiscais para pensionistas, Restituição de IR 2025, Dra. Vasti Gomes isenção IR, Dra. Vasti Gomes consultoria fiscal, Dra. Vasti Gomes Sorocaba SP.",
   },
   hero: {
     bgImg: bgImg,
@@ -22,22 +21,23 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          <span className="text-lpTitle">Evite problemas</span> com o Leão:
-          Declare seu Imposto de Renda com{" "}
-          <span className="text-lpTitle">especialistas!</span>
+          <span className="text-lpTitle">Aposentado ou pensionista</span>sabia
+          que você pode ter direito à
+          <span className="text-lpTitle">isenção do Imposto de Renda?</span>
         </h1>
       ),
       subtitle:
-        "Não arrisque cair na malha fina. Nossa equipe de contadores certificados garante uma declaração precisa e dentro do prazo. Aproveite nossa consultoria e assegure sua tranquilidade fiscal.",
-      buttonLabel: "Falar com um contador",
+        "Se você tem uma doença grave, pode garantir a isenção ou restituição do Imposto de Renda. Descubra seus direitos com uma advogada especializada.",
+      buttonLabel: "Solicite sua isenção agora!",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "QUEM PRECISA DECLARAR?",
-      title: "Saiba se você precisa declarar!",
+      miniTag: "ISENÇÃO DE IMPOSTO",
+      title:
+        "Você tem direito à isenção ou restituição do Imposto de Renda? Descubra agora!",
     },
     cards: {
       card1: {
@@ -61,9 +61,9 @@ const contentLp01 = {
             <circle cx="6" cy="5" r="3" />
           </svg>
         ),
-        title: "Se recebeu rendimentos tributáveis",
+        title: "Isenção do Imposto de Renda",
         description:
-          "Se seus rendimentos tributáveis ultrapassaram R$ 30.639,90 em 2024, você está obrigado a declarar o Imposto de Renda.",
+          "Aposentados e pensionistas com doenças graves podem ter direito à isenção do IR. ",
       },
       card2: {
         icon: (
@@ -84,9 +84,9 @@ const contentLp01 = {
             <path d="M12 18V6" />
           </svg>
         ),
-        title: "Se recebeu Rendimentos isentos",
+        title: "Restituição de valores pagos",
         description:
-          "Recebeu mais de R$ 200 mil em rendimentos isentos, como indenizações, heranças, ou ganhos de loterias? A declaração é obrigatória.",
+          "Se você pagou imposto indevidamente, é possível recuperar esses valores.",
       },
       card3: {
         icon: (
@@ -108,9 +108,9 @@ const contentLp01 = {
             <path d="m16.71 13.88.7.71-2.82 2.82" />
           </svg>
         ),
-        title: "Recebeu Ganho de capital na venda de bens",
+        title: "Doenças que garantem o benefício",
         description:
-          "Se você obteve ganho de capital com a venda de bens ou direitos, independentemente do valor, é necessário declarar.",
+          "Diversas doenças dão direito à isenção do IR, como câncer, cardiopatia grave e mais.",
       },
       card4: {
         icon: (
@@ -130,9 +130,9 @@ const contentLp01 = {
             <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
-        title: "Fez uso de Isenção de Imposto sobre imóvel residencial",
+        title: "Suporte jurídico especializado",
         description:
-          "Para a isenção do imposto sobre o ganho de capital na venda de imóvel residencial, a declaração é obrigatória, caso adquira outro imóvel no prazo de 180 dias.",
+          "Conte com uma advogada especializada para garantir sua isenção ou restituição sem complicações.",
       },
     },
   },
@@ -143,25 +143,27 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "ESPECIALISTAS EM IMPOSTO DE RENDA",
-      title:
-        "Sua parceira na garantia de isenção e restituição do Imposto de Renda",
+      miniTag: "EXPERTISE EM ISENÇÃO DE IMPOSTO DE RENDA",
+      title: "Isenção e restituição com compromisso e eficiência",
     },
     paragraph: (
       <p>
-        Na Edan Contabilidade, ajudamos você a garantir seus direitos fiscais.
-        Nossa equipe de contadores e advogados cuida de todo o processo para que
-        você obtenha a isenção ou restituição do Imposto de Renda de forma
-        rápida, sem burocracia e com segurança.
+        Pagar imposto indevidamente é um problema que muitos aposentados e
+        pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
+        garantir seus direitos. Se você tem uma doença grave, pode ter direito à
+        isenção ou até à restituição do Imposto de Renda já pago.
+        <br /><br />
+        Minha missão é encontrar a melhor solução jurídica para você. Entre em
+        contato e descubra como podemos ajudar!
       </p>
     ),
-    buttonLabel: "Falar com um contador",
+    buttonLabel: "Solicite sua isenção agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que confiar na Edan Contabilidade",
+      title: "Por que nos escolher para garantir sua isenção ou restituição?",
     },
     cards: {
       card1: {
@@ -184,9 +186,9 @@ const contentLp01 = {
             <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
           </svg>
         ),
-        title: "Mais de 40 anos de experiência",
+        title: "Análise detalhada para sua isenção",
         description:
-          "Nossa equipe de contadores e advogados especializados garante que você receba todos os benefícios fiscais a que tem direito, sem complicação.",
+          "Cada caso é único. Avaliamos sua situação com atenção para garantir sua isenção ou restituição de forma segura e sem complicações.",
       },
       card2: {
         icon: (
@@ -207,9 +209,9 @@ const contentLp01 = {
             <path d="M12 7v5l4 2" />
           </svg>
         ),
-        title: "Processo ágil e sem burocracia",
+        title: "Processo rápido e sem burocracia",
         description:
-          "Cuidamos de toda a documentação e trâmites legais de forma rápida e eficiente, para que você tenha mais tempo e tranquilidade.",
+          "Atuamos com agilidade para que você tenha acesso ao seu direito sem enrolação ou processos demorados.",
       },
       card3: {
         icon: (
@@ -229,9 +231,9 @@ const contentLp01 = {
             <path d="m9 12 2 2 4-4" />
           </svg>
         ),
-        title: "Segurança e transparência",
+        title: "Compromisso total com você",
         description:
-          "Trabalhamos com total sigilo e transparência, garantindo que você tenha confiança em cada etapa do processo.",
+          "Acompanhamos seu caso de perto, oferecendo suporte personalizado em todas as etapas do processo.",
       },
       card4: {
         icon: (
@@ -251,21 +253,21 @@ const contentLp01 = {
             <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
           </svg>
         ),
-        title: "Maximize seus benefícios fiscais",
+        title: "Experiência que faz a diferença",
         description:
-          "Nós buscamos sempre o melhor resultado para você, garantindo a isenção ou a restituição de valores pagos indevidamente.",
+          "Com anos de atuação, sabemos exatamente como garantir sua isenção ou restituição com segurança e eficiência.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "SEU IMPOSTO DE RENDA SEM COMPLICAÇÃO",
+      miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
       title:
-        "Não perca mais tempo! Garantimos sua isenção ou restituição do Imposto de Renda de forma rápida e sem complicações.",
-      subtitle: `Entre em contato com a Edan Contabilidade agora mesmo e descubra como podemos ajudar você a maximizar seus benefícios fiscais.`,
+        "Garanta sua isenção ou restituição agora mesmo!",
+      subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção ou até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
     },
-    buttonLabel: "Falar com um contador",
+    buttonLabel: "Falar com uma especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {

@@ -14,6 +14,7 @@ export default function WhyUs({}) {
             className="text-center"
             sectionHeaderTitle={contentLp01.whyUs.sectionHeader.title}
             color="dark"
+            titleColorSet="text-secondary"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">
             <FeatureCardLP

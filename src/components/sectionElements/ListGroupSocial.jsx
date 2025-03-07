@@ -216,7 +216,7 @@ export default function ListGroupSocial({ LightMode }) {
           {/* Início Botões das redes sociais na navbar */}
 
           {/* <a
-          href{content.texts.infos.instagramProfile}
+          href={content.texts.infos.instagramProfile}
           target="_blank"
           className={scrolling ? "" : "invert"}
         >

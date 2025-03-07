@@ -43,33 +43,34 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Carla Botelho",
+  name: "Advogada Dra. Vasti Gomes",
   email: "contato", // Email desejado pelo cliente
-  domain: "carlabotelho.com.br", // Sem "www"
+  domain: "vastigomes.com.br", // Sem "www"
   phone: {
-    ddd: "65",
-    firstPart: "99952", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0717", // Apenas os 4 últimos números
+    ddd: "15",
+    firstPart: "99706", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0951", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Alameda das Azaléias, nª 409</p>
+      <p>Salão I, Jardim Simus, Sorocaba - SP</p>
+      <p>CEP 18055-183</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>8h às 20h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "carlabotelho.adv", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  instagramProfile: "vastigomes.adv", // Sem o @
+  facebookProfile:
+    "vasti.gomesdasilva",
+  linkeDinProfile: "vasti-gomes-972578215/?originalSubdomain=br",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -94,15 +95,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM CUIABÁ - MT",
+      miniTag: "ADVOGADA CÍVEL E TRIBUTÁRIA EM SOROCABA - SP",
       title: (
         <h1 className="mb-[16px]">
-          Blindagem jurídica
-          <span className="text-primary"> para sua carreira médica</span>
+          Justiça que cuida da sua história com empatia
         </h1>
       ),
       subtitle:
-        "Especialista na área, ofereço suporte jurídico estratégico para garantir sua segurança profissional.",
+        "Com a Dra. Vasti Gomes, você recebe assessoria jurídica especializada e humanizada para aposentados e pensionistas.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -124,7 +124,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online para todo Brasil",
+        text: "Atendimento online e presencial",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -165,16 +165,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Defesa especializada",
-      subtitle: "Atuação estratégica em demandas jurídicas.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Expertise em Direito Cível e Tributário",
+      subtitle: "Estratégias jurídicas poderosas para garantir seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Defesa Médica",
-        subtitle:
-          "Proteção jurídica especializada para médicos e profissionais da área.",
+        title: "Contratos e Obrigações",
+        subtitle: "Assessoria e soluções em contratos e responsabilidades.",
         description: (
           <div>
             A_Definir
@@ -187,19 +186,20 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-plus"
+            class="lucide lucide-scroll-text"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
+            <path d="M15 12h-5" />
+            <path d="M15 8h-5" />
+            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
+            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -207,9 +207,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Defesa Preventiva",
-        subtitle:
-          "Prevenção de riscos legais e proteção contra litígios no campo médico.",
+        title: "Família e Sucessões",
+        subtitle: "Resolução de conflitos familiares e questões sucessórias.",
         description: (
           <div>
             A_Definir
@@ -222,19 +221,20 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-alert"
+            class="lucide lucide-users"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M12 8v4" />
-            <path d="M12 16h.01" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -242,9 +242,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Defesa Judicial",
-        subtitle:
-          "Atuação estratégica em processos judiciais para médicos e clínicas.",
+        title: "Planejamento Tributário",
+        subtitle: "Estratégias jurídicas para otimizar a carga tributária.",
         description: (
           <div>
             A_Definir <br />
@@ -256,21 +255,19 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale"
+            class="lucide lucide-banknote"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <rect width="20" height="12" x="2" y="6" rx="2" />
+            <circle cx="12" cy="12" r="2" />
+            <path d="M6 12h.01M18 12h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -278,9 +275,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Defesa Administrativa",
-        subtitle:
-          "Representação de médicos e instituições perante conselhos reguladores.",
+        title: "Contencioso Tributário",
+        subtitle: "Defesa contra tributos indevidos e cobrança excessiva.",
         description: (
           <div>
             A_Definir
@@ -293,18 +289,21 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check"
+            class="lucide lucide-gavel"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -389,73 +388,71 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. CARLA BOTELHO",
+      miniTag: "QUEM É A DRA. VASTI GOMES",
       title: "Minha trajetória",
-      subtitle:
-        "Uma jornada da advocacia pública à especialização em Direito Médico.",
+      subtitle: "Dedicação exclusiva a quem precisa de uma defensora.",
       paragraph: (
         <div>
-          Desde 2005, trilho meu caminho na advocacia, sempre guiada pelo
-          compromisso com a justiça e a busca por soluções eficazes para meus
-          clientes.
+          Iniciei minha jornada na advocacia com um propósito claro: ser mais do
+          que uma simples advogada, mas uma parceira verdadeira para meus
+          clientes. Acredito que a justiça não está apenas em ganhar processos,
+          mas em transformar a vida das pessoas, oferecendo soluções que
+          realmente façam diferença.
           <br />
-          Minha trajetória passou por diferentes áreas do Direito, mas foi na
-          assessoria jurídica para médicos e clínicas que encontrei minha
-          verdadeira vocação.
+          Especializei-me em Isenção e Restituição do Imposto de Renda para
+          Aposentados e Pensionistas com Doenças Graves, porque entendo
+          profundamente a complexidade que envolve não só a luta contra a
+          doença, mas também os desafios financeiros que surgem no caminho.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Desde 2005, trilho meu caminho na advocacia, sempre guiada pelo
-          compromisso com a justiça e a busca por soluções eficazes para meus
-          clientes.
+          Iniciei minha jornada na advocacia com um propósito claro: ser mais do
+          que uma simples advogada, mas uma parceira verdadeira para meus
+          clientes. Acredito que a justiça não está apenas em ganhar processos,
+          mas em transformar a vida das pessoas, oferecendo soluções que
+          realmente façam diferença.
           <br />
           <br />
-          Minha trajetória passou por diferentes áreas do Direito, mas foi na
-          assessoria jurídica para médicos e clínicas que encontrei minha
-          verdadeira vocação.
+          Especializei-me em Isenção e Restituição do Imposto de Renda para
+          Aposentados e Pensionistas com Doenças Graves, porque entendo
+          profundamente a complexidade que envolve não só a luta contra a
+          doença, mas também os desafios financeiros que surgem no caminho.
           <br />
           <br />
-          Por anos, conciliei a advocacia com o serviço público, onde aprendi
-          sobre gestão e regulamentação. Meu envolvimento com o Direito Médico
-          começou ao assessorar a clínica do meu irmão, despertando meu
-          interesse pelos desafios jurídicos da área da saúde.
+          Meu escritório reflete essa visão – um espaço moderno, acessível e
+          acolhedor, onde a confiança, o respeito e o sigilo são fundamentais.
+          Eu trato cada cliente de maneira única, com a atenção e dedicação que
+          merecem, buscando sempre entender suas necessidades e oferecer o
+          melhor suporte jurídico.
           <br />
           <br />
-          Percebi que minha atuação fazia diferença, mas dividir meu tempo
-          limitava meu crescimento.
+          Com pós-graduação em Recuperação de Créditos Tributários e
+          Previdenciários e em Processo Civil, me dedico a trazer um
+          conhecimento técnico de excelência, sempre aliado a uma abordagem
+          empática.
           <br />
           <br />
-          Foi então que decidi deixar a estabilidade do serviço público para
-          empreender e me dedicar integralmente à advocacia. Fundar meu próprio
-          escritório foi um desafio, mas também um passo essencial para oferecer
-          um suporte jurídico especializado e preventivo a médicos, clínicas e
-          profissionais da saúde.
+          Compreendo que, muitas vezes, a saúde é uma batalha diária e, quando
+          os meus clientes precisam de ajuda, o suporte jurídico deve ser muito
+          mais do que técnico: deve ser humanizado, direto e eficaz.
           <br />
           <br />
-          Meu objetivo é garantir que exerçam sua profissão com segurança,
-          minimizando riscos legais.
+          Por isso, foco em questões tributárias que afetam diretamente
+          aposentados e pensionistas, oferecendo soluções jurídicas que visam
+          aliviar o peso financeiro dessas pessoas, que, além de lidarem com a
+          saúde, ainda enfrentam encargos que podem ser insustentáveis.
           <br />
           <br />
-          Sou formada em Direito pela Universidade de Cuiabá, pós-graduada em
-          Direito e Processo do Trabalho, Direito Público e Direito Empresarial,
-          e estou concluindo minha especialização em Direito Médico e Bioética.
+          Para mim, ética, confiança e compromisso com a verdade são valores
+          essenciais. Cada pessoa que me procura sabe que encontrará não só a
+          melhor solução jurídica, mas também alguém que os escuta, compreende
+          suas dores e oferece respostas claras.
           <br />
           <br />
-          Com essa experiência, atuo estrategicamente tanto na defesa judicial e
-          administrativa quanto na prevenção de litígios.
-          <br />
-          <br />
-          Acredito que a advocacia vai além dos tribunais. Meu trabalho é
-          pautado na ética, transparência e estratégias jurídicas
-          personalizadas. Mais do que defesa, ofereço orientação contínua,
-          ajudando profissionais da saúde a atuarem com segurança.
-          <br />
-          <br />
-          Hoje, meu escritório se consolida como referência no Direito Médico,
-          sempre com foco na excelência e na proteção dos que cuidam da saúde e
-          bem-estar das pessoas.
+          Meu trabalho não é apenas sobre ganhar casos, mas sobre fazer a
+          diferença na vida daqueles com quem tenho a honra de trabalhar.
           <br />
           <br />
         </p>
@@ -475,8 +472,8 @@ const content = {
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
         paragraph: <p></p>,
       },
     },
