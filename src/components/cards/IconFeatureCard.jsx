@@ -8,10 +8,10 @@ export default function IconFeatureCard(props) {
       <div className="h-[64px] w-[64px] mb-[24px] bg-primary rounded-md flex justify-center items-center text-labelsIcons">
         {icon}
       </div>
-      <h1 className="h-auto font-bold font-mainFont text-title3 text-center mb-[16px] text-black">
+      <h1 className="h-auto font-bold font-mainFont text-title3 text-center mb-[16px] text-labelsIcons">
         {title}
       </h1>
-      <p className="text-center text-black opacity-70 font-mainFont w-[90%] pb-4">
+      <p className="text-center text-labelsIcons opacity-70 font-mainFont w-[90%] pb-4">
         {paragraph}
       </p>
       {children}
