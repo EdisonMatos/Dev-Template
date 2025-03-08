@@ -8,7 +8,7 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 export default function Hero({ appDownloadButtons }) {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-secondary "
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-darker to-secondary "
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
