@@ -67,7 +67,7 @@ export default function WhatsAppLinks({form}) {
           <div className="flex flex-col w-full items-center max-w-xs gap-3 space-y-4">
             <Button
               aria-label="Botão de contato"
-              label="Dr Caio Braga"
+              label="Contato1"
               buttonLink={contentLp01.links.ctaWhatsapp}
               animation
               className="w-[100%]"
@@ -87,8 +87,8 @@ export default function WhatsAppLinks({form}) {
 
             <Button
               aria-label="Botão de contato"
-              label="Dr Lucas Barros"
-              buttonLink="https://wa.me/5586994819000?(86)%2099481-9000%3F"
+              label="Contato2"
+              buttonLink="https://wa.me/5521972613067?(21)%297261-3067%3F"
               animation
               className="w-[100%]"
               icon={
