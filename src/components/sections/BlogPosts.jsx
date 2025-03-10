@@ -27,9 +27,10 @@ function BlogPosts() {
             sectionHeaderTitle={content.texts.blog.title}
             sectionHeaderSubtitle={content.texts.blog.subtitle}
             color=""
+            titleColorSet="text-lighter"
             type=""
           />
-          <ul className="flex flex-wrap gap-[30px]  justify-center mb-[80px]">
+          <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
             {posts.slice(0, 3).map((post) => (
               <li key={post.ID}>
                 <WordPressBlogCard
@@ -46,17 +47,16 @@ function BlogPosts() {
                     <h3 dangerouslySetInnerHTML={{ __html: post.title }} />
                   }
                   subtitle={
-                    <p dangerouslySetInnerHTML={{ __html: post.excerpt }} />
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html:
+                          post.excerpt.length > 100
+                            ? post.excerpt.substring(0, 100) + "..."
+                            : post.excerpt,
+                      }}
+                    />
                   }
-                  link={
-                    <a
-                      href={post.URL}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {content.texts.blog.labelCards}
-                    </a>
-                  }
+                  link={post.URL}
                 />
               </li>
             ))}
