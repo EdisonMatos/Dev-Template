@@ -5,10 +5,10 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function Hero({ appDownloadButtons , heroFoto}) {
+export default function Hero({ appDownloadButtons , personImg}) {
   return (
     <>
-      {heroFoto ? (
+      {personImg ? (
      <div
      className="w-full bg-top bg-repeat bg-cover font-mainFont"
      id="home"
