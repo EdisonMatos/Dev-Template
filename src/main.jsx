@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       {/* <Route path="/" element={<Lp01 />} /> */}
       {/* <Route path="/lp02" element={<Lp02 />} /> */}
       {/* <Route path="/lp03" element={<Lp03 />} /> */}
-      <Route path="/whatsapp" element={<WhatsAppLinks />} />
+      <Route path="/whatsapp" element={<WhatsAppLinks form={true} />} />
     </Routes>
   </Router>
 );
