@@ -44,8 +44,8 @@ export default function Index() {
       <FooterSocial
         addres={true}
         instagram={true}
-        facebook={true}
-        linkedin={true}
+        facebook={false}
+        linkedin={false}
         x={false}
         obs={false}
       />
