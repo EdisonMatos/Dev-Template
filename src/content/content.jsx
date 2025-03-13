@@ -94,16 +94,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM RECIFE - PE",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Nos momentos mais difíceis,
+          <span className="text-primary"> você não estará sozinho</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle: "Justiça não é sorte, é estratégia. Com experiência e dedicação, viramos o jogo a favor dos nossos clientes.",
       heroImg: heroImg,
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Inicie sua defesa",
       obsHero: {
         icon: (
           <svg
@@ -123,7 +123,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento online e 24h para flagrantes e acompanhamento à delegacias",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
