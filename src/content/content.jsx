@@ -290,7 +290,24 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal4,
         icon: (
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scale"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
@@ -374,29 +391,69 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. GLAYDSON WAGNER",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogado criminalista desde 2012, especializado em Direito Penal e Processual Penal, com atuação em grandes contenciosos.",
       paragraph: (
         <div>
-          A_Definir
+          Minha jornada na advocacia começou em 2012, e desde então, tenho me
+          dedicado ao Direito Penal e Processual Penal, áreas que escolhi pela
+          intensidade e pela luta constante pela justiça.
           <br />
-          A_Definir
+          Ao longo dos anos, tive a oportunidade de atuar em grandes
+          contenciosos cíveis e trabalhistas, sempre buscando a melhor solução
+          para os casos que me foram confiados.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha jornada na advocacia começou em 2012, e desde então, tenho me
+          dedicado ao Direito Penal e Processual Penal, áreas que escolhi pela
+          intensidade e pela luta constante pela justiça.
           <br />
           <br />
-          A_Definir
+          Ao longo dos anos, tive a oportunidade de atuar em grandes
+          contenciosos cíveis e trabalhistas, sempre buscando a melhor solução
+          para os casos que me foram confiados.
           <br />
           <br />
-          A_Definir
+          Para mim, cada cliente representa mais do que um processo: é uma
+          chance de corrigir um erro e garantir que a justiça seja feita,
+          especialmente para aqueles que se veem em situações de opressão e
+          dificuldade.
           <br />
           <br />
-          A_Definir
+          Minha missão vai além de simplesmente aplicar a lei: eu me vejo como
+          um defensor da justiça, trabalhando incansavelmente para resgatar o
+          que foi injustamente tirado de meus clientes.
+          <br />
+          <br />
+          Acredito que, ao entender profundamente cada caso e aplicar o
+          entendimento jurisprudencial dos tribunais superiores, como o STF e o
+          STJ, podemos chegar a soluções jurídicas personalizadas e eficazes.
+          <br />
+          <br />
+          Meu compromisso é garantir que cada cliente receba a atenção e a
+          defesa que merece, com uma abordagem individualizada, focada nos
+          resultados.
+          <br />
+          <br />
+          No meu escritório, a comunicação é direta e acessível. Entendo que,
+          muitas vezes, o jargão jurídico pode ser um obstáculo, e por isso me
+          esforço para que todos os envolvidos compreendam cada etapa do
+          processo de forma clara e objetiva.
+          <br />
+          <br />
+          Meu trabalho não é apenas técnico, mas também uma parceria, onde meu
+          cliente sabe que estou ao seu lado, pronto para lutar pelos seus
+          direitos com empatia e total dedicação.
+          <br />
+          <br />
+          Se você busca um advogado comprometido com sua causa, com experiência
+          e um olhar moderno sobre o Direito, estou à disposição para ajudá-lo a
+          resolver suas questões jurídicas de forma estratégica e eficaz.
           <br />
           <br />
         </p>
@@ -470,7 +527,8 @@ const content = {
     blog: {
       miniTag: "BLOG",
       title: "Informação jurídica ao seu alcance",
-      subtitle: "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
         "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
