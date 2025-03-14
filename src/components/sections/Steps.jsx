@@ -15,86 +15,93 @@ import imgPoints from "../../assets/imgs/about/points.png";
 import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 
-export default function Steps() {
+export default function Steps({LightMode}) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
   return (
-    <SectionArea className="bg-bgSectionDark" paddingtop={true}>
-      {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
-      <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          <div
-            style={{
-              backgroundImage: `url(${content.texts.steps.img})`,
-            }}
-            className="shadow-custom-opacity shadow-primary relative desktop1:bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
-          >
-            {/* <img
+    <div
+      className={
+        LightMode
+          ? "bg-white"
+          : "bg-bgSectionDark w-full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+      }
+    >
+      <SectionArea className="" paddingtop={true}>
+        {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
+        <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
+          <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+            <div
+              style={{
+                backgroundImage: `url(${content.texts.steps.img})`,
+              }}
+              className="shadow-custom-opacity shadow-primary relative desktop1:bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            >
+              {/* <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
               className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img> */}
-          </div>
-          {/* <img
+            </div>
+            {/* <img
             src={content.texts.steps.imgSteps}
             alt="Imagem de pessoa de férias em um passeio de barco em Arraial do Cabo"
             className=""
           /> */}
-        </MotionDivDownToUp>
-        <div className="desktop1:w-[550px] desktop2:w-[570px]">
-          <SectionHeader
-            className="hidden text-center desktop1:flex"
-            miniTitle={content.texts.steps.miniTag}
-            sectionHeaderTitle={content.texts.steps.title}
-            sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color=""
-            type="article"
-            titleColorSet="text-white"
-          />
-          <SectionHeader
-            className="text-center desktop1:hidden"
-            miniTitle={content.texts.steps.miniTag}
-            sectionHeaderTitle={content.texts.steps.title}
-            sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color=""
-            type=""
-            titleColorSet="text-white"
-          />
+          </MotionDivDownToUp>
+          <div className="desktop1:w-[550px] desktop2:w-[570px]">
+            <SectionHeader
+              className="hidden text-center desktop1:flex"
+              miniTitle={content.texts.steps.miniTag}
+              sectionHeaderTitle={content.texts.steps.title}
+              sectionHeaderSubtitle={content.texts.steps.subtitle}
+              color=""
+              type="article"
+              titleColorSet="text-white"
+            />
+            <SectionHeader
+              className="text-center desktop1:hidden"
+              miniTitle={content.texts.steps.miniTag}
+              sectionHeaderTitle={content.texts.steps.title}
+              sectionHeaderSubtitle={content.texts.steps.subtitle}
+              color=""
+              type=""
+              titleColorSet="text-white"
+            />
 
-          <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
-            <HowItWorksCard
-              number={content.texts.steps.cards.card1.stepNumber}
-              title={content.texts.steps.cards.card1.cardTitle}
-              description={content.texts.steps.cards.card1.cardDescription}
-              animation
-            />
-            <HowItWorksCard
-              number={content.texts.steps.cards.card2.stepNumber}
-              title={content.texts.steps.cards.card2.cardTitle}
-              description={content.texts.steps.cards.card2.cardDescription}
-              animation
-            />
-            <HowItWorksCard
-              number={content.texts.steps.cards.card3.stepNumber}
-              title={content.texts.steps.cards.card3.cardTitle}
-              description={content.texts.steps.cards.card3.cardDescription}
-              animation
-            />
-            <HowItWorksCard
-              number={content.texts.steps.cards.card4.stepNumber}
-              title={content.texts.steps.cards.card4.cardTitle}
-              description={content.texts.steps.cards.card4.cardDescription}
-              animation
-            />
+            <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
+              <HowItWorksCard
+                number={content.texts.steps.cards.card1.stepNumber}
+                title={content.texts.steps.cards.card1.cardTitle}
+                description={content.texts.steps.cards.card1.cardDescription}
+                animation
+              />
+              <HowItWorksCard
+                number={content.texts.steps.cards.card2.stepNumber}
+                title={content.texts.steps.cards.card2.cardTitle}
+                description={content.texts.steps.cards.card2.cardDescription}
+                animation
+              />
+              <HowItWorksCard
+                number={content.texts.steps.cards.card3.stepNumber}
+                title={content.texts.steps.cards.card3.cardTitle}
+                description={content.texts.steps.cards.card3.cardDescription}
+                animation
+              />
+              <HowItWorksCard
+                number={content.texts.steps.cards.card4.stepNumber}
+                title={content.texts.steps.cards.card4.cardTitle}
+                description={content.texts.steps.cards.card4.cardDescription}
+                animation
+              />
+            </div>
           </div>
-        </div>
-      </SectionWrapper>
+        </SectionWrapper>
 
-      {/* Divisão com onda */}
+        {/* Divisão com onda */}
 
-      {/* <div class="custom-shape-divider-bottom-azul mt-[64px] desktop1:mt-[96px]">
+        {/* <div class="custom-shape-divider-bottom-azul mt-[64px] desktop1:mt-[96px]">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +115,8 @@ export default function Steps() {
         </svg>
       </div> */}
 
-      {/* Final de divisão com onda */}
-    </SectionArea>
+        {/* Final de divisão com onda */}
+      </SectionArea>
+    </div>
   );
 }

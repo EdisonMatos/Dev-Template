@@ -29,7 +29,7 @@ export default function Index() {
         sixCards={false}
         paragraphsModal={false}
       />
-      <About modal={true} />
+      <About modal={true} LightMode={false} />
       <AboutInstagram
         socialPrint={true}
         instagram={true}
@@ -38,7 +38,7 @@ export default function Index() {
         x={false}
       />
       <Cta />
-      <Steps />
+      <Steps LightMode={true}/>
       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial

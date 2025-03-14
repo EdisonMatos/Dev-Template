@@ -19,7 +19,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function About({ modal = "true" }) {
+export default function About({ modal = "true", LightMode }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
@@ -47,70 +47,77 @@ export default function About({ modal = "true" }) {
   };
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark">
-      <SectionShapeDiv shapeDivArrow={false} shapeColor="text-white" />
-      <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          <div
-            style={{
-              backgroundImage: `url(${content.texts.about.imagem.img})`,
-            }}
-            className="shadow-custom-opacity shadow-primary relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
-          >
-            {/* <img
+    <div
+      className={
+        LightMode
+          ? "bg-white"
+          : "bg-bgSectionDark w-full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+      }
+    >
+      <SectionArea id="about" className="">
+        <SectionShapeDiv shapeDivArrow={false} shapeColor="text-white" />
+        <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
+          <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+            <div
+              style={{
+                backgroundImage: `url(${content.texts.about.imagem.img})`,
+              }}
+              className="shadow-custom-opacity shadow-primary relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            >
+              {/* <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
               className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img> */}
-          </div>
-          {/* <img
+            </div>
+            {/* <img
             src={content.texts.about.imagem.img}
             alt="Imagem de uma praia de Arraial"
             className=""
         /> */}
-        </MotionDivDownToUp>
-
-        <div className="desktop1:w-[550px] desktop2:w-[570px] ">
-          <SectionHeader
-            className="text-center"
-            miniTitle={content.texts.about.miniTag}
-            sectionHeaderTitle={content.texts.about.title}
-            sectionHeaderSubtitle={content.texts.about.subtitle}
-            color=""
-            type="article"
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
-          />
-          <MotionDivDownToUp>
-            {modal ? (
-              <Paragraphs className="text-white text-opacity-80">
-                <AboutFading />
-              </Paragraphs>
-            ) : (
-              <Paragraphs className="text-white text-opacity-80">
-                {content.texts.about.paragraph}
-              </Paragraphs>
-            )}
-            {/* Início Botão de saiba mais abrindo modal */}
-
-            {modal && (
-              <Button
-                className="mt-[48px]"
-                label={content.texts.about.buttonModalLabelAbout}
-                onClick={onClick}
-                removeAnchor={true}
-                removeTarget={true}
-                animation={true}
-                icon={<MoveRight />}
-              />
-            )}
-
-            {/* Fim Botão de saiba mais abrindo modal */}
           </MotionDivDownToUp>
 
-          {/* Início Botões das redes sociais */}
+          <div className="desktop1:w-[550px] desktop2:w-[570px] ">
+            <SectionHeader
+              className="text-center"
+              miniTitle={content.texts.about.miniTag}
+              sectionHeaderTitle={content.texts.about.title}
+              sectionHeaderSubtitle={content.texts.about.subtitle}
+              color=""
+              type="article"
+              titleColorSet="text-white"
+              subtitleColorSet="text-white"
+            />
+            <MotionDivDownToUp>
+              {modal ? (
+                <Paragraphs className="text-white text-opacity-80">
+                  <AboutFading />
+                </Paragraphs>
+              ) : (
+                <Paragraphs className="text-white text-opacity-80">
+                  {content.texts.about.paragraph}
+                </Paragraphs>
+              )}
+              {/* Início Botão de saiba mais abrindo modal */}
 
-          {/* <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
+              {modal && (
+                <Button
+                  className="mt-[48px]"
+                  label={content.texts.about.buttonModalLabelAbout}
+                  onClick={onClick}
+                  removeAnchor={true}
+                  removeTarget={true}
+                  animation={true}
+                  icon={<MoveRight />}
+                />
+              )}
+
+              {/* Fim Botão de saiba mais abrindo modal */}
+            </MotionDivDownToUp>
+
+            {/* Início Botões das redes sociais */}
+
+            {/* <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
             <MotionDivDownToUp>
               <Button
                 label="Me siga no Instagram"
@@ -192,19 +199,20 @@ export default function About({ modal = "true" }) {
             </MotionDivDownToUp>
           </div> */}
 
-          {/* Fim Botões das redes sociais */}
-        </div>
-      </SectionWrapper>
-      <Dialog
-        className="font-secondFont"
-        header={modalTitle}
-        visible={visible}
-        onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "60vw", "1024px": "70vw", "641px": "85vw" }}
-      >
-        <p className="m-0 ">{modalContent}</p>
-      </Dialog>
-    </SectionArea>
+            {/* Fim Botões das redes sociais */}
+          </div>
+        </SectionWrapper>
+        <Dialog
+          className="font-secondFont"
+          header={modalTitle}
+          visible={visible}
+          onHide={() => setVisible(false)}
+          style={{ width: "50vw" }}
+          breakpoints={{ "4000px": "60vw", "1024px": "70vw", "641px": "85vw" }}
+        >
+          <p className="m-0 ">{modalContent}</p>
+        </Dialog>
+      </SectionArea>
+    </div>
   );
 }
