@@ -5,8 +5,8 @@ import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-import personImg from "../assets/imgs/hero/person.png";
-import personImgPhone from "../assets/imgs/hero/personPhone.png";
+import personImg from "../assets/imgs/hero/personImg.png";
+import personImgPhone from "../assets/imgs/hero/personImgPhone.png";
 
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgAppStore from "../assets/imgs/hero/appStore.webp";
@@ -45,34 +45,33 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogada Dra. Vasti Gomes",
+  name: "Advogado Glaydson Wagner",
   email: "contato", // Email desejado pelo cliente
-  domain: "vastigomes.com.br", // Sem "www"
+  domain: "gwagneradvocacia.com.br ", // Sem "www"
   phone: {
-    ddd: "15",
-    firstPart: "99706", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0951", // Apenas os 4 últimos números
+    ddd: "81",
+    firstPart: "98897", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5997", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Alameda das Azaléias, nª 409</p>
-      <p>Salão I, Jardim Simus, Sorocaba - SP</p>
-      <p>CEP 18055-183</p>
+      <p>Av. Engenheiro Domingos Ferreira, nº 1195</p>
+      <p>Bairro Boa Viagem Recife - PE</p>
+      <p>CEP 51111-020</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira</p>
-      <p>8h às 20h</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "vastigomes.adv", // Sem o @
-  facebookProfile:
-    "vasti.gomesdasilva",
-  linkeDinProfile: "vasti-gomes-972578215/?originalSubdomain=br",
+  instagramProfile: "gwagner.advocacia", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -97,18 +96,19 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA CÍVEL E TRIBUTÁRIA EM SOROCABA - SP",
+      miniTag: "ADVOGADO EM RECIFE - PE",
       title: (
         <h1 className="mb-[16px]">
-          Justiça que cuida da sua história com empatia
+          Nos momentos mais difíceis,
+          <span className="text-primary"> você não estará sozinho</span>
         </h1>
       ),
       subtitle:
-        "Com a Dra. Vasti Gomes, você recebe assessoria jurídica especializada e humanizada para aposentados e pensionistas.",
+        "Justiça não é sorte, é estratégia. Com experiência e dedicação, viramos o jogo a favor dos nossos clientes.",
       heroImg: heroImg,
       personImg: personImg,
       personImgPhone: personImgPhone,
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Inicie sua defesa",
       obsHero: {
         icon: (
           <svg
@@ -128,7 +128,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online e presencial",
+        text: "Atendimento online e 24h para flagrantes e acompanhamento à delegacias",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -169,15 +169,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Expertise em Direito Cível e Tributário",
-      subtitle: "Estratégias jurídicas poderosas para garantir seus direitos.",
+      miniTag: "ESPECIALIDADES",
+      title: "Proteção nos seus momentos mais críticos",
+      subtitle:
+        "Estamos ao seu lado quando você precisa de segurança e confiança.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Contratos e Obrigações",
-        subtitle: "Assessoria e soluções em contratos e responsabilidades.",
+        title: "Criminal",
+        subtitle: "Defesa estratégica em crimes e investigações.",
         description: (
           <div>
             A_Definir
@@ -198,12 +199,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scroll-text"
+            class="lucide lucide-shield-alert"
           >
-            <path d="M15 12h-5" />
-            <path d="M15 8h-5" />
-            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
-            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M12 8v4" />
+            <path d="M12 16h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -211,8 +211,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Família e Sucessões",
-        subtitle: "Resolução de conflitos familiares e questões sucessórias.",
+        title: "Trabalhista",
+        subtitle: "Proteção aos direitos de empregados e empresas.",
         description: (
           <div>
             A_Definir
@@ -233,12 +233,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-gavel"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -246,8 +247,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Planejamento Tributário",
-        subtitle: "Estratégias jurídicas para otimizar a carga tributária.",
+        title: "Flagrante e Custódia",
+        subtitle: "Atuação imediata em prisões e audiências.",
         description: (
           <div>
             A_Definir <br />
@@ -267,11 +268,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-banknote"
+            class="lucide lucide-cctv"
           >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
+            <path d="M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97" />
+            <path d="M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3z" />
+            <path d="M2 19h3.76a2 2 0 0 0 1.8-1.1L9 15" />
+            <path d="M2 21v-4" />
+            <path d="M7 9h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -279,8 +282,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Contencioso Tributário",
-        subtitle: "Defesa contra tributos indevidos e cobrança excessiva.",
+        title: "Cível",
+        subtitle: "Soluções jurídicas para conflitos e contratos.",
         description: (
           <div>
             A_Definir
@@ -301,13 +304,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            class="lucide lucide-scale"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -392,71 +395,69 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. VASTI GOMES",
+      miniTag: "QUEM É O DR. GLAYDSON WAGNER",
       title: "Minha trajetória",
-      subtitle: "Dedicação exclusiva a quem precisa de uma defensora.",
+      subtitle:
+        "Advogado criminalista desde 2012, especializado em Direito Penal e Processual Penal, com atuação em grandes contenciosos.",
       paragraph: (
         <div>
-          Iniciei minha jornada na advocacia com um propósito claro: ser mais do
-          que uma simples advogada, mas uma parceira verdadeira para meus
-          clientes. Acredito que a justiça não está apenas em ganhar processos,
-          mas em transformar a vida das pessoas, oferecendo soluções que
-          realmente façam diferença.
+          Minha jornada na advocacia começou em 2012, e desde então, tenho me
+          dedicado ao Direito Penal e Processual Penal, áreas que escolhi pela
+          intensidade e pela luta constante pela justiça.
           <br />
-          Especializei-me em Isenção e Restituição do Imposto de Renda para
-          Aposentados e Pensionistas com Doenças Graves, porque entendo
-          profundamente a complexidade que envolve não só a luta contra a
-          doença, mas também os desafios financeiros que surgem no caminho.
+          Ao longo dos anos, tive a oportunidade de atuar em grandes
+          contenciosos cíveis e trabalhistas, sempre buscando a melhor solução
+          para os casos que me foram confiados.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Iniciei minha jornada na advocacia com um propósito claro: ser mais do
-          que uma simples advogada, mas uma parceira verdadeira para meus
-          clientes. Acredito que a justiça não está apenas em ganhar processos,
-          mas em transformar a vida das pessoas, oferecendo soluções que
-          realmente façam diferença.
+          Minha jornada na advocacia começou em 2012, e desde então, tenho me
+          dedicado ao Direito Penal e Processual Penal, áreas que escolhi pela
+          intensidade e pela luta constante pela justiça.
           <br />
           <br />
-          Especializei-me em Isenção e Restituição do Imposto de Renda para
-          Aposentados e Pensionistas com Doenças Graves, porque entendo
-          profundamente a complexidade que envolve não só a luta contra a
-          doença, mas também os desafios financeiros que surgem no caminho.
+          Ao longo dos anos, tive a oportunidade de atuar em grandes
+          contenciosos cíveis e trabalhistas, sempre buscando a melhor solução
+          para os casos que me foram confiados.
           <br />
           <br />
-          Meu escritório reflete essa visão – um espaço moderno, acessível e
-          acolhedor, onde a confiança, o respeito e o sigilo são fundamentais.
-          Eu trato cada cliente de maneira única, com a atenção e dedicação que
-          merecem, buscando sempre entender suas necessidades e oferecer o
-          melhor suporte jurídico.
+          Para mim, cada cliente representa mais do que um processo: é uma
+          chance de corrigir um erro e garantir que a justiça seja feita,
+          especialmente para aqueles que se veem em situações de opressão e
+          dificuldade.
           <br />
           <br />
-          Com pós-graduação em Recuperação de Créditos Tributários e
-          Previdenciários e em Processo Civil, me dedico a trazer um
-          conhecimento técnico de excelência, sempre aliado a uma abordagem
-          empática.
+          Minha missão vai além de simplesmente aplicar a lei: eu me vejo como
+          um defensor da justiça, trabalhando incansavelmente para resgatar o
+          que foi injustamente tirado de meus clientes.
           <br />
           <br />
-          Compreendo que, muitas vezes, a saúde é uma batalha diária e, quando
-          os meus clientes precisam de ajuda, o suporte jurídico deve ser muito
-          mais do que técnico: deve ser humanizado, direto e eficaz.
+          Acredito que, ao entender profundamente cada caso e aplicar o
+          entendimento jurisprudencial dos tribunais superiores, como o STF e o
+          STJ, podemos chegar a soluções jurídicas personalizadas e eficazes.
           <br />
           <br />
-          Por isso, foco em questões tributárias que afetam diretamente
-          aposentados e pensionistas, oferecendo soluções jurídicas que visam
-          aliviar o peso financeiro dessas pessoas, que, além de lidarem com a
-          saúde, ainda enfrentam encargos que podem ser insustentáveis.
+          Meu compromisso é garantir que cada cliente receba a atenção e a
+          defesa que merece, com uma abordagem individualizada, focada nos
+          resultados.
           <br />
           <br />
-          Para mim, ética, confiança e compromisso com a verdade são valores
-          essenciais. Cada pessoa que me procura sabe que encontrará não só a
-          melhor solução jurídica, mas também alguém que os escuta, compreende
-          suas dores e oferece respostas claras.
+          No meu escritório, a comunicação é direta e acessível. Entendo que,
+          muitas vezes, o jargão jurídico pode ser um obstáculo, e por isso me
+          esforço para que todos os envolvidos compreendam cada etapa do
+          processo de forma clara e objetiva.
           <br />
           <br />
-          Meu trabalho não é apenas sobre ganhar casos, mas sobre fazer a
-          diferença na vida daqueles com quem tenho a honra de trabalhar.
+          Meu trabalho não é apenas técnico, mas também uma parceria, onde meu
+          cliente sabe que estou ao seu lado, pronto para lutar pelos seus
+          direitos com empatia e total dedicação.
+          <br />
+          <br />
+          Se você busca um advogado comprometido com sua causa, com experiência
+          e um olhar moderno sobre o Direito, estou à disposição para ajudá-lo a
+          resolver suas questões jurídicas de forma estratégica e eficaz.
           <br />
           <br />
         </p>
@@ -526,7 +527,8 @@ const content = {
     blog: {
       miniTag: "BLOG",
       title: "Informação jurídica ao seu alcance",
-      subtitle: "",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
         "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",

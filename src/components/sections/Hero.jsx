@@ -27,13 +27,14 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     </div>
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
-                    <div className="text-black flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                    <div className="text-white flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                       <h1 className="">{content.texts.hero.title}</h1>
                     </div>
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                      <p className="text-black mb-[32px] opacity-80">
+                      <p className="text-white mb-[32px] opacity-80">
+
                         {content.texts.hero.subtitle}
                       </p>
                     </div>
@@ -53,7 +54,8 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <div className="flex justify-center desktop1:justify-start">
                         <div className="flex flex-col items-center desktop1:flex-row text-primary">
                           {content.texts.hero.obsHero.icon}
-                          <p className="text-black opacity-80 ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                          <p className="text-white opacity-80 ml-[10px] text-center mt-[12px] desktop1:mt-0">
+
                             {content.texts.hero.obsHero.text}
                           </p>
                         </div>
@@ -62,7 +64,8 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     {appDownloadButtons && (
                       <MotionDivDownToUp>
                         <div className="flex flex-col items-center desktop1:items-start">
-                          <p className="mb-[20px] mt-[60px] text-black opacity-80 text-center">
+                          <p className="mb-[20px] mt-[60px] text-white opacity-80 text-center">
+
                             {content.texts.hero.app.description}
                           </p>
                           <div className="">
@@ -103,14 +106,13 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     )}
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
       ) : personImg ? (
         <div
-          className="w-full bg-top bg-repeat bg-cover font-mainFont"
+          className="w-full bg-top bg-repeat bg-black bg-cover font-mainFont desktop1:pt-[45px]"
           id="home"
           style={{ backgroundImage: `url(${content.texts.hero.heroImg})` }}
         >
@@ -127,13 +129,13 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     </div>
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
-                    <div className="text-black flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                    <div className="text-white flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                       <h1 className="">{content.texts.hero.title}</h1>
                     </div>
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                      <p className="text-black mb-[32px] opacity-80">
+                      <p className="text-white mb-[32px] opacity-80">
                         {content.texts.hero.subtitle}
                       </p>
                     </div>
@@ -150,10 +152,10 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       />
                     </div>
                     <MotionDivDownToUp>
-                      <div className="flex justify-center desktop1:justify-start">
+                      <div className="flex justify-center desktop1:justify-start pb-[36px]">
                         <div className="flex flex-col items-center desktop1:flex-row text-primary">
                           {content.texts.hero.obsHero.icon}
-                          <p className="text-black opacity-80 ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                          <p className="text-white opacity-80 ml-[10px] text-center mt-[12px] desktop1:mt-0">
                             {content.texts.hero.obsHero.text}
                           </p>
                         </div>
@@ -208,18 +210,20 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     <img
                       src={content.texts.hero.personImg}
                       className="relative hidden desktop1:right-10 desktop1:flex"
+                      alt="Foto do advogado"
                     ></img>
                     <img
                       src={content.texts.hero.personImgPhone}
                       className="h-[100%]  relative desktop1:hidden"
+                      alt="Foto do advogado"
                     ></img>
                     {/* <div
-                 className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-primary"
-                 style={{
-                   backgroundImage: `url(${content.texts.hero.heroImg})`,
-                   backgroundSize: "",
-                 }}
-               ></div> */}
+                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-primary"
+                  style={{
+                    backgroundImage: `url(${content.texts.hero.heroImg})`,
+                    backgroundSize: "",
+                  }}
+                ></div> */}
                   </MotionDivDownToUp>
                 </div>
               </div>

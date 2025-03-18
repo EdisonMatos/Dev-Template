@@ -28,6 +28,7 @@ function BlogPosts() {
             sectionHeaderSubtitle={content.texts.blog.subtitle}
             color=""
             titleColorSet="text-lighter"
+            subtitleColorSet="text-lighter"
             type=""
           />
           <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
