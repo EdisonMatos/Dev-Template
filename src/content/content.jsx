@@ -369,10 +369,10 @@ const content = {
           justa e favorável aos clientes.
           <br />
           <br />
-          Ao longo de mais de uma década, a Protásio Lima consolidou sua atuação
-          na assessoria jurídica de mercados, financeiras e instituições de
-          ensino, sempre com foco na prevenção de passivos e mitigação de riscos
-          legais.
+          Ao longo de mais de uma década, a <strong>Protásio Lima </strong>
+          consolidou sua atuação na assessoria jurídica de mercados, financeiras
+          e instituições de ensino, sempre com foco na prevenção de passivos e
+          mitigação de riscos legais.
           <br />
           <br />
           Nosso compromisso é garantir que empresas tenham segurança jurídica,
