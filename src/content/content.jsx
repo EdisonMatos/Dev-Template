@@ -41,27 +41,29 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Protásio Lima Advocacia e Consultoria",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "protasiolima.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "71",
+    firstPart: "98694", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9089", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Edifício Lena empresarial</p>
+      <p>
+        Pituba. 7 andar, sala 705 <br /> Salvador - BA
+      </p>
+      <p>CEP 41810-011</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Segunda à sexta-feira</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
