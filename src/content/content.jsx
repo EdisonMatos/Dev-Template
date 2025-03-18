@@ -9,6 +9,8 @@ import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import personImg from "../assets/imgs/hero/personPhone.png";
+import personImgPhoneImg from "../assets/imgs/hero/personImgPhone.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -97,16 +99,16 @@ const content = {
       miniTag: "ADVOGADO EM SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          Protegemos seu negócio, defendemos seus direitos
-          <span className="text-primary">
-            {" "}
-            - Assessoria estratégica para empresas e pessoas
-          </span>
+          Protegemos seu negócio,{" "}
+          <span className="text-primary">defendemos</span> seus direitos
         </h1>
       ),
       subtitle:
         "Compreendemos os desafios da insegurança jurídica e oferecemos soluções que protegem seu negócio e reduzem riscos.",
       heroImg: heroImg,
+      heroImg: heroImg,
+      personImg: personImg,
+      personImgPhone: personImgPhoneImg,
       ctaButtonText: "Solicite uma consultoria estratégica",
       obsHero: {
         icon: (
@@ -466,19 +468,23 @@ const content = {
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
-          answer: "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
-          answer: "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
           question: "Quais documentos devo levar para a consulta?",
-          answer: "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
           question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer: "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

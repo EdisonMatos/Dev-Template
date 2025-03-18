@@ -94,7 +94,7 @@ export default function NavbarSocial({ LightMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer w-[60%] phone3:w-[70%] tablet1:w-[50%] tablet2:w-[35%] desktop1:w-[40%] desktop2:max-w-[300px]"
+            className="cursor-pointer w-[45%] phone2:w-[50%] phone3:w-[45%] tablet1:w-[30%] tablet2:w-[25%] desktop1:w-[25%] desktop2:max-w-[200px]"
             spy={true}
             smooth={true}
             duration={500}
