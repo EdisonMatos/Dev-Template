@@ -94,16 +94,19 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Protegemos seu negócio, defendemos seus direitos
+          <span className="text-primary">
+            {" "}
+            - Assessoria estratégica para empresas e pessoas
+          </span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle: "Compreendemos os desafios da insegurança jurídica e oferecemos soluções que protegem seu negócio e reduzem riscos.",
       heroImg: heroImg,
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Solicite uma consultoria estratégica",
       obsHero: {
         icon: (
           <svg
@@ -123,7 +126,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
