@@ -99,12 +99,12 @@ const content = {
       miniTag: "ADVOGADO EM SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          Protegemos seu negócio,{" "}
-          <span className="text-primary">defendemos</span> seus direitos
+          Direitos não são favor,{" "}
+          <span className="text-primary">são conquistas</span>
         </h1>
       ),
       subtitle:
-        "Compreendemos os desafios da insegurança jurídica e oferecemos soluções que protegem seu negócio e reduzem riscos.",
+        "Entenda como ajudamos nossos clientes a superar desafios jurídicos e garantir a resolução que merecem.",
       heroImg: heroImg,
       heroImg: heroImg,
       personImg: personImg,
