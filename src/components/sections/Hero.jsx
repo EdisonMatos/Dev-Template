@@ -112,7 +112,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
         </div>
       ) : personImg ? (
         <div
-          className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-[#2322BB] desktop1:pt-[45px]"
+          className="w-full bg-center bg-repeat bg-cover font-mainFont bg-gradient-to-b from-[#000000] to-[#2322BB] desktop1:pt-[45px]"
           id="home"
           style={{ backgroundImage: `url(${content.texts.hero.heroImg})` }}
         >
