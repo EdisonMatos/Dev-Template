@@ -14,6 +14,9 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import BlogPosts from "../components/sections/BlogPosts";
 
+
+// comentario para solucionar conflito
+
 export default function Index() {
   return (
     <div>
