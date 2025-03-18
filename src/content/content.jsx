@@ -332,33 +332,57 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A PROTÁSIO LIMA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Segurança jurídica e estratégia para relações trabalhistas sólidas.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Em 2010, Alan Protásio Lima enfrentou um dos maiores desafios de sua
+          vida profissional: após anos de dedicação ao próprio negócio, viu sua
+          empresa falir devido a um erro técnico de uma assessoria jurídica.
+          <br />A experiência o levou a uma nova missão – entender profundamente
+          as complexidades do Direito do Trabalho para que outras empresas não
+          passassem pelo mesmo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Em 2010, Alan Protásio Lima enfrentou um dos maiores desafios de sua
+          vida profissional: após anos de dedicação ao próprio negócio, viu sua
+          empresa falir devido a um erro técnico de uma assessoria jurídica.
           <br />
           <br />
-          A_Definir
+          A experiência o levou a uma nova missão – entender profundamente as
+          complexidades do Direito do Trabalho para que outras empresas não
+          passassem pelo mesmo.
           <br />
           <br />
-          A_Definir
+          Desde então, especializou-se em compliance trabalhista, direito
+          individual e coletivo do trabalho e processo do trabalho,
+          desenvolvendo estratégias para aplicar a CLT de forma inteligente,
+          justa e favorável aos clientes.
           <br />
           <br />
-          A_Definir
+          Ao longo de mais de uma década, a Protásio Lima consolidou sua atuação
+          na assessoria jurídica de mercados, financeiras e instituições de
+          ensino, sempre com foco na prevenção de passivos e mitigação de riscos
+          legais.
+          <br />
+          <br />
+          Nosso compromisso é garantir que empresas tenham segurança jurídica,
+          previsibilidade e soluções estratégicas para suas relações
+          trabalhistas, protegendo seus negócios de litígios desnecessários.
+          <br />
+          <br />
+          Acreditamos que um ambiente de trabalho seguro e juridicamente bem
+          estruturado é a chave para o crescimento sustentável e tranquilo de
+          qualquer empresa.
           <br />
           <br />
         </p>
