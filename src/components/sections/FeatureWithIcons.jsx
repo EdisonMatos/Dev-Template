@@ -21,14 +21,14 @@ export default function FeaturesWithIcons() {
         color=""
       />
       <SectionWrapper>
-        <div className="flex flex-col items-center w-full tablet1:flex-row tablet1:justify-between gap-x-[10%] px-[4%] desktop1:gap-x-0 desktop1:px-0">
-          <div className="col1 tablet1:w-[50%] desktop1:w-[28%]">
-            <MotionDivDownToUp>
+        <div className="flex  desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between gap-x-[10%] px-[4%] desktop1:gap-x-0 desktop1:px-0">
+          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-end">
+            <MotionDivDownToUp className="">
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
-                className="tablet1:mb-[46px] desktop1:mb-0 desktop2:mb-[46px]"
+                className="tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] "
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -42,20 +42,20 @@ export default function FeaturesWithIcons() {
 
           <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
             <div
-              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover"
+              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-primary/50"
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
             ></div>
           </MotionDivDownToUp>
 
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%]">
+          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-start">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card3.icon}
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
-                className="tablet1:mb-[46px] desktop1:mb-0 desktop2:mb-[46px]"
+                className="tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px]"
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>

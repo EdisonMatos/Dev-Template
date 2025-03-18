@@ -4,9 +4,9 @@ export const theme = {
   extend: {
     colors: {
       primary: "#DBB14C",
-      secondary: "#1C1A1F",
+      secondary: "#000922",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#182337",
+      bgSectionDark: "#060916",
       links: "#0189BB",
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",

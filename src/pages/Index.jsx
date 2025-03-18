@@ -41,7 +41,7 @@ export default function Index() {
       />
       <Cta />
       <Steps />
-       <BlogPosts />
+       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
         addres={true}
