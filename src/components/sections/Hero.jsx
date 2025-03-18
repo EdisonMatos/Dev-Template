@@ -33,7 +33,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                      <p className="text-white mb-[32px] opacity-80">
+                      <p className="text-white mb-[32px] ">
 
                         {content.texts.hero.subtitle}
                       </p>
@@ -54,7 +54,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <div className="flex justify-center desktop1:justify-start">
                         <div className="flex flex-col items-center desktop1:flex-row text-primary">
                           {content.texts.hero.obsHero.icon}
-                          <p className="text-white opacity-80 ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
 
                             {content.texts.hero.obsHero.text}
                           </p>
@@ -64,7 +64,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     {appDownloadButtons && (
                       <MotionDivDownToUp>
                         <div className="flex flex-col items-center desktop1:items-start">
-                          <p className="mb-[20px] mt-[60px] text-white opacity-80 text-center">
+                          <p className="mb-[20px] mt-[60px] text-white  text-center">
 
                             {content.texts.hero.app.description}
                           </p>
@@ -74,7 +74,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                               <a
                                 href={content.texts.hero.app.imgs.appStore.link}
                                 target="_blank"
-                                className="transition hover:scale-110 opacity-80 invert"
+                                className="transition hover:scale-110  invert"
                               >
                                 <img
                                   src={content.texts.hero.app.imgs.appStore.img}
@@ -87,7 +87,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                                   content.texts.hero.app.imgs.playStore.link
                                 }
                                 target="_blank"
-                                className="transition hover:scale-110 opacity-80 invert"
+                                className="transition hover:scale-110  invert"
                               >
                                 <img
                                   src={
@@ -135,7 +135,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                      <p className="text-white mb-[32px] opacity-80">
+                      <p className="text-white mb-[32px] ">
                         {content.texts.hero.subtitle}
                       </p>
                     </div>
@@ -155,7 +155,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <div className="flex justify-center desktop1:justify-start pb-[36px]">
                         <div className="flex flex-col items-center desktop1:flex-row text-primary">
                           {content.texts.hero.obsHero.icon}
-                          <p className="text-white opacity-80 ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                             {content.texts.hero.obsHero.text}
                           </p>
                         </div>
@@ -164,7 +164,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     {appDownloadButtons && (
                       <MotionDivDownToUp>
                         <div className="flex flex-col items-center desktop1:items-start">
-                          <p className="mb-[20px] mt-[60px] text-black opacity-80 text-center">
+                          <p className="mb-[20px] mt-[60px] text-black  text-center">
                             {content.texts.hero.app.description}
                           </p>
                           <div className="">
@@ -173,7 +173,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                               <a
                                 href={content.texts.hero.app.imgs.appStore.link}
                                 target="_blank"
-                                className="transition hover:scale-110 opacity-80 invert"
+                                className="transition hover:scale-110  invert"
                               >
                                 <img
                                   src={content.texts.hero.app.imgs.appStore.img}
@@ -186,7 +186,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                                   content.texts.hero.app.imgs.playStore.link
                                 }
                                 target="_blank"
-                                className="transition hover:scale-110 opacity-80 invert"
+                                className="transition hover:scale-110  invert"
                               >
                                 <img
                                   src={
@@ -232,7 +232,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
         </div>
       ) : (
         <div
-          className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-secondary"
+          className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-[#2322BB]"
           id="home"
         >
           <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
@@ -254,7 +254,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                      <p className="text-white mb-[32px] opacity-80">
+                      <p className="text-white mb-[32px] ">
                         {content.texts.hero.subtitle}
                       </p>
                     </div>
@@ -274,7 +274,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <div className="flex justify-center desktop1:justify-start">
                         <div className="flex flex-col items-center desktop1:flex-row text-primary">
                           {content.texts.hero.obsHero.icon}
-                          <p className="text-white opacity-80 ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                          <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                             {content.texts.hero.obsHero.text}
                           </p>
                         </div>
@@ -283,7 +283,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     {appDownloadButtons && (
                       <MotionDivDownToUp>
                         <div className="flex flex-col items-center desktop1:items-start">
-                          <p className="mb-[20px] mt-[60px] text-white opacity-80 text-center">
+                          <p className="mb-[20px] mt-[60px] text-white  text-center">
                             {content.texts.hero.app.description}
                           </p>
                           <div className="">
@@ -292,7 +292,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                               <a
                                 href={content.texts.hero.app.imgs.appStore.link}
                                 target="_blank"
-                                className="transition hover:scale-110 opacity-80 invert"
+                                className="transition hover:scale-110  invert"
                               >
                                 <img
                                   src={content.texts.hero.app.imgs.appStore.img}
@@ -305,7 +305,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                                   content.texts.hero.app.imgs.playStore.link
                                 }
                                 target="_blank"
-                                className="transition hover:scale-110 opacity-80 invert"
+                                className="transition hover:scale-110  invert"
                               >
                                 <img
                                   src={
