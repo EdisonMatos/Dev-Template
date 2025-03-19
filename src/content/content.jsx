@@ -148,15 +148,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções jurídicas pensadas para você",
+      subtitle:
+        "Compreendemos seus desafios e oferecemos a melhor defesa para cada situação.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Família",
+        subtitle:
+          "Protegemos seus laços e seus direitos nos momentos difíceis.",
         description: (
           <div>
             A_Definir
@@ -183,8 +185,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Criminal",
+        subtitle: "Sua liberdade e direitos protegidos com experiência e dedicação.",
         description: (
           <div>
             A_Definir
@@ -211,8 +213,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Trabalhista e Tributário",
+        subtitle: "Seus direitos no trabalho e suas finanças em boas mãos.",
         description: (
           <div>
             A_Definir <br />
@@ -238,8 +240,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Cível",
+        subtitle: "Resolvemos seus conflitos contratuais para que você siga em frente.",
         description: (
           <div>
             A_Definir
