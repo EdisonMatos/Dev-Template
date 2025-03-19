@@ -106,14 +106,15 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "CONSULTORIA E CAPACITAÇÃO EM PORTO ALEGRE - RS",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Cursos para fortalecer
+          <span className="text-primary"> mandatos e gestão pública</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Capacitação prática e estratégica para vereadores e prefeitos, garantindo conformidade e eficiência.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -135,7 +136,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Cursos presenciais",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
