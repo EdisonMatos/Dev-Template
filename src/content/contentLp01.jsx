@@ -130,11 +130,11 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: `A_Definir`,
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Receba a pensão alimentícia que seu filho merece!",
+      subtitle: `Seu filho tem direito a um suporte financeiro adequado. Se o outro responsável não está cumprindo com essa obrigação, podemos te ajudar a buscar a pensão alimentícia de forma justa e eficaz. Não deixe essa responsabilidade para depois—entre em contato e saiba como agir!`,
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Pedir pensão agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
