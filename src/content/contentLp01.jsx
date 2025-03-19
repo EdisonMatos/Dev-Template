@@ -77,16 +77,22 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PENSÃO ALIMENTÍCIA JUSTA",
+      title: "Solução definitiva para pensão alimentícia",
     },
     paragraph: (
       <p>
-        A_Definir <br />
-        <br /> A_Definir
+        Questões envolvendo pensão alimentícia podem ser desafiadoras, mas estou
+        aqui para garantir que seus direitos sejam respeitados. Se você está
+        buscando o valor justo para o sustento de seus filhos ou do ex-cônjuge,
+        atuo de forma ágil e eficaz para buscar a solução adequada para o seu
+        caso.
+        <br />
+        <br /> Minha missão é assegurar que você receba o que é justo. Entre em
+        contato e saiba como posso ajudar!
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Exija a pensão alimentícia que você merece!",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
