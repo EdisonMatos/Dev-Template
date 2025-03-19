@@ -179,7 +179,8 @@ const contentLp01 = {
         </svg>
       ),
       title: "Email",
-      description: `${infos.email}@${infos.domain}`,
+      // description: `${infos.email}@${infos.domain}`,
+      description: "assessoriajuridica@martinsadvogadas.adv.br",
     },
     card3: {
       icon: (
