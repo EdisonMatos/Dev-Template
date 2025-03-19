@@ -20,17 +20,21 @@ const contentLp01 = {
     },
     textArea: {
       title: (
-        <h1>
-          <span className="text-lpTitle">Aposentado ou pensionista</span>sabia
-          que você pode ter direito à
-          <span className="text-lpTitle">isenção do Imposto de Renda?</span>
+        <h1 className="text-primary">
+          <span className="text-lpTitle text-white">
+            Enfrentando problemas com{" "}
+          </span>
+          pensão alimentícia?
+          <span className="text-lpTitle text-white">
+            Entenda seus direitos e como resolver!
+          </span>
         </h1>
       ),
       subtitle:
-        "Se você tem uma doença grave, pode garantir a isenção ou restituição do Imposto de Renda. Descubra seus direitos com uma advogada especializada.",
-      buttonLabel: "Solicite sua isenção agora!",
+        "Cada situação é única, mas seus direitos são garantidos. Conte com um advogado para buscar o que é justo para você e sua família.",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
+      buttonLabel: "Receba a pensão que você merece!",
     },
   },
   features: {
