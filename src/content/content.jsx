@@ -320,9 +320,10 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DOMINUS CURSOS",
+      title: "Nossa trajetória",
+      subtitle:
+        "Capacitando políticos e gestores para uma administração pública eficiente e ética.",
 
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
@@ -330,24 +331,45 @@ const content = {
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          A Dominus Cursos nasceu para capacitar políticos e agentes públicos a
+          exercerem seus mandatos com excelência.
           <br />
-          A_Definir
+          Criada por profissionais experientes no meio legislativo, nossa missão
+          é oferecer conhecimento prático e estratégico para vereadores,
+          prefeitos e assessores, ajudando-os a tomar decisões assertivas e
+          captar recursos essenciais para suas cidades.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A Dominus Cursos nasceu para capacitar políticos e agentes públicos a
+          exercerem seus mandatos com excelência.
           <br />
           <br />
-          A_Definir
+          Criada por profissionais experientes no meio legislativo, nossa missão
+          é oferecer conhecimento prático e estratégico para vereadores,
+          prefeitos e assessores, ajudando-os a tomar decisões assertivas e
+          captar recursos essenciais para suas cidades.
           <br />
           <br />
-          A_Definir
+          Acreditamos que políticos bem preparados geram impacto positivo,
+          trabalham com transparência e transformam a realidade local.
           <br />
           <br />
-          A_Definir
+          Por isso, além de cursos presenciais, oferecemos suporte contínuo e
+          consultoria personalizada, auxiliando na elaboração de projetos,
+          captação de recursos e gestão eficiente.
+          <br />
+          <br />
+          Nosso diferencial está na experiência prática dos instrutores e em uma
+          abordagem direta, sem burocracia.
+          <br />
+          <br />
+          Com treinamentos constantemente atualizados, garantimos que nossos
+          alunos desenvolvam habilidades aplicáveis ao dia a dia político,
+          tornando-se líderes capacitados para enfrentar desafios e transformar
+          suas cidades.
           <br />
           <br />
         </p>
