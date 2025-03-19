@@ -230,7 +230,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
         </div>
       ) : (
         <div
-          className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-[#7F1718]"
+          className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-bgSectionDark"
           id="home"
         >
           <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">

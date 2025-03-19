@@ -6,7 +6,7 @@ export const theme = {
       primary: "#F0E6A3",
       secondary: "#3C0001",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#182337",
+      bgSectionDark: "#7F1718",
       links: "#0189BB",
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",
