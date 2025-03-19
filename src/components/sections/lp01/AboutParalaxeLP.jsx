@@ -5,8 +5,11 @@ import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
+import { useNavigate } from "react-router-dom";
 
 export default function AboutParalaxeLP({ logo }) {
+  const navigate = useNavigate();
+
   return (
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
@@ -21,7 +24,7 @@ export default function AboutParalaxeLP({ logo }) {
           <SectionArea>
             <SectionWrapper>
               <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[80px]">
-              <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-start">
+                <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-start">
                   {/* Logo */}
                   {logo ? (
                     <img
@@ -56,9 +59,11 @@ export default function AboutParalaxeLP({ logo }) {
                   <MotionDivDownToUp>
                     <div className="w-full">
                       <Button
-                        aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
+                        aria-label={
+                          contentLp01.hero.textArea.ctaButtonAriaLabel
+                        }
                         label={contentLp01.about.buttonLabel}
-                        buttonLink={contentLp01.links.ctaWhatsapp}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className=""
                         icon={
