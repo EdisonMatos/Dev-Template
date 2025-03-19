@@ -92,16 +92,17 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM FRANCO DA ROCHA - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Cada caso é único,
+          <span className="text-primary"> e o seu é nossa prioridade</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "De situações difíceis a vitórias concretas: ajudamos você a superar obstáculos com confiança.",
       heroImg: heroImg,
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Fale conosco",
       obsHero: {
         icon: (
           <svg
@@ -121,7 +122,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento online para todo o Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
