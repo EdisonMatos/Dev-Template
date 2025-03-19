@@ -3,10 +3,13 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
+import { useNavigate } from "react-router-dom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
+  const navigate = useNavigate();
+
   return (
     <>
       {fundoImage ? (
@@ -44,7 +47,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        buttonLink={whatsappContactLink}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}
@@ -143,7 +146,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        buttonLink={whatsappContactLink}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}
@@ -262,7 +265,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        buttonLink={whatsappContactLink}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}
