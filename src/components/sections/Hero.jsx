@@ -47,7 +47,8 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        onClick={() => navigate("/whatsapp")}
+                        // onClick={() => navigate("/whatsapp")}
+                        buttonLink={whatsappContactLink}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}
@@ -146,7 +147,8 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        onClick={() => navigate("/whatsapp")}
+                        // onClick={() => navigate("/whatsapp")}
+                        buttonLink={whatsappContactLink}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}
@@ -265,7 +267,8 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        onClick={() => navigate("/whatsapp")}
+                        // onClick={() => navigate("/whatsapp")}
+                        buttonLink={whatsappContactLink}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}

@@ -68,7 +68,8 @@ export default function About({ modal = "true" }) {
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
             label={content.texts.about.ctaButtonText}
-            onClick={() => navigate("/whatsapp")}
+            // onClick={() => navigate("/whatsapp")}
+            buttonLink={whatsappContactLink}
             animation={false}
             className="hover:scale-105"
             icon={<FaWhatsapp size={24} />}
