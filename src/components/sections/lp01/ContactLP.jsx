@@ -21,6 +21,11 @@ export default function ContactLP() {
               description={contentLp01.contact.card3.description}
             />
             <ContactCardLP
+              label={contentLp01.contact.card3.title}
+              icon={contentLp01.contact.card3.icon}
+              description="(11) 96018-6794"
+            />
+            <ContactCardLP
               label={contentLp01.contact.card2.title}
               icon={contentLp01.contact.card2.icon}
               description={contentLp01.contact.card2.description}
