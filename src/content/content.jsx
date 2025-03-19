@@ -41,32 +41,46 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dominus Cursos",
   email: "contato", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "dominusconsultoria.com", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "51",
+    firstPart: "99732", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8822", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Escritório:</p>
+      <p>Rua General Andrade Neves,</p>
+      <p>nº 90 - Sala 37, Centro Histórico.</p>
+      <p>Porto Alegre - RS,</p>
+      <p>CEP: 90010-210</p>
+
+      <br />
+      <br />
+
+      <p>Escritório:</p>
+      <p>Treinamento</p>
+      <p>Hotel Intercity Praia de Belas - </p>
+      <p>Avenida Borges de Medeiros,</p>
+      <p>nº 2145 - Praia de Belas</p>
+      <p>Porto Alegre - RS,</p>
+      <p>CEP 90110-150,</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Segunda à sexta-feira</p>
+      <p>9h às 12h</p>
+      <p>14h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "dominus.cursos", // Sem o @
+  facebookProfile: "profile.php?id=61571893823953",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
