@@ -1,6 +1,10 @@
 import bgImg from "../assets/imgs/hero/bgHeroLp.jpg";
 import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
+import { Baby } from "lucide-react";
+import { Users } from "lucide-react";
+import { Link } from "lucide-react";
+import { Accessibility } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -45,25 +49,25 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: "A_Definir",
+        icon: <Baby />,
         title: "Filhos menores de idade",
         description:
           "Quando os filhos são menores, ambos os pais têm a responsabilidade de prover seu sustento. A pensão alimentícia garante que as necessidades básicas sejam atendidas.",
       },
       card2: {
-        icon: "A_Definir",
+        icon: <Link />,
         title: "Filhos maiores de idade em dependência",
         description:
           "Mesmo após a maioridade, filhos que ainda dependem financeiramente dos pais por motivo de estudos ou saúde podem solicitar pensão alimentícia.",
       },
       card3: {
-        icon: "A_Definir",
+        icon: <Users />,
         title: "Ex-cônjuge em situação de necessidade",
         description:
           "Em casos de separação, o cônjuge que não tem condições de se manter pode solicitar pensão alimentícia, desde que comprove a necessidade.",
       },
       card4: {
-        icon: "A_Definir",
+        icon: <Accessibility />,
         title: "Pais com deficiência ou impossibilidade de trabalho",
         description:
           "Pais que não conseguem se sustentar devido a uma deficiência ou incapacidade temporária também podem ter direito a pensão alimentícia para garantir o seu bem-estar.",
