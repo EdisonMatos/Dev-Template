@@ -10,15 +10,20 @@ export default function ContactLP() {
         <SectionWrapper>
           <div className="mt-[60px] font-mainFont desktop1:flex desktop1:flex-wrap justify-center">
             {/* <h1 className="text-center mb-[16px]">Entre em contato</h1> */}
-            <ContactCardLP
+            {/* <ContactCardLP
               label={contentLp01.contact.card1.title}
               icon={contentLp01.contact.card1.icon}
               description={contentLp01.contact.card1.description}
-            />
+            /> */}
             <ContactCardLP
               label={contentLp01.contact.card3.title}
               icon={contentLp01.contact.card3.icon}
               description={contentLp01.contact.card3.description}
+            />
+            <ContactCardLP
+              label={contentLp01.contact.card3.title}
+              icon={contentLp01.contact.card3.icon}
+              description="(11) 96018-6794"
             />
             <ContactCardLP
               label={contentLp01.contact.card2.title}

@@ -3,8 +3,11 @@ import SectionWrapper from "../../animation/MotionDivDownToUp";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import contentLp01 from "../../../content/contentLp01";
+import { useNavigate } from "react-router-dom";
 
 export default function HeroLP({ fullImg }) {
+  const navigate = useNavigate();
+
   return fullImg ? (
     <div className="gradient-LP-Hero">
       <div
@@ -46,7 +49,7 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            buttonLink={contentLp01.links.ctaWhatsapp}
+                            onClick={() => navigate("/whatsapp")}
                             animation
                             className="w-[100%] "
                             icon={
@@ -116,7 +119,7 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            buttonLink={contentLp01.links.ctaWhatsapp}
+                            onClick={() => navigate("/whatsapp")}
                             animation
                             className="w-[100%] text-black"
                             icon={

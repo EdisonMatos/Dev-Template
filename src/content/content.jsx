@@ -9,8 +9,6 @@ import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-import personImg from "../assets/imgs/hero/personPhone.png";
-import personImgPhoneImg from "../assets/imgs/hero/personImgPhone.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -43,33 +41,31 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Protásio Lima Advocacia e Consultoria",
+  name: "Martins Advogadas",
   email: "contato", // Email desejado pelo cliente
-  domain: "protasiolima.com.br", // Sem "www"
+  domain: "martinsadvogadas.adv.br", // Sem "www"
   phone: {
-    ddd: "71",
-    firstPart: "98694", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9089", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "94570", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0551", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Edifício Lena empresarial</p>
-      <p>
-        Pituba. 7 andar, sala 705 <br /> Salvador - BA
-      </p>
-      <p>CEP 41810-011</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advogado.alanlima", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -96,20 +92,17 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SALVADOR - BA",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM FRANCO DA ROCHA - SP",
       title: (
         <h1 className="mb-[16px]">
-          Direitos não são favor,{" "}
-          <span className="text-primary">são conquistas</span>
+          Cada caso é único,
+          <span className="text-primary"> e o seu é nossa prioridade</span>
         </h1>
       ),
       subtitle:
-        "Entenda como ajudamos nossos clientes a superar desafios jurídicos e garantir a resolução que merecem.",
+        "De situações difíceis a vitórias concretas: ajudamos você a superar obstáculos com confiança.",
       heroImg: heroImg,
-      heroImg: heroImg,
-      personImg: personImg,
-      personImgPhone: personImgPhoneImg,
-      ctaButtonText: "Solicite uma consultoria estratégica",
+      ctaButtonText: "Fale conosco",
       obsHero: {
         icon: (
           <svg
@@ -129,7 +122,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil",
+        text: "Atendimento online para todo o Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -155,16 +148,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades que protegem o seu negócio",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções jurídicas pensadas para você",
       subtitle:
-        "Construindo segurança jurídica para empresas há mais de 10 anos.",
+        "Compreendemos seus desafios e oferecemos a melhor defesa para cada situação.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Individual do Trabalho",
-        subtitle: "Defesa dos direitos e deveres na relação empregatícia.",
+        title: "Família",
+        subtitle:
+          "Protegemos seus laços e seus direitos nos momentos difíceis.",
         description: (
           <div>
             A_Definir
@@ -174,6 +168,43 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-contact"
+          >
+            <path d="M16 2v2" />
+            <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
+            <path d="M8 2v2" />
+            <circle cx="12" cy="11" r="3" />
+            <rect x="3" y="4" width="18" height="18" rx="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: featuresImg2,
+        title: "Criminal",
+        subtitle:
+          "Sua liberdade e direitos protegidos com experiência e dedicação.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -197,46 +228,10 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card2: {
-        img: featuresImg2,
-        title: "Direito Cível",
-        subtitle: "Soluções jurídicas para contratos, bens e obrigações.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale"
-          >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
       card3: {
         img: featuresImg3,
-        title: "Direito Coletivo do Trabalho",
-        subtitle: "Negociações, acordos e defesa de categorias trabalhistas.",
+        title: "Trabalhista e Tributário",
+        subtitle: "Seus direitos no trabalho e suas finanças em boas mãos.",
         description: (
           <div>
             A_Definir <br />
@@ -256,13 +251,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake"
+            class="lucide lucide-briefcase-business"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -270,8 +264,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito do Consumidor",
-        subtitle: "Proteção contra abusos e conflitos em relações de consumo.",
+        title: "Cível",
+        subtitle:
+          "Resolvemos seus conflitos contratuais para que você siga em frente.",
         description: (
           <div>
             A_Definir
@@ -292,12 +287,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-scale"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -334,57 +330,65 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A PROTÁSIO LIMA",
+      miniTag: "QUEM É MARTINS ADVOGADAS",
       title: "Nossa trajetória",
-      subtitle:
-        "Segurança jurídica e estratégia para relações trabalhistas sólidas.",
+      subtitle: "Uma história de coragem, propósito e justiça ao seu lado.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Em 2010, Alan Protásio Lima enfrentou um dos maiores desafios de sua
-          vida profissional: após anos de dedicação ao próprio negócio, viu sua
-          empresa falir devido a um erro técnico de uma assessoria jurídica.
-          <br />A experiência o levou a uma nova missão – entender profundamente
-          as complexidades do Direito do Trabalho para que outras empresas não
-          passassem pelo mesmo.
+          Martins Advogadas nasceu da união de duas mulheres determinadas a
+          fazer a diferença no mundo jurídico: a Dra. Tatiana Martins, advogada
+          experiente e referência em Direito de Família, Civil e Trabalhista, e
+          Andrea Martins, acadêmica do último ano de Direito, com uma trajetória
+          marcada pela prática jurídica e sede de aprendizado, encontraram na
+          advocacia muito mais do que uma profissão, mas um propósito de vida.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Em 2010, Alan Protásio Lima enfrentou um dos maiores desafios de sua
-          vida profissional: após anos de dedicação ao próprio negócio, viu sua
-          empresa falir devido a um erro técnico de uma assessoria jurídica.
+          Martins Advogadas nasceu da união de duas mulheres determinadas a
+          fazer a diferença no mundo jurídico: a Dra. Tatiana Martins, advogada
+          experiente e referência em Direito de Família, Civil e Trabalhista, e
+          Andrea Martins, acadêmica do último ano de Direito, com uma trajetória
+          marcada pela prática jurídica e sede de aprendizado, encontraram na
+          advocacia muito mais do que uma profissão, mas um propósito de vida.
           <br />
           <br />
-          A experiência o levou a uma nova missão – entender profundamente as
-          complexidades do Direito do Trabalho para que outras empresas não
-          passassem pelo mesmo.
+          O caminho começou nos bastidores, na advocacia de apoio, onde a troca
+          de experiências e o trabalho conjunto foram fortalecendo a parceria.
           <br />
           <br />
-          Desde então, especializou-se em compliance trabalhista, direito
-          individual e coletivo do trabalho e processo do trabalho,
-          desenvolvendo estratégias para aplicar a CLT de forma inteligente,
-          justa e favorável aos clientes.
+          Mas, à medida que os desafios se tornavam mais complexos e as vitórias
+          mais significativas, perceberam que havia algo maior as unindo: a
+          crença inabalável na justiça e no poder transformador do Direito.
           <br />
           <br />
-          Ao longo de mais de uma década, a <strong>Protásio Lima </strong>
-          consolidou sua atuação na assessoria jurídica de mercados, financeiras
-          e instituições de ensino, sempre com foco na prevenção de passivos e
-          mitigação de riscos legais.
+          Martins Advogadas não é apenas um escritório, é um espaço onde cada
+          cliente é acolhido, ouvido e representado com dedicação. Aqui,
+          entendemos que por trás de cada processo existe uma história, uma
+          preocupação e um impacto real na vida das pessoas.
           <br />
           <br />
-          Nosso compromisso é garantir que empresas tenham segurança jurídica,
-          previsibilidade e soluções estratégicas para suas relações
-          trabalhistas, protegendo seus negócios de litígios desnecessários.
+          Nossa missão vai além da defesa jurídica – buscamos oferecer
+          segurança, clareza e soluções estratégicas para que cada cliente se
+          sinta amparado e confiante em cada etapa do seu caso.
           <br />
           <br />
-          Acreditamos que um ambiente de trabalho seguro e juridicamente bem
-          estruturado é a chave para o crescimento sustentável e tranquilo de
-          qualquer empresa.
+          Com ética, transparência e uma abordagem humanizada, trabalhamos para
+          garantir que nossos clientes tenham não apenas um suporte jurídico
+          qualificado, mas também uma parceria de confiança.
+          <br />
+          <br />
+          Seja qual for o desafio, estamos aqui para transformar angústia em
+          clareza, incerteza em segurança e dificuldades em soluções.
+          <br />
+          <br />
+          Porque cada caso merece ser tratado com seriedade, estratégia e, acima
+          de tudo, humanidade.
           <br />
           <br />
         </p>
@@ -397,15 +401,10 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
       },
     },
     cta: {
@@ -464,7 +463,7 @@ const content = {
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",

@@ -3,10 +3,13 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
+import { useNavigate } from "react-router-dom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
+  const navigate = useNavigate();
+
   return (
     <>
       {fundoImage ? (
@@ -44,7 +47,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        buttonLink={whatsappContactLink}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}
@@ -143,7 +146,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        buttonLink={whatsappContactLink}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}
@@ -230,7 +233,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
         </div>
       ) : (
         <div
-          className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-[#2322BB]"
+          className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-bgSectionDark"
           id="home"
         >
           <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
@@ -246,7 +249,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                     </div>
                   </MotionDivDownToUp>
                   <MotionDivDownToUp>
-                    <div className="text-white flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                    <div className="text-white flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title6">
                       <h1 className="">{content.texts.hero.title}</h1>
                     </div>
                   </MotionDivDownToUp>
@@ -262,7 +265,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                       <Button
                         aria-label={content.texts.hero.ctaButtonAriaLabel}
                         label={content.texts.hero.ctaButtonText}
-                        buttonLink={whatsappContactLink}
+                        onClick={() => navigate("/whatsapp")}
                         animation
                         className="w-[100%]"
                         icon={<FaWhatsapp size={24} />}
