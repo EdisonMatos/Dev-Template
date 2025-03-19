@@ -396,8 +396,10 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title: "Capacite-se agora para as demandas do mercado atual com nossa ajuda.",
-      subtitle: "Fale com nossa equipe e descubra como nossos cursos podem aprimorar seus conhecimentos e sua atuação no setor público.",
+      title:
+        "Capacite-se agora para as demandas do mercado atual com nossa ajuda.",
+      subtitle:
+        "Fale com nossa equipe e descubra como nossos cursos podem aprimorar seus conhecimentos e sua atuação no setor público.",
       ctaButtonText: "Garanta sua vaga agora",
     },
     steps: {
@@ -410,22 +412,26 @@ const content = {
         card1: {
           stepNumber: 1,
           cardTitle: "Escolha do curso",
-          cardDescription: "Selecione o curso que melhor atende às suas necessidades e desafios no setor público.",
+          cardDescription:
+            "Selecione o curso que melhor atende às suas necessidades e desafios no setor público.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Cadastro e acesso",
-          cardDescription: "Faça seu cadastro de forma rápida e simples e tenha acesso imediato ao conteúdo e às orientações para iniciar sua capacitação.",
+          cardDescription:
+            "Faça seu cadastro de forma rápida e simples e tenha acesso imediato ao conteúdo e às orientações para iniciar sua capacitação.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Capacitação especializada",
-          cardDescription: "Aulas ministradas por especialistas com conteúdo atualizado, abordando as práticas e legislações mais recentes do setor público.",
+          cardDescription:
+            "Aulas ministradas por especialistas com conteúdo atualizado, abordando as práticas e legislações mais recentes do setor público.",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "Aplicação prática",
-          cardDescription: "Ao final do curso, você estará pronto para aplicar o conhecimento adquirido, promovendo melhorias e soluções eficazes na gestão pública.",
+          cardDescription:
+            "Ao final do curso, você estará pronto para aplicar o conhecimento adquirido, promovendo melhorias e soluções eficazes na gestão pública.",
         },
       },
     },
@@ -441,26 +447,34 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
 
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Quais são os benefícios de investir na capacitação de gestores públicos?",
+          answer:
+            "A capacitação aprimora habilidades de liderança, gestão eficiente de recursos e implementação de políticas públicas eficazes, contribuindo para a melhoria dos serviços oferecidos à população.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Como posso selecionar o curso mais adequado às minhas necessidades profissionais?",
+          answer:
+            "Recomenda-se avaliar as áreas que necessitam de aprimoramento em sua atuação, considerando cursos que abordem temas relevantes ao seu contexto profissional e que ofereçam conteúdo atualizado e aplicável.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Quais são as modalidades de cursos disponíveis e qual é a mais indicada para mim?",
+          answer:
+            "Existem opções presenciais, online e híbridas. A escolha deve considerar sua disponibilidade de tempo, estilo de aprendizagem e necessidade de flexibilidade.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Como a capacitação pode impactar a eficiência na gestão pública?",
+          answer:
+            "Profissionais capacitados aplicam melhores práticas administrativas, otimizam processos e promovem transparência, resultando em serviços públicos de maior qualidade e confiança por parte da população.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
