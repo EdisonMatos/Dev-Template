@@ -32,19 +32,19 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} />
-      <AboutInstagram
+      {/* <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={false}
         linkedin={false}
         x={false}
-      />
+      /> */}
       <Cta />
       <Steps />
        {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
-        addres={true}
+        addres={false}
         instagram={true}
         facebook={true}
         linkedin={false}
@@ -57,4 +57,3 @@ export default function Index() {
   );
 }
 
-// comentario

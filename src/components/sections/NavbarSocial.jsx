@@ -6,10 +6,13 @@ import SidebarSocial from "../sectionElements/SidebarSocial";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function NavbarSocial({ LightMode }) {
+  const navigate = useNavigate();
+
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
   const [showSidebar, setShowSidebar] = useState(false);
@@ -103,7 +106,7 @@ export default function NavbarSocial({ LightMode }) {
           >
             <img
               src={content.texts.navbar.logo.img}
-              alt={content.texts.navbar.logo.alt} 
+              alt={content.texts.navbar.logo.alt}
               className={`${
                 LightMode
                   ? scrolling
@@ -124,7 +127,7 @@ export default function NavbarSocial({ LightMode }) {
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
-                buttonLink={whatsappContactLink}
+                onClick={() => navigate("/whatsapp")}
                 className={`${scrolling ? "" : ""}`}
                 size="small"
                 icon={<FaWhatsapp />}

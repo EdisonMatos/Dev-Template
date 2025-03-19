@@ -6,8 +6,11 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
 import content from "../../content/content";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
+import { useNavigate } from "react-router-dom";
 
 export default function Faq() {
+  const navigate = useNavigate();
+
   return (
     <div className="">
       <SectionArea id="faq" className="bg-neutral-100" paddingtop={false}>
@@ -31,7 +34,8 @@ export default function Faq() {
           </MotionDivDownToUp>
           <MotionDivDownToUp>
             <Paragraphs className="text-center underline transition text-secondary hover:scale-110">
-              <a href={content.texts.links.ctaWhatsapp} target="_blank">
+              <a href="/whatsapp" target="_blank" rel="noopener noreferrer">
+                {" "}
                 {content.texts.faq.paragraph}
               </a>
             </Paragraphs>
