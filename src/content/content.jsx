@@ -395,10 +395,10 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+      miniTag: "FALE CONOSCO",
+      title: "Capacite-se agora para as demandas do mercado atual com nossa ajuda.",
+      subtitle: "Fale com nossa equipe e descubra como nossos cursos podem aprimorar seus conhecimentos e sua atuação no setor público.",
+      ctaButtonText: "Garanta sua vaga agora",
     },
     steps: {
       miniTag: "A_Definir",
