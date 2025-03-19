@@ -6,11 +6,11 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "Advogada Dra. Vasti Gomes |  Isenção de Impostos em Sorocaba - SP",
+    title: "Martins Advogadas | Pensão alimentícia em Franco da Rocha - SP",
     description:
-      "Dra. Vasti Gomes é especialista em buscar isenção de impostos ou restituição de Imposto de Renda para aposentados e pensionistas em Sorocaba - SP",
+      "Especialistas em pensão alimentícia em Franco da Rocha - SP. Assessoria jurídica para garantir direitos de crianças e responsáveis com soluções eficientes e humanizadas.",
     keywords:
-      "Isenção de Imposto de Renda,Imposto de Renda aposentados, Isenção IR doenças graves, Restituição IR aposentados, Imposto de Renda pensionistas, Benefícios fiscais aposentados, Isenção IR para doenças, Isenção Imposto de Renda 2025, Aposentado com câncer isenção, Doença grave Imposto de Renda, Restituição Imposto de Renda pensionistas, Isenção IR por doença grave, Imposto de Renda para idosos, Consultoria Imposto de Renda, Isenção de IR aposentados e pensionistas, IR para aposentado com doença grave, Benefícios fiscais para pensionistas, Restituição de IR 2025, Dra. Vasti Gomes isenção IR, Dra. Vasti Gomes consultoria fiscal, Dra. Vasti Gomes Sorocaba SP.",
+      "Pensão Alimentícia, Advogada de Pensão, Martins Advogadas, Pensão Alimentícia Franco da Rocha, Advogada Franco da Rocha, Direito de Família, Revisão de Pensão, Acordo de Pensão, Cobrança de Pensão, Atraso na Pensão, Pensão para Filhos, Pai Não Paga Pensão, Execução de Pensão, Pensão Alimentícia Judicial, Valor da Pensão, Guarda e Pensão, Direitos da Criança, Família e Sucessões, Ação de Pensão, Justiça para Pensão.",
   },
   hero: {
     bgImg: bgImg,
@@ -152,7 +152,8 @@ const contentLp01 = {
         pensionistas enfrentam. Por isso, atuo de forma ágil e eficiente para
         garantir seus direitos. Se você tem uma doença grave, pode ter direito à
         isenção ou até à restituição do Imposto de Renda já pago.
-        <br /><br />
+        <br />
+        <br />
         Minha missão é encontrar a melhor solução jurídica para você. Entre em
         contato e descubra como podemos ajudar!
       </p>
@@ -263,8 +264,7 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
-      title:
-        "Garanta sua isenção ou restituição agora mesmo!",
+      title: "Garanta sua isenção ou restituição agora mesmo!",
       subtitle: `Se você é aposentado ou pensionista com doença grave, pode ter direito à isenção ou até à restituição do Imposto de Renda. Nossa equipe especializada está pronta para te ajudar a garantir esse benefício de forma rápida e sem burocracia. Não deixe dinheiro para o governo à toa!`,
     },
     buttonLabel: "Falar com uma especialista agora",
