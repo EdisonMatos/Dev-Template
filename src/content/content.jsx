@@ -330,33 +330,65 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É MARTINS ADVOGADAS",
+      title: "Nossa trajetória",
+      subtitle: "Uma história de coragem, propósito e justiça ao seu lado.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Martins Advogadas nasceu da união de duas mulheres determinadas a
+          fazer a diferença no mundo jurídico: a Dra. Tatiana Martins, advogada
+          experiente e referência em Direito de Família, Civil e Trabalhista, e
+          Andrea Martins, acadêmica do último ano de Direito, com uma trajetória
+          marcada pela prática jurídica e sede de aprendizado, encontraram na
+          advocacia muito mais do que uma profissão, mas um propósito de vida.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Martins Advogadas nasceu da união de duas mulheres determinadas a
+          fazer a diferença no mundo jurídico: a Dra. Tatiana Martins, advogada
+          experiente e referência em Direito de Família, Civil e Trabalhista, e
+          Andrea Martins, acadêmica do último ano de Direito, com uma trajetória
+          marcada pela prática jurídica e sede de aprendizado, encontraram na
+          advocacia muito mais do que uma profissão, mas um propósito de vida.
           <br />
           <br />
-          A_Definir
+          O caminho começou nos bastidores, na advocacia de apoio, onde a troca
+          de experiências e o trabalho conjunto foram fortalecendo a parceria.
           <br />
           <br />
-          A_Definir
+          Mas, à medida que os desafios se tornavam mais complexos e as vitórias
+          mais significativas, perceberam que havia algo maior as unindo: a
+          crença inabalável na justiça e no poder transformador do Direito.
           <br />
           <br />
-          A_Definir
+          Martins Advogadas não é apenas um escritório, é um espaço onde cada
+          cliente é acolhido, ouvido e representado com dedicação. Aqui,
+          entendemos que por trás de cada processo existe uma história, uma
+          preocupação e um impacto real na vida das pessoas.
+          <br />
+          <br />
+          Nossa missão vai além da defesa jurídica – buscamos oferecer
+          segurança, clareza e soluções estratégicas para que cada cliente se
+          sinta amparado e confiante em cada etapa do seu caso.
+          <br />
+          <br />
+          Com ética, transparência e uma abordagem humanizada, trabalhamos para
+          garantir que nossos clientes tenham não apenas um suporte jurídico
+          qualificado, mas também uma parceria de confiança.
+          <br />
+          <br />
+          Seja qual for o desafio, estamos aqui para transformar angústia em
+          clareza, incerteza em segurança e dificuldades em soluções.
+          <br />
+          <br />
+          Porque cada caso merece ser tratado com seriedade, estratégia e, acima
+          de tudo, humanidade.
           <br />
           <br />
         </p>
