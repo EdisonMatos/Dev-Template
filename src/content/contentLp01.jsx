@@ -5,6 +5,10 @@ import { Baby } from "lucide-react";
 import { Users } from "lucide-react";
 import { Link } from "lucide-react";
 import { Accessibility } from "lucide-react";
+import { SmilePlus } from "lucide-react";
+import { Gavel } from "lucide-react";
+import { Scale } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -106,25 +110,25 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: "A_Definir",
+        icon: <SmilePlus />,
         title: "Assegure o bem-estar e desenvolvimento dos seus filhos",
         description:
           "A pensão alimentícia não é apenas uma obrigação legal, mas também um direito que visa garantir a alimentação, saúde, educação e lazer para seus filhos. Com o valor adequado, você proporciona um futuro mais seguro e saudável para eles, ajudando no seu crescimento e desenvolvimento integral.",
       },
       card2: {
-        icon: "A_Definir",
+        icon: <Gavel />,
         title: "Cumprimento da obrigação legal de sustento familiar",
         description:
           "Como pais, ambos têm a responsabilidade de prover o sustento dos filhos, seja em casamento ou separação. A pensão alimentícia é uma forma de garantir que essa obrigação legal seja cumprida, com o respaldo do Código Civil, que assegura os direitos dos menores e incapazes.",
       },
       card3: {
-        icon: "A_Definir",
+        icon: <Scale />,
         title: "Equilíbrio financeiro na criação dos filhos",
         description:
           "Estabelecer a pensão alimentícia é uma maneira de dividir de forma justa as responsabilidades financeiras entre os pais. Isso assegura que ambos contribuam de maneira equilibrada para as necessidades do filho, proporcionando uma criação saudável e equilibrada.",
       },
       card4: {
-        icon: "A_Definir",
+        icon: <ShieldCheck />,
         title: "Prevenção de conflitos e promoção de estabilidade",
         description:
           "A pensão alimentícia definida legalmente ajuda a evitar desentendimentos entre os pais, proporcionando estabilidade financeira e emocional para os filhos. Essa segurança traz equilíbrio ao ambiente familiar e minimiza disputas, criando um espaço mais harmonioso para todos.",
