@@ -45,7 +45,7 @@ function BlogPosts() {
                     )
                   }
                   title={
-                    <h3 dangerouslySetInnerHTML={{ __html: post.title }} />
+                    <h1 dangerouslySetInnerHTML={{ __html: post.title }} />
                   }
                   subtitle={
                     <p

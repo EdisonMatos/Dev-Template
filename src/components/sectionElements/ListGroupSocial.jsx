@@ -5,7 +5,6 @@ import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
 import { useNavigate } from "react-router-dom";
 
-
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function ListGroupSocial({ LightMode }) {
@@ -199,7 +198,8 @@ export default function ListGroupSocial({ LightMode }) {
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Contato"
-            onClick={() => navigate("/whatsapp")}
+            // onClick={() => navigate("/whatsapp")}
+            buttonLink={whatsappContactLink}
             className={`${scrolling ? "" : ""}`}
             textclassName="text-paragraph3"
             size="small"
