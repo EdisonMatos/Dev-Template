@@ -14,14 +14,13 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import BlogPosts from "../components/sections/BlogPosts";
 
-
 // comentario para solucionar conflito
 
 export default function Index() {
   return (
     <div>
       <Navbar LightMode={false} />
-      <Hero appDownloadButtons={false}/>
+      <Hero appDownloadButtons={false} fundoImage={true} />
       <Features
         defaultFeature={false}
         featureIcons={true}
@@ -32,21 +31,21 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} />
-      <AboutInstagram
+      {/* <AboutInstagram
         socialPrint={true}
         instagram={true}
-        facebook={true}
+        facebook={false}
         linkedin={false}
         x={false}
-      />
+      /> */}
       <Cta />
       <Steps />
-       {/* <BlogPosts /> */}
+      {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
-        addres={true}
+        addres={false}
         instagram={true}
-        facebook={true}
+        facebook={false}
         linkedin={false}
         x={false}
         obs={false}
@@ -56,4 +55,3 @@ export default function Index() {
     </div>
   );
 }
-

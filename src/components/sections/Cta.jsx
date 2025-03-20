@@ -31,8 +31,8 @@ export default function Cta() {
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label={content.texts.cta.ctaButtonText}
-            // onClick={() => navigate("/whatsapp")}
-            buttonLink={whatsappContactLink}
+            onClick={() => navigate("/whatsapp")}
+            // buttonLink={whatsappContactLink}
             animation
             icon={<FaWhatsapp size={24} />}
           />

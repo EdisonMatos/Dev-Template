@@ -68,8 +68,8 @@ export default function About({ modal = "true" }) {
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
             label={content.texts.about.ctaButtonText}
-            // onClick={() => navigate("/whatsapp")}
-            buttonLink={whatsappContactLink}
+            onClick={() => navigate("/whatsapp")}
+            // buttonLink={whatsappContactLink}
             animation={false}
             className="hover:scale-105"
             icon={<FaWhatsapp size={24} />}
@@ -88,12 +88,12 @@ export default function About({ modal = "true" }) {
           <div
             style={
               {
-                // backgroundImage: `url(${content.texts.about.imagem.img})`,
+                backgroundImage: `url(${content.texts.about.imagem.img})`,
               }
             }
             className="shadow-custom-opacity shadow-black/40 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
-            <div className="w-full">
+            {/* <div className="w-full">
               <ImageGallery
                 items={images}
                 showNav={false} // Ativando a navegação
@@ -121,7 +121,7 @@ export default function About({ modal = "true" }) {
                     }
                   `}
               </style>
-            </div>
+            </div> */}
             {/* <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
