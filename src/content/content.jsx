@@ -1,5 +1,6 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
@@ -102,6 +103,7 @@ const content = {
       subtitle:
         "De situações difíceis a vitórias concretas: ajudamos você a superar obstáculos com confiança.",
       heroImg: heroImg,
+      heroImgPhone: heroImgPhone,
       ctaButtonText: "Fale conosco",
       obsHero: {
         icon: (
