@@ -21,7 +21,7 @@ export default function Index() {
   return (
     <div>
       <Navbar LightMode={false} />
-      <Hero appDownloadButtons={false} personImg={false}/>
+      <Hero appDownloadButtons={false}/>
       <Features
         defaultFeature={false}
         featureIcons={true}
@@ -32,21 +32,21 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} />
-      {/* <AboutInstagram
+      <AboutInstagram
         socialPrint={true}
         instagram={true}
-        facebook={false}
+        facebook={true}
         linkedin={false}
         x={false}
-      /> */}
+      />
       <Cta />
       <Steps />
        {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
-        addres={false}
+        addres={true}
         instagram={true}
-        facebook={false}
+        facebook={true}
         linkedin={false}
         x={false}
         obs={false}
@@ -56,3 +56,4 @@ export default function Index() {
     </div>
   );
 }
+

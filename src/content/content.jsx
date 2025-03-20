@@ -41,32 +41,47 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Martins Advogadas",
+  name: "Dominus Cursos",
   email: "contato", // Email desejado pelo cliente
-  domain: "martinsadvogadas.adv.br", // Sem "www"
+  domain: "dominusconsultoria.com", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "94570", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0551", // Apenas os 4 últimos números
+    ddd: "51",
+    firstPart: "99732", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8822", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Escritório:</p>
+      <p>Rua General Andrade Neves,</p>
+      <p>nº 90 - Sala 37, Centro Histórico.</p>
+      <p>Porto Alegre - RS,</p>
+      <p>CEP: 90010-210</p>
+
+      <br />
+      <br />
+
+      <p>Escritório:</p>
+      <p>Treinamento</p>
+      <p>Hotel Intercity Praia de Belas - </p>
+      <p>Avenida Borges de Medeiros,</p>
+      <p>nº 2145 - Praia de Belas</p>
+      <p>Porto Alegre - RS,</p>
+      <p>CEP 90110-150,</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 18h</p>
+      <p>Segunda à sexta-feira</p>
+      <p>9h às 12h</p>
+      <p>14h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "dominus.cursos", // Sem o @
+  facebookProfile: "profile.php?id=61571893823953",
+
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -92,17 +107,18 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM FRANCO DA ROCHA - SP",
+      miniTag: "CONSULTORIA E CAPACITAÇÃO EM PORTO ALEGRE - RS",
       title: (
         <h1 className="mb-[16px]">
-          Cada caso é único,
-          <span className="text-primary"> e o seu é nossa prioridade</span>
+          Cursos para fortalecer
+          <span className="text-primary"> mandatos e gestão pública</span>
         </h1>
       ),
       subtitle:
-        "De situações difíceis a vitórias concretas: ajudamos você a superar obstáculos com confiança.",
+        "Capacitação prática e estratégica para vereadores e prefeitos, garantindo conformidade e eficiência.",
       heroImg: heroImg,
-      ctaButtonText: "Fale conosco",
+      ctaButtonText: "Entre em contato",
+
       obsHero: {
         icon: (
           <svg
@@ -122,7 +138,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online para todo o Brasil",
+        text: "Cursos presenciais",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -148,17 +164,19 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Soluções jurídicas pensadas para você",
+      miniTag: "A ESCOLHA CERTA",
+      title: "Por que a Dominus Cursos é a melhor escolha?",
       subtitle:
-        "Compreendemos seus desafios e oferecemos a melhor defesa para cada situação.",
+        "Oferecemos capacitação prática e especializada para gestores públicos, garantindo conhecimento aplicável e resultados reais.",
+
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Família",
+        title: "Formação para Vereadores",
         subtitle:
-          "Protegemos seus laços e seus direitos nos momentos difíceis.",
+          "Capacitação focada em legislar com eficiência, transparência e compromisso com a comunidade.",
+
         description: (
           <div>
             A_Definir
@@ -173,19 +191,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-contact"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M16 2v2" />
-            <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
-            <path d="M8 2v2" />
-            <circle cx="12" cy="11" r="3" />
-            <rect x="3" y="4" width="18" height="18" rx="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -193,9 +203,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Criminal",
+        title: "Gestão Pública Eficiente",
         subtitle:
-          "Sua liberdade e direitos protegidos com experiência e dedicação.",
+          "Estratégias para uma administração moderna, inovadora e alinhada às boas práticas.",
         description: (
           <div>
             A_Definir
@@ -210,19 +220,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -230,8 +232,10 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhista e Tributário",
-        subtitle: "Seus direitos no trabalho e suas finanças em boas mãos.",
+        title: "Conformidade e Legislação",
+        subtitle:
+          "Atualização sobre normas e leis para garantir segurança jurídica e governança eficaz.",
+
         description: (
           <div>
             A_Definir <br />
@@ -245,18 +249,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -264,9 +261,10 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Cível",
+        title: "Consultoria Especializada",
         subtitle:
-          "Resolvemos seus conflitos contratuais para que você siga em frente.",
+          "Orientação individualizada para enfrentar desafios e aprimorar a gestão pública.",
+
         description: (
           <div>
             A_Definir
@@ -281,19 +279,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -330,65 +320,56 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É MARTINS ADVOGADAS",
+      miniTag: "QUEM É A DOMINUS CURSOS",
       title: "Nossa trajetória",
-      subtitle: "Uma história de coragem, propósito e justiça ao seu lado.",
+      subtitle:
+        "Capacitando políticos e gestores para uma administração pública eficiente e ética.",
+
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Martins Advogadas nasceu da união de duas mulheres determinadas a
-          fazer a diferença no mundo jurídico: a Dra. Tatiana Martins, advogada
-          experiente e referência em Direito de Família, Civil e Trabalhista, e
-          Andrea Martins, acadêmica do último ano de Direito, com uma trajetória
-          marcada pela prática jurídica e sede de aprendizado, encontraram na
-          advocacia muito mais do que uma profissão, mas um propósito de vida.
+          A Dominus Cursos nasceu para capacitar políticos e agentes públicos a
+          exercerem seus mandatos com excelência.
+          <br />
+          Criada por profissionais experientes no meio legislativo, nossa missão
+          é oferecer conhecimento prático e estratégico para vereadores,
+          prefeitos e assessores, ajudando-os a tomar decisões assertivas e
+          captar recursos essenciais para suas cidades.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Martins Advogadas nasceu da união de duas mulheres determinadas a
-          fazer a diferença no mundo jurídico: a Dra. Tatiana Martins, advogada
-          experiente e referência em Direito de Família, Civil e Trabalhista, e
-          Andrea Martins, acadêmica do último ano de Direito, com uma trajetória
-          marcada pela prática jurídica e sede de aprendizado, encontraram na
-          advocacia muito mais do que uma profissão, mas um propósito de vida.
+          A Dominus Cursos nasceu para capacitar políticos e agentes públicos a
+          exercerem seus mandatos com excelência.
           <br />
           <br />
-          O caminho começou nos bastidores, na advocacia de apoio, onde a troca
-          de experiências e o trabalho conjunto foram fortalecendo a parceria.
+          Criada por profissionais experientes no meio legislativo, nossa missão
+          é oferecer conhecimento prático e estratégico para vereadores,
+          prefeitos e assessores, ajudando-os a tomar decisões assertivas e
+          captar recursos essenciais para suas cidades.
           <br />
           <br />
-          Mas, à medida que os desafios se tornavam mais complexos e as vitórias
-          mais significativas, perceberam que havia algo maior as unindo: a
-          crença inabalável na justiça e no poder transformador do Direito.
+          Acreditamos que políticos bem preparados geram impacto positivo,
+          trabalham com transparência e transformam a realidade local.
           <br />
           <br />
-          Martins Advogadas não é apenas um escritório, é um espaço onde cada
-          cliente é acolhido, ouvido e representado com dedicação. Aqui,
-          entendemos que por trás de cada processo existe uma história, uma
-          preocupação e um impacto real na vida das pessoas.
+          Por isso, além de cursos presenciais, oferecemos suporte contínuo e
+          consultoria personalizada, auxiliando na elaboração de projetos,
+          captação de recursos e gestão eficiente.
           <br />
           <br />
-          Nossa missão vai além da defesa jurídica – buscamos oferecer
-          segurança, clareza e soluções estratégicas para que cada cliente se
-          sinta amparado e confiante em cada etapa do seu caso.
+          Nosso diferencial está na experiência prática dos instrutores e em uma
+          abordagem direta, sem burocracia.
           <br />
           <br />
-          Com ética, transparência e uma abordagem humanizada, trabalhamos para
-          garantir que nossos clientes tenham não apenas um suporte jurídico
-          qualificado, mas também uma parceria de confiança.
-          <br />
-          <br />
-          Seja qual for o desafio, estamos aqui para transformar angústia em
-          clareza, incerteza em segurança e dificuldades em soluções.
-          <br />
-          <br />
-          Porque cada caso merece ser tratado com seriedade, estratégia e, acima
-          de tudo, humanidade.
+          Com treinamentos constantemente atualizados, garantimos que nossos
+          alunos desenvolvam habilidades aplicáveis ao dia a dia político,
+          tornando-se líderes capacitados para enfrentar desafios e transformar
+          suas cidades.
           <br />
           <br />
         </p>
@@ -401,51 +382,56 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Acompanhe nossas redes sociais e fique por dentro de todas as novidades, cursos e atualizações essenciais para gestores e órgãos públicos.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "Capacite-se agora para as demandas do mercado atual com nossa ajuda.",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+        "Fale com nossa equipe e descubra como nossos cursos podem aprimorar seus conhecimentos e sua atuação no setor público.",
+      ctaButtonText: "Garanta sua vaga agora",
     },
     steps: {
       miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      title: "Como funciona nossa capacitação?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Escolha do curso",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Selecione o curso que melhor atende às suas necessidades e desafios no setor público.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Cadastro e acesso",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Faça seu cadastro de forma rápida e simples e tenha acesso imediato ao conteúdo e às orientações para iniciar sua capacitação.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Capacitação especializada",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Aulas ministradas por especialistas com conteúdo atualizado, abordando as práticas e legislações mais recentes do setor público.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Aplicação prática",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Ao final do curso, você estará pronto para aplicar o conhecimento adquirido, promovendo melhorias e soluções eficazes na gestão pública.",
         },
       },
     },
@@ -464,26 +450,31 @@ const content = {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question:
+            "Quais são os benefícios de investir na capacitação de gestores públicos?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "A capacitação aprimora habilidades de liderança, gestão eficiente de recursos e implementação de políticas públicas eficazes, contribuindo para a melhoria dos serviços oferecidos à população.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question:
+            "Como posso selecionar o curso mais adequado às minhas necessidades profissionais?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Recomenda-se avaliar as áreas que necessitam de aprimoramento em sua atuação, considerando cursos que abordem temas relevantes ao seu contexto profissional e que ofereçam conteúdo atualizado e aplicável.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question:
+            "Quais são as modalidades de cursos disponíveis e qual é a mais indicada para mim?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Existem opções presenciais, online e híbridas. A escolha deve considerar sua disponibilidade de tempo, estilo de aprendizagem e necessidade de flexibilidade.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question:
+            "Como a capacitação pode impactar a eficiência na gestão pública?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Profissionais capacitados aplicam melhores práticas administrativas, otimizam processos e promovem transparência, resultando em serviços públicos de maior qualidade e confiança por parte da população.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
