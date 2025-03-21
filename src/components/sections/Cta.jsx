@@ -3,7 +3,6 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
@@ -14,12 +13,7 @@ export default function Cta() {
 
   return (
     <div>
-      <SectionArea className="squares">
-        <SectionShapeDiv
-          shapeDivArrow={false}
-          paddingbot={false}
-          shapeColor="text-bgSectionDark"
-        />
+      <SectionArea className="squares" >
         <SectionWrapper>
           <SectionHeader
             className="text-center"
