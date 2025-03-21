@@ -32,9 +32,9 @@ const contentLp01 = {
           <span className="text-lpTitle text-white">
             Enfrentando problemas com{" "}
           </span>
-          pensão alimentícia?
+          pensão alimentícia? 
           <span className="text-lpTitle text-white">
-            Entenda seus direitos e como resolver!
+             Entenda seus direitos e como resolver!
           </span>
         </h1>
       ),

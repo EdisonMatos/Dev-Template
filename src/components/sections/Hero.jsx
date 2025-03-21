@@ -5,6 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import "../../styles/shapeDivs.css";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -31,7 +32,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
     <>
       {fundoImage ? (
         <div
-          className="w-full bg-top bg-repeat bg-cover font-mainFont desktop1:py-[45px]"
+          className="w-full bg-top bg-repeat bg-cover font-mainFont desktop1:pt-[45px]"
           id="home"
           style={{
             backgroundImage: `url(${
@@ -41,7 +42,7 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
             })`,
           }}
         >
-          <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left py-[36px]">
+          <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left pt-[36px] desktop1:pb-[90px] desktop2:pb-[90px] ">
             <div className="w-full text-secondary justify-evenly">
               <div className="h-[100px] desktop1:h-[140px]" />
               <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
@@ -133,7 +134,37 @@ export default function Hero({ appDownloadButtons, personImg, fundoImage }) {
                 </div>
               </div>
             </div>
+          </div>{" "}
+          {/* ShapeDiv versão mobile */}
+          <div class="custom-shape-divider-bottom-1742562382 desktop1:hidden">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
+                class="shape-fill fill-white"
+              ></path>
+            </svg>
           </div>
+          {/* fim da ShapeDiv */}
+          {/* ShapeDiv versão Desktop */}
+          <div class="custom-shape-divider-bottom-1742564926 hidden desktop1:flex">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z"
+                class="shape-fill fill-white"
+              ></path>
+            </svg>
+          </div>
+          {/* fim da ShapeDiv */}
         </div>
       ) : personImg ? (
         <div

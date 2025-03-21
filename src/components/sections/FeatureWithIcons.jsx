@@ -12,7 +12,7 @@ import Icon4 from "../../assets/imgs/icons/icon4.png";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares">
+    <SectionArea id="service" className="squares" paddingbot={true}>
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -68,6 +68,19 @@ export default function FeaturesWithIcons() {
           </div>
         </div>
       </SectionWrapper>
+      {/* <div class="custom-shape-divider-bottom-1742562382">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
+            class="shape-fill fill-bgSectionDark"
+          ></path>
+        </svg>
+      </div> */}
     </SectionArea>
   );
 }
