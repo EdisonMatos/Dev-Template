@@ -1,4 +1,3 @@
-
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import SectionArea from "../sectionElements/SectionArea";
@@ -10,8 +9,6 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 
 export default function FeaturesModalWithCards() {
-
- 
   return (
     <SectionArea id="service" className="squares">
       <SectionHeader

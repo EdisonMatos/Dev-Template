@@ -2,9 +2,12 @@ import contentLp01 from "../../content/contentLp01";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import WhatsappForm from "./WhatsappForm";
 import Button from "./Button";
+import content from "../../content/content";
 
-export default function WhatsAppLinks({form}) {
-  return  form ? (
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+
+export default function WhatsAppLinks({ form }) {
+  return form ? (
     <div
       className="flex flex-col items-center justify-center min-h-screen bg-scroll bg-black bg-center bg-cover bg-opacity-70 desktop1:bg-fixed"
       style={{
@@ -27,7 +30,7 @@ export default function WhatsAppLinks({form}) {
             </h1>
           </MotionDivDownToUp>
           <MotionDivDownToUp className="w-full">
-            <WhatsappForm/>
+            <WhatsappForm />
           </MotionDivDownToUp>
           <footer className="">
             <MotionDivDownToUp>
@@ -42,7 +45,7 @@ export default function WhatsAppLinks({form}) {
         </div>
       </div>
     </div>
-  ):(
+  ) : (
     <div
       className="flex flex-col items-center justify-center min-h-screen bg-scroll bg-black bg-center bg-cover bg-opacity-70 desktop1:bg-fixed"
       style={{
@@ -56,7 +59,6 @@ export default function WhatsAppLinks({form}) {
             <img
               src={contentLp01.hero.logo.logoImg}
               alt={contentLp01.hero.logo.alt}
-
               className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[270px]"
             />
           </MotionDivDownToUp>
@@ -120,6 +122,5 @@ export default function WhatsAppLinks({form}) {
         </div>
       </div>
     </div>
-
   );
 }

@@ -29,7 +29,7 @@ export default function Index() {
         sixCards={false}
         paragraphsModal={false}
       />
-      <About modal={true} />
+      <About modal={true} showGallery={false} />
       {/* <AboutInstagram
         socialPrint={true}
         instagram={true}
