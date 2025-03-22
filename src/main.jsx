@@ -10,6 +10,8 @@ import Lp02 from "./pages/Lp02.jsx";
 import Lp03 from "./pages/Lp03.jsx";
 import WhatsAppLinks from "./components/interactives/WhatsappLinks.jsx";
 
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
@@ -19,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
       {/* <Route path="/lp02" element={<Lp02 />} /> */}
       {/* <Route path="/lp03" element={<Lp03 />} /> */}
+      <Route path="/whatsapp" element={<WhatsAppLinks form={true} />} />
     </Routes>
   </Router>
 );
