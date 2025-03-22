@@ -1,14 +1,10 @@
-import FeatureImgOnBgCard from "../cards/FeatureImgOnBgCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import Icon1 from "../../assets/imgs/icons/icon1.png";
-import Icon2 from "../../assets/imgs/icons/icon2.png";
-import Icon3 from "../../assets/imgs/icons/icon3.png";
-import Icon4 from "../../assets/imgs/icons/icon4.png";
+
 
 export default function FeaturesWithIcons() {
   return (

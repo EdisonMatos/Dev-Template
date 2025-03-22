@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Dialog } from "primereact/dialog";
+
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import SectionArea from "../sectionElements/SectionArea";
@@ -10,7 +9,7 @@ import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
 
-export default function FeatureModalWithCards() {
+export default function FeaturesModalWithCards() {
 
  
   return (

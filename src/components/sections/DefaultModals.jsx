@@ -7,15 +7,13 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import ServicesModal from "./ServicesModal";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function DefaultModals({ modal="true" }) {
+export default function DefaultModals({ modal = "true" }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -30,11 +28,6 @@ export default function DefaultModals({ modal="true" }) {
   return (
     <div>
       <SectionArea id="service" className="squares">
-        <SectionShapeDiv
-          shapeDivArrow={false}
-          shapeColor="text-bgSectionDark"
-          paddingbot={false}
-        />
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.features.miniTag}
