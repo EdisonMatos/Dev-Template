@@ -18,17 +18,19 @@ export default function SectionHeader({
   miniTitleOrientation,
   marginBottomOption,
   animation = true,
+  titleColorSet,
+  subtitleColorSet,
 }) {
   // Configurações baseadas na cor
   if (color === "dark") {
-    miniTitleTextColor = "text-black";
-    titleColor = "text-bgSectionDark";
-    subtitleColor = "text-darker opacity-70";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-secondary bg-opacity-5";
+    miniTitleTextColor = "text-white";
+    titleColor = titleColorSet ?? "text-primary";
+    subtitleColor = subtitleColorSet ?? "text-darker opacity-70";
+    if (miniTitleBgColor) miniTitleBgColor = "bg-secondary ";
   } else {
-    miniTitleTextColor = "text-labelsIcons";
-    titleColor = "text-lighter";
-    subtitleColor = "text-lighter text-opacity-80";
+    miniTitleTextColor = "text-black";
+    titleColor =  titleColorSet ?? "text-secondary";
+    subtitleColor = subtitleColorSet ?? "text-darker text-opacity-80";
     if (miniTitleBgColor) miniTitleBgColor = "bg-primary bg-opacity-100";
   }
 

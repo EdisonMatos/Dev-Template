@@ -6,10 +6,13 @@ import SidebarSocial from "../sectionElements/SidebarSocial";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function  NavbarSocial({ LightMode }) {
+export default function NavbarSocial({ LightMode }) {
+  const navigate = useNavigate();
+
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
   const [showSidebar, setShowSidebar] = useState(false);
@@ -35,7 +38,7 @@ export default function  NavbarSocial({ LightMode }) {
         setTimeout(() => {
           setShowSidebar(false);
           setIsAnimating(false);
-        }, 950); 
+        }, 940);
       } else {
         setShowSidebar(true);
         setTimeout(() => {
@@ -94,7 +97,7 @@ export default function  NavbarSocial({ LightMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer"
+            className="cursor-pointer w-[45%] phone2:w-[50%] phone3:w-[45%] tablet1:w-[30%] tablet2:w-[25%] desktop1:w-[25%] desktop2:max-w-[200px]"
             spy={true}
             smooth={true}
             duration={500}
@@ -110,8 +113,8 @@ export default function  NavbarSocial({ LightMode }) {
                     ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[30%] transition-all duration-1000"
                     : "bg-white w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[40%] px-3 py-3 transition-all duration-1000"
                   : scrolling
-                  ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[50%] desktop2:w-[50%] transition-all duration-1000"
-                  : "bg-transparent my-[20px] w-[80%] phone3:w-[70%] tablet1:w-[60%] tablet2:w-[50%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
+                  ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[80%] tablet2:w-[70%] desktop1:w-[80%] desktop2:w-[80%] transition-all duration-1000"
+                  : "bg-transparent my-[20px] w-full transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
@@ -124,7 +127,7 @@ export default function  NavbarSocial({ LightMode }) {
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
-                buttonLink={whatsappContactLink}
+                onClick={() => navigate("/whatsapp")}
                 className={`${scrolling ? "" : ""}`}
                 size="small"
                 icon={<FaWhatsapp />}

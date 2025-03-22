@@ -4,8 +4,13 @@ import Button from "../../interactives/Button";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
+import { useNavigate } from "react-router-dom";
+
+
 
 export default function AboutParalaxeLP() {
+    const navigate = useNavigate();
+  
   return (
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
@@ -25,12 +30,14 @@ export default function AboutParalaxeLP() {
                 sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
                 sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
                 color=""
+                titleColorSet="text-white"
+                subtitleColorSet="text-white"
               />
               <MotionDivDownToUp>
                 <Button
                   aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                   label={contentLp01.cta.buttonLabel}
-                  buttonLink={contentLp01.links.ctaWhatsapp}
+                  onClick={() => navigate("/whatsapp")}
                   animation
                   icon={
                     <svg

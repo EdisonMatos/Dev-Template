@@ -3,32 +3,30 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Cta() {
+  const navigate = useNavigate();
+
   return (
     <div>
-      <SectionArea className="squares">
-        <SectionShapeDiv
-          shapeDivArrow={false}
-          paddingbot={false}
-          shapeColor="text-bgSectionDark"
-        />
+      <SectionArea className="squares" >
         <SectionWrapper>
           <SectionHeader
             className="text-center"
             miniTitle={content.texts.cta.miniTag}
             sectionHeaderTitle={content.texts.cta.title}
             sectionHeaderSubtitle={content.texts.cta.subtitle}
-            color="dark"
+            color=""
           />
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label={content.texts.cta.ctaButtonText}
-            buttonLink={whatsappContactLink}
+            onClick={() => navigate("/whatsapp")}
+            // buttonLink={whatsappContactLink}
             animation
             icon={<FaWhatsapp size={24} />}
           />

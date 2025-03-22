@@ -56,6 +56,7 @@ export default function WhatsAppLinks({form}) {
             <img
               src={contentLp01.hero.logo.logoImg}
               alt={contentLp01.hero.logo.alt}
+
               className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[270px]"
             />
           </MotionDivDownToUp>
@@ -64,11 +65,11 @@ export default function WhatsAppLinks({form}) {
               Escolha um contato do WhatsApp:
             </h1>
           </MotionDivDownToUp>
-          <div className="flex flex-col w-full items-center max-w-xs gap-3 space-y-4">
+          <div className="flex flex-col w-full max-w-xs items-center gap-3 space-y-4">
             <Button
               aria-label="Botão de contato"
-              label="Contato1"
-              buttonLink={contentLp01.links.ctaWhatsapp}
+              label="(11) 94570-0551"
+              buttonLink={whatsappContactLink}
               animation
               className="w-[100%]"
               icon={
@@ -87,8 +88,8 @@ export default function WhatsAppLinks({form}) {
 
             <Button
               aria-label="Botão de contato"
-              label="Contato2"
-              buttonLink="https://wa.me/5521972613067?(21)%297261-3067%3F"
+              label="(11) 96018-6794"
+              buttonLink="https://wa.me/+5511960186794?text=Olá!%20Vim%20através%20do%20site%20de%20vocês%20e%20gostaria%20de%20conversar%20com%20um%20advogado."
               animation
               className="w-[100%]"
               icon={
@@ -119,5 +120,6 @@ export default function WhatsAppLinks({form}) {
         </div>
       </div>
     </div>
-  )
+
+  );
 }

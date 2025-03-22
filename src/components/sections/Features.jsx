@@ -9,7 +9,6 @@ import content from "../../content/content";
 // import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 // import ServicesModal from "./ServicesModal";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 // import MoreFeaturesModal from "./MoreFeaturesModal";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
@@ -19,6 +18,7 @@ import Features6cards from "./Features6cards";
 import FeaturesParagraphs from "./FeaturesParagraphs";
 import FeaturesButton from "./FeaturesButton";
 import DefaultModals from "./DefaultModals";
+import FeaturesWithIcons from "./FeatureWithIcons";
 
 export default function Features({
   modal,
@@ -28,16 +28,12 @@ export default function Features({
   paragraphs,
   button,
   paragraphsModal,
+  featureIcons,
 }) {
   return (
     <div>
       {defaultFeature && (
         <SectionArea id="service" className="squares">
-          <SectionShapeDiv
-            shapeDivArrow={false}
-            shapeColor="text-bgSectionDark"
-            paddingbot={false}
-          />
           <SectionHeader
             className="text-center"
             miniTitle={content.texts.features.miniTag}
@@ -169,7 +165,7 @@ export default function Features({
                     }
                   />
                 </MotionDivDownToUp>{" "}
-                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
                     icon={content.texts.features.card5.icon}
                     title={content.texts.features.card5.title}
@@ -198,8 +194,8 @@ export default function Features({
                       </svg>
                     }
                   />
-                </MotionDivDownToUp>{" "}
-                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                </MotionDivDownToUp>{" "} */}
+                {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
                     icon={content.texts.features.card6.icon}
                     title={content.texts.features.card6.title}
@@ -228,7 +224,7 @@ export default function Features({
                       </svg>
                     }
                   />
-                </MotionDivDownToUp>{" "}
+                </MotionDivDownToUp>{" "} */}
                 {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                   <IconButtonFeatureCard
                     icon={content.texts.features.card7.icon}
@@ -292,6 +288,19 @@ export default function Features({
               </div>
             </div>
           </SectionWrapper>
+          <div class="custom-shape-divider-bottom-1742562382">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
         </SectionArea>
       )}
       {modalWithCards && <FeatureModalWithCards />}
@@ -299,6 +308,7 @@ export default function Features({
       {paragraphs && <FeaturesParagraphs />}
       {button && <FeaturesButton />}
       {paragraphsModal && <DefaultModals />}
+      {featureIcons && <FeaturesWithIcons />}
     </div>
   );
 }

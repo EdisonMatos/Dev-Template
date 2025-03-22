@@ -3,12 +3,15 @@ import SectionWrapper from "../../animation/MotionDivDownToUp";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import contentLp01 from "../../../content/contentLp01";
+import { useNavigate } from "react-router-dom";
 
 export default function HeroLP({ fullImg }) {
+  const navigate = useNavigate();
+
   return fullImg ? (
     <div className="gradient-LP-Hero">
       <div
-        className="desktop1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto]  bg-no-repeat h-auto"
+        className="desktop1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] bg-no-repeat h-auto"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
         }}
@@ -46,7 +49,7 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            buttonLink={contentLp01.links.ctaWhatsapp}
+                            onClick={() => navigate("/whatsapp")}
                             animation
                             className="w-[100%] "
                             icon={
@@ -116,9 +119,9 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            buttonLink={contentLp01.links.ctaWhatsapp}
+                            onClick={() => navigate("/whatsapp")}
                             animation
-                            className="w-[100%] text-white"
+                            className="w-[100%] text-black"
                             icon={
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
