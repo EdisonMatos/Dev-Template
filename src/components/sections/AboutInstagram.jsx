@@ -1,17 +1,16 @@
 import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
-import SectionTitles from "../sectionElements/SectionTitles";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import React, { useState } from "react";
-import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import SectionHeader from "../sectionElements/SectionHeader";
-import imgPoints from "../../assets/imgs/about/points.png";
+import SocialPrint from "../sectionElements/aboutInstagram/SocialPrint";
+import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram";
 
 export default function AboutInstagram({
   instagram,
@@ -20,31 +19,11 @@ export default function AboutInstagram({
   linkedin,
   socialPrint,
 }) {
-  const [visible, setVisible] = useState(false);
-  const [modalContent, setModalContent] = useState("");
-  const [modalTitle, setModalTitle] = useState("");
 
   return (
     <SectionArea id="about" className="bg-bgSectionDark" paddingtop={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
-        {socialPrint ? (
-          <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-            <img
-              src={content.texts.about.aboutSocial.img.img}
-              alt={content.texts.about.aboutSocial.img.alt}
-              className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]"
-            />
-          </MotionDivDownToUp>
-        ) : (
-          <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-            <div
-              style={{
-                backgroundImage: `url(${content.texts.about.aboutSocial.img.img})`,
-              }}
-              className="relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl shadow-custom-opacity shadow-secondary/25"
-            ></div>
-          </MotionDivDownToUp>
-        )}
+        {socialPrint ? <SocialPrint /> : <DefaultInstagram />}
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
             <SectionHeader

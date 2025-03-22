@@ -30,13 +30,13 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} />
-      {/* <AboutInstagram
+      <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={false}
         linkedin={false}
         x={false}
-      /> */}
+      />
       {/* ShapeDiv */}
       <div class="custom-shape-divider-bottom-1742562382">
         <svg
