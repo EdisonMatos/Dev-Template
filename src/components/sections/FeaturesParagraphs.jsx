@@ -32,7 +32,7 @@ export default function FeaturesParagraphs({ modal }) {
                 />
                 <Button
                   size="small"
-                  label="Saber Mais"
+                  label={content.texts.features.card1.labelButton}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
                     <svg
@@ -62,7 +62,7 @@ export default function FeaturesParagraphs({ modal }) {
                 />
                 <Button
                   size="small"
-                  label="Saber Mais"
+                  label={content.texts.features.card2.labelButton}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
                     <svg
@@ -92,7 +92,7 @@ export default function FeaturesParagraphs({ modal }) {
                 />
                 <Button
                   size="small"
-                  label="Saber Mais"
+                  label={content.texts.features.card3.labelButton}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
                     <svg
@@ -122,7 +122,7 @@ export default function FeaturesParagraphs({ modal }) {
                 />
                 <Button
                   size="small"
-                  label="Saber Mais"
+                  label={content.texts.features.card4.labelButton}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
                     <svg

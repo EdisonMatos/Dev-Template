@@ -49,7 +49,7 @@ export default function DefaultModals({ modal = "true" }) {
                 {modal && (
                   <Button
                     size="small"
-                    label="Saber Mais"
+                    label={content.texts.features.card1.labelButton}
                     onClick={() =>
                       onClick(
                         content.texts.features.card1.title,
@@ -103,7 +103,7 @@ export default function DefaultModals({ modal = "true" }) {
                 {modal && (
                   <Button
                     size="small"
-                    label="Saber Mais"
+                    label={content.texts.features.card2.labelButton}
                     onClick={() =>
                       onClick(
                         content.texts.features.card2.title,
@@ -157,7 +157,7 @@ export default function DefaultModals({ modal = "true" }) {
                 {modal && (
                   <Button
                     size="small"
-                    label="Saber Mais"
+                    label={content.texts.features.card3.labelButton}
                     onClick={() =>
                       onClick(
                         content.texts.features.card3.title,
@@ -211,7 +211,7 @@ export default function DefaultModals({ modal = "true" }) {
                 {modal && (
                   <Button
                     size="small"
-                    label="Saber Mais"
+                    label={content.texts.features.card4.labelButton}
                     onClick={() =>
                       onClick(
                         content.texts.features.card4.title,

@@ -27,7 +27,7 @@ export default function Index() {
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={false}
+        paragraphsModal={true}
       />
       <About modal={true} showGallery={false} />
       <AboutInstagram
@@ -73,7 +73,13 @@ export default function Index() {
       <Steps />
       {/* <BlogPosts /> */}
       <Faq />
-      <FooterSocial LightMode={false} addres={true}  phoneSecundario={true} emailSecundario={true}  addresSecundario={true} />
+      <FooterSocial
+        LightMode={false}
+        addres={true}
+        phoneSecundario={true}
+        emailSecundario={true}
+        addresSecundario={true}
+      />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>

@@ -42,14 +42,10 @@ export default function AboutInstagram({
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial />
-
           <div className="flex flex-col gap-4">
             {instagram && <InstagramAbout />}
-
             {facebook && <FacebookAbout />}
-
             {x && <XAbout />}
-
             {linkedin && <LinkedInAbout />}
           </div>
         </div>

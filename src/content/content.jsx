@@ -187,6 +187,7 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "Saber Mais",
         imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
@@ -224,6 +225,8 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "Saber Mais",
+
         imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
@@ -259,6 +262,8 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "Saber Mais",
+
         imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
@@ -295,6 +300,8 @@ const content = {
             <br />
           </div>
         ),
+        labelButton: "Saber Mais",
+
         imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
