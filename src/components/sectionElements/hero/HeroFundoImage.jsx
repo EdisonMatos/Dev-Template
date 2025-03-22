@@ -1,14 +1,14 @@
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import content from "../../content/content";
-import Button from "../interactives/Button";
+import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
+import content from "../../../content/content";
+import Button from "../../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import "../../styles/shapeDivs.css";
+import "../../../styles/shapeDivs.css";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function Hero({ appDownloadButtons }) {
+export default function HeroFundoImage({ appDownloadButtons }) {
   const navigate = useNavigate();
   const [bgImage, setBgImage] = useState(content.texts.hero.heroImgPhone);
 

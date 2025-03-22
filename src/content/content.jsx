@@ -10,6 +10,8 @@ import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import personImg from "../assets/imgs/hero/personImg.png";
+import personImgPhone from "../assets/imgs/hero/personImgPhone.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -104,6 +106,8 @@ const content = {
         "De situações difíceis a vitórias concretas: ajudamos você a superar obstáculos com confiança.",
       heroImg: heroImg,
       heroImgPhone: heroImgPhone,
+      personImg: personImg,
+      personImgPhone: personImgPhone,
       ctaButtonText: "Fale conosco",
       obsHero: {
         icon: (
