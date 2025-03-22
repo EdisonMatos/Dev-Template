@@ -46,13 +46,27 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Martins Advogadas",
   email: "contato", // Email desejado pelo cliente
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "martinsadvogadas.adv.br", // Sem "www"
   phone: {
     ddd: "11",
     firstPart: "94570", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "0551", // Apenas os 4 últimos números
   },
+  phoneSecundario: {
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
+  },
   endereco: (
+    <div>
+      <p>Endereço:</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+    </div>
+  ),
+  enderecoSecundario: (
     <div>
       <p>Endereço:</p>
       <p>A_Definir</p>
@@ -831,8 +845,11 @@ const content = {
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
+      emailSecundario: `${infos.emailSecundario}`,
       adress: infos.endereco,
+      adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,

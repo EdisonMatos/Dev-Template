@@ -73,14 +73,7 @@ export default function Index() {
       <Steps />
       {/* <BlogPosts /> */}
       <Faq />
-      <FooterSocial
-        addres={false}
-        instagram={false}
-        facebook={false}
-        linkedin={false}
-        x={false}
-        obs={false}
-      />
+      <FooterSocial LightMode={false} addres={true}  phoneSecundario={true} emailSecundario={true}  addresSecundario={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
