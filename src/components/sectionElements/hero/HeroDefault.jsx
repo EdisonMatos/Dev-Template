@@ -1,4 +1,10 @@
-export default function HeroDefault() {
+import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
+import content from "../../../content/content";
+import Button from "../../interactives/Button";
+import { FaWhatsapp } from "react-icons/fa";
+import "../../../styles/shapeDivs.css";
+
+export default function HeroDefault({appDownloadButtons}) {
   return (
     <div
       className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-bgSectionDark"
