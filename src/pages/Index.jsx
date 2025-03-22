@@ -8,14 +8,11 @@ import Steps from "../components/sections/Steps";
 // import Maps from "../components/sections/Maps";
 import Faq from "../components/sections/Faq";
 import FooterSocial from "../components/sections/FooterSocial";
-// import DefaultModals from "../components/sections/DefaultModals";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import BlogPosts from "../components/sections/BlogPosts";
 import "../styles/shapeDivs.css";
-
-// comentario para solucionar conflito
 
 export default function Index() {
   return (

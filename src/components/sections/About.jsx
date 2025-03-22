@@ -27,7 +27,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function About({ modal = "true" }) {
+export default function About({ modal = "true", showGallery }) {
   const navigate = useNavigate();
 
   const [visible, setVisible] = useState(false);
@@ -86,27 +86,26 @@ export default function About({ modal = "true" }) {
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
-            style={
-              {
-                backgroundImage: `url(${content.texts.about.imagem.img})`,
-              }
-            }
+            style={{
+              backgroundImage: `url(${content.texts.about.imagem.img})`,
+            }}
             className="shadow-custom-opacity shadow-black/40 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
-            {/* <div className="w-full">
-              <ImageGallery
-                items={images}
-                showNav={false} // Ativando a navegação
-                showFullscreenButton={false} // Desativando botão de tela cheia
-                useBrowserFullscreen={false} // Desativando o uso de tela cheia do navegador
-                showBullets={false}
-                showPlayButton={false} // Remove o botão de play
-                showThumbnails={false} // Remove as miniaturas
-                autoPlay={true}
-                additionalClass="custom-gallery"
-              />
-              <style>
-                {`
+            {showGallery && (
+              <div className="w-full">
+                <ImageGallery
+                  items={images}
+                  showNav={false} // Ativando a navegação
+                  showFullscreenButton={false} // Desativando botão de tela cheia
+                  useBrowserFullscreen={false} // Desativando o uso de tela cheia do navegador
+                  showBullets={false}
+                  showPlayButton={false} // Remove o botão de play
+                  showThumbnails={false} // Remove as miniaturas
+                  autoPlay={true}
+                  additionalClass="custom-gallery"
+                />
+                <style>
+                  {`
                     .custom-gallery .image-gallery-slide img {
                       height: 470px; 
                       width: 100%;
@@ -120,8 +119,9 @@ export default function About({ modal = "true" }) {
                       object-fit: cover; 
                     }
                   `}
-              </style>
-            </div> */}
+                </style>
+              </div>
+            )}
             {/* <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
