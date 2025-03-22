@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-import { Dialog } from "primereact/dialog";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import SectionArea from "../sectionElements/SectionArea";
@@ -9,7 +7,6 @@ import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import ServicesModal from "./ServicesModal";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import MoreFeaturesModal from "./MoreFeaturesModal";
 import "../../index.css";
 
@@ -17,11 +14,6 @@ export default function Features6cards({ modal }) {
   return (
     <div>
       <SectionArea id="service" className="squares">
-        <SectionShapeDiv
-          shapeDivArrow={false}
-          shapeColor="text-bgSectionDark"
-          paddingbot={false}
-        />
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.features.miniTag}
@@ -90,7 +82,7 @@ export default function Features6cards({ modal }) {
                 >
                   {modal && (
                     <div>
-                      {/* <ServicesModal /> */}
+                      <ServicesModal />
                       <MoreFeaturesModal />
                     </div>
                   )}

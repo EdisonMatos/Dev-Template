@@ -114,32 +114,6 @@ export default function FeaturesButton() {
                 )
               }
             />
-            {/* <FeatureImgOnBgCardButton
-              bgImg={content.texts.features.card4.img}
-              title={content.texts.features.card4.title}
-              description={content.texts.features.card4.subtitle}
-              buttonLabel={content.texts.features.card4.buttonLabel}
-              animation
-              b
-              onClick={() =>
-                onClick(
-                  content.texts.features.card4.title,
-                  <div>
-                    <ServiceDetailCard
-                      img={content.texts.features.card4.imgModal}
-                      subtitle={content.texts.features.card4.subtitle}
-                      description={content.texts.features.card4.description}
-                      buttonIcon={content.texts.features.card4.icon}
-                      buttonLabel={
-                        content.texts.features.card4.buttonLabelModal
-                      }
-                      buttonLink={whatsappContactLink}
-                      bgPosition="bg-top"
-                    />
-                  </div>
-                )
-              }
-            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>

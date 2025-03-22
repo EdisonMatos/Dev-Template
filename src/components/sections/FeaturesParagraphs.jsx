@@ -1,4 +1,3 @@
-import { Dialog } from "primereact/dialog";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import SectionArea from "../sectionElements/SectionArea";
@@ -10,9 +9,6 @@ import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
 
 export default function FeaturesParagraphs({ modal }) {
-
-  
-
   return (
     <div>
       <SectionArea id="service" className="">
