@@ -14,7 +14,7 @@ export default function Features({
   paragraphs,
   button,
   paragraphsModal,
-  featureIcons,
+  defaultFeature,
 }) {
   return (
     <div>
@@ -23,7 +23,7 @@ export default function Features({
       {paragraphs && <FeaturesParagraphs />}
       {button && <FeaturesButton />}
       {paragraphsModal && <DefaultModals />}
-      {featureIcons && <FeaturesWithIcons />}
+      {defaultFeature && <FeaturesWithIcons />}
     </div>
   );
 }
