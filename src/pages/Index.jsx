@@ -22,7 +22,7 @@ export default function Index() {
 
       <Features
         defaultFeature={false}
-        featureIcons={true}
+        featureIcons={false}
         button={false}
         modalWithCards={false}
         paragraphs={false}
