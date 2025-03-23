@@ -18,7 +18,7 @@ export default function Index() {
   return (
     <div>
       <Navbar LightMode={false} />
-      <Hero appDownloadButtons={false} personImg={true} fundoImage={false} />
+      <Hero appDownloadButtons={false} personImg={false} fundoImage={true} />
 
       <Features
         defaultFeature={true}
@@ -28,9 +28,9 @@ export default function Index() {
         sixCards={false}
         paragraphsModal={false}
       />
-      <About modal={true} showGallery={true} />
+      <About modal={true} showGallery={false} />
       <AboutInstagram
-        socialPrint={true}
+        socialPrint={false}
         instagram={true}
         facebook={false}
         linkedin={false}

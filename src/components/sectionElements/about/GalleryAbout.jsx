@@ -1,9 +1,9 @@
 import React from "react";
-import imgAbout1 from "../../../assets/imgs/about/aboutImg1.png";
-import imgAbout2 from "../../../assets/imgs/about/aboutImg2.png";
-import imgAbout3 from "../../../assets/imgs/about/aboutImg3.png";
-import imgAbout4 from "../../../assets/imgs/about/aboutImg4.png";
-import imgAbout5 from "../../../assets/imgs/about/aboutImg5.png";
+import imgAbout1 from "../../../assets/imgs/about/aboutImg1.jpg";
+import imgAbout2 from "../../../assets/imgs/about/aboutImg2.jpg";
+import imgAbout3 from "../../../assets/imgs/about/aboutImg3.jpg";
+import imgAbout4 from "../../../assets/imgs/about/aboutImg4.jpg";
+import imgAbout5 from "../../../assets/imgs/about/aboutImg5.jpg";
 import ImageGallery from "react-image-gallery";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 
