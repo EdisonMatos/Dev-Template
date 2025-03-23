@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import "../../../styles/shapeDivs.css";
 
 
-
+// sobe hero alterada
 export default function HeroPersonImg({appDownloadButtons}) {
   return (
     <div
