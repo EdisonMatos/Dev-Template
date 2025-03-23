@@ -31,7 +31,7 @@ function GalleryAbout() {
     },
   ];
   return (
-    <div className="flex bg-white justify-center w-full h-[350px]">
+    <div className="flex bg-white justify-center w-full h-auto rounded-[20px]">
       <MotionDivDownToUp className="relative flex justify-center w-full ">
         <div className="w-full">
           <ImageGallery
@@ -48,10 +48,25 @@ function GalleryAbout() {
           <style>
             {`
                     .custom-gallery .image-gallery-slide img {
-                      height: auto; 
+                      height: 300px; 
                       width: 100%;
-                      object-fit: contain; 
+                      object-fit: cover;
+                      border-radius: 10px;
                     }
+
+                     @media (min-width: 640px) and (max-width: 1023px) {
+                        .custom-gallery .image-gallery-slide img {
+                          height: 800px;
+                         
+                        }
+                      }
+
+                      @media (min-width: 1024px) {
+                        .custom-gallery .image-gallery-slide img {
+                          height: 470px;
+                        }
+                      }
+
 
                     .custom-gallery .image-gallery-thumbnails img {
                       height: 60px;  

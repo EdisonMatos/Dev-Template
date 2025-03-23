@@ -21,7 +21,7 @@ export default function About({ modal, showGallery }) {
                 ? `url(${content.texts.about.imagem.img})`
                 : "none",
             }}
-            className="shadow-custom-opacity shadow-black/40 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            className="shadow-custom-opacity shadow-black/40 relative bg-center bg-no-repeat bg-cover h-[300px] w-[90%] tablet1:w-full tablet1:h-[690px] desktop1:h-[467px] rounded-xl"
           >
             {showGallery && <GalleryAbout />}
           </div>
