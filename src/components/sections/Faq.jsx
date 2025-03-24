@@ -1,17 +1,17 @@
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import content from "../../content/content";
+import { useNavigate } from "react-router-dom";
 import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
-import content from "../../content/content";
-import { useNavigate } from "react-router-dom";
 
 export default function Faq() {
   const navigate = useNavigate();
 
   return (
-    <div className="">
+    <>
       <SectionArea id="faq" className="bg-neutral-100">
         <SectionHeader
           className="text-center"
@@ -37,6 +37,6 @@ export default function Faq() {
           </MotionDivDownToUp>
         </SectionWrapper>
       </SectionArea>
-    </div>
+    </>
   );
 }

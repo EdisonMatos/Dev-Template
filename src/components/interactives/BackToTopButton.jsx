@@ -1,5 +1,5 @@
+import { FaArrowUp } from "react-icons/fa";
 import { useState, useEffect } from "react";
-import { FaArrowUp } from "react-icons/fa"; //
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);

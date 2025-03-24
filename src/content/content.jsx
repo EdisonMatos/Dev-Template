@@ -7,9 +7,17 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
+import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
+import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
+import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
+import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import personImg from "../assets/imgs/hero/personImg.png";
+import personImgPhone from "../assets/imgs/hero/personImgPhone.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -44,13 +52,27 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Martins Advogadas",
   email: "contato", // Email desejado pelo cliente
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "martinsadvogadas.adv.br", // Sem "www"
   phone: {
     ddd: "11",
     firstPart: "94570", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "0551", // Apenas os 4 últimos números
   },
+  phoneSecundario: {
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
+  },
   endereco: (
+    <div>
+      <p>Endereço:</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+    </div>
+  ),
+  enderecoSecundario: (
     <div>
       <p>Endereço:</p>
       <p>A_Definir</p>
@@ -93,17 +115,18 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM FRANCO DA ROCHA - SP",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Cada caso é único,
-          <span className="text-primary"> e o seu é nossa prioridade</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "De situações difíceis a vitórias concretas: ajudamos você a superar obstáculos com confiança.",
+      subtitle: "A_Definir",
       heroImg: heroImg,
       heroImgPhone: heroImgPhone,
+      personImg: personImg,
+      personImgPhone: personImgPhone,
       ctaButtonText: "Fale conosco",
       obsHero: {
         icon: (
@@ -124,7 +147,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online para todo o Brasil",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -150,17 +173,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Soluções jurídicas pensadas para você",
-      subtitle:
-        "Compreendemos seus desafios e oferecemos a melhor defesa para cada situação.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Família",
-        subtitle:
-          "Protegemos seus laços e seus direitos nos momentos difíceis.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -169,6 +190,7 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "Saber Mais",
         imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
@@ -195,9 +217,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Criminal",
-        subtitle:
-          "Sua liberdade e direitos protegidos com experiência e dedicação.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -206,6 +227,8 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "Saber Mais",
+
         imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
@@ -232,8 +255,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhista e Tributário",
-        subtitle: "Seus direitos no trabalho e suas finanças em boas mãos.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -241,6 +264,8 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "Saber Mais",
+
         imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
@@ -266,9 +291,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Cível",
-        subtitle:
-          "Resolvemos seus conflitos contratuais para que você siga em frente.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -277,6 +301,8 @@ const content = {
             <br />
           </div>
         ),
+        labelButton: "Saber Mais",
+
         imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
@@ -332,65 +358,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É MARTINS ADVOGADAS",
-      title: "Nossa trajetória",
-      subtitle: "Uma história de coragem, propósito e justiça ao seu lado.",
+      galeria: {
+        img1: {
+          img: imgAbout1,
+          alt: "A_Definir",
+        },
+        img2: {
+          img: imgAbout2,
+          alt: "A_Definir",
+        },
+        img3: {
+          img: imgAbout3,
+          alt: "A_Definir",
+        },
+        img4: {
+          img: imgAbout4,
+          alt: "A_Definir",
+        },
+        img5: {
+          img: imgAbout5,
+          alt: "A_Definir",
+        },
+      },
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Martins Advogadas nasceu da união de duas mulheres determinadas a
-          fazer a diferença no mundo jurídico: a Dra. Tatiana Martins, advogada
-          experiente e referência em Direito de Família, Civil e Trabalhista, e
-          Andrea Martins, acadêmica do último ano de Direito, com uma trajetória
-          marcada pela prática jurídica e sede de aprendizado, encontraram na
-          advocacia muito mais do que uma profissão, mas um propósito de vida.
+          A_Definir
+          <br />
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Martins Advogadas nasceu da união de duas mulheres determinadas a
-          fazer a diferença no mundo jurídico: a Dra. Tatiana Martins, advogada
-          experiente e referência em Direito de Família, Civil e Trabalhista, e
-          Andrea Martins, acadêmica do último ano de Direito, com uma trajetória
-          marcada pela prática jurídica e sede de aprendizado, encontraram na
-          advocacia muito mais do que uma profissão, mas um propósito de vida.
+          A_Definir
           <br />
           <br />
-          O caminho começou nos bastidores, na advocacia de apoio, onde a troca
-          de experiências e o trabalho conjunto foram fortalecendo a parceria.
+          A_Definir
           <br />
           <br />
-          Mas, à medida que os desafios se tornavam mais complexos e as vitórias
-          mais significativas, perceberam que havia algo maior as unindo: a
-          crença inabalável na justiça e no poder transformador do Direito.
+          A_Definir
           <br />
           <br />
-          Martins Advogadas não é apenas um escritório, é um espaço onde cada
-          cliente é acolhido, ouvido e representado com dedicação. Aqui,
-          entendemos que por trás de cada processo existe uma história, uma
-          preocupação e um impacto real na vida das pessoas.
-          <br />
-          <br />
-          Nossa missão vai além da defesa jurídica – buscamos oferecer
-          segurança, clareza e soluções estratégicas para que cada cliente se
-          sinta amparado e confiante em cada etapa do seu caso.
-          <br />
-          <br />
-          Com ética, transparência e uma abordagem humanizada, trabalhamos para
-          garantir que nossos clientes tenham não apenas um suporte jurídico
-          qualificado, mas também uma parceria de confiança.
-          <br />
-          <br />
-          Seja qual for o desafio, estamos aqui para transformar angústia em
-          clareza, incerteza em segurança e dificuldades em soluções.
-          <br />
-          <br />
-          Porque cada caso merece ser tratado com seriedade, estratégia e, acima
-          de tudo, humanidade.
+          A_Definir
           <br />
           <br />
         </p>
@@ -401,53 +417,52 @@ const content = {
       aboutSocial: {
         img: {
           img: aboutSocialImg,
+          imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "A_Definir",
         title: "A_Definir",
         subtitle: "A_Definir",
         paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
@@ -463,29 +478,25 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -827,8 +838,11 @@ const content = {
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
+      emailSecundario: `${infos.emailSecundario}`,
       adress: infos.endereco,
+      adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,

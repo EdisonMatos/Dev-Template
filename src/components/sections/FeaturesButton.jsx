@@ -1,16 +1,14 @@
 import { useState } from "react";
-import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
+import "primeicons/primeicons.css";
+import { Dialog } from "primereact/dialog";
+import content from "../../content/content";
+import "primereact/resources/primereact.min.css";
+import "primereact/resources/themes/saga-blue/theme.css";
 import SectionArea from "../sectionElements/SectionArea";
+import ServiceDetailCard from "../cards/ServiceDetailCard";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import content from "../../content/content";
-import { Dialog } from "primereact/dialog";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import ServiceDetailCard from "../cards/ServiceDetailCard";
-
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
 
 export default function FeaturesButton() {
   const [visible, setVisible] = useState(false);
@@ -26,7 +24,7 @@ export default function FeaturesButton() {
   };
 
   return (
-    <div>
+    <>
       <SectionArea
         id={"service"}
         className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary squares"
@@ -58,7 +56,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card1.buttonLabelModal
                       }
-                      buttonLink={whatsappContactLink}
+                      buttonLink={content.texts.links.ctaWhatsapp}
                       bgPosition="bg-top"
                     />
                   </div>
@@ -83,7 +81,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card2.buttonLabelModal
                       }
-                      buttonLink={whatsappContactLink}
+                      buttonLink={content.texts.links.ctaWhatsapp}
                     />
                   </div>
                 )
@@ -107,39 +105,13 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card3.buttonLabelModal
                       }
-                      buttonLink={whatsappContactLink}
+                      buttonLink={content.texts.links.ctaWhatsapp}
                       bgPosition="bg-top"
                     />
                   </div>
                 )
               }
             />
-            {/* <FeatureImgOnBgCardButton
-              bgImg={content.texts.features.card4.img}
-              title={content.texts.features.card4.title}
-              description={content.texts.features.card4.subtitle}
-              buttonLabel={content.texts.features.card4.buttonLabel}
-              animation
-              b
-              onClick={() =>
-                onClick(
-                  content.texts.features.card4.title,
-                  <div>
-                    <ServiceDetailCard
-                      img={content.texts.features.card4.imgModal}
-                      subtitle={content.texts.features.card4.subtitle}
-                      description={content.texts.features.card4.description}
-                      buttonIcon={content.texts.features.card4.icon}
-                      buttonLabel={
-                        content.texts.features.card4.buttonLabelModal
-                      }
-                      buttonLink={whatsappContactLink}
-                      bgPosition="bg-top"
-                    />
-                  </div>
-                )
-              }
-            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>
@@ -160,9 +132,9 @@ export default function FeaturesButton() {
         }}
         // breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }} versão original
       >
-        <div>{modalSubtitle}</div>
+        <>{modalSubtitle}</>
         <div className="m-0">{modalContent}</div>
       </Dialog>
-    </div>
+    </>
   );
 }

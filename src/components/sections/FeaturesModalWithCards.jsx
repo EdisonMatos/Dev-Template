@@ -1,18 +1,14 @@
-import React, { useState } from "react";
-import { Dialog } from "primereact/dialog";
-import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import content from "../../content/content";
+import ServicesModal from "./ServicesModal";
+import "primereact/resources/primereact.min.css";
+import IconFeatureCard from "../cards/IconFeatureCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import content from "../../content/content";
-import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import ServicesModal from "./ServicesModal";
 
-export default function FeatureModalWithCards() {
-
- 
+export default function FeaturesModalWithCards() {
   return (
     <SectionArea id="service" className="squares">
       <SectionHeader

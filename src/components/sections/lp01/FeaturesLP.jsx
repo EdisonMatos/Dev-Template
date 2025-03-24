@@ -4,7 +4,7 @@ import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import FeatureCardLP from "./FeatureCardLP";
 
-export default function FeaturesLP({ className }) {
+export default function FeaturesLP() {
   return (
     <>
       <SectionArea>

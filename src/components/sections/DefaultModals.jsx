@@ -1,21 +1,18 @@
+import "primeicons/primeicons.css";
 import React, { useState } from "react";
 import { Dialog } from "primereact/dialog";
+import Button from "../interactives/Button";
+import { FaWhatsapp } from "react-icons/fa";
+import content from "../../content/content";
 import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import content from "../../content/content";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import ServicesModal from "./ServicesModal";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
-import Button from "../interactives/Button";
-import { FaWhatsapp } from "react-icons/fa";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function DefaultModals({ modal="true" }) {
+export default function DefaultModals({ modal = "true" }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -28,13 +25,8 @@ export default function DefaultModals({ modal="true" }) {
     setVisible(true);
   };
   return (
-    <div>
+    <>
       <SectionArea id="service" className="squares">
-        <SectionShapeDiv
-          shapeDivArrow={false}
-          shapeColor="text-bgSectionDark"
-          paddingbot={false}
-        />
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.features.miniTag}
@@ -56,7 +48,7 @@ export default function DefaultModals({ modal="true" }) {
                 {modal && (
                   <Button
                     size="small"
-                    label="Saber Mais"
+                    label={content.texts.features.card1.labelButton}
                     onClick={() =>
                       onClick(
                         content.texts.features.card1.title,
@@ -71,7 +63,7 @@ export default function DefaultModals({ modal="true" }) {
                                 content.texts.about.ctaButtonAriaLabel
                               }
                               label={content.texts.about.ctaButtonText}
-                              buttonLink={whatsappContactLink}
+                              buttonLink={content.texts.links.ctaWhatsapp}
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}
@@ -110,7 +102,7 @@ export default function DefaultModals({ modal="true" }) {
                 {modal && (
                   <Button
                     size="small"
-                    label="Saber Mais"
+                    label={content.texts.features.card2.labelButton}
                     onClick={() =>
                       onClick(
                         content.texts.features.card2.title,
@@ -125,7 +117,7 @@ export default function DefaultModals({ modal="true" }) {
                                 content.texts.about.ctaButtonAriaLabel
                               }
                               label={content.texts.about.ctaButtonText}
-                              buttonLink={whatsappContactLink}
+                              buttonLink={content.texts.links.ctaWhatsapp}
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}
@@ -164,7 +156,7 @@ export default function DefaultModals({ modal="true" }) {
                 {modal && (
                   <Button
                     size="small"
-                    label="Saber Mais"
+                    label={content.texts.features.card3.labelButton}
                     onClick={() =>
                       onClick(
                         content.texts.features.card3.title,
@@ -179,7 +171,7 @@ export default function DefaultModals({ modal="true" }) {
                                 content.texts.about.ctaButtonAriaLabel
                               }
                               label={content.texts.about.ctaButtonText}
-                              buttonLink={whatsappContactLink}
+                              buttonLink={content.texts.links.ctaWhatsapp}
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}
@@ -218,7 +210,7 @@ export default function DefaultModals({ modal="true" }) {
                 {modal && (
                   <Button
                     size="small"
-                    label="Saber Mais"
+                    label={content.texts.features.card4.labelButton}
                     onClick={() =>
                       onClick(
                         content.texts.features.card4.title,
@@ -233,7 +225,7 @@ export default function DefaultModals({ modal="true" }) {
                                 content.texts.about.ctaButtonAriaLabel
                               }
                               label={content.texts.about.ctaButtonText}
-                              buttonLink={whatsappContactLink}
+                              buttonLink={content.texts.links.ctaWhatsapp}
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}
@@ -278,6 +270,6 @@ export default function DefaultModals({ modal="true" }) {
         <h3>{modalSubtitle}</h3>
         <p className="m-0">{modalContent}</p>
       </Dialog>
-    </div>
+    </>
   );
 }
