@@ -1,12 +1,12 @@
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
 import "../../index.css";
-import FeaturesModalWithCards from "./FeaturesModalWithCards";
-import Features6cards from "./Features6cards";
-import FeaturesParagraphs from "./FeaturesParagraphs";
-import FeaturesButton from "./FeaturesButton";
+import "primeicons/primeicons.css";
 import DefaultModals from "./DefaultModals";
+import FeaturesButton from "./FeaturesButton";
+import Features6cards from "./Features6cards";
+import "primereact/resources/primereact.min.css";
 import FeaturesWithIcons from "./FeaturesWithIcons";
+import FeaturesParagraphs from "./FeaturesParagraphs";
+import FeaturesModalWithCards from "./FeaturesModalWithCards";
 
 export default function Features({
   modalWithCards,

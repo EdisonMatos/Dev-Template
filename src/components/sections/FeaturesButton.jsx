@@ -1,15 +1,14 @@
 import { useState } from "react";
-import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
+import "primeicons/primeicons.css";
+import { Dialog } from "primereact/dialog";
+import content from "../../content/content";
+import "primereact/resources/primereact.min.css";
+import "primereact/resources/themes/saga-blue/theme.css";
 import SectionArea from "../sectionElements/SectionArea";
+import ServiceDetailCard from "../cards/ServiceDetailCard";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import content from "../../content/content";
-import { Dialog } from "primereact/dialog";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import ServiceDetailCard from "../cards/ServiceDetailCard";
-
+import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
 
 export default function FeaturesButton() {
   const [visible, setVisible] = useState(false);

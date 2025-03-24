@@ -1,12 +1,12 @@
-import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import content from "../../content/content";
+import Button from "../interactives/Button";
+import "primereact/resources/primereact.min.css";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import content from "../../content/content";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
-import Button from "../interactives/Button";
 
 export default function FeaturesParagraphs({ modal }) {
   return (

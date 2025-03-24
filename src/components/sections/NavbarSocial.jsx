@@ -1,14 +1,12 @@
-import { useState, useEffect, useRef } from "react";
-import Navbar from "../sectionElements/Navbar";
-import ListGroupSocial from "../sectionElements/ListGroupSocial";
-import { Link as ScrollLink } from "react-scroll";
-import SidebarSocial from "../sectionElements/SidebarSocial";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
+import Navbar from "../sectionElements/Navbar";
 import { useNavigate } from "react-router-dom";
-
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+import { Link as ScrollLink } from "react-scroll";
+import { useState, useEffect, useRef } from "react";
+import SidebarSocial from "../sectionElements/SidebarSocial";
+import ListGroupSocial from "../sectionElements/ListGroupSocial";
 
 export default function NavbarSocial({ LightMode }) {
   const navigate = useNavigate();

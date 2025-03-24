@@ -1,4 +1,3 @@
-import content from "../../content/content";
 import "../../styles/shapeDivs.css";
 import HeroDefault from "../../components/sectionElements/hero/HeroDefault"
 import HeroFundoImage from "../../components/sectionElements/hero/HeroFundoImage"

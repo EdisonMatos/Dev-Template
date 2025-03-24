@@ -1,14 +1,14 @@
+import React, { useState } from "react";
 import SectionArea from "../sectionElements/SectionArea";
+import "react-image-gallery/styles/css/image-gallery.css";
+import SectionHeader from "../sectionElements/SectionHeader";
+import AboutModal from "../sectionElements/about/AboutModal";
+import content, { abstractions } from "../../content/content";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import React, { useState } from "react";
-import content, { abstractions } from "../../content/content";
-import SectionHeader from "../sectionElements/SectionHeader";
-import "react-image-gallery/styles/css/image-gallery.css";
-import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
-import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
 import GalleryAbout from "../sectionElements/about/GalleryAbout";
-import AboutModal from "../sectionElements/about/AboutModal";
+import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
+import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
 
 export default function About({ modal, showGallery }) {
   return (

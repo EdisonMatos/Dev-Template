@@ -1,13 +1,10 @@
+import React, { useState } from "react";
+import content from "../../content/content";
+import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionArea from "../sectionElements/SectionArea";
+import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import React, { useState } from "react";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import content from "../../content/content";
-import SectionHeader from "../sectionElements/SectionHeader";
-import HowItWorksCard from "../cards/HowItWorksCard";
 
 export default function Steps() {
   return (

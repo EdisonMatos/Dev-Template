@@ -1,18 +1,17 @@
-import Navbar from "../components/sections/NavbarSocial";
-import Hero from "../components/sections/Hero";
-import Features from "../components/sections/Features";
-import About from "../components/sections/About";
-import AboutInstagram from "../components/sections/AboutInstagram";
+import "../styles/shapeDivs.css";
 import Cta from "../components/sections/Cta";
+import Faq from "../components/sections/Faq";
+import Hero from "../components/sections/Hero";
+import About from "../components/sections/About";
 import Steps from "../components/sections/Steps";
 // import Maps from "../components/sections/Maps";
-import Faq from "../components/sections/Faq";
-import FooterSocial from "../components/sections/FooterSocial";
-
-import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import BackToTopButton from "../components/interactives/BackToTopButton";
+import Features from "../components/sections/Features";
+import Navbar from "../components/sections/NavbarSocial";
 import BlogPosts from "../components/sections/BlogPosts";
-import "../styles/shapeDivs.css";
+import FooterSocial from "../components/sections/FooterSocial";
+import AboutInstagram from "../components/sections/AboutInstagram";
+import BackToTopButton from "../components/interactives/BackToTopButton";
+import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 
 export default function Index() {
   return (

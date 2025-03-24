@@ -1,8 +1,8 @@
+import content from "../../content/content";
+import IconFeatureCard from "../cards/IconFeatureCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import content from "../../content/content";
-import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 

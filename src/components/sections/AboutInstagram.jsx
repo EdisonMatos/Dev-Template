@@ -1,20 +1,15 @@
-import Paragraphs from "../sectionElements/Paragraphs";
+import React, { useState } from "react";
+import content from "../../content/content";
 import SectionArea from "../sectionElements/SectionArea";
+import SectionHeader from "../sectionElements/SectionHeader";
+import XAbout from "../sectionElements/aboutInstagram/XAbout";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import React, { useState } from "react";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import content from "../../content/content";
-import Button from "../interactives/Button";
-import SectionHeader from "../sectionElements/SectionHeader";
 import SocialPrint from "../sectionElements/aboutInstagram/SocialPrint";
-import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram";
-import InstagramAbout from "../sectionElements/aboutInstagram/InstagramAbout";
 import FacebookAbout from "../sectionElements/aboutInstagram/FacebookAbout";
-import XAbout from "../sectionElements/aboutInstagram/XAbout";
 import LinkedInAbout from "../sectionElements/aboutInstagram/LinkedInAbout";
+import InstagramAbout from "../sectionElements/aboutInstagram/InstagramAbout";
+import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram";
 import ParagraphsAboutSocial from "../sectionElements/aboutInstagram/ParagraphsAboutSocial";
 
 export default function AboutInstagram({
