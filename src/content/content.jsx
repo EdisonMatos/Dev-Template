@@ -7,6 +7,11 @@ import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
+import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
+import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
+import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
+import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
@@ -352,6 +357,28 @@ const content = {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
+      },
+      galeria: {
+        img1: {
+          img: imgAbout1,
+          alt: "A_Definir",
+        },
+        img2: {
+          img: imgAbout2,
+          alt: "A_Definir",
+        },
+        img3: {
+          img: imgAbout3,
+          alt: "A_Definir",
+        },
+        img4: {
+          img: imgAbout4,
+          alt: "A_Definir",
+        },
+        img5: {
+          img: imgAbout5,
+          alt: "A_Definir",
+        },
       },
       miniTag: "A_Definir",
       title: "A_Definir",

@@ -11,8 +11,6 @@ import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
-
 export default function DefaultModals({ modal = "true" }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
@@ -64,7 +62,7 @@ export default function DefaultModals({ modal = "true" }) {
                                 content.texts.about.ctaButtonAriaLabel
                               }
                               label={content.texts.about.ctaButtonText}
-                              buttonLink={whatsappContactLink}
+                              buttonLink={content.texts.links.ctaWhatsapp}
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}
@@ -118,7 +116,7 @@ export default function DefaultModals({ modal = "true" }) {
                                 content.texts.about.ctaButtonAriaLabel
                               }
                               label={content.texts.about.ctaButtonText}
-                              buttonLink={whatsappContactLink}
+                              buttonLink={content.texts.links.ctaWhatsapp}
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}
@@ -172,7 +170,7 @@ export default function DefaultModals({ modal = "true" }) {
                                 content.texts.about.ctaButtonAriaLabel
                               }
                               label={content.texts.about.ctaButtonText}
-                              buttonLink={whatsappContactLink}
+                              buttonLink={content.texts.links.ctaWhatsapp}
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}
@@ -226,7 +224,7 @@ export default function DefaultModals({ modal = "true" }) {
                                 content.texts.about.ctaButtonAriaLabel
                               }
                               label={content.texts.about.ctaButtonText}
-                              buttonLink={whatsappContactLink}
+                              buttonLink={content.texts.links.ctaWhatsapp}
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}

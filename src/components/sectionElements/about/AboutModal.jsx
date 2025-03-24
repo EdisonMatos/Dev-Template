@@ -10,8 +10,6 @@ import { FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
-
 export default function AboutModal() {
   const navigate = useNavigate();
 
@@ -31,7 +29,7 @@ export default function AboutModal() {
             aria-label={content.texts.about.ctaButtonAriaLabel}
             label={content.texts.about.ctaButtonText}
             onClick={() => navigate("/whatsapp")}
-            // buttonLink={whatsappContactLink}
+            // buttonLink={content.texts.links.ctaWhatsapp}
             animation={false}
             className="hover:scale-105"
             icon={<FaWhatsapp size={24} />}

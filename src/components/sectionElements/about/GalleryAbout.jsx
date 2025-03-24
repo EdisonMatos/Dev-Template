@@ -1,33 +1,34 @@
 import React from "react";
-import imgAbout1 from "../../../assets/imgs/about/aboutImg1.jpg";
-import imgAbout2 from "../../../assets/imgs/about/aboutImg2.jpg";
-import imgAbout3 from "../../../assets/imgs/about/aboutImg3.jpg";
-import imgAbout4 from "../../../assets/imgs/about/aboutImg4.jpg";
-import imgAbout5 from "../../../assets/imgs/about/aboutImg5.jpg";
 import ImageGallery from "react-image-gallery";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
+import content from "../../../content/content";
 
 function GalleryAbout() {
   const images = [
     {
-      original: imgAbout1,
-      thumbnail: imgAbout1,
+      original: content.texts.about.galeria.img1.img,
+      thumbnail: content.texts.about.galeria.img1.img,
+      alt: content.texts.about.galeria.img1.alt,
     },
     {
-      original: imgAbout2,
-      thumbnail: imgAbout2,
+      original: content.texts.about.galeria.img2.img,
+      thumbnail: content.texts.about.galeria.img2.img,
+      alt: content.texts.about.galeria.img2.alt,
     },
     {
-      original: imgAbout3,
-      thumbnail: imgAbout3,
+      original: content.texts.about.galeria.img3.img,
+      thumbnail: content.texts.about.galeria.img3.img,
+      alt: content.texts.about.galeria.img3.alt,
     },
     {
-      original: imgAbout4,
-      thumbnail: imgAbout4,
+      original: content.texts.about.galeria.img4.img,
+      thumbnail: content.texts.about.galeria.img4.img,
+      alt: content.texts.about.galeria.img4.alt,
     },
     {
-      original: imgAbout5,
-      thumbnail: imgAbout5,
+      original: content.texts.about.galeria.img5.img,
+      thumbnail: content.texts.about.galeria.img5.img,
+      alt: content.texts.about.galeria.img5.alt,
     },
   ];
   return (

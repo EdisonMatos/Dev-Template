@@ -10,7 +10,6 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function FeaturesButton() {
   const [visible, setVisible] = useState(false);
@@ -58,7 +57,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card1.buttonLabelModal
                       }
-                      buttonLink={whatsappContactLink}
+                      buttonLink={content.texts.links.ctaWhatsapp}
                       bgPosition="bg-top"
                     />
                   </div>
@@ -83,7 +82,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card2.buttonLabelModal
                       }
-                      buttonLink={whatsappContactLink}
+                      buttonLink={content.texts.links.ctaWhatsapp}
                     />
                   </div>
                 )
@@ -107,7 +106,7 @@ export default function FeaturesButton() {
                       buttonLabel={
                         content.texts.features.card3.buttonLabelModal
                       }
-                      buttonLink={whatsappContactLink}
+                      buttonLink={content.texts.links.ctaWhatsapp}
                       bgPosition="bg-top"
                     />
                   </div>

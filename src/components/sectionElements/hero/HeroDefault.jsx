@@ -40,7 +40,7 @@ export default function HeroDefault({appDownloadButtons}) {
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
                     onClick={() => navigate("/whatsapp")}
-                    // buttonLink={whatsappContactLink}
+                    // buttonLink={content.texts.links.ctaWhatsapp}
                     animation
                     className="w-[100%]"
                     icon={<FaWhatsapp size={24} />}

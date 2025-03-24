@@ -5,9 +5,8 @@ import Button from "../../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import "../../../styles/shapeDivs.css";
 
-
 // sobe hero alterada
-export default function HeroPersonImg({appDownloadButtons}) {
+export default function HeroPersonImg({ appDownloadButtons }) {
   return (
     <div
       className="w-full bg-center bg-repeat bg-cover font-mainFont bg-gradient-to-b from-[#000000] to-[#2322BB] desktop1:pt-[45px]"
@@ -44,7 +43,7 @@ export default function HeroPersonImg({appDownloadButtons}) {
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
                     onClick={() => navigate("/whatsapp")}
-                    // buttonLink={whatsappContactLink}
+                    buttonLink={content.texts.links.ctaWhatsapp}
                     animation
                     className="w-[100%]"
                     icon={<FaWhatsapp size={24} />}
