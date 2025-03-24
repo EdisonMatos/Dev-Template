@@ -43,8 +43,14 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "A_Definir", // Sem "www"
   phone: {
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
+  },
+  phoneSecundario: {
     ddd: "A_Definir",
     firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "A_Definir", // Apenas os 4 últimos números
@@ -57,11 +63,19 @@ export const infos = {
       <p>A_Definir</p>
     </div>
   ),
+  enderecoSecundario: (
+    <div>
+      <p>Endereço:</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+    </div>
+  ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -331,6 +345,7 @@ const content = {
       aboutSocial: {
         img: {
           img: aboutSocialImg,
+          imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "A_Definir",
@@ -751,8 +766,11 @@ const content = {
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
+      emailSecundario: `${infos.emailSecundario}`,
       adress: infos.endereco,
+      adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,
