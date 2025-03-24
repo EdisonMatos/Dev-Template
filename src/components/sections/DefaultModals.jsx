@@ -26,7 +26,7 @@ export default function DefaultModals({ modal = "true" }) {
     setVisible(true);
   };
   return (
-    <div>
+    <>
       <SectionArea id="service" className="squares">
         <SectionHeader
           className="text-center"
@@ -271,6 +271,6 @@ export default function DefaultModals({ modal = "true" }) {
         <h3>{modalSubtitle}</h3>
         <p className="m-0">{modalContent}</p>
       </Dialog>
-    </div>
+    </>
   );
 }

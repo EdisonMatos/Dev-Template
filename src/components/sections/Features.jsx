@@ -17,13 +17,13 @@ export default function Features({
   defaultFeature,
 }) {
   return (
-    <div>
+    <>
       {modalWithCards && <FeaturesModalWithCards />}
       {sixCards && <Features6cards />}
       {paragraphs && <FeaturesParagraphs />}
       {button && <FeaturesButton />}
       {paragraphsModal && <DefaultModals />}
       {defaultFeature && <FeaturesWithIcons />}
-    </div>
+    </>
   );
 }

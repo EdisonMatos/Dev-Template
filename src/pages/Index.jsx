@@ -16,7 +16,7 @@ import "../styles/shapeDivs.css";
 
 export default function Index() {
   return (
-    <div>
+    <>
       <Navbar LightMode={false} />
       <Hero appDownloadButtons={false} personImg={false} fundoImage={true} />
 
@@ -37,7 +37,7 @@ export default function Index() {
         x={false}
       />
       {/* ShapeDiv */}
-      <div class="custom-shape-divider-bottom-1742562382">
+      {/* <div class="custom-shape-divider-bottom-1742562382">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -50,11 +50,11 @@ export default function Index() {
             class="shape-fill fill-white"
           ></path>
         </svg>
-      </div>
+      </div> */}
       {/* fim da ShapeDiv */}
       <Cta />
       {/* ShapeDiv */}
-      <div class="custom-shape-divider-bottom-1742562382">
+      {/* <div class="custom-shape-divider-bottom-1742562382">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ export default function Index() {
             class="shape-fill fill-bgSectionDark"
           ></path>
         </svg>
-      </div>
+      </div> */}
       {/* fim da ShapeDiv */}
       <Steps />
       {/* <BlogPosts /> */}
@@ -81,6 +81,6 @@ export default function Index() {
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
-    </div>
+    </>
   );
 }

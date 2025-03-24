@@ -26,7 +26,7 @@ export default function FeaturesButton() {
   };
 
   return (
-    <div>
+    <>
       <SectionArea
         id={"service"}
         className="py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] bg-quinary squares"
@@ -134,9 +134,9 @@ export default function FeaturesButton() {
         }}
         // breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }} versão original
       >
-        <div>{modalSubtitle}</div>
+        <>{modalSubtitle}</>
         <div className="m-0">{modalContent}</div>
       </Dialog>
-    </div>
+    </>
   );
 }

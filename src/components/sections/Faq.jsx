@@ -11,7 +11,7 @@ export default function Faq() {
   const navigate = useNavigate();
 
   return (
-    <div className="">
+    <>
       <SectionArea id="faq" className="bg-neutral-100">
         <SectionHeader
           className="text-center"
@@ -37,6 +37,6 @@ export default function Faq() {
           </MotionDivDownToUp>
         </SectionWrapper>
       </SectionArea>
-    </div>
+    </>
   );
 }

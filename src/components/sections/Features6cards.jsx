@@ -12,7 +12,7 @@ import "../../index.css";
 
 export default function Features6cards({ modal }) {
   return (
-    <div>
+    <>
       <SectionArea id="service" className="squares">
         <SectionHeader
           className="text-center"
@@ -92,6 +92,6 @@ export default function Features6cards({ modal }) {
           </div>
         </SectionWrapper>
       </SectionArea>
-    </div>
+    </>
   );
 }

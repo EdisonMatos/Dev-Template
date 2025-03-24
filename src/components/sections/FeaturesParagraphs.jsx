@@ -10,7 +10,7 @@ import Button from "../interactives/Button";
 
 export default function FeaturesParagraphs({ modal }) {
   return (
-    <div>
+    <>
       <SectionArea id="service" className="">
         <SectionHeader
           className="text-center"
@@ -267,6 +267,6 @@ export default function FeaturesParagraphs({ modal }) {
           </div>
         </SectionWrapper>
       </SectionArea>
-    </div>
+    </>
   );
 }

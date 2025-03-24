@@ -12,7 +12,7 @@ export default function Cta() {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <>
       <SectionArea className="squares" >
         <SectionWrapper>
           <SectionHeader
@@ -50,6 +50,6 @@ export default function Cta() {
       </div>
 
 Fim de onda shape div */}
-    </div>
+    </>
   );
 }
