@@ -8,18 +8,14 @@ import "primeicons/primeicons.css";
 import content from "../../../content/content";
 function DefaultInstagram() {
   return (
-    <SectionArea className="bg-bgSectionDark" paddingtop={false}>
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
-        <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          <div
-            style={{
-              backgroundImage: `url(${content.texts.about.aboutSocial.img.imgSocial})`,
-            }}
-            className="relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl shadow-custom-opacity shadow-secondary/25"
-          ></div>
-        </MotionDivDownToUp>
-      </SectionWrapper>
-    </SectionArea>
+    <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+      <div
+        style={{
+          backgroundImage: `url(${content.texts.about.aboutSocial.img.imgSocial})`,
+        }}
+        className="relative bg-center bg-no-repeat bg-cover h-[450px] w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl shadow-custom-opacity shadow-secondary/25"
+      ></div>
+    </MotionDivDownToUp>
   );
 }
 
