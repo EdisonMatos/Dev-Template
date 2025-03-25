@@ -130,7 +130,8 @@ const content = {
           <span className="text-primary"> em serviços jurídicos</span>
         </h1>
       ),
-      subtitle: "Conquiste o sucesso conosco",
+      subtitle:
+        "Nossos clientes enfrentaram desafios complexos e saíram vitoriosos, conquistando soluções justas e duradouras.",
       heroImg: heroImg,
       heroImgPhone: heroImgPhone,
       personImg: personImg,
