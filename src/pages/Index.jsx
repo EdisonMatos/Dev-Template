@@ -12,6 +12,7 @@ import FooterSocial from "../components/sections/FooterSocial";
 import AboutInstagram from "../components/sections/AboutInstagram";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
+import Maps from "../components/sections/Maps";
 
 export default function Index() {
   return (
@@ -35,40 +36,9 @@ export default function Index() {
         linkedin={false}
         x={false}
       />
-      {/* ShapeDiv */}
-      {/* <div class="custom-shape-divider-bottom-1742562382">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-          className="bg-bgSectionDark"
-        >
-          <path
-            d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
-            class="shape-fill fill-white"
-          ></path>
-        </svg>
-      </div> */}
-      {/* fim da ShapeDiv */}
       <Cta />
-      {/* ShapeDiv */}
-      {/* <div class="custom-shape-divider-bottom-1742562382">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-          className="bg-white"
-        >
-          <path
-            d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
-            class="shape-fill fill-bgSectionDark"
-          ></path>
-        </svg>
-      </div> */}
-      {/* fim da ShapeDiv */}
       <Steps />
+      <Maps />
       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
