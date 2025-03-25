@@ -314,33 +314,52 @@ const content = {
           alt: "A_Definir",
         },
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. EDVALDO COSTA GOMES",
+      title: "Minha trajetória",
+      subtitle:
+        "Dedicação e paixão pela justiça, oferecendo soluções que transformam realidades.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Minha jornada no direito sempre foi movida pela paixão pela justiça e
+          pela certeza de que a advocacia pode transformar vidas.
           <br />
-          A_Definir
+          Desde o início, meu objetivo foi criar um espaço onde cada cliente
+          fosse verdadeiramente acolhido. Acredito que todos merecem ser bem
+          assistidos, independentemente da complexidade do caso.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha jornada no direito sempre foi movida pela paixão pela justiça e
+          pela certeza de que a advocacia pode transformar vidas.
           <br />
           <br />
-          A_Definir
+          Desde o início, meu objetivo foi criar um espaço onde cada cliente
+          fosse verdadeiramente acolhido. Acredito que todos merecem ser bem
+          assistidos, independentemente da complexidade do caso.
           <br />
           <br />
-          A_Definir
+          Quando fundei meu escritório, busquei combinar técnica e empatia,
+          oferecendo soluções jurídicas seguras e eficazes.
           <br />
           <br />
-          A_Definir
+          Estou sempre em busca de atualização, para garantir que, a cada
+          desafio, eu esteja preparado para entregar o melhor.
+          <br />
+          <br />
+          Meu trabalho é guiado por princípios sólidos de ética,
+          responsabilidade e especialização, com o objetivo de ser reconhecido
+          como um escritório de excelência.
+          <br />
+          <br />
+          Para mim, o atendimento jurídico deve ser claro, acessível e, acima de
+          tudo, humano, sempre focado em resultados positivos para meus
+          clientes.
           <br />
           <br />
         </p>
