@@ -44,9 +44,10 @@ export default function Index() {
       <FooterSocial
         LightMode={false}
         addres={true}
-        phoneSecundario={true}
-        emailSecundario={true}
-        addresSecundario={true}
+        phoneSecundario={false}
+        emailSecundario={false}
+        addresSecundario={false}
+        instagram={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

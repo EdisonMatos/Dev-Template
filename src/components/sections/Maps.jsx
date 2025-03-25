@@ -40,7 +40,8 @@ export default function Maps() {
             sectionHeaderSubtitle={content.texts.maps.subtitle}
             color=""
             type=""
-            miniTitleBgColor={true}
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
           />
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-darker/25 desktop1:bg-center tablet1:w-full rounded-xl">
             {/* <p className="font-bold mt-[32px] mb-[16px]">
