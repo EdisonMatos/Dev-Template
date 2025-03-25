@@ -67,7 +67,7 @@ const contentLp01 = {
         icon: "A_Definir",
         title: "Falta de Aviso Prévio",
         description:
-          "Se sua empresa atrasa salários, entramos com ação para garantir o pagamento com correção e sem mais espera.",
+          "Foi demitido sem aviso prévio ou não recebeu a indenização correspondente? Entramos com ação para garantir esse pagamento.",
       },
       card4: {
         icon: "A_Definir",
