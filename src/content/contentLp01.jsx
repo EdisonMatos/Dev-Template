@@ -10,6 +10,10 @@ import { SmilePlus } from "lucide-react";
 import { Gavel } from "lucide-react";
 import { Scale } from "lucide-react";
 import { ShieldCheck } from "lucide-react";
+import { Clock } from "lucide-react";
+import { CircleDollarSign } from "lucide-react";
+import { DollarSign } from "lucide-react";
+import { BellOff } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -52,25 +56,25 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: "",
+        icon: <Clock/>,
         title: "Hora extra e Verba rescisória",
         description:
           "Se suas horas extras não foram pagas ou sua rescisão veio incompleta, garantimos a correção e o pagamento integral dos seus direitos.",
       },
       card2: {
-        icon: "",
+        icon: <CircleDollarSign/>,
         title: "Multa por atraso no pagamento da rescisão",
         description:
           "Se a empresa não pagou sua rescisão dentro do prazo legal, você tem direito a uma indenização. Exigimos o cumprimento da lei para que seu direito seja respeitado.",
       },
       card3: {
-        icon: "A_Definir",
+        icon: <BellOff/>,
         title: "Falta de Aviso Prévio",
         description:
           "Foi demitido sem aviso prévio ou não recebeu a indenização correspondente? Entramos com ação para garantir esse pagamento.",
       },
       card4: {
-        icon: "A_Definir",
+        icon: <DollarSign/>,
         title: "Atraso salarial",
         description:
           "Se sua empresa atrasa salários, entramos com ação para garantir o pagamento com correção e sem mais espera.",
@@ -110,25 +114,25 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: "A_Definir",
+        icon: <Scale/>,
         title: "Estratégia personalizada para garantir seus direitos",
         description:
           "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia visando a efetivação do seu direito.",
       },
       card2: {
-        icon: "A_Definir",
+        icon: <ShieldCheck/>,
         title: "Soluções sob medida para o seu problema",
         description:
           "Desenvolvemos um plano de ação específico, focado em resolver suas questões trabalhistas rapidamente e com resultados concretos. Cada decisão é tomada pensando no seu melhor interesse.",
       },
       card3: {
-        icon: "A_Definir",
+        icon: <Gavel/>,
         title: "Compromisso total com sua causa",
         description:
           "Nos dedicamos inteiramente à sua defesa, lutando pelos seus direitos em cada fase do processo.",
       },
       card4: {
-        icon: "A_Definir",
+        icon: <SmilePlus/>,
         title: "Experiência que traz tranquilidade",
         description:
           "Com vasta experiência em casos trabalhistas, seu processo será conduzido com segurança e confiança. Estamos ao seu lado para assegurar que seus direitos sejam respeitados.",
