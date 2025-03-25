@@ -16,7 +16,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 export default function Index() {
   return (
     <>
-      <Navbar LightMode={false} />
+      {/* <Navbar LightMode={false} /> */}
       <Hero appDownloadButtons={false} personImg={false} fundoImage={true} />
 
       <Features
