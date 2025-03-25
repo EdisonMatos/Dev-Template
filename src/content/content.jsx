@@ -50,14 +50,14 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Martins Advogadas",
+  name: "Advogado Dr. Edvaldo Costa Gomes",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "martinsadvogadas.adv.br", // Sem "www"
+  domain: "ecgadvocacia.adv.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "94570", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0551", // Apenas os 4 últimos números
+    ddd: "65",
+    firstPart: "98138", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9452", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "00",
@@ -67,9 +67,12 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida Rubens de Mendonça,</p>
+      <p>
+        nº 1856, Jardim Aclimação, <br />
+        Cuiabá - MT,
+      </p>
+      <p>CEP 78050-249</p>
     </div>
   ),
   enderecoSecundario: (
@@ -84,7 +87,8 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 18h</p>
+      <p>Das 8h às 11h</p>
+      <p>Das 13h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
