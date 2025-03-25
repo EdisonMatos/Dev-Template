@@ -46,6 +46,10 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import { Shield } from "lucide-react";
+import { BriefcaseBusiness } from "lucide-react";
+import { Users } from "lucide-react";
+import { Calculator } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -177,15 +181,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções jurídicas que compreendem sua realidade",
+      subtitle:
+        "Estamos ao seu lado, oferecendo soluções jurídicas que realmente fazem a diferença na sua vida.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Criminal",
+        subtitle: "Sua liberdade em boas mãos. Defesa firme e eficaz.",
         description: (
           <div>
             A_Definir
@@ -196,33 +201,14 @@ const content = {
         ),
         labelButton: "Saber Mais",
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-contact"
-          >
-            <path d="M16 2v2" />
-            <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
-            <path d="M8 2v2" />
-            <circle cx="12" cy="11" r="3" />
-            <rect x="3" y="4" width="18" height="18" rx="2" />
-          </svg>
-        ),
+        icon: <Shield />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Trabalhista",
+        subtitle: "Seus direitos no trabalho garantidos com estratégia.",
         description: (
           <div>
             A_Definir
@@ -234,33 +220,14 @@ const content = {
         labelButton: "Saber Mais",
 
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel"
-          >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
-          </svg>
-        ),
+        icon: <BriefcaseBusiness />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Cível e Família",
+        subtitle: "Protegemos o que é seu: família, bens e contratos.",
         description: (
           <div>
             A_Definir <br />
@@ -271,32 +238,14 @@ const content = {
         labelButton: "Saber Mais",
 
         imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
-          >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
-          </svg>
-        ),
+        icon: <Users />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Tributário",
+        subtitle: "Menos impostos, mais segurança para seu negócio.",
         description: (
           <div>
             A_Definir
@@ -308,26 +257,7 @@ const content = {
         labelButton: "Saber Mais",
 
         imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale"
-          >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-          </svg>
-        ),
+        icon: <Calculator />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
