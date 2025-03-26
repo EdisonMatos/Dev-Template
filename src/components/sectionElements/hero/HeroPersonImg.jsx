@@ -9,9 +9,16 @@ import "../../../styles/shapeDivs.css";
 export default function HeroPersonImg({ appDownloadButtons }) {
   return (
     <div
-      className="w-full bg-center bg-repeat bg-cover font-mainFont bg-gradient-to-b from-[#000000] to-[#2322BB] desktop1:pt-[45px]"
+      className="w-full bg-center desktop1:hidden bg-repeat bg-cover font-mainFont bg-[#1E1E1E] desktop1:pt-[45px]"
       id="home"
-      style={{ backgroundImage: `url(${content.texts.hero.heroImg})` }}
+      style={{
+        backgroundImage: `url(${content.texts.hero.images.backgroundPerson})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundColor: "rgba(30, 30, 30, 0.6)", // Tom #1E1E1E com opacidade
+        backgroundBlendMode: "darken", // Pode testar "multiply", "overlay" etc.
+      }}
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
@@ -97,7 +104,7 @@ export default function HeroPersonImg({ appDownloadButtons }) {
                 )}
               </div>
             </div>
-            <div className="flex justify-center w-[90%] pt-9 tablet1:w-[450px] desktop1:w-[35%] pt-10">
+            <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[35%] ">
               <MotionDivRightToLeft className="relative flex items-end justify-center w-full desktop2:justify-end">
                 <img
                   src={content.texts.hero.personImg}

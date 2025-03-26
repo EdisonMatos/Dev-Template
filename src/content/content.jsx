@@ -1,7 +1,9 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import heroImgPerson from "../assets/imgs/hero/bgHero.jpg"
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -16,8 +18,8 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-import personImg from "../assets/imgs/hero/personImg.png";
-import personImgPhone from "../assets/imgs/hero/personImgPhone.png";
+import personImg from "../assets/imgs/hero/edvaldo.png";
+import personImgPhone from "../assets/imgs/hero/edvaldo.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -132,8 +134,8 @@ const content = {
       ),
       subtitle:
         "Nossos clientes enfrentaram desafios complexos e saíram vitoriosos, conquistando soluções justas e duradouras.",
-      heroImg: heroImg,
-      heroImgPhone: heroImgPhone,
+      heroImg: HeroEdvaldo,
+      heroImgPhone: HeroEdvaldo,
       personImg: personImg,
       personImgPhone: personImgPhone,
       ctaButtonText: "Conquiste o sucesso conosco",
@@ -163,6 +165,7 @@ const content = {
       secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
+        backgroundPerson: heroImgPerson,
         static: {
           img: {},
           alt: "",

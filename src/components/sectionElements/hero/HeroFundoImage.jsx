@@ -28,7 +28,7 @@ export default function HeroFundoImage({ appDownloadButtons }) {
   return (
     <>
       <div
-        className="w-full bg-top bg-repeat bg-cover font-mainFont desktop1:pt-[45px]"
+        className="w-full hidden desktop1:flex bg-top bg-repeat bg-cover font-mainFont desktop1:pt-[45px]"
         id="home"
         style={{
           backgroundImage: `url(${
