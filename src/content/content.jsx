@@ -76,7 +76,7 @@ export const infos = {
         nº 1856, Jardim Aclimação, <br />
         Cuiabá - MT,
       </p>
-      <p>CEP 78050-249</p>
+      <p>CEP 78050-249.</p>
     </div>
   ),
   enderecoSecundario: (
