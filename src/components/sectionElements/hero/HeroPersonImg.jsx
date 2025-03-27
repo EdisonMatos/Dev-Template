@@ -5,18 +5,20 @@ import Button from "../../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import "../../../styles/shapeDivs.css";
 
-// sobe hero alterada
 export default function HeroPersonImg({ appDownloadButtons }) {
   return (
     <div
-      className="w-full bg-center bg-repeat bg-cover font-mainFont bg-gradient-to-b from-[#000000] to-[#2322BB] desktop1:pt-[45px]"
+      className="w-full bg-center desktop1:hidden bg-repeat bg-cover font-mainFont bg-black desktop1:pt-[45px]"
       id="home"
-      style={{ backgroundImage: `url(${content.texts.hero.heroImg})` }}
+      style={{
+        backgroundImage: `url(${content.texts.hero.images.backgroundPerson})`,
+       
+      }}
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[100px] desktop1:h-[140px]" />
-          <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
+          <div className="flex flex-col-reverse gap-[10px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
             <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]  ">
               <MotionDivDownToUp>
                 <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
@@ -97,7 +99,7 @@ export default function HeroPersonImg({ appDownloadButtons }) {
                 )}
               </div>
             </div>
-            <div className="flex justify-center w-[90%] pt-9 tablet1:w-[450px] desktop1:w-[35%] pt-10">
+            <div className="flex justify-center w-full tablet1:w-full desktop1:w-[35%] ">
               <MotionDivRightToLeft className="relative flex items-end justify-center w-full desktop2:justify-end">
                 <img
                   src={content.texts.hero.personImg}

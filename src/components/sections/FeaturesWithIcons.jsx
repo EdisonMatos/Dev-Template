@@ -17,8 +17,8 @@ export default function FeaturesWithIcons() {
         color=""
       />
       <SectionWrapper>
-        <div className="flex  desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between gap-x-[10%] px-[4%] desktop1:gap-x-0 desktop1:px-0">
-          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-end">
+        <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between  desktop1:gap-x-0 desktop1:px-0">
+          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
             <MotionDivDownToUp className="">
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
@@ -45,7 +45,7 @@ export default function FeaturesWithIcons() {
             ></div>
           </MotionDivDownToUp>
 
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-start">
+          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card3.icon}

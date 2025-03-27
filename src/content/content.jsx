@@ -1,7 +1,9 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import heroImgPerson from "../assets/imgs/hero/bgHero.jpg"
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -16,8 +18,8 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-import personImg from "../assets/imgs/hero/personImg.png";
-import personImgPhone from "../assets/imgs/hero/personImgPhone.png";
+import personImg from "../assets/imgs/hero/edvaldo.png";
+import personImgPhone from "../assets/imgs/hero/edvaldo.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -46,18 +48,22 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import { Shield } from "lucide-react";
+import { BriefcaseBusiness } from "lucide-react";
+import { Users } from "lucide-react";
+import { Calculator } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Martins Advogadas",
+  name: "Advogado Dr. Edvaldo Costa Gomes",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "martinsadvogadas.adv.br", // Sem "www"
+  domain: "ecgadvocacia.adv.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "94570", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0551", // Apenas os 4 últimos números
+    ddd: "65",
+    firstPart: "98138", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9452", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "00",
@@ -67,9 +73,12 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida Rubens de Mendonça,</p>
+      <p>
+        nº 1856, Jardim Aclimação, <br />
+        Cuiabá - MT,
+      </p>
+      <p>CEP 78050-249.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -84,11 +93,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 18h</p>
+      <p>Das 8h às 11h</p>
+      <p>Das 13h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "edycgomess", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -115,19 +125,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM CUIABÁ - MT",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Dedicação e excelência
+          <span className="text-primary"> em serviços jurídicos</span>
         </h1>
       ),
-      subtitle: "A_Definir",
-      heroImg: heroImg,
-      heroImgPhone: heroImgPhone,
+      subtitle:
+        "Nossos clientes enfrentaram desafios complexos e saíram vitoriosos, conquistando soluções justas e duradouras.",
+      heroImg: HeroEdvaldo,
+      heroImgPhone: HeroEdvaldo,
       personImg: personImg,
       personImgPhone: personImgPhone,
-      ctaButtonText: "Fale conosco",
+      ctaButtonText: "Conquiste o sucesso conosco",
       obsHero: {
         icon: (
           <svg
@@ -147,13 +158,14 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento online. Presencial com hora marcada.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
+        backgroundPerson: heroImgPerson,
         static: {
           img: {},
           alt: "",
@@ -173,15 +185,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções jurídicas que compreendem sua realidade",
+      subtitle:
+        "Estamos ao seu lado, oferecendo soluções jurídicas que realmente fazem a diferença na sua vida.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Criminal",
+        subtitle: "Sua liberdade em boas mãos. Defesa firme e eficaz.",
         description: (
           <div>
             A_Definir
@@ -192,33 +205,14 @@ const content = {
         ),
         labelButton: "Saber Mais",
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-contact"
-          >
-            <path d="M16 2v2" />
-            <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
-            <path d="M8 2v2" />
-            <circle cx="12" cy="11" r="3" />
-            <rect x="3" y="4" width="18" height="18" rx="2" />
-          </svg>
-        ),
+        icon: <Shield />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Trabalhista",
+        subtitle: "Seus direitos no trabalho garantidos com estratégia.",
         description: (
           <div>
             A_Definir
@@ -230,33 +224,14 @@ const content = {
         labelButton: "Saber Mais",
 
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel"
-          >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
-          </svg>
-        ),
+        icon: <BriefcaseBusiness />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Cível e Família",
+        subtitle: "Protegemos o que é seu: família, bens e contratos.",
         description: (
           <div>
             A_Definir <br />
@@ -267,32 +242,14 @@ const content = {
         labelButton: "Saber Mais",
 
         imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business"
-          >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
-          </svg>
-        ),
+        icon: <Users />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Tributário",
+        subtitle: "Menos impostos, mais segurança para seu negócio.",
         description: (
           <div>
             A_Definir
@@ -304,26 +261,7 @@ const content = {
         labelButton: "Saber Mais",
 
         imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale"
-          >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-          </svg>
-        ),
+        icon: <Calculator />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -344,14 +282,6 @@ const content = {
           subtitle: "A_Definir",
         },
       },
-    },
-    maps: {
-      minitag: "Google Maps",
-      title: "Como nos encontrar?",
-      subtitle:
-        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
@@ -380,33 +310,52 @@ const content = {
           alt: "A_Definir",
         },
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. EDVALDO COSTA GOMES",
+      title: "Minha trajetória",
+      subtitle:
+        "Dedicação e paixão pela justiça, oferecendo soluções que transformam realidades.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Minha jornada no direito sempre foi movida pela paixão pela justiça e
+          pela certeza de que a advocacia pode transformar vidas.
           <br />
-          A_Definir
+          Desde o início, meu objetivo foi criar um espaço onde cada cliente
+          fosse verdadeiramente acolhido. Acredito que todos merecem ser bem
+          assistidos, independentemente da complexidade do caso.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha jornada no direito sempre foi movida pela paixão pela justiça e
+          pela certeza de que a advocacia pode transformar vidas.
           <br />
           <br />
-          A_Definir
+          Desde o início, meu objetivo foi criar um espaço onde cada cliente
+          fosse verdadeiramente acolhido. Acredito que todos merecem ser bem
+          assistidos, independentemente da complexidade do caso.
           <br />
           <br />
-          A_Definir
+          Quando fundei meu escritório, busquei combinar técnica e empatia,
+          oferecendo soluções jurídicas seguras e eficazes.
           <br />
           <br />
-          A_Definir
+          Estou sempre em busca de atualização, para garantir que, a cada
+          desafio, eu esteja preparado para entregar o melhor.
+          <br />
+          <br />
+          Meu trabalho é guiado por princípios sólidos de ética,
+          responsabilidade e especialização, com o objetivo de ser reconhecido
+          como um escritório de excelência.
+          <br />
+          <br />
+          Para mim, o atendimento jurídico deve ser claro, acessível e, acima de
+          tudo, humano, sempre focado em resultados positivos para meus
+          clientes.
           <br />
           <br />
         </p>
@@ -420,11 +369,12 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
@@ -432,37 +382,43 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
@@ -478,28 +434,40 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
+    },
+    maps: {
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Cuiabá",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.1256117579137!2d-56.07964390000001!3d-15.584936200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db1af75cc669f%3A0xf4ef2b047ca7a8e0!2sAv.%20Historiador%20Rubens%20de%20Mendon%C3%A7a%2C%201856%20-%20Bosque%20da%20Saude%2C%20Cuiab%C3%A1%20-%20MT%2C%2078050-010!5e0!3m2!1spt-BR!2sbr!4v1742933033638!5m2!1spt-BR!2sbr",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,

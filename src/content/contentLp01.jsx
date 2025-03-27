@@ -1,5 +1,6 @@
 import bgImg from "../assets/imgs/hero/bgHeroLp.jpg";
 import logo from "../assets/imgs/logo/logo.png";
+import aboutImgLpv from "../assets/imgs/about/aboutLpv.jpg";
 import { infos } from "./content";
 import { Baby } from "lucide-react";
 import { Users } from "lucide-react";
@@ -9,16 +10,21 @@ import { SmilePlus } from "lucide-react";
 import { Gavel } from "lucide-react";
 import { Scale } from "lucide-react";
 import { ShieldCheck } from "lucide-react";
+import { Clock } from "lucide-react";
+import { CircleDollarSign } from "lucide-react";
+import { DollarSign } from "lucide-react";
+import { BellOff } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "Martins Advogadas | Pensão alimentícia em Franco da Rocha - SP",
+    title:
+      "Edvaldo Costa Gomes Advocacia | Verba Rescisória e Direitos Trabalhistas em Cuiabá - MT",
     description:
-      "Especialistas em pensão alimentícia em Franco da Rocha - SP. Assessoria jurídica para garantir direitos de crianças e responsáveis com soluções eficientes e humanizadas.",
+      "Especialista em direito trabalhista em Cuiabá - MT, Edvaldo Costa Gomes Advocacia atua na defesa dos direitos dos trabalhadores, garantindo o recebimento de verbas rescisórias, horas extras, aviso prévio e outros direitos não pagos.",
     keywords:
-      "Pensão Alimentícia, Advogada de Pensão, Martins Advogadas, Pensão Alimentícia Franco da Rocha, Advogada Franco da Rocha, Direito de Família, Revisão de Pensão, Acordo de Pensão, Cobrança de Pensão, Atraso na Pensão, Pensão para Filhos, Pai Não Paga Pensão, Execução de Pensão, Pensão Alimentícia Judicial, Valor da Pensão, Guarda e Pensão, Direitos da Criança, Família e Sucessões, Ação de Pensão, Justiça para Pensão.",
+      "Verba Rescisória, Direitos Trabalhistas, Advogado Trabalhista, Rescisão Contratual, Horas Extras Não Pagas, Atraso no Pagamento, Falta de Aviso Prévio, Multa Rescisória, Demissão Sem Justa Causa, Direitos do Trabalhador, Indenização Trabalhista, Justiça do Trabalho, Advocacia Especializada, Advogado em Cuiabá, Edvaldo Costa Gomes Advocacia, Escritório de Advocacia Trabalhista, Acordo Trabalhista, Processo Trabalhista, FGTS Não Pago, Reclamação Trabalhista.",
   },
   hero: {
     bgImg: bgImg,
@@ -28,121 +34,120 @@ const contentLp01 = {
     },
     textArea: {
       title: (
-        <h1 className="text-primary">
-          <span className="text-lpTitle text-white">
-            Enfrentando problemas com{" "}
-          </span>
-          pensão alimentícia? 
-          <span className="text-lpTitle text-white">
-             Entenda seus direitos e como resolver!
+        <h1>
+          Não recebeu suas verbas rescisórias?
+          <span className="text-lpTitle text-primary">
+            {" "}
+            Seu direito não pode esperar!
           </span>
         </h1>
       ),
       subtitle:
-        "Cada situação é única, mas seus direitos são garantidos. Conte com um advogado para buscar o que é justo para você e sua família.",
+        "Seus direitos trabalhistas precisam ser respeitados. Agimos rápido para garantir o que é seu por direito.",
+      buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      buttonLabel: "Receba a pensão que você merece!",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "QUEM TEM DIREITO?",
-      title:
-        "Descubra quem pode solicitar pensão alimentícia e receber o suporte adequado.",
+      miniTag: "DIREITO TRABALHISTA",
+      title: "Cenários onde garantimos sua defesa",
     },
     cards: {
       card1: {
-        icon: <Baby />,
-        title: "Filhos menores de idade",
+        icon: <Clock/>,
+        title: "Hora extra e Verba rescisória",
         description:
-          "Quando os filhos são menores, ambos os pais têm a responsabilidade de prover seu sustento. A pensão alimentícia garante que as necessidades básicas sejam atendidas.",
+          "Se suas horas extras não foram pagas ou sua rescisão veio incompleta, garantimos a correção e o pagamento integral dos seus direitos.",
       },
       card2: {
-        icon: <Link />,
-        title: "Filhos maiores de idade em dependência",
+        icon: <CircleDollarSign/>,
+        title: "Multa por atraso no pagamento da rescisão",
         description:
-          "Mesmo após a maioridade, filhos que ainda dependem financeiramente dos pais por motivo de estudos ou saúde podem solicitar pensão alimentícia.",
+          "Se a empresa não pagou sua rescisão dentro do prazo legal, você tem direito a uma indenização. Exigimos o cumprimento da lei para que seu direito seja respeitado.",
       },
       card3: {
-        icon: <Users />,
-        title: "Ex-cônjuge em situação de necessidade",
+        icon: <BellOff/>,
+        title: "Falta de Aviso Prévio",
         description:
-          "Em casos de separação, o cônjuge que não tem condições de se manter pode solicitar pensão alimentícia, desde que comprove a necessidade.",
+          "Foi demitido sem aviso prévio ou não recebeu a indenização correspondente? Entramos com ação para garantir esse pagamento.",
       },
       card4: {
-        icon: <Accessibility />,
-        title: "Pais com deficiência ou impossibilidade de trabalho",
+        icon: <DollarSign/>,
+        title: "Atraso salarial",
         description:
-          "Pais que não conseguem se sustentar devido a uma deficiência ou incapacidade temporária também podem ter direito a pensão alimentícia para garantir o seu bem-estar.",
+          "Se sua empresa atrasa salários, entramos com ação para garantir o pagamento com correção e sem mais espera.",
       },
     },
   },
   about: {
     bgImg: bgImg,
+    imgAbout: aboutImgLpv,
+    ariaLabel: "imagem do advogado",
     logo: {
       logoImg: logo,
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "PENSÃO ALIMENTÍCIA JUSTA",
-      title: "Solução definitiva para pensão alimentícia",
+      miniTag: "TRADIÇÃO EM DIREITO TRABALHISTA",
+      title: "Compromisso e agilidade na defesa dos seus direitos",
     },
     paragraph: (
       <p>
-        Questões envolvendo pensão alimentícia podem ser desafiadoras, mas estou
-        aqui para garantir que seus direitos sejam respeitados. Se você está
-        buscando o valor justo para o sustento de seus filhos ou do ex-cônjuge,
-        atuo de forma ágil e eficaz para buscar a solução adequada para o seu
-        caso.
+        Sei que, em questões trabalhistas, o tempo é essencial. Por isso, atuo
+        de forma rápida e estratégica, sem abrir mão da qualidade, garantindo
+        que seus direitos sejam protegidos com eficiência e determinação.
         <br />
-        <br /> Minha missão é assegurar que você receba o que é justo. Entre em
-        contato e saiba como posso ajudar!
+        <br /> Seja qual for a sua demanda trabalhista, estou pronto para
+        oferecer a melhor solução jurídica. Entre em contato com Edvaldo Costa
+        Gomes Advocacia e tenha ao seu lado uma defesa ágil e eficaz
       </p>
     ),
-    buttonLabel: "Exija a pensão alimentícia que você merece!",
+    buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para solucionar sua pensão alimentícia?",
+      miniTag: "A MELHOR ESCOLHA",
+      title: "Por que nos escolher pra te defender?",
     },
     cards: {
       card1: {
-        icon: <SmilePlus />,
-        title: "Assegure o bem-estar e desenvolvimento dos seus filhos",
+        icon: <Scale/>,
+        title: "Estratégia personalizada para garantir seus direitos",
         description:
-          "A pensão alimentícia não é apenas uma obrigação legal, mas também um direito que visa garantir a alimentação, saúde, educação e lazer para seus filhos. Com o valor adequado, você proporciona um futuro mais seguro e saudável para eles, ajudando no seu crescimento e desenvolvimento integral.",
+          "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia visando a efetivação do seu direito.",
       },
       card2: {
-        icon: <Gavel />,
-        title: "Cumprimento da obrigação legal de sustento familiar",
+        icon: <ShieldCheck/>,
+        title: "Soluções sob medida para o seu problema",
         description:
-          "Como pais, ambos têm a responsabilidade de prover o sustento dos filhos, seja em casamento ou separação. A pensão alimentícia é uma forma de garantir que essa obrigação legal seja cumprida, com o respaldo do Código Civil, que assegura os direitos dos menores e incapazes.",
+          "Desenvolvemos um plano de ação específico, focado em resolver suas questões trabalhistas rapidamente e com resultados concretos. Cada decisão é tomada pensando no seu melhor interesse.",
       },
       card3: {
-        icon: <Scale />,
-        title: "Equilíbrio financeiro na criação dos filhos",
+        icon: <Gavel/>,
+        title: "Compromisso total com sua causa",
         description:
-          "Estabelecer a pensão alimentícia é uma maneira de dividir de forma justa as responsabilidades financeiras entre os pais. Isso assegura que ambos contribuam de maneira equilibrada para as necessidades do filho, proporcionando uma criação saudável e equilibrada.",
+          "Nos dedicamos inteiramente à sua defesa, lutando pelos seus direitos em cada fase do processo.",
       },
       card4: {
-        icon: <ShieldCheck />,
-        title: "Prevenção de conflitos e promoção de estabilidade",
+        icon: <SmilePlus/>,
+        title: "Experiência que traz tranquilidade",
         description:
-          "A pensão alimentícia definida legalmente ajuda a evitar desentendimentos entre os pais, proporcionando estabilidade financeira e emocional para os filhos. Essa segurança traz equilíbrio ao ambiente familiar e minimiza disputas, criando um espaço mais harmonioso para todos.",
+          "Com vasta experiência em casos trabalhistas, seu processo será conduzido com segurança e confiança. Estamos ao seu lado para assegurar que seus direitos sejam respeitados.",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO ESPERE MAIS",
-      title: "Receba a pensão alimentícia que seu filho merece!",
-      subtitle: `Seu filho tem direito a um suporte financeiro adequado. Se o outro responsável não está cumprindo com essa obrigação, podemos te ajudar a buscar a pensão alimentícia de forma justa e eficaz. Não deixe essa responsabilidade para depois—entre em contato e saiba como agir!`,
+      miniTag: "NÃO PERCA MAIS TEMPO",
+      title:
+        "Trabalhador: Busque ajuda de um advogado para garantir os seus direitos trabalhistas!",
+      subtitle: `O escritório Edvaldo Costa Gomes Advocacia está pronto para te auxiliar. Nossa equipe especializada em direito trabalhista pode orientá-lo no processo para garantir seu direito, seja por atraso salarial, assédio moral, adicionais devidos e não pagos, não pagamento de horas extras ou verbas rescisórias. Independente da violação de direito, não deixe que essas situações prejudiquem sua moral, sua vida profissional e financeira.`,
     },
-    buttonLabel: "Pedir pensão agora",
+    buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
@@ -187,15 +192,14 @@ const contentLp01 = {
         </svg>
       ),
       title: "Email",
-      // description: `${infos.email}@${infos.domain}`,
-      description: "assessoriajuridica@martinsadvogadas.adv.br",
+      description: `${infos.email}@${infos.domain}`,
     },
     card3: {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="28"
-          height="28"
+          width="24"
+          height="24"
           fill="currentColor"
           className="bi bi-whatsapp"
           viewBox="0 0 16 16"

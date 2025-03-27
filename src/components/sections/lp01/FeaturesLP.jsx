@@ -13,7 +13,7 @@ export default function FeaturesLP() {
             miniTitle={contentLp01.features.sectionHeader.miniTag}
             className="text-center"
             sectionHeaderTitle={contentLp01.features.sectionHeader.title}
-            color="dark"
+            color=""
             titleColorSet="text-secondary"
           />
           <div className="w-full flex flex-wrap justify-evenly gap-y-[32px]">

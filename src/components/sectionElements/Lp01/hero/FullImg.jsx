@@ -13,7 +13,7 @@ function FullImg() {
       <div
         className="desktop1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] bg-no-repeat h-auto"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
         }}
       >
         <MotionDivDownToUp className="z-10 flex justify-start desktop1:justify-start">
@@ -85,7 +85,7 @@ function FullImg() {
       >
         <SectionArea
           paddingTopAndBottom={false}
-          className="h-full bg-black bg-opacity-70"
+          className="h-full bg-black bg-opacity-30"
         >
           <SectionWrapper className="">
             <div className="flex w-full">
