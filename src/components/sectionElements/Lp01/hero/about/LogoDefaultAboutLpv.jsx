@@ -9,7 +9,7 @@ function LogoDefaultAboutLpv() {
       <img
         src={contentLp01.about.imgAbout}
         alt={contentLp01.about.ariaLabel}
-        className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-auto w-[90%] tablet1:w-full rounded-xl"
+        className="shadow-custom-opacity shadow-primary relative bg-center bg-no-repeat bg-cover h-auto w-[90%] tablet1:w-full rounded-xl"
       />
     </MotionDivDownToUp>
   );
