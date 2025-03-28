@@ -33,7 +33,7 @@ export default function About({ modal, showGallery }) {
             miniTitle={content.texts.about.miniTag}
             sectionHeaderTitle={content.texts.about.title}
             sectionHeaderSubtitle={content.texts.about.subtitle}
-            color=""
+            color="dark"
             type="article"
             titleColorSet="text-white"
             subtitleColorSet="text-white"

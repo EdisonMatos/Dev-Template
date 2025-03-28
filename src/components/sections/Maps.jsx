@@ -38,7 +38,7 @@ export default function Maps() {
             miniTitle={content.texts.maps.minitag}
             sectionHeaderTitle={content.texts.maps.title}
             sectionHeaderSubtitle={content.texts.maps.subtitle}
-            color=""
+            color="dark"
             type=""
             titleColorSet="text-white"
             subtitleColorSet="text-white"

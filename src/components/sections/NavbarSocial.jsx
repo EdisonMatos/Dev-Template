@@ -85,8 +85,8 @@ export default function NavbarSocial({ LightMode }) {
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           LightMode
             ? scrolling
-              ? "bg-white  shadow-md"
-              : "bg-transparent"
+              ? "bg-white shadow-md"
+              : "desktop1:bg-black/20"
             : scrolling
             ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
             : "transition-colors duration-1000 border-b-[1px] border-transparent border-black"
@@ -109,7 +109,7 @@ export default function NavbarSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[30%] transition-all duration-1000"
-                    : "bg-white w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[60%] desktop2:w-[40%] px-3 py-3 transition-all duration-1000"
+                    : "bg-transparent w-full phone3:max-w-[160px] desktop1:w-full  px-3 py-3 transition-all duration-1000"
                   : scrolling
                   ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[80%] tablet2:w-[70%] desktop1:w-[80%] desktop2:w-[80%] transition-all duration-1000"
                   : "bg-transparent my-[20px] w-full transition-all duration-1000"
