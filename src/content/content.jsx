@@ -56,14 +56,14 @@ import { Stethoscope } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dieguves Neto",
+  name: "A_DAdvogada Elenice Rodriguesefinir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "dieguesneto.com.br", // Sem "www"
+  domain: "elenicelima.adv.br", // Sem "www"
   phone: {
-    ddd: "82",
-    firstPart: "99115", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4572", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "95966", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3784", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -73,9 +73,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Epaminondas Gracindo,</p>
-      <p>nº 22, Bairro Pajuçara Maceió - AL,</p>
-      <p>CEP 57030-101.</p>
+      <p>Rua José Maria Rebelo,</p>
+      <p>nº 237, Brasilândia São Paulo - SP,</p>
+      <p>CEP 02870-030.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -90,11 +90,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira</p>
-      <p>8h às 19h</p>
+      <p>9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "adv.elenicelima", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
