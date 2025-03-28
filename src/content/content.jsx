@@ -345,7 +345,7 @@ const content = {
         title: "Conecte-se conosco",
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p>A_Definir</p>,
+        paragraph: <p></p>,
         labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
