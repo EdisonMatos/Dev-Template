@@ -1,6 +1,6 @@
 import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+import heroImg from "../assets/imgs/hero/bgHero.jpg";
+import heroImgPhone from "../assets/imgs/hero/bgHero.jpg";
 import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
@@ -127,6 +127,7 @@ const content = {
       subtitle:
         "Como ajudamos você a superar desafios com soluções sob medida e resultados excepcionais.",
       heroImg: heroImg,
+      heroImgPhone: heroImgPhone,
       ctaButtonText: "Encontre sua solução",
       obsHero: {
         icon: (
