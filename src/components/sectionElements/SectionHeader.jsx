@@ -23,7 +23,7 @@ export default function SectionHeader({
 }) {
   // Configurações baseadas na cor
   if (color === "dark") {
-    miniTitleTextColor = "text-primary";
+    miniTitleTextColor = "text-black";
     titleColor = titleColorSet ?? "text-primary";
     subtitleColor = subtitleColorSet ?? "text-darker opacity-70";
     if (miniTitleBgColor) miniTitleBgColor = "bg-[#E0E0E0] ";

@@ -38,7 +38,7 @@ export default function Index() {
       />
       <Cta />
       <Steps />
-      <Maps />
+      {/* <Maps /> */}
       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
