@@ -173,15 +173,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções jurídicas para cada necessidade",
+      subtitle: "Cada caso tratado com dedicação, técnica e visão estratégica.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle: "Proteção dos seus direitos em família, consumo e sucessões.",
         description: (
           <div>
             A_Definir
@@ -208,8 +208,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Empresarial",
+        subtitle: "Consultoria jurídica para empresas de diversos setores.",
         description: (
           <div>
             A_Definir
@@ -236,8 +236,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa de empresas e trabalhadores em litígios e acordos.",
         description: (
           <div>
             A_Definir <br />
@@ -263,8 +263,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Médico",
+        subtitle: "Defesa jurídica de médicos, hospitais e planos de saúde.",
         description: (
           <div>
             A_Definir
