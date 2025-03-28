@@ -320,33 +320,66 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. FERNANDES DIEGUES NETO",
+      title: "Minha trajetória",
+      subtitle:
+        "Advogado dedicado à excelência e atendimento personalizado, com foco em resultados.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Sou Fernando Diegues Neto, advogado com uma trajetória construída com
+          base na dedicação, no estudo constante e na busca incessante pela
+          excelência.
           <br />
-          A_Definir
+          Natural de Araçatuba - SP, minha formação na renomada Universidade
+          Federal de Mato Grosso do Sul (UFMS) me proporcionou uma base sólida e
+          um olhar diferenciado para cada desafio jurídico.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Sou Fernando Diegues Neto, advogado com uma trajetória construída com
+          base na dedicação, no estudo constante e na busca incessante pela
+          excelência.
           <br />
           <br />
-          A_Definir
+          Natural de Araçatuba - SP, minha formação na renomada Universidade
+          Federal de Mato Grosso do Sul (UFMS) me proporcionou uma base sólida e
+          um olhar diferenciado para cada desafio jurídico.
           <br />
           <br />
-          A_Definir
+          Com atuação nos estados de São Paulo, Mato Grosso do Sul, Rondônia e
+          Alagoas, tenho me especializado em oferecer soluções jurídicas
+          personalizadas, longe do atendimento impessoal e generalista.
           <br />
           <br />
-          A_Definir
+          Minha advocacia é artesanal, voltada para a construção de estratégias
+          sob medida para cada cliente, levando em conta suas necessidades e
+          particularidades.
+          <br />
+          <br />
+          Em minha prática, cada caso é tratado de forma única, com atenção aos
+          detalhes e ao contexto do cliente. Acredito que a advocacia vai além
+          de resolver questões legais; ela deve proporcionar segurança,
+          tranquilidade e confiança.
+          <br />
+          <br />
+          Estou sempre em busca da melhor solução para meus clientes, com foco
+          em resultados eficazes e rápidos, utilizando de toda a minha
+          experiência e conhecimento.
+          <br />
+          <br />
+          Meu compromisso é proporcionar um atendimento humanizado, sem perder a
+          precisão e a eficiência que o direito exige.
+          <br />
+          <br />
+          Estou aqui para entender suas necessidades, trabalhar ao seu lado e
+          garantir que seus direitos sejam respeitados de maneira estratégica e
+          personalizada.
           <br />
           <br />
         </p>
