@@ -102,14 +102,14 @@ export default function NavbarSocial({ LightMode }) {
             offset={-100}
             href="#"
           >
-            <img
+             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
               className={`${
                 LightMode
                   ? scrolling
-                    ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[30%] transition-all duration-1000"
-                    : "bg-transparent w-full phone3:max-w-[160px] desktop1:w-full  px-3 py-3 transition-all duration-1000"
+                    ? "bg-transparent w-[80%] tablet1:w-[70%] tablet2:w-[80%] desktop1:w-[70%] px-3 py-3 desktop2:w-[80%] transition-all duration-1000"
+                    : " w-full my-[20px] phone3:max-w-[180px] tablet1:w-[90%] desktop1:w-[80%] desktop2:w-[90%] px-3 py-3 transition-all duration-1000"
                   : scrolling
                   ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[80%] tablet2:w-[70%] desktop1:w-[80%] desktop2:w-[80%] transition-all duration-1000"
                   : "bg-transparent my-[20px] w-full transition-all duration-1000"
