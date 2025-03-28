@@ -121,16 +121,14 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM MACEIÓ - AL",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Advocacia artesanal,
-          <span className="text-primary"> cada cliente é único</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Como ajudamos você a superar desafios com soluções sob medida e resultados excepcionais.",
-      heroImg: heroImg,
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone,
       ctaButtonText: "Encontre sua solução",
       obsHero: {
@@ -152,7 +150,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial em Maceió e online para todo Brasil",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -178,15 +176,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Soluções jurídicas para cada necessidade",
-      subtitle: "Cada caso tratado com dedicação, técnica e visão estratégica.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Proteção dos seus direitos em família, consumo e sucessões.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -196,14 +194,25 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <Gavel />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Empresarial",
-        subtitle: "Consultoria jurídica para empresas de diversos setores.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -213,14 +222,25 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <Briefcase />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa de empresas e trabalhadores em litígios e acordos.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -229,14 +249,25 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <Building />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Médico",
-        subtitle: "Defesa jurídica de médicos, hospitais e planos de saúde.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -246,7 +277,18 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Stethoscope />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -281,66 +323,33 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. FERNANDES DIEGUES NETO",
-      title: "Minha trajetória",
-      subtitle:
-        "Advogado dedicado à excelência e atendimento personalizado, com foco em resultados.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Sou Fernando Diegues Neto, advogado com uma trajetória construída com
-          base na dedicação, no estudo constante e na busca incessante pela
-          excelência.
+          A_Definir
           <br />
-          Natural de Araçatuba - SP, minha formação na renomada Universidade
-          Federal de Mato Grosso do Sul (UFMS) me proporcionou uma base sólida e
-          um olhar diferenciado para cada desafio jurídico.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Sou Fernando Diegues Neto, advogado com uma trajetória construída com
-          base na dedicação, no estudo constante e na busca incessante pela
-          excelência.
+          A_Definir
           <br />
           <br />
-          Natural de Araçatuba - SP, minha formação na renomada Universidade
-          Federal de Mato Grosso do Sul (UFMS) me proporcionou uma base sólida e
-          um olhar diferenciado para cada desafio jurídico.
+          A_Definir
           <br />
           <br />
-          Com atuação nos estados de São Paulo, Mato Grosso do Sul, Rondônia e
-          Alagoas, tenho me especializado em oferecer soluções jurídicas
-          personalizadas, longe do atendimento impessoal e generalista.
+          A_Definir
           <br />
           <br />
-          Minha advocacia é artesanal, voltada para a construção de estratégias
-          sob medida para cada cliente, levando em conta suas necessidades e
-          particularidades.
-          <br />
-          <br />
-          Em minha prática, cada caso é tratado de forma única, com atenção aos
-          detalhes e ao contexto do cliente. Acredito que a advocacia vai além
-          de resolver questões legais; ela deve proporcionar segurança,
-          tranquilidade e confiança.
-          <br />
-          <br />
-          Estou sempre em busca da melhor solução para meus clientes, com foco
-          em resultados eficazes e rápidos, utilizando de toda a minha
-          experiência e conhecimento.
-          <br />
-          <br />
-          Meu compromisso é proporcionar um atendimento humanizado, sem perder a
-          precisão e a eficiência que o direito exige.
-          <br />
-          <br />
-          Estou aqui para entender suas necessidades, trabalhar ao seu lado e
-          garantir que seus direitos sejam respeitados de maneira estratégica e
-          personalizada.
+          A_Definir
           <br />
           <br />
         </p>
@@ -384,7 +393,7 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "A_DefiRealizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.nir",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
