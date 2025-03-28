@@ -1,14 +1,25 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
+import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
+import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
+import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
+import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import personImg from "../assets/imgs/hero/edvaldo.png";
+import personImgPhone from "../assets/imgs/hero/edvaldo.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
