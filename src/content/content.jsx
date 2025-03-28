@@ -50,8 +50,8 @@ import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 import { Briefcase, Gavel } from "lucide-react";
 import { BriefcaseBusiness } from "lucide-react";
-import { Users } from 'lucide-react';
-import { FileText } from 'lucide-react';
+import { Users } from "lucide-react";
+import { FileText } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -196,9 +196,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: (
-          <Users/>
-        ),
+        icon: <Users />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -215,9 +213,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: (
-         <FileText/>
-        ),
+        icon: <FileText />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -233,9 +229,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: (
-          <Gavel/>
-        ),
+        icon: <Gavel />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -253,9 +247,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: (
-          <Briefcase/>
-        ),
+        icon: <Briefcase />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -290,33 +282,52 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA. ELENICE RODRIGUES",
+      title: "Minha trajetória",
+      subtitle:
+        "Quase 3 décadas de uma jornada de aprendizado e paixão pelo Direito",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Minha trajetória no mundo jurídico começou em 1996, quando iniciei no
+          departamento societário de um escritório de contabilidade.
           <br />
-          A_Definir
+          Passei por escritórios renomados com certificação ISO 9001, o que me
+          proporcionou uma sólida experiência no Direito Societário e
+          Tributário.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha trajetória no mundo jurídico começou em 1996, quando iniciei no
+          departamento societário de um escritório de contabilidade.
           <br />
           <br />
-          A_Definir
+          Passei por escritórios renomados com certificação ISO 9001, o que me
+          proporcionou uma sólida experiência no Direito Societário e
+          Tributário.
           <br />
           <br />
-          A_Definir
+          Em 2014, percebi a necessidade de aprimorar meus conhecimentos e
+          decidi cursar Direito. Durante o estágio na Defensoria Pública de São
+          Paulo, fui cativada pela área de Família e Sucessões, o que despertou
+          uma verdadeira paixão.
           <br />
           <br />
-          A_Definir
+          Atualmente, atuo tanto no Direito Societário e Tributário quanto no
+          Direito de Família e Sucessões, sempre com ética, transparência e
+          proatividade. Meu diferencial está no acompanhamento constante dos
+          processos de atualização online nos órgãos públicos, garantindo
+          agilidade e eficiência.
+          <br />
+          <br />
+          Meu compromisso é oferecer soluções claras e objetivas, com um
+          atendimento acolhedor e moderno, voltado para as necessidades de cada
+          cliente.
           <br />
           <br />
         </p>
@@ -330,14 +341,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
