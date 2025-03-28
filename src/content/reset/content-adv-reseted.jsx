@@ -1,16 +1,25 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-
+import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import imgAppStore from "../assets/imgs/hero/appStore.webp";
-import imgGooglePlay from "../assets/imgs/hero/googlePlay.webp";
+import heroImgPerson from "../assets/imgs/hero/bgHero.jpg"
 
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
+
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
+import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
+import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
+import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
+import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
+
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import personImg from "../assets/imgs/hero/edvaldo.png";
+import personImgPhone from "../assets/imgs/hero/edvaldo.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -27,6 +36,18 @@ import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
 import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
 import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
+
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
+
+import teamMemberImg1 from "../assets/imgs/team/team1.webp";
+import teamMemberImg2 from "../assets/imgs/team/team2.webp";
+import teamMemberImg3 from "../assets/imgs/team/team3.webp";
+import teamMemberImg4 from "../assets/imgs/team/team4.webp";
+
+import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
+import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
+import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
+import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 

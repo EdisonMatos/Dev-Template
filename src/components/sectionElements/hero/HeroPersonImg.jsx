@@ -8,7 +8,7 @@ import "../../../styles/shapeDivs.css";
 export default function HeroPersonImg({ appDownloadButtons }) {
   return (
     <div
-      className="w-full bg-center desktop1:hidden bg-repeat bg-cover font-mainFont bg-black desktop1:pt-[45px]"
+      className="w-full bg-center bg-repeat bg-cover font-mainFont bg-black desktop1:pt-[45px]"
       id="home"
       style={{
         backgroundImage: `url(${content.texts.hero.images.backgroundPerson})`,

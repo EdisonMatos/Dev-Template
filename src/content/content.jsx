@@ -1,9 +1,9 @@
 import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+import heroImg from "../assets/imgs/hero/bgHero.jpg";
+import heroImgPhone from "../assets/imgs/hero/bgHero.jpg";
 import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import heroImgPerson from "../assets/imgs/hero/bgHero.jpg"
+import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -48,37 +48,34 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
-import { Shield } from "lucide-react";
+import { Briefcase, Gavel } from "lucide-react";
 import { BriefcaseBusiness } from "lucide-react";
-import { Users } from "lucide-react";
-import { Calculator } from "lucide-react";
+import { Building } from "lucide-react";
+import { Stethoscope } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Dr. Edvaldo Costa Gomes",
+  name: "Dieguves Neto",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "ecgadvocacia.adv.br", // Sem "www"
+  domain: "dieguesneto.com.br", // Sem "www"
   phone: {
-    ddd: "65",
-    firstPart: "98138", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9452", // Apenas os 4 últimos números
+    ddd: "82",
+    firstPart: "99115", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4572", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "00",
-    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0000", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Rubens de Mendonça,</p>
-      <p>
-        nº 1856, Jardim Aclimação, <br />
-        Cuiabá - MT,
-      </p>
-      <p>CEP 78050-249.</p>
+      <p>Rua Epaminondas Gracindo,</p>
+      <p>nº 22, Bairro Pajuçara Maceió - AL,</p>
+      <p>CEP 57030-101.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,13 +89,12 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>Das 8h às 11h</p>
-      <p>Das 13h às 18h</p>
+      <p>Segunda à sexta-feira</p>
+      <p>8h às 19h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "edycgomess", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -125,20 +121,18 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM CUIABÁ - MT",
+      miniTag: "ADVOGADO EM MACEIÓ - AL",
       title: (
         <h1 className="mb-[16px]">
-          Dedicação e excelência
-          <span className="text-primary"> em serviços jurídicos</span>
+          Advocacia artesanal,
+          <span className="text-primary"> cada cliente é único</span>
         </h1>
       ),
       subtitle:
-        "Nossos clientes enfrentaram desafios complexos e saíram vitoriosos, conquistando soluções justas e duradouras.",
-      heroImg: HeroEdvaldo,
-      heroImgPhone: HeroEdvaldo,
-      personImg: personImg,
-      personImgPhone: personImgPhone,
-      ctaButtonText: "Conquiste o sucesso conosco",
+        "Como ajudamos você a superar desafios com soluções sob medida e resultados excepcionais.",
+      heroImg: heroImg,
+      heroImgPhone: heroImgPhone,
+      ctaButtonText: "Encontre sua solução",
       obsHero: {
         icon: (
           <svg
@@ -158,14 +152,13 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online. Presencial com hora marcada.",
+        text: "Atendimento presencial em Maceió e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
       secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
-        backgroundPerson: heroImgPerson,
         static: {
           img: {},
           alt: "",
@@ -186,15 +179,14 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Soluções jurídicas que compreendem sua realidade",
-      subtitle:
-        "Estamos ao seu lado, oferecendo soluções jurídicas que realmente fazem a diferença na sua vida.",
+      title: "Soluções jurídicas para cada necessidade",
+      subtitle: "Cada caso tratado com dedicação, técnica e visão estratégica.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Criminal",
-        subtitle: "Sua liberdade em boas mãos. Defesa firme e eficaz.",
+        title: "Direito Cível",
+        subtitle: "Proteção dos seus direitos em família, consumo e sucessões.",
         description: (
           <div>
             A_Definir
@@ -203,16 +195,15 @@ const content = {
             A_Definir
           </div>
         ),
-        labelButton: "Saber Mais",
         imgModal: imgFeaturesCardModal1,
-        icon: <Shield />,
+        icon: <Gavel />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card2: {
         img: featuresImg2,
-        title: "Trabalhista",
-        subtitle: "Seus direitos no trabalho garantidos com estratégia.",
+        title: "Direito Empresarial",
+        subtitle: "Consultoria jurídica para empresas de diversos setores.",
         description: (
           <div>
             A_Definir
@@ -221,17 +212,15 @@ const content = {
             A_Definir
           </div>
         ),
-        labelButton: "Saber Mais",
-
         imgModal: imgFeaturesCardModal2,
-        icon: <BriefcaseBusiness />,
+        icon: <Briefcase />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card3: {
         img: featuresImg3,
-        title: "Cível e Família",
-        subtitle: "Protegemos o que é seu: família, bens e contratos.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa de empresas e trabalhadores em litígios e acordos.",
         description: (
           <div>
             A_Definir <br />
@@ -239,17 +228,15 @@ const content = {
             A_Definir
           </div>
         ),
-        labelButton: "Saber Mais",
-
         imgModal: imgFeaturesCardModal3,
-        icon: <Users />,
+        icon: <Building />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
         img: featuresImg4,
-        title: "Tributário",
-        subtitle: "Menos impostos, mais segurança para seu negócio.",
+        title: "Direito Médico",
+        subtitle: "Defesa jurídica de médicos, hospitais e planos de saúde.",
         description: (
           <div>
             A_Definir
@@ -258,10 +245,8 @@ const content = {
             <br />
           </div>
         ),
-        labelButton: "Saber Mais",
-
         imgModal: imgFeaturesCardModal4,
-        icon: <Calculator />,
+        icon: <Stethoscope />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -283,79 +268,79 @@ const content = {
         },
       },
     },
+    maps: {
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Maceió",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3933.088909486281!2d-35.7186667!3d-9.673444400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNDAnMjQuNCJTIDM1wrA0MycwNy4yIlc!5e0!3m2!1spt-BR!2sbr!4v1743162484900!5m2!1spt-BR!2sbr",
+    },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      galeria: {
-        img1: {
-          img: imgAbout1,
-          alt: "A_Definir",
-        },
-        img2: {
-          img: imgAbout2,
-          alt: "A_Definir",
-        },
-        img3: {
-          img: imgAbout3,
-          alt: "A_Definir",
-        },
-        img4: {
-          img: imgAbout4,
-          alt: "A_Definir",
-        },
-        img5: {
-          img: imgAbout5,
-          alt: "A_Definir",
-        },
-      },
-      miniTag: "QUEM É O DR. EDVALDO COSTA GOMES",
+      miniTag: "QUEM É O DR. FERNANDES DIEGUES NETO",
       title: "Minha trajetória",
       subtitle:
-        "Dedicação e paixão pela justiça, oferecendo soluções que transformam realidades.",
+        "Advogado dedicado à excelência e atendimento personalizado, com foco em resultados.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Minha jornada no direito sempre foi movida pela paixão pela justiça e
-          pela certeza de que a advocacia pode transformar vidas.
+          Sou Fernando Diegues Neto, advogado com uma trajetória construída com
+          base na dedicação, no estudo constante e na busca incessante pela
+          excelência.
           <br />
-          Desde o início, meu objetivo foi criar um espaço onde cada cliente
-          fosse verdadeiramente acolhido. Acredito que todos merecem ser bem
-          assistidos, independentemente da complexidade do caso.
+          Natural de Araçatuba - SP, minha formação na renomada Universidade
+          Federal de Mato Grosso do Sul (UFMS) me proporcionou uma base sólida e
+          um olhar diferenciado para cada desafio jurídico.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha jornada no direito sempre foi movida pela paixão pela justiça e
-          pela certeza de que a advocacia pode transformar vidas.
+          Sou Fernando Diegues Neto, advogado com uma trajetória construída com
+          base na dedicação, no estudo constante e na busca incessante pela
+          excelência.
           <br />
           <br />
-          Desde o início, meu objetivo foi criar um espaço onde cada cliente
-          fosse verdadeiramente acolhido. Acredito que todos merecem ser bem
-          assistidos, independentemente da complexidade do caso.
+          Natural de Araçatuba - SP, minha formação na renomada Universidade
+          Federal de Mato Grosso do Sul (UFMS) me proporcionou uma base sólida e
+          um olhar diferenciado para cada desafio jurídico.
           <br />
           <br />
-          Quando fundei meu escritório, busquei combinar técnica e empatia,
-          oferecendo soluções jurídicas seguras e eficazes.
+          Com atuação nos estados de São Paulo, Mato Grosso do Sul, Rondônia e
+          Alagoas, tenho me especializado em oferecer soluções jurídicas
+          personalizadas, longe do atendimento impessoal e generalista.
           <br />
           <br />
-          Estou sempre em busca de atualização, para garantir que, a cada
-          desafio, eu esteja preparado para entregar o melhor.
+          Minha advocacia é artesanal, voltada para a construção de estratégias
+          sob medida para cada cliente, levando em conta suas necessidades e
+          particularidades.
           <br />
           <br />
-          Meu trabalho é guiado por princípios sólidos de ética,
-          responsabilidade e especialização, com o objetivo de ser reconhecido
-          como um escritório de excelência.
+          Em minha prática, cada caso é tratado de forma única, com atenção aos
+          detalhes e ao contexto do cliente. Acredito que a advocacia vai além
+          de resolver questões legais; ela deve proporcionar segurança,
+          tranquilidade e confiança.
           <br />
           <br />
-          Para mim, o atendimento jurídico deve ser claro, acessível e, acima de
-          tudo, humano, sempre focado em resultados positivos para meus
-          clientes.
+          Estou sempre em busca da melhor solução para meus clientes, com foco
+          em resultados eficazes e rápidos, utilizando de toda a minha
+          experiência e conhecimento.
+          <br />
+          <br />
+          Meu compromisso é proporcionar um atendimento humanizado, sem perder a
+          precisão e a eficiência que o direito exige.
+          <br />
+          <br />
+          Estou aqui para entender suas necessidades, trabalhar ao seu lado e
+          garantir que seus direitos sejam respeitados de maneira estratégica e
+          personalizada.
           <br />
           <br />
         </p>
@@ -369,12 +354,11 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
@@ -400,7 +384,7 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "A_DefiRealizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.nir",
         },
         card2: {
           stepNumber: 2,
@@ -460,14 +444,6 @@ const content = {
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
-    },
-    maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Cuiabá",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.1256117579137!2d-56.07964390000001!3d-15.584936200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db1af75cc669f%3A0xf4ef2b047ca7a8e0!2sAv.%20Historiador%20Rubens%20de%20Mendon%C3%A7a%2C%201856%20-%20Bosque%20da%20Saude%2C%20Cuiab%C3%A1%20-%20MT%2C%2078050-010!5e0!3m2!1spt-BR!2sbr!4v1742933033638!5m2!1spt-BR!2sbr",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
