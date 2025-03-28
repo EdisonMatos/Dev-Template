@@ -121,16 +121,17 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADA EM SÃO PAULO E REGIÕES",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Confiança e sucesso
+          <span className="text-primary"> com 30 anos de carreira</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Ao longo de sua jornada, Dra. Elenice transformou casos complexos em vitórias jurídicas, oferecendo soluções eficazes e resultados consistentes.",
       heroImgPhone: heroImgPhone,
-      ctaButtonText: "Encontre sua solução",
+      ctaButtonText: "Confie em nossa experiência",
       obsHero: {
         icon: (
           <svg
@@ -150,7 +151,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento presencial e online para todo",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
