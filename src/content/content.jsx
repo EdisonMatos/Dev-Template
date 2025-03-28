@@ -52,14 +52,14 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Dieguves Neto",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "dieguesneto.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "82",
+    firstPart: "99115", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4572", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -69,9 +69,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Epaminondas Gracindo,</p>
+      <p>nº 22, Bairro Pajuçara Maceió - AL,</p>
+      <p>CEP 57030-101.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -85,8 +85,8 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>Segunda à sexta-feira</p>
+      <p>8h às 19h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
