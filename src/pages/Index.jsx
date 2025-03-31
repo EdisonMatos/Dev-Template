@@ -17,7 +17,7 @@ import Maps from "../components/sections/Maps";
 export default function Index() {
   return (
     <>
-      <Navbar LightMode={true} />
+      <Navbar LightMode={false} />
       <Hero appDownloadButtons={false} personImg={false} fundoImage={true} />
 
       <Features
@@ -30,7 +30,7 @@ export default function Index() {
       />
       <About modal={true} showGallery={false} />
       <AboutInstagram
-        socialPrint={false}
+        socialPrint={true}
         instagram={true}
         facebook={false}
         linkedin={false}
@@ -47,7 +47,7 @@ export default function Index() {
         phoneSecundario={false}
         emailSecundario={false}
         addresSecundario={false}
-        instagram={false}
+        instagram={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

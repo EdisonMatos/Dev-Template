@@ -38,8 +38,8 @@ export default function HeroFundoImage({ appDownloadButtons }) {
           })`,
         }}
       >
-        <div className="bg-white/80 desktop1:bg-white/0">
-          <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left pt-[36px] desktop1:pb-[90px] desktop2:pb-[90px] ">
+        <div className="bg-black/70 desktop1:bg-black/0 ">
+          <div className="relative z-10 flex w-full items-left pt-[36px] desktop1:pb-[90px] desktop2:pb-[90px] ">
             <div className="w-full text-secondary justify-evenly">
               <div className="h-[70px] desktop1:h-[140px]" />
               <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
@@ -131,7 +131,7 @@ export default function HeroFundoImage({ appDownloadButtons }) {
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
         </div>
       </div>
     </>

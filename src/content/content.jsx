@@ -2,7 +2,7 @@ import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/bgHero.jpg";
 import heroImgPhone from "../assets/imgs/hero/bgHero.jpg";
 import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
@@ -131,6 +131,7 @@ const content = {
       subtitle:
         "Ao longo de sua jornada, Dra. Elenice transformou casos complexos em vitórias jurídicas, oferecendo soluções eficazes e resultados consistentes.",
       heroImgPhone: heroImgPhone,
+      heroImg: bgHeroImg,
       ctaButtonText: "Confie em nossa experiência",
       obsHero: {
         icon: (
