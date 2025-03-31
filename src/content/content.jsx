@@ -56,7 +56,7 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_DAdvogada Elenice Rodriguesefinir",
+  name: "Advogada Elenice Rodrigues",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "elenicelima.adv.br", // Sem "www"
