@@ -4,6 +4,7 @@ import heroImgPhone from "../assets/imgs/hero/bgHero.jpg";
 import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg"
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -52,6 +53,7 @@ import { Briefcase, Gavel } from "lucide-react";
 import { BriefcaseBusiness } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
+import lawHero from "../components/sectionElements/hero/HeroDefault";
 
 const currentYear = new Date().getFullYear();
 
@@ -132,6 +134,7 @@ const content = {
         "Ao longo de sua jornada, Dra. Elenice transformou casos complexos em vitórias jurídicas, oferecendo soluções eficazes e resultados consistentes.",
       heroImgPhone: heroImgPhone,
       heroImg: bgHeroImg,
+      heroDefaultImage: heroDefaultImg,
       ctaButtonText: "Confie em nossa experiência",
       obsHero: {
         icon: (
