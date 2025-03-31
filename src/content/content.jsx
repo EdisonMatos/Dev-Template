@@ -52,7 +52,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "A3 Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "A_Definir", // Sem "www"
@@ -77,16 +77,16 @@ export const infos = {
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>QI 01, Lote 996/1000, Sobreloja 10,</p>
+      <p>QI 01, Lote 996/1000, Sobreloja 10,</p>
+      <p>CEP 72445-010.</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>Segunda à sexta-feira</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
