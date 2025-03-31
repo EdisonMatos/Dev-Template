@@ -30,7 +30,7 @@ export default function AboutInstagram({
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
-              color=""
+              color="dark"
               type="article"
               titleColorSet="text-white"
               subtitleColorSet="text-white"

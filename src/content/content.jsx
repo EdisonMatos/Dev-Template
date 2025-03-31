@@ -2,8 +2,9 @@ import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/bgHero.jpg";
 import heroImgPhone from "../assets/imgs/hero/bgHero.jpg";
 import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg"
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -50,20 +51,21 @@ import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 import { Briefcase, Gavel } from "lucide-react";
 import { BriefcaseBusiness } from "lucide-react";
-import { Building } from "lucide-react";
-import { Stethoscope } from "lucide-react";
+import { Users } from "lucide-react";
+import { FileText } from "lucide-react";
+import lawHero from "../components/sectionElements/hero/HeroDefault";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dieguves Neto",
+  name: "Advogada Elenice Rodrigues",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "dieguesneto.com.br", // Sem "www"
+  domain: "elenicelima.adv.br", // Sem "www"
   phone: {
-    ddd: "82",
-    firstPart: "99115", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4572", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "95966", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3784", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -73,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Epaminondas Gracindo,</p>
-      <p>nº 22, Bairro Pajuçara Maceió - AL,</p>
-      <p>CEP 57030-101.</p>
+      <p>Rua José Maria Rebelo,</p>
+      <p>nº 237, Brasilândia São Paulo - SP,</p>
+      <p>CEP 02870-030.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -90,11 +92,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira</p>
-      <p>8h às 19h</p>
+      <p>9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "adv.elenicelima", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -121,18 +123,19 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM MACEIÓ - AL",
+      miniTag: "ADVOGADA EM SÃO PAULO E REGIÕES",
       title: (
         <h1 className="mb-[16px]">
-          Advocacia artesanal,
-          <span className="text-primary"> cada cliente é único</span>
+          Confiança e sucesso
+          <span className="text-primary"> com 30 anos de carreira</span>
         </h1>
       ),
       subtitle:
-        "Como ajudamos você a superar desafios com soluções sob medida e resultados excepcionais.",
-      heroImg: heroImg,
+        "Ao longo de sua jornada, Dra. Elenice transformou casos complexos em vitórias jurídicas, oferecendo soluções eficazes e resultados consistentes.",
       heroImgPhone: heroImgPhone,
-      ctaButtonText: "Encontre sua solução",
+      heroImg: bgHeroImg,
+      heroDefaultImage: heroDefaultImg,
+      ctaButtonText: "Confie em nossa experiência",
       obsHero: {
         icon: (
           <svg
@@ -152,7 +155,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial em Maceió e online para todo Brasil",
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -179,14 +182,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Soluções jurídicas para cada necessidade",
-      subtitle: "Cada caso tratado com dedicação, técnica e visão estratégica.",
+      title: "Seu problema nas mãos de quem entende",
+      subtitle:
+        "Descubra como nossa expertise pode resolver sua causa de forma única.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Proteção dos seus direitos em família, consumo e sucessões.",
+        title: "Família",
+        subtitle: "Assessoria jurídica completa para questões familiares.",
         description: (
           <div>
             A_Definir
@@ -196,14 +200,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <Gavel />,
+        icon: <Users />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Empresarial",
-        subtitle: "Consultoria jurídica para empresas de diversos setores.",
+        title: "Sucessões",
+        subtitle: "Orientação para planejamento e partilha de bens.",
         description: (
           <div>
             A_Definir
@@ -213,14 +217,14 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <Briefcase />,
+        icon: <FileText />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa de empresas e trabalhadores em litígios e acordos.",
+        title: "Tributário",
+        subtitle: "Consultoria e defesa em questões fiscais e tributárias.",
         description: (
           <div>
             A_Definir <br />
@@ -229,14 +233,15 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <Building />,
+        icon: <Gavel />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Médico",
-        subtitle: "Defesa jurídica de médicos, hospitais e planos de saúde.",
+        title: "Societário",
+        subtitle:
+          "Estruturação de negócios e resolução de conflitos empresariais.",
         description: (
           <div>
             A_Definir
@@ -246,7 +251,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Stethoscope />,
+        icon: <Briefcase />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -281,66 +286,52 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. FERNANDES DIEGUES NETO",
+      miniTag: "QUEM É A DRA. ELENICE RODRIGUES",
       title: "Minha trajetória",
       subtitle:
-        "Advogado dedicado à excelência e atendimento personalizado, com foco em resultados.",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Quase 3 décadas de uma jornada de aprendizado e paixão pelo Direito",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Sou Fernando Diegues Neto, advogado com uma trajetória construída com
-          base na dedicação, no estudo constante e na busca incessante pela
-          excelência.
+          Minha trajetória no mundo jurídico começou em 1996, quando iniciei no
+          departamento societário de um escritório de contabilidade.
           <br />
-          Natural de Araçatuba - SP, minha formação na renomada Universidade
-          Federal de Mato Grosso do Sul (UFMS) me proporcionou uma base sólida e
-          um olhar diferenciado para cada desafio jurídico.
+          Passei por escritórios renomados com certificação ISO 9001, o que me
+          proporcionou uma sólida experiência no Direito Societário e
+          Tributário.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Sou Fernando Diegues Neto, advogado com uma trajetória construída com
-          base na dedicação, no estudo constante e na busca incessante pela
-          excelência.
+          Minha trajetória no mundo jurídico começou em 1996, quando iniciei no
+          departamento societário de um escritório de contabilidade.
           <br />
           <br />
-          Natural de Araçatuba - SP, minha formação na renomada Universidade
-          Federal de Mato Grosso do Sul (UFMS) me proporcionou uma base sólida e
-          um olhar diferenciado para cada desafio jurídico.
+          Passei por escritórios renomados com certificação ISO 9001, o que me
+          proporcionou uma sólida experiência no Direito Societário e
+          Tributário.
           <br />
           <br />
-          Com atuação nos estados de São Paulo, Mato Grosso do Sul, Rondônia e
-          Alagoas, tenho me especializado em oferecer soluções jurídicas
-          personalizadas, longe do atendimento impessoal e generalista.
+          Em 2014, percebi a necessidade de aprimorar meus conhecimentos e
+          decidi cursar Direito. Durante o estágio na Defensoria Pública de São
+          Paulo, fui cativada pela área de Família e Sucessões, o que despertou
+          uma verdadeira paixão.
           <br />
           <br />
-          Minha advocacia é artesanal, voltada para a construção de estratégias
-          sob medida para cada cliente, levando em conta suas necessidades e
-          particularidades.
+          Atualmente, atuo tanto no Direito Societário e Tributário quanto no
+          Direito de Família e Sucessões, sempre com ética, transparência e
+          proatividade. Meu diferencial está no acompanhamento constante dos
+          processos de atualização online nos órgãos públicos, garantindo
+          agilidade e eficiência.
           <br />
           <br />
-          Em minha prática, cada caso é tratado de forma única, com atenção aos
-          detalhes e ao contexto do cliente. Acredito que a advocacia vai além
-          de resolver questões legais; ela deve proporcionar segurança,
-          tranquilidade e confiança.
-          <br />
-          <br />
-          Estou sempre em busca da melhor solução para meus clientes, com foco
-          em resultados eficazes e rápidos, utilizando de toda a minha
-          experiência e conhecimento.
-          <br />
-          <br />
-          Meu compromisso é proporcionar um atendimento humanizado, sem perder a
-          precisão e a eficiência que o direito exige.
-          <br />
-          <br />
-          Estou aqui para entender suas necessidades, trabalhar ao seu lado e
-          garantir que seus direitos sejam respeitados de maneira estratégica e
-          personalizada.
+          Meu compromisso é oferecer soluções claras e objetivas, com um
+          atendimento acolhedor e moderno, voltado para as necessidades de cada
+          cliente.
           <br />
           <br />
         </p>
@@ -354,14 +345,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -384,7 +376,7 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "A_DefiRealizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.nir",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,

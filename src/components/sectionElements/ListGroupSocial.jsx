@@ -39,7 +39,7 @@ export default function ListGroupSocial({ LightMode }) {
             : "text-black"
           : scrolling
           ? "text-lighter"
-          : "text-black transition-color duration-1000"
+          : "text-white transition-color duration-1000"
       }`}
     >
       <li className="transition group h-[24px] ">

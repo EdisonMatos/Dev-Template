@@ -4,10 +4,10 @@ import Button from "../../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import "../../../styles/shapeDivs.css";
 
-export default function HeroDefault({appDownloadButtons}) {
+export default function HeroDefault({ appDownloadButtons }) {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-bgSectionDark"
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-bgSectionDark desktop1:hidden"
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
@@ -97,9 +97,9 @@ export default function HeroDefault({appDownloadButtons}) {
             <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
               <MotionDivDownToUp className="relative flex justify-end w-full ">
                 <div
-                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-bgSectionDark"
+                  className="bg-center rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-bgSectionDark"
                   style={{
-                    backgroundImage: `url(${content.texts.hero.heroImg})`,
+                    backgroundImage: `url(${content.texts.hero.heroDefaultImage})`,
                     backgroundSize: "",
                   }}
                 ></div>
