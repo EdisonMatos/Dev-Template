@@ -122,16 +122,17 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM BRASÍLIA - DF",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          O Poder de
+          <span className="text-primary"> três mentes brilhantes</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "A união de experiências que transforma desafios jurídicos em vitórias concretas.",
       heroImgFundo: heroImg,
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Fale com nossas especialistas",
       obsHero: {
         icon: (
           <svg
@@ -151,7 +152,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento presencial em Brasília e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
