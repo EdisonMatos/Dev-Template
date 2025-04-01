@@ -84,14 +84,14 @@ export const infos = {
     <div>
       <p>Endereço:</p>
       <p>Segunda à sexta-feira</p>
-      <p>9h às 18h</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>Segunda à Sexta-feira</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
