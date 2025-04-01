@@ -102,7 +102,7 @@ export default function NavbarSocial({ LightMode }) {
             offset={-100}
             href="#"
           >
-             <img
+            <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
               className={`${
@@ -126,6 +126,7 @@ export default function NavbarSocial({ LightMode }) {
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
                 onClick={() => navigate("/whatsapp")}
+                // buttonLink={content.texts.links.ctaWhatsapp}
                 className={`${scrolling ? "" : ""}`}
                 size="small"
                 icon={<FaWhatsapp />}

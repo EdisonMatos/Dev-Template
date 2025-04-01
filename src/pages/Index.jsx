@@ -29,13 +29,13 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} />
-      <AboutInstagram
+      {/* <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={false}
         linkedin={false}
         x={false}
-      />
+      /> */}
       <Cta />
       <Steps />
       {/* <Maps /> */}
@@ -48,7 +48,7 @@ export default function Index() {
         phoneTerciario={true}
         emailSecundario={false}
         addresSecundario={false}
-        instagram={true}
+        instagram={false}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
