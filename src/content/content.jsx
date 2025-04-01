@@ -1,9 +1,8 @@
 import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
-import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
+import heroImg from "../assets/imgs/hero/bgHero.jpg";
+// import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+// import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -125,7 +124,7 @@ const content = {
         </h1>
       ),
       subtitle: "A_Definir",
-      heroImg: heroImg,
+      heroImgFundo: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
         icon: (

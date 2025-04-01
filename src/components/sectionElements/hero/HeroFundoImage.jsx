@@ -14,8 +14,8 @@ export default function HeroFundoImage({ appDownloadButtons }) {
     const handleResize = () => {
       setBgImage(
         window.innerWidth < 1024
-          ? content.texts.hero.heroImgPhone
-          : content.texts.hero.heroImg
+          ? content.texts.hero.heroImgFundo
+          : content.texts.hero.heroImgFundo
       );
     };
 
@@ -33,8 +33,8 @@ export default function HeroFundoImage({ appDownloadButtons }) {
         style={{
           backgroundImage: `url(${
             window.innerWidth < 1024
-              ? content.texts.hero.heroImgPhone
-              : content.texts.hero.heroImg
+              ? content.texts.hero.heroImgFundo
+              : content.texts.hero.heroImgFundo
           })`,
         }}
       >
