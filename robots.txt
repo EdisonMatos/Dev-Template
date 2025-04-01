@@ -1,3 +1,4 @@
 User-agent: *
-Sitemap: https://https://www.a3advocacia.adv.br/sitemap.xml
+Sitemap: https://www.a3advocacia.adv.br/sitemap.xml
+
 

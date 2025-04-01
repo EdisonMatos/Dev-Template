@@ -18,7 +18,8 @@ export default function Faq() {
           miniTitle={content.texts.faq.miniTag}
           sectionHeaderTitle={content.texts.faq.title}
           sectionHeaderSubtitle={content.texts.faq.subtitle}
-          color=""
+          color="dark"
+          titleColorSet="text-secondary"
         />
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">
