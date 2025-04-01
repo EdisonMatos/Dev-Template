@@ -353,33 +353,43 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A A3 ADVOCACIA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Três advogadas unidas pela ética, excelência e compromisso com a justiça.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          A A3 Advocacia surgiu da amizade e do compromisso de três advogadas
+          com mais de 25 anos de experiência. Fundado em Brasília, o escritório
+          se destaca pela abordagem humanizada e pela ética, garantindo um
+          atendimento jurídico que vai além da técnica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A A3 Advocacia surgiu da amizade e do compromisso de três advogadas
+          com mais de 25 anos de experiência. Fundado em Brasília, o escritório
+          se destaca pela abordagem humanizada e pela ética, garantindo um
+          atendimento jurídico que vai além da técnica.
           <br />
           <br />
-          A_Definir
+          Cada fundadora traz um histórico de sucesso e uma visão única, mas
+          todas compartilham o mesmo objetivo: oferecer soluções jurídicas
+          personalizadas, com foco na confiança e na transparência.
           <br />
           <br />
-          A_Definir
+          A união dessas profissionais representa a força da colaboração,
+          proporcionando soluções mais eficazes e inovadoras.
           <br />
           <br />
-          A_Definir
+          No A3 Advocacia, cada cliente é tratado com dedicação, e nossa missão
+          é ser uma referência no mercado jurídico de Brasília, defendendo
+          direitos com excelência e paixão.
           <br />
           <br />
         </p>
