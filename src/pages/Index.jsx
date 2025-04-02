@@ -18,7 +18,7 @@ export default function Index() {
   return (
     <>
       <Navbar LightMode={false} />
-      <Hero appDownloadButtons={false} personImg={false} fundoImage={true} herodefault={true} />
+      <Hero appDownloadButtons={false} personImg={true} fundoImage={false} />
 
       <Features
         defaultFeature={true}

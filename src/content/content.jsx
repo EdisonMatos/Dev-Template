@@ -1,11 +1,10 @@
 import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/bgHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/bgHero.jpg";
-import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
+import heroImgPhone from "../assets/imgs/hero/personImg.png";
+import heroImgDesktop from "../assets/imgs/hero/HeroEdvaldo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
-import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg"
-
+import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg"
+ 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
@@ -19,8 +18,6 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-import personImg from "../assets/imgs/hero/edvaldo.png";
-import personImgPhone from "../assets/imgs/hero/edvaldo.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -50,10 +47,8 @@ import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 import { Briefcase, Gavel } from "lucide-react";
-import { BriefcaseBusiness } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
-import lawHero from "../components/sectionElements/hero/HeroDefault";
 
 const currentYear = new Date().getFullYear();
 
@@ -132,9 +127,11 @@ const content = {
       ),
       subtitle:
         "Ao longo de sua jornada, Dra. Elenice transformou casos complexos em vitórias jurídicas, oferecendo soluções eficazes e resultados consistentes.",
-      heroImgPhone: heroImgPhone,
-      heroImg: bgHeroImg,
-      heroDefaultImage: heroDefaultImg,
+      heroImgPhone: heroImgPhone, // img da pessoa mobile
+      heroDesktop: heroImgDesktop, //bg com foto da pessoa
+      heroImg: bgHeroImg, //fundo da Hero
+      heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
+      backgroundPerson: backgroundPersonMobile,
       ctaButtonText: "Confie em nossa experiência",
       obsHero: {
         icon: (
