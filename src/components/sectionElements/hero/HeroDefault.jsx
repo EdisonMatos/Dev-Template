@@ -99,7 +99,7 @@ export default function HeroDefault({ appDownloadButtons }) {
                 <div
                   className="bg-center rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-bgSectionDark"
                   style={{
-                    backgroundImage: `url(${content.texts.hero.heroDefaultImage})`,
+                    backgroundImage: `url(${content.texts.hero.heroDeafult})`,
                     backgroundSize: "",
                   }}
                 ></div>

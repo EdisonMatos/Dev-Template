@@ -1,10 +1,9 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/bgHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/bgHero.jpg";
-import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
-import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg"
+import lawHero from "../assets/imgs/hero/lawHero.jpg"
+// import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+// import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -49,54 +48,55 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
-import { Briefcase, Gavel } from "lucide-react";
-import { BriefcaseBusiness } from "lucide-react";
-import { Users } from "lucide-react";
-import { FileText } from "lucide-react";
-import lawHero from "../components/sectionElements/hero/HeroDefault";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogada Elenice Rodrigues",
+  name: "A3 Advocacia",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "elenicelima.adv.br", // Sem "www"
+  emailSecundario: "A_Definir", // Email secundário
+  domain: "a3advocacia.adv.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "95966", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3784", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "98593", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3034", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "99955", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4557", // Apenas os 4 últimos números
+  },
+  phoneTerciario: {
+    ddd: "61",
+    firstPart: "98454", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7341", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua José Maria Rebelo,</p>
-      <p>nº 237, Brasilândia São Paulo - SP,</p>
-      <p>CEP 02870-030.</p>
+      <p>QI 01, Lote 996/1000,</p>
+      <p>Sobreloja 10,</p>
+      <p>Setor de Indústria,</p>
+      <p>Gama Brasília - DF,</p>
+      <p> CEP 72445-010.</p>
     </div>
   ),
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Segunda à sexta-feira</p>
       <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>Segunda à Sexta-feira</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "adv.elenicelima", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,19 +123,18 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM SÃO PAULO E REGIÕES",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM BRASÍLIA - DF",
       title: (
         <h1 className="mb-[16px]">
-          Confiança e sucesso
-          <span className="text-primary"> com 30 anos de carreira</span>
+          O Poder de
+          <span className="text-primary"> três mentes brilhantes</span>
         </h1>
       ),
       subtitle:
-        "Ao longo de sua jornada, Dra. Elenice transformou casos complexos em vitórias jurídicas, oferecendo soluções eficazes e resultados consistentes.",
-      heroImgPhone: heroImgPhone,
-      heroImg: bgHeroImg,
-      heroDefaultImage: heroDefaultImg,
-      ctaButtonText: "Confie em nossa experiência",
+        "A união de experiências que transforma desafios jurídicos em vitórias concretas.",
+      heroImgFundo: heroImg,
+      heroDeafult: lawHero,
+      ctaButtonText: "Fale com nossas especialistas",
       obsHero: {
         icon: (
           <svg
@@ -155,7 +154,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil",
+        text: "Atendimento presencial em Brasília e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -181,16 +180,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Seu problema nas mãos de quem entende",
-      subtitle:
-        "Descubra como nossa expertise pode resolver sua causa de forma única.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Três especialistas, um só objetivo",
+      subtitle: "Soluções jurídicas com estratégia e excelência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Família",
-        subtitle: "Assessoria jurídica completa para questões familiares.",
+        title: "Trabalhista e Previdenciário",
+        subtitle: "Defesa de direitos no trabalho e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -200,14 +198,33 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <Users />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-gavel-icon lucide-gavel"
+          >
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
+          </svg>
+        ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card2: {
         img: featuresImg2,
-        title: "Sucessões",
-        subtitle: "Orientação para planejamento e partilha de bens.",
+        title: "Família e Sucessões",
+        subtitle: "Divórcios, inventários e proteção dos direitos familiares.",
         description: (
           <div>
             A_Definir
@@ -217,14 +234,32 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <FileText />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users-icon lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+          </svg>
+        ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card3: {
         img: featuresImg3,
-        title: "Tributário",
-        subtitle: "Consultoria e defesa em questões fiscais e tributárias.",
+        title: "Direito Cível",
+        subtitle: "Contratos, indenizações e solução de conflitos civis.",
         description: (
           <div>
             A_Definir <br />
@@ -233,15 +268,34 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <Gavel />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
       card4: {
         img: featuresImg4,
-        title: "Societário",
+        title: "Criminal e Penal Militar",
         subtitle:
-          "Estruturação de negócios e resolução de conflitos empresariais.",
+          "A_DefiDefesa em crimes comuns e militares com estratégia jurídica.nir",
         description: (
           <div>
             A_Definir
@@ -251,7 +305,22 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Briefcase />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-icon lucide-shield"
+          >
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+          </svg>
+        ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -274,64 +343,55 @@ const content = {
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Maceió",
+      minitag: "Google Maps",
+      title: "Como nos encontrar?",
       subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3933.088909486281!2d-35.7186667!3d-9.673444400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNDAnMjQuNCJTIDM1wrA0MycwNy4yIlc!5e0!3m2!1spt-BR!2sbr!4v1743162484900!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. ELENICE RODRIGUES",
-      title: "Minha trajetória",
+      miniTag: "QUEM É A A3 ADVOCACIA",
+      title: "Nossa trajetória",
       subtitle:
-        "Quase 3 décadas de uma jornada de aprendizado e paixão pelo Direito",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+        "Três advogadas unidas pela ética, excelência e compromisso com a justiça.",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Minha trajetória no mundo jurídico começou em 1996, quando iniciei no
-          departamento societário de um escritório de contabilidade.
-          <br />
-          Passei por escritórios renomados com certificação ISO 9001, o que me
-          proporcionou uma sólida experiência no Direito Societário e
-          Tributário.
+          A A3 Advocacia surgiu da amizade e do compromisso de três advogadas
+          com mais de 25 anos de experiência. Fundado em Brasília, o escritório
+          se destaca pela abordagem humanizada e pela ética, garantindo um
+          atendimento jurídico que vai além da técnica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha trajetória no mundo jurídico começou em 1996, quando iniciei no
-          departamento societário de um escritório de contabilidade.
+          A A3 Advocacia surgiu da amizade e do compromisso de três advogadas
+          com mais de 25 anos de experiência. Fundado em Brasília, o escritório
+          se destaca pela abordagem humanizada e pela ética, garantindo um
+          atendimento jurídico que vai além da técnica.
           <br />
           <br />
-          Passei por escritórios renomados com certificação ISO 9001, o que me
-          proporcionou uma sólida experiência no Direito Societário e
-          Tributário.
+          Cada fundadora traz um histórico de sucesso e uma visão única, mas
+          todas compartilham o mesmo objetivo: oferecer soluções jurídicas
+          personalizadas, com foco na confiança e na transparência.
           <br />
           <br />
-          Em 2014, percebi a necessidade de aprimorar meus conhecimentos e
-          decidi cursar Direito. Durante o estágio na Defensoria Pública de São
-          Paulo, fui cativada pela área de Família e Sucessões, o que despertou
-          uma verdadeira paixão.
+          A união dessas profissionais representa a força da colaboração,
+          proporcionando soluções mais eficazes e inovadoras.
           <br />
           <br />
-          Atualmente, atuo tanto no Direito Societário e Tributário quanto no
-          Direito de Família e Sucessões, sempre com ética, transparência e
-          proatividade. Meu diferencial está no acompanhamento constante dos
-          processos de atualização online nos órgãos públicos, garantindo
-          agilidade e eficiência.
-          <br />
-          <br />
-          Meu compromisso é oferecer soluções claras e objetivas, com um
-          atendimento acolhedor e moderno, voltado para as necessidades de cada
-          cliente.
+          No A3 Advocacia, cada cliente é tratado com dedicação, e nossa missão
+          é ser uma referência no mercado jurídico de Brasília, defendendo
+          direitos com excelência e paixão.
           <br />
           <br />
         </p>
@@ -345,15 +405,14 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -768,13 +827,17 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
+
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
       phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
+      phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,
       adress: infos.endereco,

@@ -18,7 +18,7 @@ export default function Faq() {
           miniTitle={content.texts.faq.miniTag}
           sectionHeaderTitle={content.texts.faq.title}
           sectionHeaderSubtitle={content.texts.faq.subtitle}
-          color="dark"
+          color=""
           titleColorSet="text-secondary"
         />
         <SectionWrapper className="flex justify-center">
