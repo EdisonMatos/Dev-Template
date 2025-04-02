@@ -128,7 +128,7 @@ export default function HeroPersonImg({ appDownloadButtons }) {
         }}
       >
         <SectionArea paddingTopAndBottom={false} className="relative">
-          <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-black to-transparent" />
+          <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-red-900 to-transparent" />
 
           <SectionWrapper>
             <div className="relative z-10 flex w-full items-left pt-[36px] desktop1:py-[90px] desktop2:pb-[90px] ">

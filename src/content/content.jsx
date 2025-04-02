@@ -122,7 +122,6 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Confiança e sucesso
-          <span className="text-primary"> com 30 anos de carreira</span>
         </h1>
       ),
       subtitle:
