@@ -1,5 +1,6 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/bgHero.jpg";
+import lawHero from "../assets/imgs/hero/lawHero.jpg"
 // import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
 // import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
@@ -132,6 +133,7 @@ const content = {
       subtitle:
         "A união de experiências que transforma desafios jurídicos em vitórias concretas.",
       heroImgFundo: heroImg,
+      heroDeafult: lawHero,
       ctaButtonText: "Fale com nossas especialistas",
       obsHero: {
         icon: (
