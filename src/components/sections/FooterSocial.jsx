@@ -20,6 +20,7 @@ import AdressSecundarioFooter from "../sectionElements/footer/AdressSecundario.j
 import NavegationTextFooter from "../sectionElements/footer/NavegationTextFooter.jsx";
 import LinksNavegationFooter from "../sectionElements/footer/LinksNavegationFooter.jsx";
 import EmailSecundarioFooter from "../sectionElements/footer/EmailSecundarioFooter.jsx";
+import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 
 export default function FooterSocial({
   LightMode,
@@ -32,6 +33,7 @@ export default function FooterSocial({
   addresSecundario,
   emailSecundario,
   phoneSecundario,
+  phoneTerciario,
 }) {
   return (
     <footer
@@ -48,6 +50,7 @@ export default function FooterSocial({
               <LogoFooter />
               <PhoneFooter />
               {phoneSecundario && <PhoneSecundario />}
+              {phoneTerciario&& <PhoneTerciario />}
               <EmailFooter />
               {emailSecundario && <EmailSecundarioFooter />}
               {addres && <AdressFooter />}

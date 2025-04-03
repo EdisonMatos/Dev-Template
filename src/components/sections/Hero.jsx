@@ -3,12 +3,12 @@ import HeroDefault from "../../components/sectionElements/hero/HeroDefault";
 import HeroFundoImage from "../../components/sectionElements/hero/HeroFundoImage";
 import HeroPersonImg from "../../components/sectionElements/hero/HeroPersonImg";
 
-export default function Hero({ influencer, personImg }) {
+export default function Hero({ influencer, mesclado }) {
   return (
     <>
-      {influencer ? (
+      {mesclado ? (
         <HeroFundoImage />
-      ) : personImg ? (
+      ) : influencer ? (
         <HeroPersonImg />
       ) : (
         <HeroDefault />

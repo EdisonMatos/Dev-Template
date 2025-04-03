@@ -1,11 +1,11 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
 import { FaWhatsapp } from "react-icons/fa";
+import content from "../../../content/content";
 
-const whatsappContactLink = `${content.texts.links.phoneSecundario}`;
+const whatsappContactLink = `${content.texts.links.phoneTerciario}`;
 
-function PhoneSecundario({LightMode}) {
+function PhoneTerciario({LightMode}) {
   return (
     <MotionDivDownToUp>
       <div className="flex full gap-x-[12px] items-center opacity-90">
@@ -16,11 +16,11 @@ function PhoneSecundario({LightMode}) {
           target="_blank"
           className="hover:underline"
         >
-          {content.texts.infos.phoneSecundario}
+          {content.texts.infos.phoneTerciario}
         </a>
       </div>
     </MotionDivDownToUp>
   );
 }
 
-export default PhoneSecundario;
+export default PhoneTerciario;
