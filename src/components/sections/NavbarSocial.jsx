@@ -89,7 +89,7 @@ export default function NavbarSocial({ LightMode }) {
               : "desktop1:bg-black/20"
             : scrolling
             ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
-            : "transition-colors duration-1000 border-b-[1px] border-transparent border-black"
+            : "bg-gradient-to-b from-green-900 to-transparent transition-colors duration-1000 border-b-[1px] border-none "
         }`}
       >
         <Navbar>

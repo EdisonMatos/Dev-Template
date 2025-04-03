@@ -1,9 +1,9 @@
 import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
-import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
-import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
+import heroImgPhone from "../assets/imgs/hero/personImg.png";
+import heroImgDesktop from "../assets/imgs/hero/HeroEdvaldo.png";
+import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -18,8 +18,6 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
-import personImg from "../assets/imgs/hero/edvaldo.png";
-import personImgPhone from "../assets/imgs/hero/edvaldo.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -48,6 +46,9 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
+import { Briefcase, Gavel } from "lucide-react";
+import { Users } from "lucide-react";
+import { FileText } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -62,6 +63,11 @@ export const infos = {
     secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
+  },
+  phoneTerciario: {
     ddd: "A_Definir",
     firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "A_Definir", // Apenas os 4 últimos números
@@ -125,7 +131,11 @@ const content = {
         </h1>
       ),
       subtitle: "A_Definir",
-      heroImg: heroImg,
+      heroImgPhone: heroImgPhone, // img da pessoa mobile
+      heroDesktop: heroImgDesktop, //bg com foto da pessoa
+      heroImg: bgHeroImg, //fundo da Hero
+      heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
+      backgroundPerson: backgroundPersonMobile,
       ctaButtonText: "Entre em contato",
       obsHero: {
         icon: (
@@ -771,6 +781,8 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
+      phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
@@ -778,6 +790,7 @@ const content = {
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
       phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
+      phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,
       adress: infos.endereco,
