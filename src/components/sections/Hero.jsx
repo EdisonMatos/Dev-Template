@@ -1,17 +1,18 @@
 import "../../styles/shapeDivs.css";
-import HeroDefault from "../../components/sectionElements/hero/HeroDefault";
-import HeroFundoImage from "../../components/sectionElements/hero/HeroFundoImage";
-import HeroPersonImg from "../../components/sectionElements/hero/HeroPersonImg";
+import Quadrada from "../../components/sectionElements/hero/Quadrada";
+import Panoramica from "../../components/sectionElements/hero/Panoramica";
+import Influencer from "../../components/sectionElements/hero/Influencer";
 
-export default function Hero({ influencer, mesclado }) {
+export default function Hero({ defaultHero, influencer, mesclado }) {
   return (
     <>
       {mesclado ? (
-        <HeroFundoImage />
+        <Panoramica />
       ) : influencer ? (
-        <HeroPersonImg />
+        <Influencer />
       ) : (
-        <HeroDefault />
+        defaultHero &&<Quadrada />
+        
       )}
     </>
   );

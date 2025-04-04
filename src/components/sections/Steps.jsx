@@ -15,7 +15,7 @@ export default function Steps() {
             style={{
               backgroundImage: `url(${content.texts.steps.img})`,
             }}
-            className="shadow-custom-opacity shadow-black/40 relative desktop1:bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            className="shadow-custom-opacity shadow-black/40 relative desktop1:bg-top bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           ></div>
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">

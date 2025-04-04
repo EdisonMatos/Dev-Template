@@ -1,4 +1,5 @@
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
+import MotionDivRightToLeft from "../../animation/MotionDivRightToLeft";
 import content from "../../../content/content";
 import Button from "../../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
@@ -8,46 +9,33 @@ import "../../../styles/shapeDivs.css";
 import SectionArea from "../SectionArea";
 import SectionWrapper from "../SectionWrapper";
 
-export default function HeroFundoImage({ appDownloadButtons }) {
+
+export default function Influencer({ appDownloadButtons }) {
   const navigate = useNavigate();
-  const [bgImage, setBgImage] = useState(content.texts.hero.heroImgPhone);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setBgImage(
-        window.innerWidth < 1024
-          ? content.texts.hero.heroImgPhone
-          : content.texts.hero.heroImg
-      );
-    };
-
-    handleResize(); // Definir a imagem correta ao carregar a página
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, [content]);
 
   return (
     <>
-      {/* mobile */}
       <div
-        className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-bgSectionDark desktop1:hidden"
+        className="w-full bg-center desktop1:hidden bg-repeat bg-cover font-mainFont desktop1:pt-[45px] desktop1:hidden"
         id="home"
+        style={{
+          backgroundImage: `url(${content.texts.hero.backgroundPerson})`,
+        }}
       >
         <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
           <div className="w-full text-secondary justify-evenly">
-            <div className="h-[125px] desktop3:h-[140px]" />
-            <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
-              <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
+            <div className="h-[100px] desktop1:h-[140px]" />
+            <div className="flex flex-col-reverse gap-[10px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
+              <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]  ">
                 <MotionDivDownToUp>
                   <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
-                    <p className="mb-[16px] bg-primary text-black bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
+                    <p className="mb-[16px] bg-primary text-labelsIcons bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
                       {content.texts.hero.miniTag}
                     </p>
                   </div>
                 </MotionDivDownToUp>
                 <MotionDivDownToUp>
-                  <div className="text-white flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title6">
+                  <div className="text-white flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                     <h1 className="">{content.texts.hero.title}</h1>
                   </div>
                 </MotionDivDownToUp>
@@ -63,15 +51,15 @@ export default function HeroFundoImage({ appDownloadButtons }) {
                     <Button
                       aria-label={content.texts.hero.ctaButtonAriaLabel}
                       label={content.texts.hero.ctaButtonText}
-                      onClick={() => navigate("/whatsapp")}
-                      // buttonLink={content.texts.links.ctaWhatsapp}
+                      // onClick={() => navigate("/whatsapp")}
+                      buttonLink={content.texts.links.ctaWhatsapp}
                       animation
                       className="w-[100%]"
                       icon={<FaWhatsapp size={24} />}
                     />
                   </div>
                   <MotionDivDownToUp>
-                    <div className="flex justify-center desktop1:justify-start">
+                    <div className="flex justify-center desktop1:justify-start pb-[36px]">
                       <div className="flex flex-col items-center desktop1:flex-row text-primary">
                         {content.texts.hero.obsHero.icon}
                         <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
@@ -83,7 +71,7 @@ export default function HeroFundoImage({ appDownloadButtons }) {
                   {appDownloadButtons && (
                     <MotionDivDownToUp>
                       <div className="flex flex-col items-center desktop1:items-start">
-                        <p className="mb-[20px] mt-[60px] text-white  text-center">
+                        <p className="mb-[20px] mt-[60px] text-black  text-center">
                           {content.texts.hero.app.description}
                         </p>
                         <div className="">
@@ -118,16 +106,14 @@ export default function HeroFundoImage({ appDownloadButtons }) {
                   )}
                 </div>
               </div>
-              <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
-                <MotionDivDownToUp className="relative flex justify-end w-full ">
-                  <div
-                    className="bg-center rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat tablet1:shadow-custom-opacity tablet1:shadow-black/30"
-                    style={{
-                      backgroundImage: `url(${content.texts.hero.heroDefaultImage})`,
-                      backgroundSize: "",
-                    }}
-                  ></div>
-                </MotionDivDownToUp>
+              <div className="flex justify-center w-full tablet1:w-full desktop1:w-[35%] ">
+                <MotionDivRightToLeft className="relative flex items-end justify-center w-full desktop2:justify-end">
+                  <img
+                    src={content.texts.hero.heroImgPhone}
+                    className="h-[100%] relative desktop1:hidden"
+                    alt="Foto do advogado"
+                  ></img>
+                </MotionDivRightToLeft>
               </div>
             </div>
           </div>
@@ -135,18 +121,14 @@ export default function HeroFundoImage({ appDownloadButtons }) {
       </div>
       {/* desktop */}
       <div
-        className="hidden w-full bg-top bg-repeat bg-cover font-mainFont desktop1:flex desktop1:justify-center "
+        className="w-full hidden desktop1:flex bg-top bg-repeat bg-cover font-mainFont desktop1:pt-[45px]"
         id="home"
         style={{
-          backgroundImage: `url(${
-            window.innerWidth < 1024
-              ? content.texts.hero.heroImgPhone
-              : content.texts.hero.heroImg
-          })`,
+          backgroundImage: `url(${content.texts.hero.heroDesktop})`,
         }}
       >
         <SectionArea paddingTopAndBottom={false} className="relative">
-        <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-black to-transparent" />
+          <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-red-900 to-transparent" />
 
           <SectionWrapper>
             <div className="relative z-10 flex w-full items-left pt-[36px] desktop1:py-[90px] desktop2:pb-[90px] ">
