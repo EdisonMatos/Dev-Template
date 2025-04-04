@@ -125,8 +125,8 @@ export default function NavbarSocial({ LightMode }) {
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
-                onClick={() => navigate("/whatsapp")}
-                // buttonLink={content.texts.links.ctaWhatsapp}
+                // onClick={() => navigate("/whatsapp")}
+                buttonLink={content.texts.links.ctaWhatsapp}
                 className={`${scrolling ? "" : ""}`}
                 size="small"
                 icon={<FaWhatsapp />}
