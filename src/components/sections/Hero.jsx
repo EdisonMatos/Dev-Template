@@ -3,15 +3,16 @@ import Quadrada from "../../components/sectionElements/hero/Quadrada";
 import Panoramica from "../../components/sectionElements/hero/Panoramica";
 import Influencer from "../../components/sectionElements/hero/Influencer";
 
-export default function Hero({ influencer, panoramica }) {
+export default function Hero({ defaultHero, influencer, mesclado }) {
   return (
     <>
-      {panoramica ? (
+      {mesclado ? (
         <Panoramica />
       ) : influencer ? (
         <Influencer />
       ) : (
-        <Quadrada />
+        defaultHero &&<Quadrada />
+        
       )}
     </>
   );
