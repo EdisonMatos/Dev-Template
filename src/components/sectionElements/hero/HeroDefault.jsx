@@ -7,13 +7,13 @@ import "../../../styles/shapeDivs.css";
 export default function HeroDefault({ appDownloadButtons }) {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-bgSectionDark "
+      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-bgSectionDark to-black "
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
+          <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               <MotionDivDownToUp>
                 <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
@@ -39,8 +39,8 @@ export default function HeroDefault({ appDownloadButtons }) {
                   <Button
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
-                    onClick={() => navigate("/whatsapp")}
-                    // buttonLink={content.texts.links.ctaWhatsapp}
+                    // onClick={() => navigate("/whatsapp")}
+                    buttonLink={content.texts.links.ctaWhatsapp}
                     animation
                     className="w-[100%]"
                     icon={<FaWhatsapp size={24} />}
