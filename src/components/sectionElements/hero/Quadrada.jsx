@@ -4,7 +4,7 @@ import Button from "../../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import "../../../styles/shapeDivs.css";
 
-export default function HeroDefault({ appDownloadButtons }) {
+export default function Quadrada({ appDownloadButtons }) {
   return (
     <div
       className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-bgSectionDark to-black "
