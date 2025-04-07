@@ -16,7 +16,7 @@ export default function Influencer({ appDownloadButtons }) {
   return (
     <>
       <div
-        className="w-full bg-center desktop1:hidden bg-repeat bg-cover font-mainFont desktop1:pt-[45px] desktop1:hidden"
+        className="w-full bg-center bg-repeat bg-cover font-mainFont desktop1:pt-[45px] desktop1:hidden"
         id="home"
         style={{
           backgroundImage: `url(${content.texts.hero.backgroundPerson})`,
@@ -121,7 +121,7 @@ export default function Influencer({ appDownloadButtons }) {
       </div>
       {/* desktop */}
       <div
-        className="w-full hidden desktop1:flex bg-top bg-repeat bg-cover font-mainFont desktop1:pt-[45px]"
+        className="hidden w-full bg-top bg-repeat bg-cover desktop1:flex font-mainFont"
         id="home"
         style={{
           backgroundImage: `url(${content.texts.hero.heroDesktop})`,
