@@ -49,8 +49,8 @@ export default function Index() {
       <FooterSocial
         LightMode={false}
         addres={true}
-        phoneSecundario={true}
-        phoneTerciario={true}
+        phoneSecundario={false}
+        phoneTerciario={false}
         emailSecundario={false}
         addresSecundario={false}
         instagram={true}
