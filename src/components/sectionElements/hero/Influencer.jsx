@@ -16,7 +16,7 @@ export default function Influencer({ appDownloadButtons }) {
   return (
     <>
       <div
-        className="w-full bg-center desktop1:hidden bg-repeat bg-cover font-mainFont desktop1:pt-[45px] desktop1:hidden"
+        className="w-full bg-center bg-repeat bg-cover font-mainFont desktop1:pt-[45px] desktop1:hidden"
         id="home"
         style={{
           backgroundImage: `url(${content.texts.hero.backgroundPerson})`,
@@ -121,14 +121,14 @@ export default function Influencer({ appDownloadButtons }) {
       </div>
       {/* desktop */}
       <div
-        className="w-full hidden desktop1:flex bg-top bg-repeat bg-cover font-mainFont desktop1:pt-[45px]"
+        className="hidden w-full bg-top bg-repeat bg-cover desktop1:flex font-mainFont"
         id="home"
         style={{
           backgroundImage: `url(${content.texts.hero.heroDesktop})`,
         }}
       >
         <SectionArea paddingTopAndBottom={false} className="relative">
-          <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-red-900 to-transparent" />
+          <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-black to-transparent" />
 
           <SectionWrapper>
             <div className="relative z-10 flex w-full items-left pt-[36px] desktop1:py-[90px] desktop2:pb-[90px] ">
@@ -171,7 +171,7 @@ export default function Influencer({ appDownloadButtons }) {
                         <div className="flex justify-center desktop1:justify-start">
                           <div className="flex flex-col items-center desktop1:flex-row text-primary">
                             {content.texts.hero.obsHero.icon}
-                            <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                            <p className="text-white  ml-[10px] text-start mt-[12px] desktop1:mt-0">
                               {content.texts.hero.obsHero.text}
                             </p>
                           </div>

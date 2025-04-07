@@ -22,7 +22,7 @@ export default function Index() {
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
-        mesclado={false}
+        mesclado={true}
       />
 
       <Features
@@ -34,13 +34,13 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} />
-      {/* <AboutInstagram
+      <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={false}
         linkedin={false}
         x={false}
-      /> */}
+      />
       <Cta />
       <Steps />
       {/* <Maps /> */}
@@ -49,11 +49,11 @@ export default function Index() {
       <FooterSocial
         LightMode={false}
         addres={true}
-        phoneSecundario={true}
-        phoneTerciario={true}
+        phoneSecundario={false}
+        phoneTerciario={false}
         emailSecundario={false}
         addresSecundario={false}
-        instagram={false}
+        instagram={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
