@@ -34,13 +34,13 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} />
-      {/* <AboutInstagram
+      <AboutInstagram
         socialPrint={true}
         instagram={true}
         facebook={false}
         linkedin={false}
         x={false}
-      /> */}
+      />
       <Cta />
       <Steps />
       {/* <Maps /> */}
