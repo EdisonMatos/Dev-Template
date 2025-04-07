@@ -360,33 +360,57 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. JOSÉ NEGREIROS",
+      title: "Minha trajetória",
+      subtitle:
+        "Justiça não se espera, se conquista com estratégia e determinação.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Com anos de experiência no exercício da advocacia, dedico minha
+          trajetória profissional à busca por soluções jurídicas eficazes e
+          personalizadas.
           <br />
-          A_Definir
+          Acredito que cada cliente tem uma necessidade única, e é com esse
+          olhar atento que atuo, oferecendo um serviço pautado na ética,
+          transparência e estratégia.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com anos de experiência no exercício da advocacia, dedico minha
+          trajetória profissional à busca por soluções jurídicas eficazes e
+          personalizadas.
           <br />
           <br />
-          A_Definir
+          Acredito que cada cliente tem uma necessidade única, e é com esse
+          olhar atento que atuo, oferecendo um serviço pautado na ética,
+          transparência e estratégia.
           <br />
           <br />
-          A_Definir
+          Minha missão vai além da simples representação legal. Busco
+          compreender profundamente cada caso, oferecendo orientação assertiva e
+          fundamentada para garantir os melhores resultados.
           <br />
           <br />
-          A_Definir
+          Conto com uma equipe altamente qualificada, que trabalha de forma
+          integrada para unir conhecimento técnico e inovação, sempre
+          priorizando a agilidade na resolução de demandas.
+          <br />
+          <br />
+          Ao longo dos anos, construí uma advocacia baseada na confiança, onde
+          cada cliente encontra suporte jurídico sólido e dedicado. Meu
+          compromisso é transformar desafios jurídicos em soluções seguras e
+          eficazes, garantindo um atendimento diferenciado e voltado para
+          resultados.
+          <br />
+          <br />
+          Se você busca representação comprometida e estratégica, estou pronto
+          para lhe ajudar.
           <br />
           <br />
         </p>
