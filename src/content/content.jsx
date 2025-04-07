@@ -124,20 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM PORTO VELHO - RO",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Justiça que você merece,
+          <span className="text-primary"> estratégia que funciona</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Uma carreira de resultados sólidos que transformam problemas em conquistas para nossos clientes.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Garanta sua solução jurídica agora",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento presencial em Porto Velho e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
