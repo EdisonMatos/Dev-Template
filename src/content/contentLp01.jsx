@@ -5,6 +5,10 @@ import { Shield } from "lucide-react";
 import { File } from "lucide-react";
 import { Banknote } from "lucide-react";
 import { Scale } from "lucide-react";
+import { Gavel } from "lucide-react";
+import { Handshake } from "lucide-react";
+import { BadgeDollarSign } from "lucide-react";
+import { ChartNoAxesCombined } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -73,7 +77,7 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: <Shield width={42} height={42} color="#4A1215" />,
+        icon: <Shield width={32} height={32} color="#4A1215" />,
         title: "Militar, Servidor Público Aposentado ou Pensionista",
         description:
           "Possui alguma das seguintes condições médicas (previstas no Art. 6º da Lei 7.713/88)",
@@ -103,7 +107,7 @@ const contentLp01 = {
         },
       },
       card2: {
-        icon: <File width={42} height={42} color="#4A1215" />,
+        icon: <File width={32} height={32} color="#4A1215" />,
         title: "Requisitos para isenção e restituição",
         description:
           "Comprovação com laudo e exames, sendo aposentado, pensionista, servidor, militar ou beneficiário de previdência privada.",
@@ -113,7 +117,7 @@ const contentLp01 = {
         },
       },
       card3: {
-        icon: <Banknote width={42} height={42} color="#4A1215" />,
+        icon: <Banknote width={32} height={32} color="#4A1215" />,
         title: "Restituição de valores pagos",
         description:
           "Se você pagou imposto indevidamente, também é possível recuperar esses valores.",
@@ -123,7 +127,7 @@ const contentLp01 = {
         },
       },
       card4: {
-        icon: <Scale width={42} height={42} color="#4A1215" />,
+        icon: <Scale width={32} height={32} color="#4A1215" />,
         title: "Suporte jurídico especializado",
         description:
           "Conte com um advogado especializado para assegurar sua isenção e restituição com segurança e eficiência.",
@@ -188,29 +192,34 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A ESCOLHA CERTA",
+      title: "Por que escolher a Gagliardi Advogados?",
     },
     cards: {
       card1: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Gavel width={32} height={32} color="#4A1215" />,
+        title: "Especialistas em Direito Tributário",
+        description:
+          "Contamos com uma equipe qualificada e experiente em isenção e restituição do Imposto de Renda, garantindo um suporte jurídico completo e atualizado.",
       },
       card2: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Handshake width={32} height={32} color="#4A1215"/>,
+        title: "Atendimento 100% Online, Sem Burocracia",
+        description:
+          "Todo o processo é realizado de forma digital, com praticidade e sem a necessidade de deslocamentos, tornando sua experiência mais ágil e eficiente.",
       },
       card3: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <BadgeDollarSign width={32} height={32} color="#4A1215"/>,
+        title:
+          "Pagamento facilitado (somente após sucesso, conforme contrato!)",
+        description:
+          "Você não precisa se preocupar com pagamentos antecipados. Nosso compromisso é com o resultado, e a remuneração só ocorre após o êxito do processo.",
       },
       card4: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215"/>,
+        title: "Alta taxa de sucesso nas ações",
+        description:
+          "Com ampla experiência na área, nosso escritório já ajudou diversos clientes a conquistarem a isenção e restituição do Imposto de Renda com eficiência e assertividade.",
       },
     },
   },
