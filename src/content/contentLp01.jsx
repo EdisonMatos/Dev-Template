@@ -1,30 +1,14 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp.jpg";
-import logo from "../assets/imgs/logo/logo.png";
-import aboutImgLpv from "../assets/imgs/about/aboutLpv.jpg";
+import bgImg from "../assets/imgs/hero/bgHeroLp01.webp";
+import logo from "../assets/imgs/logo/logoLp.png";
 import { infos } from "./content";
-import { Baby } from "lucide-react";
-import { Users } from "lucide-react";
-import { Link } from "lucide-react";
-import { Accessibility } from "lucide-react";
-import { SmilePlus } from "lucide-react";
-import { Gavel } from "lucide-react";
-import { Scale } from "lucide-react";
-import { ShieldCheck } from "lucide-react";
-import { Clock } from "lucide-react";
-import { CircleDollarSign } from "lucide-react";
-import { DollarSign } from "lucide-react";
-import { BellOff } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title:
-      "Edvaldo Costa Gomes Advocacia | Verba Rescisória e Direitos Trabalhistas em Cuiabá - MT",
-    description:
-      "Especialista em direito trabalhista em Cuiabá - MT, Edvaldo Costa Gomes Advocacia atua na defesa dos direitos dos trabalhadores, garantindo o recebimento de verbas rescisórias, horas extras, aviso prévio e outros direitos não pagos.",
-    keywords:
-      "Verba Rescisória, Direitos Trabalhistas, Advogado Trabalhista, Rescisão Contratual, Horas Extras Não Pagas, Atraso no Pagamento, Falta de Aviso Prévio, Multa Rescisória, Demissão Sem Justa Causa, Direitos do Trabalhador, Indenização Trabalhista, Justiça do Trabalho, Advocacia Especializada, Advogado em Cuiabá, Edvaldo Costa Gomes Advocacia, Escritório de Advocacia Trabalhista, Acordo Trabalhista, Processo Trabalhista, FGTS Não Pago, Reclamação Trabalhista.",
+    title: "A_Definir1",
+    description: "A_Definir",
+    keywords: "A_Definir",
   },
   hero: {
     bgImg: bgImg,
@@ -35,15 +19,11 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Não recebeu suas verbas rescisórias?
-          <span className="text-lpTitle text-primary">
-            {" "}
-            Seu direito não pode esperar!
-          </span>
+          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
+          <span className="text-lpTitle"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Seus direitos trabalhistas precisam ser respeitados. Agimos rápido para garantir o que é seu por direito.",
+      subtitle: "A_Definir",
       buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -51,57 +31,46 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Cenários onde garantimos sua defesa",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
-        icon: <Clock/>,
-        title: "Hora extra e Verba rescisória",
-        description:
-          "Se suas horas extras não foram pagas ou sua rescisão veio incompleta, garantimos a correção e o pagamento integral dos seus direitos.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card2: {
-        icon: <CircleDollarSign/>,
-        title: "Multa por atraso no pagamento da rescisão",
-        description:
-          "Se a empresa não pagou sua rescisão dentro do prazo legal, você tem direito a uma indenização. Exigimos o cumprimento da lei para que seu direito seja respeitado.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card3: {
-        icon: <BellOff/>,
-        title: "Falta de Aviso Prévio",
-        description:
-          "Foi demitido sem aviso prévio ou não recebeu a indenização correspondente? Entramos com ação para garantir esse pagamento.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
-        icon: <DollarSign/>,
-        title: "Atraso salarial",
-        description:
-          "Se sua empresa atrasa salários, entramos com ação para garantir o pagamento com correção e sem mais espera.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
     },
   },
   about: {
     bgImg: bgImg,
-    imgAbout: aboutImgLpv,
-    ariaLabel: "imagem do advogado",
     logo: {
       logoImg: logo,
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "TRADIÇÃO EM DIREITO TRABALHISTA",
-      title: "Compromisso e agilidade na defesa dos seus direitos",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     paragraph: (
       <p>
-        Sei que, em questões trabalhistas, o tempo é essencial. Por isso, atuo
-        de forma rápida e estratégica, sem abrir mão da qualidade, garantindo
-        que seus direitos sejam protegidos com eficiência e determinação.
-        <br />
-        <br /> Seja qual for a sua demanda trabalhista, estou pronto para
-        oferecer a melhor solução jurídica. Entre em contato com Edvaldo Costa
-        Gomes Advocacia e tenha ao seu lado uma defesa ágil e eficaz
+        A_Definir <br />
+        <br /> A_Definir
       </p>
     ),
     buttonLabel: "Quero falar com um especialista",
@@ -109,43 +78,38 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A MELHOR ESCOLHA",
-      title: "Por que nos escolher pra te defender?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
-        icon: <Scale/>,
-        title: "Estratégia personalizada para garantir seus direitos",
-        description:
-          "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia visando a efetivação do seu direito.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card2: {
-        icon: <ShieldCheck/>,
-        title: "Soluções sob medida para o seu problema",
-        description:
-          "Desenvolvemos um plano de ação específico, focado em resolver suas questões trabalhistas rapidamente e com resultados concretos. Cada decisão é tomada pensando no seu melhor interesse.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card3: {
-        icon: <Gavel/>,
-        title: "Compromisso total com sua causa",
-        description:
-          "Nos dedicamos inteiramente à sua defesa, lutando pelos seus direitos em cada fase do processo.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
-        icon: <SmilePlus/>,
-        title: "Experiência que traz tranquilidade",
-        description:
-          "Com vasta experiência em casos trabalhistas, seu processo será conduzido com segurança e confiança. Estamos ao seu lado para assegurar que seus direitos sejam respeitados.",
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA MAIS TEMPO",
-      title:
-        "Trabalhador: Busque ajuda de um advogado para garantir os seus direitos trabalhistas!",
-      subtitle: `O escritório Edvaldo Costa Gomes Advocacia está pronto para te auxiliar. Nossa equipe especializada em direito trabalhista pode orientá-lo no processo para garantir seu direito, seja por atraso salarial, assédio moral, adicionais devidos e não pagos, não pagamento de horas extras ou verbas rescisórias. Independente da violação de direito, não deixe que essas situações prejudiquem sua moral, sua vida profissional e financeira.`,
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: `A_Definir`,
     },
     buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",

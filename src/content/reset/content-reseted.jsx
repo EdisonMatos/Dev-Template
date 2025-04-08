@@ -1,7 +1,7 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
-import heroImgDesktop from "../assets/imgs/hero/HeroEdvaldo.png";
-import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
+import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
@@ -136,7 +136,7 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -317,10 +317,10 @@ const content = {
       },
     },
     maps: {
-      minitag: "Google Maps",
-      title: "Como nos encontrar?",
+      minitag: "A_Definir",
+      title: "A_Definir",
       subtitle:
-        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
+        "A_Definir",
       embedsrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
@@ -417,7 +417,7 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "Informação jurídica ao seu alcance",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       blogApiEndpoint:

@@ -17,11 +17,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/trabalhista" element={<Lp01 />} />
-      <Route path="/whatsapp" element={<WhatsAppLinks />} />
+      {/* <Route path="/whatsapp" element={<WhatsAppLinks />} /> */}
 
       {/* <Route path="/lp02" element={<Lp02 />} /> */}
       {/* <Route path="/lp03" element={<Lp03 />} /> */}
-      <Route path="/whatsapp" element={<WhatsAppLinks form={true} />} />
+      {/* <Route path="/whatsapp" element={<WhatsAppLinks form={true} />} /> */}
     </Routes>
   </Router>
 );
