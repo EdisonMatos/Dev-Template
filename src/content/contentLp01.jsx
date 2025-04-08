@@ -203,24 +203,32 @@ const contentLp01 = {
           "Contamos com uma equipe qualificada e experiente em isenção e restituição do Imposto de Renda, garantindo um suporte jurídico completo e atualizado.",
       },
       card2: {
-        icon: <Handshake width={32} height={32} color="#4A1215"/>,
+        icon: <Handshake width={32} height={32} color="#4A1215" />,
         title: "Atendimento 100% Online, Sem Burocracia",
         description:
           "Todo o processo é realizado de forma digital, com praticidade e sem a necessidade de deslocamentos, tornando sua experiência mais ágil e eficiente.",
       },
       card3: {
-        icon: <BadgeDollarSign width={32} height={32} color="#4A1215"/>,
+        icon: <BadgeDollarSign width={32} height={32} color="#4A1215" />,
         title:
           "Pagamento facilitado (somente após sucesso, conforme contrato!)",
         description:
           "Você não precisa se preocupar com pagamentos antecipados. Nosso compromisso é com o resultado, e a remuneração só ocorre após o êxito do processo.",
       },
       card4: {
-        icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215"/>,
+        icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215" />,
         title: "Alta taxa de sucesso nas ações",
         description:
           "Com ampla experiência na área, nosso escritório já ajudou diversos clientes a conquistarem a isenção e restituição do Imposto de Renda com eficiência e assertividade.",
       },
+    },
+  },
+  video: {
+    sectionHeader: {
+      miniTag: "EXPLICANDO",
+      title: "Entenda como funciona a isenção do Imposto de Renda",
+      subtitle:
+        "Assista ao vídeo e veja de forma simples como garantir sua isenção e restituição sem complicações!",
     },
   },
   cta: {

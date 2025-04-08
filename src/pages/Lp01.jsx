@@ -14,6 +14,7 @@ import contentLp01 from "../content/contentLp01";
 
 import { useEffect } from "react";
 import StepsLpv from "../components/sections/lp01/StepsLpv";
+import Vídeo from "../components/sections/lp01/Vídeo";
 
 export default function Lp01() {
   useEffect(() => {
@@ -45,6 +46,7 @@ export default function Lp01() {
       <FeatureWithModalsLp />
       <AboutParalaxeLP logo={true} />
       <WhyUs />
+      <Vídeo />
       <CtaLP />
       {/* <Faq /> */}
       <StepsLpv />
