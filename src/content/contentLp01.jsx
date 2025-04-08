@@ -30,20 +30,13 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Militares da reserva, pensionistas e servidores aposentados que
-          possuem doença grave{" "}
-          <span className="text-lpTitle">
-            {" "}
-            podem ter isenção de imposto de renda
-          </span>{" "}
-          <span className="text-lpTitle">
-            {" "}
-            e recuperar até os últimos 5 anos dos valores pagos
-          </span>
+          Isenção de Imposto de Renda e restituição de até 5 anos{" "}
+          <span className="text-lpTitle"> dos valores pagos!</span>{" "}
         </h1>
       ),
-      subtitle: "Descubra se você tem direito e recupere o que é seu!",
-      buttonLabel: "Solicite sua isenção agora!",
+      subtitle:
+        "Militares da Reserva, pensionistas e servidores aposentados que possuem doença grave podem ter esse direito.",
+      buttonLabel: "Solicite sua isenção agora",
       obsHero: {
         icon: (
           <svg
