@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <Router>
     <Routes>
       <Route path="/" element={<Index />} />
-      <Route path="/trabalhista" element={<Lp01 />} />
+      <Route path="/isencao" element={<Lp01 />} />
       {/* <Route path="/whatsapp" element={<WhatsAppLinks />} /> */}
 
       {/* <Route path="/lp02" element={<Lp02 />} /> */}
