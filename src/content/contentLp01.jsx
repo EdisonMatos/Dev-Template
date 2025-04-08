@@ -6,9 +6,12 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir1",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title:
+      "Gagliardi Advogados. Isenção e Restituição do Imposto de Renda para Aposentados e Pensionistas | São Vicente - SP",
+    description:
+      "Aposentados, pensionistas e militares da reserva com doenças graves podem ter direito à isenção e restituição do Imposto de Renda. Gagliardi Advogados, em São Vicente - SP, oferece suporte jurídico especializado para garantir seus direitos de forma segura e eficiente.",
+    keywords:
+      "Isenção de Imposto de Renda, Restituição de Imposto de Renda, Isenção para Aposentados, Isenção para Pensionistas, Isenção para Militares da Reserva, Restituição para Servidores Aposentados, Direito Tributário para Aposentados, Imposto de Renda Doença Grave, Advogado Especialista em IR, Gagliardi Advogados, Gagliardi Advogados São Vicente, Isenção de IR São Vicente, Restituição de IR São Vicente, Advogado Tributário São Vicente, Imposto de Renda para Doença Grave, Restituição de IR para Pensionistas, Isenção de IR para Militares, Direito Tributário Aposentados SP, Isenção de IR com Laudo Médico, Advocacia Especializada em IR.",
   },
   hero: {
     bgImg: bgImg,
