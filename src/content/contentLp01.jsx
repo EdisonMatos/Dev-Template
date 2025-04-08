@@ -63,14 +63,16 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "ISENÇÃO DE IMPOSTO",
+      title:
+        "Você pode ter direito à isenção e restituição do Imposto de Renda! Confira agora.",
     },
     cards: {
       card1: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Militar, Servidor Público Aposentado ou Pensionista",
+        description:
+          "Possui alguma das seguintes condições médicas (previstas no Art. 6º da Lei 7.713/88)",
       },
       card2: {
         icon: "A_Definir",
