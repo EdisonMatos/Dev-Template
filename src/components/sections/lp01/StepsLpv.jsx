@@ -33,7 +33,7 @@ export default function StepsLpv() {
             titleColorSet="text-white"
           />
 
-          <div className="flex  w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0 ">
+          <div className="flex flex-col desktop1:flex-row items-center  w-full justify-center gap-[32px] mt-[28px] desktop1:mt-0 ">
             <HowItWorksCard
               number={contentLp01.steps.cards.card1.stepNumber}
               title={contentLp01.steps.cards.card1.cardTitle}
