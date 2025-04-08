@@ -141,16 +141,21 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "ESPECIALISTA EM ISENÇÃO DE IMPOSTO DE RENDA",
+      title: "Isenção e restituição com segurança e agilidade",
     },
     paragraph: (
       <p>
-        A_Definir <br />
-        <br /> A_Definir
+        Muitos aposentados e pensionistas acabam pagando imposto indevidamente
+        sem saber que têm direito à isenção. Se você possui uma doença grave, ou
+        já se recuperou dela, pode solicitar tanto a isenção quanto a
+        restituição do Imposto de Renda pago nos últimos anos. <br />
+        <br /> Com um atendimento especializado e ágil, buscamos garantir que
+        seus direitos sejam respeitados. Entre em contato e veja como podemos
+        ajudar!
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Verifique seu direito à isenção",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   whyUs: {
