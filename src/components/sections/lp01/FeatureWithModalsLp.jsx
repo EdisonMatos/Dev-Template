@@ -31,7 +31,6 @@ export default function FeatureWithModalsLp({ modals }) {
   return (
     <div>
       <SectionArea id="service" className="squares">
-       
         <SectionHeader
           className="text-center"
           sectionHeaderTitle={contentLp01.features.sectionHeader.title}
@@ -50,13 +49,13 @@ export default function FeatureWithModalsLp({ modals }) {
                 />
                 <Button
                   size="small"
-                  label="Saber Mais"
+                  label="Confira as doenças"
                   onClick={() =>
                     onClick(
-                      content.texts.features.card1.title,
-                      content.texts.features.card1.subtitle,
+                      contentLp01.features.cards.card1.title,
+                      contentLp01.features.cards.card1.modal1.subtitle,
                       <>
-                        <p className="mb-[20px]">
+                        <p className="mb-[20px] pt-6">
                           Quer saber mais sobre nós? Clique abaixo 👇
                         </p>
                         <div>
@@ -93,102 +92,18 @@ export default function FeatureWithModalsLp({ modals }) {
               </MotionDivDownToUp>
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-white rounded-xl">
                 <IconButtonFeatureCard
-                 icon={contentLp01.features.cards.card2.icon}
-                 title={contentLp01.features.cards.card2.title}
-                 paragraph={contentLp01.features.cards.card2.description}
+                  icon={contentLp01.features.cards.card2.icon}
+                  title={contentLp01.features.cards.card2.title}
+                  paragraph={contentLp01.features.cards.card2.description}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                />
-                <Button
-                  size="small"
-                  label="Saber Mais"
-                  onClick={() =>
-                    onClick(
-                      content.texts.features.card2.title,
-                      content.texts.features.card2.subtitle,
-                      <>
-                        <p className="mb-[20px]">
-                          Quer saber mais sobre nós? Clique abaixo 👇
-                        </p>
-                        <div>
-                          <Button
-                            aria-label={content.texts.about.ctaButtonAriaLabel}
-                            label={content.texts.about.ctaButtonText}
-                            onClick={() => navigate("/whatsapp")}
-                            animation={false}
-                            className="hover:scale-105"
-                            icon={<FaWhatsapp size={24} />}
-                          />
-                        </div>
-                      </>
-                    )
-                  }
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right"
-                    >
-                      <polyline points="15 10 20 15 15 20" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
                 />
               </MotionDivDownToUp>{" "}
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-white rounded-xl">
                 <IconButtonFeatureCard
-                 icon={contentLp01.features.cards.card3.icon}
-                 title={contentLp01.features.cards.card3.title}
-                 paragraph={contentLp01.features.cards.card3.description}
+                  icon={contentLp01.features.cards.card3.icon}
+                  title={contentLp01.features.cards.card3.title}
+                  paragraph={contentLp01.features.cards.card3.description}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                />
-                <Button
-                  size="small"
-                  label="Saber Mais"
-                  onClick={() =>
-                    onClick(
-                      content.texts.features.card3.title,
-                      content.texts.features.card3.subtitle,
-                      <>
-                        <p className="mb-[20px]">
-                          Quer saber mais sobre nós? Clique abaixo 👇
-                        </p>
-                        <div>
-                          <Button
-                            aria-label={content.texts.about.ctaButtonAriaLabel}
-                            label={content.texts.about.ctaButtonText}
-                            onClick={() => navigate("/whatsapp")}
-                            animation={false}
-                            className="hover:scale-105"
-                            icon={<FaWhatsapp size={24} />}
-                          />
-                        </div>
-                      </>
-                    )
-                  }
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right"
-                    >
-                      <polyline points="15 10 20 15 15 20" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
                 />
               </MotionDivDownToUp>{" "}
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-white rounded-xl">
@@ -197,48 +112,6 @@ export default function FeatureWithModalsLp({ modals }) {
                   title={contentLp01.features.cards.card4.title}
                   paragraph={contentLp01.features.cards.card4.description}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                />
-                <Button
-                  size="small"
-                  label="Saber Mais"
-                  onClick={() =>
-                    onClick(
-                      content.texts.features.card4.title,
-                      content.texts.features.card4.subtitle,
-                      <>
-                        <p className="mb-[20px]">
-                          Quer saber mais sobre nós? Clique abaixo 👇
-                        </p>
-                        <div>
-                          <Button
-                            aria-label={content.texts.about.ctaButtonAriaLabel}
-                            label={content.texts.about.ctaButtonText}
-                            onClick={() => navigate("/whatsapp")}
-                            animation={false}
-                            className="hover:scale-105"
-                            icon={<FaWhatsapp size={24} />}
-                          />
-                        </div>
-                      </>
-                    )
-                  }
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-corner-down-right"
-                    >
-                      <polyline points="15 10 20 15 15 20" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
                 />
               </MotionDivDownToUp>{" "}
             </div>

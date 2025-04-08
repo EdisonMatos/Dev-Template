@@ -15,7 +15,7 @@ export default function Button({
   removeTarget,
   removeAnchor,
   tagName,
-  color = "bg-primary",
+  color = "bg-[#4A1215]",
   animation = true,
 }) {
   if (size === "small") {
@@ -36,13 +36,13 @@ export default function Button({
       tagName={CustomTagName}
       {...(removeTarget ? {} : { target: "_blank" })}
       {...(removeAnchor ? {} : { href: buttonLink })}
-      className="inline-block w-fit max-w-full"
+      className="inline-block max-w-full w-fit"
     >
       {animation ? (
         <MotionDivDownToUp className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-labelsIcons desktop1:hover:scale-110`}
+            className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-white desktop1:hover:scale-110`}
           >
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
@@ -56,7 +56,7 @@ export default function Button({
         <div className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-labelsIcons desktop1:hover:scale-110`}
+            className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-white desktop1:hover:scale-110`}
           >
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}

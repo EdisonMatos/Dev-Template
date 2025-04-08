@@ -1,6 +1,10 @@
 import bgImg from "../assets/imgs/hero/bgHeroLp01.jpg";
 import logo from "../assets/imgs/logo/logoLp.png";
 import { infos } from "./content";
+import { Shield } from "lucide-react";
+import { File } from "lucide-react";
+import { Banknote } from "lucide-react";
+import { Scale } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -69,25 +73,64 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: "A_Definir",
+        icon: <Shield width={42} height={42} color="#4A1215" />,
         title: "Militar, Servidor Público Aposentado ou Pensionista",
         description:
           "Possui alguma das seguintes condições médicas (previstas no Art. 6º da Lei 7.713/88)",
+        modal1: {
+          title: <p></p>,
+          subtitle: (
+            <p>
+              - AIDS (Síndrome da Imunodeficiência Adquirida) <br />
+              - Alienação mental <br />
+              - Cardiopatia grave <br />
+              - Cegueira (inclusive monocular)
+              <br />
+              - Contaminação por radiação <br />
+              - Doença de Paget em estágio avançado <br />
+              - Doença de Parkinson <br />
+              - Esclerose múltipla <br />
+              - Espondiloartrose anquilosante <br />
+              - Fibrose cística <br />
+              - Hanseníase <br />
+              - Nefropatia grave
+              <br />
+              - Hepatopatia grave <br />
+              - Neoplasia maligna (câncer) <br />
+              - Paralisia irreversível e incapacitante <br />- Tuberculose ativa
+            </p>
+          ),
+        },
       },
       card2: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <File width={42} height={42} color="#4A1215" />,
+        title: "Requisitos para isenção e restituição",
+        description:
+          "Comprovação com laudo e exames, sendo aposentado, pensionista, servidor, militar ou beneficiário de previdência privada.",
+        modal2: {
+          title: <p>Requisitos para isenção e restituição</p>,
+          subtitle: <p></p>,
+        },
       },
       card3: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Banknote width={42} height={42} color="#4A1215" />,
+        title: "Restituição de valores pagos",
+        description:
+          "Se você pagou imposto indevidamente, também é possível recuperar esses valores.",
+        modal3: {
+          title: <p></p>,
+          subtitle: <p></p>,
+        },
       },
       card4: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: <Scale width={42} height={42} color="#4A1215" />,
+        title: "Suporte jurídico especializado",
+        description:
+          "Conte com um advogado especializado para assegurar sua isenção e restituição com segurança e eficiência.",
+        modal4: {
+          title: <p></p>,
+          subtitle: <p></p>,
+        },
       },
     },
   },
