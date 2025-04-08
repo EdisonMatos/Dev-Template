@@ -158,6 +158,34 @@ const contentLp01 = {
     buttonLabel: "Verifique seu direito à isenção",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
+  steps: {
+    miniTag: "PASSO-A-PASSO",
+    title: "Como funciona?",
+    subtitle: "",
+    alt: "",
+    cards: {
+      card1: {
+        stepNumber: 1,
+        cardTitle: "Análise Gratuita",
+        cardDescription:
+          "Envie seus documentos e nossa equipe jurídica verificará se você tem direito.",
+      },
+      card2: {
+        stepNumber: 2,
+        cardTitle: "Ação Judicial",
+        cardDescription:
+          "Caso tenha direito, entraremos com a ação para garantir sua isenção e a restituição do que foi pago indevidamente.",
+      },
+      card3: {
+        stepNumber: 3,
+        cardTitle: "Dinheiro na Conta",
+        cardDescription:
+          "Após a decisão favorável, você deixa de pagar IR e pode receber valores retroativos!",
+      },
+      buttonLabel: "Quero transformar minha carreira",
+      ariaLabel: "Botão de contato",
+    },
+  },
   whyUs: {
     sectionHeader: {
       miniTag: "A_Definir",
