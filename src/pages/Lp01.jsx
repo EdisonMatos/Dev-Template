@@ -45,11 +45,11 @@ export default function Lp01() {
       <HeroLP fullImg={true} />
       <FeatureWithModalsLp />
       <AboutParalaxeLP logo={true} />
+      <StepsLpv />
       <WhyUs />
       <Vídeo />
       <CtaLP />
       {/* <Faq /> */}
-      <StepsLpv />
       <ContactLP />
       <FooterLP />
       {/* <LPFloatingWhatsappButton /> */}
