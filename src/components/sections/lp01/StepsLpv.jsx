@@ -54,7 +54,7 @@ export default function StepsLpv() {
             />
           </div>
         </div>
-        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+        <MotionDivDownToUp className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center desktop1:pt-12">
           <div className="">
             <Button
               aria-label={contentLp01.steps.cards.ariaLabel}

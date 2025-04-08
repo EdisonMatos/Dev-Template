@@ -17,19 +17,18 @@ export default function Vídeo({}) {
             color=""
             titleColorSet="text-secondary"
           />
-          <div className="">
+          <div className="w-full overflow-hidden aspect-video rounded-xl">
             <iframe
-              class="rounded-xl"
-              width="560"
-              height="315"
+              className="w-full h-full"
               src="https://www.youtube.com/embed/GtR1VlvX6ZI?si=2dongXZ0xwgw5uSb"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
           </div>
+          ``
         </SectionWrapper>
       </SectionArea>
     </>
