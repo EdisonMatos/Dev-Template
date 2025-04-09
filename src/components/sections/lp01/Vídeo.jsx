@@ -7,7 +7,7 @@ import FeatureCardLP from "./FeatureCardLP";
 export default function Vídeo({}) {
   return (
     <>
-      <SectionArea>
+      <SectionArea className="bg-neutral-100">
         <SectionWrapper>
           <SectionHeader
             miniTitle={contentLp01.video.sectionHeader.miniTag}
@@ -17,7 +17,7 @@ export default function Vídeo({}) {
             color=""
             titleColorSet="text-secondary"
           />
-          <div className="w-full overflow-hidden aspect-video rounded-xl">
+          <div className="w-full desktop1:w-[70%] overflow-hidden aspect-video rounded-xl">
             <iframe
               className="w-full h-full"
               src="https://www.youtube.com/embed/GtR1VlvX6ZI?si=2dongXZ0xwgw5uSb"

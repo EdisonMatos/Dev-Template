@@ -230,16 +230,7 @@ const contentLp01 = {
       miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
       title: "Isenção e restituição sem burocracia!",
       subtitle: (
-        <p>
-          Se você ou um familiar é aposentado ou pensionista e possui uma doença
-          grave – ou já se curou dela –, pode ter direito à isenção do Imposto
-          de Renda e até à restituição dos valores pagos indevidamente.
-          <br />
-          <br />
-          Nossa equipe especializada está pronta para te orientar em cada etapa
-          do processo, proporcionando um atendimento ágil e personalizado.
-          <br />
-          <br />
+        <p className="opacity-80">
           Não deixe seu dinheiro retido! Reivindique o que é seu por direito e
           utilize esse valor da melhor forma.
         </p>

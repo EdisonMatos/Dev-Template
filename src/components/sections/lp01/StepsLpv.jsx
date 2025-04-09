@@ -11,9 +11,9 @@ import content from "../../../content/content";
 
 export default function StepsLpv() {
   return (
-    <SectionArea className="bg-white" paddingtop={true}>
+    <SectionArea className="bg-neutral-100" paddingtop={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <div className="desktop1:w-[90%] desktop2:w-[570px] ">
+        <div className="w-[90%]">
           <SectionHeader
             className="justify-center hidden text-center desktop1:flex "
             miniTitle={contentLp01.steps.miniTag}
