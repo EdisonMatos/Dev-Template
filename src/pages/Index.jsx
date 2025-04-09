@@ -20,9 +20,9 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero
         appDownloadButtons={false}
-        defaultHero={true}
+        quadrada={true}
         influencer={false}
-        mesclado={true}
+        panoramica={true}
       />
 
       <Features
