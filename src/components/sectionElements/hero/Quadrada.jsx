@@ -39,8 +39,7 @@ export default function Quadrada({ appDownloadButtons }) {
                   <Button
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
-                    // onClick={() => navigate("/whatsapp")}
-                    buttonLink={content.texts.links.ctaWhatsapp}
+                    onClick={() => navigate("/whatsapp")}
                     animation
                     className="w-[100%]"
                     icon={<FaWhatsapp size={24} />}

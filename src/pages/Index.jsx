@@ -1,3 +1,4 @@
+
 import "../styles/shapeDivs.css";
 import Cta from "../components/sections/Cta";
 import Faq from "../components/sections/Faq";
@@ -20,9 +21,9 @@ export default function Index() {
       <Navbar LightMode={false} />
       <Hero
         appDownloadButtons={false}
-        defaultHero={true}
+        quadrada={true}
         influencer={false}
-        mesclado={true}
+        panoramica={true}
       />
 
       <Features

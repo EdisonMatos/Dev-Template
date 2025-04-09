@@ -8,8 +8,11 @@ import contentLp01 from "../../../content/contentLp01";
 import Button from "../../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
 import content from "../../../content/content";
+import { useNavigate } from "react-router-dom";
 
 export default function StepsLpv() {
+  const navigate = useNavigate();
+
   return (
     <SectionArea className="bg-neutral-100" paddingtop={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
@@ -59,8 +62,7 @@ export default function StepsLpv() {
             <Button
               aria-label={contentLp01.steps.cards.ariaLabel}
               label={contentLp01.steps.cards.buttonLabel}
-              // onClick={() => navigate("/whatsapp")}
-              buttonLink={content.texts.links.ctaWhatsapp}
+              onClick={() => navigate("/whatsapp")}
               animation
               icon={<FaWhatsapp size={24} />}
               color="bg-bgSectionDark"

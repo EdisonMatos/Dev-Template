@@ -17,6 +17,7 @@ import StepsLpv from "../components/sections/lp01/StepsLpv";
 import Vídeo from "../components/sections/lp01/Vídeo";
 
 export default function Lp01() {
+
   useEffect(() => {
     document.title = contentLp01.infos.title;
     const metaDescription = document.querySelector("meta[name='description']");
@@ -42,20 +43,21 @@ export default function Lp01() {
 
   return (
     <div>
-      <HeroLP fullImg={true} />
-      <FeatureWithModalsLp />
-      <AboutParalaxeLP logo={true} />
-      <StepsLpv />
-      <WhyUs />
-      <Vídeo />
-      <CtaLP />
-      {/* <Faq /> */}
-      <ContactLP />
-      <FooterLP />
-      {/* <LPFloatingWhatsappButton /> */}
-      <FloatingWhatsappButton />
-      {/* <WhatsChat /> */}
-      <BackToTopButton />
+        <HeroLP fullImg={true} />
+        <FeatureWithModalsLp />
+        <AboutParalaxeLP logo={true} />
+        <StepsLpv />
+        <WhyUs />
+        <Vídeo />
+        <CtaLP />
+        {/* <Faq /> */}
+
+        <ContactLP />
+        <FooterLP />
+        {/* <LPFloatingWhatsappButton /> */}
+        <FloatingWhatsappButton />
+        {/* <WhatsChat /> */}
+        <BackToTopButton />
     </div>
   );
 }

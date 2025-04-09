@@ -7,9 +7,10 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
 
+
 export default function Faq() {
   const navigate = useNavigate();
-
+ 
   return (
     <>
       <SectionArea id="faq" className="bg-neutral-100">
