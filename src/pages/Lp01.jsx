@@ -5,15 +5,16 @@ import Faq from "../components/sections/Faq";
 import AboutParalaxeLP from "../components/sections/lp01/AboutParalaxeLP";
 import ContactLP from "../components/sections/lp01/ContactLP";
 import CtaLP from "../components/sections/lp01/CtaLP";
-import FeaturesLP from "../components/sections/lp01/FeaturesLP";
 import FooterLP from "../components/sections/lp01/FooterLP";
 import HeroLP from "../components/sections/lp01/HeroLP";
 import WhyUs from "../components/sections/lp01/WhyUs";
-// import WhatsChat from "../components/interactives/WhatsChat";
-
+import FeaturesLP from "../components/sections/lp01/FeaturesLP";
+import FeatureWithModalsLp from "../components/sections/lp01/FeatureWithModalsLp";
 import contentLp01 from "../content/contentLp01";
 
 import { useEffect } from "react";
+import StepsLpv from "../components/sections/lp01/StepsLpv";
+import Vídeo from "../components/sections/lp01/Vídeo";
 
 export default function Lp01() {
   useEffect(() => {
@@ -42,9 +43,11 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
-      <FeaturesLP />
-      <AboutParalaxeLP logo={false} />
+      <FeatureWithModalsLp />
+      <AboutParalaxeLP logo={true} />
+      <StepsLpv />
       <WhyUs />
+      <Vídeo />
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />

@@ -1,30 +1,25 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp.jpg";
-import logo from "../assets/imgs/logo/logo.png";
-import aboutImgLpv from "../assets/imgs/about/aboutLpv.jpg";
+import bgImg from "../assets/imgs/hero/bgHeroLp01.jpg";
+import logo from "../assets/imgs/logo/logoLp.png";
 import { infos } from "./content";
-import { Baby } from "lucide-react";
-import { Users } from "lucide-react";
-import { Link } from "lucide-react";
-import { Accessibility } from "lucide-react";
-import { SmilePlus } from "lucide-react";
-import { Gavel } from "lucide-react";
+import { Shield } from "lucide-react";
+import { File } from "lucide-react";
+import { Banknote } from "lucide-react";
 import { Scale } from "lucide-react";
-import { ShieldCheck } from "lucide-react";
-import { Clock } from "lucide-react";
-import { CircleDollarSign } from "lucide-react";
-import { DollarSign } from "lucide-react";
-import { BellOff } from "lucide-react";
+import { Gavel } from "lucide-react";
+import { Handshake } from "lucide-react";
+import { BadgeDollarSign } from "lucide-react";
+import { ChartNoAxesCombined } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
     title:
-      "Edvaldo Costa Gomes Advocacia | Verba Rescisória e Direitos Trabalhistas em Cuiabá - MT",
+      "Gagliardi Advogados. Isenção e Restituição do Imposto de Renda para Aposentados e Pensionistas | São Vicente - SP",
     description:
-      "Especialista em direito trabalhista em Cuiabá - MT, Edvaldo Costa Gomes Advocacia atua na defesa dos direitos dos trabalhadores, garantindo o recebimento de verbas rescisórias, horas extras, aviso prévio e outros direitos não pagos.",
+      "Aposentados, pensionistas e militares da reserva com doenças graves podem ter direito à isenção e restituição do Imposto de Renda. Gagliardi Advogados, em São Vicente - SP, oferece suporte jurídico especializado para garantir seus direitos de forma segura e eficiente.",
     keywords:
-      "Verba Rescisória, Direitos Trabalhistas, Advogado Trabalhista, Rescisão Contratual, Horas Extras Não Pagas, Atraso no Pagamento, Falta de Aviso Prévio, Multa Rescisória, Demissão Sem Justa Causa, Direitos do Trabalhador, Indenização Trabalhista, Justiça do Trabalho, Advocacia Especializada, Advogado em Cuiabá, Edvaldo Costa Gomes Advocacia, Escritório de Advocacia Trabalhista, Acordo Trabalhista, Processo Trabalhista, FGTS Não Pago, Reclamação Trabalhista.",
+      "Isenção de Imposto de Renda, Restituição de Imposto de Renda, Isenção para Aposentados, Isenção para Pensionistas, Isenção para Militares da Reserva, Restituição para Servidores Aposentados, Direito Tributário para Aposentados, Imposto de Renda Doença Grave, Advogado Especialista em IR, Gagliardi Advogados, Gagliardi Advogados São Vicente, Isenção de IR São Vicente, Restituição de IR São Vicente, Advogado Tributário São Vicente, Imposto de Renda para Doença Grave, Restituição de IR para Pensionistas, Isenção de IR para Militares, Direito Tributário Aposentados SP, Isenção de IR com Laudo Médico, Advocacia Especializada em IR.",
   },
   hero: {
     bgImg: bgImg,
@@ -35,119 +30,222 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Não recebeu suas verbas rescisórias?
-          <span className="text-lpTitle text-primary">
-            {" "}
-            Seu direito não pode esperar!
-          </span>
+          Isenção de Imposto de Renda e restituição de até 5 anos{" "}
+          <span className="text-lpTitle"> dos valores pagos!</span>{" "}
         </h1>
       ),
       subtitle:
-        "Seus direitos trabalhistas precisam ser respeitados. Agimos rápido para garantir o que é seu por direito.",
-      buttonLabel: "Quero falar com um especialista",
+        "Militares da Reserva, pensionistas e servidores aposentados que possuem doença grave podem ter esse direito.",
+      buttonLabel: "Solicite sua isenção agora",
+      obsHero: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-map-pin-check"
+          >
+            <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
+            <circle cx="12" cy="10" r="3" />
+            <path d="m16 18 2 2 4-4" />
+          </svg>
+        ),
+        text: "A análise é gratuita e sem compromisso",
+      },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Cenários onde garantimos sua defesa",
+      miniTag: "ISENÇÃO DE IMPOSTO",
+      title:
+        "Você pode ter direito à isenção e restituição do Imposto de Renda! Confira agora.",
     },
     cards: {
       card1: {
-        icon: <Clock/>,
-        title: "Hora extra e Verba rescisória",
+        icon: <Shield width={32} height={32} color="#4A1215" />,
+        title: "Militar, Servidor Público Aposentado ou Pensionista",
         description:
-          "Se suas horas extras não foram pagas ou sua rescisão veio incompleta, garantimos a correção e o pagamento integral dos seus direitos.",
+          "Possui alguma das seguintes condições médicas (previstas no Art. 6º da Lei 7.713/88)",
+        modal1: {
+          title: <p></p>,
+          subtitle: (
+            <p>
+              - AIDS (Síndrome da Imunodeficiência Adquirida) <br />
+              - Alienação mental <br />
+              - Cardiopatia grave <br />
+              - Cegueira (inclusive monocular)
+              <br />
+              - Contaminação por radiação <br />
+              - Doença de Paget em estágio avançado <br />
+              - Doença de Parkinson <br />
+              - Esclerose múltipla <br />
+              - Espondiloartrose anquilosante <br />
+              - Fibrose cística <br />
+              - Hanseníase <br />
+              - Nefropatia grave
+              <br />
+              - Hepatopatia grave <br />
+              - Neoplasia maligna (câncer) <br />
+              - Paralisia irreversível e incapacitante <br />- Tuberculose ativa
+            </p>
+          ),
+        },
       },
       card2: {
-        icon: <CircleDollarSign/>,
-        title: "Multa por atraso no pagamento da rescisão",
+        icon: <File width={32} height={32} color="#4A1215" />,
+        title: "Requisitos para isenção e restituição",
         description:
-          "Se a empresa não pagou sua rescisão dentro do prazo legal, você tem direito a uma indenização. Exigimos o cumprimento da lei para que seu direito seja respeitado.",
+          "Comprovação com laudo e exames, sendo aposentado, pensionista, servidor, militar ou beneficiário de previdência privada.",
+        modal2: {
+          title: <p>Requisitos para isenção e restituição</p>,
+          subtitle: <p></p>,
+        },
       },
       card3: {
-        icon: <BellOff/>,
-        title: "Falta de Aviso Prévio",
+        icon: <Banknote width={32} height={32} color="#4A1215" />,
+        title: "Restituição de valores pagos",
         description:
-          "Foi demitido sem aviso prévio ou não recebeu a indenização correspondente? Entramos com ação para garantir esse pagamento.",
+          "Se você pagou imposto indevidamente, também é possível recuperar esses valores.",
+        modal3: {
+          title: <p></p>,
+          subtitle: <p></p>,
+        },
       },
       card4: {
-        icon: <DollarSign/>,
-        title: "Atraso salarial",
+        icon: <Scale width={32} height={32} color="#4A1215" />,
+        title: "Suporte jurídico especializado",
         description:
-          "Se sua empresa atrasa salários, entramos com ação para garantir o pagamento com correção e sem mais espera.",
+          "Conte com um advogado especializado para assegurar sua isenção e restituição com segurança e eficiência.",
+        modal4: {
+          title: <p></p>,
+          subtitle: <p></p>,
+        },
       },
     },
   },
   about: {
     bgImg: bgImg,
-    imgAbout: aboutImgLpv,
-    ariaLabel: "imagem do advogado",
     logo: {
       logoImg: logo,
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "TRADIÇÃO EM DIREITO TRABALHISTA",
-      title: "Compromisso e agilidade na defesa dos seus direitos",
+      miniTag: "ESPECIALISTA EM ISENÇÃO DE IMPOSTO DE RENDA",
+      title: "Isenção e restituição com segurança e agilidade",
     },
     paragraph: (
       <p>
-        Sei que, em questões trabalhistas, o tempo é essencial. Por isso, atuo
-        de forma rápida e estratégica, sem abrir mão da qualidade, garantindo
-        que seus direitos sejam protegidos com eficiência e determinação.
-        <br />
-        <br /> Seja qual for a sua demanda trabalhista, estou pronto para
-        oferecer a melhor solução jurídica. Entre em contato com Edvaldo Costa
-        Gomes Advocacia e tenha ao seu lado uma defesa ágil e eficaz
+        Muitos aposentados e pensionistas acabam pagando imposto indevidamente
+        sem saber que têm direito à isenção. Se você possui uma doença grave, ou
+        já se recuperou dela, pode solicitar tanto a isenção quanto a
+        restituição do Imposto de Renda pago nos últimos anos. <br />
+        <br /> Com um atendimento especializado e ágil, buscamos garantir que
+        seus direitos sejam respeitados. Entre em contato e veja como podemos
+        ajudar!
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Verifique seu direito à isenção",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+  },
+  steps: {
+    miniTag: "PASSO-A-PASSO",
+    title: "Como funciona?",
+    subtitle: "",
+    alt: "",
+    cards: {
+      card1: {
+        stepNumber: 1,
+        cardTitle: "Análise Gratuita",
+        cardDescription:
+          "Envie seus documentos e nossa equipe jurídica verificará se você tem direito.",
+      },
+      card2: {
+        stepNumber: 2,
+        cardTitle: "Ação Judicial",
+        cardDescription:
+          "Caso tenha direito, entraremos com a ação para garantir sua isenção e a restituição do que foi pago indevidamente.",
+      },
+      card3: {
+        stepNumber: 3,
+        cardTitle: "Dinheiro na Conta",
+        cardDescription:
+          "Após a decisão favorável, você deixa de pagar IR e pode receber valores retroativos!",
+      },
+      buttonLabel: "Quero transformar minha carreira",
+      ariaLabel: "Botão de contato",
+    },
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A MELHOR ESCOLHA",
-      title: "Por que nos escolher pra te defender?",
+      miniTag: "A ESCOLHA CERTA",
+      title: "Por que escolher a Gagliardi Advogados?",
     },
     cards: {
       card1: {
-        icon: <Scale/>,
-        title: "Estratégia personalizada para garantir seus direitos",
+        icon: <Gavel width={32} height={32} color="#4A1215" />,
+        title: "Especialistas em Direito Tributário",
         description:
-          "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia visando a efetivação do seu direito.",
+          "Contamos com uma equipe qualificada e experiente em isenção e restituição do Imposto de Renda, garantindo um suporte jurídico completo e atualizado.",
       },
       card2: {
-        icon: <ShieldCheck/>,
-        title: "Soluções sob medida para o seu problema",
+        icon: <Handshake width={32} height={32} color="#4A1215" />,
+        title: "Atendimento 100% Online, Sem Burocracia",
         description:
-          "Desenvolvemos um plano de ação específico, focado em resolver suas questões trabalhistas rapidamente e com resultados concretos. Cada decisão é tomada pensando no seu melhor interesse.",
+          "Todo o processo é realizado de forma digital, com praticidade e sem a necessidade de deslocamentos, tornando sua experiência mais ágil e eficiente.",
       },
       card3: {
-        icon: <Gavel/>,
-        title: "Compromisso total com sua causa",
+        icon: <BadgeDollarSign width={32} height={32} color="#4A1215" />,
+        title:
+          "Pagamento facilitado (somente após sucesso, conforme contrato!)",
         description:
-          "Nos dedicamos inteiramente à sua defesa, lutando pelos seus direitos em cada fase do processo.",
+          "Você não precisa se preocupar com pagamentos antecipados. Nosso compromisso é com o resultado, e a remuneração só ocorre após o êxito do processo.",
       },
       card4: {
-        icon: <SmilePlus/>,
-        title: "Experiência que traz tranquilidade",
+        icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215" />,
+        title: "Alta taxa de sucesso nas ações",
         description:
-          "Com vasta experiência em casos trabalhistas, seu processo será conduzido com segurança e confiança. Estamos ao seu lado para assegurar que seus direitos sejam respeitados.",
+          "Com ampla experiência na área, nosso escritório já ajudou diversos clientes a conquistarem a isenção e restituição do Imposto de Renda com eficiência e assertividade.",
       },
+    },
+  },
+  video: {
+    sectionHeader: {
+      miniTag: "EXPLICANDO",
+      title: "Entenda como funciona a isenção do Imposto de Renda",
+      subtitle:
+        "Assista ao vídeo e veja de forma simples como garantir sua isenção e restituição sem complicações!",
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA MAIS TEMPO",
-      title:
-        "Trabalhador: Busque ajuda de um advogado para garantir os seus direitos trabalhistas!",
-      subtitle: `O escritório Edvaldo Costa Gomes Advocacia está pronto para te auxiliar. Nossa equipe especializada em direito trabalhista pode orientá-lo no processo para garantir seu direito, seja por atraso salarial, assédio moral, adicionais devidos e não pagos, não pagamento de horas extras ou verbas rescisórias. Independente da violação de direito, não deixe que essas situações prejudiquem sua moral, sua vida profissional e financeira.`,
+      miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
+      title: "Isenção e restituição sem burocracia!",
+      subtitle: (
+        <p>
+          Se você ou um familiar é aposentado ou pensionista e possui uma doença
+          grave – ou já se curou dela –, pode ter direito à isenção do Imposto
+          de Renda e até à restituição dos valores pagos indevidamente.
+          <br />
+          <br />
+          Nossa equipe especializada está pronta para te orientar em cada etapa
+          do processo, proporcionando um atendimento ágil e personalizado.
+          <br />
+          <br />
+          Não deixe seu dinheiro retido! Reivindique o que é seu por direito e
+          utilize esse valor da melhor forma.
+        </p>
+      ),
     },
-    buttonLabel: "Quero falar com um especialista",
+    buttonLabel: "Converse com um especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
