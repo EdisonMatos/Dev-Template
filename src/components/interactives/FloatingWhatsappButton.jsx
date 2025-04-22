@@ -1,3 +1,4 @@
+
 import Modal from "../util/Modal";
 import content from "../../content/content";
 import { useNavigate } from "react-router-dom";
@@ -30,11 +31,9 @@ const FloatingWhatsappButton = ({ buttonType }) => {
     if (buttonType === "form") {
       setOpenModal(!openModal);
     } else {
-      if (whatsappLink) {
-        navigate("/whatsapp");
-      } else {
-        window.open(whatsappContactLink, "_blank");
-      }
+      // navigate("/whatsapp");
+
+      window.open(whatsappContactLink, "_blank");
     }
   };
 
