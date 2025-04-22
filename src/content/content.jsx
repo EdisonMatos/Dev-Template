@@ -491,25 +491,30 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta via WhatsApp, e juntos discutiremos suas necessidades, avaliando a melhor forma de proteger sua marca e os custos envolvidos.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Qual é o prazo médio para o registro de uma marca?",
+          answer:
+            "O prazo varia de acordo com a complexidade do caso e a análise do INPI, mas forneceremos uma estimativa precisa durante a consulta inicial.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga documentos relacionados à sua marca, como nomes ou logotipos, documentos de empresa, e quaisquer registros ou comprovantes que possam auxiliar no processo de análise.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Vocês oferecem serviços de consultoria preventiva para marcas?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para garantir que sua marca esteja registrada corretamente e evitar qualquer risco de violação ou problemas futuros.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
