@@ -30,9 +30,11 @@ const FloatingWhatsappButton = ({ buttonType }) => {
     if (buttonType === "form") {
       setOpenModal(!openModal);
     } else {
-      // navigate("/whatsapp");
-
-      window.open(whatsappContactLink, "_blank");
+      if (whatsappLink) {
+        navigate("/whatsapp");
+      } else {
+        window.open(whatsappContactLink, "_blank");
+      }
     }
   };
 
