@@ -360,33 +360,59 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. RODRIGO AZEVEDO MARTINS",
+      title: "Minha trajetória",
+      subtitle:
+        "Mais de uma década de experiência aliando técnica, empatia e resultados.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Minha trajetória na advocacia começou em 2014, com a conquista da
+          minha inscrição na OAB. Ao longo dos anos, atuei em diversas áreas
+          jurídicas, o que me permitiu entender com profundidade as necessidades
+          reais dos clientes.
           <br />
-          A_Definir
+          Foi nesse caminho que descobri minha vocação pelo Direito Marcário —
+          área essencial, mas muitas vezes negligenciada por quem está começando
+          a empreender.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha trajetória na advocacia começou em 2014, com a conquista da
+          minha inscrição na OAB. Ao longo dos anos, atuei em diversas áreas
+          jurídicas, o que me permitiu entender com profundidade as necessidades
+          reais dos clientes.
           <br />
           <br />
-          A_Definir
+          Foi nesse caminho que descobri minha vocação pelo Direito Marcário —
+          área essencial, mas muitas vezes negligenciada por quem está começando
+          a empreender.
           <br />
           <br />
-          A_Definir
+          Percebi que muitos só procuram ajuda quando já estão correndo o risco
+          de perder a marca que construíram com tanto esforço. Meu trabalho,
+          então, passou a ser não apenas jurídico, mas também educativo: mostrar
+          o valor da proteção de marca antes que o problema aconteça.
           <br />
           <br />
-          A_Definir
+          Hoje, atuo exclusivamente com registro e defesa de marcas, oferecendo
+          um serviço técnico, claro e acessível.
+          <br />
+          <br />
+          Com mais de dez anos de experiência, desenvolvi um diferencial que une
+          conhecimento jurídico sólido e um atendimento humano. Analiso cada
+          caso com atenção aos detalhes e ofereço soluções personalizadas,
+          sempre com ética, excelência e empatia.
+          <br />
+          <br />
+          Atendo presencialmente em São Paulo e online para todo o Brasil,
+          sempre com o objetivo de proteger o que é seu da forma mais eficiente
+          e segura possível.
           <br />
           <br />
         </p>
