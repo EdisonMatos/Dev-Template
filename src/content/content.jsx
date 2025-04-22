@@ -58,9 +58,9 @@ export const infos = {
   emailSecundario: "A_Definir", // Email desejado pelo cliente
   domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "13",
-    firstPart: "99143", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0427", // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
