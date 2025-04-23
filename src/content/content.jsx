@@ -349,11 +349,11 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Porto Alegre",
+      subtitle: "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.244258510041!2d-51.2320767236618!3d-30.029849574930907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979997b658b7f%3A0x58d7cc9afe967d8!2sVal%C3%A9ria%20Candal%20-%20Advocacia%20e%20Assessoria%20Jur%C3%ADdica!5e0!3m2!1spt-BR!2sbr!4v1745415963229!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
