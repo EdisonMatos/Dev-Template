@@ -413,29 +413,47 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. THAIS COSTA",
+      title: "Minha trajetória",
+      subtitle:
+        "Excelência com proximidade, clareza e total dedicação ao cliente",
       paragraph: (
         <div>
-          A_Definir
+          Com cinco anos de experiência na advocacia, construí minha base
+          atuando em escritório, e hoje me coloco pronta para exercer a
+          profissão de forma autônoma, com dedicação total aos meus clientes.
           <br />
-          A_Definir
+          Minha missão é oferecer clareza, traduzindo o Direito em uma linguagem
+          acessível e prática. Evito o juridiquês e foco no que realmente
+          importa: soluções eficazes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com cinco anos de experiência na advocacia, construí minha base
+          atuando em escritório, e hoje me coloco pronta para exercer a
+          profissão de forma autônoma, com dedicação total aos meus clientes.
           <br />
           <br />
-          A_Definir
+          Minha missão é oferecer clareza, traduzindo o Direito em uma linguagem
+          acessível e prática. Evito o juridiquês e foco no que realmente
+          importa: soluções eficazes.
           <br />
           <br />
-          A_Definir
+          Minha atuação é marcada por acompanhamento constante, com feedbacks
+          semanais e contato próximo. Acredito que o acolhimento e a
+          transparência são essenciais para uma advocacia de excelência.
           <br />
           <br />
-          A_Definir
+          Sou pós-graduada em Direito de Família e Sucessões, com ampla vivência
+          na área imobiliária — especialmente em leilões — e atualmente me
+          especializo em contratos.
+          <br />
+          <br />
+          Cada cliente é único, e cada petição que elaboro reflete essa
+          individualidade. Meu compromisso é entregar não apenas um serviço
+          jurídico, mas uma experiência de confiança, respeito e resultado.
           <br />
           <br />
         </p>
