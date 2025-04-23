@@ -351,7 +351,8 @@ const content = {
     maps: {
       minitag: "LOCALIZAÇÃO",
       title: "Encontre-nos em Porto Alegre",
-      subtitle: "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.244258510041!2d-51.2320767236618!3d-30.029849574930907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979997b658b7f%3A0x58d7cc9afe967d8!2sVal%C3%A9ria%20Candal%20-%20Advocacia%20e%20Assessoria%20Jur%C3%ADdica!5e0!3m2!1spt-BR!2sbr!4v1745415963229!5m2!1spt-BR!2sbr",
     },
@@ -360,33 +361,45 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É VALÉRIA CANDAL ASSESSORIA JURÍDICA",
+      title: "Minha trajetória",
+      subtitle:
+        "Experiência, ética e dedicação em soluções jurídicas personalizadas",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Fundei meu escritório com a missão de garantir justiça e segurança
+          jurídica aos meus clientes. Com mais de 17 anos de atuação na
+          Advocacia Cível, ofereço um atendimento estratégico, personalizado e
+          humanizado — presencial ou online.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Fundei meu escritório com a missão de garantir justiça e segurança
+          jurídica aos meus clientes. Com mais de 17 anos de atuação na
+          Advocacia Cível, ofereço um atendimento estratégico, personalizado e
+          humanizado — presencial ou online.
           <br />
           <br />
-          A_Definir
+          Sou advogada desde 2008, especializada em Direito Processual Civil. Me
+          formei em Direito pela PUCRS e concluí pós-graduação na mesma área,
+          atuando com foco na prevenção e solução de conflitos.
           <br />
           <br />
-          A_Definir
+          Fui membro da Comissão de Direito de Trânsito da OAB/RS no triênio
+          2019–2021. Desde então, atuo como Assessora Jurídica do Sindicato dos
+          Analistas Tributários da Receita Estadual do RS, prestando consultoria
+          na área cível há 17 anos.
           <br />
           <br />
-          A_Definir
+          Estou à disposição para oferecer uma assessoria jurídica confiável,
+          eficaz e acolhedora, garantindo que você se sinta seguro e bem
+          informado em todas as etapas do processo.
           <br />
           <br />
         </p>
@@ -400,14 +413,14 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
