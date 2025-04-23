@@ -17,13 +17,13 @@ import Maps from "../components/sections/Maps";
 export default function Index() {
   return (
     <>
-      {/* <Navbar LightMode={false} />
+      <Navbar LightMode={false} />
       <Hero
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
-        mesclado={true}
-      /> */}
+        mesclado={false}
+      />
 
       <Features
         defaultFeature={true}
@@ -37,13 +37,13 @@ export default function Index() {
       <AboutInstagram
         socialPrint={true}
         instagram={true}
-        facebook={false}
+        facebook={true}
         linkedin={false}
         x={false}
       />
       <Cta />
       <Steps />
-      {/* <Maps /> */}
+      <Maps />
       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
@@ -54,6 +54,7 @@ export default function Index() {
         emailSecundario={false}
         addresSecundario={false}
         instagram={true}
+        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
