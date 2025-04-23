@@ -469,11 +469,11 @@ const content = {
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle: "",
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
         paragraph: (
           <p>
             Aproveite nossas redes sociais para mantermos contato e ficar por
