@@ -26,12 +26,12 @@ export default function Index() {
       />
 
       <Features
-        defaultFeature={true}
+        defaultFeature={false}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={false}
+        paragraphsModal={true}
       />
       <About modal={true} showGallery={false} />
       <AboutInstagram
