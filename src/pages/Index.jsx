@@ -22,7 +22,7 @@ export default function Index() {
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
-        mesclado={true}
+        mesclado={false}
       />
 
       <Features
