@@ -1,9 +1,9 @@
 import logo from "../assets/imgs/logo/logo.png";
-import heroImgPhone from "../assets/imgs/hero/personImg.png";
-import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
-import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
+import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import heroImgPhone from "../assets/imgs/hero/lawHeroPhone.jpg";
+// import HeroEdvaldo from "../assets/imgs/hero/HeroEdvaldo.png";
+import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import heroImgPerson from "../assets/imgs/hero/bgHero.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -18,6 +18,8 @@ import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+// import personImg from "../assets/imgs/hero/edvaldo.png";
+// import personImgPhone from "../assets/imgs/hero/edvaldo.png";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -46,42 +48,19 @@ import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
 import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
 import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
-import { Briefcase, Gavel } from "lucide-react";
-import { Users } from "lucide-react";
-import { FileText } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Rodrigo Azevedo Martins",
+  name: "Dra. Thaís Costa",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "advocaciaram.com.br", // Sem "www"
+  domain: "advogadathaiscosta.com.br", // Sem "www"
   phone: {
-    ddd: "17",
-    firstPart: "99225", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2648", // Apenas os 4 últimos números
-  },
-  phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
-  },
-  phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "91685", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1971", // Apenas os 4 últimos números
   },
   endereco: (
-    <div>
-      <p>Endereço:</p>
-      <p>Rua São Domingos,</p>
-      <p> nº 419 - Vila Nossa Sra. Aparecida, </p>
-      <p>São José do Rio Preto - SP,</p>
-      <p>CEP: 15025-200</p>
-    </div>
-  ),
-  enderecoSecundario: (
     <div>
       <p>Endereço:</p>
       <p>A_Definir</p>
@@ -92,12 +71,12 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à sexta-feira</p>
-      <p>9h às 18h</p>
+      <p>Segunda à sexta-feira:</p>
+      <p>7:30 às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "adv.rodrigoazevedo", // Sem o @
+  instagramProfile: "advogadathaiscosta", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -124,21 +103,17 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO DE REGISTRO DE MARCAS EM SÃO PAULO",
+      miniTag: "ADVOGADA CÍVEL EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Garanta sua marca.
-          <span className="text-primary"> Não corra riscos.</span>
+          Exclusividade
+          <span className="text-primary"> em cada detalhe jurídico</span>
         </h1>
       ),
       subtitle:
-        "Marcas não registradas viram alvo fácil. Proteja o que é seu antes que alguém leve.",
-      heroImgPhone: heroImgPhone, // img da pessoa mobile
-      heroDesktop: heroImgDesktop, //bg com foto da pessoa
-      heroImg: bgHeroImg, //fundo da Hero
-      heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
-      backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com especialista",
+        "De dúvidas e incertezas à soluções sólidas. Uma jornada jurídica com presença e resultado.",
+      heroImg: heroImg,
+      ctaButtonText: "Agende sua consulta",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +133,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial em SP e online para todo Brasil",
+        text: "Atendimento online, com opção presencial em casos específicos.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -182,44 +157,61 @@ const content = {
           alt: "",
         },
       },
+      // app: {
+      //   description: "Baixe nosso aplicativo para companhar seu processo:",
+      //   imgs: {
+      //     appStore: {
+      //       img: imgAppStore,
+      //       alt: "Ícone da App Store",
+      //       link: "#",
+      //     },
+      //     playStore: {
+      //       img: imgGooglePlay,
+      //       alt: "Ícone da Play Store",
+      //       link: "#",
+      //     },
+      //   },
+      // },
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Proteção completa para sua marca",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Excelência jurídica nas causas que importam",
       subtitle:
-        "Do primeiro passo ao deferimento, cuidamos de todo o processo para garantir sua marca no seu nome.",
+        "Atuação precisa, estratégica e alinhada aos seus maiores interesses",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Pesquisa de viabilidade da marca",
-        subtitle:
-          "Antes de registrar, verificamos se sua marca está disponível e se há riscos de indeferimento.",
+        title: "Assessoria jurídica em leilões",
+        subtitle: "Orientação completa em arremates judiciais e extrajudiciais",
+        labelButton: "Saiba mais",
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            <p>
+              Assessoria desde a escolha do imóvel até a imissão na posse.
+              Análise segura do edital, análise mercadológica da área,
+              estratégias de flipping pós arrematação, intermediação com o
+              leiloeiro,desocupação, dentre outros. Tudo isso voltado para o
+              jurídico, para uma arrematação segura e rentável.
+            </p>
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-search-check-icon lucide-search-check"
+            class="lucide lucide-house-icon lucide-house"
           >
-            <path d="m8 11 2 2 4-4" />
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,34 +219,34 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Registro de marca no INPI",
-        subtitle:
-          "Cuidamos de todo o processo de registro para garantir que sua marca seja sua — e de mais ninguém.",
+        title: "Direito contratual",
+        subtitle: "Contratos claros, sólidos e personalizados",
+        labelButton: "Saiba mais",
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            Elaboração e revisão de contratos, tanto para prestadores de
+            serviços (PF e PJ) quanto da área imobiliária (compra e venda,
+            locação, Airbnb)
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-stamp-icon lucide-stamp"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M5 22h14" />
-            <path d="M19.27 13.73A2.5 2.5 0 0 0 17.5 13h-11A2.5 2.5 0 0 0 4 15.5V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1.5c0-.66-.26-1.3-.73-1.77Z" />
-            <path d="M14 13V8.5C14 7 15 7 15 5a3 3 0 0 0-3-3c-1.66 0-3 1-3 3s1 2 1 3.5V13" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,33 +254,40 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Defesa contra oposições e indeferimentos",
-        subtitle:
-          "Sua marca foi contestada? Atuamos com estratégia para garantir seu direito no INPI.",
+        title: "Família e sucessões",
+        subtitle: "Cuidado jurídico em momentos delicados",
+        labelButton: "Saiba mais",
         description: (
           <div>
-            A_Definir <br />
+            - Divórcio judicial e extrajudicial ;
+            <br /> - Inventário judicial e extrajudicial;
+            <br /> - Holding Familiar (planejamento sucessório prévio);
             <br />
-            A_Definir
+            - Testamentos;
+            <br />
+            - Reconhecimento e dissolução de união estável;
+            <br /> - Acordo pré-nupcial.
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="32"
+            height="32"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-alert-icon lucide-shield-alert"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M12 8v4" />
-            <path d="M12 16h.01" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -296,9 +295,49 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Acompanhamento e renovação de marca",
-        subtitle:
-          "Monitoramos sua marca até o deferimento e cuidamos da renovação para manter sua proteção ativa.",
+        title: "Direito imobiliário",
+        subtitle: "Assessoria segura em negócios imobiliários",
+        labelButton: "Saiba mais",
+        description: (
+          <div>
+            - Regularização imobiliária;
+            <br /> - Análise documental;
+            <br /> - Due diligence (revisão de pendências imobiliárias);
+            <br />
+            - Usucapiao;
+            <br /> - Assessoria em questões de inadimplência, registro e riscos.
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card5: {
+        img: featuresImg4,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        labelButton: "Saiba mais",
         description: (
           <div>
             A_Definir
@@ -313,18 +352,39 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-clock-icon lucide-file-clock"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M16 22h2a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <circle cx="8" cy="16" r="6" />
-            <path d="M9.5 17.5 8 16.25V14" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            A_Definir
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -348,72 +408,52 @@ const content = {
         },
       },
     },
-    maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em São José do Rio Preto",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
-      embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.4446058989074!2d-49.39489079999999!3d-20.8137454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad6544b94f4f%3A0x9a0b1fd2dfaa17ff!2sR.%20S%C3%A3o%20Domingos%2C%20419%20-%20Vila%20Nossa%20Sra.%20Aparecida%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20-%20SP%2C%2015025-200!5e0!3m2!1spt-BR!2sbr!4v1745334738489!5m2!1spt-BR!2sbr",
-    },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. RODRIGO AZEVEDO MARTINS",
+      miniTag: "QUEM É A DRA. THAIS COSTA",
       title: "Minha trajetória",
       subtitle:
-        "Mais de uma década de experiência aliando técnica, empatia e resultados.",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Excelência com proximidade, clareza e total dedicação ao cliente",
       paragraph: (
         <div>
-          Minha trajetória na advocacia começou em 2014, com a conquista da
-          minha inscrição na OAB. Ao longo dos anos, atuei em diversas áreas
-          jurídicas, o que me permitiu entender com profundidade as necessidades
-          reais dos clientes.
+          Com cinco anos de experiência na advocacia, construí minha base
+          atuando em escritório, e hoje me coloco pronta para exercer a
+          profissão de forma autônoma, com dedicação total aos meus clientes.
           <br />
-          Foi nesse caminho que descobri minha vocação pelo Direito Marcário —
-          área essencial, mas muitas vezes negligenciada por quem está começando
-          a empreender.
+          Minha missão é oferecer clareza, traduzindo o Direito em uma linguagem
+          acessível e prática. Evito o juridiquês e foco no que realmente
+          importa: soluções eficazes.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha trajetória na advocacia começou em 2014, com a conquista da
-          minha inscrição na OAB. Ao longo dos anos, atuei em diversas áreas
-          jurídicas, o que me permitiu entender com profundidade as necessidades
-          reais dos clientes.
+          Com cinco anos de experiência na advocacia, construí minha base
+          atuando em escritório, e hoje me coloco pronta para exercer a
+          profissão de forma autônoma, com dedicação total aos meus clientes.
           <br />
           <br />
-          Foi nesse caminho que descobri minha vocação pelo Direito Marcário —
-          área essencial, mas muitas vezes negligenciada por quem está começando
-          a empreender.
+          Minha missão é oferecer clareza, traduzindo o Direito em uma linguagem
+          acessível e prática. Evito o juridiquês e foco no que realmente
+          importa: soluções eficazes.
           <br />
           <br />
-          Percebi que muitos só procuram ajuda quando já estão correndo o risco
-          de perder a marca que construíram com tanto esforço. Meu trabalho,
-          então, passou a ser não apenas jurídico, mas também educativo: mostrar
-          o valor da proteção de marca antes que o problema aconteça.
+          Minha atuação é marcada por acompanhamento constante, com feedbacks
+          semanais e contato próximo. Acredito que o acolhimento e a
+          transparência são essenciais para uma advocacia de excelência.
           <br />
           <br />
-          Hoje, atuo exclusivamente com registro e defesa de marcas, oferecendo
-          um serviço técnico, claro e acessível.
+          Sou pós-graduada em Direito de Família e Sucessões, com ampla vivência
+          na área imobiliária — especialmente em leilões — e atualmente me
+          especializo em contratos.
           <br />
           <br />
-          Com mais de dez anos de experiência, desenvolvi um diferencial que une
-          conhecimento jurídico sólido e um atendimento humano. Analiso cada
-          caso com atenção aos detalhes e ofereço soluções personalizadas,
-          sempre com ética, excelência e empatia.
-          <br />
-          <br />
-          Atendo presencialmente em São Paulo e online para todo o Brasil,
-          sempre com o objetivo de proteger o que é seu da forma mais eficiente
-          e segura possível.
+          Cada cliente é único, e cada petição que elaboro reflete essa
+          individualidade. Meu compromisso é entregar não apenas um serviço
+          jurídico, mas uma experiência de confiança, respeito e resultado.
           <br />
           <br />
         </p>
@@ -423,19 +463,23 @@ const content = {
 
       aboutSocial: {
         img: {
-          img: aboutSocialImg,
-          imgSocial: aboutInstagram,
+          img: aboutInstagram,
+          imgPrint: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
+        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         labelInstagram: "Siga-me no Instagram",
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
+        paragraph: (
+          <p>
+            Aproveite nossas redes sociais para mantermos contato e ficar por
+            dentro de atualizações importantes no mundo do direito.
+          </p>
+        ),
       },
     },
     cta: {
@@ -458,31 +502,31 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender suas necessidades e esclarecer a importância do registro da marca para o seu negócio.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Pesquisa de disponibilidade",
+          cardTitle: "Análise detalhada",
           cardDescription:
-            "Fazemos uma análise completa para verificar a viabilidade do seu registro e possíveis conflitos com marcas já registradas.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia de registro",
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos um plano detalhado para o registro da sua marca, cuidando de cada etapa do processo para garantir a sua proteção jurídica.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Acompanhamento e registro",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Realizamos o registro da sua marca no INPI, monitorando todo o processo para garantir que sua marca esteja legalmente protegida e pronta para uso.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     blog: {
       miniTag: "BLOG",
-      title: "A_Definir",
+      title: "Informação jurídica ao seu alcance",
       subtitle: "",
       img: imgSteps,
       blogApiEndpoint:
@@ -499,23 +543,22 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta via WhatsApp, e juntos discutiremos suas necessidades, avaliando a melhor forma de proteger sua marca e os custos envolvidos.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "Qual é o prazo médio para o registro de uma marca?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "O prazo varia de acordo com a complexidade do caso e a análise do INPI, mas forneceremos uma estimativa precisa durante a consulta inicial.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
           question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Traga documentos relacionados à sua marca, como nomes ou logotipos, documentos de empresa, e quaisquer registros ou comprovantes que possam auxiliar no processo de análise.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question:
-            "Vocês oferecem serviços de consultoria preventiva para marcas?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Sim, oferecemos consultoria preventiva para garantir que sua marca esteja registrada corretamente e evitar qualquer risco de violação ou problemas futuros.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -582,6 +625,14 @@ const content = {
       number2Description: "A_Definir",
       number3: 1000,
       number3Description: "A_Definir",
+    },
+    maps: {
+      minitag: "Google Maps",
+      title: "Como nos encontrar?",
+      subtitle:
+        "Utilize o mapa abaixo para chegar até nós com mais facilidade.",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     team: {
       title: "A_Definir",
@@ -851,20 +902,14 @@ const content = {
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
-      phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
-      phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
-      phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
-      phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
-      emailSecundario: `${infos.emailSecundario}`,
       adress: infos.endereco,
-      adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,

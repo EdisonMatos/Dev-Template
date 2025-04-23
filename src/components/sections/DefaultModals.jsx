@@ -11,7 +11,6 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 
-
 export default function DefaultModals({ modal = "true" }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
@@ -42,7 +41,7 @@ export default function DefaultModals({ modal = "true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}
                   title={content.texts.features.card1.title}
-                  paragraph="a_Definir"
+                  paragraph={content.texts.features.card1.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -52,7 +51,7 @@ export default function DefaultModals({ modal = "true" }) {
                     onClick={() =>
                       onClick(
                         content.texts.features.card1.title,
-                        content.texts.features.card1.subtitle,
+                        content.texts.features.card1.description,
                         <>
                           <p className="my-[20px]">
                             Quer saber mais? Clique abaixo 👇
@@ -96,7 +95,7 @@ export default function DefaultModals({ modal = "true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
-                  paragraph="a_Definir"
+                  paragraph={content.texts.features.card2.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -106,7 +105,7 @@ export default function DefaultModals({ modal = "true" }) {
                     onClick={() =>
                       onClick(
                         content.texts.features.card2.title,
-                        content.texts.features.card2.subtitle,
+                        content.texts.features.card2.description,
                         <>
                           <p className="my-[20px]">
                             Quer saber mais? Clique abaixo 👇
@@ -150,7 +149,7 @@ export default function DefaultModals({ modal = "true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
-                  paragraph="a_Definir."
+                  paragraph={content.texts.features.card3.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -160,7 +159,7 @@ export default function DefaultModals({ modal = "true" }) {
                     onClick={() =>
                       onClick(
                         content.texts.features.card3.title,
-                        content.texts.features.card3.subtitle,
+                        content.texts.features.card3.description,
                         <>
                           <p className="my-[20px]">
                             Quer saber mais? Clique abaixo 👇
@@ -204,7 +203,7 @@ export default function DefaultModals({ modal = "true" }) {
                 <IconButtonFeatureCard
                   icon={content.texts.features.card4.icon}
                   title={content.texts.features.card4.title}
-                  paragraph="a_Definir "
+                  paragraph={content.texts.features.card4.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 {modal && (
@@ -214,7 +213,7 @@ export default function DefaultModals({ modal = "true" }) {
                     onClick={() =>
                       onClick(
                         content.texts.features.card4.title,
-                        content.texts.features.card4.subtitle,
+                        content.texts.features.card4.description,
                         <>
                           <p className="my-[20px]">
                             Quer saber mais? Clique abaixo 👇
