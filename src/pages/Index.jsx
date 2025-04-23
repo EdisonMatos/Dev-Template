@@ -17,7 +17,7 @@ import Maps from "../components/sections/Maps";
 export default function Index() {
   return (
     <>
-      <Navbar LightMode={false} />
+      {/* <Navbar LightMode={false} /> */}
       {/* <Hero
         appDownloadButtons={false}
         defaultHero={true}
