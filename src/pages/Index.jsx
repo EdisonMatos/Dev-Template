@@ -18,12 +18,12 @@ export default function Index() {
   return (
     <>
       <Navbar LightMode={false} />
-      <Hero
+      {/* <Hero
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
         mesclado={true}
-      />
+      /> */}
 
       <Features
         defaultFeature={true}
