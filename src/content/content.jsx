@@ -103,16 +103,17 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADA CÍVEL EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Exclusividade
+          <span className="text-primary"> em cada detalhe jurídico</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "De dúvidas e incertezas à soluções sólidas. Uma jornada jurídica com presença e resultado.",
       heroImg: heroImg,
-      ctaButtonText: "Entre em contato",
+      ctaButtonText: "Agende sua consulta",
       obsHero: {
         icon: (
           <svg
@@ -132,7 +133,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online",
+        text: "Atendimento online, com opção presencial em casos específicos.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
