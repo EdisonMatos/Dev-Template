@@ -56,7 +56,7 @@ export const infos = {
   name: "Dr. Rodrigo Azevedo Martins",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "advocaciaram.com.br", // Sem "www"
   phone: {
     ddd: "17",
     firstPart: "99225", // Apenas os 5 primeiros números (incluindo o 9)
