@@ -48,7 +48,7 @@ export default function Index() {
       <Faq />
       <FooterSocial
         LightMode={false}
-        addres={true}
+        addres={false}
         phoneSecundario={false}
         phoneTerciario={false}
         emailSecundario={false}
