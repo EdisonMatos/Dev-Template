@@ -478,7 +478,7 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "A_TIRE SUAS DÚVIDASDefinir",
+      miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
