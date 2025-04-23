@@ -17,13 +17,13 @@ import Maps from "../components/sections/Maps";
 export default function Index() {
   return (
     <>
-      <Navbar LightMode={false} />
-      <Hero
+      {/* <Navbar LightMode={false} /> */}
+      {/* <Hero
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
         mesclado={true}
-      />
+      /> */}
 
       <Features
         defaultFeature={true}
@@ -43,7 +43,7 @@ export default function Index() {
       />
       <Cta />
       <Steps />
-      {/* <Maps /> */}
+      <Maps />
       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial

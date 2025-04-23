@@ -1,3 +1,4 @@
+
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function HowItWorksCard({
@@ -7,24 +8,24 @@ export default function HowItWorksCard({
   animation = true,
 }) {
   const Content = (
-    <div className="flex flex-col items-center justify-center h-auto transition desktop1:items-center font-mainFont desktop1:hover:scale-110">
-      <div className="bg-bgSectionDark mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-title1 text-white font-semibold">
+    <div className="flex flex-col items-center justify-center transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
+      <div className="bg-primary mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-secondary text-title1 font-semibold">
         {number}
       </div>
-      <h1 className="text-[20px] text-black font-bold mb-[24px]">{title}</h1>
-      <p className="text-[16px] text-black opacity-70 text-center desktop1:text-center w-full">
+      <h1 className="text-[20px] text-lighter font-bold mb-[24px]">{title}</h1>
+      <p className="text-[16px] text-lighter opacity-70 text-center desktop1:text-left w-full">
         {description}
       </p>
     </div>
   );
 
   const ContentStatic = (
-    <div className="flex flex-col items-center justify-center tablet1:w-[45%] transition desktop1:items-center font-mainFont desktop1:hover:scale-110 h-auto">
-      <div className="bg-bgSectionDark mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-black text-title1 font-semibold">
+    <div className="flex flex-col items-center justify-center tablet1:w-[45%] transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
+      <div className="bg-primary mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-secondary text-title1 font-semibold">
         {number}
       </div>
-      <h1 className="text-[20px] text-black font-bold mb-[24px]">{title}</h1>
-      <p className="text-[16px] text-black opacity-70 text-center desktop1:text-center w-full">
+      <h1 className="text-[20px] text-lighter font-bold mb-[24px]">{title}</h1>
+      <p className="text-[16px] text-lighter opacity-70 text-center desktop1:text-left w-full">
         {description}
       </p>
     </div>
