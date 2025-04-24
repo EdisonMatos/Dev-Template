@@ -17,13 +17,13 @@ import Maps from "../components/sections/Maps";
 export default function Index() {
   return (
     <>
-      {/* <Navbar LightMode={false} /> */}
-      {/* <Hero
+      <Navbar LightMode={false} />
+      <Hero
         appDownloadButtons={false}
-        defaultHero={true}
-        influencer={false}
-        mesclado={true}
-      /> */}
+        defaultHero={false}
+        influencer={true}
+        mesclado={false}
+      />
 
       <Features
         defaultFeature={true}

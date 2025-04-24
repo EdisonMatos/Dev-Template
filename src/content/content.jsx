@@ -1,7 +1,7 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
-import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.png";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.png";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
