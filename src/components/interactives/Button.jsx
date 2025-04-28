@@ -1,10 +1,8 @@
 import React from "react";
 import CustomTag from "../util/CustomTag";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import { useWhatsAppLink } from "../util/WhatsAppLinkContext"; // 👈 importa o contexto
-import content from "../../content/content";
+import { useWhatsAppLink } from "../util/WhatsAppLinkContext";
 import { useNavigate } from "react-router-dom";
-
 
 export default function Button({
   icon,
@@ -17,13 +15,14 @@ export default function Button({
   removeTarget,
   removeAnchor,
   tagName,
-  color = "bg-[#A41215]",
+  color,
   animation = true,
+  onClick, // Função onClick personalizada
+  buttonLink, // Link para abrir ao clicar
 }) {
-  const whatsappLink = useWhatsAppLink();
-  const navigate = useNavigate(); // 👈 hook de navegação
+  const { whatsappLink, setWhatsAppLink } = useWhatsAppLink();
+  const navigate = useNavigate(); 
 
-  // Aplica os tamanhos com base no size
   if (size === "small") {
     sizeFeatures = "rounded-[4px] px-[18px] py-[10px]";
     textclassName = "text-paragraph3 font-secondFont";
@@ -34,51 +33,50 @@ export default function Button({
     gap = "gap-[20px]";
   }
 
-  const Animation = animation ? MotionDivDownToUp : "div";
-  const CustomTagName = removeAnchor ? "div" : tagName || "button";
-
-  // 👉 handler de clique único baseado no valor
   const handleClick = () => {
-    if (whatsappLink) {
-      navigate("/whatsapp");
+    if (onClick) {
+      onClick(); // Se tiver onClick, executa a ação personalizada
+    } else if (buttonLink) {
+      window.open(buttonLink, "_blank"); // Se tiver buttonLink, abre o link
     } else {
-      window.open(content.texts.links.ctaWhatsapp, "_blank");    }
+      setWhatsAppLink((prev) => !prev); // Alterna o estado
+      if (whatsappLink) {
+        navigate("/whatsapp"); // Navega para /whatsapp se whatsappLink for true
+      } else {
+        window.open("https://wa.me/5521972613067", "_blank"); // Link direto do WhatsApp
+      }
+    }
   };
 
+  const CustomTagName = removeAnchor ? "div" : tagName || "button";
+
   return (
-    <CustomTag
-      tagName={CustomTagName}
-      className="inline-block max-w-full w-fit"
-    >
+    <CustomTagName className="inline-block max-w-full w-fit">
       {animation ? (
-        <MotionDivDownToUp className="w-auto">
+        <div className="w-auto">
           <button
             onClick={handleClick}
-            className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-white desktop1:hover:scale-110`}
+            className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary ${color} text-white desktop1:hover:scale-110`}
           >
-            <div
-              className={`flex items-center text-center ${gap} min-h-[24px]`}
-            >
+            <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
               <div>{icon}</div>
               <p className={`flex items-center ${textclassName}`}>{label}</p>
             </div>
           </button>
-        </MotionDivDownToUp>
+        </div>
       ) : (
         <div className="w-auto">
           <button
             onClick={handleClick}
             className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} text-white desktop1:hover:scale-110`}
           >
-            <div
-              className={`flex items-center text-center ${gap} min-h-[24px]`}
-            >
+            <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
               <div>{icon}</div>
               <p className={`flex items-center ${textclassName}`}>{label}</p>
             </div>
           </button>
         </div>
       )}
-    </CustomTag>
+    </CustomTagName>
   );
 }

@@ -196,7 +196,6 @@ export default function ListGroupSocial({ LightMode }) {
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Contato"
-            onClick={() => navigate("/whatsapp")}
             className={`${scrolling ? "" : ""}`}
             textclassName="text-paragraph3"
             size="small"

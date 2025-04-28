@@ -38,23 +38,24 @@ export default function Index() {
       <AboutInstagram
         socialPrint={true}
         instagram={true}
-        facebook={false}
+        facebook={true}
         linkedin={false}
         x={false}
       />
       <Cta />
       <Steps />
-      {/* <Maps /> */}
+      <Maps />
       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
         LightMode={false}
-        addres={true}
+        addres={false}
         phoneSecundario={false}
         phoneTerciario={false}
         emailSecundario={false}
         addresSecundario={false}
         instagram={true}
+        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
