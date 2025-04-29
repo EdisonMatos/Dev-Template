@@ -6,6 +6,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
+import Button from "../interactives/Button";
 
 export default function Faq() {
   const navigate = useNavigate();
@@ -30,10 +31,11 @@ export default function Faq() {
           <MotionDivDownToUp>
             <Paragraphs className="text-center underline transition text-secondary hover:scale-110">
               {/* <a href="/whatsapp" target="_blank" rel="noopener noreferrer"> */}
-              <a href={content.texts.links.ctaWhatsapp} target="_blank">
+              {/* <a href={content.texts.links.ctaWhatsapp} target="_blank">
                 {" "}
-                {content.texts.faq.paragraph}
-              </a>
+                
+              </a> */}
+              <Button color="bg-transparent" label={content.texts.faq.paragraph}> </Button>
             </Paragraphs>
           </MotionDivDownToUp>
         </SectionWrapper>
