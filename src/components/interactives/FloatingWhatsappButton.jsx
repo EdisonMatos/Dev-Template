@@ -1,9 +1,9 @@
-
 import Modal from "../util/Modal";
 import content from "../../content/content";
 import { useNavigate } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import whatsappWebm from "../../assets/importAssets/whatsappGif.webp";
+import { getWhatsappLink } from "../util/WhatsappLink"; // Importando a função
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -17,7 +17,7 @@ const FloatingWhatsappButton = ({ buttonType }) => {
       const scrollTop =
         document.documentElement.scrollTop || document.body.scrollTop;
 
-      setIsVisible(scrollTop > 100);
+      setIsVisible(scrollTop > 100); // O botão aparece após rolar 100px
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -31,9 +31,9 @@ const FloatingWhatsappButton = ({ buttonType }) => {
     if (buttonType === "form") {
       setOpenModal(!openModal);
     } else {
-      // navigate("/whatsapp");
-
-      window.open(whatsappContactLink, "_blank");
+      // Usando a função getWhatsappLink para determinar o link
+      const link = getWhatsappLink();
+      window.open(link, "_blank");
     }
   };
 
@@ -41,7 +41,7 @@ const FloatingWhatsappButton = ({ buttonType }) => {
     <button
       className={`${
         isVisible ? "block animate-fade-in" : "hidden"
-      } fixed bottom-2 right-3 p-4 text-secondary z-20 rounded-full focus:outline-none `}
+      } fixed bottom-2 right-3 p-4 text-secondary z-20 rounded-full focus:outline-none`}
       onClick={handleClick}
     >
       {openModal ? null : (

@@ -1,9 +1,7 @@
 import React from "react";
 import CustomTag from "../util/CustomTag";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-
-// ✅ Altere essa constante para true ou false conforme sua necessidade:
-const USE_REAL_WHATSAPP_LINK = false; // true = link direto do WhatsApp, false = /whatsapp
+import { getWhatsappLink } from "../util/WhatsappLink"; // Importando a função
 
 export default function Button({
   icon,
@@ -35,12 +33,10 @@ export default function Button({
   const Animation = animation ? MotionDivDownToUp : "div";
   const CustomTagName = removeAnchor ? "div" : tagName || "a";
 
-  // ✅ Define link final baseado na lógica global
+  // Define link final baseado na lógica global
   const shouldRedirectToWhatsapp = !buttonLink && !onClick;
   const finalButtonLink = shouldRedirectToWhatsapp
-    ? USE_REAL_WHATSAPP_LINK
-      ? "https://wa.me/5521972613067" // Coloque seu número aqui
-      : "/whatsapp"
+    ? getWhatsappLink() // Agora usa a função importada
     : buttonLink;
 
   return (
