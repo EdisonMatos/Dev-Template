@@ -28,8 +28,6 @@ export default function AboutModal() {
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
             label={content.texts.about.ctaButtonText}
-            // onClick={() => navigate("/whatsapp")}
-            buttonLink={content.texts.links.ctaWhatsapp}
             animation={false}
             className="hover:scale-105"
             icon={<FaWhatsapp size={24} />}

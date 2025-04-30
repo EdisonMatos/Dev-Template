@@ -6,7 +6,6 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Cta() {
   const navigate = useNavigate();
@@ -25,8 +24,6 @@ export default function Cta() {
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label={content.texts.cta.ctaButtonText}
-            // onClick={() => navigate("/whatsapp")}
-            buttonLink={content.texts.links.ctaWhatsapp}
             animation
             icon={<FaWhatsapp size={24} />}
           />

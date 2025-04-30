@@ -1,6 +1,7 @@
 import React from "react";
 import CustomTag from "../util/CustomTag";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import { getWhatsappLink } from "../util/WhatsappLink"; // Importando a função
 
 export default function Button({
   icon,
@@ -18,6 +19,7 @@ export default function Button({
   color,
   animation = true,
 }) {
+  // Define estilos com base no tamanho
   if (size === "small") {
     sizeFeatures = "rounded-[4px] px-[18px] py-[10px]";
     textclassName = "text-paragraph3 font-secondFont";
@@ -31,11 +33,17 @@ export default function Button({
   const Animation = animation ? MotionDivDownToUp : "div";
   const CustomTagName = removeAnchor ? "div" : tagName || "a";
 
+  // Define link final baseado na lógica global
+  const shouldRedirectToWhatsapp = !buttonLink && !onClick;
+  const finalButtonLink = shouldRedirectToWhatsapp
+    ? getWhatsappLink() // Agora usa a função importada
+    : buttonLink;
+
   return (
     <CustomTag
       tagName={CustomTagName}
       {...(removeTarget ? {} : { target: "_blank" })}
-      {...(removeAnchor ? {} : { href: buttonLink })}
+      {...(removeAnchor ? {} : { href: finalButtonLink })}
       className="inline-block max-w-full w-fit"
     >
       {animation ? (
