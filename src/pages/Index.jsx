@@ -51,7 +51,7 @@ export default function Index() {
       />
       <Cta />
       <Steps LightMode={LightMode} />
-      <Maps />
+      <Maps LightMode={LightMode} />
       <Faq />
       <FooterSocial
         LightMode={LightMode} // Passando o LightMode também para FooterSocial
