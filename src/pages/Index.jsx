@@ -14,7 +14,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 
 export default function Index() {
-  const [LightMode, setLightMode] = useState(true); // Inicialize o estado como `true` ou `false` dependendo do seu tema padrão.
+  const [LightMode, setLightMode] = useState(false); // Inicialize o estado como `true` ou `false` dependendo do seu tema padrão.
 
   const toggleLightMode = () => {
     setLightMode((prevMode) => !prevMode); // Alterna entre o modo claro e escuro
@@ -30,6 +30,7 @@ export default function Index() {
       {/* Passando o estado LightMode para todos os componentes que necessitam */}
       <Navbar LightMode={LightMode} />
       <Hero
+      LightMode={LightMode}
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
