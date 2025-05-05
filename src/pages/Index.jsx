@@ -50,7 +50,7 @@ export default function Index() {
         x={false}
       />
       <Cta />
-      <Steps />
+      <Steps LightMode={LightMode} />
       <Maps />
       <Faq />
       <FooterSocial
