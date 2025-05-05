@@ -14,23 +14,19 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 
 export default function Index() {
-  const [LightMode, setLightMode] = useState(false); // Inicialize o estado como `true` ou `false` dependendo do seu tema padrão.
+  const [LightMode, setLightMode] = useState(true);
 
   const toggleLightMode = () => {
-    setLightMode((prevMode) => !prevMode); // Alterna entre o modo claro e escuro
+    setLightMode((prevMode) => !prevMode);
   };
 
-  // Criando uma constante que define o comportamento do botão de alternância (mas sem exibi-lo diretamente)
-  const lightModeToggle = toggleLightMode; // Esta constante agora pode ser ativada em qualquer ponto no seu código
-
-  // Você pode usar lightModeToggle em outras funções ou condições no seu código
+  const lightModeToggle = toggleLightMode;
 
   return (
     <>
-      {/* Passando o estado LightMode para todos os componentes que necessitam */}
       <Navbar LightMode={LightMode} />
       <Hero
-      LightMode={LightMode}
+        LightMode={LightMode}
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
@@ -46,6 +42,7 @@ export default function Index() {
       />
       <About modal={true} showGallery={false} LightMode={LightMode} />
       <AboutInstagram
+        LightMode={LightMode}
         socialPrint={true}
         instagram={true}
         facebook={true}

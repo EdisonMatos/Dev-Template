@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import content from "../../content/content";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
@@ -18,10 +18,15 @@ export default function AboutInstagram({
   x,
   linkedin,
   socialPrint,
+  LightMode,
 }) {
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingtop={false}>
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
+    <SectionArea
+      id="about"
+      className={LightMode ? "bg-bgSectionLight" : "bg-bgSectionDark"}
+      paddingtop={false}
+    >
+      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between">
         {socialPrint ? <SocialPrint /> : <DefaultInstagram />}
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
@@ -30,10 +35,10 @@ export default function AboutInstagram({
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
-              color="dark"
+              color={LightMode ? "light" : "dark"}
               type="article"
-              titleColorSet="text-white"
-              subtitleColorSet="text-white"
+              titleColorSet={LightMode ? "text-black" : "text-white"}
+              subtitleColorSet={LightMode ? "text-black" : "text-white"}
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial />
