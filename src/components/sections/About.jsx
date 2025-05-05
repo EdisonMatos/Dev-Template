@@ -10,10 +10,22 @@ import GalleryAbout from "../sectionElements/about/GalleryAbout";
 import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
 import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
 
-export default function About({ modal, showGallery }) {
+export default function About({ modal, showGallery, LightMode }) {
   return (
-    <SectionArea id="about" className="bg-bgSectionDark">
+    <SectionArea
+      id="about"
+      className={`${
+        LightMode ? "bg-white" : "bg-bgSectionDark"
+      } transition-colors duration-1000`}
+    >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
+        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-black/30">
+          <img
+            src={content.texts.about.imagem.img}
+            alt={content.texts.about.imagem.img}
+            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
+          />
+        </MotionDivDownToUp>
         {/* <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
             style={{
@@ -26,27 +38,23 @@ export default function About({ modal, showGallery }) {
             {showGallery && <GalleryAbout />}
           </div>
         </MotionDivDownToUp> */}
-        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-black/30">
-          <img
-            src={content.texts.about.imagem.img}
-            alt={content.texts.about.imagem.img}
-            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
-          />
-        </MotionDivDownToUp>
-
-        <div className="desktop1:w-[550px] desktop2:w-[570px] ">
+        <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <SectionHeader
             className="text-center"
             miniTitle={content.texts.about.miniTag}
             sectionHeaderTitle={content.texts.about.title}
             sectionHeaderSubtitle={content.texts.about.subtitle}
-            color="dark"
+            color={LightMode ? "light" : "dark"}
             type="article"
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+            titleColorSet={LightMode ? "text-black" : "text-white"}
+            subtitleColorSet={LightMode ? "text-black/80" : "text-white"}
           />
           <MotionDivDownToUp>
-            {modal ? <ParagraphWithFading /> : <ParagraphSemFading />}
+            {modal ? (
+              <ParagraphWithFading LightMode={LightMode} />
+            ) : (
+              <ParagraphSemFading LightMode={LightMode} />
+            )}
             {modal && <AboutModal />}
           </MotionDivDownToUp>
         </div>

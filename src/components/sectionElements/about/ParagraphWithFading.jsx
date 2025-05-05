@@ -7,10 +7,10 @@ import AboutFading from "../AboutFading";
 
 
 
-export default function ParagraphWithFading() {
+export default function ParagraphWithFading({LightMode}) {
   return (
     <Paragraphs className="text-white text-opacity-80">
-      <AboutFading />
+      <AboutFading LightMode={LightMode} />
     </Paragraphs>
   );
 }
