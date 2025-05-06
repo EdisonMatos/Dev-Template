@@ -14,7 +14,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 
 export default function Index() {
-  const [LightMode, setLightMode] = useState(true);
+  const [LightMode, setLightMode] = useState(false);
 
   const toggleLightMode = () => {
     setLightMode((prevMode) => !prevMode);
