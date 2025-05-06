@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.phoneSecundario}`;
 
-function PhoneSecundario({LightMode}) {
+function PhoneSecundario({ LightMode }) {
   return (
     <MotionDivDownToUp>
       <div className="flex full gap-x-[12px] items-center opacity-90">

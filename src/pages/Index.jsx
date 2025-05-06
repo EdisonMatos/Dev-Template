@@ -14,7 +14,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 
 export default function Index() {
-  const [LightMode, setLightMode] = useState(false);
+  const [LightMode, setLightMode] = useState(true);
 
   const toggleLightMode = () => {
     setLightMode((prevMode) => !prevMode);
@@ -54,7 +54,7 @@ export default function Index() {
       <Maps LightMode={LightMode} />
       <Faq />
       <FooterSocial
-        LightMode={LightMode} // Passando o LightMode também para FooterSocial
+        LightMode={LightMode}
         addres={false}
         phoneSecundario={false}
         phoneTerciario={false}
