@@ -95,7 +95,7 @@ export default function NavbarSocial({ LightMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer w-[45%] phone2:w-[50%] phone3:w-[45%] tablet1:w-[30%] tablet2:w-[25%] desktop1:w-[25%] desktop2:max-w-[400px]"
+            className="cursor-pointer w-[60%] phone2:w-[70%] phone3:w-[55%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[25%] desktop2:max-w-[250px]"
             spy={true}
             smooth={true}
             duration={500}
@@ -108,8 +108,8 @@ export default function NavbarSocial({ LightMode }) {
               className={`${
                 LightMode
                   ? scrolling
-                    ? "bg-transparent w-[80%] tablet1:w-[70%] tablet2:w-[80%] desktop1:w-[80%] px-3 py-3 desktop2:w-[90%] transition-all duration-1000"
-                    : " bg-transparent my-[0px] w-full transition-all duration-1000"
+                    ? "bg-transparent w-[90%] tablet1:w-[80%] tablet2:w-[80%] desktop1:w-[90%] px-3 py-3 desktop2:w-[90%] transition-all duration-1000"
+                    : " bg-transparent my-[20px] w-full transition-all duration-1000"
                   : scrolling
                   ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[80%] tablet2:w-[70%] desktop1:w-[80%] desktop2:w-[80%] transition-all duration-1000"
                   : "bg-transparent my-[20px] w-full transition-all duration-1000"
