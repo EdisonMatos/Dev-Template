@@ -32,7 +32,7 @@ export default function ListGroupSocial({ LightMode }) {
 
   return (
     <ul
-      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
+      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${
         LightMode
           ? scrolling
             ? "text-black"
