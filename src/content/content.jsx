@@ -378,6 +378,7 @@ const content = {
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
+      modalCtaButton: "Quer saber mais? Clique abaixo 👇",
       modal: (
         <p>
           Fundei meu escritório com a missão de garantir justiça e segurança
