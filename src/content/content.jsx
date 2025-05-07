@@ -92,20 +92,18 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira:</p>
-      <p>9h às 17h</p>
+      <p>A_Definirh</p>
     </div>
   ),
 
   obs: (
     <span className="italic">
       {" "}
-      <i>
-        A_Definir
-      </i>
+      <i>A_Definir</i>
     </span>
   ),
-  instagramProfile: "valeriacandal_advogada", // Sem o @
-  facebookProfile: "valeriacandalassessoriajuridica",
+  instagramProfile: "A_Definir", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -131,22 +129,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag:
-        "ESCRITÓRIO ESPECIALIZADO EM PROCESSO CIVIL EM PORTO ALEGRE - RS",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Superando barreiras jurídicas
-          <span className="text-primary"> com precisão</span>
+          A_Definir
+          <span className="text-primary">A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Resultados consistentes em casos complexos, com estratégia, precisão e confiança.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Agende sua consultoria",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -166,7 +162,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial em Porto Alegre e online para todo Brasil.",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -192,16 +188,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Amparo jurídico nos momentos mais delicados",
-      subtitle:
-        "Atuação firme e estratégica para resolver conflitos e proteger seus direitos",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Contratos e responsabilidade civil",
-        subtitle: "Elaboração e revisão de contratos e indenizações.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -236,8 +231,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de família",
-        subtitle: "Acordos, divórcios e guarda com foco na família.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -271,8 +266,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito do consumidor",
-        subtitle: "Defesa dos direitos do consumidor em conflitos.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -306,8 +301,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito da saúde",
-        subtitle: "Ações judiciais e orientações sobre saúde.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -357,10 +352,9 @@ const content = {
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Porto Alegre",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       embedsrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.244258510041!2d-51.2320767236618!3d-30.029849574930907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979997b658b7f%3A0x58d7cc9afe967d8!2sVal%C3%A9ria%20Candal%20-%20Advocacia%20e%20Assessoria%20Jur%C3%ADdica!5e0!3m2!1spt-BR!2sbr!4v1745415963229!5m2!1spt-BR!2sbr",
     },
@@ -369,46 +363,28 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É VALÉRIA CANDAL ASSESSORIA JURÍDICA",
-      title: "Minha trajetória",
-      subtitle:
-        "Experiência, ética e dedicação em soluções jurídicas personalizadas",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
-      paragraph: (
-        <div>
-          Fundei meu escritório com a missão de garantir justiça e segurança
-          jurídica aos meus clientes. Com mais de 17 anos de atuação na
-          Advocacia Cível, ofereço um atendimento estratégico, personalizado e
-          humanizado — presencial ou online.
-        </div>
-      ),
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      labelInstagram: "A_Definir no Instagram",
+      labelFacebook: "A_Definir no Facebook",
+      labelLinkedin: "A_Definir no LinkedIn",
+      labelX: "A_Definir no X",
+      paragraph: <div>A_Definir</div>,
       buttonModalLabelAbout: "Continuar lendo",
       modalCtaButton: "Quer saber mais? Clique abaixo 👇",
       modal: (
         <p>
-          Fundei meu escritório com a missão de garantir justiça e segurança
-          jurídica aos meus clientes. Com mais de 17 anos de atuação na
-          Advocacia Cível, ofereço um atendimento estratégico, personalizado e
-          humanizado — presencial ou online.
+          A_Definir
           <br />
           <br />
-          Sou advogada desde 2008, especializada em Direito Processual Civil. Me
-          formei em Direito pela PUCRS e concluí pós-graduação na mesma área,
-          atuando com foco na prevenção e solução de conflitos.
+          A_Definir
           <br />
           <br />
-          Fui membro da Comissão de Direito de Trânsito da OAB/RS no triênio
-          2019–2021. Desde então, atuo como Assessora Jurídica do Sindicato dos
-          Analistas Tributários da Receita Estadual do RS, prestando consultoria
-          na área cível há 17 anos.
+          A_Definir
           <br />
           <br />
-          Estou à disposição para oferecer uma assessoria jurídica confiável,
-          eficaz e acolhedora, garantindo que você se sinta seguro e bem
-          informado em todas as etapas do processo.
+          A_Definir
           <br />
           <br />
         </p>
@@ -422,61 +398,61 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
+        miniTag: "A_Definir",
+        title: "A_Definir",
         subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+          "A_Definir",
         paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        labelInstagram: "A_Definir no Instagram",
+        labelFacebook: "A_Definir no Facebook",
+        labelLinkedin: "A_Definir no LinkedIn",
+        labelX: "A_Definir no X",
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
+      miniTag: "A_Definir",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "A_Definir",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "A_Definir",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "A_Definir",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "A_Definir",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "A_Definir",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "A_Definir",
         },
       },
     },
     blog: {
-      miniTag: "BLOG",
+      miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "",
       img: imgSteps,
