@@ -26,11 +26,11 @@ export default function Index() {
       />
 
       <Features
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={true}
+        sixCards={false}
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} />
