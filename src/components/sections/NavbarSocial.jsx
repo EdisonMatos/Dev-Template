@@ -85,11 +85,11 @@ export default function NavbarSocial({ LightMode }) {
         className={`fixed z-20 w-full transition-colors duration-1000 ${
           LightMode
             ? scrolling
-              ? "bg-white shadow-md"
-              : "desktop1:bg-black/20"
+              ? "bg-bgSectionLight shadow-md"
+              : "desktop1:bg-darker/20"
             : scrolling
-            ? "bg-gradient-to-b from-black to-black bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
-            : "bg-gradient-to-b from-black to-transparent transition-colors duration-1000 border-b-[1px] border-none "
+            ? "bg-gradient-to-b from-darker to-darker bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
+            : "bg-gradient-to-b from-darker to-transparent transition-colors duration-1000 border-b-[1px] border-none "
         }`}
       >
         <Navbar>

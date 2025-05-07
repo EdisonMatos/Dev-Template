@@ -54,7 +54,7 @@ const MoreFeaturesModal = () => {
           </svg>
         }
         onClick={() => setVisible(true)}
-        className="text-secondary bg-black "
+        className="text-secondary bg-darker "
       />
 
       <Dialog

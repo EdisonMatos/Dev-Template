@@ -30,7 +30,7 @@ export default function Steps() {
         sectionHeaderSubtitle={content.texts.features.subtitle}
         color=""
       /> */}
-      {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
+      {/* <SectionShapeDiv shapeDivArrow shapeColor="text-lighter"/> */}
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
         <MotionDivDownToUp className="flex-col w-full desktop1:w-[415px] desktop2:w-[485px] flex justify-center items-center ">
           <SectionHeader

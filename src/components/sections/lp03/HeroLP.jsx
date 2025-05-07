@@ -14,7 +14,7 @@ export default function HeroLP() {
     >
       <SectionArea
         paddingTopAndBottom={false}
-        className="bg-black bg-opacity-70"
+        className="bg-darker bg-opacity-70"
       >
         <SectionWrapper className="">
           <div className="flex w-full ">
@@ -29,7 +29,7 @@ export default function HeroLP() {
                 </MotionDivDownToUp>
                 {/* <MotionDivDownToUp>
                     <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont phone1:text-paragraph4">
-                      <p className="mb-[16px] bg-white bg-opacity-20 text-white rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                      <p className="mb-[16px] bg-bgSectionLight bg-opacity-20 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                         {content.texts.hero.miniTag}
                       </p>
                     </div>

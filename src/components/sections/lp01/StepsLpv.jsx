@@ -21,7 +21,7 @@ export default function StepsLpv() {
             sectionHeaderSubtitle={contentLp01.steps.subtitle}
             color=""
             type=""
-            titleColorSet="text-black"
+            titleColorSet="text-darker"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -30,7 +30,7 @@ export default function StepsLpv() {
             sectionHeaderSubtitle={contentLp01.steps.subtitle}
             color=""
             type=""
-            titleColorSet="text-black"
+            titleColorSet="text-darker"
           />
 
           <div className="flex flex-col desktop1:flex-row items-center  w-full justify-center gap-[32px] mt-[28px] desktop1:mt-0 ">

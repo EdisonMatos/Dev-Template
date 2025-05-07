@@ -17,7 +17,7 @@ export default function CtaParalaxeCenter() {
       id="contact"
     >
       <div className="flex justify-center w-full bg-opacity-10 bg-primary">
-        <div className="flex justify-center w-full bg-black bg-opacity-30">
+        <div className="flex justify-center w-full bg-darker bg-opacity-30">
           <SectionContent>
             <div className="flex justify-center w-full  font-mainFont py-[40px] tablet1:py-[64px] desktop1:py-[96px]">
               <div className="w-full max-w-[1110px] flex flex-row items-end justify-between">

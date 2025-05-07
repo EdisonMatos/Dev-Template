@@ -11,7 +11,7 @@ export default function FeatureCardLP({ icon, title, description, className }) {
       <h1 className="h-auto leading-[28px] font-bold font-mainFont text-title3 text-center mb-[16px] text-secondary">
         {title}
       </h1>
-      <p className="text-center text-black opacity-70 font-mainFont w-[90%]">
+      <p className="text-center text-darker opacity-70 font-mainFont w-[90%]">
         {description}
       </p>
     </MotionDivDownToUp>

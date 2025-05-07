@@ -42,8 +42,8 @@ export default function About({ modal, showGallery }) {
             sectionHeaderSubtitle={content.texts.about.subtitle}
             color="dark"
             type="article"
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+            titleColorSet="text-lighter"
+            subtitleColorSet="text-lighter"
           />
           <MotionDivDownToUp>
             {modal ? <ParagraphWithFading /> : <ParagraphSemFading />}

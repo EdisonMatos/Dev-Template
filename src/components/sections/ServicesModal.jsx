@@ -51,7 +51,7 @@ const ServicesModal = () => {
           </svg>
         }
         onClick={() => setVisible(true)}
-        className="bg-black text-secondary "
+        className="bg-darker text-secondary "
       />
 
       <Dialog

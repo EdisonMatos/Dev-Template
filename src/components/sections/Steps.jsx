@@ -33,7 +33,7 @@ export default function Steps() {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color="dark"
             type="article"
-            titleColorSet="text-white"
+            titleColorSet="text-lighter"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -42,7 +42,7 @@ export default function Steps() {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color=""
             type=""
-            titleColorSet="text-white"
+            titleColorSet="text-lighter"
           />
 
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">

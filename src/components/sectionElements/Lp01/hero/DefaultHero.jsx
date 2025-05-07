@@ -16,7 +16,7 @@ function DefaultHero() {
       >
         <SectionArea
           paddingTopAndBottom={false}
-          className="bg-black bg-opacity-70"
+          className="bg-darker bg-opacity-70"
         >
           <SectionWrapper className="">
             <div className="flex w-full ">

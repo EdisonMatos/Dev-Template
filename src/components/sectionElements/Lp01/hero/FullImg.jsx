@@ -20,7 +20,7 @@ function FullImg() {
           <img
             src={contentLp01.hero.logo.logoImg}
             alt={contentLp01.hero.logo.alt}
-            className="ml-[5%] max-w-[40%] mt-[15%] bg-white p-[10px] rounded-lg"
+            className="ml-[5%] max-w-[40%] mt-[15%] bg-bgSectionLight p-[10px] rounded-lg"
           />
         </MotionDivDownToUp>
         <SectionArea paddingTopAndBottom={false}>
@@ -71,7 +71,7 @@ function FullImg() {
                         <div className="flex justify-center mt-12 desktop1:justify-start">
                           <div className="flex flex-col items-center desktop1:flex-row text-primary">
                             {contentLp01.hero.textArea.obsHero.icon}
-                            <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                            <p className="text-lighter  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                               {contentLp01.hero.textArea.obsHero.text}{" "}
                             </p>
                           </div>
@@ -95,7 +95,7 @@ function FullImg() {
       >
         <SectionArea
           paddingTopAndBottom={false}
-          className="h-full bg-black bg-opacity-60"
+          className="h-full bg-darker bg-opacity-60"
         >
           <SectionWrapper className="">
             <div className="flex w-full">
@@ -105,7 +105,7 @@ function FullImg() {
                     <img
                       src={contentLp01.hero.logo.logoImg}
                       alt={contentLp01.hero.logo.alt}
-                      className=" max-w-[180px] phone3:max-w-[270px] tablet1:w-[280px] desktop1:mb-[60px] bg-white p-[10px] rounded-lg"
+                      className=" max-w-[180px] phone3:max-w-[270px] tablet1:w-[280px] desktop1:mb-[60px] bg-bgSectionLight p-[10px] rounded-lg"
                     />
                   </MotionDivDownToUp>
                   <div className="mt-[30%] phone3:mt-[35%] tablet1:mt-[30px] desktop1:mt-0">
@@ -131,7 +131,7 @@ function FullImg() {
                             label={contentLp01.hero.textArea.buttonLabel}
                             onClick={() => navigate("/whatsapp")}
                             animation
-                            className="w-[100%] text-black"
+                            className="w-[100%] text-darker"
                             icon={
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@ function FullImg() {
                         <div className="flex justify-center mt-12 desktop1:justify-start">
                           <div className="flex flex-col items-center desktop1:flex-row text-primary">
                             {contentLp01.hero.textArea.obsHero.icon}
-                            <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                            <p className="text-lighter  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                               {contentLp01.hero.textArea.obsHero.text}{" "}
                             </p>
                           </div>

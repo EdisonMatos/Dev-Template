@@ -35,11 +35,11 @@ export default function ListGroupSocial({ LightMode }) {
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-full font-normal text-paragraph3 font-secondFont ${
         LightMode
           ? scrolling
-            ? "text-black"
-            : "text-black"
+            ? "text-darker"
+            : "text-darker"
           : scrolling
           ? "text-lighter"
-          : "text-white transition-color duration-1000"
+          : "text-lighter transition-color duration-1000"
       }`}
     >
       <li className="transition group h-[24px] ">
@@ -57,8 +57,8 @@ export default function ListGroupSocial({ LightMode }) {
               ${
                 LightMode
                   ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-white"
+                    ? "hover:text-darker"
+                    : "hover:text-lighter"
                   : scrolling
                   ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
@@ -70,8 +70,8 @@ export default function ListGroupSocial({ LightMode }) {
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               LightMode
                 ? scrolling
-                  ? "bg-black"
-                  : "bg-white"
+                  ? "bg-darker"
+                  : "bg-bgSectionLight"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -95,8 +95,8 @@ export default function ListGroupSocial({ LightMode }) {
               ${
                 LightMode
                   ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-white"
+                    ? "hover:text-darker"
+                    : "hover:text-lighter"
                   : scrolling
                   ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
@@ -108,8 +108,8 @@ export default function ListGroupSocial({ LightMode }) {
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               LightMode
                 ? scrolling
-                  ? "bg-black"
-                  : "bg-white"
+                  ? "bg-darker"
+                  : "bg-bgSectionLight"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -132,8 +132,8 @@ export default function ListGroupSocial({ LightMode }) {
               ${
                 LightMode
                   ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-white"
+                    ? "hover:text-darker"
+                    : "hover:text-lighter"
                   : scrolling
                   ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
@@ -145,8 +145,8 @@ export default function ListGroupSocial({ LightMode }) {
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               LightMode
                 ? scrolling
-                  ? "bg-black"
-                  : "bg-white"
+                  ? "bg-darker"
+                  : "bg-bgSectionLight"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -169,8 +169,8 @@ export default function ListGroupSocial({ LightMode }) {
               ${
                 LightMode
                   ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-white"
+                    ? "hover:text-darker"
+                    : "hover:text-lighter"
                   : scrolling
                   ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
                   : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
@@ -182,8 +182,8 @@ export default function ListGroupSocial({ LightMode }) {
             className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
               LightMode
                 ? scrolling
-                  ? "bg-black"
-                  : "bg-white"
+                  ? "bg-darker"
+                  : "bg-bgSectionLight"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"

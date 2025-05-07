@@ -5,11 +5,9 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import AboutFading from "../AboutFading";
 
-
-
 export default function ParagraphWithFading() {
   return (
-    <Paragraphs className="text-white text-opacity-80">
+    <Paragraphs className="text-lighter text-opacity-80">
       <AboutFading />
     </Paragraphs>
   );

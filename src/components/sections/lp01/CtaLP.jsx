@@ -6,11 +6,9 @@ import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
 import { useNavigate } from "react-router-dom";
 
-
-
 export default function AboutParalaxeLP() {
-    const navigate = useNavigate();
-  
+  const navigate = useNavigate();
+
   return (
     <div
       className="bg-scroll bg-center bg-cover desktop1:bg-fixed"
@@ -20,8 +18,8 @@ export default function AboutParalaxeLP() {
       }}
       id="contact"
     >
-      <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
-        <div className="flex justify-center w-full bg-black bg-opacity-80">
+      <div className="flex justify-center w-full text-lighter bg-opacity-10 bg-primary">
+        <div className="flex justify-center w-full bg-darker bg-opacity-80">
           <SectionArea className="">
             <SectionWrapper>
               <SectionHeader
@@ -30,8 +28,8 @@ export default function AboutParalaxeLP() {
                 sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
                 sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
                 color=""
-                titleColorSet="text-white"
-                subtitleColorSet="text-white"
+                titleColorSet="text-lighter"
+                subtitleColorSet="text-lighter"
               />
               <MotionDivDownToUp>
                 <Button

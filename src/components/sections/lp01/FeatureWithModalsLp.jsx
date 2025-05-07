@@ -40,7 +40,7 @@ export default function FeatureWithModalsLp({ modals }) {
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
             <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-white rounded-xl">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-bgSectionLight rounded-xl">
                 <IconButtonFeatureCard
                   icon={contentLp01.features.cards.card1.icon}
                   title={contentLp01.features.cards.card1.title}
@@ -90,7 +90,7 @@ export default function FeatureWithModalsLp({ modals }) {
                   }
                 />
               </MotionDivDownToUp>
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-white rounded-xl">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-bgSectionLight rounded-xl">
                 <IconButtonFeatureCard
                   icon={contentLp01.features.cards.card2.icon}
                   title={contentLp01.features.cards.card2.title}
@@ -98,7 +98,7 @@ export default function FeatureWithModalsLp({ modals }) {
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-white rounded-xl">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-bgSectionLight rounded-xl">
                 <IconButtonFeatureCard
                   icon={contentLp01.features.cards.card3.icon}
                   title={contentLp01.features.cards.card3.title}
@@ -106,7 +106,7 @@ export default function FeatureWithModalsLp({ modals }) {
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-white rounded-xl">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] bg-bgSectionLight rounded-xl">
                 <IconButtonFeatureCard
                   icon={contentLp01.features.cards.card4.icon}
                   title={contentLp01.features.cards.card4.title}
