@@ -205,6 +205,7 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "A_Definir",
         imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
@@ -241,6 +242,7 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "A_Definir",
         imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
@@ -275,6 +277,7 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "A_Definir",
         imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
@@ -311,6 +314,27 @@ const content = {
             <br />
           </div>
         ),
+        labelButton: "A_Definir",
+        servicesButton: "Ver todas",
+        servicesIconButton: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-circle-plus"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M8 12h8" />
+            <path d="M12 8v8" />
+          </svg>
+        ),
+
         imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
@@ -400,8 +424,7 @@ const content = {
         },
         miniTag: "A_Definir",
         title: "A_Definir",
-        subtitle:
-          "A_Definir",
+        subtitle: "A_Definir",
         paragraph: <p></p>,
         labelInstagram: "A_Definir no Instagram",
         labelFacebook: "A_Definir no Facebook",
@@ -412,10 +435,8 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "A_Definir",
-      title:
-        "A_Definir",
-      subtitle:
-        "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
@@ -428,26 +449,22 @@ const content = {
         card1: {
           stepNumber: 1,
           cardTitle: "A_Definir",
-          cardDescription:
-            "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "A_Definir",
-          cardDescription:
-            "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "A_Definir",
-          cardDescription:
-            "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "A_Definir",
-          cardDescription:
-            "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
