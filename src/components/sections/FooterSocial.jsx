@@ -56,12 +56,7 @@ export default function FooterSocial({
               {addres && <AdressFooter />}
               {addresSecundario && <AdressSecundarioFooter />}
               <ExpedienteFooter />
-              <p className="">
-                <i>
-                  Atendimento 24h para urgências: Via WhatsApp (fora do horário
-                  comercial e finais de semana)
-                </i>
-              </p>
+
               {obs && <ObsFooter />}
             </div>{" "}
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">

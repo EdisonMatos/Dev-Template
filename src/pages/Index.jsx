@@ -47,6 +47,7 @@ export default function Index() {
       {/* <BlogPosts /> */}
       <Faq />
       <FooterSocial
+        obs={true}
         LightMode={false}
         addres={false}
         phoneSecundario={false}
