@@ -36,7 +36,7 @@ export default function ListGroupSocial({ LightMode }) {
         LightMode
           ? scrolling
             ? "text-darker"
-            : "text-darker"
+            : "text-lighter"
           : scrolling
           ? "text-lighter"
           : "text-lighter transition-color duration-1000"
