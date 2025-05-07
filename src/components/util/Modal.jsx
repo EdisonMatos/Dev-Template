@@ -30,7 +30,7 @@ export default function Modal({ isOpen, setCloseModal }) {
             </div>
           </div>
 
-          <div className="p-4 m-2 text-left text-darker">
+          <div className="p-4 m-2 text-left text-colorBlack">
             <WhatsappForm />
           </div>
         </button>

@@ -41,7 +41,7 @@ export default function AboutModal() {
   return (
     <div>
       <Button
-        className="mt-[48px] text-darker"
+        className="mt-[48px] text-colorBlack"
         label={content.texts.about.buttonModalLabelAbout}
         onClick={onClick}
         removeAnchor={true}

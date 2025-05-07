@@ -18,7 +18,7 @@ export default function ImgCodeDescCard(props) {
       <p className="font-medium text-left font-mainFont text-paragraph3 text-quaternary">
         Código: {code}
       </p>
-      <h3 className="font-medium text-left text-darker font-mainFont text-paragraph3">
+      <h3 className="font-medium text-left text-colorBlack font-mainFont text-paragraph3">
         Descrição
       </h3>
       <p className="text-left font-mainFont text-paragraph3 text-quaternary">

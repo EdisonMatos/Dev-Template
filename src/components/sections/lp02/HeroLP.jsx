@@ -14,7 +14,7 @@ export default function HeroLP() {
     >
       <SectionArea
         paddingTopAndBottom={false}
-        className="bg-darker bg-opacity-70"
+        className="bg-colorBlack bg-opacity-70"
       >
         <SectionWrapper className="">
           <div className="flex w-full ">
@@ -29,18 +29,18 @@ export default function HeroLP() {
                 </MotionDivDownToUp>
                 {/* <MotionDivDownToUp>
                     <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont phone1:text-paragraph4">
-                      <p className="mb-[16px] bg-bgSectionLight bg-opacity-20 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                      <p className="mb-[16px] bg-bgSectionLight bg-opacity-20 text-colorWhite rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                         {content.texts.hero.miniTag}
                       </p>
                     </div>
                   </MotionDivDownToUp> */}
                 <MotionDivDownToUp>
-                  <div className="flex text-lighter justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                  <div className="flex text-colorWhite justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                     {contentLp02.hero.textArea.title}
                   </div>
                 </MotionDivDownToUp>
                 <MotionDivDownToUp>
-                  <div className="flex justify-center text-center text-lighter desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                  <div className="flex justify-center text-center text-colorWhite desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                     <p className="mb-[40px] opacity-100 [text-shadow:_2px_2px_1px_rgb(0_0_0_/_100%)]">
                       {contentLp02.hero.textArea.subtitle}
                     </p>

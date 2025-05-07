@@ -30,7 +30,7 @@ export default function Maps() {
         sectionHeaderSubtitle={content.texts.features.subtitle}
         color=""
       /> */}
-      {/* <SectionShapeDiv shapeDivArrow shapeColor="text-lighter"/> */}
+      {/* <SectionShapeDiv shapeDivArrow shapeColor="text-colorWhite"/> */}
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
         <MotionDivDownToUp className="flex flex-col justify-center w-full">
           <SectionHeader
@@ -40,8 +40,8 @@ export default function Maps() {
             sectionHeaderSubtitle={content.texts.maps.subtitle}
             color="dark"
             type=""
-            titleColorSet="text-lighter"
-            subtitleColorSet="text-lighter"
+            titleColorSet="text-colorWhite"
+            subtitleColorSet="text-colorWhite"
           />
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-darker/25 desktop1:bg-center tablet1:w-full rounded-xl">
             {/* <p className="font-bold mt-[32px] mb-[16px]">

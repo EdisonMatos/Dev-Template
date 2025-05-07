@@ -36,10 +36,10 @@ export default function ListGroupSocial({ LightMode }) {
         LightMode
           ? scrolling
             ? "text-darker"
-            : "text-lighter"
+            : "text-colorWhite"
           : scrolling
-          ? "text-lighter"
-          : "text-lighter transition-color duration-1000"
+          ? "text-colorWhite"
+          : "text-colorWhite transition-color duration-1000"
       }`}
     >
       <li className="transition group h-[24px] ">
@@ -58,10 +58,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-darker"
-                    : "hover:text-lighter"
+                    : "hover:text-colorWhite"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-colorWhite [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-colorWhite [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[0]}
@@ -96,10 +96,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-darker"
-                    : "hover:text-lighter"
+                    : "hover:text-colorWhite"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-colorWhite [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-colorWhite [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[1]}
@@ -133,10 +133,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-darker"
-                    : "hover:text-lighter"
+                    : "hover:text-colorWhite"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-colorWhite [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-colorWhite [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[2]}
@@ -170,10 +170,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-darker"
-                    : "hover:text-lighter"
+                    : "hover:text-colorWhite"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-colorWhite [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-colorWhite [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[3]}

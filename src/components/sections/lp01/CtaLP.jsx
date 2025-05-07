@@ -18,8 +18,8 @@ export default function AboutParalaxeLP() {
       }}
       id="contact"
     >
-      <div className="flex justify-center w-full text-lighter bg-opacity-10 bg-primary">
-        <div className="flex justify-center w-full bg-darker bg-opacity-80">
+      <div className="flex justify-center w-full text-colorWhite bg-opacity-10 bg-primary">
+        <div className="flex justify-center w-full bg-colorBlack bg-opacity-80">
           <SectionArea className="">
             <SectionWrapper>
               <SectionHeader
@@ -28,8 +28,8 @@ export default function AboutParalaxeLP() {
                 sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
                 sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
                 color=""
-                titleColorSet="text-lighter"
-                subtitleColorSet="text-lighter"
+                titleColorSet="text-colorWhite"
+                subtitleColorSet="text-colorWhite"
               />
               <MotionDivDownToUp>
                 <Button

@@ -3,7 +3,7 @@ import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 
 export default function ContactBarSection() {
   return (
-    <div className="bg-darker w-full py-[16px] tablet1:py-[26px] flex justify-center">
+    <div className="bg-colorBlack w-full py-[16px] tablet1:py-[26px] flex justify-center">
       <div className="w-[90%] max-w-[1215px] flex justify-between text-paragraph1 tablet1:text-paragraph3 font-secondFont">
         <MotionDivLeftToRight>
           <div className=" flex flex-col tablet1:flex-row text-secondary gap-[20px] tablet1:gap-[40px]">

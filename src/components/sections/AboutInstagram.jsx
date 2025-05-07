@@ -32,8 +32,8 @@ export default function AboutInstagram({
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
               color="dark"
               type="article"
-              titleColorSet="text-lighter"
-              subtitleColorSet="text-lighter"
+              titleColorSet="text-colorWhite"
+              subtitleColorSet="text-colorWhite"
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial />

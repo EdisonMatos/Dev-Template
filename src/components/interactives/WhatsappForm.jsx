@@ -160,7 +160,7 @@ const WhatsappForm = () => {
   return (
     <div className=" bg-[#0E2B40] p-6 rounded-[10px] w-full desktop1:w-full h-auto">
       <div className="w-full text-paragraph3 phone3:text-paragraph4 ">
-        {/* <h1 className="w-full mb-2 font-medium text-lighter">Fale conosco</h1> */}
+        {/* <h1 className="w-full mb-2 font-medium text-colorWhite">Fale conosco</h1> */}
         {/* Nome */}
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">

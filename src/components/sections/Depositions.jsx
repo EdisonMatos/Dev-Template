@@ -14,8 +14,8 @@ export default function Depositions() {
           miniTitle={content.texts.testimonials.miniTag}
           sectionHeaderTitle={content.texts.testimonials.title}
           sectionHeaderSubtitle={content.texts.testimonials.subtitle}
-          titleColor="text-lighter"
-          subtitleColor="text-lighter opacity-70"
+          titleColor="text-colorWhite"
+          subtitleColor="text-colorWhite opacity-70"
         />
 
         <SectionWrapper className="flex justify-center">

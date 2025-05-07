@@ -41,7 +41,7 @@ export default function CarouselDivsV1({ children }) {
         numVisible={1}
         numScroll={1}
         responsiveOptions={responsiveOptions}
-        className="text-lighter"
+        className="text-colorWhite"
         circular
         autoplayInterval={8000}
         itemTemplate={itemTemplate}

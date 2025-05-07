@@ -7,7 +7,7 @@ import AboutFading from "../AboutFading";
 
 export default function ParagraphWithFading() {
   return (
-    <Paragraphs className="text-lighter text-opacity-80">
+    <Paragraphs className="text-colorWhite text-opacity-80">
       <AboutFading />
     </Paragraphs>
   );

@@ -48,7 +48,7 @@ export default function SidebarSocial({ LightMode }) {
       <div
         className={`${
           visible ? "block" : "hidden"
-        } fixed inset-0 bg-darker opacity-50 lg:hidden`}
+        } fixed inset-0 bg-colorBlack opacity-50 lg:hidden`}
         onClick={toggleSidebar}
       />
 
@@ -59,7 +59,7 @@ export default function SidebarSocial({ LightMode }) {
           className={`p-button-rounded p-button-outlined lg:hidden ${
             LightMode
               ? scrolled
-                ? "text-darker"
+                ? "text-colorBlack"
                 : "text-primary"
               : "text-primary"
           } w-[40px] h-[40px]`}
@@ -101,8 +101,8 @@ export default function SidebarSocial({ LightMode }) {
                       outlined
                       className={`${
                         LightMode
-                          ? "text-darker"
-                          : "h-2rem w-2rem p-[5px] text-lighter"
+                          ? "text-colorBlack"
+                          : "h-2rem w-2rem p-[5px] text-colorWhite"
                       }`}
                     ></Button>
                   </span>
@@ -115,8 +115,8 @@ export default function SidebarSocial({ LightMode }) {
                         <ul
                           className={`${
                             LightMode
-                              ? "text-darker"
-                              : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-lighter"
+                              ? "text-colorBlack"
+                              : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-colorWhite"
                           } list-none text-paragraph3 font-mainFont`}
                         >
                           <li>
