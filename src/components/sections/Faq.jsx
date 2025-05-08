@@ -12,7 +12,7 @@ export default function Faq({ colorMode }) {
   const navigate = useNavigate();
   // Classes de tema
   const bgClasses = {
-    dark: "bg-black",
+    dark: "bg-[#252525]",
     light: "bg-[#ABABAB]",
     default: "bg-red-900",
   };
@@ -34,7 +34,6 @@ export default function Faq({ colorMode }) {
           sectionHeaderSubtitle={content.texts.faq.subtitle}
           color=""
           colorMode={colorMode}
-          
         />
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">
@@ -43,19 +42,17 @@ export default function Faq({ colorMode }) {
             </div>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs className="text-center underline transition text-secondary hover:scale-110">
-              {/* <a href="/whatsapp" target="_blank" rel="noopener noreferrer"> */}
-              {/* <a href={content.texts.links.ctaWhatsapp} target="_blank">
-                {" "}
-                
-              </a> */}
-              <Button
-                color="bg-transparent"
-                label={content.texts.faq.paragraph}
-              >
-                {" "}
-              </Button>
-            </Paragraphs>
+          <Paragraphs
+  className={`text-center transition hover:scale-110`}
+  colorMode={colorMode}
+>
+  <Button
+    color="bg-transparent"
+    label={content.texts.faq.paragraph}
+    className="text-inherit"
+  />
+</Paragraphs>
+
           </MotionDivDownToUp>
         </SectionWrapper>
       </SectionArea>

@@ -25,7 +25,7 @@ export default function FeaturesButton({ colorMode }) {
 
   // Definir classes de cor para SectionArea
   const bgClasses = {
-    dark: "bg-black",
+    dark: "bg-[#252525]",
     light: "bg-[#ABABAB]",
     default: "bg-red-900",
   };
