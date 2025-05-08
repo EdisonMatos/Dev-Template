@@ -14,25 +14,54 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 
 export default function Index() {
-  const [LightMode, setLightMode] = useState(true);
+  const [colorMode, setColorMode] = useState();
 
-  const toggleLightMode = () => {
-    setLightMode((prevMode) => !prevMode);
+  const toggleColorMode = () => {
+    setColorMode((prevMode) => {
+      if (prevMode === "default") return "light"; 
+      if (prevMode === "light") return "dark";
+      return "default";
+    });
   };
 
-  const lightModeToggle = toggleLightMode;
+  const setToDefault = () => setColorMode("default");
+  const setToLight = () => setColorMode("light");
+  const setToDark = () => setColorMode("dark");
 
   return (
     <>
-      <Navbar LightMode={LightMode} />
+      {/* Botões para trocar o modo de cor */}
+      <div className="fixed top-4 right-4 z-50 flex gap-2">
+        <button
+          onClick={setToDefault}
+          className="px-2 py-1 bg-gray-400 text-white rounded"
+        >
+          Default
+        </button>
+        <button
+          onClick={setToLight}
+          className="px-2 py-1 bg-white text-black border rounded"
+        >
+          Light
+        </button>
+        <button
+          onClick={setToDark}
+          className="px-2 py-1 bg-black text-white rounded"
+        >
+          Dark
+        </button>
+      </div>
+
+      <Navbar colorMode={colorMode} />
       <Hero
-        LightMode={LightMode}
+        colorMode={colorMode}
         appDownloadButtons={false}
         defaultHero={true}
         influencer={false}
         mesclado={false}
       />
       <Features
+        colorMode={colorMode}
         defaultFeature={true}
         button={false}
         modalWithCards={false}
@@ -40,9 +69,9 @@ export default function Index() {
         sixCards={false}
         paragraphsModal={false}
       />
-      <About modal={true} showGallery={false} LightMode={LightMode} />
+      <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram
-        LightMode={LightMode}
+        colorMode={colorMode}
         socialPrint={true}
         instagram={true}
         facebook={true}
@@ -50,11 +79,11 @@ export default function Index() {
         x={false}
       />
       <Cta />
-      <Steps LightMode={LightMode} />
-      <Maps LightMode={LightMode} />
+      <Steps colorMode={colorMode} />
+      <Maps colorMode={colorMode} />
       <Faq />
       <FooterSocial
-        LightMode={LightMode}
+        colorMode={colorMode}
         addres={false}
         phoneSecundario={false}
         phoneTerciario={false}

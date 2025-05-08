@@ -5,198 +5,68 @@ import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
 import { useNavigate } from "react-router-dom";
 
-export default function ListGroupSocial({ LightMode }) {
+export default function ListGroupSocial({ colorMode = "default" }) {
   const navigate = useNavigate();
-
   const [scrolling, setScrolling] = useState(false);
-  const [showSubMenu, setShowSubMenu] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setScrolling(true);
-    } else {
-      setScrolling(false);
-    }
+    setScrolling(window.scrollY > 0);
   };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const toggleSubMenu = (show) => {
-    setShowSubMenu(show);
+  // Define cores baseadas no modo atual
+  const getTextColor = () => {
+    if (colorMode === "light") return "text-black";
+    if (colorMode === "dark") return "text-white";
+    return "text-white"; // default
   };
 
-  return (
-    <ul
-      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${
-        LightMode
-          ? scrolling
-            ? "text-black"
-            : "text-black"
-          : scrolling
-          ? "text-lighter"
-          : "text-white transition-color duration-1000"
-      }`}
-    >
-      <li className="transition group h-[24px] ">
-        <Link
-          to="home"
-          className="relative font-semibold cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-100}
-          href="#"
-        >
-          <span
-            className={`h-[24px] inline-block
-              ${
-                LightMode
-                  ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-black"
-                  : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-              } `}
-          >
-            {content.texts.navbar.menuItems[0]}
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              LightMode
-                ? scrolling
-                  ? "bg-black"
-                  : "bg-black"
-                : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
-            }`}
-          ></div>
-        </Link>
-      </li>
+  const getHoverTextColor = () => {
+    if (colorMode === "light") return "hover:text-black";
+    if (colorMode === "dark") return "hover:text-white";
+    return "hover:text-white";
+  };
 
-      <li className="transition group h-[24px]">
-        <Link
-          to="service"
-          className="relative font-semibold cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-30}
-          href="#"
-        >
-          <span
-            className={`h-[24px] inline-block
-              ${
-                LightMode
-                  ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-black"
-                  : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-              } `}
+  const getBorderColor = () => {
+    if (colorMode === "light") return "bg-black";
+    if (colorMode === "dark") return "bg-white";
+    return "bg-white";
+  };
+
+  const textShadow = colorMode === "dark" || colorMode === "default"
+    ? "[text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+    : "";
+
+  return (
+    <ul className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${getTextColor()}`}>
+      {["home", "service", "about", "faq"].map((section, index) => (
+        <li key={section} className="transition group h-[24px]">
+          <Link
+            to={section}
+            className="relative font-semibold cursor-pointer"
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-50}
           >
-            {content.texts.navbar.menuItems[1]}
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              LightMode
-                ? scrolling
-                  ? "bg-black"
-                  : "bg-black"
-                : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
-            }`}
-          ></div>
-        </Link>
-      </li>
-      <li className="transition group h-[24px]">
-        <Link
-          to="about"
-          className="relative font-semibold cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-50}
-          href="#"
-        >
-          <span
-            className={`h-[24px] inline-block
-              ${
-                LightMode
-                  ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-black"
-                  : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-              } `}
-          >
-            {content.texts.navbar.menuItems[2]}
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              LightMode
-                ? scrolling
-                  ? "bg-black"
-                  : "bg-black"
-                : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
-            }`}
-          ></div>
-        </Link>
-      </li>
-      <li className="transition group h-[24px]">
-        <Link
-          to="faq"
-          className="relative font-semibold cursor-pointer"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-50}
-          href="#"
-        >
-          <span
-            className={`h-[24px] inline-block
-              ${
-                LightMode
-                  ? scrolling
-                    ? "hover:text-black"
-                    : "hover:text-black"
-                  : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-              } `}
-          >
-            {content.texts.navbar.menuItems[3]}
-          </span>
-          <div
-            className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
-              LightMode
-                ? scrolling
-                  ? "bg-black"
-                  : "bg-black"
-                : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
-            }`}
-          ></div>
-        </Link>
-      </li>
+            <span className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}>
+              {content.texts.navbar.menuItems[index]}
+            </span>
+            <div className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`} />
+          </Link>
+        </li>
+      ))}
+
       <li>
         <div className="flex gap-[10px] items-center">
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Contato"
-            className={`${scrolling ? "" : ""}`}
+            className=""
             textclassName="text-paragraph3"
             size="small"
             icon={

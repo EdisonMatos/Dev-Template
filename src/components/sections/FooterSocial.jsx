@@ -23,7 +23,7 @@ import EmailSecundarioFooter from "../sectionElements/footer/EmailSecundarioFoot
 import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 
 export default function FooterSocial({
-  LightMode,
+  colorMode,
   addres,
   obs,
   instagram,
@@ -38,7 +38,7 @@ export default function FooterSocial({
   return (
     <footer
       className={
-        LightMode
+        colorMode
           ? "black"
           : "bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
       }
@@ -48,7 +48,7 @@ export default function FooterSocial({
           <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
               <LogoFooter />
-              <PhoneFooter LightMode={LightMode} />
+              <PhoneFooter colorMode={colorMode} />
               {phoneSecundario && <PhoneSecundario />}
               {phoneTerciario && <PhoneTerciario />}
               <EmailFooter />

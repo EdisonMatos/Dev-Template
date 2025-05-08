@@ -16,14 +16,14 @@ import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import WhatsappForm from "../interactives/WhatsappForm";
 
-export default function Maps({ LightMode = false }) {
+export default function Maps({ colorMode = false }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
-  const sectionBg = LightMode ? "bg-bgSectionLight" : "bg-bgSectionDark";
-  const titleColor = LightMode ? "text-dark" : "text-white";
-  const subtitleColor = LightMode ? "text-dark" : "text-white";
+  const sectionBg = colorMode ? "bg-bgSectionLight" : "bg-bgSectionDark";
+  const titleColor = colorMode ? "text-dark" : "text-white";
+  const subtitleColor = colorMode ? "text-dark" : "text-white";
 
   return (
     <SectionArea className={`${sectionBg}`} paddingtop={false}>

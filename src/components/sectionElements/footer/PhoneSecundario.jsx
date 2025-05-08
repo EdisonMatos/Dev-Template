@@ -5,11 +5,11 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.phoneSecundario}`;
 
-function PhoneSecundario({ LightMode }) {
+function PhoneSecundario({ colorMode }) {
   return (
     <MotionDivDownToUp>
       <div className="flex full gap-x-[12px] items-center opacity-90">
-        <FaWhatsapp size={24} color={LightMode ? "black" : "white"} />
+        <FaWhatsapp size={24} color={colorMode ? "black" : "white"} />
 
         <a
           href={whatsappContactLink}

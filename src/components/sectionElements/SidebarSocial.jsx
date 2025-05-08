@@ -14,7 +14,7 @@ import { Link } from "react-scroll";
 import content from "../../content/content";
 import ButtonWithIconNavbar from "../interactives/ButtonWithIconNavbar";
 
-export default function SidebarSocial({ LightMode }) {
+export default function SidebarSocial({ colorMode }) {
   const [visible, setVisible] = useState(false);
   const [submenuVisible, setSubmenuVisible] = useState(true);
   const [reportsSubmenuVisible, setReportsSubmenuVisible] = useState(false);
@@ -57,7 +57,7 @@ export default function SidebarSocial({ LightMode }) {
 
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            LightMode
+            colorMode
               ? scrolled
                 ? "text-black"
                 : "text-primary"
@@ -76,7 +76,7 @@ export default function SidebarSocial({ LightMode }) {
             <div
               id="app-sidebar-2"
               className={`${
-                LightMode
+                colorMode
                   ? "bg-white"
                   : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
@@ -100,7 +100,7 @@ export default function SidebarSocial({ LightMode }) {
                       rounded
                       outlined
                       className={`${
-                        LightMode
+                        colorMode
                           ? "text-black"
                           : "h-2rem w-2rem p-[5px] text-white"
                       }`}
@@ -114,7 +114,7 @@ export default function SidebarSocial({ LightMode }) {
                       {submenuVisible && (
                         <ul
                           className={`${
-                            LightMode
+                            colorMode
                               ? "text-black"
                               : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"
                           } list-none text-paragraph3 font-mainFont`}

@@ -6,10 +6,10 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
-export default function Steps({ LightMode }) {
+export default function Steps({ colorMode }) {
   return (
     <SectionArea
-      className={LightMode ? "bg-bgSectionLight" : "bg-bgSectionDark"}
+      className={colorMode ? "bg-bgSectionLight" : "bg-bgSectionDark"}
       paddingtop={true}
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
@@ -26,18 +26,18 @@ export default function Steps({ LightMode }) {
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color={LightMode ? "light" : "dark"}
+            color={colorMode ? "light" : "dark"}
             type="article"
-            titleColorSet={LightMode ? "text-black" : "text-white"}
+            titleColorSet={colorMode ? "text-black" : "text-white"}
           />
           <SectionHeader
             className="text-center desktop1:hidden"
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color={LightMode ? "light" : ""}
-            type={LightMode ? "article" : ""}
-            titleColorSet={LightMode ? "text-black" : "text-white"}
+            color={colorMode ? "light" : ""}
+            type={colorMode ? "article" : ""}
+            titleColorSet={colorMode ? "text-black" : "text-white"}
           />
 
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
@@ -46,28 +46,28 @@ export default function Steps({ LightMode }) {
               title={content.texts.steps.cards.card1.cardTitle}
               description={content.texts.steps.cards.card1.cardDescription}
               animation
-              LightMode={LightMode}
+              colorMode={colorMode}
             />
             <HowItWorksCard
               number={content.texts.steps.cards.card2.stepNumber}
               title={content.texts.steps.cards.card2.cardTitle}
               description={content.texts.steps.cards.card2.cardDescription}
               animation
-              LightMode={LightMode}
+              colorMode={colorMode}
             />
             <HowItWorksCard
               number={content.texts.steps.cards.card3.stepNumber}
               title={content.texts.steps.cards.card3.cardTitle}
               description={content.texts.steps.cards.card3.cardDescription}
               animation
-              LightMode={LightMode}
+              colorMode={colorMode}
             />
             <HowItWorksCard
               number={content.texts.steps.cards.card4.stepNumber}
               title={content.texts.steps.cards.card4.cardTitle}
               description={content.texts.steps.cards.card4.cardDescription}
               animation
-              LightMode={LightMode}
+              colorMode={colorMode}
             />
           </div>
         </div>

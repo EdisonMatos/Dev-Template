@@ -1,17 +1,45 @@
 export default function IconFeatureCard(props) {
-  const { icon, title, paragraph, className, children } = props;
+  const {
+    icon,
+    title,
+    paragraph,
+    className,
+    children,
+    colorMode,
+  } = props;
+
+  // Definir classes de cor com base no modo
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-transparent",
+    default: "bg-red-900",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+
+  const bgClass = bgClasses[colorMode] || bgClasses.light;
+  const textClass = textClasses[colorMode] || textClasses.default;
 
   return (
     <div
-      className={`w-full tablet1:min-h-[300px] p-0 tablet1:w-[290px] mt-[36px] tablet1:mt-0 desktop1:w-[260px] desktop1:h-[300px] flex flex-col items-center desktop1:hover:scale-110 transition desktop1:p-0 ${className}`}
+      className={`w-full tablet1:min-h-[300px] p-0 tablet1:w-[290px] mt-[36px] tablet1:mt-0 desktop1:w-[260px] desktop1:h-[300px] flex flex-col items-center desktop1:hover:scale-110 transition desktop1:p-0 ${bgClass} ${className}`}
     >
-      <div className="h-[64px] w-[64px] mb-[24px] bg-primary rounded-md flex justify-center items-center text-labelsIcons">
+      <div
+        className={`h-[64px] w-[64px] mb-[24px] rounded-md flex justify-center items-center ${bgClass}`}
+      >
         {icon}
       </div>
-      <h1 className="h-auto font-bold font-mainFont text-title3 text-center mb-[16px] text-black">
+      <h1
+        className={`h-auto font-bold font-mainFont text-title3 text-center mb-[16px] ${textClass}`}
+      >
         {title}
       </h1>
-      <p className="text-center text-black opacity-70 font-mainFont w-[90%] pb-4">
+      <p
+        className={`text-center opacity-70 font-mainFont w-[90%] pb-4 ${textClass}`}
+      >
         {paragraph}
       </p>
       {children}

@@ -10,12 +10,12 @@ import GalleryAbout from "../sectionElements/about/GalleryAbout";
 import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
 import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
 
-export default function About({ modal, showGallery, LightMode }) {
+export default function About({ modal, showGallery, colorMode }) {
   return (
     <SectionArea
       id="about"
       className={`${
-        LightMode ? "bg-white" : "bg-bgSectionDark"
+        colorMode ? "bg-white" : "bg-bgSectionDark"
       } transition-colors duration-1000`}
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
@@ -44,16 +44,16 @@ export default function About({ modal, showGallery, LightMode }) {
             miniTitle={content.texts.about.miniTag}
             sectionHeaderTitle={content.texts.about.title}
             sectionHeaderSubtitle={content.texts.about.subtitle}
-            color={LightMode ? "light" : "dark"}
+            color={colorMode ? "light" : "dark"}
             type="article"
-            titleColorSet={LightMode ? "text-black" : "text-white"}
-            subtitleColorSet={LightMode ? "text-black/80" : "text-white"}
+            titleColorSet={colorMode ? "text-black" : "text-white"}
+            subtitleColorSet={colorMode ? "text-black/80" : "text-white"}
           />
           <MotionDivDownToUp>
             {modal ? (
-              <ParagraphWithFading LightMode={LightMode} />
+              <ParagraphWithFading colorMode={colorMode} />
             ) : (
-              <ParagraphSemFading LightMode={LightMode} />
+              <ParagraphSemFading colorMode={colorMode} />
             )}
             {modal && <AboutModal />}
           </MotionDivDownToUp>

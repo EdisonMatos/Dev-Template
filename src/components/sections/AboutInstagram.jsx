@@ -18,12 +18,12 @@ export default function AboutInstagram({
   x,
   linkedin,
   socialPrint,
-  LightMode,
+  colorMode,
 }) {
   return (
     <SectionArea
       id="about"
-      className={LightMode ? "bg-bgSectionLight" : "bg-bgSectionDark"}
+      className={colorMode ? "bg-bgSectionLight" : "bg-bgSectionDark"}
       paddingtop={false}
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between">
@@ -35,10 +35,10 @@ export default function AboutInstagram({
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
-              color={LightMode ? "light" : "dark"}
+              color={colorMode ? "light" : "dark"}
               type="article"
-              titleColorSet={LightMode ? "text-black" : "text-white"}
-              subtitleColorSet={LightMode ? "text-black" : "text-white"}
+              titleColorSet={colorMode ? "text-black" : "text-white"}
+              subtitleColorSet={colorMode ? "text-black" : "text-white"}
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial />

@@ -3,7 +3,7 @@ import Quadrada from "../../components/sectionElements/hero/Quadrada";
 import Panoramica from "../../components/sectionElements/hero/Panoramica";
 import Influencer from "../../components/sectionElements/hero/Influencer";
 
-export default function Hero({ defaultHero, influencer, mesclado, LightMode }) {
+export default function Hero({ defaultHero, influencer, mesclado, colorMode }) {
   return (
     <>
       {mesclado ? (
@@ -11,8 +11,7 @@ export default function Hero({ defaultHero, influencer, mesclado, LightMode }) {
       ) : influencer ? (
         <Influencer />
       ) : (
-        defaultHero &&<Quadrada LightMode={LightMode}/>
-        
+        defaultHero && <Quadrada colorMode={colorMode} />
       )}
     </>
   );

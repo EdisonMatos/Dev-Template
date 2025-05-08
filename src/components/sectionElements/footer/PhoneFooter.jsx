@@ -5,13 +5,13 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-function PhoneFooter({ LightMode }) {
+function PhoneFooter({ colorMode }) {
   return (
     <MotionDivDownToUp>
       <div className="flex full gap-x-[12px] items-center opacity-90">
         <FaWhatsapp
           size={24}
-          className={LightMode ? "text-black" : "text-white"}
+          className={colorMode ? "text-black" : "text-white"}
         />
 
         <a
