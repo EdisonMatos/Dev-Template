@@ -12,7 +12,7 @@ export default function FeaturesModalWithCards({ colorMode }) {
   // Classes de tema
   const bgClasses = {
     dark: "bg-black",
-    light: "bg-white",
+    light: "bg-[#ABABAB]",
     default: "bg-red-900",
   };
   const textClasses = {

@@ -10,7 +10,7 @@ export default function Cta({ colorMode = "default" }) {
   const navigate = useNavigate();
 
   // Definir classes de tema
-  const bgClasses = { dark: "bg-black", light: "bg-white", default: "bg-red-900" };
+  const bgClasses = { dark: "bg-black", light: "bg-[#ABABAB]", default: "bg-red-900" };
   const textClasses = { dark: "text-white", light: "text-black", default: "text-white" };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
