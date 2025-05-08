@@ -24,7 +24,7 @@ export default function Cta({ colorMode = "default" }) {
             miniTitle={content.texts.cta.miniTag}
             sectionHeaderTitle={content.texts.cta.title}
             sectionHeaderSubtitle={content.texts.cta.subtitle}
-            color={colorMode}
+            colorMode={colorMode}
           />
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}

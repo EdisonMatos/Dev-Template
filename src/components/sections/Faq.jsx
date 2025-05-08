@@ -33,8 +33,8 @@ export default function Faq({ colorMode }) {
           sectionHeaderTitle={content.texts.faq.title}
           sectionHeaderSubtitle={content.texts.faq.subtitle}
           color=""
-          titleColorSet={titleColor}
-          subtitleColor={titleColor}
+          colorMode={colorMode}
+          
         />
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">

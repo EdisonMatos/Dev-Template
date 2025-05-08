@@ -12,17 +12,36 @@ import InstagramAbout from "../sectionElements/aboutInstagram/InstagramAbout";
 import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram";
 import ParagraphsAboutSocial from "../sectionElements/aboutInstagram/ParagraphsAboutSocial";
 
-export default function AboutInstagram({ instagram, facebook, x, linkedin, socialPrint, colorMode = "default" }) {
+export default function AboutInstagram({
+  instagram,
+  facebook,
+  x,
+  linkedin,
+  socialPrint,
+  colorMode = "default",
+}) {
   // Definir classes de tema
-  const bgClasses = { dark: "bg-black", light: "bg-white", default: "bg-red-900" };
-  const textClasses = { dark: "text-white", light: "text-black", default: "text-white" };
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-white",
+    default: "bg-red-900",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
   return (
     <SectionArea id="about" className={`${bgClass}`} paddingtop={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between">
-        {socialPrint ? <SocialPrint colorMode={colorMode}/> : <DefaultInstagram colorMode={colorMode}/>}        
+        {socialPrint ? (
+          <SocialPrint colorMode={colorMode} />
+        ) : (
+          <DefaultInstagram colorMode={colorMode} />
+        )}
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
             <SectionHeader
@@ -32,16 +51,15 @@ export default function AboutInstagram({ instagram, facebook, x, linkedin, socia
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
               color={colorMode}
               type="article"
-              titleColorSet={textClass}
-              subtitleColorSet={textClass}
+              colorMode={colorMode}
             />
           </MotionDivDownToUp>
-          <ParagraphsAboutSocial colorMode={colorMode}/>
+          <ParagraphsAboutSocial colorMode={colorMode} />
           <div className="flex flex-col gap-4">
-            {instagram && <InstagramAbout colorMode={colorMode}/>}            
-            {facebook && <FacebookAbout colorMode={colorMode}/>}            
-            {x && <XAbout colorMode={colorMode}/>}            
-            {linkedin && <LinkedInAbout colorMode={colorMode}/>}          
+            {instagram && <InstagramAbout colorMode={colorMode} />}
+            {facebook && <FacebookAbout colorMode={colorMode} />}
+            {x && <XAbout colorMode={colorMode} />}
+            {linkedin && <LinkedInAbout colorMode={colorMode} />}
           </div>
         </div>
       </SectionWrapper>

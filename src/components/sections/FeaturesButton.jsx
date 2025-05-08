@@ -48,7 +48,7 @@ export default function FeaturesButton({ colorMode }) {
           miniTitle={content.texts.features.miniTag}
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
-          color={colorMode}
+          colorMode={colorMode}
         />
         <SectionWrapper>
           <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">

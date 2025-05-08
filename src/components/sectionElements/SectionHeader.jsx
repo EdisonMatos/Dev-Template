@@ -8,8 +8,8 @@ export default function SectionHeader({
   subtitleColor,
   miniTitle,
   miniTitleSpace,
-  color,
-  miniTitleBgColor = true, // Valor padrão
+  colorMode = "default", // novo
+  miniTitleBgColor = true,
   miniTitleTextColor,
   usage,
   type,
@@ -21,17 +21,26 @@ export default function SectionHeader({
   titleColorSet,
   subtitleColorSet,
 }) {
-  // Configurações baseadas na cor
-  if (color === "dark") {
-    miniTitleTextColor = "text-black";
-    titleColor = titleColorSet ?? "text-secondary";
-    subtitleColor = subtitleColorSet ?? "text-darker opacity-70";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
-  } else {
-    miniTitleTextColor = "text-white";
-    titleColor =  titleColorSet ?? "text-secondary";
-    subtitleColor = subtitleColorSet ?? "text-darker text-opacity-80";
-    if (miniTitleBgColor) miniTitleBgColor = "bg-bgSectionDark bg-opacity-100";
+  // Configurações baseadas no colorMode
+  switch (colorMode) {
+    case "light":
+      miniTitleTextColor = "text-dark";
+      titleColor = titleColorSet ?? "text-dark";
+      subtitleColor = subtitleColorSet ?? "text-darker text-opacity-70";
+      if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
+      break;
+    case "dark":
+      miniTitleTextColor = "text-white";
+      titleColor = titleColorSet ?? "text-white";
+      subtitleColor = subtitleColorSet ?? "text-white text-opacity-80";
+      if (miniTitleBgColor) miniTitleBgColor = "bg-bgSectionDark";
+      break;
+    default:
+      miniTitleTextColor = "text-white";
+      titleColor = titleColorSet ?? "text-secondary";
+      subtitleColor = subtitleColorSet ?? "text-darker text-opacity-80";
+      if (miniTitleBgColor) miniTitleBgColor = "bg-bgSectionDark bg-opacity-100";
+      break;
   }
 
   // Configurações baseadas no tipo
@@ -46,9 +55,8 @@ export default function SectionHeader({
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
   }
 
-  // Remover o background se miniTitleBgColor for false
   if (!miniTitleBgColor) {
-    miniTitleBgColor = ""; // Sem classe de background
+    miniTitleBgColor = "";
   }
 
   const Content = (

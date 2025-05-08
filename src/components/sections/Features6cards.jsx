@@ -31,7 +31,7 @@ export default function Features6cards({ modal, colorMode }) {
           miniTitle={content.texts.features.miniTag}
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
-          color={colorMode}
+          colorMode={colorMode}
         />
 
         <SectionWrapper>

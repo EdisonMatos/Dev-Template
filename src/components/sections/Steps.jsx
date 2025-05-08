@@ -38,7 +38,7 @@ export default function Steps({ colorMode }) {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color={colorMode ? "light" : "dark"}
             type="article"
-            titleColorSet={colorMode ? "text-black" : "text-white"}
+            colorMode={colorMode}
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -47,7 +47,7 @@ export default function Steps({ colorMode }) {
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color={colorMode ? "light" : ""}
             type={colorMode ? "article" : ""}
-            titleColorSet={colorMode ? "text-black" : "text-white"}
+            colorMode={colorMode}
           />
 
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">

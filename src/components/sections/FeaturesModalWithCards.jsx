@@ -29,7 +29,7 @@ export default function FeaturesModalWithCards({ colorMode }) {
         miniTitle={content.texts.features.miniTag}
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
-        color="dark"
+        colorMode={colorMode}
       />
       <SectionWrapper>
         <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">

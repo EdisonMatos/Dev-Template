@@ -30,7 +30,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
           miniTitle={content.texts.features.miniTag}
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
-          color="dark"
+          colorMode={colorMode}
         />
 
         <SectionWrapper>

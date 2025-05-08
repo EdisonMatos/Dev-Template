@@ -44,7 +44,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
           miniTitle={content.texts.features.miniTag}
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
-          color="dark"
+          colorMode={colorMode}
         />
 
         <SectionWrapper>

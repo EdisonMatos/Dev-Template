@@ -18,7 +18,7 @@ export default function Index() {
 
   const toggleColorMode = () => {
     setColorMode((prevMode) => {
-      if (prevMode === "default") return "light"; 
+      if (prevMode === "default") return "light";
       if (prevMode === "light") return "dark";
       return "default";
     });
@@ -62,9 +62,9 @@ export default function Index() {
       />
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
-        modalWithCards={true}
+        modalWithCards={false}
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}

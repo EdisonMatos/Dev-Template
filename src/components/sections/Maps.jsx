@@ -46,8 +46,7 @@ export default function Maps({ colorMode }) {
             sectionHeaderSubtitle={content.texts.maps.subtitle}
             color="dark"
             type=""
-            titleColorSet={titleColor}
-            subtitleColorSet={titleColor}
+            colorMode={colorMode}
           />
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-darker/25 desktop1:bg-center tablet1:w-full rounded-xl">
             <div className="opacity-90">
