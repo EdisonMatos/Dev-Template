@@ -78,7 +78,7 @@ export default function Index() {
         linkedin={false}
         x={false}
       />
-      <Cta />
+      <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       <Maps colorMode={colorMode} />
       <Faq />
