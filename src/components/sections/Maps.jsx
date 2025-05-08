@@ -16,17 +16,27 @@ import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import WhatsappForm from "../interactives/WhatsappForm";
 
-export default function Maps({ colorMode = false }) {
+export default function Maps({ colorMode }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
-  const sectionBg = colorMode ? "bg-bgSectionLight" : "bg-bgSectionDark";
-  const titleColor = colorMode ? "text-dark" : "text-white";
-  const subtitleColor = colorMode ? "text-dark" : "text-white";
+  // Classes de tema
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-white",
+    default: "bg-red-900",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const titleColor = textClasses[colorMode] || textClasses.default;
 
   return (
-    <SectionArea className={`${sectionBg}`} paddingtop={false}>
+    <SectionArea className={`${bgClass}`} paddingtop={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
         <MotionDivDownToUp className="flex flex-col justify-center w-full">
           <SectionHeader
@@ -37,7 +47,7 @@ export default function Maps({ colorMode = false }) {
             color="dark"
             type=""
             titleColorSet={titleColor}
-            subtitleColorSet={subtitleColor}
+            subtitleColorSet={titleColor}
           />
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-darker/25 desktop1:bg-center tablet1:w-full rounded-xl">
             <div className="opacity-90">
