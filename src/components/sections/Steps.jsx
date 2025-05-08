@@ -7,11 +7,21 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 export default function Steps({ colorMode }) {
+  // Classes de tema
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-white",
+    default: "bg-red-900",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const titleColor = textClasses[colorMode] || textClasses.default;
   return (
-    <SectionArea
-      className={colorMode ? "bg-bgSectionLight" : "bg-bgSectionDark"}
-      paddingtop={true}
-    >
+    <SectionArea className={`${bgClass}`} paddingtop={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-black/30">
           <img

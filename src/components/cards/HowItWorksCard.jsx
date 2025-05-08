@@ -5,12 +5,27 @@ export default function HowItWorksCard({
   title,
   description,
   animation = true,
-  colorMode = false,
+  colorMode = "default", // 'light', 'dark' ou 'default'
 }) {
-  const textColor = colorMode ? "text-dark" : "text-lighter";
-  const textOpacity = colorMode ? "opacity-90" : "opacity-70";
+  let textColor, textOpacity;
 
-  const Content = (
+  switch (colorMode) {
+    case "light":
+      textColor = "text-black";
+      textOpacity = "opacity-90";
+      break;
+    case "dark":
+      textColor = "text-white";
+      textOpacity = "opacity-80";
+      break;
+    case "default":
+    default:
+      textColor = "text-white";
+      textOpacity = "opacity-80";
+      break;
+  }
+
+  const BaseContent = (
     <div className="flex flex-col items-center justify-center transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
       <div className="bg-primary mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-secondary text-title1 font-semibold">
         {number}
@@ -26,25 +41,15 @@ export default function HowItWorksCard({
     </div>
   );
 
-  const ContentStatic = (
+  const StaticContent = (
     <div className="flex flex-col items-center justify-center tablet1:w-[45%] transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
-      <div className="bg-primary mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-secondary text-title1 font-semibold">
-        {number}
-      </div>
-      <h1 className={`text-[20px] font-bold mb-[24px] ${textColor}`}>
-        {title}
-      </h1>
-      <p
-        className={`text-[16px] text-center desktop1:text-left w-full ${textColor} ${textOpacity}`}
-      >
-        {description}
-      </p>
+      {BaseContent}
     </div>
   );
 
   return animation ? (
-    <MotionDivDownToUp className="tablet1:w-[45%]">{Content}</MotionDivDownToUp>
+    <MotionDivDownToUp className="tablet1:w-[45%]">{BaseContent}</MotionDivDownToUp>
   ) : (
-    ContentStatic
+    StaticContent
   );
 }
