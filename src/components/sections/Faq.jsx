@@ -8,19 +8,33 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import AccordionExpandDefault from "../interactives/AcordionTwo";
 import Button from "../interactives/Button";
 
-export default function Faq() {
+export default function Faq({ colorMode }) {
   const navigate = useNavigate();
+  // Classes de tema
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-white",
+    default: "bg-red-900",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const titleColor = textClasses[colorMode] || textClasses.default;
 
   return (
     <>
-      <SectionArea id="faq" className="bg-neutral-100">
+      <SectionArea id="faq" className={`${bgClass}`}>
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.faq.miniTag}
           sectionHeaderTitle={content.texts.faq.title}
           sectionHeaderSubtitle={content.texts.faq.subtitle}
           color=""
-          titleColorSet="text-secondary"
+          titleColorSet={titleColor}
+          subtitleColor={titleColor}
         />
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">
@@ -35,7 +49,12 @@ export default function Faq() {
                 {" "}
                 
               </a> */}
-              <Button color="bg-transparent" label={content.texts.faq.paragraph}> </Button>
+              <Button
+                color="bg-transparent"
+                label={content.texts.faq.paragraph}
+              >
+                {" "}
+              </Button>
             </Paragraphs>
           </MotionDivDownToUp>
         </SectionWrapper>
