@@ -11,7 +11,7 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 
-export default function DefaultModals({ modal = "true" }) {
+export default function DefaultModals({ modal = "true", colorMode }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -23,9 +23,22 @@ export default function DefaultModals({ modal = "true" }) {
     setModalContent(content);
     setVisible(true);
   };
+
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-white",
+    default: "bg-red-900",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const textClass = textClasses[colorMode] || textClasses.default;
   return (
     <>
-      <SectionArea id="service" className="squares">
+      <SectionArea id="service" className={`${bgClass}`}>
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.features.miniTag}
@@ -43,6 +56,7 @@ export default function DefaultModals({ modal = "true" }) {
                   title={content.texts.features.card1.title}
                   paragraph={content.texts.features.card1.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
                 />
                 {modal && (
                   <Button
@@ -97,6 +111,7 @@ export default function DefaultModals({ modal = "true" }) {
                   title={content.texts.features.card2.title}
                   paragraph={content.texts.features.card2.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
                 />
                 {modal && (
                   <Button
@@ -151,6 +166,7 @@ export default function DefaultModals({ modal = "true" }) {
                   title={content.texts.features.card3.title}
                   paragraph={content.texts.features.card3.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
                 />
                 {modal && (
                   <Button
@@ -205,6 +221,7 @@ export default function DefaultModals({ modal = "true" }) {
                   title={content.texts.features.card4.title}
                   paragraph={content.texts.features.card4.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
                 />
                 {modal && (
                   <Button

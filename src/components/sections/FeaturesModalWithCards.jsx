@@ -8,9 +8,22 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
-export default function FeaturesModalWithCards() {
+export default function FeaturesModalWithCards({ colorMode }) {
+  // Classes de tema
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-white",
+    default: "bg-red-900",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const textClass = textClasses[colorMode] || textClasses.default;
   return (
-    <SectionArea id="service" className="squares">
+    <SectionArea id="service" className={`${bgClass}`}>
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
@@ -27,6 +40,7 @@ export default function FeaturesModalWithCards() {
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
+                colorMode={colorMode}
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -34,6 +48,7 @@ export default function FeaturesModalWithCards() {
                 icon={content.texts.features.card2.icon}
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
+                colorMode={colorMode}
               />
             </MotionDivDownToUp>
           </div>
@@ -53,6 +68,7 @@ export default function FeaturesModalWithCards() {
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
                 className="tablet1:mb-[26px] desktop1:mb-0 desktop2:mb-[46px]"
+                colorMode={colorMode}
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp className=" flex flex-col items-center w-full tablet1:w-[290px] desktop1:w-[250px] ">
@@ -60,6 +76,7 @@ export default function FeaturesModalWithCards() {
                 icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
+                colorMode={colorMode}
               >
                 <ServicesModal />
               </IconFeatureCard>
