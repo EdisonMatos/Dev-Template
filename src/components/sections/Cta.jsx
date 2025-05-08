@@ -10,7 +10,7 @@ export default function Cta({ colorMode = "default" }) {
   const navigate = useNavigate();
 
   // Definir classes de tema
-  const bgClasses = { dark: "bg-[#252525]", light: "bg-[#ABABAB]", default: "bg-red-900" };
+  const bgClasses = { dark: "bg-[#252525]", light: "bg-[#ABABAB]", default: "bg-white" };
   const textClasses = { dark: "text-white", light: "text-black", default: "text-white" };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
@@ -24,7 +24,8 @@ export default function Cta({ colorMode = "default" }) {
             miniTitle={content.texts.cta.miniTag}
             sectionHeaderTitle={content.texts.cta.title}
             sectionHeaderSubtitle={content.texts.cta.subtitle}
-            colorMode={colorMode}
+            titleColorSet={textClass}
+            subtitleColorSet={textClass}
           />
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}

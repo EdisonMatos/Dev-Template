@@ -25,7 +25,7 @@ export default function Maps({ colorMode }) {
   const bgClasses = {
     dark: "bg-black",
     light: "bg-white",
-    default: "bg-red-900",
+    default: "bg-black",
   };
   const textClasses = {
     dark: "text-white",

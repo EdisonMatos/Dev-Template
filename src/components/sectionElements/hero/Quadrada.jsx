@@ -9,7 +9,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
   const backgroundClasses = {
     dark: "from-black to-black",
     light: "from-white to-white",
-    default: "from-red-900 to-red-900",
+    default: "from-bgSectionDark to-darker",
   };
 
   const textColor = colorMode === "light" ? "text-black" : "text-white";

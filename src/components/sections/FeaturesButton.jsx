@@ -27,12 +27,12 @@ export default function FeaturesButton({ colorMode }) {
   const bgClasses = {
     dark: "bg-[#252525]",
     light: "bg-[#ABABAB]",
-    default: "bg-red-900",
+    default: "bg-white",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-white",
+    default: "bg-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
@@ -48,7 +48,8 @@ export default function FeaturesButton({ colorMode }) {
           miniTitle={content.texts.features.miniTag}
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
-          colorMode={colorMode}
+          titleColorSet={textClass}
+          subtitleColorSet={textClass}
         />
         <SectionWrapper>
           <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">

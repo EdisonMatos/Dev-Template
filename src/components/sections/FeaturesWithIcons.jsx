@@ -10,12 +10,12 @@ export default function FeaturesWithIcons({ colorMode }) {
   const bgClasses = {
     dark: "bg-[#252525]",
     light: "bg-[#ABABAB]",
-    default: "bg-red-900",
+    default: "bg-white",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-white",
+    default: "text-black",
   };
 
   const bgClass = bgClasses[colorMode] || bgClasses.default;
@@ -28,7 +28,8 @@ export default function FeaturesWithIcons({ colorMode }) {
         miniTitle={content.texts.features.miniTag}
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
-        colorMode={colorMode}
+        titleColorSet={textClass}
+        subtitleColorSet={textClass}
       />
       <SectionWrapper>
         <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">

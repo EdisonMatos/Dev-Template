@@ -14,7 +14,7 @@ export default function Faq({ colorMode }) {
   const bgClasses = {
     dark: "bg-[#252525]",
     light: "bg-[#ABABAB]",
-    default: "bg-red-900",
+    default: "bg-white",
   };
   const textClasses = {
     dark: "text-white",
@@ -33,7 +33,8 @@ export default function Faq({ colorMode }) {
           sectionHeaderTitle={content.texts.faq.title}
           sectionHeaderSubtitle={content.texts.faq.subtitle}
           color=""
-          colorMode={colorMode}
+          titleColorSet={titleColor}
+          subtitleColorSet={titleColor}
         />
         <SectionWrapper className="flex justify-center">
           <MotionDivDownToUp className="flex justify-center w-full">
@@ -42,17 +43,16 @@ export default function Faq({ colorMode }) {
             </div>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-          <Paragraphs
-  className={`text-center transition hover:scale-110`}
-  colorMode={colorMode}
->
-  <Button
-    color="bg-transparent"
-    label={content.texts.faq.paragraph}
-    className="text-inherit"
-  />
-</Paragraphs>
-
+            <Paragraphs
+              className={`text-center transition hover:scale-110`}
+              colorMode={colorMode}
+            >
+              <Button
+                color="bg-transparent"
+                label={content.texts.faq.paragraph}
+                className="text-inherit"
+              />
+            </Paragraphs>
           </MotionDivDownToUp>
         </SectionWrapper>
       </SectionArea>

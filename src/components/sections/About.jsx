@@ -10,9 +10,9 @@ import GalleryAbout from "../sectionElements/about/GalleryAbout";
 import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
 import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
 
-export default function About({ modal = true, showGallery = false, colorMode = "default" }) {
+export default function About({ modal = true, showGallery = false, colorMode}) {
   // Definir classes de tema
-  const bgClasses = { dark: "bg-black", light: "bg-white", default: "bg-red-900" };
+  const bgClasses = { dark: "bg-black", light: "bg-white", default: "bg-black" };
   const textClasses = { dark: "text-white", light: "text-black", default: "text-white" };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;

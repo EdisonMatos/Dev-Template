@@ -18,13 +18,13 @@ export default function AboutInstagram({
   x,
   linkedin,
   socialPrint,
-  colorMode = "default",
+  colorMode,
 }) {
   // Definir classes de tema
   const bgClasses = {
     dark: "bg-black",
     light: "bg-white",
-    default: "bg-red-900",
+    default: "bg-black",
   };
   const textClasses = {
     dark: "text-white",
@@ -49,9 +49,10 @@ export default function AboutInstagram({
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
-              color={colorMode}
               type="article"
-              colorMode={colorMode}
+              titleColorSet={textClass}
+              subtitleColorSet={textClass}
+              
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial colorMode={colorMode} />

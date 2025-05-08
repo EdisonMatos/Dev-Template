@@ -8,7 +8,7 @@ export default function SectionHeader({
   subtitleColor,
   miniTitle,
   miniTitleSpace,
-  colorMode = "default", // novo
+  colorMode,
   miniTitleBgColor = true,
   miniTitleTextColor,
   usage,
@@ -23,23 +23,18 @@ export default function SectionHeader({
 }) {
   // Configurações baseadas no colorMode
   switch (colorMode) {
-    case "light":
-      miniTitleTextColor = "text-dark";
-      titleColor = titleColorSet ?? "text-dark";
-      subtitleColor = subtitleColorSet ?? "text-darker text-opacity-70";
-      if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
-      break;
     case "dark":
       miniTitleTextColor = "text-white";
       titleColor = titleColorSet ?? "text-white";
-      subtitleColor = subtitleColorSet ?? "text-white text-opacity-80";
+      subtitleColor = subtitleColorSet ?? "text-white";
       if (miniTitleBgColor) miniTitleBgColor = "bg-bgSectionDark";
       break;
+    case "light":
     default:
-      miniTitleTextColor = "text-white";
-      titleColor = titleColorSet ?? "text-secondary";
-      subtitleColor = subtitleColorSet ?? "text-darker text-opacity-80";
-      if (miniTitleBgColor) miniTitleBgColor = "bg-bgSectionDark bg-opacity-100";
+      miniTitleTextColor = "text-black";
+      titleColor = titleColorSet ?? "text-black";
+      subtitleColor = subtitleColorSet ?? "text-black";
+      if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
       break;
   }
 

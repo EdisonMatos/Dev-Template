@@ -32,7 +32,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-white",
+    default: "bg-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
@@ -44,7 +44,8 @@ export default function DefaultModals({ modal = "true", colorMode }) {
           miniTitle={content.texts.features.miniTag}
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
-          colorMode={colorMode}
+          titleColorSet={textClass}
+          subtitleColorSet={textClass}
         />
 
         <SectionWrapper>
