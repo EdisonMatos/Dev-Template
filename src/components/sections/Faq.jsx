@@ -19,7 +19,7 @@ export default function Faq({ colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "text-white",
+    default: "text-black",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
@@ -43,14 +43,13 @@ export default function Faq({ colorMode }) {
             </div>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs
-              className={`text-center transition hover:scale-110`}
-              colorMode={colorMode}
-            >
+            <Paragraphs className={`text-center transition hover:scale-110`}>
               <Button
                 color="bg-transparent"
                 label={content.texts.faq.paragraph}
-                className="text-inherit"
+                className="text-inherit "
+                textclassName={titleColor}
+                colorMode={colorMode}
               />
             </Paragraphs>
           </MotionDivDownToUp>
