@@ -36,9 +36,8 @@ export default function Steps({ colorMode }) {
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-            color={colorMode ? "light" : "dark"}
             type="article"
-            colorMode={colorMode}
+            titleColorSet={titleColor}
           />
           <SectionHeader
             className="text-center desktop1:hidden"

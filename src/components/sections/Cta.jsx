@@ -11,7 +11,7 @@ export default function Cta({ colorMode = "default" }) {
 
   // Definir classes de tema
   const bgClasses = { dark: "bg-[#252525]", light: "bg-[#ABABAB]", default: "bg-white" };
-  const textClasses = { dark: "text-white", light: "text-black", default: "text-white" };
+  const textClasses = { dark: "text-white", light: "text-black", default: "text-black" };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
