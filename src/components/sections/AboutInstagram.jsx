@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import content from "../../content/content";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
@@ -18,30 +18,50 @@ export default function AboutInstagram({
   x,
   linkedin,
   socialPrint,
+  colorMode,
 }) {
+  // Definir classes de tema
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-white",
+    default: "bg-black",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const textClass = textClasses[colorMode] || textClasses.default;
+
   return (
-    <SectionArea id="about" className="bg-bgSectionDark" paddingtop={false}>
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
-        {socialPrint ? <SocialPrint /> : <DefaultInstagram />}
+    <SectionArea id="about" className={`${bgClass}`} paddingtop={false}>
+      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between">
+        {socialPrint ? (
+          <SocialPrint colorMode={colorMode} />
+        ) : (
+          <DefaultInstagram colorMode={colorMode} />
+        )}
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
             <SectionHeader
-              className="text-center"
+              className={`text-center ${textClass}`}
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
-              color="dark"
               type="article"
-              titleColorSet="text-colorWhite"
-              subtitleColorSet="text-colorWhite"
+
+              titleColorSet={textClass}
+              subtitleColorSet={textClass}
+              
             />
           </MotionDivDownToUp>
-          <ParagraphsAboutSocial />
+          <ParagraphsAboutSocial colorMode={colorMode} />
           <div className="flex flex-col gap-4">
-            {instagram && <InstagramAbout />}
-            {facebook && <FacebookAbout />}
-            {x && <XAbout />}
-            {linkedin && <LinkedInAbout />}
+            {instagram && <InstagramAbout colorMode={colorMode} />}
+            {facebook && <FacebookAbout colorMode={colorMode} />}
+            {x && <XAbout colorMode={colorMode} />}
+            {linkedin && <LinkedInAbout colorMode={colorMode} />}
           </div>
         </div>
       </SectionWrapper>

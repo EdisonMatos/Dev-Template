@@ -9,6 +9,7 @@ import FeaturesParagraphs from "./FeaturesParagraphs";
 import FeaturesModalWithCards from "./FeaturesModalWithCards";
 
 export default function Features({
+  colorMode,
   modalWithCards,
   sixCards,
   paragraphs,
@@ -18,12 +19,12 @@ export default function Features({
 }) {
   return (
     <>
-      {modalWithCards && <FeaturesModalWithCards />}
-      {sixCards && <Features6cards />}
-      {paragraphs && <FeaturesParagraphs />}
-      {button && <FeaturesButton />}
-      {paragraphsModal && <DefaultModals />}
-      {defaultFeature && <FeaturesWithIcons />}
+      {modalWithCards && <FeaturesModalWithCards colorMode={colorMode} />}
+      {sixCards && <Features6cards colorMode={colorMode} />}
+      {paragraphs && <FeaturesParagraphs colorMode={colorMode} />}
+      {button && <FeaturesButton colorMode={colorMode} />}
+      {paragraphsModal && <DefaultModals colorMode={colorMode} />}
+      {defaultFeature && <FeaturesWithIcons colorMode={colorMode} />}
     </>
   );
 }

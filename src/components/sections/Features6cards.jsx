@@ -8,16 +8,31 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
-export default function Features6cards({ modal }) {
+export default function Features6cards({ modal, colorMode }) {
+  // Classes de tema
+  const bgClasses = {
+    dark: "bg-[#1C1C1C]",
+    light: "bg-[#F2F2F2]",
+    default: "bg-white",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "bg-black",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const textClass = textClasses[colorMode] || textClasses.default;
+
   return (
     <>
-      <SectionArea id="service" className="squares">
+      <SectionArea id="service" className={`${bgClass}`}>
         <SectionHeader
-          className="text-center"
+          className={`text-center ${textClass}`}
           miniTitle={content.texts.features.miniTag}
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
-          color="dark"
+          titleColorSet={textClass}
+          subtitleColorSet={textClass}
         />
 
         <SectionWrapper>
@@ -29,6 +44,7 @@ export default function Features6cards({ modal }) {
                   title={content.texts.features.card1.title}
                   paragraph={content.texts.features.card1.subtitle}
                   className="tablet1:mb-[26px] desktop1:mb-0"
+                  colorMode={colorMode}
                 />
               </MotionDivDownToUp>
               <MotionDivDownToUp>
@@ -36,6 +52,7 @@ export default function Features6cards({ modal }) {
                   icon={content.texts.features.card2.icon}
                   title={content.texts.features.card2.title}
                   paragraph={content.texts.features.card2.subtitle}
+                  colorMode={colorMode}
                 />
               </MotionDivDownToUp>
               <MotionDivDownToUp>
@@ -43,6 +60,7 @@ export default function Features6cards({ modal }) {
                   icon={content.texts.features.card3.icon}
                   title={content.texts.features.card3.title}
                   paragraph={content.texts.features.card3.subtitle}
+                  colorMode={colorMode}
                 />
               </MotionDivDownToUp>
             </div>
@@ -63,29 +81,25 @@ export default function Features6cards({ modal }) {
                   title={content.texts.features.card4.title}
                   paragraph={content.texts.features.card4.subtitle}
                   className="tablet1:mb-[26px] desktop1:mb-0"
+                  colorMode={colorMode}
                 />
               </MotionDivDownToUp>
-              {/* <MotionDivDownToUp>
+              <MotionDivDownToUp>
                 <IconFeatureCard
-                  icon={content.texts.features.card5.icon}
-                  title={content.texts.features.card5.title}
-                  paragraph={content.texts.features.card5.subtitle}
+                  icon={content.texts.features.card3.icon}
+                  title={content.texts.features.card3.title}
+                  paragraph={content.texts.features.card3.subtitle}
+                  colorMode={colorMode}
                 />
-              </MotionDivDownToUp> */}
-              {/* <MotionDivDownToUp className=" flex items-center w-full tablet1:w-[290px] desktop1:w-[250px]">
+              </MotionDivDownToUp>
+              <MotionDivDownToUp>
                 <IconFeatureCard
-                  icon={content.texts.features.card6.icon}
-                  title={content.texts.features.card6.title}
-                  paragraph={content.texts.features.card6.subtitle}
-                >
-                  {modal && (
-                    <div>
-                      <ServicesModal />
-                      <MoreFeaturesModal />
-                    </div>
-                  )}
-                </IconFeatureCard>
-              </MotionDivDownToUp> */}
+                  icon={content.texts.features.card3.icon}
+                  title={content.texts.features.card3.title}
+                  paragraph={content.texts.features.card3.subtitle}
+                  colorMode={colorMode}
+                />
+              </MotionDivDownToUp>
             </div>
           </div>
         </SectionWrapper>
