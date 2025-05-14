@@ -92,6 +92,7 @@ export default function Features6cards({ modal, colorMode }) {
                   colorMode={colorMode}
                 />
               </MotionDivDownToUp>
+
               <MotionDivDownToUp>
                 <IconFeatureCard
                   icon={content.texts.features.card3.icon}

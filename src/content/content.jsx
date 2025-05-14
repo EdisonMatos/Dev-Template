@@ -92,12 +92,18 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda à sexta-feira:</p>
-      <p>9h às 17h</p>
+      <p>A_Definirh</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "valeriacandal_advogada", // Sem o @
-  facebookProfile: "valeriacandalassessoriajuridica",
+
+  obs: (
+    <span className="italic">
+      {" "}
+      <i>A_Definir</i>
+    </span>
+  ),
+  instagramProfile: "A_Definir", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -123,22 +129,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag:
-        "ESCRITÓRIO ESPECIALIZADO EM PROCESSO CIVIL EM PORTO ALEGRE - RS",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Superando barreiras jurídicas
-          <span className="text-primary"> com precisão</span>
+          A_Definir
+          <span className="text-primary">A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Resultados consistentes em casos complexos, com estratégia, precisão e confiança.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Agende sua consultoria",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +162,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial em Porto Alegre e online para todo Brasil.",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,16 +188,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Amparo jurídico nos momentos mais delicados",
-      subtitle:
-        "Atuação firme e estratégica para resolver conflitos e proteger seus direitos",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Contratos e responsabilidade civil",
-        subtitle: "Elaboração e revisão de contratos e indenizações.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -202,6 +205,7 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "A_Definir",
         imgModal: imgFeaturesCardModal1,
         icon: (
           <svg
@@ -228,8 +232,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de família",
-        subtitle: "Acordos, divórcios e guarda com foco na família.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -238,6 +242,7 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "A_Definir",
         imgModal: imgFeaturesCardModal2,
         icon: (
           <svg
@@ -263,8 +268,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito do consumidor",
-        subtitle: "Defesa dos direitos do consumidor em conflitos.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -272,6 +277,7 @@ const content = {
             A_Definir
           </div>
         ),
+        labelButton: "A_Definir",
         imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
@@ -298,8 +304,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito da saúde",
-        subtitle: "Ações judiciais e orientações sobre saúde.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -308,6 +314,27 @@ const content = {
             <br />
           </div>
         ),
+        labelButton: "A_Definir",
+        servicesButton: "Ver todas",
+        servicesIconButton: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-circle-plus"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M8 12h8" />
+            <path d="M12 8v8" />
+          </svg>
+        ),
+
         imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
@@ -325,6 +352,78 @@ const content = {
             <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
             <path d="M9 12h6" />
             <path d="M12 9v6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card5: {
+        img: featuresImg3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        labelButton: "A_Definir",
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-handshake-icon lucide-handshake"
+          >
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        labelButton: "A_Definir",
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-handshake-icon lucide-handshake"
+          >
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -349,10 +448,9 @@ const content = {
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Porto Alegre",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       embedsrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.244258510041!2d-51.2320767236618!3d-30.029849574930907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979997b658b7f%3A0x58d7cc9afe967d8!2sVal%C3%A9ria%20Candal%20-%20Advocacia%20e%20Assessoria%20Jur%C3%ADdica!5e0!3m2!1spt-BR!2sbr!4v1745415963229!5m2!1spt-BR!2sbr",
     },
@@ -361,45 +459,28 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É VALÉRIA CANDAL ASSESSORIA JURÍDICA",
-      title: "Minha trajetória",
-      subtitle:
-        "Experiência, ética e dedicação em soluções jurídicas personalizadas",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
-      paragraph: (
-        <div>
-          Fundei meu escritório com a missão de garantir justiça e segurança
-          jurídica aos meus clientes. Com mais de 17 anos de atuação na
-          Advocacia Cível, ofereço um atendimento estratégico, personalizado e
-          humanizado — presencial ou online.
-        </div>
-      ),
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      labelInstagram: "A_Definir no Instagram",
+      labelFacebook: "A_Definir no Facebook",
+      labelLinkedin: "A_Definir no LinkedIn",
+      labelX: "A_Definir no X",
+      paragraph: <div>A_Definir</div>,
       buttonModalLabelAbout: "Continuar lendo",
+      modalCtaButton: "Quer saber mais? Clique abaixo 👇",
       modal: (
         <p>
-          Fundei meu escritório com a missão de garantir justiça e segurança
-          jurídica aos meus clientes. Com mais de 17 anos de atuação na
-          Advocacia Cível, ofereço um atendimento estratégico, personalizado e
-          humanizado — presencial ou online.
+          A_Definir
           <br />
           <br />
-          Sou advogada desde 2008, especializada em Direito Processual Civil. Me
-          formei em Direito pela PUCRS e concluí pós-graduação na mesma área,
-          atuando com foco na prevenção e solução de conflitos.
+          A_Definir
           <br />
           <br />
-          Fui membro da Comissão de Direito de Trânsito da OAB/RS no triênio
-          2019–2021. Desde então, atuo como Assessora Jurídica do Sindicato dos
-          Analistas Tributários da Receita Estadual do RS, prestando consultoria
-          na área cível há 17 anos.
+          A_Definir
           <br />
           <br />
-          Estou à disposição para oferecer uma assessoria jurídica confiável,
-          eficaz e acolhedora, garantindo que você se sinta seguro e bem
-          informado em todas as etapas do processo.
+          A_Definir
           <br />
           <br />
         </p>
@@ -413,61 +494,54 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        labelInstagram: "A_Definir no Instagram",
+        labelFacebook: "A_Definir no Facebook",
+        labelLinkedin: "A_Definir no LinkedIn",
+        labelX: "A_Definir no X",
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
     blog: {
-      miniTag: "BLOG",
+      miniTag: "A_Definir",
       title: "A_Definir",
       subtitle: "",
       img: imgSteps,
@@ -484,19 +558,23 @@ const content = {
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
-          answer: "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
-          answer: "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
           question: "Quais documentos devo levar para a consulta?",
-          answer: "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
           question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer: "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

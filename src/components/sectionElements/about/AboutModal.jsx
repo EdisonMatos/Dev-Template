@@ -23,7 +23,7 @@ export default function AboutModal() {
       <p className="text-paragraph3">
         <p className="mb-[20px]">{abstractions.subtitleModal}</p>
         {content.texts.about.modal}
-        <p className="mb-[20px]">Quer saber mais? Clique abaixo 👇</p>
+        <p className="mb-[20px]"> {content.texts.about.modalCtaButton}</p>
         <div>
           <Button
             aria-label={content.texts.about.ctaButtonAriaLabel}
