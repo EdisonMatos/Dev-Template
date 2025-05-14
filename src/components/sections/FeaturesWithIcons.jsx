@@ -8,7 +8,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 export default function FeaturesWithIcons({ colorMode }) {
   // Define background and text colors based on colorMode
   const bgClasses = {
-    dark: "bg-[#252525]",
+    dark: "bg-[#100F0F]",
     light: "bg-[#F2F2F2]",
     default: "bg-white",
   };
