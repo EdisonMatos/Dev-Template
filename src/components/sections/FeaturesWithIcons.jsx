@@ -5,26 +5,42 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
+export default function FeaturesWithIcons({ colorMode }) {
+  // Define background and text colors based on colorMode
+  const bgClasses = {
+    dark: "bg-[#1C1C1C]",
+    light: "bg-[#F2F2F2]",
+    default: "bg-white",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-black",
+  };
 
-export default function FeaturesWithIcons() {
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const textClass = textClasses[colorMode] || textClasses.default;
+
   return (
-    <SectionArea id="service" className="squares" paddingbot={true}>
+    <SectionArea id="service" className={`${bgClass} `} paddingbot={true}>
       <SectionHeader
-        className="text-center"
+        className={`text-center ${textClass}`}
         miniTitle={content.texts.features.miniTag}
         sectionHeaderTitle={content.texts.features.title}
         sectionHeaderSubtitle={content.texts.features.subtitle}
-        color=""
+        titleColorSet={textClass}
+        subtitleColorSet={textClass}
       />
       <SectionWrapper>
-        <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between  desktop1:gap-x-0 desktop1:px-0">
+        <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
           <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
-            <MotionDivDownToUp className="">
+            <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
-                className="tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] "
+                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                colorMode={colorMode}
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -32,6 +48,8 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card2.icon}
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
+                className={textClass}
+                colorMode={colorMode}
               />
             </MotionDivDownToUp>
           </div>
@@ -51,7 +69,8 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card3.icon}
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
-                className="tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px]"
+                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                colorMode={colorMode}
               />
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -59,24 +78,13 @@ export default function FeaturesWithIcons() {
                 icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
+                className={textClass}
+                colorMode={colorMode}
               />
             </MotionDivDownToUp>
           </div>
         </div>
       </SectionWrapper>
-      {/* <div class="custom-shape-divider-bottom-1742562382">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
-            class="shape-fill fill-bgSectionDark"
-          ></path>
-        </svg>
-      </div> */}
     </SectionArea>
   );
 }

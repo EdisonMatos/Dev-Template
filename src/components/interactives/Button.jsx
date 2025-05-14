@@ -18,6 +18,7 @@ export default function Button({
   tagName,
   color,
   animation = true,
+  colorMode,
 }) {
   // Define estilos com base no tamanho
   if (size === "small") {
@@ -32,6 +33,13 @@ export default function Button({
 
   const Animation = animation ? MotionDivDownToUp : "div";
   const CustomTagName = removeAnchor ? "div" : tagName || "a";
+
+  const buttonColors = {
+    dark: "text-white",
+    light: "text-white",
+    default: "text-black", // ou qualquer cor padrão que você quiser
+  };
+  const buttonColor = buttonColors[colorMode] || buttonColors.default;
 
   // Define link final baseado na lógica global
   const shouldRedirectToWhatsapp = !buttonLink && !onClick;
@@ -55,8 +63,12 @@ export default function Button({
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
-              <div className="">{icon}</div>
-              <p className={`flex items-center ${textclassName}`}>{label}</p>
+              <div className={`${buttonColor}`}>{icon} </div>
+              <p
+                className={`flex items-center ${textclassName} ${buttonColor}`}
+              >
+                {label}
+              </p>
             </div>
           </button>
         </MotionDivDownToUp>

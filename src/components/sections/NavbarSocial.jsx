@@ -8,23 +8,22 @@ import { useState, useEffect, useRef } from "react";
 import SidebarSocial from "../sectionElements/SidebarSocial";
 import ListGroupSocial from "../sectionElements/ListGroupSocial";
 
-export default function NavbarSocial({ LightMode }) {
+export default function NavbarSocial({ colorMode }) {
   const navigate = useNavigate();
-
   const [scrolling, setScrolling] = useState(false);
   const [showListGroup, setShowListGroup] = useState(true);
   const [showSidebar, setShowSidebar] = useState(false);
   const [showMenuIcon, setShowMenuIcon] = useState(true);
   const [showSidebarContent, setShowSidebarContent] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [navbarBgWhite, setNavbarBgWhite] = useState(false); // Novo estado
+  const [navbarBgWhite, setNavbarBgWhite] = useState(false);
 
   const sidebarRef = useRef(null);
 
   const handleScroll = () => {
     const isScrolling = window.scrollY > 0;
     setScrolling(isScrolling);
-    setNavbarBgWhite(isScrolling); // Atualiza navbarBgWhite com base no scroll
+    setNavbarBgWhite(isScrolling);
   };
 
   const toggleSidebar = () => {
@@ -79,23 +78,30 @@ export default function NavbarSocial({ LightMode }) {
     };
   }, []);
 
+  const getNavbarClasses = () => {
+    if (colorMode === "light") {
+      return scrolling
+        ? "bg-white shadow-md"
+        : "desktop1:bg-white/20";
+    }
+    if (colorMode === "dark") {
+      return scrolling
+        ? "bg-black shadow-lg border-b-[1px] border-primary"
+        : "bg-gradient-to-b from-black to-transparent border-b-[1px] border-none";
+    }
+    // default
+    return scrolling
+      ? "bg-gradient-to-b from-black to-black bg-opacity-100 shadow-lg border-b-[1px] border-primary"
+      : "bg-gradient-to-b from-black to-transparent border-b-[1px] border-none";
+  };
+
   return (
     <div className="w-full">
-      <div
-        className={`fixed z-20 w-full transition-colors duration-1000 ${
-          LightMode
-            ? scrolling
-              ? "bg-white shadow-md"
-              : "desktop1:bg-black/20"
-            : scrolling
-            ? "bg-gradient-to-b from-black to-black bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
-            : "bg-gradient-to-b from-black to-transparent transition-colors duration-1000 border-b-[1px] border-none "
-        }`}
-      >
+      <div className={`fixed z-20 w-full transition-colors duration-1000 ${getNavbarClasses()}`}>
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer w-[45%] phone2:w-[50%] phone3:w-[45%] tablet1:w-[30%] tablet2:w-[25%] desktop1:w-[25%] desktop2:max-w-[200px]"
+            className="cursor-pointer w-[60%] phone2:w-[70%] phone3:w-[55%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[25%] desktop2:max-w-[250px]"
             spy={true}
             smooth={true}
             duration={500}
@@ -105,42 +111,32 @@ export default function NavbarSocial({ LightMode }) {
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
-              className={`${
-                LightMode
-                  ? scrolling
-                    ? "bg-transparent w-[80%] tablet1:w-[70%] tablet2:w-[80%] desktop1:w-[70%] px-3 py-3 desktop2:w-[80%] transition-all duration-1000"
-                    : " w-full my-[20px] phone3:max-w-[180px] tablet1:w-[90%] desktop1:w-[80%] desktop2:w-[90%] px-3 py-3 transition-all duration-1000"
-                  : scrolling
-                  ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[80%] tablet2:w-[70%] desktop1:w-[80%] desktop2:w-[80%] transition-all duration-1000"
-                  : "bg-transparent my-[20px] w-full transition-all duration-1000"
-              } tablet3:mb-0`}
+              className={`bg-transparent ${
+                scrolling
+                  ? "w-[90%] tablet1:w-[80%] tablet2:w-[80%] desktop1:w-[90%] desktop2:w-[90%]"
+                  : "my-[20px] w-full"
+              } transition-all duration-1000 tablet3:mb-0`}
             />
           </ScrollLink>
+
           <div className="flex items-center justify-between gap-[16px]">
-            <div
-              className={`hidden tablet1:flex desktop1:hidden ${
-                scrolling ? "" : ""
-              }`}
-            >
+            <div className="hidden tablet1:flex desktop1:hidden">
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
-                className={`${scrolling ? "" : ""}`}
                 size="small"
                 icon={<FaWhatsapp />}
               />
             </div>
-            <div
-              className={`flex items-center desktop1:hidden ${
-                scrolling ? "" : ""
-              }`}
-            >
-              <SidebarSocial LightMode={LightMode} />
+            <div className="flex items-center desktop1:hidden">
+              <SidebarSocial colorMode={colorMode} />
             </div>
           </div>
-          {showListGroup && <ListGroupSocial LightMode={LightMode} />}{" "}
+
+          {showListGroup && <ListGroupSocial colorMode={colorMode} />}
         </Navbar>
       </div>
     </div>
   );
 }
+

@@ -8,16 +8,30 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 
-export default function FeaturesParagraphs({ modal }) {
+export default function FeaturesParagraphs({ modal, colorMode }) {
+  // Classes de tema
+  const bgClasses = {
+    dark: "bg-[#1C1C1C]",
+    light: "bg-[#F2F2F2]",
+    default: "bg-white",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "bg-black",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const textClass = textClasses[colorMode] || textClasses.default;
   return (
     <>
-      <SectionArea id="service" className="">
+      <SectionArea id="service" className={`${bgClass} `}>
         <SectionHeader
           className="text-center"
           miniTitle={content.texts.features.miniTag}
           sectionHeaderTitle={content.texts.features.title}
           sectionHeaderSubtitle={content.texts.features.subtitle}
-          color="dark"
+          titleColorSet={textClass}
+          subtitleColorSet={textClass}
         />
 
         <SectionWrapper>
@@ -29,6 +43,7 @@ export default function FeaturesParagraphs({ modal }) {
                   title={content.texts.features.card1.title}
                   paragraph={content.texts.features.card1.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
                 />
                 <Button
                   size="small"
@@ -59,6 +74,7 @@ export default function FeaturesParagraphs({ modal }) {
                   title={content.texts.features.card2.title}
                   paragraph={content.texts.features.card2.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
                 />
                 <Button
                   size="small"
@@ -89,6 +105,7 @@ export default function FeaturesParagraphs({ modal }) {
                   title={content.texts.features.card3.title}
                   paragraph={content.texts.features.card3.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
                 />
                 <Button
                   size="small"
@@ -119,6 +136,7 @@ export default function FeaturesParagraphs({ modal }) {
                   title={content.texts.features.card4.title}
                   paragraph={content.texts.features.card4.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
                 />
                 <Button
                   size="small"
