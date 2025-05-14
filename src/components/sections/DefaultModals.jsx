@@ -26,7 +26,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
 
   const bgClasses = {
     dark: "bg-[#252525]",
-    light: "bg-[#ABABAB]",
+    light: "bg-[#F2F2F2]",
     default: "bg-red-900",
   };
   const textClasses = {

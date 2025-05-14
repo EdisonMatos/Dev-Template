@@ -12,7 +12,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
   // Classes de tema
   const bgClasses = {
     dark: "bg-[#252525]",
-    light: "bg-[#ABABAB]",
+    light: "bg-[#F2F2F2]",
     default: "bg-white",
   };
   const textClasses = {

@@ -10,14 +10,22 @@ export default function Cta({ colorMode = "default" }) {
   const navigate = useNavigate();
 
   // Definir classes de tema
-  const bgClasses = { dark: "bg-[#252525]", light: "bg-[#ABABAB]", default: "bg-white" };
-  const textClasses = { dark: "text-white", light: "text-black", default: "text-black" };
+  const bgClasses = {
+    dark: "bg-[#252525]",
+    light: "bg-[#F2F2F2]",
+    default: "bg-white",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-black",
+  };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
 
   return (
     <>
-      <SectionArea className={`${bgClass}`}>  
+      <SectionArea className={`${bgClass}`}>
         <SectionWrapper>
           <SectionHeader
             className={`text-center ${textClass}`}
