@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../styles/shapeDivs.css";
 import Cta from "../components/sections/Cta";
 import Faq from "../components/sections/Faq";
@@ -14,44 +13,11 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 
 export default function Index() {
-  const [colorMode, setColorMode] = useState();
-
-  const toggleColorMode = () => {
-    setColorMode((prevMode) => {
-      if (prevMode === "default") return "light";
-      if (prevMode === "light") return "dark";
-      return "default";
-    });
-  };
-
-  const setToDefault = () => setColorMode("default");
-  const setToLight = () => setColorMode("light");
-  const setToDark = () => setColorMode("dark");
+  // Altere esta constante para: 'default', 'light' ou 'dark'
+  const colorMode = "dark";
 
   return (
     <>
-      {/* Botões para trocar o modo de cor */}
-      <div className="fixed top-4 right-4 z-50 flex gap-2">
-        <button
-          onClick={setToDefault}
-          className="px-2 py-1 bg-gray-400 text-white rounded"
-        >
-          Default
-        </button>
-        <button
-          onClick={setToLight}
-          className="px-2 py-1 bg-white text-black border rounded"
-        >
-          Light
-        </button>
-        <button
-          onClick={setToDark}
-          className="px-2 py-1 bg-black text-white rounded"
-        >
-          Dark
-        </button>
-      </div>
-
       <Navbar colorMode={colorMode} />
       <Hero
         colorMode={colorMode}
