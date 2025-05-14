@@ -36,6 +36,7 @@ export default function About({ modal = true, showGallery = false, colorMode}) {
             sectionHeaderSubtitle={content.texts.about.subtitle}
             color={colorMode}
             type="article"
+
             titleColorSet={titleColor}
             subtitleColorSet={subtitleColor}
           />

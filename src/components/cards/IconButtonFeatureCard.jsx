@@ -26,6 +26,7 @@ export default function IconButtonFeatureCard(props) {
       <h1 className={`h-auto font-bold font-mainFont text-title1 text-center mb-[16px] ${textClass}`}>  
         {title}
       </h1>
+
       <p className={`text-center opacity-70 font-mainFont w-[90%] pb-4 ${textClass}`}>  
         {paragraph}
       </p>

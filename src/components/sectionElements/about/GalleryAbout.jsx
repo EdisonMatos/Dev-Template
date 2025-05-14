@@ -32,7 +32,7 @@ function GalleryAbout() {
     },
   ];
   return (
-    <div className="flex bg-white justify-center w-full h-auto rounded-[20px]">
+    <div className="flex bg-bgSectionLight justify-center w-full h-auto rounded-[20px]">
       <MotionDivDownToUp className="relative flex justify-center w-full ">
         <div className="w-full">
           <ImageGallery

@@ -48,7 +48,7 @@ export default function SidebarSocial({ colorMode }) {
       <div
         className={`${
           visible ? "block" : "hidden"
-        } fixed inset-0 bg-black opacity-50 lg:hidden`}
+        } fixed inset-0 bg-colorBlack opacity-50 lg:hidden`}
         onClick={toggleSidebar}
       />
 
@@ -59,7 +59,7 @@ export default function SidebarSocial({ colorMode }) {
           className={`p-button-rounded p-button-outlined lg:hidden ${
             colorMode
               ? scrolled
-                ? "text-black"
+                ? "text-colorBlack"
                 : "text-primary"
               : "text-primary"
           } w-[40px] h-[40px]`}
@@ -76,6 +76,7 @@ export default function SidebarSocial({ colorMode }) {
             <div
               id="app-sidebar-2"
               className={`${
+
                 colorMode
                   ? "bg-white"
                   : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
@@ -100,6 +101,7 @@ export default function SidebarSocial({ colorMode }) {
                       rounded
                       outlined
                       className={`${
+
                         colorMode
                           ? "text-black"
                           : "h-2rem w-2rem p-[5px] text-white"
@@ -114,6 +116,7 @@ export default function SidebarSocial({ colorMode }) {
                       {submenuVisible && (
                         <ul
                           className={`${
+
                             colorMode
                               ? "text-black"
                               : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"

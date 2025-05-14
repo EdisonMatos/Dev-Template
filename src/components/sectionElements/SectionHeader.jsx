@@ -21,6 +21,7 @@ export default function SectionHeader({
   titleColorSet,
   subtitleColorSet,
 }) {
+
   // Configurações baseadas no colorMode
   switch (colorMode) {
     case "dark":

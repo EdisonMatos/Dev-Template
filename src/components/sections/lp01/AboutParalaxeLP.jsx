@@ -21,8 +21,8 @@ export default function AboutParalaxeLP({ logo }) {
       }}
       id="contact"
     >
-      <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
-        <div className="flex justify-center w-full bg-black bg-opacity-80">
+      <div className="flex justify-center w-full text-colorWhite bg-opacity-10 bg-primary">
+        <div className="flex justify-center w-full bg-colorBlack bg-opacity-80">
           <SectionArea>
             <SectionWrapper>
               <div className="gap-y-[60px] flex flex-col items-center desktop1:flex-row desktop1:w-[100%] desktop1:justify-between desktop1:gap-[80px]">
@@ -39,7 +39,7 @@ export default function AboutParalaxeLP({ logo }) {
                     sectionHeaderTitle={contentLp01.about.sectionHeader.title}
                     color=""
                     type="article"
-                    titleColorSet="text-white"
+                    titleColorSet="text-colorWhite"
                   />
                   <MotionDivDownToUp>
                     <p className="font-mainFont mb-[36px]">

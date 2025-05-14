@@ -20,6 +20,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
 
   return (
     <div
+
       className={`w-full bg-center bg-repeat font-mainFont bg-gradient-to-b ${bgGradient}`}
       id="home"
     >
@@ -31,6 +32,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
               
               {/* MiniTag preta */}
               <MotionDivDownToUp>
+
                 <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4 text-black">
                   <p className="mb-[16px] bg-primary text-paragraph2 rounded-md px-[16px] py-[6px] inline-block">
                     {content.texts.hero.miniTag}
@@ -39,6 +41,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
               </MotionDivDownToUp>
 
               <MotionDivDownToUp>
+
                 <div className={`flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title6 ${titleColor}`}>
                   <h1>{content.texts.hero.title}</h1>
                 </div>
@@ -46,6 +49,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
 
               {/* Subtítulo */}
               <MotionDivDownToUp>
+
                 <div className={`flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5 ${subtitleColor}`}>
                   <p className="mb-[32px]">{content.texts.hero.subtitle}</p>
                 </div>
@@ -68,6 +72,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                   <div className="flex justify-center desktop1:justify-start">
                     <div className="flex flex-col items-center desktop1:flex-row text-primary">
                       {content.texts.hero.obsHero.icon}
+
                       <p className={`ml-[10px] text-center mt-[12px] desktop1:mt-0 ${obsTextColor}`}>
                         {content.texts.hero.obsHero.text}
                       </p>
@@ -79,6 +84,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                 {appDownloadButtons && (
                   <MotionDivDownToUp>
                     <div className="flex flex-col items-center desktop1:items-start">
+
                       <p className={`mb-[20px] mt-[60px] text-center ${descriptionColor}`}>
                         {content.texts.hero.app.description}
                       </p>

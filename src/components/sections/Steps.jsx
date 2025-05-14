@@ -37,6 +37,7 @@ export default function Steps({ colorMode }) {
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             type="article"
+
             titleColorSet={titleColor}
           />
           <SectionHeader
@@ -44,6 +45,7 @@ export default function Steps({ colorMode }) {
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
+
             color={colorMode ? "light" : ""}
             type={colorMode ? "article" : ""}
             colorMode={colorMode}

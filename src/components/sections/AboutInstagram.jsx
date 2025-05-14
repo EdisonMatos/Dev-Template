@@ -50,6 +50,7 @@ export default function AboutInstagram({
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
               type="article"
+
               titleColorSet={textClass}
               subtitleColorSet={textClass}
               

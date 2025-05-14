@@ -14,11 +14,13 @@ import Maps from "../components/sections/Maps";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "default";
+  const colorMode = "light";
 
   return (
     <>
+
       <Navbar colorMode={colorMode} />
+
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}

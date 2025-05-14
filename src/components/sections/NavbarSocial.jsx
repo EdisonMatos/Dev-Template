@@ -97,6 +97,7 @@ export default function NavbarSocial({ colorMode }) {
 
   return (
     <div className="w-full">
+
       <div className={`fixed z-20 w-full transition-colors duration-1000 ${getNavbarClasses()}`}>
         <Navbar>
           <ScrollLink
