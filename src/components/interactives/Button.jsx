@@ -9,7 +9,7 @@ export default function Button({
   onClick,
   buttonLink,
   className,
-  textclassName,
+  textclassName = "",
   size,
   sizeFeatures,
   gap,
@@ -18,25 +18,33 @@ export default function Button({
   tagName,
   color,
   animation = true,
+  colorMode,
 }) {
   // Define estilos com base no tamanho
+  let textSizeClass = "";
   if (size === "small") {
     sizeFeatures = "rounded-[4px] px-[18px] py-[10px]";
-    textclassName = "text-paragraph3 font-secondFont";
+    textSizeClass = "text-paragraph3 font-secondFont";
     gap = "gap-[10px]";
   } else {
     sizeFeatures = "rounded-[8px] px-[30px] py-[16px]";
-    textclassName = "text-paragraph4 font-secondFont";
+    textSizeClass = "text-paragraph4 font-secondFont";
     gap = "gap-[20px]";
   }
 
   const Animation = animation ? MotionDivDownToUp : "div";
   const CustomTagName = removeAnchor ? "div" : tagName || "a";
 
-  // Define link final baseado na lógica global
+  const buttonColors = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-black",
+  };
+  const buttonColor = buttonColors[colorMode] || buttonColors.default;
+
   const shouldRedirectToWhatsapp = !buttonLink && !onClick;
   const finalButtonLink = shouldRedirectToWhatsapp
-    ? getWhatsappLink() // Agora usa a função importada
+    ? getWhatsappLink()
     : buttonLink;
 
   return (
@@ -55,8 +63,10 @@ export default function Button({
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
-              <div className="">{icon}</div>
-              <p className={`flex items-center ${textclassName}`}>{label}</p>
+              {icon && <div className={`${buttonColor}`}>{icon}</div>}
+              <p className={`flex items-center ${textSizeClass} ${textclassName} ${buttonColor}`}>
+                {label}
+              </p>
             </div>
           </button>
         </MotionDivDownToUp>
@@ -69,8 +79,10 @@ export default function Button({
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
-              <div className="">{icon}</div>
-              <p className={`flex items-center ${textclassName}`}>{label}</p>
+              {icon && <div className={`${buttonColor}`}>{icon}</div>}
+              <p className={`flex items-center ${textSizeClass} ${textclassName} ${buttonColor}`}>
+                {label}
+              </p>
             </div>
           </button>
         </div>

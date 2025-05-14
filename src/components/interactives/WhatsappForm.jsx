@@ -160,11 +160,11 @@ const WhatsappForm = () => {
   return (
     <div className=" bg-[#0E2B40] p-6 rounded-[10px] w-full desktop1:w-full h-auto">
       <div className="w-full text-paragraph3 phone3:text-paragraph4 ">
-        {/* <h1 className="w-full mb-2 font-medium text-white">Fale conosco</h1> */}
+        {/* <h1 className="w-full mb-2 font-medium text-colorWhite">Fale conosco</h1> */}
         {/* Nome */}
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
-            <div className="flex items-center justify-center w-12 px-1 bg-white">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
               <CiUser />
             </div>
             <input
@@ -182,7 +182,7 @@ const WhatsappForm = () => {
         {/* Telefone */}
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
-            <div className="flex items-center justify-center w-12 px-1 bg-white">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
               <CiPhone />
             </div>
             <input
@@ -200,7 +200,7 @@ const WhatsappForm = () => {
         {/* Email */}
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
-            <div className="flex items-center justify-center w-12 px-1 bg-white">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
               <CiMail />
             </div>
             <input
@@ -218,7 +218,7 @@ const WhatsappForm = () => {
         {/* Cidade/Estado */}
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
-            <div className="flex items-center justify-center w-12 px-1 bg-white">
+            <div className="flex items-center justify-center w-12 px-1 bg-bgSectionLight">
               <CiGlobe />
             </div>
             <input
@@ -236,7 +236,7 @@ const WhatsappForm = () => {
         {/* Mensagem */}
         <div className="mb-6">
           <div className="flex mb-2 text-gray-500 tablet1:mb-0">
-            <div className="flex items-start justify-center w-12 px-1 bg-white">
+            <div className="flex items-start justify-center w-12 px-1 bg-bgSectionLight">
               <CiChat1 className="mt-[14px]" />
             </div>
             <textarea

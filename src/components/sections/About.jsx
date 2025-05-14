@@ -1,53 +1,52 @@
-import React, { useState } from "react";
+import React from "react";
 import SectionArea from "../sectionElements/SectionArea";
 import "react-image-gallery/styles/css/image-gallery.css";
 import SectionHeader from "../sectionElements/SectionHeader";
 import AboutModal from "../sectionElements/about/AboutModal";
-import content, { abstractions } from "../../content/content";
+import content from "../../content/content";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import GalleryAbout from "../sectionElements/about/GalleryAbout";
 import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
 import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
 
-export default function About({ modal, showGallery }) {
+export default function About({ modal = true, showGallery = false, colorMode}) {
+  // Definir classes de tema
+  const bgClasses = { dark: "bg-black", light: "bg-white", default: "bg-black" };
+  const textClasses = { dark: "text-white", light: "text-black", default: "text-white" };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const titleColor = textClasses[colorMode] || textClasses.default;
+  const subtitleColor = colorMode === "light" ? "text-black/80" : "text-white";
+
   return (
-    <SectionArea id="about" className="bg-bgSectionDark">
+    <SectionArea id="about" className={`${bgClass} transition-colors duration-1000`}>        
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
-        {/* <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          <div
-            style={{
-              backgroundImage: !showGallery
-                ? `url(${content.texts.about.imagem.img})`
-                : "none",
-            }}
-            className="shadow-custom-opacity shadow-black/40 relative bg-top bg-no-repeat bg-cover h-[300px] w-[90%] tablet1:w-full tablet1:h-[690px] desktop1:h-[467px] rounded-xl"
-          >
-            {showGallery && <GalleryAbout />}
-          </div>
-        </MotionDivDownToUp> */}
         <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-black/30">
           <img
             src={content.texts.about.imagem.img}
-            alt={content.texts.about.imagem.img}
+            alt={content.texts.about.imagem.alt}
             className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
           />
         </MotionDivDownToUp>
-
-        <div className="desktop1:w-[550px] desktop2:w-[570px] ">
+        <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <SectionHeader
             className="text-center"
             miniTitle={content.texts.about.miniTag}
             sectionHeaderTitle={content.texts.about.title}
             sectionHeaderSubtitle={content.texts.about.subtitle}
-            color="dark"
+            color={colorMode}
             type="article"
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+
+            titleColorSet={titleColor}
+            subtitleColorSet={subtitleColor}
           />
           <MotionDivDownToUp>
-            {modal ? <ParagraphWithFading /> : <ParagraphSemFading />}
-            {modal && <AboutModal />}
+            {modal ? (
+              <ParagraphWithFading colorMode={colorMode} />
+            ) : (
+              <ParagraphSemFading colorMode={colorMode} />
+            )}
+            {modal && <AboutModal colorMode={colorMode} />}
           </MotionDivDownToUp>
         </div>
       </SectionWrapper>

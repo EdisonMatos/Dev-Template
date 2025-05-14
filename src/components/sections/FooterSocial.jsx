@@ -23,7 +23,7 @@ import EmailSecundarioFooter from "../sectionElements/footer/EmailSecundarioFoot
 import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 
 export default function FooterSocial({
-  LightMode,
+  colorMode,
   addres,
   obs,
   instagram,
@@ -35,20 +35,37 @@ export default function FooterSocial({
   phoneSecundario,
   phoneTerciario,
 }) {
+  // Define estilos com base no colorMode
+  let footerBackground = "";
+  let textColor = "";
+
+  switch (colorMode) {
+    case "dark":
+      footerBackground = "bg-black";
+      textColor = "text-white";
+      break;
+    case "light":
+      footerBackground = "bg-white";
+      textColor = "text-black";
+      break;
+    default:
+      footerBackground =
+        "bg-gradient-to-b from-bgSectionDark to-black bg-cover bg-center bg-no-repeat";
+      textColor = "text-white";
+      break;
+  }
+
   return (
     <footer
-      className={
-        LightMode
-          ? "black"
-          : "bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
-      }
+
+      className={`full gap-y-[42px] font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center ${footerBackground} ${textColor}`}
     >
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         <SectionWrapper className="gap-[42px]">
-          <div className=" w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
+          <div className="w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
               <LogoFooter />
-              <PhoneFooter />
+              <PhoneFooter colorMode={colorMode} />
               {phoneSecundario && <PhoneSecundario />}
               {phoneTerciario && <PhoneTerciario />}
               <EmailFooter />
@@ -56,9 +73,15 @@ export default function FooterSocial({
               {addres && <AdressFooter />}
               {addresSecundario && <AdressSecundarioFooter />}
               <ExpedienteFooter />
-
+              <p>
+                <i>
+                  Atendimento 24h para urgências: Via WhatsApp (fora do horário
+                  comercial e finais de semana)
+                </i>
+              </p>
               {obs && <ObsFooter />}
-            </div>{" "}
+            </div>
+
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <MidTextFooter />
               <ParagrapfFooter />
@@ -74,6 +97,7 @@ export default function FooterSocial({
                 </div>
               </MotionDivDownToUp>
             </div>
+
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <NavegationTextFooter />
               <LinksNavegationFooter />

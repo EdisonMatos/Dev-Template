@@ -5,11 +5,11 @@ import content from "../../../content/content";
 
 const whatsappContactLink = `${content.texts.links.phoneTerciario}`;
 
-function PhoneTerciario({LightMode}) {
+function PhoneTerciario({ colorMode }) {
   return (
     <MotionDivDownToUp>
       <div className="flex full gap-x-[12px] items-center opacity-90">
-        <FaWhatsapp size={24} color={LightMode ? "black" : "white"} />
+        <FaWhatsapp size={24} color={colorMode ? "black" : "white"} />
 
         <a
           href={whatsappContactLink}

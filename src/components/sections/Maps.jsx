@@ -16,37 +16,42 @@ import HowItWorksCard from "../cards/HowItWorksCard";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import WhatsappForm from "../interactives/WhatsappForm";
 
-export default function Maps() {
+export default function Maps({ colorMode }) {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [modalTitle, setModalTitle] = useState("");
 
+  // Classes de tema
+  const bgClasses = {
+    dark: "bg-black",
+    light: "bg-white",
+    default: "bg-black",
+  };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const titleColor = textClasses[colorMode] || textClasses.default;
+
   return (
-    <SectionArea className="bg-bgSectionDark " paddingtop={false}>
-      {/* <SectionHeader
-        className="text-center"
-        miniTitle={content.texts.features.miniTag}
-        sectionHeaderTitle={content.texts.features.title}
-        sectionHeaderSubtitle={content.texts.features.subtitle}
-        color=""
-      /> */}
-      {/* <SectionShapeDiv shapeDivArrow shapeColor="text-white"/> */}
+
+    <SectionArea className={`${bgClass}`} paddingtop={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
         <MotionDivDownToUp className="flex flex-col justify-center w-full">
           <SectionHeader
-            className="text-center "
+            className="text-center"
             miniTitle={content.texts.maps.minitag}
             sectionHeaderTitle={content.texts.maps.title}
             sectionHeaderSubtitle={content.texts.maps.subtitle}
             color="dark"
             type=""
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+
+            titleColorSet={titleColor}
+            subtitleColorSet={titleColor}
           />
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-darker/25 desktop1:bg-center tablet1:w-full rounded-xl">
-            {/* <p className="font-bold mt-[32px] mb-[16px]">
-              Nos encontre no Google Maps
-            </p> */}
             <div className="opacity-90">
               <iframe
                 src={content.texts.maps.embedsrc}
@@ -59,11 +64,6 @@ export default function Maps() {
                 className="rounded-[10px] h-[350px] desktop1:h-[420px]"
               />
             </div>
-            {/* <img
-              alt="Imagem de efeito pontilhado"
-              src={imgPoints}
-              className="absolute opacity-30 right-[-10px] top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-            ></img> */}
           </div>
         </MotionDivDownToUp>
       </SectionWrapper>

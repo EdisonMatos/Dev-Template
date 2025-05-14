@@ -34,7 +34,7 @@ const ServicesModal = () => {
         label={content.texts.features.card4.servicesButton}
         icon={content.texts.features.card4.servicesIconButton}
         onClick={() => setVisible(true)}
-        className="bg-black text-secondary "
+        className="bg-colorBlack text-secondary "
       />
 
       <Dialog

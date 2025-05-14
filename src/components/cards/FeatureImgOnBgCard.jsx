@@ -16,8 +16,8 @@ export default function FeatureImgOnBgCard(props) {
         className="w-full h-[464px] rounded-2xl flex flex-col justify-end bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${bgImg})` }}
       >
-        <div className="flex items-end w-full h-full bg-black bg-opacity-10 rounded-2xl">
-          <MotionDivDownToUp className="w-full h-auto bg-white rounded-2xl mx-[10px] mb-[10px] p-[20px] gap-[18px] flex flex-col">
+        <div className="flex items-end w-full h-full bg-colorBlack bg-opacity-10 rounded-2xl">
+          <MotionDivDownToUp className="w-full h-auto bg-bgSectionLight rounded-2xl mx-[10px] mb-[10px] p-[20px] gap-[18px] flex flex-col">
             <h1 className="font-mainFont font-medium text-[26px] desktop1:text-paragraph5 desktop2:text-[26px]">
               {title}
             </h1>
