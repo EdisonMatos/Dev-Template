@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Valéria Candal ",
+  name: "Dra. Janaina Cristine ",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "valeriacandal.adv.br", // Sem "www"
+  domain: "janainacristine.com.br", // Sem "www"
   phone: {
-    ddd: "51",
-    firstPart: "99327", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2477", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "99236", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0610", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -91,8 +91,8 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à sexta-feira:</p>
-      <p>A_Definirh</p>
+      <p>Segunda a sexta-feira:</p>
+      <p>8h às 18h</p>
     </div>
   ),
 
@@ -102,7 +102,7 @@ export const infos = {
       <i>A_Definir</i>
     </span>
   ),
-  instagramProfile: "A_Definir", // Sem o @
+  instagramProfile: "janaina_cristine_advogada", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
