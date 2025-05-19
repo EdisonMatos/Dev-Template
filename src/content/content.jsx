@@ -133,7 +133,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Ainda acha que precisa de juiz
-          <span className="text-primary">para fazer inventário?</span>
+          <span className="text-primary"> para fazer inventário?</span>
         </h1>
       ),
       subtitle:

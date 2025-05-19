@@ -45,7 +45,7 @@ export default function Index() {
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
