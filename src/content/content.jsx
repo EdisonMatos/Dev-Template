@@ -132,8 +132,8 @@ const content = {
       miniTag: "ADVOGADA DE FAMÍLIA EM BRASÍLIA - DF",
       title: (
         <h1 className="mb-[16px]">
-          Ainda acha que precisa de juiz
-          <span className="text-primary"> para fazer inventário?</span>
+          Ainda acha que precisa de
+          <span className="text-primary"> juiz para fazer inventário?</span>
         </h1>
       ),
       subtitle:
