@@ -611,24 +611,26 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Quem pode fazer inventário extrajudicial?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "O inventário extrajudicial pode ser feito quando todos os herdeiros estão de acordo, são maiores de idade e o falecido deixou bens a serem partilhados. É necessário o acompanhamento de um advogado.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Quanto tempo leva para concluir o inventário em cartório?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Quando toda a documentação está correta e há consenso entre os herdeiros, o processo pode ser concluído em poucas semanas — geralmente entre 30 e 60 dias.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question:
+            "Quais documentos são necessários para iniciar o inventário?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "É preciso apresentar documentos do falecido, dos herdeiros, certidões, comprovantes de bens, dívidas, certidão de óbito, certidão de casamento, entre outros. Durante a consulta, indicaremos a lista completa.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question:
+            "É possível fazer o inventário mesmo com dívidas deixadas pelo falecido?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Sim. O inventário extrajudicial pode ser realizado mesmo com dívidas. Nesse caso, elas são apuradas e, se necessário, quitadas com os bens do espólio.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
