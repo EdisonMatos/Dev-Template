@@ -466,28 +466,68 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA JANAÍNA CRISTINE",
+      title: "Minha trajetória",
+      subtitle:
+        "Ajudando famílias a resolver conflitos com empatia e compromisso ético.",
       labelInstagram: "A_Definir no Instagram",
       labelFacebook: "A_Definir no Facebook",
       labelLinkedin: "A_Definir no LinkedIn",
       labelX: "A_Definir no X",
-      paragraph: <div>A_Definir</div>,
+      paragraph: (
+        <div>
+          {" "}
+          <p>
+            Fundei meu escritório com o propósito de ajudar famílias a
+            enfrentarem, com mais tranquilidade, um dos momentos mais delicados
+            da vida: a perda de um ente querido.
+            <br />
+            <br />
+            Sei que, além das questões legais, existem emoções, lembranças e,
+            muitas vezes, conflitos que tornam o processo de inventário ainda
+            mais difícil. Por isso, escolhi me dedicar ao inventário
+            extrajudicial, buscando sempre oferecer um atendimento próximo,
+            claro e resolutivo.
+          </p>
+        </div>
+      ),
       buttonModalLabelAbout: "Continuar lendo",
       modalCtaButton: "Quer saber mais? Clique abaixo 👇",
       modal: (
         <p>
-          A_Definir
+          Fundei meu escritório com o propósito de ajudar famílias a
+          enfrentarem, com mais tranquilidade, um dos momentos mais delicados da
+          vida: a perda de um ente querido.
           <br />
           <br />
-          A_Definir
+          Sei que, além das questões legais, existem emoções, lembranças e,
+          muitas vezes, conflitos que tornam o processo de inventário ainda mais
+          difícil. Por isso, escolhi me dedicar ao inventário extrajudicial,
+          buscando sempre oferecer um atendimento próximo, claro e resolutivo.
           <br />
           <br />
-          A_Definir
+          Atuo com ética, empatia e compromisso, prezando pela qualidade em cada
+          etapa do processo.
           <br />
           <br />
-          A_Definir
+          Desde a reunião inicial até a finalização da partilha de bens, oriento
+          meus clientes com clareza e cuidado, garantindo que tudo seja feito
+          com segurança jurídica e dentro do que a legislação exige.
+          <br />
+          <br />
+          Acredito que meu papel vai além da parte técnica. É preciso escutar,
+          acolher e, quando necessário, mediar conversas entre os familiares
+          para que todos se sintam respeitados.
+          <br />
+          <br />
+          Meu objetivo é que cada cliente se sinta seguro, bem atendido e
+          confiante de que está fazendo o certo — tanto juridicamente quanto
+          emocionalmente.
+          <br />
+          <br />
+          Quero que meu escritório seja lembrado como um espaço acessível,
+          moderno e preparado para lidar com situações delicadas com
+          sensibilidade, respeito e profissionalismo.
           <br />
           <br />
         </p>
@@ -501,14 +541,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "A_Definir no Instagram",
-        labelFacebook: "A_Definir no Facebook",
-        labelLinkedin: "A_Definir no LinkedIn",
-        labelX: "A_Definir no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
