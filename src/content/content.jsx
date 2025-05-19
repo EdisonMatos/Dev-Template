@@ -189,15 +189,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREA DE ATUAÇÃO",
+      title: "Especialização em Inventário Extrajudicial",
+      subtitle:
+        "Soluções rápidas e seguras para a regularização do patrimônio familiar.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Agilidade no processo",
+        subtitle:
+          "O inventário extrajudicial é mais rápido, permitindo a conclusão do procedimento em poucos dias, quando a documentação está correta.",
         description: (
           <div>
             A_Definir
@@ -233,8 +235,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Menos Burocracia",
+        subtitle:
+          "O processo é realizado diretamente em cartório, sem a necessidade de ação judicial, o que reduz etapas e evita desgaste.",
         description: (
           <div>
             A_Definir
@@ -269,8 +272,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Atendimento com clareza e respeito",
+        subtitle:
+          "Cada orientação é feita com atenção às necessidades da família, esclarecendo dúvidas e conduzindo o processo com sensibilidade.",
         description: (
           <div>
             A_Definir <br />
@@ -305,8 +309,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Segurança na partilha de bens",
+        subtitle:
+          "Todos os bens são formalmente regularizados, garantindo segurança jurídica e prevenindo problemas futuros entre os herdeiros.",
         description: (
           <div>
             A_Definir
