@@ -57,7 +57,6 @@ export default function FooterSocial({
 
   return (
     <footer
-
       className={`full gap-y-[42px] font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center ${footerBackground} ${textColor}`}
     >
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
@@ -73,12 +72,6 @@ export default function FooterSocial({
               {addres && <AdressFooter />}
               {addresSecundario && <AdressSecundarioFooter />}
               <ExpedienteFooter />
-              <p>
-                <i>
-                  Atendimento 24h para urgências: Via WhatsApp (fora do horário
-                  comercial e finais de semana)
-                </i>
-              </p>
               {obs && <ObsFooter />}
             </div>
 

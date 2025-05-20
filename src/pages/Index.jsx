@@ -14,7 +14,7 @@ import Maps from "../components/sections/Maps";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "light";
+  const colorMode = "default";
 
   return (
     <>
@@ -42,13 +42,10 @@ export default function Index() {
         colorMode={colorMode}
         socialPrint={true}
         instagram={true}
-        facebook={true}
-        linkedin={false}
-        x={false}
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
@@ -58,7 +55,6 @@ export default function Index() {
         emailSecundario={false}
         addresSecundario={false}
         instagram={true}
-        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

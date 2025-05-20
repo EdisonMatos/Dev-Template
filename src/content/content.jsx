@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Valéria Candal ",
+  name: "Dra. Janaina Cristine ",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "valeriacandal.adv.br", // Sem "www"
+  domain: "janainacristine.com.br", // Sem "www"
   phone: {
-    ddd: "51",
-    firstPart: "99327", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2477", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "99236", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0610", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -91,8 +91,8 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à sexta-feira:</p>
-      <p>A_Definirh</p>
+      <p>Segunda a sexta-feira:</p>
+      <p>8h às 18h</p>
     </div>
   ),
 
@@ -102,7 +102,7 @@ export const infos = {
       <i>A_Definir</i>
     </span>
   ),
-  instagramProfile: "A_Definir", // Sem o @
+  instagramProfile: "janaina_cristine_advogada", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -129,20 +129,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADA DE FAMÍLIA EM BRASÍLIA - DF",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary">A_Definir</span>
+          Ainda acha que precisa de
+          <span className="text-primary"> juiz para fazer inventário?</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Conheça a alternativa rápida, legal e segura para resolver tudo em cartório.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Resolva isso sem processo",
       obsHero: {
         icon: (
           <svg
@@ -162,7 +163,12 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: (
+          <p>
+            Atendimento online para todo Brasil{" "}
+            <i>(Presencial sob agendamento)</i>
+          </p>
+        ),
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -188,15 +194,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREA DE ATUAÇÃO",
+      title: "Especialização em Inventário Extrajudicial",
+      subtitle:
+        "Soluções rápidas e seguras para a regularização do patrimônio familiar.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Agilidade no processo",
+        subtitle:
+          "O inventário extrajudicial é mais rápido, permitindo a conclusão do procedimento em poucos dias, quando a documentação está correta.",
         description: (
           <div>
             A_Definir
@@ -232,8 +240,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Menos Burocracia",
+        subtitle:
+          "O processo é realizado diretamente em cartório, sem a necessidade de ação judicial, o que reduz etapas e evita desgaste.",
         description: (
           <div>
             A_Definir
@@ -255,12 +264,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -268,8 +278,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Atendimento com clareza e respeito",
+        subtitle:
+          "Cada orientação é feita com atenção às necessidades da família, esclarecendo dúvidas e conduzindo o processo com sensibilidade.",
         description: (
           <div>
             A_Definir <br />
@@ -304,8 +315,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Segurança na partilha de bens",
+        subtitle:
+          "Todos os bens são formalmente regularizados, garantindo segurança jurídica e prevenindo problemas futuros entre os herdeiros.",
         description: (
           <div>
             A_Definir
@@ -459,28 +471,68 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA JANAÍNA CRISTINE",
+      title: "Minha trajetória",
+      subtitle:
+        "Ajudando famílias a resolver conflitos com empatia e compromisso ético.",
       labelInstagram: "A_Definir no Instagram",
       labelFacebook: "A_Definir no Facebook",
       labelLinkedin: "A_Definir no LinkedIn",
       labelX: "A_Definir no X",
-      paragraph: <div>A_Definir</div>,
+      paragraph: (
+        <div>
+          {" "}
+          <p>
+            Fundei meu escritório com o propósito de ajudar famílias a
+            enfrentarem, com mais tranquilidade, um dos momentos mais delicados
+            da vida: a perda de um ente querido.
+            <br />
+            <br />
+            Sei que, além das questões legais, existem emoções, lembranças e,
+            muitas vezes, conflitos que tornam o processo de inventário ainda
+            mais difícil. Por isso, escolhi me dedicar ao inventário
+            extrajudicial, buscando sempre oferecer um atendimento próximo,
+            claro e resolutivo.
+          </p>
+        </div>
+      ),
       buttonModalLabelAbout: "Continuar lendo",
       modalCtaButton: "Quer saber mais? Clique abaixo 👇",
       modal: (
         <p>
-          A_Definir
+          Fundei meu escritório com o propósito de ajudar famílias a
+          enfrentarem, com mais tranquilidade, um dos momentos mais delicados da
+          vida: a perda de um ente querido.
           <br />
           <br />
-          A_Definir
+          Sei que, além das questões legais, existem emoções, lembranças e,
+          muitas vezes, conflitos que tornam o processo de inventário ainda mais
+          difícil. Por isso, escolhi me dedicar ao inventário extrajudicial,
+          buscando sempre oferecer um atendimento próximo, claro e resolutivo.
           <br />
           <br />
-          A_Definir
+          Atuo com ética, empatia e compromisso, prezando pela qualidade em cada
+          etapa do processo.
           <br />
           <br />
-          A_Definir
+          Desde a reunião inicial até a finalização da partilha de bens, oriento
+          meus clientes com clareza e cuidado, garantindo que tudo seja feito
+          com segurança jurídica e dentro do que a legislação exige.
+          <br />
+          <br />
+          Acredito que meu papel vai além da parte técnica. É preciso escutar,
+          acolher e, quando necessário, mediar conversas entre os familiares
+          para que todos se sintam respeitados.
+          <br />
+          <br />
+          Meu objetivo é que cada cliente se sinta seguro, bem atendido e
+          confiante de que está fazendo o certo — tanto juridicamente quanto
+          emocionalmente.
+          <br />
+          <br />
+          Quero que meu escritório seja lembrado como um espaço acessível,
+          moderno e preparado para lidar com situações delicadas com
+          sensibilidade, respeito e profissionalismo.
           <br />
           <br />
         </p>
@@ -494,49 +546,56 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "A_Definir no Instagram",
-        labelFacebook: "A_Definir no Facebook",
-        labelLinkedin: "A_Definir no LinkedIn",
-        labelX: "A_Definir no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Conversamos para entender a situação da família, esclarecer dúvidas e verificar se o inventário pode ser feito em cartório.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Reunião de alinhamento com os herdeiros",
+          cardDescription:
+            "A_DeOrganizamos uma conversa com todos os envolvidos para buscar acordo e reunir a documentação necessária.finir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Preparação da documentação",
+          cardDescription:
+            "Reunimos certidões, documentos pessoais, lista de bens e outros dados exigidos para o processo de inventário.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Formalização no cartório",
+          cardDescription:
+            "Acompanhamos todo o trâmite no cartório até a lavratura da escritura pública, garantindo agilidade e segurança.",
         },
       },
     },
@@ -557,24 +616,26 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Quem pode fazer inventário extrajudicial?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "O inventário extrajudicial pode ser feito quando todos os herdeiros estão de acordo, são maiores de idade e o falecido deixou bens a serem partilhados. É necessário o acompanhamento de um advogado.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Quanto tempo leva para concluir o inventário em cartório?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Quando toda a documentação está correta e há consenso entre os herdeiros, o processo pode ser concluído em poucas semanas — geralmente entre 30 e 60 dias.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question:
+            "Quais documentos são necessários para iniciar o inventário?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "É preciso apresentar documentos do falecido, dos herdeiros, certidões, comprovantes de bens, dívidas, certidão de óbito, certidão de casamento, entre outros. Durante a consulta, indicaremos a lista completa.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question:
+            "É possível fazer o inventário mesmo com dívidas deixadas pelo falecido?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Sim. O inventário extrajudicial pode ser realizado mesmo com dívidas. Nesse caso, elas são apuradas e, se necessário, quitadas com os bens do espólio.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
