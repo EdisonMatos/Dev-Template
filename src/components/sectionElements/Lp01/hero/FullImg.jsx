@@ -5,7 +5,7 @@ import Button from "../../../interactives/Button";
 import contentLp01 from "../../../../content/contentLp01";
 import { useNavigate } from "react-router-dom";
 
-function FullImg() {
+function FullImg({ obs }) {
   const navigate = useNavigate();
 
   return (
@@ -49,7 +49,6 @@ function FullImg() {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            onClick={() => navigate("/whatsapp")}
                             animation
                             className="w-[100%] "
                             icon={
@@ -67,16 +66,18 @@ function FullImg() {
                           />
                         </MotionDivDownToUp>
                       </div>
-                      <MotionDivDownToUp>
-                        <div className="flex justify-center mt-12 desktop1:justify-start">
-                          <div className="flex flex-col items-center desktop1:flex-row text-primary">
-                            {contentLp01.hero.textArea.obsHero.icon}
-                            <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
-                              {contentLp01.hero.textArea.obsHero.text}{" "}
-                            </p>
+                      {obs && (
+                        <MotionDivDownToUp>
+                          <div className="flex justify-center mt-12 desktop1:justify-start">
+                            <div className="flex flex-col items-center desktop1:flex-row text-primary">
+                              {contentLp01.hero.textArea.obsHero.icon}
+                              <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                                {contentLp01.hero.textArea.obsHero.text}{" "}
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                      </MotionDivDownToUp>
+                        </MotionDivDownToUp>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -129,7 +130,6 @@ function FullImg() {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            onClick={() => navigate("/whatsapp")}
                             animation
                             className="w-[100%] text-colorBlack"
                             icon={
@@ -147,16 +147,18 @@ function FullImg() {
                           />
                         </MotionDivDownToUp>
                       </div>
-                      <MotionDivDownToUp>
-                        <div className="flex justify-center mt-12 desktop1:justify-start">
-                          <div className="flex flex-col items-center desktop1:flex-row text-primary">
-                            {contentLp01.hero.textArea.obsHero.icon}
-                            <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
-                              {contentLp01.hero.textArea.obsHero.text}{" "}
-                            </p>
+                      {obs && (
+                        <MotionDivDownToUp>
+                          <div className="flex justify-center mt-12 desktop1:justify-start">
+                            <div className="flex flex-col items-center desktop1:flex-row text-primary">
+                              {contentLp01.hero.textArea.obsHero.icon}
+                              <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                                {contentLp01.hero.textArea.obsHero.text}{" "}
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                      </MotionDivDownToUp>
+                        </MotionDivDownToUp>
+                      )}
                     </div>
                   </div>
                 </div>

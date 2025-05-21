@@ -18,7 +18,7 @@ export default function AboutParalaxeLP() {
       }}
       id="contact"
     >
-      <div className="flex justify-center w-full text-colorWhite bg-opacity-10 bg-primary">
+      <div className="flex justify-center w-full text-white bg-opacity-10 bg-primary">
         <div className="flex justify-center w-full bg-colorBlack bg-opacity-80">
           <SectionArea className="">
             <SectionWrapper>
@@ -28,14 +28,13 @@ export default function AboutParalaxeLP() {
                 sectionHeaderTitle={contentLp01.cta.sectionHeader.title}
                 sectionHeaderSubtitle={contentLp01.cta.sectionHeader.subtitle}
                 color=""
-                titleColorSet="text-colorWhite"
-                subtitleColorSet="text-colorWhite"
+                titleColorSet="text-white"
+                subtitleColorSet="text-white"
               />
               <MotionDivDownToUp>
                 <Button
                   aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                   label={contentLp01.cta.buttonLabel}
-                  onClick={() => navigate("/whatsapp")}
                   animation
                   icon={
                     <svg

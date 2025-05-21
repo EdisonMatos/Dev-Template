@@ -130,14 +130,17 @@ const contentLp01 = {
         diferenciadas, fundamentadas em respeito, confiança, organização e
         rentabilidade.
         <br />
+        <br />
         Com processos transparentes, métodos objetivos e estratégias eficientes,
         oferecemos uma assessoria personalizada, pensada para atender com
         precisão às necessidades exclusivas de nossos clientes e parceiros.
+        <br />
         <br />
         Nossa abordagem é humanizada e estratégica, combinando iniciativa,
         criatividade e profissionalismo para impulsionar resultados superiores e
         consistentes. Mais do que soluções, entregamos valor real e duradouro,
         cultivando relacionamentos sólidos e sustentáveis.
+        <br />
         <br />
         Juntos, vamos além das expectativas — construindo confiança, gerando
         resultados.

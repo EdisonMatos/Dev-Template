@@ -39,10 +39,10 @@ export default function AboutParalaxeLP({ logo }) {
                     sectionHeaderTitle={contentLp01.about.sectionHeader.title}
                     color=""
                     type="article"
-                    titleColorSet="text-colorWhite"
+                    titleColorSet="text-white"
                   />
                   <MotionDivDownToUp>
-                    <p className="font-mainFont mb-[36px]">
+                    <p className="font-mainFont mb-[36px] text-white">
                       {contentLp01.about.paragraph}
                     </p>
                   </MotionDivDownToUp>
@@ -53,7 +53,6 @@ export default function AboutParalaxeLP({ logo }) {
                           contentLp01.hero.textArea.ctaButtonAriaLabel
                         }
                         label={contentLp01.about.buttonLabel}
-                        onClick={() => navigate("/whatsapp")}
                         animation
                         className=""
                         icon={
