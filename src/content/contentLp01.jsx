@@ -14,12 +14,9 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title:
-      "Gagliardi Advogados. Isenção e Restituição do Imposto de Renda para Aposentados e Pensionistas | São Vicente - SP",
-    description:
-      "Aposentados, pensionistas e militares da reserva com doenças graves podem ter direito à isenção e restituição do Imposto de Renda. Gagliardi Advogados, em São Vicente - SP, oferece suporte jurídico especializado para garantir seus direitos de forma segura e eficiente.",
-    keywords:
-      "Isenção de Imposto de Renda, Restituição de Imposto de Renda, Isenção para Aposentados, Isenção para Pensionistas, Isenção para Militares da Reserva, Restituição para Servidores Aposentados, Direito Tributário para Aposentados, Imposto de Renda Doença Grave, Advogado Especialista em IR, Gagliardi Advogados, Gagliardi Advogados São Vicente, Isenção de IR São Vicente, Restituição de IR São Vicente, Advogado Tributário São Vicente, Imposto de Renda para Doença Grave, Restituição de IR para Pensionistas, Isenção de IR para Militares, Direito Tributário Aposentados SP, Isenção de IR com Laudo Médico, Advocacia Especializada em IR.",
+    title: "A_Definir",
+    description: "A_Definir",
+    keywords: "A_Definir",
   },
   hero: {
     bgImg: bgImg,
@@ -28,15 +25,9 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     textArea: {
-      title: (
-        <h1>
-          Isenção de Imposto de Renda e restituição de até 5 anos{" "}
-          <span className="text-lpTitle"> dos valores pagos!</span>{" "}
-        </h1>
-      ),
-      subtitle:
-        "Militares da Reserva, pensionistas e servidores aposentados que possuem doença grave podem ter esse direito.",
-      buttonLabel: "Solicite sua isenção agora",
+      title: <h1>A_Definir</h1>,
+      subtitle: "A_Definir",
+      buttonLabel: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -56,7 +47,7 @@ const contentLp01 = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A análise é gratuita e sem compromisso",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -64,56 +55,32 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "ISENÇÃO DE IMPOSTO",
-      title:
-        "Você pode ter direito à isenção e restituição do Imposto de Renda! Confira agora.",
+      miniTag: "A_Definir",
+      title: "√",
     },
     cards: {
       card1: {
         icon: <Shield width={32} height={32} color="#4A1215" />,
-        title: "Militar, Servidor Público Aposentado ou Pensionista",
-        description:
-          "Possui alguma das seguintes condições médicas (previstas no Art. 6º da Lei 7.713/88)",
+        title: "A_Definir",
+        description: "A_Definir",
         modal1: {
           title: <p></p>,
-          subtitle: (
-            <p>
-              - AIDS (Síndrome da Imunodeficiência Adquirida) <br />
-              - Alienação mental <br />
-              - Cardiopatia grave <br />
-              - Cegueira (inclusive monocular)
-              <br />
-              - Contaminação por radiação <br />
-              - Doença de Paget em estágio avançado <br />
-              - Doença de Parkinson <br />
-              - Esclerose múltipla <br />
-              - Espondiloartrose anquilosante <br />
-              - Fibrose cística <br />
-              - Hanseníase <br />
-              - Nefropatia grave
-              <br />
-              - Hepatopatia grave <br />
-              - Neoplasia maligna (câncer) <br />
-              - Paralisia irreversível e incapacitante <br />- Tuberculose ativa
-            </p>
-          ),
+          subtitle: <p>A_Definir</p>,
         },
       },
       card2: {
         icon: <File width={32} height={32} color="#4A1215" />,
-        title: "Requisitos para isenção e restituição",
-        description:
-          "Comprovação com laudo e exames, sendo aposentado, pensionista, servidor, militar ou beneficiário de previdência privada.",
+        title: "A_Definir",
+        description: "A_Definir",
         modal2: {
-          title: <p>Requisitos para isenção e restituição</p>,
+          title: <p>A_Definir</p>,
           subtitle: <p></p>,
         },
       },
       card3: {
         icon: <Banknote width={32} height={32} color="#4A1215" />,
-        title: "Restituição de valores pagos",
-        description:
-          "Se você pagou imposto indevidamente, também é possível recuperar esses valores.",
+        title: "A_Definir",
+        description: "A_Definir",
         modal3: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -121,9 +88,8 @@ const contentLp01 = {
       },
       card4: {
         icon: <Scale width={32} height={32} color="#4A1215" />,
-        title: "Suporte jurídico especializado",
-        description:
-          "Conte com um advogado especializado para assegurar sua isenção e restituição com segurança e eficiência.",
+        title: "A_Definir",
+        description: "A_Definir",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -138,81 +104,63 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "ESPECIALISTA EM ISENÇÃO DE IMPOSTO DE RENDA",
-      title: "Isenção e restituição com segurança e agilidade",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
-    paragraph: (
-      <p>
-        Muitos aposentados e pensionistas acabam pagando imposto indevidamente
-        sem saber que têm direito à isenção. Se você possui uma doença grave, ou
-        já se recuperou dela, pode solicitar tanto a isenção quanto a
-        restituição do Imposto de Renda pago nos últimos anos. <br />
-        <br /> Com um atendimento especializado e ágil, buscamos garantir que
-        seus direitos sejam respeitados. Entre em contato e veja como podemos
-        ajudar!
-      </p>
-    ),
-    buttonLabel: "Verifique seu direito à isenção",
-    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+    paragraph: <p>A_Definir</p>,
+    buttonLabel: "A_Definir",
+    ctaButtonAriaLabel: "A_Definir",
   },
   steps: {
-    miniTag: "PASSO-A-PASSO",
-    title: "Como funciona?",
+    miniTag: "A_Definir",
+    title: "A_Definir",
     subtitle: "",
     alt: "",
     cards: {
       card1: {
         stepNumber: 1,
-        cardTitle: "Análise Gratuita",
-        cardDescription:
-          "Envie seus documentos e nossa equipe jurídica verificará se você tem direito.",
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
       },
       card2: {
         stepNumber: 2,
-        cardTitle: "Ação Judicial",
-        cardDescription:
-          "Caso tenha direito, entraremos com a ação para garantir sua isenção e a restituição do que foi pago indevidamente.",
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
       },
       card3: {
         stepNumber: 3,
-        cardTitle: "Dinheiro na Conta",
-        cardDescription:
-          "Após a decisão favorável, você deixa de pagar IR e pode receber valores retroativos!",
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
       },
-      buttonLabel: "Quero transformar minha carreira",
+      buttonLabel: "A_Definir",
       ariaLabel: "Botão de contato",
     },
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A ESCOLHA CERTA",
-      title: "Por que escolher a Gagliardi Advogados?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} color="#4A1215" />,
-        title: "Especialistas em Direito Tributário",
-        description:
-          "Contamos com uma equipe qualificada e experiente em isenção e restituição do Imposto de Renda, garantindo um suporte jurídico completo e atualizado.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card2: {
         icon: <Handshake width={32} height={32} color="#4A1215" />,
-        title: "Atendimento 100% Online, Sem Burocracia",
-        description:
-          "Todo o processo é realizado de forma digital, com praticidade e sem a necessidade de deslocamentos, tornando sua experiência mais ágil e eficiente.",
+        title: "AtA_Definir",
+        description: "A_Definir",
       },
       card3: {
         icon: <BadgeDollarSign width={32} height={32} color="#4A1215" />,
-        title:
-          "Pagamento facilitado (somente após sucesso, conforme contrato!)",
-        description:
-          "Você não precisa se preocupar com pagamentos antecipados. Nosso compromisso é com o resultado, e a remuneração só ocorre após o êxito do processo.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
         icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215" />,
-        title: "Alta taxa de sucesso nas ações",
-        description:
-          "Com ampla experiência na área, nosso escritório já ajudou diversos clientes a conquistarem a isenção e restituição do Imposto de Renda com eficiência e assertividade.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
     },
   },
@@ -227,16 +175,15 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
-      title: "Isenção e restituição sem burocracia!",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: (
         <p className="opacity-80">
-          Não deixe seu dinheiro retido! Reivindique o que é seu por direito e
-          utilize esse valor da melhor forma.
+         A_Definir
         </p>
       ),
     },
-    buttonLabel: "Converse com um especialista agora",
+    buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
