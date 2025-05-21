@@ -3,22 +3,22 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      primary: "#CBA500",
+      primary: "#FFC500",
       secondary: "#000000",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#151515",
-      bgSecondaryLight: "#7F7F7F",
+      bgSectionDark: "#008F39",
       links: "#0189BB",
       buttonColor: "#DBB14C",
-      darker: "#000000", //background black
-      colorWhite: "#FFFFFF", //textos white
-      colorBlack: "#000000" //textos black
+      lighter: "#FFFFFF",
+      darker: "#000000",
+      labelsIcons: "#000000",
     },
     boxShadow: {
-      "custom-opacity": "-20px 20px 0px",
+      "custom-opacity": "-20px 20px 0px", // 30% de opacidade
     },
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
+      // mainFont: ["Poppins", "sans-serif"],
       secondFont: ["Merriweather", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
@@ -35,7 +35,7 @@ export const theme = {
       title4: "1.875rem",
       title5: "2.25rem",
       title6: "3rem",
-      title7: "3.5rem",
+      title7: "3.5rem", // 55px
     },
     spacing: {
       112: "28rem",
@@ -69,4 +69,3 @@ export const theme = {
   },
 };
 // export const plugins = [require("tailwindcss-gradients")];
-
