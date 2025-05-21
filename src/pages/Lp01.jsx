@@ -47,7 +47,7 @@ export default function Lp01() {
       <AboutParalaxeLP logo={true} />
       <StepsLpv />
       <WhyUs />
-      <Vídeo />
+      {/* <Vídeo /> */}
       <CtaLP />
       {/* <Faq /> */}
       <ContactLP />
