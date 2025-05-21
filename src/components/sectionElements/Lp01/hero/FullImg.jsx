@@ -30,12 +30,12 @@ function FullImg() {
                 <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <div className=" desktop1:mt-0">
                     <MotionDivDownToUp className="">
-                      <div className="flex text-colorWhite justify-center desktop1:justify-start font-bold leading-[35px] phone2:leading-[40px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                      <div className="flex text-white justify-center desktop1:justify-start font-bold leading-[35px] phone2:leading-[40px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                         {contentLp01.hero.textArea.title}
                       </div>
                     </MotionDivDownToUp>
                     <MotionDivDownToUp className="">
-                      <div className="flex justify-center text-center text-colorWhite desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                      <div className="flex justify-center text-center text-white desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                         <p className="mb-[40px] opacity-100 [text-shadow:_2px_2px_1px_rgb(0_0_0_/_100%)]">
                           {contentLp01.hero.textArea.subtitle}
                         </p>
@@ -71,7 +71,7 @@ function FullImg() {
                         <div className="flex justify-center mt-12 desktop1:justify-start">
                           <div className="flex flex-col items-center desktop1:flex-row text-primary">
                             {contentLp01.hero.textArea.obsHero.icon}
-                            <p className="text-colorWhite  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                            <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                               {contentLp01.hero.textArea.obsHero.text}{" "}
                             </p>
                           </div>
@@ -110,12 +110,12 @@ function FullImg() {
                   </MotionDivDownToUp>
                   <div className="mt-[30%] phone3:mt-[35%] tablet1:mt-[30px] desktop1:mt-0">
                     <MotionDivDownToUp className="">
-                      <div className="flex text-colorWhite justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-title6 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
+                      <div className="flex text-white justify-center desktop1:justify-start font-bold leading-[45px] phone3:leading-[50px] tablet1:leading-[65px] desktop1:leading-[70px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 desktop1:text-title6 mb-[24px] [text-shadow:_2px_3px_0_rgb(0_0_0_/_50%)]">
                         {contentLp01.hero.textArea.title}
                       </div>
                     </MotionDivDownToUp>
                     <MotionDivDownToUp className="">
-                      <div className="flex justify-center text-center text-colorWhite desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                      <div className="flex justify-center text-center text-white desktop1:text-left desktop1:justify-start phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
                         <p className="mb-[40px] opacity-100 [text-shadow:_2px_2px_1px_rgb(0_0_0_/_100%)]">
                           {contentLp01.hero.textArea.subtitle}
                         </p>
@@ -151,7 +151,7 @@ function FullImg() {
                         <div className="flex justify-center mt-12 desktop1:justify-start">
                           <div className="flex flex-col items-center desktop1:flex-row text-primary">
                             {contentLp01.hero.textArea.obsHero.icon}
-                            <p className="text-colorWhite  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                            <p className="text-white  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                               {contentLp01.hero.textArea.obsHero.text}{" "}
                             </p>
                           </div>

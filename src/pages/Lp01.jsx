@@ -43,9 +43,8 @@ export default function Lp01() {
   return (
     <div>
       <HeroLP fullImg={true} />
-      <FeatureWithModalsLp />
+      <FeaturesLP />
       <AboutParalaxeLP logo={true} />
-      <StepsLpv />
       <WhyUs />
       <CtaLP />
       {/* <Faq /> */}

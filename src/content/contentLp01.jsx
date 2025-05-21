@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp01.jpg";
-import logo from "../assets/imgs/logo/logoLp.png";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
@@ -70,7 +70,7 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: <Shield width={32} height={32} color="#4A1215" />,
+        icon: <Shield width={32} height={32} />,
         title: "Precatório",
         description:
           "Antecipação segura, jurídica e rentável de precatórios federais e estaduais.",
@@ -80,7 +80,7 @@ const contentLp01 = {
         },
       },
       card2: {
-        icon: <File width={32} height={32} color="#4A1215" />,
+        icon: <File width={32} height={32} />,
         title: "Empréstimos Consignados",
         description:
           "Crédito com taxas acessíveis, liberação rápida e atendimento personalizado.",
@@ -90,7 +90,7 @@ const contentLp01 = {
         },
       },
       card3: {
-        icon: <Banknote width={32} height={32} color="#4A1215" />,
+        icon: <Banknote width={32} height={32} />,
         title: "Plataformas Educacionais",
         description:
           "Soluções digitais para ensino moderno, acessível e de alta performance.",
@@ -100,7 +100,7 @@ const contentLp01 = {
         },
       },
       card4: {
-        icon: <Scale width={32} height={32} color="#4A1215" />,
+        icon: <Scale width={32} height={32} />,
         title: "Treinamento de Vendas",
         description:
           "Capacitação estratégica focada em performance, conversão e resultados.",
@@ -178,25 +178,25 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: <Gavel width={32} height={32} color="#4A1215" />,
+        icon: <Gavel width={32} height={32} />,
         title: "Segurança jurídica e confiabilidade",
         description:
           "Operações 100% legais, transparentes e com total respaldo jurídico.",
       },
       card2: {
-        icon: <Handshake width={32} height={32} color="#4A1215" />,
+        icon: <ChartNoAxesCombined width={32} height={32} />,
         title: "Rentabilidade com inteligência",
         description:
           "Soluções inteligentes para maximizar seus ganhos com precatórios.",
       },
       card3: {
-        icon: <BadgeDollarSign width={32} height={32} color="#4A1215" />,
+        icon: <Handshake width={32} height={32} />,
         title: "Atendimento personalizado",
         description:
           "Suporte próximo, humanizado e focado nas suas necessidades.",
       },
       card4: {
-        icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215" />,
+        icon: <BadgeDollarSign width={32} height={32} />,
         title: "Experiência, eficiência e resultados",
         description:
           "Equipe experiente, processos ágeis e resultados consistentes.",
