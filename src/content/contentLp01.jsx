@@ -14,9 +14,12 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title:
+      "MDX CAPITAL | Antecipação de Precatórios com Segurança Jurídica no Brasil",
+    description:
+      "A MDX CAPITAL oferece soluções inteligentes para antecipação de precatórios no Brasil. Atuação transparente, segurança jurídica e atendimento personalizado para transformar seu direito em capital imediato.",
+    keywords:
+      "MDX Capital,Antecipação de Precatórios,Precatórios no Brasil,Segurança Jurídica,Investimento em Precatórios,Antecipação Financeira,Precatórios Federais,Precatórios Estaduais,Assessoria em Precatórios,Compra de Precatórios,Venda de Precatórios,Liquidez para Precatórios,Consultoria Jurídica,Soluções Financeiras,Antecipação Segura,Rentabilidade em Precatórios,Financiamento com Precatórios,MDX Capital Precatórios,Antecipação Rápida,Serviços de Precatórios.",
   },
   hero: {
     bgImg: bgImg,
@@ -177,11 +180,7 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "A_Definir",
       title: "A_Definir",
-      subtitle: (
-        <p className="opacity-80">
-         A_Definir
-        </p>
-      ),
+      subtitle: <p className="opacity-80">A_Definir</p>,
     },
     buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
