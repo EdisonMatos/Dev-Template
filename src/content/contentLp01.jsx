@@ -28,9 +28,15 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     textArea: {
-      title: <h1>A_Definir</h1>,
-      subtitle: "A_Definir",
-      buttonLabel: "A_Definir",
+      title: (
+        <h1>
+          Você esperou anos pelo precatório. Agora, não precisa esperar nem mais
+          um dia.
+        </h1>
+      ),
+      subtitle:
+        "Antecipe seu precatório com segurança e sem burocracia. Seu dinheiro, agora.",
+      buttonLabel: "Libere meu precatório!",
       obsHero: {
         icon: (
           <svg
@@ -58,14 +64,16 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "√",
+      miniTag: "RECEBA AGORA",
+      title:
+        "Você tem precatórios a receber? Descubra se pode antecipar e transformar seu direito em capital imediato.",
     },
     cards: {
       card1: {
         icon: <Shield width={32} height={32} color="#4A1215" />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Precatório",
+        description:
+          "Antecipação segura, jurídica e rentável de precatórios federais e estaduais.",
         modal1: {
           title: <p></p>,
           subtitle: <p>A_Definir</p>,
@@ -73,8 +81,9 @@ const contentLp01 = {
       },
       card2: {
         icon: <File width={32} height={32} color="#4A1215" />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Empréstimos Consignados",
+        description:
+          "Crédito com taxas acessíveis, liberação rápida e atendimento personalizado.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p></p>,
@@ -82,8 +91,9 @@ const contentLp01 = {
       },
       card3: {
         icon: <Banknote width={32} height={32} color="#4A1215" />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Plataformas Educacionais",
+        description:
+          "Soluções digitais para ensino moderno, acessível e de alta performance.",
         modal3: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -91,8 +101,9 @@ const contentLp01 = {
       },
       card4: {
         icon: <Scale width={32} height={32} color="#4A1215" />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Treinamento de Vendas",
+        description:
+          "Capacitação estratégica focada em performance, conversão e resultados.",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -107,12 +118,33 @@ const contentLp01 = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "EXCELÊNCIA EM PRECATÓRIOS",
+      title:
+        "Soluções inteligentes para um futuro financeiro seguro e rentável",
     },
-    paragraph: <p>A_Definir</p>,
-    buttonLabel: "A_Definir",
-    ctaButtonAriaLabel: "A_Definir",
+    paragraph: (
+      <p>
+        Na MDX CAPITAL – Soluções Inteligentes, temos como compromisso
+        proporcionar excelência, segurança jurídica e total satisfação em cada
+        uma de nossas operações. Atuamos com foco na construção de experiências
+        diferenciadas, fundamentadas em respeito, confiança, organização e
+        rentabilidade.
+        <br />
+        Com processos transparentes, métodos objetivos e estratégias eficientes,
+        oferecemos uma assessoria personalizada, pensada para atender com
+        precisão às necessidades exclusivas de nossos clientes e parceiros.
+        <br />
+        Nossa abordagem é humanizada e estratégica, combinando iniciativa,
+        criatividade e profissionalismo para impulsionar resultados superiores e
+        consistentes. Mais do que soluções, entregamos valor real e duradouro,
+        cultivando relacionamentos sólidos e sustentáveis.
+        <br />
+        Juntos, vamos além das expectativas — construindo confiança, gerando
+        resultados.
+      </p>
+    ),
+    buttonLabel: "Rentabilize com segurança",
+    ctaButtonAriaLabel: "Botão de levar pro Whatsapp",
   },
   steps: {
     miniTag: "A_Definir",
@@ -141,29 +173,33 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A ESCOLHA CERTA",
+      title: "Por que nos escolher para lutar por seu precatório?",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} color="#4A1215" />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Segurança jurídica e confiabilidade",
+        description:
+          "Operações 100% legais, transparentes e com total respaldo jurídico.",
       },
       card2: {
         icon: <Handshake width={32} height={32} color="#4A1215" />,
-        title: "AtA_Definir",
-        description: "A_Definir",
+        title: "Rentabilidade com inteligência",
+        description:
+          "Soluções inteligentes para maximizar seus ganhos com precatórios.",
       },
       card3: {
         icon: <BadgeDollarSign width={32} height={32} color="#4A1215" />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Atendimento personalizado",
+        description:
+          "Suporte próximo, humanizado e focado nas suas necessidades.",
       },
       card4: {
         icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215" />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Experiência, eficiência e resultados",
+        description:
+          "Equipe experiente, processos ágeis e resultados consistentes.",
       },
     },
   },
@@ -178,11 +214,18 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: <p className="opacity-80">A_Definir</p>,
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Receba o valor do seu precatório agora mesmo!",
+      subtitle: (
+        <p className="opacity-80">
+          Você possui um precatório a receber? Antecipe seu valor com segurança,
+          sem burocracia e com as melhores condições do mercado. Nossa equipe
+          especializada está pronta para te ajudar a transformar seu direito em
+          capital imediato.
+        </p>
+      ),
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Fale com um especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {
