@@ -1,3 +1,4 @@
+import content from "../../../content/content";
 import contentLp01 from "../../../content/contentLp01";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
@@ -20,15 +21,16 @@ export default function ContactLP() {
               icon={contentLp01.contact.card3.icon}
               description={contentLp01.contact.card3.description}
             />
-            {/* <ContactCardLP
-              label={contentLp01.contact.card3.title}
-              icon={contentLp01.contact.card3.icon}
-              description="(11) 96018-6794"
-            /> */}
             <ContactCardLP
               label={contentLp01.contact.card2.title}
               icon={contentLp01.contact.card2.icon}
-              description="contatoqueroisencao@gmail.com"
+              description={content.texts.infos.email}
+            />
+
+            <ContactCardLP
+              label={contentLp01.contact.card1.title}
+              icon={contentLp01.contact.card1.icon}
+              description="mdxcapitaloficial"
             />
           </div>
         </SectionWrapper>

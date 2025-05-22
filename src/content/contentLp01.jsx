@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp01.jpg";
-import logo from "../assets/imgs/logo/logoLp.png";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import logo from "../assets/imgs/logo/logo.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
@@ -9,17 +9,20 @@ import { Gavel } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { BadgeDollarSign } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
+import img1 from "../assets/imgs/about/image1.webp";
+import img2 from "../assets/imgs/about/image2.webp";
+import img3 from "../assets/imgs/about/image3.webp";
 
 const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
     title:
-      "Gagliardi Advogados. Isenção e Restituição do Imposto de Renda para Aposentados e Pensionistas | São Vicente - SP",
+      "MDX CAPITAL | Antecipação de Precatórios com Segurança Jurídica no Brasil",
     description:
-      "Aposentados, pensionistas e militares da reserva com doenças graves podem ter direito à isenção e restituição do Imposto de Renda. Gagliardi Advogados, em São Vicente - SP, oferece suporte jurídico especializado para garantir seus direitos de forma segura e eficiente.",
+      "A MDX CAPITAL oferece soluções inteligentes para antecipação de precatórios no Brasil. Atuação transparente, segurança jurídica e atendimento personalizado para transformar seu direito em capital imediato.",
     keywords:
-      "Isenção de Imposto de Renda, Restituição de Imposto de Renda, Isenção para Aposentados, Isenção para Pensionistas, Isenção para Militares da Reserva, Restituição para Servidores Aposentados, Direito Tributário para Aposentados, Imposto de Renda Doença Grave, Advogado Especialista em IR, Gagliardi Advogados, Gagliardi Advogados São Vicente, Isenção de IR São Vicente, Restituição de IR São Vicente, Advogado Tributário São Vicente, Imposto de Renda para Doença Grave, Restituição de IR para Pensionistas, Isenção de IR para Militares, Direito Tributário Aposentados SP, Isenção de IR com Laudo Médico, Advocacia Especializada em IR.",
+      "MDX Capital,Antecipação de Precatórios,Precatórios no Brasil,Segurança Jurídica,Investimento em Precatórios,Antecipação Financeira,Precatórios Federais,Precatórios Estaduais,Assessoria em Precatórios,Compra de Precatórios,Venda de Precatórios,Liquidez para Precatórios,Consultoria Jurídica,Soluções Financeiras,Antecipação Segura,Rentabilidade em Precatórios,Financiamento com Precatórios,MDX Capital Precatórios,Antecipação Rápida,Serviços de Precatórios.",
   },
   hero: {
     bgImg: bgImg,
@@ -30,13 +33,14 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Isenção de Imposto de Renda e restituição de até 5 anos{" "}
-          <span className="text-lpTitle"> dos valores pagos!</span>{" "}
+          <span className="text-primary">Você esperou anos</span> pelo
+          precatório. Agora, não precisa esperar{" "}
+          <span className="text-primary">nem mais um dia.</span>
         </h1>
       ),
       subtitle:
-        "Militares da Reserva, pensionistas e servidores aposentados que possuem doença grave podem ter esse direito.",
-      buttonLabel: "Solicite sua isenção agora",
+        "Antecipe seu precatório com segurança e sem burocracia. Seu dinheiro, agora.",
+      buttonLabel: "Quero antecipar meu precatório",
       obsHero: {
         icon: (
           <svg
@@ -56,7 +60,7 @@ const contentLp01 = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A análise é gratuita e sem compromisso",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -64,66 +68,46 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "ISENÇÃO DE IMPOSTO",
+      miniTag: "RECEBA AGORA",
       title:
-        "Você pode ter direito à isenção e restituição do Imposto de Renda! Confira agora.",
+        "Você tem precatórios a receber? Descubra se pode antecipar e transformar seu direito em capital imediato.",
     },
     cards: {
       card1: {
-        icon: <Shield width={32} height={32} color="#4A1215" />,
-        title: "Militar, Servidor Público Aposentado ou Pensionista",
+        icon: <Shield width={32} height={32} />,
+        title: "Venda seu precatório",
         description:
-          "Possui alguma das seguintes condições médicas (previstas no Art. 6º da Lei 7.713/88)",
+          "Antecipação segura, jurídica e rentável de precatórios federais e estaduais.",
         modal1: {
           title: <p></p>,
-          subtitle: (
-            <p>
-              - AIDS (Síndrome da Imunodeficiência Adquirida) <br />
-              - Alienação mental <br />
-              - Cardiopatia grave <br />
-              - Cegueira (inclusive monocular)
-              <br />
-              - Contaminação por radiação <br />
-              - Doença de Paget em estágio avançado <br />
-              - Doença de Parkinson <br />
-              - Esclerose múltipla <br />
-              - Espondiloartrose anquilosante <br />
-              - Fibrose cística <br />
-              - Hanseníase <br />
-              - Nefropatia grave
-              <br />
-              - Hepatopatia grave <br />
-              - Neoplasia maligna (câncer) <br />
-              - Paralisia irreversível e incapacitante <br />- Tuberculose ativa
-            </p>
-          ),
+          subtitle: <p>A_Definir</p>,
         },
       },
       card2: {
-        icon: <File width={32} height={32} color="#4A1215" />,
-        title: "Requisitos para isenção e restituição",
+        icon: <File width={32} height={32} />,
+        title: "Sem burocracia",
         description:
-          "Comprovação com laudo e exames, sendo aposentado, pensionista, servidor, militar ou beneficiário de previdência privada.",
+          "Saia da fila de espera e antecipe seu recebimento em 7 dias.",
         modal2: {
-          title: <p>Requisitos para isenção e restituição</p>,
+          title: <p>A_Definir</p>,
           subtitle: <p></p>,
         },
       },
       card3: {
-        icon: <Banknote width={32} height={32} color="#4A1215" />,
-        title: "Restituição de valores pagos",
+        icon: <Banknote width={32} height={32} />,
+        title: "Processo rápido",
         description:
-          "Se você pagou imposto indevidamente, também é possível recuperar esses valores.",
+          "Análise do processo, elaboração do contrato, assinatura e pagamento",
         modal3: {
           title: <p></p>,
           subtitle: <p></p>,
         },
       },
       card4: {
-        icon: <Scale width={32} height={32} color="#4A1215" />,
-        title: "Suporte jurídico especializado",
+        icon: <Scale width={32} height={32} />,
+        title: "Oferta personalizada",
         description:
-          "Conte com um advogado especializado para assegurar sua isenção e restituição com segurança e eficiência.",
+          "Receba uma proposta sob medida, com transparência e segurança jurídica.",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -133,86 +117,92 @@ const contentLp01 = {
   },
   about: {
     bgImg: bgImg,
+    imagesGaleria: {
+      imagem1: img1,
+      imagem2: img2,
+      imagem3: img3,
+    },
     logo: {
       logoImg: logo,
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "ESPECIALISTA EM ISENÇÃO DE IMPOSTO DE RENDA",
-      title: "Isenção e restituição com segurança e agilidade",
+      miniTag: "EXCELÊNCIA EM PRECATÓRIOS",
+      title:
+        "Soluções inteligentes para um futuro financeiro seguro e rentável",
     },
     paragraph: (
       <p>
-        Muitos aposentados e pensionistas acabam pagando imposto indevidamente
-        sem saber que têm direito à isenção. Se você possui uma doença grave, ou
-        já se recuperou dela, pode solicitar tanto a isenção quanto a
-        restituição do Imposto de Renda pago nos últimos anos. <br />
-        <br /> Com um atendimento especializado e ágil, buscamos garantir que
-        seus direitos sejam respeitados. Entre em contato e veja como podemos
-        ajudar!
+        Na MDX CAPITAL – Soluções Inteligentes, oferecemos excelência, segurança
+        jurídica e atendimento personalizado. Atuamos com transparência, foco em
+        resultados e estratégias eficientes, sempre respeitando as necessidades
+        exclusivas de cada cliente.
+        <br />
+        <br />
+        Com uma abordagem humanizada e estratégica, combinamos criatividade,
+        profissionalismo e iniciativa para entregar valor real, construir
+        confiança e gerar resultados consistentes.
+        <br />
+        <br />
       </p>
     ),
-    buttonLabel: "Verifique seu direito à isenção",
-    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+    buttonLabel: "Quero antecipar meu precatório",
+    ctaButtonAriaLabel: "Botão de levar pro Whatsapp",
   },
   steps: {
-    miniTag: "PASSO-A-PASSO",
-    title: "Como funciona?",
+    miniTag: "A_Definir",
+    title: "A_Definir",
     subtitle: "",
     alt: "",
     cards: {
       card1: {
         stepNumber: 1,
-        cardTitle: "Análise Gratuita",
-        cardDescription:
-          "Envie seus documentos e nossa equipe jurídica verificará se você tem direito.",
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
       },
       card2: {
         stepNumber: 2,
-        cardTitle: "Ação Judicial",
-        cardDescription:
-          "Caso tenha direito, entraremos com a ação para garantir sua isenção e a restituição do que foi pago indevidamente.",
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
       },
       card3: {
         stepNumber: 3,
-        cardTitle: "Dinheiro na Conta",
-        cardDescription:
-          "Após a decisão favorável, você deixa de pagar IR e pode receber valores retroativos!",
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
       },
-      buttonLabel: "Quero transformar minha carreira",
+      buttonLabel: "A_Definir",
       ariaLabel: "Botão de contato",
     },
   },
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que escolher a Gagliardi Advogados?",
+      title: "Por que nos escolher para lutar por seu precatório?",
     },
     cards: {
       card1: {
-        icon: <Gavel width={32} height={32} color="#4A1215" />,
-        title: "Especialistas em Direito Tributário",
+        icon: <Gavel width={32} height={32} />,
+        title: "Segurança jurídica e confiabilidade",
         description:
-          "Contamos com uma equipe qualificada e experiente em isenção e restituição do Imposto de Renda, garantindo um suporte jurídico completo e atualizado.",
+          "Operações 100% legais, transparentes e com total respaldo jurídico.",
       },
       card2: {
-        icon: <Handshake width={32} height={32} color="#4A1215" />,
-        title: "Atendimento 100% Online, Sem Burocracia",
+        icon: <ChartNoAxesCombined width={32} height={32} />,
+        title: "Rentabilidade com inteligência",
         description:
-          "Todo o processo é realizado de forma digital, com praticidade e sem a necessidade de deslocamentos, tornando sua experiência mais ágil e eficiente.",
+          "Soluções inteligentes para maximizar seus ganhos com precatórios.",
       },
       card3: {
-        icon: <BadgeDollarSign width={32} height={32} color="#4A1215" />,
-        title:
-          "Pagamento facilitado (somente após sucesso, conforme contrato!)",
+        icon: <Handshake width={32} height={32} />,
+        title: "Atendimento personalizado",
         description:
-          "Você não precisa se preocupar com pagamentos antecipados. Nosso compromisso é com o resultado, e a remuneração só ocorre após o êxito do processo.",
+          "Suporte próximo, humanizado e focado nas suas necessidades.",
       },
       card4: {
-        icon: <ChartNoAxesCombined width={32} height={32} color="#4A1215" />,
-        title: "Alta taxa de sucesso nas ações",
+        icon: <BadgeDollarSign width={32} height={32} />,
+        title: "Experiência, eficiência e resultados",
         description:
-          "Com ampla experiência na área, nosso escritório já ajudou diversos clientes a conquistarem a isenção e restituição do Imposto de Renda com eficiência e assertividade.",
+          "Equipe experiente, processos ágeis e resultados consistentes.",
       },
     },
   },
@@ -227,16 +217,16 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "SEU DIREITO SEM COMPLICAÇÃO",
-      title: "Isenção e restituição sem burocracia!",
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Receba seu precatório agora mesmo!",
       subtitle: (
         <p className="opacity-80">
-          Não deixe seu dinheiro retido! Reivindique o que é seu por direito e
-          utilize esse valor da melhor forma.
+          Transforme seu precatório em dinheiro com segurança e as melhores
+          condições do mercado.
         </p>
       ),
     },
-    buttonLabel: "Converse com um especialista agora",
+    buttonLabel: "Fale com um especialista agora",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
   },
   contact: {

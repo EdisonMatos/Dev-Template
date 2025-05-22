@@ -33,8 +33,10 @@ export default function FeatureWithModalsLp({ modals }) {
       <SectionArea id="service" className="squares">
         <SectionHeader
           className="text-center"
+          miniTitle={contentLp01.features.sectionHeader.miniTag}
           sectionHeaderTitle={contentLp01.features.sectionHeader.title}
-          color="dark"
+          color=""
+          titleColorSet="text-black"
         />
 
         <SectionWrapper>
