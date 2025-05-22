@@ -24,13 +24,13 @@ export default function ContactLP() {
             <ContactCardLP
               label={contentLp01.contact.card2.title}
               icon={contentLp01.contact.card2.icon}
-              description="contatoqueroisencao@gmail.com"
+              description={content.texts.infos.email}
             />
 
             <ContactCardLP
               label={contentLp01.contact.card1.title}
               icon={contentLp01.contact.card1.icon}
-              description={content.texts.links.instagram}
+              description="mdxcapitaloficial"
             />
           </div>
         </SectionWrapper>
