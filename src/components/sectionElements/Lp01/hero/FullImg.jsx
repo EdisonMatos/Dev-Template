@@ -13,14 +13,14 @@ function FullImg({ obs }) {
       <div
         className="desktop1:hidden font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] bg-no-repeat h-auto"
         style={{
-          backgroundImage: `linear-gradient(rgba(74, 18, 21, 0.4), rgba(74, 18, 21, 5)), url(${contentLp01.hero.bgImg})`,
+          backgroundImage: `linear-gradient(rgba(0, 18, 21, 0.4),#141821), url(${contentLp01.hero.bgImg})`,
         }}
       >
         <MotionDivDownToUp className="z-10 flex justify-start desktop1:justify-start">
           <img
             src={contentLp01.hero.logo.logoImg}
             alt={contentLp01.hero.logo.alt}
-            className="ml-[5%] max-w-[40%] mt-[15%] bg-bgSectionLight p-[10px] rounded-lg"
+            className="ml-[5%] max-w-[40%] mt-[15%] p-[10px] rounded-lg"
           />
         </MotionDivDownToUp>
         <SectionArea paddingTopAndBottom={false}>
