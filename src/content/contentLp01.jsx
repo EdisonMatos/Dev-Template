@@ -30,8 +30,9 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Você esperou anos pelo precatório. Agora, não precisa esperar nem mais
-          um dia.
+          <span className="text-primary">Você esperou anos</span> pelo
+          precatório. Agora, não precisa esperar{" "}
+          <span className="text-primary">nem mais um dia.</span>
         </h1>
       ),
       subtitle:
