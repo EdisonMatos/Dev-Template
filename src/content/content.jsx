@@ -123,20 +123,22 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO PREVIDENCIÁRIO EM MACEIÓ - AL",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          E se o INSS estiver
+          <span className="text-primary"> errado</span>
+          com você?
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Milhares têm o BPC negado injustamente. Nós ajudamos você a garantir o que é seu por direito.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Descubra se você tem direito",
       obsHero: {
         icon: (
           <svg
@@ -156,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento exclusivamente online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",

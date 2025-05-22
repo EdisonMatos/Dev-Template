@@ -24,7 +24,7 @@ export default function AboutInstagram({
   const bgClasses = {
     dark: "bg-black",
     light: "bg-white",
-    default: "bg-black",
+    default: "bg-bgSectionDark",
   };
   const textClasses = {
     dark: "text-white",
@@ -50,10 +50,8 @@ export default function AboutInstagram({
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}
               type="article"
-
               titleColorSet={textClass}
               subtitleColorSet={textClass}
-              
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial colorMode={colorMode} />

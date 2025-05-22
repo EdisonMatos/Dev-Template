@@ -11,7 +11,7 @@ export default function Steps({ colorMode }) {
   const bgClasses = {
     dark: "bg-black",
     light: "bg-white",
-    default: "bg-black",
+    default: "bg-bgSectionDark",
   };
   const textClasses = {
     dark: "text-white",
@@ -37,7 +37,6 @@ export default function Steps({ colorMode }) {
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             type="article"
-
             titleColorSet={titleColor}
           />
           <SectionHeader
@@ -45,7 +44,6 @@ export default function Steps({ colorMode }) {
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
-
             color={colorMode ? "light" : ""}
             type={colorMode ? "article" : ""}
             colorMode={colorMode}
