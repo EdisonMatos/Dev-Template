@@ -32,7 +32,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "bg-black",
+    default: "bg-bgSectionDark",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
