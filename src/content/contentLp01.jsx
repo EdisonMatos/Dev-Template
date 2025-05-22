@@ -125,29 +125,20 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
-        Na MDX CAPITAL – Soluções Inteligentes, temos como compromisso
-        proporcionar excelência, segurança jurídica e total satisfação em cada
-        uma de nossas operações. Atuamos com foco na construção de experiências
-        diferenciadas, fundamentadas em respeito, confiança, organização e
-        rentabilidade.
+        Na MDX CAPITAL – Soluções Inteligentes, oferecemos excelência, segurança
+        jurídica e atendimento personalizado. Atuamos com transparência, foco em
+        resultados e estratégias eficientes, sempre respeitando as necessidades
+        exclusivas de cada cliente.
         <br />
         <br />
-        Com processos transparentes, métodos objetivos e estratégias eficientes,
-        oferecemos uma assessoria personalizada, pensada para atender com
-        precisão às necessidades exclusivas de nossos clientes e parceiros.
+        Com uma abordagem humanizada e estratégica, combinamos criatividade,
+        profissionalismo e iniciativa para entregar valor real, construir
+        confiança e gerar resultados consistentes.
         <br />
         <br />
-        Nossa abordagem é humanizada e estratégica, combinando iniciativa,
-        criatividade e profissionalismo para impulsionar resultados superiores e
-        consistentes. Mais do que soluções, entregamos valor real e duradouro,
-        cultivando relacionamentos sólidos e sustentáveis.
-        <br />
-        <br />
-        Juntos, vamos além das expectativas — construindo confiança, gerando
-        resultados.
       </p>
     ),
-    buttonLabel: "Rentabilize com segurança",
+    buttonLabel: "Quero antecipar meu precatório",
     ctaButtonAriaLabel: "Botão de levar pro Whatsapp",
   },
   steps: {
