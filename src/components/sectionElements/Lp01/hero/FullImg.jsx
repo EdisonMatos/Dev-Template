@@ -88,7 +88,7 @@ function FullImg({ obs }) {
       </div>
       {/*-------- Versão para tablet1 pra frente -------- */}
       <div
-        className="hidden desktop1:flex bg-top bg-[#EEA935] font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
+        className="hidden desktop1:flex bg-top font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
         style={{
           backgroundImage: `url(${contentLp01.hero.bgImg})`,
           backgroundPosition: "top",
