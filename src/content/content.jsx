@@ -367,33 +367,57 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É CAVALCANTE, RIBEIRO & SILVA ",
+      title: "Nossa trajetória",
+      subtitle: "Compromisso com o acesso à justiça para quem mais precisa.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          O escritório Cavalcante, Ribeiro & Silva surgiu a partir de um
+          propósito claro: oferecer apoio jurídico a quem mais precisa, mas
+          menos tem acesso. Milhares de brasileiros enfrentam barreiras enormes
+          para garantir seus direitos — seja pela distância, pela falta de
+          informação ou por limitações físicas e financeiras.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          O escritório Cavalcante, Ribeiro & Silva surgiu a partir de um
+          propósito claro: oferecer apoio jurídico a quem mais precisa, mas
+          menos tem acesso. Milhares de brasileiros enfrentam barreiras enormes
+          para garantir seus direitos — seja pela distância, pela falta de
+          informação ou por limitações físicas e financeiras.
           <br />
           <br />
-          A_Definir
+          Percebendo essa realidade, decidimos atuar de forma diferente.
+          Especializados em Direito Previdenciário, voltamos nosso trabalho
+          exclusivamente para pessoas que precisam do Benefício de Prestação
+          Continuada (BPC/LOAS), tanto idosos quanto pessoas com deficiência.
           <br />
           <br />
-          A_Definir
+          Nosso compromisso vai além da advocacia tradicional. Aqui, tratamos
+          cada caso com empatia, ética e transparência, respeitando a trajetória
+          de vida de cada cliente.
           <br />
           <br />
-          A_Definir
+          Sabemos que por trás de cada benefício negado há uma história, uma
+          família, uma necessidade real. Por isso, trabalhamos com dedicação
+          para transformar negativas em conquistas.
+          <br />
+          <br />
+          Além disso, fazemos parte de uma rede nacional de atualização jurídica
+          com os maiores especialistas da área previdenciária. Isso nos permite
+          atuar com estratégias modernas, eficazes e sempre em sintonia com as
+          decisões mais recentes da Justiça.
+          <br />
+          <br />
+          Acreditamos que um escritório de advocacia pode — e deve — ser
+          acessível, acolhedor e altamente competente. Essa é a essência do
+          Cavalcante, Ribeiro & Silva.
           <br />
           <br />
         </p>
