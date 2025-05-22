@@ -4,23 +4,20 @@ import MotionDivDownToUp from "../../../../animation/MotionDivDownToUp";
 import contentLp01 from "../../../../../content/contentLp01";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import img1 from "../../../../../assets/imgs/about/image1.png";
-import img2 from "../../../../../assets/imgs/about/image2.png";
-import img3 from "../../../../../assets/imgs/about/image3.png";
 
 function LogoDefaultAboutLpv() {
   const images = [
     {
-      original: img1,
-      thumbnail: img1,
+      original: contentLp01.about.imagesGaleria.imagem1,
+      thumbnail: contentLp01.about.imagesGaleria.imagem1,
     },
     {
-      original: img2,
-      thumbnail: img2,
+      original: contentLp01.about.imagesGaleria.imagem2,
+      thumbnail: contentLp01.about.imagesGaleria.imagem2,
     },
     {
-      original: img3,
-      thumbnail: img3,
+      original: contentLp01.about.imagesGaleria.imagem3,
+      thumbnail: contentLp01.about.imagesGaleria.imagem3,
     },
   ];
 

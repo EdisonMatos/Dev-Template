@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import logo from "../assets/imgs/logo/logo.png";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import logo from "../assets/imgs/logo/logo.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
@@ -9,6 +9,9 @@ import { Gavel } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { BadgeDollarSign } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
+import img1 from "../assets/imgs/about/image1.webp";
+import img2 from "../assets/imgs/about/image2.webp";
+import img3 from "../assets/imgs/about/image3.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -114,6 +117,11 @@ const contentLp01 = {
   },
   about: {
     bgImg: bgImg,
+    imagesGaleria: {
+      imagem1: img1,
+      imagem2: img2,
+      imagem3: img3,
+    },
     logo: {
       logoImg: logo,
       alt: "Logomarca",
