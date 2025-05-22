@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Cavalcante, Ribeiro & Silva",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "cres.adv.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "82",
+    firstPart: "99406", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3673", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida Fernandes Lima, nº 8, edf.</p>
+      <p>Centenário Office,</p>
+      <p>sala 102 Maceió - AL,</p>
+      <p>CEP 57050-000.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -90,13 +91,12 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>Segunda a sexta-feira:</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "cres.adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
