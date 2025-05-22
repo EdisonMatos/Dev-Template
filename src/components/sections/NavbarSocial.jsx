@@ -91,7 +91,7 @@ export default function NavbarSocial({ colorMode }) {
     }
     // default
     return scrolling
-      ? "bg-gradient-to-b from-bgSectionDark to-black bg-opacity-100 shadow-lg border-b-[1px] border-primary"
+      ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg border-b-[1px] border-primary"
       : "bg-gradient-to-b from-black to-transparent border-b-[1px] border-none";
   };
 
