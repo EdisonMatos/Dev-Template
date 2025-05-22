@@ -185,7 +185,7 @@ const content = {
     },
     features: {
       miniTag: "ÁREA DE ATUAÇÃO",
-      title: "Especialista em BPC/LOAS para idosos e pessoas com deficiênci",
+      title: "Especialista em BPC/LOAS para idosos e pessoas com deficiência",
       subtitle:
         "Atuação dedicada à conquista e manutenção do benefício assistencial para quem mais precisa.",
       imgFeatures: imgFeatures,
