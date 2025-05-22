@@ -210,13 +210,11 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO ESPERE MAIS",
-      title: "Receba o valor do seu precatório agora mesmo!",
+      title: "Receba seu precatório agora mesmo!",
       subtitle: (
         <p className="opacity-80">
-          Você possui um precatório a receber? Antecipe seu valor com segurança,
-          sem burocracia e com as melhores condições do mercado. Nossa equipe
-          especializada está pronta para te ajudar a transformar seu direito em
-          capital imediato.
+          Transforme seu precatório em dinheiro com segurança e as melhores
+          condições do mercado.
         </p>
       ),
     },
