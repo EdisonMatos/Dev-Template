@@ -37,7 +37,7 @@ const contentLp01 = {
       ),
       subtitle:
         "Antecipe seu precatório com segurança e sem burocracia. Seu dinheiro, agora.",
-      buttonLabel: "Libere meu precatório!",
+      buttonLabel: "Quero antecipar meu precatório",
       obsHero: {
         icon: (
           <svg
@@ -72,7 +72,7 @@ const contentLp01 = {
     cards: {
       card1: {
         icon: <Shield width={32} height={32} />,
-        title: "Precatório",
+        title: "Venda seu precatório",
         description:
           "Antecipação segura, jurídica e rentável de precatórios federais e estaduais.",
         modal1: {
@@ -82,9 +82,9 @@ const contentLp01 = {
       },
       card2: {
         icon: <File width={32} height={32} />,
-        title: "Empréstimos Consignados",
+        title: "Sem burocracia",
         description:
-          "Crédito com taxas acessíveis, liberação rápida e atendimento personalizado.",
+          "Saia da fila de espera e antecipe seu recebimento em 7 dias.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p></p>,
@@ -92,9 +92,9 @@ const contentLp01 = {
       },
       card3: {
         icon: <Banknote width={32} height={32} />,
-        title: "Plataformas Educacionais",
+        title: "Processo rápido",
         description:
-          "Soluções digitais para ensino moderno, acessível e de alta performance.",
+          "Análise do processo, elaboração do contrato, assinatura e pagamento",
         modal3: {
           title: <p></p>,
           subtitle: <p></p>,
@@ -102,9 +102,9 @@ const contentLp01 = {
       },
       card4: {
         icon: <Scale width={32} height={32} />,
-        title: "Treinamento de Vendas",
+        title: "Oferta personalizada",
         description:
-          "Capacitação estratégica focada em performance, conversão e resultados.",
+          "Receba uma proposta sob medida, com transparência e segurança jurídica.",
         modal4: {
           title: <p></p>,
           subtitle: <p></p>,
