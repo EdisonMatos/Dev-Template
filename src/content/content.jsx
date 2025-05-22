@@ -127,7 +127,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           E se o INSS estiver
-          <span className="text-primary"> errado</span>
+          <span className="text-primary"> errado </span>
           com você?
         </h1>
       ),
