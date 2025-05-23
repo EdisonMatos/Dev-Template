@@ -102,7 +102,7 @@ export default function NavbarSocial({ colorMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer w-[50%] phone2:w-[50%] phone3:w-[55%] tablet1:w-[30%] tablet2:w-[30%] desktop1:w-[20%] desktop2:max-w-[190px]"
+            className="cursor-pointer w-[50%] phone2:w-[50%] phone3:w-[45%] tablet1:w-[30%] tablet2:w-[30%] desktop1:w-[20%] desktop2:max-w-[190px]"
             spy={true}
             smooth={true}
             duration={500}
@@ -114,7 +114,7 @@ export default function NavbarSocial({ colorMode }) {
               alt={content.texts.navbar.logo.alt}
               className={`bg-transparent ${
                 scrolling
-                  ? "w-[60%] tablet1:w-[40%] tablet2:w-[50%] desktop1:w-[60%] desktop2:w-[70%]"
+                  ? "w-[90%] tablet1:w-[80%] tablet2:w-[70%] desktop1:w-[90%] desktop2:w-[80%]"
                   : "my-[20px] w-full"
               } transition-all duration-1000 tablet3:mb-0`}
             />

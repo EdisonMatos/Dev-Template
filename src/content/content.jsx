@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,15 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Leonardo Nascimento",
+  name: "Advogado Dr. Thaynan Peres",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "advogadoleonardonascimento.com.br", // Sem "www"
+  domain: "thaynanperesadv.com.br", // Sem "www"
   phone: {
-    ddd: "21",
-    firstPart: "97746", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6327", // Apenas os 4 últimos números
+    ddd: "47",
+    nine: "9",
+    firstPart: "9638", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6313", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,11 +76,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Estrada de Paciência, 31 - sala 10.</p>
-      <p>
-        Paciencia, Centro Comercial Só 31 (em frente à Estação de Paciência)
-      </p>
-      <p>Rio de Janeiro - RJ, CEP 23060-372.</p>
+      <p>Rua 222, n. 258, sala 4,</p>
+      <p>Bairro Meia Praia Itapema - SC,</p>
+      <p>CEP 88220-000.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -94,14 +93,14 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>Das 9h às 19h</p>
+      <p>9h às 12h</p>
+      <p>14h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "leonardonascimento_adv", // Sem o @
+  instagramProfile: "thaynan_peress", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
-  tiktokProfile: "@leonardonascimento_adv",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -126,21 +125,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO NO RIO DE JANEIRO - RJ",
+      miniTag: "ADVOGADO CÍVEL EM ITAPEMA - SC",
       title: (
         <h1 className="mb-[16px]">
-          Descomplicando seus
-          <span className="text-primary"> Direitos</span>
+          Já viu problema sumir
+          <span className="text-primary"> sozinho?</span>
         </h1>
       ),
       subtitle:
-        "“A injustiça em qualquer lugar é uma ameaça à justiça em todo lugar”",
+        "Quem agiu no tempo certo, hoje vive em paz — sem dívidas, brigas ou contratos injustos.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale agora com o advogado",
+      ctaButtonText: "Resolva o meu também",
       obsHero: {
         icon: (
           <svg
@@ -160,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online 24h",
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -186,16 +185,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Como posso te ajudar na prática",
+      miniTag: "ESPECIALIDADES",
+      title: "Seu problema tem solução. E começa aqui.",
       subtitle:
-        "Conheça as principais áreas em que atuo para defender seus direitos",
+        "Atuação estratégica e humanizada nas áreas que mais afetam sua vida e seu bolso.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Cível e Família",
-        subtitle: "Ações de família, inventário e conflitos civis.",
+        title: "Direito Civil",
+        subtitle:
+          "Análise de contratos, ações e defesas cíveis, execuções e assessoramento extrajudicial.",
         description: (
           <div>
             A_Definir
@@ -212,16 +212,17 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -229,8 +230,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Trabalho e Previdenciário",
-        subtitle: "Direitos trabalhistas e benefícios do INSS.",
+        title: "Direito do Consumidor",
+        subtitle:
+          "Reclamações no PROCON, ações e defesas judiciais e assessoria preventiva para empresas.",
         description: (
           <div>
             A_Definir
@@ -247,14 +249,15 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-icon lucide-briefcase"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,8 +265,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Consumidor",
-        subtitle: "Defesa contra abusos e prejuízos ao consumidor.",
+        title: "Direito de Família",
+        subtitle:
+          "Divórcio, partilha, união estável, pensão, guarda, convivência, curatela e apoio à decisão.",
         description: (
           <div>
             A_Definir <br />
@@ -279,16 +283,16 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-heart-handshake-icon lucide-heart-handshake"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
-            <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" />
-            <path d="m18 15-2-2" />
-            <path d="m15 18-2-2" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -296,8 +300,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Criminal",
-        subtitle: "Atuação em defesa e acompanhamento de inquéritos.",
+        title: "Consultoria Jurídica",
+        subtitle:
+          "Orientação preventiva, pareceres técnicos e suporte estratégico em diversas áreas do Direito.",
         description: (
           <div>
             A_Definir
@@ -314,17 +319,13 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-message-circle-icon lucide-message-circle"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -350,55 +351,58 @@ const content = {
     },
     maps: {
       minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos no Rio de Janeiro",
+      title: "Encontre-nos em Itapema - SC",
       subtitle:
         "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29401.51170978657!2d-43.647429013450186!3d-22.906400044629933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be5cd8a063151%3A0xb2ee80770c0b7084!2sPACI%C3%8ANCIA%20MALL!5e0!3m2!1spt-BR!2sbr!4v1747968721791!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.03357290605!2d-48.6069829!3d-27.123752499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b1d7254dcb8f%3A0xe5f0fa6f4d96d021!2sR.%20222%2C%20150%20-%20Meia%20Praia%2C%20Itapema%20-%20SC%2C%2088220-000!5e0!3m2!1spt-BR!2sbr!4v1748002470825!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. LEONARDO NASCIMENTO",
+      miniTag: "QUEM É O DR. THAYNAN PERES",
       title: "Minha trajetória",
-      subtitle:
-        "Compromisso com o cliente e foco na solução dos seus problemas.",
+      subtitle: "Desde o ensino médio, advogar já era meu propósito de vida.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Minha história no Direito começou em casa, com meu pai, Dr. Ivan Vaz,
-          que fundou o escritório há mais de 20 anos com atuação nas áreas
-          Cível, Trabalhista e de Família.
+          Desde o meu primeiro ano do ensino médio, eu já sabia o que queria:
+          cursar Direito e advogar. Sempre tive o desejo de ajudar as pessoas a
+          garantirem seus direitos, e esse sonho foi o que me motivou a seguir
+          firme até me tornar advogado
+          <br />
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha história no Direito começou em casa, com meu pai, Dr. Ivan Vaz,
-          que fundou o escritório há mais de 20 anos com atuação nas áreas
-          Cível, Trabalhista e de Família.
+          Desde o meu primeiro ano do ensino médio, eu já sabia o que queria:
+          cursar Direito e advogar. Sempre tive o desejo de ajudar as pessoas a
+          garantirem seus direitos, e esse sonho foi o que me motivou a seguir
+          firme até me tornar advogado.
           <br />
           <br />
-          Sou ex-militar da Marinha e trago para a advocacia a disciplina, o
-          foco e a responsabilidade que aprendi na carreira militar.
+          Com o tempo, percebi que só conseguiria oferecer o atendimento que eu
+          acreditava ser ideal — mais humano, acessível e acolhedor — se tivesse
+          meu próprio escritório. Foi assim que nasceu o Thaynan Peres Advogado:
+          um projeto feito com propósito, dedicação e empatia.
           <br />
           <br />
-          Atendo de forma humanizada, clara e objetiva, sempre buscando a melhor
-          solução para o cliente com agilidade e transparência.
+          Atendo cada cliente com atenção, clareza e flexibilidade. Faço questão
+          de explicar tudo de forma simples, sem "juridiquês", porque acredito
+          que entender o próprio caso é um direito também. Além disso, sempre
+          busco condições que se encaixem na realidade de quem me procura,
+          porque sei que os honorários não devem ser uma barreira para se fazer
+          justiça.
           <br />
           <br />
-          Acredito em um escritório moderno e acessível, capaz de atender
-          pessoas de todos os perfis com linguagem simples e acolhedora.
-          <br />
-          <br />
-          Estou sempre disponível e em constante atualização, com pós-graduação
-          e cursos que me mantém alinhado às mudanças do Judiciário e do
-          mercado.
+          Meu objetivo é ser lembrado como um advogado acessível, moderno e
+          comprometido — alguém em quem as pessoas podem confiar de verdade.
           <br />
           <br />
         </p>
@@ -421,7 +425,6 @@ const content = {
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
-        labeltiktok: "Siga-me no TikTok",
       },
     },
     cta: {
@@ -835,7 +838,6 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
-      tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
@@ -844,7 +846,7 @@ const content = {
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
     infos: {
-      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phone: `(${infos.phone.ddd}) ${infos.phone.nine} ${infos.phone.firstPart}-${infos.phone.secondPart}`,
       phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,

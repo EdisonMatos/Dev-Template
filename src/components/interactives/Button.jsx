@@ -38,7 +38,7 @@ export default function Button({
   const buttonColors = {
     dark: "text-white",
     light: "text-black",
-    default: "text-black",
+    default: "text-white",
   };
   const buttonColor = buttonColors[colorMode] || buttonColors.default;
 

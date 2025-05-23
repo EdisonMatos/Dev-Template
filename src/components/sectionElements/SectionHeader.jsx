@@ -32,7 +32,7 @@ export default function SectionHeader({
       break;
     case "light":
     default:
-      miniTitleTextColor = "text-black";
+      miniTitleTextColor = "text-white";
       titleColor = titleColorSet ?? "text-white";
       subtitleColor = subtitleColorSet ?? "text-white";
       if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
