@@ -56,7 +56,7 @@ export const infos = {
   name: "Pacheco & Peixoto Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "pachecoepeixotoadvogados.com.br", // Sem "www"
   phone: {
     ddd: "51",
     nine: "9",
