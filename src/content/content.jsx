@@ -356,33 +356,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A PACHECO & PEIXOTO",
+      title: "Nossa trajetória",
+      subtitle:
+        "Compromisso, ética e eficiência para entregar soluções com excelência.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Na Pacheco & Peixoto, acreditamos que nossos maiores valores estão
+          refletidos na forma como conduzimos cada caso: com ética, respeito e
+          total comprometimento com a causa do cliente.
           <br />
-          A_Definir
+          Atuamos com foco na assistência integral, oferecendo um atendimento
+          humanizado, transparente e eficiente, sempre atentos às reais
+          necessidades de quem nos procura.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Na Pacheco & Peixoto, acreditamos que nossos maiores valores estão
+          refletidos na forma como conduzimos cada caso: com ética, respeito e
+          total comprometimento com a causa do cliente.
           <br />
           <br />
-          A_Definir
+          Atuamos com foco na assistência integral, oferecendo um atendimento
+          humanizado, transparente e eficiente, sempre atentos às reais
+          necessidades de quem nos procura.
           <br />
           <br />
-          A_Definir
+          Nosso escritório acompanha a evolução do mercado jurídico, investindo
+          constantemente em atualização técnica e em recursos tecnológicos que
+          garantem mais agilidade, precisão e uma melhor experiência para o
+          cliente.
           <br />
           <br />
-          A_Definir
+          Buscamos não apenas a solução do problema, mas também uma jornada
+          acolhedora e clara durante todo o processo.
+          <br />
+          <br />
+          Mais do que advogar, nosso diferencial está em cuidar. Cuidar da
+          causa, do cliente e dos detalhes — com empatia, proximidade e
+          responsabilidade.
+          <br />
+          <br />
+          Essa é a trajetória que seguimos e o compromisso que renovamos a cada
+          atendimento.
           <br />
           <br />
         </p>
@@ -396,10 +418,11 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
