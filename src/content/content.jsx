@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,21 +53,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Pacheco & Peixoto Advocacia",
+  name: "Advogado Leonardo Nascimento",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "pachecoepeixotoadvogados.com.br", // Sem "www"
+  domain: "advogadoleonardonascimento.com.br", // Sem "www"
   phone: {
-    ddd: "51",
-    nine: "9",
-    firstPart: "9425", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0201", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "97746", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6327", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "51",
-    nineSecond: "9",
-    firstPart: "8495", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6736", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -77,10 +75,11 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Porto Rico, 75,</p>
-      <p>Sala 302, Sumaré</p>
-      <p>Alvorada - RS,</p>
-      <p>CEP 94824-080.</p>
+      <p>Estrada de Paciência, 31 - sala 10.</p>
+      <p>
+        Paciencia, Centro Comercial Só 31 (em frente à Estação de Paciência)
+      </p>
+      <p>Rio de Janeiro - RJ, CEP 23060-372.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -94,14 +93,15 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à sexta-feira</p>
-      <p>Das 9h às 18h</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>Das 9h às 19h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "pachecoepeixotoadvogados", // Sem o @
+  instagramProfile: "leonardonascimento_adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
+  tiktokProfile: "@leonardonascimento_adv",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -126,20 +126,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOGADOS EM ALVORADA - RS",
+      miniTag: "ADVOGADO NO RIO DE JANEIRO - RJ",
       title: (
         <h1 className="mb-[16px]">
-          A sua causa é a<span className="text-primary"> nossa missão</span>
+          Descomplicando seus
+          <span className="text-primary"> Direitos</span>
         </h1>
       ),
       subtitle:
-        "Atendimento ágil, transparente e dedicado a resolver seu problema com segurança e eficiência.",
+        "“A injustiça em qualquer lugar é uma ameaça à justiça em todo lugar”",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com um advogado",
+      ctaButtonText: "Fale agora com o advogado",
       obsHero: {
         icon: (
           <svg
@@ -159,7 +160,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil",
+        text: "Atendimento online 24h",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -185,16 +186,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Atuação focada nas suas necessidades jurídicas",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Como posso te ajudar na prática",
       subtitle:
-        "Conheça as principais áreas em que oferecemos suporte jurídico com experiência e comprometimento.",
+        "Conheça as principais áreas em que atuo para defender seus direitos",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Trabalhista",
-        subtitle: "Defesa de direitos em relações de trabalho.",
+        title: "Cível e Família",
+        subtitle: "Ações de família, inventário e conflitos civis.",
         description: (
           <div>
             A_Definir
@@ -215,12 +216,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -228,8 +229,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Previdenciário",
-        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
+        title: "Trabalho e Previdenciário",
+        subtitle: "Direitos trabalhistas e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -250,10 +251,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-wallet-icon lucide-wallet"
+            class="lucide lucide-briefcase-icon lucide-briefcase"
           >
-            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
-            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
+            <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -261,8 +262,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Cível",
-        subtitle: "Soluções para conflitos e responsabilidades civis.",
+        title: "Consumidor",
+        subtitle: "Defesa contra abusos e prejuízos ao consumidor.",
         description: (
           <div>
             A_Definir <br />
@@ -282,13 +283,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-heart-handshake-icon lucide-heart-handshake"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" />
+            <path d="m18 15-2-2" />
+            <path d="m15 18-2-2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -297,7 +297,7 @@ const content = {
       card4: {
         img: featuresImg4,
         title: "Criminal",
-        subtitle: "Defesa e acompanhamento em processos criminais.",
+        subtitle: "Atuação em defesa e acompanhamento de inquéritos.",
         description: (
           <div>
             A_Definir
@@ -318,9 +318,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-icon lucide-shield"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -345,66 +349,56 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos no Rio de Janeiro",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29401.51170978657!2d-43.647429013450186!3d-22.906400044629933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be5cd8a063151%3A0xb2ee80770c0b7084!2sPACI%C3%8ANCIA%20MALL!5e0!3m2!1spt-BR!2sbr!4v1747968721791!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A PACHECO & PEIXOTO",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É O DR. LEONARDO NASCIMENTO",
+      title: "Minha trajetória",
       subtitle:
-        "Compromisso, ética e eficiência para entregar soluções com excelência.",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Compromisso com o cliente e foco na solução dos seus problemas.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Na Pacheco & Peixoto, acreditamos que nossos maiores valores estão
-          refletidos na forma como conduzimos cada caso: com ética, respeito e
-          total comprometimento com a causa do cliente.
-          <br />
-          Atuamos com foco na assistência integral, oferecendo um atendimento
-          humanizado, transparente e eficiente, sempre atentos às reais
-          necessidades de quem nos procura.
+          Minha história no Direito começou em casa, com meu pai, Dr. Ivan Vaz,
+          que fundou o escritório há mais de 20 anos com atuação nas áreas
+          Cível, Trabalhista e de Família.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Na Pacheco & Peixoto, acreditamos que nossos maiores valores estão
-          refletidos na forma como conduzimos cada caso: com ética, respeito e
-          total comprometimento com a causa do cliente.
+          Minha história no Direito começou em casa, com meu pai, Dr. Ivan Vaz,
+          que fundou o escritório há mais de 20 anos com atuação nas áreas
+          Cível, Trabalhista e de Família.
           <br />
           <br />
-          Atuamos com foco na assistência integral, oferecendo um atendimento
-          humanizado, transparente e eficiente, sempre atentos às reais
-          necessidades de quem nos procura.
+          Sou ex-militar da Marinha e trago para a advocacia a disciplina, o
+          foco e a responsabilidade que aprendi na carreira militar.
           <br />
           <br />
-          Nosso escritório acompanha a evolução do mercado jurídico, investindo
-          constantemente em atualização técnica e em recursos tecnológicos que
-          garantem mais agilidade, precisão e uma melhor experiência para o
-          cliente.
+          Atendo de forma humanizada, clara e objetiva, sempre buscando a melhor
+          solução para o cliente com agilidade e transparência.
           <br />
           <br />
-          Buscamos não apenas a solução do problema, mas também uma jornada
-          acolhedora e clara durante todo o processo.
+          Acredito em um escritório moderno e acessível, capaz de atender
+          pessoas de todos os perfis com linguagem simples e acolhedora.
           <br />
           <br />
-          Mais do que advogar, nosso diferencial está em cuidar. Cuidar da
-          causa, do cliente e dos detalhes — com empatia, proximidade e
-          responsabilidade.
-          <br />
-          <br />
-          Essa é a trajetória que seguimos e o compromisso que renovamos a cada
-          atendimento.
+          Estou sempre disponível e em constante atualização, com pós-graduação
+          e cursos que me mantém alinhado às mudanças do Judiciário e do
+          mercado.
           <br />
           <br />
         </p>
@@ -423,10 +417,11 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
+        labeltiktok: "Siga-me no TikTok",
       },
     },
     cta: {
@@ -840,6 +835,7 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
@@ -848,8 +844,8 @@ const content = {
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
     infos: {
-      phone: `(${infos.phone.ddd}) ${infos.phone.nine} ${infos.phone.firstPart}-${infos.phone.secondPart}`,
-      phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.nineSecond} ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
+      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,

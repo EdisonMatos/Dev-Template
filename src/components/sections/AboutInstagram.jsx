@@ -11,12 +11,14 @@ import LinkedInAbout from "../sectionElements/aboutInstagram/LinkedInAbout";
 import InstagramAbout from "../sectionElements/aboutInstagram/InstagramAbout";
 import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram";
 import ParagraphsAboutSocial from "../sectionElements/aboutInstagram/ParagraphsAboutSocial";
+import TikTokAbout from "../sectionElements/aboutInstagram/TiktokAbout";
 
 export default function AboutInstagram({
   instagram,
   facebook,
   x,
   linkedin,
+  tiktok,
   socialPrint,
   colorMode,
 }) {
@@ -60,6 +62,7 @@ export default function AboutInstagram({
             {facebook && <FacebookAbout colorMode={colorMode} />}
             {x && <XAbout colorMode={colorMode} />}
             {linkedin && <LinkedInAbout colorMode={colorMode} />}
+            {tiktok && <TikTokAbout />}
           </div>
         </div>
       </SectionWrapper>

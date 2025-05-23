@@ -1,3 +1,4 @@
 User-agent: *
-Sitemap: https:/www.pachecoepeixotoadvogados.com.br/sitemap.xml
+Sitemap: https:/www.advogadoleonardonascimento.com.br
+/sitemap.xml
 

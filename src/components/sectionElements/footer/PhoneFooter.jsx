@@ -31,7 +31,7 @@ function PhoneFooter({ colorMode }) {
           rel="noopener noreferrer"
           className="hover:underline"
         >
-          {content.texts.infos.phone} - Dr. Maycon Pacheco
+          {content.texts.infos.phone}
         </a>
       </div>
     </MotionDivDownToUp>

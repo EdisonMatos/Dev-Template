@@ -18,7 +18,6 @@ export default function Index() {
 
   return (
     <>
-
       <Navbar colorMode={colorMode} />
 
       <Hero
@@ -42,19 +41,21 @@ export default function Index() {
         colorMode={colorMode}
         socialPrint={true}
         instagram={true}
+        tiktok={true}
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      {/* <Maps colorMode={colorMode} /> */}
+      <Maps colorMode={colorMode} />
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
         addres={true}
-        phoneSecundario={true}
+        phoneSecundario={false}
         phoneTerciario={false}
         emailSecundario={false}
         addresSecundario={false}
         instagram={true}
+        tiktok={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
