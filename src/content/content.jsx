@@ -126,20 +126,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO DE ADVOGADOS EM ALVORADA - RS",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          A sua causa é a<span className="text-primary"> nossa missão</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Atendimento ágil, transparente e dedicado a resolver seu problema com segurança e eficiência.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Fale com um advogado",
       obsHero: {
         icon: (
           <svg
@@ -159,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
