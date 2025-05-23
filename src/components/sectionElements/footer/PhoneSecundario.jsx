@@ -16,7 +16,7 @@ function PhoneSecundario({ colorMode }) {
           target="_blank"
           className="hover:underline"
         >
-          {content.texts.infos.phoneSecundario}
+          {content.texts.infos.phoneSecundario} - Dra. Nicole Peixoto
         </a>
       </div>
     </MotionDivDownToUp>

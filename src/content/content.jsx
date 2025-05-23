@@ -2,7 +2,7 @@ import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
@@ -53,19 +53,21 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Cavalcante, Ribeiro & Silva",
+  name: "Pacheco & Peixoto Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "cres.adv.br", // Sem "www"
+  domain: "pachecoepeixotoadvogados.com.br", // Sem "www"
   phone: {
-    ddd: "82",
-    firstPart: "99406", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3673", // Apenas os 4 últimos números
+    ddd: "51",
+    nine: "9",
+    firstPart: "9425", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0201", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "51",
+    nineSecond: "9",
+    firstPart: "8495", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6736", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -75,10 +77,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Fernandes Lima, nº 8, edf.</p>
-      <p>Centenário Office,</p>
-      <p>sala 102 Maceió - AL,</p>
-      <p>CEP 57050-000.</p>
+      <p>Rua Porto Rico, 75,</p>
+      <p>Sala 302, Sumaré</p>
+      <p>Alvorada - RS,</p>
+      <p>CEP 94824-080.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -91,12 +93,13 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Segunda a sexta-feira:</p>
-      <p>8h às 18h</p>
+      <p>Horário de expediente:</p>
+      <p>Segunda à sexta-feira</p>
+      <p>Das 9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "cres.adv", // Sem o @
+  instagramProfile: "pachecoepeixotoadvogados", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,22 +126,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO PREVIDENCIÁRIO EM MACEIÓ - AL",
+      miniTag: "ESCRITÓRIO DE ADVOGADOS EM ALVORADA - RS",
       title: (
         <h1 className="mb-[16px]">
-          E se o INSS estiver
-          <span className="text-primary"> errado </span>
-          com você?
+          A sua causa é a<span className="text-primary"> nossa missão</span>
         </h1>
       ),
       subtitle:
-        "Milhares têm o BPC negado injustamente. Nós ajudamos você a garantir o que é seu por direito.",
+        "Atendimento ágil, transparente e dedicado a resolver seu problema com segurança e eficiência.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Descubra se você tem direito",
+      ctaButtonText: "Fale com um advogado",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento exclusivamente online para todo Brasil",
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,16 +185,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREA DE ATUAÇÃO",
-      title: "Especialista em BPC/LOAS para idosos e pessoas com deficiência",
+      miniTag: "ESPECIALIDADES",
+      title: "Atuação focada nas suas necessidades jurídicas",
       subtitle:
-        "Atuação dedicada à conquista e manutenção do benefício assistencial para quem mais precisa.",
+        "Conheça as principais áreas em que oferecemos suporte jurídico com experiência e comprometimento.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Solicitação do BPC para pessoa com deficiência",
-        subtitle: "Garantimos o acesso ao BPC para pessoas com deficiência",
+        title: "Trabalhista",
+        subtitle: "Defesa de direitos em relações de trabalho.",
         description: (
           <div>
             A_Definir
@@ -214,13 +215,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-accessibility-icon lucide-accessibility"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <circle cx="16" cy="4" r="1" />
-            <path d="m18 19 1-7-6 1" />
-            <path d="m5 8 3-3 5.5 3-2.36 3.5" />
-            <path d="M4.24 14.5a5 5 0 0 0 6.88 6" />
-            <path d="M13.76 17.5a5 5 0 0 0-6.88-6" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -228,8 +228,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Recursos e revisões de benefício negado",
-        subtitle: "Suporte para recorrer de negativas do INSS ao BPC",
+        title: "Previdenciário",
+        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -250,11 +250,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-warning-icon lucide-file-warning"
+            class="lucide lucide-wallet-icon lucide-wallet"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,8 +261,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Solicitação do BPC para idosos",
-        subtitle: "Obtenção do BPC para idosos 65+ com baixa renda",
+        title: "Cível",
+        subtitle: "Soluções para conflitos e responsabilidades civis.",
         description: (
           <div>
             A_Definir <br />
@@ -283,19 +282,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-cog-icon lucide-user-cog"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M10 15H6a4 4 0 0 0-4 4v2" />
-            <path d="m14.305 16.53.923-.382" />
-            <path d="m15.228 13.852-.923-.383" />
-            <path d="m16.852 12.228-.383-.923" />
-            <path d="m16.852 17.772-.383.924" />
-            <path d="m19.148 12.228.383-.923" />
-            <path d="m19.53 18.696-.382-.924" />
-            <path d="m20.772 13.852.924-.383" />
-            <path d="m20.772 16.148.924.383" />
-            <circle cx="18" cy="15" r="3" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -303,8 +296,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Atualização cadastral e manutenção do BPC",
-        subtitle: "Atualização do CadÚnico e manutenção do BPC ativo",
+        title: "Criminal",
+        subtitle: "Defesa e acompanhamento em processos criminais.",
         description: (
           <div>
             A_Definir
@@ -325,13 +318,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-package-check-icon lucide-package-check"
+            class="lucide lucide-shield-icon lucide-shield"
           >
-            <path d="m16 16 2 2 4-4" />
-            <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14" />
-            <path d="m7.5 4.27 9 5.15" />
-            <polyline points="3.29 7 12 12 20.71 7" />
-            <line x1="12" x2="12" y1="22" y2="12" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -367,57 +356,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É CAVALCANTE, RIBEIRO & SILVA ",
+      miniTag: "QUEM É A PACHECO & PEIXOTO",
       title: "Nossa trajetória",
-      subtitle: "Compromisso com o acesso à justiça para quem mais precisa.",
+      subtitle:
+        "Compromisso, ética e eficiência para entregar soluções com excelência.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          O escritório Cavalcante, Ribeiro & Silva surgiu a partir de um
-          propósito claro: oferecer apoio jurídico a quem mais precisa, mas
-          menos tem acesso. Milhares de brasileiros enfrentam barreiras enormes
-          para garantir seus direitos — seja pela distância, pela falta de
-          informação ou por limitações físicas e financeiras.
+          Na Pacheco & Peixoto, acreditamos que nossos maiores valores estão
+          refletidos na forma como conduzimos cada caso: com ética, respeito e
+          total comprometimento com a causa do cliente.
+          <br />
+          Atuamos com foco na assistência integral, oferecendo um atendimento
+          humanizado, transparente e eficiente, sempre atentos às reais
+          necessidades de quem nos procura.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          O escritório Cavalcante, Ribeiro & Silva surgiu a partir de um
-          propósito claro: oferecer apoio jurídico a quem mais precisa, mas
-          menos tem acesso. Milhares de brasileiros enfrentam barreiras enormes
-          para garantir seus direitos — seja pela distância, pela falta de
-          informação ou por limitações físicas e financeiras.
+          Na Pacheco & Peixoto, acreditamos que nossos maiores valores estão
+          refletidos na forma como conduzimos cada caso: com ética, respeito e
+          total comprometimento com a causa do cliente.
           <br />
           <br />
-          Percebendo essa realidade, decidimos atuar de forma diferente.
-          Especializados em Direito Previdenciário, voltamos nosso trabalho
-          exclusivamente para pessoas que precisam do Benefício de Prestação
-          Continuada (BPC/LOAS), tanto idosos quanto pessoas com deficiência.
+          Atuamos com foco na assistência integral, oferecendo um atendimento
+          humanizado, transparente e eficiente, sempre atentos às reais
+          necessidades de quem nos procura.
           <br />
           <br />
-          Nosso compromisso vai além da advocacia tradicional. Aqui, tratamos
-          cada caso com empatia, ética e transparência, respeitando a trajetória
-          de vida de cada cliente.
+          Nosso escritório acompanha a evolução do mercado jurídico, investindo
+          constantemente em atualização técnica e em recursos tecnológicos que
+          garantem mais agilidade, precisão e uma melhor experiência para o
+          cliente.
           <br />
           <br />
-          Sabemos que por trás de cada benefício negado há uma história, uma
-          família, uma necessidade real. Por isso, trabalhamos com dedicação
-          para transformar negativas em conquistas.
+          Buscamos não apenas a solução do problema, mas também uma jornada
+          acolhedora e clara durante todo o processo.
           <br />
           <br />
-          Além disso, fazemos parte de uma rede nacional de atualização jurídica
-          com os maiores especialistas da área previdenciária. Isso nos permite
-          atuar com estratégias modernas, eficazes e sempre em sintonia com as
-          decisões mais recentes da Justiça.
+          Mais do que advogar, nosso diferencial está em cuidar. Cuidar da
+          causa, do cliente e dos detalhes — com empatia, proximidade e
+          responsabilidade.
           <br />
           <br />
-          Acreditamos que um escritório de advocacia pode — e deve — ser
-          acessível, acolhedor e altamente competente. Essa é a essência do
-          Cavalcante, Ribeiro & Silva.
+          Essa é a trajetória que seguimos e o compromisso que renovamos a cada
+          atendimento.
           <br />
           <br />
         </p>
@@ -462,25 +449,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades relacionadas ao BPC/LOAS.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Examinamos documentos, laudos médicos e informações para ter uma visão completa do seu direito ao benefício.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia jurídica personalizada para garantir seu acesso ao benefício com eficiência.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Entramos com recursos e ações necessárias para assegurar seu direito ao BPC/LOAS junto ao INSS ou na justiça.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
@@ -503,22 +490,22 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta pelo WhatsApp para avaliarmos seu caso e explicarmos os custos envolvidos.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "Qual é o prazo médio para conseguir o benefício?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "O prazo varia conforme o tipo do processo e análise do INSS, mas informamos uma estimativa na consulta inicial.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
           question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Leve documentos pessoais, comprovante de residência, laudos médicos, exames e qualquer documento relacionado à deficiência ou renda.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Vocês ajudam em recursos para benefícios negados?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Sim, oferecemos suporte completo para recorrer de negativas do INSS, com acompanhamento jurídico especializado.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -861,8 +848,8 @@ const content = {
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
     infos: {
-      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
-      phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
+      phone: `(${infos.phone.ddd}) ${infos.phone.nine} ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.nineSecond} ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,
