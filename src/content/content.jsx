@@ -360,33 +360,44 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. LEONARDO NASCIMENTO",
+      title: "Minha trajetória",
+      subtitle:
+        "Compromisso com o cliente e foco na solução dos seus problemas.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Minha história no Direito começou em casa, com meu pai, Dr. Ivan Vaz,
+          que fundou o escritório há mais de 20 anos com atuação nas áreas
+          Cível, Trabalhista e de Família.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha história no Direito começou em casa, com meu pai, Dr. Ivan Vaz,
+          que fundou o escritório há mais de 20 anos com atuação nas áreas
+          Cível, Trabalhista e de Família.
           <br />
           <br />
-          A_Definir
+          Sou ex-militar da Marinha e trago para a advocacia a disciplina, o
+          foco e a responsabilidade que aprendi na carreira militar.
           <br />
           <br />
-          A_Definir
+          Atendo de forma humanizada, clara e objetiva, sempre buscando a melhor
+          solução para o cliente com agilidade e transparência.
           <br />
           <br />
-          A_Definir
+          Acredito em um escritório moderno e acessível, capaz de atender
+          pessoas de todos os perfis com linguagem simples e acolhedora.
+          <br />
+          <br />
+          Estou sempre disponível e em constante atualização, com pós-graduação
+          e cursos que me mantém alinhado às mudanças do Judiciário e do
+          mercado.
           <br />
           <br />
         </p>
@@ -400,14 +411,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
