@@ -18,7 +18,6 @@ export default function Index() {
 
   return (
     <>
-
       <Navbar colorMode={colorMode} />
 
       <Hero
@@ -45,12 +44,12 @@ export default function Index() {
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      {/* <Maps colorMode={colorMode} /> */}
+      <Maps colorMode={colorMode} />
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
         addres={true}
-        phoneSecundario={true}
+        phoneSecundario={false}
         phoneTerciario={false}
         emailSecundario={false}
         addresSecundario={false}
