@@ -21,6 +21,7 @@ import NavegationTextFooter from "../sectionElements/footer/NavegationTextFooter
 import LinksNavegationFooter from "../sectionElements/footer/LinksNavegationFooter.jsx";
 import EmailSecundarioFooter from "../sectionElements/footer/EmailSecundarioFooter.jsx";
 import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
+import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
 
 export default function FooterSocial({
   colorMode,
@@ -30,6 +31,7 @@ export default function FooterSocial({
   facebook,
   linkedin,
   x,
+  tiktok,
   addresSecundario,
   emailSecundario,
   phoneSecundario,
@@ -83,6 +85,7 @@ export default function FooterSocial({
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
                     {instagram && <InstagramFooter />}
+                    {tiktok && <TikTokFooter />}
                     {facebook && <FacebookFooter />}
                     {x && <XFooter />}
                     {linkedin && <LinkedinFooter />}
