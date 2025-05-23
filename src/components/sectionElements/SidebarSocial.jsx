@@ -59,7 +59,7 @@ export default function SidebarSocial({ colorMode }) {
           className={`p-button-rounded p-button-outlined lg:hidden ${
             colorMode
               ? scrolled
-                ? "text-colorBlack"
+                ? "text-primary"
                 : "text-primary"
               : "text-primary"
           } w-[40px] h-[40px]`}
