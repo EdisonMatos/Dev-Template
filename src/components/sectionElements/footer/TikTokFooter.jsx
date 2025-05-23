@@ -10,10 +10,10 @@ function TikTokFooter() {
       <a
         href={content.texts.links.tiktok}
         target="_blank"
-        aria-label="Link para o Instagram"
+        aria-label="Link para o TikTok"
       >
         <IconButton
-          ariaLabel="Botão para o Instagram"
+          ariaLabel="Botão para o TikTok"
           icon={
             <svg
               xmlns="http://www.w3.org/2000/svg"

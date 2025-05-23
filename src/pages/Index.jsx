@@ -41,6 +41,7 @@ export default function Index() {
         colorMode={colorMode}
         socialPrint={true}
         instagram={true}
+        tiktok={true}
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />

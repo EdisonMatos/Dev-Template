@@ -101,7 +101,7 @@ export const infos = {
   instagramProfile: "leonardonascimento_adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
-  tiktokProfile: "leonardonascimento_adv",
+  tiktokProfile: "@leonardonascimento_adv",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -421,6 +421,7 @@ const content = {
         labelFacebook: "Siga-me no Facebook",
         labelLinkedin: "Siga-me no LinkedIn",
         labelX: "Siga-me no X",
+        labeltiktok: "Siga-me no TikTok",
       },
     },
     cta: {
