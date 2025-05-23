@@ -361,33 +361,47 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. THAYNAN PERES",
+      title: "Minha trajetória",
+      subtitle: "Desde o ensino médio, advogar já era meu propósito de vida.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Desde o meu primeiro ano do ensino médio, eu já sabia o que queria:
+          cursar Direito e advogar. Sempre tive o desejo de ajudar as pessoas a
+          garantirem seus direitos, e esse sonho foi o que me motivou a seguir
+          firme até me tornar advogado
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Desde o meu primeiro ano do ensino médio, eu já sabia o que queria:
+          cursar Direito e advogar. Sempre tive o desejo de ajudar as pessoas a
+          garantirem seus direitos, e esse sonho foi o que me motivou a seguir
+          firme até me tornar advogado.
           <br />
           <br />
-          A_Definir
+          Com o tempo, percebi que só conseguiria oferecer o atendimento que eu
+          acreditava ser ideal — mais humano, acessível e acolhedor — se tivesse
+          meu próprio escritório. Foi assim que nasceu o Thaynan Peres Advogado:
+          um projeto feito com propósito, dedicação e empatia.
           <br />
           <br />
-          A_Definir
+          Atendo cada cliente com atenção, clareza e flexibilidade. Faço questão
+          de explicar tudo de forma simples, sem "juridiquês", porque acredito
+          que entender o próprio caso é um direito também. Além disso, sempre
+          busco condições que se encaixem na realidade de quem me procura,
+          porque sei que os honorários não devem ser uma barreira para se fazer
+          justiça.
           <br />
           <br />
-          A_Definir
+          Meu objetivo é ser lembrado como um advogado acessível, moderno e
+          comprometido — alguém em quem as pessoas podem confiar de verdade.
           <br />
           <br />
         </p>
