@@ -9,7 +9,7 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function TeamCards() {
   return (
-    <SectionArea className="quinary">
+    <SectionArea className="quinary" paddingbot={false}>
       <SectionHeader
         className="text-center"
         sectionHeaderTitle={content.texts.team.title}
