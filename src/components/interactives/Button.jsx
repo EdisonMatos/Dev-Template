@@ -38,7 +38,7 @@ export default function Button({
   const buttonColors = {
     dark: "text-white",
     light: "text-black",
-    default: "text-white",
+    default: "text-black",
   };
   const buttonColor = buttonColors[colorMode] || buttonColors.default;
 
@@ -64,7 +64,9 @@ export default function Button({
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
               {icon && <div className={`${buttonColor}`}>{icon}</div>}
-              <p className={`flex items-center ${textSizeClass} ${textclassName} ${buttonColor}`}>
+              <p
+                className={`flex items-center ${textSizeClass} ${textclassName} ${buttonColor}`}
+              >
                 {label}
               </p>
             </div>
@@ -80,7 +82,9 @@ export default function Button({
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
               {icon && <div className={`${buttonColor}`}>{icon}</div>}
-              <p className={`flex items-center ${textSizeClass} ${textclassName} ${buttonColor}`}>
+              <p
+                className={`flex items-center ${textSizeClass} ${textclassName} ${buttonColor}`}
+              >
                 {label}
               </p>
             </div>
