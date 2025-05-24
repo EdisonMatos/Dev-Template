@@ -357,33 +357,44 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A IGI ASSESSORIA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Mais de 10 anos defendendo trabalhadores e consumidores com seriedade e ação.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Com mais de uma década de história, a IGI Assessoria Jurídica nasceu
+          com um propósito claro: proteger os direitos de quem mais precisa — o
+          trabalhador e o consumidor.
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com mais de uma década de história, a IGI Assessoria Jurídica nasceu
+          com um propósito claro: proteger os direitos de quem mais precisa — o
+          trabalhador e o consumidor.
           <br />
           <br />
-          A_Definir
+          Nosso compromisso vai além da técnica. Aqui, cada cliente é tratado
+          com respeito, empatia e atenção real à sua história. Atendemos com
+          linguagem simples, sem “juridiquês”, explicando seus direitos de forma
+          acessível e buscando sempre soluções práticas, rápidas e eficazes.
           <br />
           <br />
-          A_Definir
+          Se você foi demitido injustamente, trabalhou sem carteira assinada ou
+          teve seu nome negativado indevidamente, estamos aqui para garantir que
+          seus direitos sejam reconhecidos. Atuamos com ética, transparência e
+          total dedicação em cada caso.
           <br />
           <br />
-          A_Definir
+          Na IGI, você não é apenas um processo. É alguém que merece justiça,
+          clareza e respeito.
           <br />
           <br />
         </p>
