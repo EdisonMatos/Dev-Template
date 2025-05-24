@@ -14,8 +14,8 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
-import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
@@ -53,15 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Dr. Thaynan Peres",
+  name: "IGI Assessoria Jurídica em Cuiabá - MT",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "thaynanperesadv.com.br", // Sem "www"
+  domain: "igiassessoria.com.br", // Sem "www"
   phone: {
-    ddd: "47",
-    nine: "9",
-    firstPart: "9638", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6313", // Apenas os 4 últimos números
+    ddd: "65",
+    firstPart: "98474", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8912", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -76,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua 222, n. 258, sala 4,</p>
-      <p>Bairro Meia Praia Itapema - SC,</p>
-      <p>CEP 88220-000.</p>
+      <p>Avenida Isac Povoas, </p>
+      <p>Edifício Milão n° 1331 – sala 74 – Centro Norte Cuiabá - MT,</p>
+      <p>CEP 78045-900.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,13 +91,12 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>9h às 12h</p>
-      <p>14h às 18h</p>
+      <p>Segunda à Sexta-feira</p>
+      <p>9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "thaynan_peress", // Sem o @
+  instagramProfile: "igi_assessoria_juridica", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -125,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CÍVEL EM ITAPEMA - SC",
+      miniTag: "ESCRITÓRIO DE ASSESSORIA JURÍDICA EM CUIABÁ - MT",
       title: (
         <h1 className="mb-[16px]">
-          Já viu problema sumir
-          <span className="text-primary"> sozinho?</span>
+          A injustiça não teve a
+          <span className="text-primary"> última palavra</span>
         </h1>
       ),
       subtitle:
-        "Quem agiu no tempo certo, hoje vive em paz — sem dívidas, brigas ou contratos injustos.",
+        "Parece o fim, mas é só o começo quando você encontra a IGI Assessoria",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Resolva o meu também",
+      ctaButtonText: "Vire o jogo agora",
       obsHero: {
         icon: (
           <svg
@@ -185,17 +183,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Seu problema tem solução. E começa aqui.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas com foco em você",
       subtitle:
-        "Atuação estratégica e humanizada nas áreas que mais afetam sua vida e seu bolso.",
+        "Atendemos com seriedade e agilidade nas áreas que mais impactam sua vida.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
         title: "Direito Civil",
         subtitle:
-          "Análise de contratos, ações e defesas cíveis, execuções e assessoramento extrajudicial.",
+          "Resolvemos conflitos civis com agilidade, clareza e responsabilidade.",
         description: (
           <div>
             A_Definir
@@ -212,17 +210,16 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="white"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-user-search-icon lucide-user-search"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <circle cx="10" cy="7" r="4" />
+            <path d="M10.3 15H7a4 4 0 0 0-4 4v2" />
+            <circle cx="17" cy="17" r="3" />
+            <path d="m21 21-1.9-1.9" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -231,8 +228,7 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Direito do Consumidor",
-        subtitle:
-          "Reclamações no PROCON, ações e defesas judiciais e assessoria preventiva para empresas.",
+        subtitle: "Cobrança indevida? Aqui tratamos esses casos com urgência.",
         description: (
           <div>
             A_Definir
@@ -249,7 +245,7 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="white"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -265,9 +261,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito de Família",
+        title: "Direito Aéreo",
         subtitle:
-          "Divórcio, partilha, união estável, pensão, guarda, convivência, curatela e apoio à decisão.",
+          "Voo cancelado ou atraso? Exigimos seus direitos com rapidez e precisão.",
         description: (
           <div>
             A_Definir <br />
@@ -283,16 +279,13 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="white"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-plane-icon lucide-plane"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -300,9 +293,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria Jurídica",
+        title: "Direito do Trabalho",
         subtitle:
-          "Orientação preventiva, pareceres técnicos e suporte estratégico em diversas áreas do Direito.",
+          "Trabalho sem registro tem direito a FGTS, Férias + ⅓, 13º salário, Aviso prévio, INSS retroativo.",
         description: (
           <div>
             A_Definir
@@ -319,13 +312,16 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="white"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-message-circle-icon lucide-message-circle"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -351,58 +347,55 @@ const content = {
     },
     maps: {
       minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Itapema - SC",
+      title: "Encontre-nos em Cuiabá - MT",
       subtitle:
         "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.03357290605!2d-48.6069829!3d-27.123752499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b1d7254dcb8f%3A0xe5f0fa6f4d96d021!2sR.%20222%2C%20150%20-%20Meia%20Praia%2C%20Itapema%20-%20SC%2C%2088220-000!5e0!3m2!1spt-BR!2sbr!4v1748002470825!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3842.9813551717325!2d-56.105843!3d-15.592645000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDM1JzMzLjUiUyA1NsKwMDYnMjEuMCJX!5e0!3m2!1spt-BR!2sbr!4v1748053250871!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. THAYNAN PERES",
-      title: "Minha trajetória",
-      subtitle: "Desde o ensino médio, advogar já era meu propósito de vida.",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+      miniTag: "QUEM É A IGI ASSESSORIA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Mais de 10 anos defendendo trabalhadores e consumidores com seriedade e ação.",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Desde o meu primeiro ano do ensino médio, eu já sabia o que queria:
-          cursar Direito e advogar. Sempre tive o desejo de ajudar as pessoas a
-          garantirem seus direitos, e esse sonho foi o que me motivou a seguir
-          firme até me tornar advogado
+          Com mais de uma década de história, a IGI Assessoria Jurídica nasceu
+          com um propósito claro: proteger os direitos de quem mais precisa — o
+          trabalhador e o consumidor.
           <br />
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Desde o meu primeiro ano do ensino médio, eu já sabia o que queria:
-          cursar Direito e advogar. Sempre tive o desejo de ajudar as pessoas a
-          garantirem seus direitos, e esse sonho foi o que me motivou a seguir
-          firme até me tornar advogado.
+          Com mais de uma década de história, a IGI Assessoria Jurídica nasceu
+          com um propósito claro: proteger os direitos de quem mais precisa — o
+          trabalhador e o consumidor.
           <br />
           <br />
-          Com o tempo, percebi que só conseguiria oferecer o atendimento que eu
-          acreditava ser ideal — mais humano, acessível e acolhedor — se tivesse
-          meu próprio escritório. Foi assim que nasceu o Thaynan Peres Advogado:
-          um projeto feito com propósito, dedicação e empatia.
+          Nosso compromisso vai além da técnica. Aqui, cada cliente é tratado
+          com respeito, empatia e atenção real à sua história. Atendemos com
+          linguagem simples, sem “juridiquês”, explicando seus direitos de forma
+          acessível e buscando sempre soluções práticas, rápidas e eficazes.
           <br />
           <br />
-          Atendo cada cliente com atenção, clareza e flexibilidade. Faço questão
-          de explicar tudo de forma simples, sem "juridiquês", porque acredito
-          que entender o próprio caso é um direito também. Além disso, sempre
-          busco condições que se encaixem na realidade de quem me procura,
-          porque sei que os honorários não devem ser uma barreira para se fazer
-          justiça.
+          Se você foi demitido injustamente, trabalhou sem carteira assinada ou
+          teve seu nome negativado indevidamente, estamos aqui para garantir que
+          seus direitos sejam reconhecidos. Atuamos com ética, transparência e
+          total dedicação em cada caso.
           <br />
           <br />
-          Meu objetivo é ser lembrado como um advogado acessível, moderno e
-          comprometido — alguém em quem as pessoas podem confiar de verdade.
+          Na IGI, você não é apenas um processo. É alguém que merece justiça,
+          clareza e respeito.
           <br />
           <br />
         </p>
@@ -421,10 +414,10 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -508,6 +501,7 @@ const content = {
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
     },
+
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
@@ -572,16 +566,22 @@ const content = {
       number3Description: "A_Definir",
     },
     team: {
-      title: "A_Definir",
+      minitag: "A_Definir",
+      title: "QUEM SOMOS",
       subtitle: "A_Definir",
       members: {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: "Edison Matos",
+            alt: "Membro 1",
           },
-          name: "Edison Matos",
-          role: "CEO & Diretor de Desenvolvimento",
+          name: "IGI Assessoria Jurídica",
+          description: (
+            <p>
+              Compromisso e experiência em defesa dos seus direitos (CNPJ
+              54.994.667/0001-86)
+            </p>
+          ),
           socialMedia: {
             icon1: (
               <svg
@@ -644,10 +644,10 @@ const content = {
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: "Gabriel Adans",
+            alt: "Membro 2",
           },
-          name: "Gabriel Adans",
-          role: "Marketing Outsourcing",
+          name: "Icaro Gonzaga Izaias",
+          description: <p>Fundador e responsável técnico da IGI Assessoria</p>,
           socialMedia: {
             icon1: (
               <svg
@@ -710,10 +710,10 @@ const content = {
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: "Gabriel Souza",
+            alt: "Membro 3",
           },
-          name: "Gabriel Souza",
-          role: "Desenvolvedor Frontend",
+          name: "Ingrid Cândido Vargas Rodrigues",
+          description: "Sócia • OAB/MT 21.566/O",
           socialMedia: {
             icon1: (
               <svg
@@ -776,10 +776,14 @@ const content = {
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: "Luiz Felipe",
+            alt: "Membro 4",
           },
-          name: "Luiz Felipe",
-          role: "Designer Ourtsourcing",
+          name: "Andrea Bonfim Bathista e Silva",
+          description: (
+            <p>
+              OAB/MT 31.230/O • Especialista em Dto Administrativo e Trabalhista{" "}
+            </p>
+          ),
           socialMedia: {
             icon1: (
               <svg
@@ -834,6 +838,35 @@ const content = {
             link3: "https://wa.me/+556596241854",
           },
         },
+        member5: {
+          name: "Gustavo Verdecio de Jesus",
+          description: (
+            <p>
+              OAB/MT 34.130/O • Especialista em Dto Constitucional, tributário e
+              Administrativo
+            </p>
+          ),
+          socialMedia: {
+            icon1: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-linkedin"
+              >
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            ),
+          },
+        },
       },
     },
     links: {
@@ -846,7 +879,7 @@ const content = {
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
     },
     infos: {
-      phone: `(${infos.phone.ddd}) ${infos.phone.nine} ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+      phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
       phoneSecundario: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
