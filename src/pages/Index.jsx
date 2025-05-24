@@ -11,6 +11,7 @@ import AboutInstagram from "../components/sections/AboutInstagram";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import Maps from "../components/sections/Maps";
+import TeamCards from "../components/sections/TeamCards";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -37,10 +38,8 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutInstagram
-        colorMode={colorMode}
-        instagram={true}
-      />
+      <AboutInstagram colorMode={colorMode} instagram={true} />
+      <TeamCards />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       <Maps colorMode={colorMode} />

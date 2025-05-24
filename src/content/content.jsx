@@ -566,16 +566,22 @@ const content = {
       number3Description: "A_Definir",
     },
     team: {
-      title: "A_Definir",
+      minitag: "A_Definir",
+      title: "QUEM SOMOS",
       subtitle: "A_Definir",
       members: {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: "Edison Matos",
+            alt: "Membro 1",
           },
-          name: "Edison Matos",
-          role: "CEO & Diretor de Desenvolvimento",
+          name: "IGI Assessoria Jurídica",
+          description: (
+            <p>
+              Compromisso e experiência em defesa dos seus direitos (CNPJ
+              54.994.667/0001-86)
+            </p>
+          ),
           socialMedia: {
             icon1: (
               <svg
@@ -638,10 +644,10 @@ const content = {
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: "Gabriel Adans",
+            alt: "Membro 2",
           },
-          name: "Gabriel Adans",
-          role: "Marketing Outsourcing",
+          name: "Icaro Gonzaga Izaias",
+          description: <p>Fundador e responsável técnico da IGI Assessoria</p>,
           socialMedia: {
             icon1: (
               <svg
@@ -704,10 +710,10 @@ const content = {
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: "Gabriel Souza",
+            alt: "Membro 3",
           },
-          name: "Gabriel Souza",
-          role: "Desenvolvedor Frontend",
+          name: "Ingrid Cândido Vargas Rodrigues",
+          description: "Sócia • OAB/MT 21.566/O",
           socialMedia: {
             icon1: (
               <svg
@@ -770,10 +776,14 @@ const content = {
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: "Luiz Felipe",
+            alt: "Membro 4",
           },
-          name: "Luiz Felipe",
-          role: "Designer Ourtsourcing",
+          name: "Andrea Bonfim Bathista e Silva",
+          description: (
+            <p>
+              OAB/MT 31.230/O • Especialista em Dto Administrativo e Trabalhista{" "}
+            </p>
+          ),
           socialMedia: {
             icon1: (
               <svg
@@ -826,6 +836,35 @@ const content = {
               </svg>
             ),
             link3: "https://wa.me/+556596241854",
+          },
+        },
+        member5: {
+          name: "Gustavo Verdecio de Jesus",
+          description: (
+            <p>
+              OAB/MT 34.130/O • Especialista em Dto Constitucional, tributário e
+              Administrativo
+            </p>
+          ),
+          socialMedia: {
+            icon1: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-linkedin"
+              >
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            ),
           },
         },
       },
