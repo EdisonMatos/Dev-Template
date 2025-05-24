@@ -37,10 +37,10 @@ export default function TeamCards() {
               name={content.texts.team.members.member4.name}
               description={content.texts.team.members.member4.description}
             />
-            <TeamMemberCards
+            {/* <TeamMemberCards
               name={content.texts.team.members.member5.name}
               description={content.texts.team.members.member5.description}
-            />
+            /> */}
           </div>
         </MotionDivDownToUp>
       </SectionWrapper>
