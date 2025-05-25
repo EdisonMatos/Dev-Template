@@ -41,7 +41,7 @@ export default function Index() {
       {/* <AboutInstagram colorMode={colorMode} instagram={true} /> */}
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
