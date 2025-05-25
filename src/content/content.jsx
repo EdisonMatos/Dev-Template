@@ -361,33 +361,40 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. JORGE DINIZ",
+      title: "Minha trajetória",
+      subtitle:
+        "Compromisso exclusivo com a justiça, sempre com empatia e transparência.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Minha trajetória na advocacia nasceu do desejo de fazer a diferença na
+          vida das pessoas. Acredito que o Direito deve oferecer suporte e
+          segurança em momentos decisivos, com escuta ativa e respeito a cada
+          cliente.
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha trajetória na advocacia nasceu do desejo de fazer a diferença na
+          vida das pessoas. Acredito que o Direito deve oferecer suporte e
+          segurança em momentos decisivos, com escuta ativa e respeito a cada
+          cliente.
           <br />
           <br />
-          A_Definir
+          Meu trabalho é pautado em ética, responsabilidade e empatia. Cada caso
+          é tratado com dedicação e transparência, garantindo que o cliente se
+          sinta seguro e compreendido.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Ofereço uma atuação estratégica e personalizada, prezando pela
+          honestidade e confiança. Mais que resolver problemas, meu compromisso
+          é proteger direitos e orientar decisões com profissionalismo.
           <br />
           <br />
         </p>
