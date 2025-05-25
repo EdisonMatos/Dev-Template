@@ -123,20 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "Advocacia além do óbvio",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Advocacia além
+          <span className="text-primary"> do óbvio</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Atuação estratégica, empatia e resultados que transformam histórias todos os dias.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Fale com o advogado",
       obsHero: {
         icon: (
           <svg
@@ -156,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento online para todo o Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
