@@ -123,7 +123,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "Advocacia além do óbvio",
+      miniTag: "ADVOGADO EM ANGRA DOS REIS - RJ",
       title: (
         <h1 className="mb-[16px]">
           Advocacia além
