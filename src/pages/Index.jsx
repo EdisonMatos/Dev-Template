@@ -38,8 +38,7 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      <AboutInstagram colorMode={colorMode} instagram={true} />
-      <TeamCards />
+      {/* <AboutInstagram colorMode={colorMode} instagram={true} /> */}
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       <Maps colorMode={colorMode} />
