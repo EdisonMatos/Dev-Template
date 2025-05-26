@@ -197,7 +197,3 @@
   height: 50px !important;
   flex-shrink: 0 !important; /* Impede que o botão diminua se o tooltip aumentar */
 }
-
-.gradient-LP-Hero {
-  background: radial-gradient(circle, #141821, #141821, #141821);
-}
