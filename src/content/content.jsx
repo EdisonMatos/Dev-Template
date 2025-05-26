@@ -1,14 +1,14 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.png";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
@@ -17,7 +17,7 @@ import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Jorge Diniz",
+  name: "Dra. Thainara Andrade",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "jorgediniz.com.br", // Sem "www"
+  domain: "thainaraandrade.com.br", // Sem "www"
   phone: {
-    ddd: "24",
-    firstPart: "99976", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9468", // Apenas os 4 últimos números
+    ddd: "12",
+    firstPart: "98893", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3917", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -92,11 +92,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 18h</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "thainaraandradeadvogada", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM ANGRA DOS REIS - RJ",
+      miniTag: "ADVOGADA CÍVEL EM ILHABELA - SP",
       title: (
         <h1 className="mb-[16px]">
-          Advocacia além
-          <span className="text-primary"> do óbvio</span>
+          Ela evitou 5 anos de
+          <span className="text-primary"> dor de cabeça</span>
         </h1>
       ),
       subtitle:
-        "Atuação estratégica, empatia e resultados que transformam histórias todos os dias.",
+        "Regularizou o imóvel da família sem processo, sem briga e sem gastar o que não tinha.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com o advogado",
+      ctaButtonText: "Quero uma solução assim",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online para todo o Brasil",
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,14 +184,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Soluções jurídicas por áreas",
-      subtitle: "Conheça os ramos do Direito em que oferecemos suporte.",
+      title: "Atuação focada em soluções jurídicas seguras e eficazes",
+      subtitle:
+        "Conheça as áreas em que posso te ajudar com clareza, agilidade e acolhimento.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Defesa em causas civis e conflitos particulares.",
+        title: "Direito imobiliário",
+        subtitle: "Atuação jurídica em questões do direito imobiliário.",
         description: (
           <div>
             A_Definir
@@ -212,13 +213,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -226,8 +226,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Penal",
-        subtitle: "Atuação em processos criminais e defesas penais.",
+        title: "Regularização de imóveis, usucapião, REURB",
+        subtitle: "Regularização de imóveis urbanos e rurais completa.",
         description: (
           <div>
             A_Definir
@@ -248,16 +248,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-siren-icon lucide-siren"
+            class="lucide lucide-handshake-icon lucide-handshake"
           >
-            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
-            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
-            <path d="M21 12h1" />
-            <path d="M18.5 4.5 18 5" />
-            <path d="M2 12h1" />
-            <path d="M12 2v1" />
-            <path d="m4.929 4.929.707.707" />
-            <path d="M12 12v6" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -265,8 +262,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Administrativo",
-        subtitle: "Assessoria em questões públicas e administrativas.",
+        title: "Inventário e divorcio",
+        subtitle: "Abertura de inventário e ações de divórcio.",
         description: (
           <div>
             A_Definir <br />
@@ -286,13 +283,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -300,8 +297,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria Jurídica",
-        subtitle: "Orientação legal preventiva para decisões seguras.",
+        title: "Compra e venda de imóveis",
+        subtitle: "Assessoria na compra e venda de imóveis seguros",
         description: (
           <div>
             A_Definir
@@ -322,10 +319,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-messages-square-icon lucide-messages-square"
+            class="lucide lucide-banknote-icon lucide-banknote"
           >
-            <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z" />
-            <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
+            <rect width="20" height="12" x="2" y="6" rx="2" />
+            <circle cx="12" cy="12" r="2" />
+            <path d="M6 12h.01M18 12h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -361,40 +359,51 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. JORGE DINIZ",
+      miniTag: "QUEM É A DRA. THAINARA ANDRADE",
       title: "Minha trajetória",
       subtitle:
-        "Compromisso exclusivo com a justiça, sempre com empatia e transparência.",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Transformando burocracias jurídicas em soluções claras e acolhedoras.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Minha trajetória na advocacia nasceu do desejo de fazer a diferença na
-          vida das pessoas. Acredito que o Direito deve oferecer suporte e
-          segurança em momentos decisivos, com escuta ativa e respeito a cada
-          cliente.
+          Meu escritório nasceu da vontade de transformar processos jurídicos
+          que, muitas vezes, são vistos como longos, burocráticos e
+          desgastantes, em soluções claras, rápidas e humanas.
           <br />
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha trajetória na advocacia nasceu do desejo de fazer a diferença na
-          vida das pessoas. Acredito que o Direito deve oferecer suporte e
-          segurança em momentos decisivos, com escuta ativa e respeito a cada
+          Meu escritório nasceu da vontade de transformar processos jurídicos
+          que, muitas vezes, são vistos como longos, burocráticos e
+          desgastantes, em soluções claras, rápidas e humanas.
+          <br />
+          <br />
+          Após anos de experiência na área extrajudicial e no serviço público,
+          percebi o quanto as pessoas chegam até mim carregando dúvidas, medos e
+          inseguranças — seja para regularizar um imóvel, dar entrada em um
+          inventário ou enfrentar um divórcio.
+          <br />
+          <br />
+          Foi a partir disso que decidi criar um espaço acolhedor, acessível e
+          eficiente, onde o atendimento é feito com escuta ativa, respeito e
+          total dedicação.
+          <br />
+          <br />
+          Acredito que o Direito pode (e deve) ser um instrumento de
+          tranquilidade e organização, e meu compromisso é oferecer soluções
+          jurídicas seguras, com foco na agilidade e na prevenção de conflitos,
+          sempre dentro do extrajudicial, sempre respeitando a história de cada
           cliente.
           <br />
           <br />
-          Meu trabalho é pautado em ética, responsabilidade e empatia. Cada caso
-          é tratado com dedicação e transparência, garantindo que o cliente se
-          sinta seguro e compreendido.
-          <br />
-          <br />
-          Ofereço uma atuação estratégica e personalizada, prezando pela
-          honestidade e confiança. Mais que resolver problemas, meu compromisso
-          é proteger direitos e orientar decisões com profissionalismo.
+          Trabalho com ética, empatia e clareza. Quero que você se sinta
+          confortável e seguro em cada etapa do processo, sabendo que está sendo
+          orientado(a) com firmeza, experiência e responsabilidade.
           <br />
           <br />
         </p>
@@ -408,14 +417,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -581,7 +591,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -600,7 +610,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -618,7 +628,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -647,7 +657,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -666,7 +676,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -684,7 +694,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -713,7 +723,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -732,7 +742,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -750,7 +760,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -779,7 +789,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -798,7 +808,7 @@ const content = {
                 height="20"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="#000000"
+                stroke="black"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -815,7 +825,7 @@ const content = {
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
                 height="18"
-                fill="#000000"
+                fill="black"
                 className=" bi bi-whatsapp"
                 viewBox="0 0 16 16"
               >

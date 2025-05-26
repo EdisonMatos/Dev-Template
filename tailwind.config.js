@@ -3,20 +3,18 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      primary: "#A18A6F",
+      primary: "#DCC286",
       secondary: "#000000",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#223B47",
+      bgSectionDark: "#001B42",
       links: "#0189BB",
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",
       darker: "#000000",
       labelsIcons: "#000000",
-      lpvHeroGradientTop: "#111318",
-      lpvHeroGradientBot: "#141821",
     },
     boxShadow: {
-      "custom-opacity": "-20px 20px 0px", // 30% de opacidade
+      "custom-opacity": "-20px 20px 0px",
     },
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
