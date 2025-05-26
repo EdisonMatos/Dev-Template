@@ -359,33 +359,51 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. THAINARA ANDRADE",
+      title: "Minha trajetória",
+      subtitle:
+        "Transformando burocracias jurídicas em soluções claras e acolhedoras.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Meu escritório nasceu da vontade de transformar processos jurídicos
+          que, muitas vezes, são vistos como longos, burocráticos e
+          desgastantes, em soluções claras, rápidas e humanas.
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Meu escritório nasceu da vontade de transformar processos jurídicos
+          que, muitas vezes, são vistos como longos, burocráticos e
+          desgastantes, em soluções claras, rápidas e humanas.
           <br />
           <br />
-          A_Definir
+          Após anos de experiência na área extrajudicial e no serviço público,
+          percebi o quanto as pessoas chegam até mim carregando dúvidas, medos e
+          inseguranças — seja para regularizar um imóvel, dar entrada em um
+          inventário ou enfrentar um divórcio.
           <br />
           <br />
-          A_Definir
+          Foi a partir disso que decidi criar um espaço acolhedor, acessível e
+          eficiente, onde o atendimento é feito com escuta ativa, respeito e
+          total dedicação.
           <br />
           <br />
-          A_Definir
+          Acredito que o Direito pode (e deve) ser um instrumento de
+          tranquilidade e organização, e meu compromisso é oferecer soluções
+          jurídicas seguras, com foco na agilidade e na prevenção de conflitos,
+          sempre dentro do extrajudicial, sempre respeitando a história de cada
+          cliente.
+          <br />
+          <br />
+          Trabalho com ética, empatia e clareza. Quero que você se sinta
+          confortável e seguro em cada etapa do processo, sabendo que está sendo
+          orientado(a) com firmeza, experiência e responsabilidade.
           <br />
           <br />
         </p>
