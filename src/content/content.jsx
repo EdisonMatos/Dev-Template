@@ -15,7 +15,7 @@ import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "IGI Assessoria Jurídica em Cuiabá - MT",
+  name: "Advogado Jorge Diniz",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "igiassessoria.com.br", // Sem "www"
+  domain: "jorgediniz.com.br", // Sem "www"
   phone: {
-    ddd: "65",
-    firstPart: "98474", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8912", // Apenas os 4 últimos números
+    ddd: "24",
+    firstPart: "99976", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9468", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Isac Povoas, </p>
-      <p>Edifício Milão n° 1331 – sala 74 – Centro Norte Cuiabá - MT,</p>
-      <p>CEP 78045-900.</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -91,12 +91,12 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda à Sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "igi_assessoria_juridica", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ASSESSORIA JURÍDICA EM CUIABÁ - MT",
+      miniTag: "ADVOGADO EM ANGRA DOS REIS - RJ",
       title: (
         <h1 className="mb-[16px]">
-          A injustiça não teve a
-          <span className="text-primary"> última palavra</span>
+          Advocacia além
+          <span className="text-primary"> do óbvio</span>
         </h1>
       ),
       subtitle:
-        "Parece o fim, mas é só o começo quando você encontra a IGI Assessoria",
+        "Atuação estratégica, empatia e resultados que transformam histórias todos os dias.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Vire o jogo agora",
+      ctaButtonText: "Fale com o advogado",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil",
+        text: "Atendimento online para todo o Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,17 +183,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades jurídicas com foco em você",
-      subtitle:
-        "Atendemos com seriedade e agilidade nas áreas que mais impactam sua vida.",
+      miniTag: "ESPECIALIDADES",
+      title: "Soluções jurídicas por áreas",
+      subtitle: "Conheça os ramos do Direito em que oferecemos suporte.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Civil",
-        subtitle:
-          "Resolvemos conflitos civis com agilidade, clareza e responsabilidade.",
+        title: "Direito Cível",
+        subtitle: "Defesa em causas civis e conflitos particulares.",
         description: (
           <div>
             A_Definir
@@ -214,12 +212,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-search-icon lucide-user-search"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <circle cx="10" cy="7" r="4" />
-            <path d="M10.3 15H7a4 4 0 0 0-4 4v2" />
-            <circle cx="17" cy="17" r="3" />
-            <path d="m21 21-1.9-1.9" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +226,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Consumidor",
-        subtitle: "Cobrança indevida? Aqui tratamos esses casos com urgência.",
+        title: "Direito Penal",
+        subtitle: "Atuação em processos criminais e defesas penais.",
         description: (
           <div>
             A_Definir
@@ -249,11 +248,16 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+            class="lucide lucide-siren-icon lucide-siren"
           >
-            <circle cx="8" cy="21" r="1" />
-            <circle cx="19" cy="21" r="1" />
-            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
+            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
+            <path d="M21 12h1" />
+            <path d="M18.5 4.5 18 5" />
+            <path d="M2 12h1" />
+            <path d="M12 2v1" />
+            <path d="m4.929 4.929.707.707" />
+            <path d="M12 12v6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -261,9 +265,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Aéreo",
-        subtitle:
-          "Voo cancelado ou atraso? Exigimos seus direitos com rapidez e precisão.",
+        title: "Direito Administrativo",
+        subtitle: "Assessoria em questões públicas e administrativas.",
         description: (
           <div>
             A_Definir <br />
@@ -283,9 +286,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-plane-icon lucide-plane"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -293,9 +300,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito do Trabalho",
-        subtitle:
-          "Trabalho sem registro tem direito a FGTS, Férias + ⅓, 13º salário, Aviso prévio, INSS retroativo.",
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação legal preventiva para decisões seguras.",
         description: (
           <div>
             A_Definir
@@ -316,12 +322,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-messages-square-icon lucide-messages-square"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z" />
+            <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -346,56 +350,51 @@ const content = {
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Cuiabá - MT",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3842.9813551717325!2d-56.105843!3d-15.592645000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDM1JzMzLjUiUyA1NsKwMDYnMjEuMCJX!5e0!3m2!1spt-BR!2sbr!4v1748053250871!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A IGI ASSESSORIA",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É O DR. JORGE DINIZ",
+      title: "Minha trajetória",
       subtitle:
-        "Mais de 10 anos defendendo trabalhadores e consumidores com seriedade e ação.",
+        "Compromisso exclusivo com a justiça, sempre com empatia e transparência.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Com mais de uma década de história, a IGI Assessoria Jurídica nasceu
-          com um propósito claro: proteger os direitos de quem mais precisa — o
-          trabalhador e o consumidor.
+          Minha trajetória na advocacia nasceu do desejo de fazer a diferença na
+          vida das pessoas. Acredito que o Direito deve oferecer suporte e
+          segurança em momentos decisivos, com escuta ativa e respeito a cada
+          cliente.
           <br />
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com mais de uma década de história, a IGI Assessoria Jurídica nasceu
-          com um propósito claro: proteger os direitos de quem mais precisa — o
-          trabalhador e o consumidor.
+          Minha trajetória na advocacia nasceu do desejo de fazer a diferença na
+          vida das pessoas. Acredito que o Direito deve oferecer suporte e
+          segurança em momentos decisivos, com escuta ativa e respeito a cada
+          cliente.
           <br />
           <br />
-          Nosso compromisso vai além da técnica. Aqui, cada cliente é tratado
-          com respeito, empatia e atenção real à sua história. Atendemos com
-          linguagem simples, sem “juridiquês”, explicando seus direitos de forma
-          acessível e buscando sempre soluções práticas, rápidas e eficazes.
+          Meu trabalho é pautado em ética, responsabilidade e empatia. Cada caso
+          é tratado com dedicação e transparência, garantindo que o cliente se
+          sinta seguro e compreendido.
           <br />
           <br />
-          Se você foi demitido injustamente, trabalhou sem carteira assinada ou
-          teve seu nome negativado indevidamente, estamos aqui para garantir que
-          seus direitos sejam reconhecidos. Atuamos com ética, transparência e
-          total dedicação em cada caso.
-          <br />
-          <br />
-          Na IGI, você não é apenas um processo. É alguém que merece justiça,
-          clareza e respeito.
+          Ofereço uma atuação estratégica e personalizada, prezando pela
+          honestidade e confiança. Mais que resolver problemas, meu compromisso
+          é proteger direitos e orientar decisões com profissionalismo.
           <br />
           <br />
         </p>
@@ -409,11 +408,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
@@ -501,7 +499,6 @@ const content = {
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
     },
-
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
@@ -566,22 +563,16 @@ const content = {
       number3Description: "A_Definir",
     },
     team: {
-      minitag: "A_Definir",
-      title: "QUEM SOMOS",
+      title: "A_Definir",
       subtitle: "A_Definir",
       members: {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: "Membro 1",
+            alt: "Edison Matos",
           },
-          name: "IGI Assessoria Jurídica",
-          description: (
-            <p>
-              Compromisso e experiência em defesa dos seus direitos (CNPJ
-              54.994.667/0001-86)
-            </p>
-          ),
+          name: "Edison Matos",
+          role: "CEO & Diretor de Desenvolvimento",
           socialMedia: {
             icon1: (
               <svg
@@ -644,10 +635,10 @@ const content = {
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: "Membro 2",
+            alt: "Gabriel Adans",
           },
-          name: "Icaro Gonzaga Izaias",
-          description: <p>Fundador e responsável técnico da IGI Assessoria</p>,
+          name: "Gabriel Adans",
+          role: "Marketing Outsourcing",
           socialMedia: {
             icon1: (
               <svg
@@ -710,10 +701,10 @@ const content = {
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: "Membro 3",
+            alt: "Gabriel Souza",
           },
-          name: "Ingrid Cândido Vargas Rodrigues",
-          description: "Sócia • OAB/MT 21.566/O",
+          name: "Gabriel Souza",
+          role: "Desenvolvedor Frontend",
           socialMedia: {
             icon1: (
               <svg
@@ -776,14 +767,10 @@ const content = {
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: "Membro 4",
+            alt: "Luiz Felipe",
           },
-          name: "Andrea Bonfim Bathista e Silva",
-          description: (
-            <p>
-              OAB/MT 31.230/O • Especialista em Dto Administrativo e Trabalhista{" "}
-            </p>
-          ),
+          name: "Luiz Felipe",
+          role: "Designer Ourtsourcing",
           socialMedia: {
             icon1: (
               <svg
@@ -836,35 +823,6 @@ const content = {
               </svg>
             ),
             link3: "https://wa.me/+556596241854",
-          },
-        },
-        member5: {
-          name: "Gustavo Verdecio de Jesus",
-          description: (
-            <p>
-              OAB/MT 34.130/O • Especialista em Dto Constitucional, tributário e
-              Administrativo
-            </p>
-          ),
-          socialMedia: {
-            icon1: (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#000000"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-linkedin"
-              >
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                <rect width="4" height="12" x="2" y="9" />
-                <circle cx="4" cy="4" r="2" />
-              </svg>
-            ),
           },
         },
       },
