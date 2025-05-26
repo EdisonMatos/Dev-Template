@@ -63,7 +63,7 @@
   animation: fadeOut 1s ease-in-out;
 }
 
-/* WhatsChat */
+/* WhatsChat - componente externo */
 /* Estilo padrão da tooltip para outras telas */
 ._tooltip_181xn_903 {
   position: absolute; /* Mantém o posicionamento */
@@ -198,6 +198,3 @@
   flex-shrink: 0 !important; /* Impede que o botão diminua se o tooltip aumentar */
 }
 
-.gradient-LP-Hero {
-  background: radial-gradient(circle, #141821, #141821, #141821);
-}
