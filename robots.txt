@@ -1,5 +1,5 @@
 User-agent: *
-Sitemap: https:/www.jorgediniz.com.br
+Sitemap: https:/www.thainaraandrade.com.br
 
 /sitemap.xml
 
