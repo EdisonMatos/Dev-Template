@@ -14,7 +14,7 @@ export const theme = {
       labelsIcons: "#000000",
     },
     boxShadow: {
-      "custom-opacity": "-20px 20px 0px", // 30% de opacidade
+      "custom-opacity": "-20px 20px 0px",
     },
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
