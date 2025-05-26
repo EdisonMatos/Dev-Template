@@ -35,7 +35,7 @@ export default function WhatsAppLinks({ form }) {
           <footer className="">
             <MotionDivDownToUp>
               <button
-                className="mt-12 bg-bgSectionLight text-[#000] font-bold px-8 py-2 rounded transition hover:scale-110"
+                className="mt-12 bg-bgSectionLight text-black font-bold px-8 py-2 rounded transition hover:scale-110"
                 onClick={() => (window.location.href = "/")}
               >
                 Voltar
@@ -132,7 +132,7 @@ export default function WhatsAppLinks({ form }) {
           <footer className="">
             <MotionDivDownToUp>
               <button
-                className="mt-12 bg-bgSectionLight text-[#000] font-bold px-8 py-2 rounded transition hover:scale-110"
+                className="mt-12 bg-bgSectionLight text-black font-bold px-8 py-2 rounded transition hover:scale-110"
                 onClick={() => (window.location.href = "/")}
               >
                 Voltar

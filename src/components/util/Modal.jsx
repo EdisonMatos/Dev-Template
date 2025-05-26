@@ -21,11 +21,11 @@ export default function Modal({ isOpen, setCloseModal }) {
     return (
       <div>
         <button
-          className="relative grid items-center justify-center bg-[#ece5dd] shadow-2xl rounded-xl"
+          className="relative grid items-center justify-center bg-lighter shadow-2xl rounded-xl"
           onClick={stopPropagation}
         >
-          <div className="bg-[#075E54] h-10 rounded-t-xl flex justify-end items-center px-2">
-            <div className="text-zinc-100">
+          <div className="bg-bgSectionDark h-10 rounded-t-xl flex justify-end items-center px-2">
+            <div className="text-lighter">
               <X onClick={closeModal} />
             </div>
           </div>

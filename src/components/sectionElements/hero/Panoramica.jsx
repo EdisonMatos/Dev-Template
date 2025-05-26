@@ -31,7 +31,7 @@ export default function Panoramica({ appDownloadButtons }) {
     <>
       {/* mobile */}
       <div
-        className="w-full bg-top bg-repeat font-mainFont bg-gradient-to-b from-[#000000] to-bgSectionDark desktop1:hidden"
+        className="w-full bg-top bg-repeat font-mainFont bg-gradient-to-b from-darker to-bgSectionDark desktop1:hidden"
         id="home"
       >
         <div className="relative z-10 flex w-full bg-colorBlack bg-opacity-0 items-left">

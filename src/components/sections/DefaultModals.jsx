@@ -25,9 +25,9 @@ export default function DefaultModals({ modal = "true", colorMode }) {
   };
 
   const bgClasses = {
-    dark: "bg-[#1C1C1C]",
-    light: "bg-[#F2F2F2]",
-    default: "bg-red-900",
+    ddark: "bg-darker",
+    light: "bg-lighter",
+    default: "squares",
   };
   const textClasses = {
     dark: "text-white",

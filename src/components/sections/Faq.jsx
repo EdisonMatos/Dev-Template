@@ -12,8 +12,8 @@ export default function Faq({ colorMode }) {
   const navigate = useNavigate();
   // Classes de tema
   const bgClasses = {
-    dark: "bg-[#1C1C1C]",
-    light: "bg-[#F2F2F2]",
+    dark: "bg-darker",
+    light: "bg-lighter",
     default: "squares",
   };
   const textClasses = {
@@ -45,7 +45,7 @@ export default function Faq({ colorMode }) {
           <MotionDivDownToUp>
             <Paragraphs className={`text-center transition hover:scale-110`}>
               <Button
-              className="hoover:scale-0 desktop1:hover:scale-105"
+                className="hoover:scale-0 desktop1:hover:scale-105"
                 color="bg-transparent"
                 label={content.texts.faq.paragraph}
                 textclassName={titleColor}
