@@ -8,7 +8,7 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.png";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Thainara Andrade",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "thainaraandrade.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "12",
-    firstPart: "98893", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3917", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -92,11 +92,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "thainaraandradeadvogada", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +123,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA CÍVEL EM ILHABELA - SP",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Ela evitou 5 anos de
-          <span className="text-primary"> dor de cabeça</span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Regularizou o imóvel da família sem processo, sem briga e sem gastar o que não tinha.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero uma solução assim",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +156,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +182,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Atuação focada em soluções jurídicas seguras e eficazes",
-      subtitle:
-        "Conheça as áreas em que posso te ajudar com clareza, agilidade e acolhimento.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito imobiliário",
-        subtitle: "Atuação jurídica em questões do direito imobiliário.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -207,18 +205,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -226,8 +217,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Regularização de imóveis, usucapião, REURB",
-        subtitle: "Regularização de imóveis urbanos e rurais completa.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -242,19 +233,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,8 +245,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Inventário e divorcio",
-        subtitle: "Abertura de inventário e ações de divórcio.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -277,19 +260,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -297,8 +272,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Compra e venda de imóveis",
-        subtitle: "Assessoria na compra e venda de imóveis seguros",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -313,17 +288,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-banknote-icon lucide-banknote"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -350,7 +319,8 @@ const content = {
     maps: {
       minitag: "A_Definir",
       title: "A_Definir",
-      subtitle: "A_Definir",
+      subtitle:
+        "A_Definir",
       embedsrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
@@ -359,51 +329,33 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. THAINARA ANDRADE",
-      title: "Minha trajetória",
-      subtitle:
-        "Transformando burocracias jurídicas em soluções claras e acolhedoras.",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Meu escritório nasceu da vontade de transformar processos jurídicos
-          que, muitas vezes, são vistos como longos, burocráticos e
-          desgastantes, em soluções claras, rápidas e humanas.
+          A_Definir
           <br />
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Meu escritório nasceu da vontade de transformar processos jurídicos
-          que, muitas vezes, são vistos como longos, burocráticos e
-          desgastantes, em soluções claras, rápidas e humanas.
+          A_Definir
           <br />
           <br />
-          Após anos de experiência na área extrajudicial e no serviço público,
-          percebi o quanto as pessoas chegam até mim carregando dúvidas, medos e
-          inseguranças — seja para regularizar um imóvel, dar entrada em um
-          inventário ou enfrentar um divórcio.
+          A_Definir
           <br />
           <br />
-          Foi a partir disso que decidi criar um espaço acolhedor, acessível e
-          eficiente, onde o atendimento é feito com escuta ativa, respeito e
-          total dedicação.
+          A_Definir
           <br />
           <br />
-          Acredito que o Direito pode (e deve) ser um instrumento de
-          tranquilidade e organização, e meu compromisso é oferecer soluções
-          jurídicas seguras, com foco na agilidade e na prevenção de conflitos,
-          sempre dentro do extrajudicial, sempre respeitando a história de cada
-          cliente.
-          <br />
-          <br />
-          Trabalho com ética, empatia e clareza. Quero que você se sinta
-          confortável e seguro em cada etapa do processo, sabendo que está sendo
-          orientado(a) com firmeza, experiência e responsabilidade.
+          A_Definir
           <br />
           <br />
         </p>
@@ -417,56 +369,49 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
@@ -482,29 +427,25 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

@@ -3,10 +3,10 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      primary: "#DCC286",
+      primary: "#E6007E",
       secondary: "#000000",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#001B42",
+      bgSectionDark: "#008F39",
       links: "#0189BB",
       buttonColor: "#DBB14C",
       lighter: "#FFFFFF",
@@ -14,7 +14,7 @@ export const theme = {
       labelsIcons: "#000000",
     },
     boxShadow: {
-      "custom-opacity": "-20px 20px 0px",
+      "custom-opacity": "-20px 20px 0px", // 30% de opacidade
     },
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
