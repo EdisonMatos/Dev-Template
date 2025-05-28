@@ -358,33 +358,44 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. FRANCIELE BENTAK",
+      title: "Minha trajetória",
+      subtitle:
+        "Do cuidado com famílias nasceu uma missão: proteger patrimônios com estratégia.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          A paixão pelo Planejamento Patrimonial e Sucessório surgiu em 2021,
+          quando percebi, na prática, os danos que a falta de organização pode
+          causar: conflitos familiares, altos custos emocionais e prejuízos
+          financeiros. Desde então, transformei essa realidade na missão do meu
+          trabalho.
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A paixão pelo Planejamento Patrimonial e Sucessório surgiu em 2021,
+          quando percebi, na prática, os danos que a falta de organização pode
+          causar: conflitos familiares, altos custos emocionais e prejuízos
+          financeiros. Desde então, transformei essa realidade na missão do meu
+          trabalho.
           <br />
           <br />
-          A_Definir
+          Hoje, ofereço um atendimento exclusivo, acolhedor e estratégico,
+          voltado à organização do patrimônio familiar e à construção de um
+          legado que ultrapassa gerações. Cada projeto é único, pensado para
+          trazer segurança jurídica, redução de impostos e harmonia entre os
+          envolvidos.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Meu compromisso é com a paz familiar. Por isso, atuo com
+          responsabilidade e comprometimento, promovendo soluções que unem
+          planejamento, prevenção e respeito à história de cada família.
           <br />
           <br />
         </p>
