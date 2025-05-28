@@ -123,8 +123,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag:
-        "ESCRITÓRIO E CONSULTORIA JURÍDICA ESPECIALIZADA EM PLANEJAMENTO PATRIMONIAL E SUCESSÓRIO",
+      miniTag: "PLANEJAMENTO PATRIMONIAL E SUCESSÓRIO",
       title: (
         <h1 className="mb-[16px]">
           Quem planeja,
