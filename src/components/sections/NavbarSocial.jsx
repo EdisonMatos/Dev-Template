@@ -102,7 +102,7 @@ export default function NavbarSocial({ colorMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer w-[60%] phone2:w-[50%] phone3:w-[45%] tablet1:w-[30%] tablet2:w-[30%] desktop1:w-[30%] desktop2:w-[400px]"
+            className="cursor-pointer w-[70%] phone2:w-[70%] phone3:max-w-[267px] tablet1:max-w-[300px] tablet2:w-[400px] desktop1:w-[30%] desktop2:w-[400px]"
             spy={true}
             smooth={true}
             duration={500}
