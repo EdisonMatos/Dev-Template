@@ -62,7 +62,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 {modal && (
                   <Button
                     size="small"
-                    label={content.texts.features.card1.labelButton}
+                    label={content.texts.features.card1.buttonLabel}
                     onClick={() =>
                       onClick(
                         content.texts.features.card1.title,
@@ -117,7 +117,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 {modal && (
                   <Button
                     size="small"
-                    label={content.texts.features.card2.labelButton}
+                    label={content.texts.features.card2.buttonLabel}
                     onClick={() =>
                       onClick(
                         content.texts.features.card2.title,
@@ -172,7 +172,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 {modal && (
                   <Button
                     size="small"
-                    label={content.texts.features.card3.labelButton}
+                    label={content.texts.features.card3.buttonLabel}
                     onClick={() =>
                       onClick(
                         content.texts.features.card3.title,
@@ -227,11 +227,66 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 {modal && (
                   <Button
                     size="small"
-                    label={content.texts.features.card4.labelButton}
+                    label={content.texts.features.card4.buttonLabel}
                     onClick={() =>
                       onClick(
                         content.texts.features.card4.title,
                         content.texts.features.card4.description,
+                        <>
+                          <p className="my-[20px]">
+                            Quer saber mais? Clique abaixo 👇
+                          </p>
+                          <div>
+                            <Button
+                              aria-label={
+                                content.texts.about.ctaButtonAriaLabel
+                              }
+                              label={content.texts.about.ctaButtonText}
+                              buttonLink={content.texts.links.ctaWhatsapp}
+                              animation={false}
+                              className="hover:scale-105"
+                              icon={<FaWhatsapp size={24} />}
+                            />
+                          </div>
+                        </>
+                      )
+                    }
+                    icon={
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-corner-down-right"
+                      >
+                        <polyline points="15 10 20 15 15 20" />
+                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                      </svg>
+                    }
+                  />
+                )}
+              </MotionDivDownToUp>{" "}
+               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                <IconButtonFeatureCard
+                  icon={content.texts.features.card5.icon}
+                  title={content.texts.features.card5.title}
+                  paragraph={content.texts.features.card5.subtitle}
+                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                  colorMode={colorMode}
+                />
+                {modal && (
+                  <Button
+                    size="small"
+                    label={content.texts.features.card5.buttonLabel}
+                    onClick={() =>
+                      onClick(
+                        content.texts.features.card5.title,
+                        content.texts.features.card5.description,
                         <>
                           <p className="my-[20px]">
                             Quer saber mais? Clique abaixo 👇
