@@ -110,7 +110,7 @@ export default function SidebarSocial({ colorMode }) {
                   </span>
                 </div>
                 <div className="h-screen overflow-y-auto">
-                  <hr className="m-5 mx-3 border-top-1 surface-border border-neutral-700" />
+                  <hr className="m-5 mx-3 border-top-1 surface-border border-primary" />
                   <ul className="p-3 m-0 list-none">
                     <li>
                       {submenuVisible && (

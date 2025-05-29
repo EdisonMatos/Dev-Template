@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.png";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Thainara Andrade",
+  name: "Franciele Bentak",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "thainaraandrade.com.br", // Sem "www"
+  domain: "bentakadvespecializada.com.br", // Sem "www"
   phone: {
-    ddd: "12",
-    firstPart: "98893", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3917", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "99167", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6707", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua 222, nº 258,</p>
+      <p>Meia Praia Itapema - SC,</p>
+      <p>CEP 88220-000l</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,11 +92,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>8h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "thainaraandradeadvogada", // Sem o @
+  instagramProfile: "francielebentak", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA CÍVEL EM ILHABELA - SP",
+      miniTag: "PLANEJAMENTO PATRIMONIAL E SUCESSÓRIO",
       title: (
         <h1 className="mb-[16px]">
-          Ela evitou 5 anos de
-          <span className="text-primary"> dor de cabeça</span>
+          Quem planeja,
+          <span className="text-primary"> paga menos impostos</span>
         </h1>
       ),
       subtitle:
-        "Regularizou o imóvel da família sem processo, sem briga e sem gastar o que não tinha.",
+        "Evite conflitos e reduza custos com um planejamento patrimonial seguro e estratégico.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero uma solução assim",
+      ctaButtonText: "Quero organizar meu patrimônio",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil",
+        text: "Atendimento presencial em Itapema - SC e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +183,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Atuação focada em soluções jurídicas seguras e eficazes",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Soluções jurídicas em planejamento patrimonial",
       subtitle:
-        "Conheça as áreas em que posso te ajudar com clareza, agilidade e acolhimento.",
+        "Atuamos com estratégias legais para proteger, organizar e transmitir seu patrimônio com segurança e eficiência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito imobiliário",
-        subtitle: "Atuação jurídica em questões do direito imobiliário.",
+        title: "Holdings",
+        subtitle: "Estruturação de holdings para proteção patrimonial",
         description: (
           <div>
             A_Definir
@@ -213,12 +213,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-folders-icon lucide-folders"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M20 17a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3.9a2 2 0 0 1-1.69-.9l-.81-1.2a2 2 0 0 0-1.67-.9H8a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2Z" />
+            <path d="M2 8v11a2 2 0 0 0 2 2h14" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -226,8 +224,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Regularização de imóveis, usucapião, REURB",
-        subtitle: "Regularização de imóveis urbanos e rurais completa.",
+        title: "Testamentos",
+        subtitle: "Planejamento sucessório por meio de testamento",
         description: (
           <div>
             A_Definir
@@ -248,13 +246,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            class="lucide lucide-scroll-text-icon lucide-scroll-text"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M15 12h-5" />
+            <path d="M15 8h-5" />
+            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
+            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,8 +259,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Inventário e divorcio",
-        subtitle: "Abertura de inventário e ações de divórcio.",
+        title: "Doações",
+        subtitle: "Organização legal e segura de bens em vida",
         description: (
           <div>
             A_Definir <br />
@@ -283,13 +280,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-gift-icon lucide-gift"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <rect x="3" y="8" width="18" height="4" rx="1" />
+            <path d="M12 8v13" />
+            <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7" />
+            <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -297,8 +293,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Compra e venda de imóveis",
-        subtitle: "Assessoria na compra e venda de imóveis seguros",
+        title: "Inventários e Contratos Antenupciais",
+        subtitle: "Formalização de herança e proteção pré-nupcial",
         description: (
           <div>
             A_Definir
@@ -319,11 +315,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-banknote-icon lucide-banknote"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -359,51 +357,44 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. THAINARA ANDRADE",
+      miniTag: "QUEM É A DRA. FRANCIELE BENTAK",
       title: "Minha trajetória",
       subtitle:
-        "Transformando burocracias jurídicas em soluções claras e acolhedoras.",
+        "Do cuidado com famílias nasceu uma missão: proteger patrimônios com estratégia.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Meu escritório nasceu da vontade de transformar processos jurídicos
-          que, muitas vezes, são vistos como longos, burocráticos e
-          desgastantes, em soluções claras, rápidas e humanas.
+          A paixão pelo Planejamento Patrimonial e Sucessório surgiu em 2021,
+          quando percebi, na prática, os danos que a falta de organização pode
+          causar: conflitos familiares, altos custos emocionais e prejuízos
+          financeiros. Desde então, transformei essa realidade na missão do meu
+          trabalho.
           <br />
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Meu escritório nasceu da vontade de transformar processos jurídicos
-          que, muitas vezes, são vistos como longos, burocráticos e
-          desgastantes, em soluções claras, rápidas e humanas.
+          A paixão pelo Planejamento Patrimonial e Sucessório surgiu em 2021,
+          quando percebi, na prática, os danos que a falta de organização pode
+          causar: conflitos familiares, altos custos emocionais e prejuízos
+          financeiros. Desde então, transformei essa realidade na missão do meu
+          trabalho.
           <br />
           <br />
-          Após anos de experiência na área extrajudicial e no serviço público,
-          percebi o quanto as pessoas chegam até mim carregando dúvidas, medos e
-          inseguranças — seja para regularizar um imóvel, dar entrada em um
-          inventário ou enfrentar um divórcio.
+          Hoje, ofereço um atendimento exclusivo, acolhedor e estratégico,
+          voltado à organização do patrimônio familiar e à construção de um
+          legado que ultrapassa gerações. Cada projeto é único, pensado para
+          trazer segurança jurídica, redução de impostos e harmonia entre os
+          envolvidos.
           <br />
           <br />
-          Foi a partir disso que decidi criar um espaço acolhedor, acessível e
-          eficiente, onde o atendimento é feito com escuta ativa, respeito e
-          total dedicação.
-          <br />
-          <br />
-          Acredito que o Direito pode (e deve) ser um instrumento de
-          tranquilidade e organização, e meu compromisso é oferecer soluções
-          jurídicas seguras, com foco na agilidade e na prevenção de conflitos,
-          sempre dentro do extrajudicial, sempre respeitando a história de cada
-          cliente.
-          <br />
-          <br />
-          Trabalho com ética, empatia e clareza. Quero que você se sinta
-          confortável e seguro em cada etapa do processo, sabendo que está sendo
-          orientado(a) com firmeza, experiência e responsabilidade.
+          Meu compromisso é com a paz familiar. Por isso, atuo com
+          responsabilidade e comprometimento, promovendo soluções que unem
+          planejamento, prevenção e respeito à história de cada família.
           <br />
           <br />
         </p>
