@@ -302,7 +302,7 @@ const content = {
       card4: {
         img: featuresImg4,
         title: "Direito de família e Sucessões",
-        subtitle: "Direito de família e Sucessões",
+        subtitle: "Auxílio em divórcios, pensões e inventários",
         description: (
           <div>
             – Inventário para partilha de bens após falecimento
