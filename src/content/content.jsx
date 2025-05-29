@@ -264,7 +264,7 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Direito do Consumidor Aéreo",
-        subtitle: "Direito do Consumidor Aéreo",
+        subtitle: "Seus direitos em voos cancelados ou com problemas",
         description: (
           <div>
             – Problemas com atraso ou cancelamento de voo
