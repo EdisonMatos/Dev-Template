@@ -341,11 +341,6 @@ const content = {
         subtitle: "Una suas dívidas em parcelas que cabem no seu bolso",
         description: (
           <div>
-            É possível juntar todas as dívidas em um único processo, com um
-            plano de pagamento justo, em parcelas que realmente cabem no seu
-            bolso.
-            <br />
-            <br />
             <br /> – Parar cobranças abusivas e ligações de ameaça
             <br />– Negociar com todos os credores ao mesmo tempo
             <br />– Montar um plano de pagamento que respeite o que você precisa
