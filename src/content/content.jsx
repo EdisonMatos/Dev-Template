@@ -406,33 +406,47 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É EFRAIM GAWENDO ADVOCACIA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Atendimento humano, direto e prático para resolver o que mais importa a você.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Nosso escritório atua com compromisso, atenção e resultado nas áreas
+          que mais impactam a vida das pessoas.
           <br />
-          A_Definir
+          Somos especializados em resolver problemas de forma prática e direta,
+          com um atendimento acolhedor e descomplicado via WhatsApp, para que
+          você se sinta amparado do começo ao fim do processo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Nosso escritório atua com compromisso, atenção e resultado nas áreas
+          que mais impactam a vida das pessoas.
           <br />
           <br />
-          A_Definir
+          Somos especializados em resolver problemas de forma prática e direta,
+          com um atendimento acolhedor e descomplicado via WhatsApp, para que
+          você se sinta amparado do começo ao fim do processo.
           <br />
           <br />
-          A_Definir
+          Sabemos que, por trás de cada processo, existe uma história real — uma
+          aposentadoria negada, um tratamento urgente recusado, uma família em
+          conflito ou um voo perdido que virou prejuízo.
           <br />
           <br />
-          A_Definir
+          É por isso que nossa missão é tornar o acesso à justiça mais humano,
+          rápido e eficaz.
+          <br />
+          <br />
+          Se você enfrenta alguma dessas situações, fale com a gente agora
+          mesmo. Seu direito não pode esperar!
           <br />
           <br />
         </p>
