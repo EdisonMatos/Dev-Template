@@ -392,33 +392,51 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. ROBERTO LIMA",
+      title: "Minha trajetória",
+      subtitle:
+        "Defesa sólida construída com ética, técnica e experiência de mercado.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Advogado criminalista, inscrito na OAB/BA 54.127 e OAB/SP 34.264.
           <br />
-          A_Definir
+          Há mais de 10 anos atuo exclusivamente no Direito Penal, com foco
+          total na defesa de garantias individuais e no combate a injustiças
+          dentro e fora do processo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Advogado criminalista, inscrito na OAB/BA 54.127 e OAB/SP 34.264.
           <br />
           <br />
-          A_Definir
+          Há mais de 10 anos atuo exclusivamente no Direito Penal, com foco
+          total na defesa de garantias individuais e no combate a injustiças
+          dentro e fora do processo.
           <br />
           <br />
-          A_Definir
+          Desde o início da minha carreira, escolhi trabalhar com
+          responsabilidade, ética e técnica. Atendo pessoalmente cada cliente,
+          porque entendo que, por trás de cada caso, há uma história, uma
+          família e uma vida em jogo.
           <br />
           <br />
-          A_Definir
+          Atuo desde o acompanhamento em flagrantes até a sustentação oral nos
+          tribunais, com dedicação integral em cada etapa.
+          <br />
+          <br />
+          Minha missão vai além de oferecer um serviço jurídico: é dar suporte
+          humano em momentos de vulnerabilidade e lutar por uma defesa justa e
+          combativa.
+          <br />
+          <br />
+          A confiança que meus clientes depositam em mim é o que me move
+          diariamente a seguir firme nessa caminhada pela justiça.
           <br />
           <br />
         </p>
