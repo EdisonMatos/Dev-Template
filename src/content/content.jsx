@@ -463,36 +463,42 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title: "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle: "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Consulta inicial criminal",
+          cardDescription:
+            "Realizamos uma reunião para entender os detalhes do seu caso criminal e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Análise detalhada do processo",
+          cardDescription:
+            "Examinamos minuciosamente os autos, provas e documentos para ter uma visão completa da situação penal.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Elaboração da estratégia de defesa",
+          cardDescription:
+            "Desenvolvemos uma estratégia jurídica personalizada para proteger seus direitos e garantir a melhor defesa possível.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Atuação em juízo e acompanhamento",
+          cardDescription:
+            "Iniciamos e conduzimos todas as medidas judiciais necessárias, acompanhando seu processo até a resolução final.",
         },
       },
     },
