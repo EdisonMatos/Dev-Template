@@ -298,6 +298,40 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
+      card5: {
+        img: featuresImg4,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
       moreFeatures: {
         card1: {
           ico: "A_Definir",
@@ -319,8 +353,7 @@ const content = {
     maps: {
       minitag: "A_Definir",
       title: "A_Definir",
-      subtitle:
-        "A_Definir",
+      subtitle: "A_Definir",
       embedsrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
