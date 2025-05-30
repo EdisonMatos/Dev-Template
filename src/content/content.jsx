@@ -514,25 +514,29 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta via WhatsApp. Conversaremos sobre seu caso e avaliaremos custos.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo varia conforme a complexidade do processo. Estimativas são apresentadas na consulta inicial.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga documentos relacionados ao caso, como notificações, autos, provas, além de documentos pessoais.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Eu vou ser preso, doutor?",
+          answer:
+            "Essa é uma dúvida comum entre aqueles que enfrentam processos criminais. A possibilidade de prisão depende de diversos fatores, como a gravidade do crime, a existência de prisão preventiva decretada, entre outros aspectos legais. É fundamental consultar um advogado especializado para avaliar o seu caso específico e orientá-lo adequadamente.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
