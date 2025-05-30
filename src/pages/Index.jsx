@@ -30,12 +30,12 @@ export default function Index() {
       />
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
+        paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       {/* <AboutInstagram colorMode={colorMode} instagram={true} socialPrint={true} /> */}
