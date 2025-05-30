@@ -5,7 +5,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
@@ -17,7 +17,7 @@ import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Efraim Gawendo Advocacia",
+  name: "Advogado Criminalista Roberto Lima ",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "efraimgawendoadvocacia.com.br", // Sem "www"
+  domain: "robertolima.adv.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "94900", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2913", // Apenas os 4 últimos números
+    ddd: "71",
+    firstPart: "99997", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7788", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Paulista, nº 770,</p>
-      <p>10º andar,</p>
-      <p>sala 102 São Paulo - SP,</p>
-      <p>CEP 01310-930.</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,8 +91,8 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      {/* <p>Segunda a Sexta-feira</p> */}
+      <p>Atendimento 24h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -124,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SÃO PAULO - SP",
+      miniTag: "ADVOGADO CRIMINALISTA EM SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          Você pode estar sendo
-          <span className="text-primary"> lesado </span>agora
+          E se fosse você no banco
+          <span className="text-primary"> dos réus?</span>
         </h1>
       ),
       subtitle:
-        "Do INSS ao plano de saúde: seus direitos podem estar sendo ignorados sem você perceber.",
+        "A linha entre liberdade e condenação pode ser mais fina do que você imagina.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Veja como posso te ajudar",
+      ctaButtonText: "Fale com um advogado criminalista",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento prático e direto pelo WhatsApp",
+        text: "Atendimento presencial e online para todo território nacional",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,23 +183,22 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Onde podemos te ajudar",
-      subtitle: "Atendemos com foco no que realmente faz diferença pra você.",
+      miniTag: "ESPECIALIDADE",
+      title: "Atuação exclusiva em Direito Criminal",
+      subtitle:
+        "Defesa técnica e estratégica nas principais frentes do Direito Penal, com foco total na proteção dos seus direitos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
-        subtitle: "Benefícios, aposentadorias e revisões no INSS",
+        title: "Acompanhamento em Flagrante",
+        subtitle: "Atendimento imediato em casos de prisão em flagrante.",
         description: (
           <div>
-            – BPC LOAS para idosos e pessoas com deficiência
-            <br />– Aposentadoria por tempo de contribuição ou por idade
-            <br />– Aposentadoria especial para quem trabalhou em área de risco
-            – Pensão por morte
-            <br />– Revisão e restituição de descontos indevidos no benefício do
-            INSS
+            A_Definir
+            <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -215,13 +213,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-alarm-clock-icon lucide-alarm-clock"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <circle cx="12" cy="13" r="8" />
+            <path d="M12 9v4l2 2" />
+            <path d="M5 3 2 6" />
+            <path d="m22 6-3-3" />
+            <path d="M6.38 18.7 4 21" />
+            <path d="M17.64 18.67 20 21" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -229,14 +228,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito à Saúde",
-        subtitle: "Tratamentos médicos garantidos por lei",
+        title: "Defesa Criminal em Processos",
+        subtitle: "Defesa completa durante todo o processo criminal.",
         description: (
           <div>
-            – Ações contra o SUS para garantir tratamento, cirurgia ou
-            internação (inclusive para dependentes químicos)
-            <br />– Ações contra planos de saúde que negam atendimento, exames
-            ou cirurgias
+            A_Definir
+            <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -251,11 +250,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-plus-icon lucide-shield-plus"
+            class="lucide lucide-shield-icon lucide-shield"
           >
             <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M9 12h6" />
-            <path d="M12 9v6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -263,14 +260,13 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito do Consumidor Aéreo",
-        subtitle: "Seus direitos em voos cancelados ou com problemas",
+        title: "Revisão Criminal e Recursos",
+        subtitle: "Análise de sentença e recursos em instâncias superiores.",
         description: (
           <div>
-            – Problemas com atraso ou cancelamento de voo
-            <br />– Casos de overbooking (quando a companhia vende mais
-            passagens do que lugares disponíveis)
-            <br />– Extravio ou dano à bagagem
+            A_Definir <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -285,15 +281,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-tickets-plane-icon lucide-tickets-plane"
+            class="lucide lucide-file-search-icon lucide-file-search"
           >
-            <path d="M10.5 17h1.227a2 2 0 0 0 1.345-.52L18 12" />
-            <path d="m12 13.5 3.75.5" />
-            <path d="m4.5 8 10.58-5.06a1 1 0 0 1 1.342.488L18.5 8" />
-            <path d="M6 10V8" />
-            <path d="M6 14v1" />
-            <path d="M6 19v2" />
-            <rect x="2" y="8" width="20" height="13" rx="2" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M4.268 21a2 2 0 0 0 1.727 1H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3" />
+            <path d="m9 18-1.5-1.5" />
+            <circle cx="5" cy="14" r="3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -301,14 +294,13 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito de família e Sucessões",
-        subtitle: "Auxílio em divórcios, pensões e inventários",
+        title: "Representação em Audiências e Delegacias",
+        subtitle: "Atuação presencial em delegacias e audiências criminais.",
         description: (
           <div>
-            – Inventário para partilha de bens após falecimento
-            <br />– Divórcio amigável ou litigioso
-            <br />– Pensão alimentícia (fixação, revisão ou cobrança de
-            atrasados)
+            A_Definir
+            <br />
+            A_Definir
             <br />
           </div>
         ),
@@ -324,12 +316,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -337,16 +330,14 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "Direito do Consumidor – Superendividamento",
-        subtitle: "Una suas dívidas em parcelas que cabem no seu bolso",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            <br /> – Parar cobranças abusivas e ligações de ameaça
-            <br />– Negociar com todos os credores ao mesmo tempo
-            <br />– Montar um plano de pagamento que respeite o que você precisa
-            para viver
-            <br />– Recuperar sua tranquilidade e limpar seu nome
+            A_Definir
             <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -401,47 +392,51 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É EFRAIM GAWENDO ADVOCACIA",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É O DR. ROBERTO LIMA",
+      title: "Minha trajetória",
       subtitle:
-        "Atendimento humano, direto e prático para resolver o que mais importa a você.",
+        "Defesa sólida construída com ética, técnica e experiência de mercado.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Nosso escritório atua com compromisso, atenção e resultado nas áreas
-          que mais impactam a vida das pessoas.
+          Advogado criminalista, inscrito na OAB/BA 54.127 e OAB/SP 34.264.
           <br />
-          Somos especializados em resolver problemas de forma prática e direta,
-          com um atendimento acolhedor e descomplicado via WhatsApp, para que
-          você se sinta amparado do começo ao fim do processo.
+          Há mais de 10 anos atuo exclusivamente no Direito Penal, com foco
+          total na defesa de garantias individuais e no combate a injustiças
+          dentro e fora do processo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Nosso escritório atua com compromisso, atenção e resultado nas áreas
-          que mais impactam a vida das pessoas.
+          Advogado criminalista, inscrito na OAB/BA 54.127 e OAB/SP 34.264.
           <br />
           <br />
-          Somos especializados em resolver problemas de forma prática e direta,
-          com um atendimento acolhedor e descomplicado via WhatsApp, para que
-          você se sinta amparado do começo ao fim do processo.
+          Há mais de 10 anos atuo exclusivamente no Direito Penal, com foco
+          total na defesa de garantias individuais e no combate a injustiças
+          dentro e fora do processo.
           <br />
           <br />
-          Sabemos que, por trás de cada processo, existe uma história real — uma
-          aposentadoria negada, um tratamento urgente recusado, uma família em
-          conflito ou um voo perdido que virou prejuízo.
+          Desde o início da minha carreira, escolhi trabalhar com
+          responsabilidade, ética e técnica. Atendo pessoalmente cada cliente,
+          porque entendo que, por trás de cada caso, há uma história, uma
+          família e uma vida em jogo.
           <br />
           <br />
-          É por isso que nossa missão é tornar o acesso à justiça mais humano,
-          rápido e eficaz.
+          Atuo desde o acompanhamento em flagrantes até a sustentação oral nos
+          tribunais, com dedicação integral em cada etapa.
           <br />
           <br />
-          Se você enfrenta alguma dessas situações, fale com a gente agora
-          mesmo. Seu direito não pode esperar!
+          Minha missão vai além de oferecer um serviço jurídico: é dar suporte
+          humano em momentos de vulnerabilidade e lutar por uma defesa justa e
+          combativa.
+          <br />
+          <br />
+          A confiança que meus clientes depositam em mim é o que me move
+          diariamente a seguir firme nessa caminhada pela justiça.
           <br />
           <br />
         </p>
@@ -483,27 +478,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Consulta inicial criminal",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Realizamos uma reunião para entender os detalhes do seu caso criminal e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Análise detalhada do processo",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Examinamos minuciosamente os autos, provas e documentos para ter uma visão completa da situação penal.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Elaboração da estratégia de defesa",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Desenvolvemos uma estratégia jurídica personalizada para proteger seus direitos e garantir a melhor defesa possível.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Atuação em juízo e acompanhamento",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+            "Iniciamos e conduzimos todas as medidas judiciais necessárias, acompanhando seu processo até a resolução final.",
         },
       },
     },
@@ -521,27 +516,27 @@ const content = {
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Agende sua consulta via WhatsApp. Conversaremos sobre seu caso e avaliaremos custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "O prazo varia conforme a complexidade do processo. Estimativas são apresentadas na consulta inicial.",
         },
         question3: {
           question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Traga documentos relacionados ao caso, como notificações, autos, provas, além de documentos pessoais.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Eu vou ser preso, doutor?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Essa é uma dúvida comum entre aqueles que enfrentam processos criminais. A possibilidade de prisão depende de diversos fatores, como a gravidade do crime, a existência de prisão preventiva decretada, entre outros aspectos legais. É fundamental consultar um advogado especializado para avaliar o seu caso específico e orientá-lo adequadamente.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
