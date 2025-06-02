@@ -1,14 +1,14 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Criminalista Roberto Lima ",
+  name: "Medeiros Advogados",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "robertolima.adv.br", // Sem "www"
+  domain: "medeirosadvogadosbr.com.br", // Sem "www"
   phone: {
-    ddd: "71",
-    firstPart: "99997", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7788", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "99205", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3320", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua princesa Isabel,</p>
+      <p>nº 264, Centro Joinville - SC,</p>
+      <p>CEP 89201-270.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -90,13 +90,20 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Horário de expediente:</p>
-      {/* <p>Segunda a Sexta-feira</p> */}
-      <p>Atendimento 24h</p>
+      <p>Atendimento Presencial:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>09h às 18h</p>
+    </div>
+  ),
+  expedienteSecond: (
+    <div>
+      <p>Atendimento Online:</p>
+      <p>Todos os dias</p>
+      <p>08h às 21h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "medeirosadvogadosbr", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +130,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO CRIMINALISTA EM SALVADOR - BA",
+      miniTag: "ESCRITÓRIO EM JOINVILLE - SC",
       title: (
         <h1 className="mb-[16px]">
-          E se fosse você no banco
-          <span className="text-primary"> dos réus?</span>
+          Justiça feita com
+          <span className="text-primary"> coragem e humanidade</span>
         </h1>
       ),
       subtitle:
-        "A linha entre liberdade e condenação pode ser mais fina do que você imagina.",
+        "Firmes e dedicados, defendemos quem o sistema insiste em ignorar.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com um advogado criminalista",
+      ctaButtonText: "Fale com a gente",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +164,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo território nacional",
+        text: "Atendimento online todos os dias da semana",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +190,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Atuação exclusiva em Direito Criminal",
-      subtitle:
-        "Defesa técnica e estratégica nas principais frentes do Direito Penal, com foco total na proteção dos seus direitos.",
+      miniTag: "ESPECIALIDADES",
+      title: "Atuação jurídica por áreas",
+      subtitle: "Conheça os campos do Direito em que oferecemos suporte.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Acompanhamento em Flagrante",
-        subtitle: "Atendimento imediato em casos de prisão em flagrante.",
+        title: "Direito Cível",
+        subtitle: "Defesa em causas civis e conflitos particulares.",
         description: (
           <div>
             A_Definir
@@ -213,14 +219,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-alarm-clock-icon lucide-alarm-clock"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <circle cx="12" cy="13" r="8" />
-            <path d="M12 9v4l2 2" />
-            <path d="M5 3 2 6" />
-            <path d="m22 6-3-3" />
-            <path d="M6.38 18.7 4 21" />
-            <path d="M17.64 18.67 20 21" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -228,8 +233,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Defesa Criminal em Processos",
-        subtitle: "Defesa completa durante todo o processo criminal.",
+        title: "Direito Penal",
+        subtitle: "Atuação em processos criminais e defesas penais.",
         description: (
           <div>
             A_Definir
@@ -250,9 +255,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-icon lucide-shield"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -260,8 +269,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Revisão Criminal e Recursos",
-        subtitle: "Análise de sentença e recursos em instâncias superiores.",
+        title: "Direito Administrativo",
+        subtitle: "Assessoria em questões públicas e administrativas.",
         description: (
           <div>
             A_Definir <br />
@@ -281,12 +290,15 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-search-icon lucide-file-search"
+            class="lucide lucide-building2-icon lucide-building-2"
           >
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M4.268 21a2 2 0 0 0 1.727 1H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3" />
-            <path d="m9 18-1.5-1.5" />
-            <circle cx="5" cy="14" r="3" />
+            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+            <path d="M10 6h4" />
+            <path d="M10 10h4" />
+            <path d="M10 14h4" />
+            <path d="M10 18h4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -294,8 +306,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Representação em Audiências e Delegacias",
-        subtitle: "Atuação presencial em delegacias e audiências criminais.",
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação legal preventiva para decisões seguras.",
         description: (
           <div>
             A_Definir
@@ -316,13 +328,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -392,51 +404,63 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. ROBERTO LIMA",
-      title: "Minha trajetória",
+      miniTag: "QUEM É MEDEIROS ADVOGADOS",
+      title: "Nossa trajetória",
       subtitle:
-        "Defesa sólida construída com ética, técnica e experiência de mercado.",
+        "Da simplicidade, construímos uma advocacia humana e acessível a todos.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Advogado criminalista, inscrito na OAB/BA 54.127 e OAB/SP 34.264.
+          Viemos de uma origem simples, onde aprendemos que humildade e respeito
+          são valores fundamentais.
           <br />
-          Há mais de 10 anos atuo exclusivamente no Direito Penal, com foco
-          total na defesa de garantias individuais e no combate a injustiças
-          dentro e fora do processo.
+          Desde o início, entendemos que, por trás de cada caso, existe uma
+          história de vida com pessoas enfrentando dificuldades reais.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Advogado criminalista, inscrito na OAB/BA 54.127 e OAB/SP 34.264.
+          Viemos de uma origem simples, onde aprendemos que humildade e respeito
+          são valores fundamentais.
           <br />
           <br />
-          Há mais de 10 anos atuo exclusivamente no Direito Penal, com foco
-          total na defesa de garantias individuais e no combate a injustiças
-          dentro e fora do processo.
+          Desde o início, entendemos que, por trás de cada caso, existe uma
+          história de vida com pessoas enfrentando dificuldades reais.
           <br />
           <br />
-          Desde o início da minha carreira, escolhi trabalhar com
-          responsabilidade, ética e técnica. Atendo pessoalmente cada cliente,
-          porque entendo que, por trás de cada caso, há uma história, uma
-          família e uma vida em jogo.
+          Para nós, advocacia vai muito além de uma profissão — é uma missão de
+          ajudar, acolher e fazer a diferença.
           <br />
           <br />
-          Atuo desde o acompanhamento em flagrantes até a sustentação oral nos
-          tribunais, com dedicação integral em cada etapa.
+          Atendemos, com dedicação, aqueles que muitas vezes são esquecidos pelo
+          sistema: famílias com parentes presos, clientes de baixa renda, e
+          pessoas excluídas pela sociedade por sua cor, crença ou orientação
+          sexual.
           <br />
           <br />
-          Minha missão vai além de oferecer um serviço jurídico: é dar suporte
-          humano em momentos de vulnerabilidade e lutar por uma defesa justa e
-          combativa.
+          Nosso compromisso é ouvir cada cliente com calma, clareza e empatia,
+          explicando tudo de forma acessível para que ninguém fique perdido no
+          processo.
           <br />
           <br />
-          A confiança que meus clientes depositam em mim é o que me move
-          diariamente a seguir firme nessa caminhada pela justiça.
+          Contamos com uma equipe multidisciplinar que atua com agilidade e
+          precisão, sempre buscando as melhores soluções para os conflitos,
+          priorizando o diálogo e a resolução amigável.
+          <br />
+          <br />
+          Aqui, cada cliente recebe atenção personalizada, como se fosse parte
+          da nossa família, pois acreditamos que justiça e humanidade caminham
+          juntas.
+          <br />
+          <br />
+          É essa combinação de humildade, cuidado e eficiência que nos
+          diferencia. O escritório Medeiros Advogados é completo, preparado para
+          enfrentar desafios, sempre focado no que é justo e necessário para
+          proteger e cuidar das pessoas que confiam em nosso trabalho.
           <br />
           <br />
         </p>
@@ -450,10 +474,11 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
@@ -478,27 +503,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial criminal",
+          cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender os detalhes do seu caso criminal e identificar suas necessidades jurídicas.",
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada do processo",
+          cardTitle: "Análise detalhada",
           cardDescription:
-            "Examinamos minuciosamente os autos, provas e documentos para ter uma visão completa da situação penal.",
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia de defesa",
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Desenvolvemos uma estratégia jurídica personalizada para proteger seus direitos e garantir a melhor defesa possível.",
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Atuação em juízo e acompanhamento",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos todas as medidas judiciais necessárias, acompanhando seu processo até a resolução final.",
+            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
     },
@@ -516,27 +541,27 @@ const content = {
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
       title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta via WhatsApp. Conversaremos sobre seu caso e avaliaremos custos.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
           question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "O prazo varia conforme a complexidade do processo. Estimativas são apresentadas na consulta inicial.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
           question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Traga documentos relacionados ao caso, como notificações, autos, provas, além de documentos pessoais.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Eu vou ser preso, doutor?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Essa é uma dúvida comum entre aqueles que enfrentam processos criminais. A possibilidade de prisão depende de diversos fatores, como a gravidade do crime, a existência de prisão preventiva decretada, entre outros aspectos legais. É fundamental consultar um advogado especializado para avaliar o seu caso específico e orientá-lo adequadamente.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -889,6 +914,7 @@ const content = {
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,
+      footerexpedientesecond: infos.expedienteSecond,
       obsFooter: infos.obs,
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",

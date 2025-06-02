@@ -22,6 +22,7 @@ import LinksNavegationFooter from "../sectionElements/footer/LinksNavegationFoot
 import EmailSecundarioFooter from "../sectionElements/footer/EmailSecundarioFooter.jsx";
 import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
+import ExpedienteSecondFooter from "../sectionElements/footer/ExpedienteSecondFooter.jsx";
 
 export default function FooterSocial({
   colorMode,
@@ -74,6 +75,7 @@ export default function FooterSocial({
               {addres && <AdressFooter />}
               {addresSecundario && <AdressSecundarioFooter />}
               <ExpedienteFooter />
+              <ExpedienteSecondFooter />
               {obs && <ObsFooter />}
             </div>
 
