@@ -190,15 +190,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADES",
+      title: "Atuação jurídica por áreas",
+      subtitle: "Conheça os campos do Direito em que oferecemos suporte.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle: "Defesa em causas civis e conflitos particulares.",
         description: (
           <div>
             A_Definir
@@ -225,8 +225,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Penal",
+        subtitle: "Atuação em processos criminais e defesas penais.",
         description: (
           <div>
             A_Definir
@@ -253,8 +253,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Administrativo",
+        subtitle: "Assessoria em questões públicas e administrativas.",
         description: (
           <div>
             A_Definir <br />
@@ -280,8 +280,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Consultoria Jurídica",
+        subtitle: "Orientação legal preventiva para decisões seguras.",
         description: (
           <div>
             A_Definir
@@ -370,33 +370,63 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É MEDEIROS ADVOGADOS",
+      title: "Nossa trajetória",
+      subtitle:
+        "Da simplicidade, construímos uma advocacia humana e acessível a todos.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Viemos de uma origem simples, onde aprendemos que humildade e respeito
+          são valores fundamentais.
           <br />
-          A_Definir
+          Desde o início, entendemos que, por trás de cada caso, existe uma
+          história de vida com pessoas enfrentando dificuldades reais.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Viemos de uma origem simples, onde aprendemos que humildade e respeito
+          são valores fundamentais.
           <br />
           <br />
-          A_Definir
+          Desde o início, entendemos que, por trás de cada caso, existe uma
+          história de vida com pessoas enfrentando dificuldades reais.
           <br />
           <br />
-          A_Definir
+          Para nós, advocacia vai muito além de uma profissão — é uma missão de
+          ajudar, acolher e fazer a diferença.
           <br />
           <br />
-          A_Definir
+          Atendemos, com dedicação, aqueles que muitas vezes são esquecidos pelo
+          sistema: famílias com parentes presos, clientes de baixa renda, e
+          pessoas excluídas pela sociedade por sua cor, crença ou orientação
+          sexual.
+          <br />
+          <br />
+          Nosso compromisso é ouvir cada cliente com calma, clareza e empatia,
+          explicando tudo de forma acessível para que ninguém fique perdido no
+          processo.
+          <br />
+          <br />
+          Contamos com uma equipe multidisciplinar que atua com agilidade e
+          precisão, sempre buscando as melhores soluções para os conflitos,
+          priorizando o diálogo e a resolução amigável.
+          <br />
+          <br />
+          Aqui, cada cliente recebe atenção personalizada, como se fosse parte
+          da nossa família, pois acreditamos que justiça e humanidade caminham
+          juntas.
+          <br />
+          <br />
+          É essa combinação de humildade, cuidado e eficiência que nos
+          diferencia. O escritório Medeiros Advogados é completo, preparado para
+          enfrentar desafios, sempre focado no que é justo e necessário para
+          proteger e cuidar das pessoas que confiam em nosso trabalho.
           <br />
           <br />
         </p>
@@ -410,9 +440,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p>A_Definir</p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
