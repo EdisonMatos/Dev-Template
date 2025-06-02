@@ -389,33 +389,53 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. HUMBERTO SANTANA",
+      title: "Minha trajetória",
+      subtitle:
+        "Experiência e compromisso com a justiça militar e do servidor público",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Advogado em São Luís – MA, com atuação em todo o Brasil. Oficial
+          Superior da Reserva, dediquei mais de três décadas à Força Estadual de
+          Segurança Pública e transformei minha experiência em uma missão: lutar
+          pelos direitos de militares e servidores públicos.
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Advogado em São Luís – MA, com atuação em todo o Brasil. Oficial
+          Superior da Reserva, dediquei mais de três décadas à Força Estadual de
+          Segurança Pública e transformei minha experiência em uma missão: lutar
+          pelos direitos de militares e servidores públicos.
           <br />
           <br />
-          A_Definir
+          Especializei-me em Direito Militar, com pós-graduação em Direito
+          Administrativo, Direito Público com ênfase em Gestão Pública, e Gestão
+          Administrativa Militar.
           <br />
           <br />
-          A_Definir
+          Minha atuação é focada, prática e eficaz, tanto na esfera judicial
+          quanto administrativa ou extrajudicial.
           <br />
           <br />
-          A_Definir
+          Acredito que cada cliente merece respeito, transparência e
+          comprometimento. Por isso, ofereço uma assessoria jurídica acessível e
+          de alta qualidade, combatendo abusos da Administração Pública e
+          buscando sempre justiça.
+          <br />
+          <br />
+          Meu propósito é ser reconhecido nacionalmente pela excelência e por
+          resgatar a dignidade de quem serve à nação.
+          <br />
+          <br />
+          Não sou apenas um advogado — sou um defensor dos que dedicam sua vida
+          à pátria. Se você é militar ou servidor público, pode contar comigo.
           <br />
           <br />
         </p>
