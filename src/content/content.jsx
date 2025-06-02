@@ -470,31 +470,35 @@ const content = {
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Consulta com especialista",
+          cardDescription:
+            "Realizamos uma conversa inicial para entender sua situação como militar ou servidor e identificar a melhor forma de atuação jurídica.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Análise do caso",
+          cardDescription:
+            "Estudamos seu histórico, documentos e atos administrativos para identificar ilegalidades e possibilidades de defesa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Estratégia jurídica definida",
+          cardDescription:
+            "Montamos uma estratégia precisa e personalizada para garantir seus direitos e reverter injustiças da Administração Pública.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Atuação firme e técnica",
+          cardDescription:
+            "Entramos com ações judiciais e/ou requerimentos administrativos para buscar a reparação e justiça que você merece.",
         },
       },
     },
