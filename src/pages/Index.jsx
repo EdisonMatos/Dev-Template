@@ -38,7 +38,11 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      {/* <AboutInstagram colorMode={colorMode} instagram={true} socialPrint={true} /> */}
+      <AboutInstagram
+        colorMode={colorMode}
+        instagram={true}
+        socialPrint={true}
+      />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
@@ -50,6 +54,7 @@ export default function Index() {
         phoneTerciario={false}
         emailSecundario={false}
         addresSecundario={false}
+        instagram={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

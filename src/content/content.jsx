@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Medeiros Advogados",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "medeirosadvogadosbr.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "47",
+    firstPart: "99205", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "3320", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua princesa Isabel,</p>
+      <p>nº 264, Centro Joinville - SC,</p>
+      <p>CEP 89201-270.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -90,13 +90,20 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Horário de expediente:</p>
+      <p>Atendimento Presencial:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>09h às 18h</p>
+    </div>
+  ),
+  expedienteSecond: (
+    <div>
+      <p>Atendimento Online:</p>
+      <p>Todos os dias</p>
+      <p>08h às 21h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "medeirosadvogadosbr", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -831,6 +838,7 @@ const content = {
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,
+      footerexpedientesecond: infos.expedienteSecond,
       obsFooter: infos.obs,
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
