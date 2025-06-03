@@ -395,33 +395,62 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A RS ADVOCACIA PREVIDENCIÁRIA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Compromisso real com quem busca seus direitos no INSS, com clareza e respeito.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          A RS Advocacia Previdenciária nasceu com um propósito muito claro:
+          tornar mais fácil, justo e humano o caminho de quem busca seus
+          direitos no INSS. Entendemos que, para muitas pessoas, lidar com o
+          sistema previdenciário é sinônimo de frustração, burocracia e
+          insegurança.
           <br />
-          A_Definir
+          Foi justamente ouvindo essas histórias que decidimos fazer diferente —
+          com acolhimento, transparência e uma escuta atenta desde o primeiro
+          contato.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A RS Advocacia Previdenciária nasceu com um propósito muito claro:
+          tornar mais fácil, justo e humano o caminho de quem busca seus
+          direitos no INSS. Entendemos que, para muitas pessoas, lidar com o
+          sistema previdenciário é sinônimo de frustração, burocracia e
+          insegurança.
           <br />
           <br />
-          A_Definir
+          Foi justamente ouvindo essas histórias que decidimos fazer diferente —
+          com acolhimento, transparência e uma escuta atenta desde o primeiro
+          contato.
           <br />
           <br />
-          A_Definir
+          Desde o início, nosso foco foi construir um atendimento próximo,
+          direto e especializado. Aqui, cada cliente é tratado com respeito,
+          atenção e linguagem acessível — nada de termos complicados ou
+          respostas vazias.
           <br />
           <br />
-          A_Definir
+          Acreditamos que você tem o direito de entender cada etapa do seu
+          processo e tomar decisões com confiança. Por isso, explicamos tudo com
+          clareza e estamos sempre prontos para tirar dúvidas, revisar
+          documentos e buscar a melhor solução para o seu caso.
+          <br />
+          <br />
+          Nosso trabalho vai além da advocacia: queremos ser um suporte real na
+          sua caminhada. Atuamos exclusivamente com Direito Previdenciário, o
+          que nos permite ter mais precisão e segurança nas orientações.
+          <br />
+          <br />
+          Sabemos o quanto um benefício pode mudar uma vida — e é isso que nos
+          move todos os dias. Conte com a gente para enfrentar o INSS com
+          tranquilidade, seriedade e a certeza de que você não está sozinho.
           <br />
           <br />
         </p>
