@@ -83,7 +83,7 @@ export const infos = {
   ),
   enderecoSecundario: (
     <div>
-      <p>Endereço:</p>
+    <p>Endereço:</p>
       <p>A_Definir</p>
       <p>A_Definir</p>
       <p>A_Definir</p>
@@ -94,6 +94,13 @@ export const infos = {
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
       <p>8h às 18h</p>
+    </div>
+  ),
+  expedienteSecond: (
+    <div>
+      <p>Horário de expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -889,6 +896,7 @@ const content = {
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,
+      footerexpedientesecond: infos.expedienteSecond,
       obsFooter: infos.obs,
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
