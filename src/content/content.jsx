@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Medeiros Advogados",
+  name: "Advogado Humberto Santana",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "medeirosadvogadosbr.com.br", // Sem "www"
+  domain: "humbertosantana.adv.br", // Sem "www"
   phone: {
-    ddd: "47",
-    firstPart: "99205", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "3320", // Apenas os 4 últimos números
+    ddd: "98",
+    firstPart: "98853", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7287", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,14 +75,15 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua princesa Isabel,</p>
-      <p>nº 264, Centro Joinville - SC,</p>
-      <p>CEP 89201-270.</p>
+      <p>Rua das Avenças,</p>
+      <p>Nº 08, Qd. 28,</p>
+      <p>Renascença São Luís - MA,</p>
+      <p>CEP 65077-620.</p>
     </div>
   ),
   enderecoSecundario: (
     <div>
-      <p>Endereço:</p>
+    <p>Endereço:</p>
       <p>A_Definir</p>
       <p>A_Definir</p>
       <p>A_Definir</p>
@@ -90,20 +91,20 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Atendimento Presencial:</p>
+      <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>09h às 18h</p>
+      <p>8h às 18h</p>
     </div>
   ),
   expedienteSecond: (
     <div>
-      <p>Atendimento Online:</p>
-      <p>Todos os dias</p>
-      <p>08h às 21h</p>
+      <p>Horário de expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "medeirosadvogadosbr", // Sem o @
+  instagramProfile: "humbertosantana.adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -130,21 +131,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO EM JOINVILLE - SC",
+      miniTag: "ADVOGADO MILITAR EM SÃO LUÍS - MA",
       title: (
         <h1 className="mb-[16px]">
-          Justiça feita com
-          <span className="text-primary"> coragem e humanidade</span>
+          Nem todo advogado
+          <span className="text-primary"> entende farda</span>
         </h1>
       ),
       subtitle:
-        "Firmes e dedicados, defendemos quem o sistema insiste em ignorar.",
+        "Atuação estratégica e experiente na defesa de quem serve o país com honra e disciplina",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com a gente",
+      ctaButtonText: "Fale com quem entende",
       obsHero: {
         icon: (
           <svg
@@ -164,7 +165,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online todos os dias da semana",
+        text: "Atendimento 100% digital com a facilidade de um clique e a confiança de um escritório físico.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -191,14 +192,16 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Atuação jurídica por áreas",
-      subtitle: "Conheça os campos do Direito em que oferecemos suporte.",
+      title: "Nossas áreas de atuação",
+      subtitle:
+        "Soluções jurídicas especializadas para militares e servidores públicos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Defesa em causas civis e conflitos particulares.",
+        title: "Direito Militar",
+        subtitle:
+          "Defesa jurídica de militares na esfera judicial e administrativa.",
         description: (
           <div>
             A_Definir
@@ -219,13 +222,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-shield-icon lucide-shield"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -233,8 +232,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Penal",
-        subtitle: "Atuação em processos criminais e defesas penais.",
+        title: "Direito Previdenciário Militar",
+        subtitle: "Garantia de benefícios e proteção social para militares.",
         description: (
           <div>
             A_Definir
@@ -255,13 +254,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-badge-dollar-sign-icon lucide-badge-dollar-sign"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -269,8 +266,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Administrativo",
-        subtitle: "Assessoria em questões públicas e administrativas.",
+        title: "Direito Administrativo Militar",
+        subtitle: "Regulação das relações e sanções na administração militar.",
         description: (
           <div>
             A_Definir <br />
@@ -290,15 +287,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-building2-icon lucide-building-2"
+            class="lucide lucide-shield-check-icon lucide-shield-check"
           >
-            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
-            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
-            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
-            <path d="M10 6h4" />
-            <path d="M10 10h4" />
-            <path d="M10 14h4" />
-            <path d="M10 18h4" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -306,8 +298,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria Jurídica",
-        subtitle: "Orientação legal preventiva para decisões seguras.",
+        title: "Defesa dos Direitos de Servidores Públicos",
+        subtitle:
+          "Assistência jurídica para assegurar direitos dos servidores.",
         description: (
           <div>
             A_Definir
@@ -328,13 +321,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -404,63 +396,53 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É MEDEIROS ADVOGADOS",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É O DR. HUMBERTO SANTANA",
+      title: "Minha trajetória",
       subtitle:
-        "Da simplicidade, construímos uma advocacia humana e acessível a todos.",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Experiência e compromisso com a justiça militar e do servidor público",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Viemos de uma origem simples, onde aprendemos que humildade e respeito
-          são valores fundamentais.
+          Advogado em São Luís – MA, com atuação em todo o Brasil. Oficial
+          Superior da Reserva, dediquei mais de três décadas à Força Estadual de
+          Segurança Pública e transformei minha experiência em uma missão: lutar
+          pelos direitos de militares e servidores públicos.
           <br />
-          Desde o início, entendemos que, por trás de cada caso, existe uma
-          história de vida com pessoas enfrentando dificuldades reais.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Viemos de uma origem simples, onde aprendemos que humildade e respeito
-          são valores fundamentais.
+          Advogado em São Luís – MA, com atuação em todo o Brasil. Oficial
+          Superior da Reserva, dediquei mais de três décadas à Força Estadual de
+          Segurança Pública e transformei minha experiência em uma missão: lutar
+          pelos direitos de militares e servidores públicos.
           <br />
           <br />
-          Desde o início, entendemos que, por trás de cada caso, existe uma
-          história de vida com pessoas enfrentando dificuldades reais.
+          Especializei-me em Direito Militar, com pós-graduação em Direito
+          Administrativo, Direito Público com ênfase em Gestão Pública, e Gestão
+          Administrativa Militar.
           <br />
           <br />
-          Para nós, advocacia vai muito além de uma profissão — é uma missão de
-          ajudar, acolher e fazer a diferença.
+          Minha atuação é focada, prática e eficaz, tanto na esfera judicial
+          quanto administrativa ou extrajudicial.
           <br />
           <br />
-          Atendemos, com dedicação, aqueles que muitas vezes são esquecidos pelo
-          sistema: famílias com parentes presos, clientes de baixa renda, e
-          pessoas excluídas pela sociedade por sua cor, crença ou orientação
-          sexual.
+          Acredito que cada cliente merece respeito, transparência e
+          comprometimento. Por isso, ofereço uma assessoria jurídica acessível e
+          de alta qualidade, combatendo abusos da Administração Pública e
+          buscando sempre justiça.
           <br />
           <br />
-          Nosso compromisso é ouvir cada cliente com calma, clareza e empatia,
-          explicando tudo de forma acessível para que ninguém fique perdido no
-          processo.
+          Meu propósito é ser reconhecido nacionalmente pela excelência e por
+          resgatar a dignidade de quem serve à nação.
           <br />
           <br />
-          Contamos com uma equipe multidisciplinar que atua com agilidade e
-          precisão, sempre buscando as melhores soluções para os conflitos,
-          priorizando o diálogo e a resolução amigável.
-          <br />
-          <br />
-          Aqui, cada cliente recebe atenção personalizada, como se fosse parte
-          da nossa família, pois acreditamos que justiça e humanidade caminham
-          juntas.
-          <br />
-          <br />
-          É essa combinação de humildade, cuidado e eficiência que nos
-          diferencia. O escritório Medeiros Advogados é completo, preparado para
-          enfrentar desafios, sempre focado no que é justo e necessário para
-          proteger e cuidar das pessoas que confiam em nosso trabalho.
+          Não sou apenas um advogado — sou um defensor dos que dedicam sua vida
+          à pátria. Se você é militar ou servidor público, pode contar comigo.
           <br />
           <br />
         </p>
@@ -479,10 +461,10 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -503,27 +485,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
+          cardTitle: "Consulta com especialista",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Realizamos uma conversa inicial para entender sua situação como militar ou servidor e identificar a melhor forma de atuação jurídica.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
+          cardTitle: "Análise do caso",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Estudamos seu histórico, documentos e atos administrativos para identificar ilegalidades e possibilidades de defesa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
+          cardTitle: "Estratégia jurídica definida",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Montamos uma estratégia precisa e personalizada para garantir seus direitos e reverter injustiças da Administração Pública.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Atuação firme e técnica",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+            "Entramos com ações judiciais e/ou requerimentos administrativos para buscar a reparação e justiça que você merece.",
         },
       },
     },
@@ -546,22 +528,22 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "É simples! Basta nos chamar pelo WhatsApp, agendar uma consulta e conversar diretamente comigo sobre o seu caso.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Qual é o prazo médio para resolver meu caso?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Depende da complexidade e do tipo de ação. Na consulta, avalio seu caso e explico as etapas e prazos estimados.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Quais documentos preciso levar para a consulta?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Leve tudo que envolva seu caso: atos administrativos, boletins, ofícios, negativações, identidade, CPF e comprovante de residência.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Vocês prestam consultoria preventiva?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Sim. Atuo de forma preventiva para evitar injustiças e orientar militares e servidores sobre seus direitos antes de problemas maiores surgirem.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
