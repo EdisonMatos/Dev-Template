@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
@@ -8,13 +8,13 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Humberto Santana",
+  name: "RS Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "humbertosantana.adv.br", // Sem "www"
+  domain: "rsadvprev.com.br", // Sem "www"
   phone: {
-    ddd: "98",
-    firstPart: "98853", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7287", // Apenas os 4 últimos números
+    ddd: "83",
+    firstPart: "99645", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1555", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,15 +75,14 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua das Avenças,</p>
-      <p>Nº 08, Qd. 28,</p>
-      <p>Renascença São Luís - MA,</p>
-      <p>CEP 65077-620.</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
     <div>
-    <p>Endereço:</p>
+      <p>Endereço:</p>
       <p>A_Definir</p>
       <p>A_Definir</p>
       <p>A_Definir</p>
@@ -96,15 +95,8 @@ export const infos = {
       <p>8h às 18h</p>
     </div>
   ),
-  expedienteSecond: (
-    <div>
-      <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
-    </div>
-  ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "humbertosantana.adv", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -131,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO MILITAR EM SÃO LUÍS - MA",
+      miniTag: "ADVOCACIA PREVIDENCIÁRIA EM JOÃO PESSOA - PB",
       title: (
         <h1 className="mb-[16px]">
-          Nem todo advogado
-          <span className="text-primary"> entende farda</span>
+          Você tem dinheiro parado
+          <span className="text-primary"> no INSS?</span>
         </h1>
       ),
       subtitle:
-        "Atuação estratégica e experiente na defesa de quem serve o país com honra e disciplina",
+        "Milhares de pessoas têm direito e não sabem. Descubra agora se você é uma delas.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale com quem entende",
+      ctaButtonText: "Quero verificar meu direito",
       obsHero: {
         icon: (
           <svg
@@ -165,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento 100% digital com a facilidade de um clique e a confiança de um escritório físico.",
+        text: "Atendimento em João Pessoa, Recife e Natal. Online para todo território nacional.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -191,17 +183,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Nossas áreas de atuação",
+      miniTag: "ÁREA DE ATUAÇÃO",
+      title: "Especialista em Aposentadorias e Benefícios do INSS",
       subtitle:
-        "Soluções jurídicas especializadas para militares e servidores públicos.",
+        "Atuação dedicada a garantir seus direitos previdenciários com segurança e eficiência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Militar",
-        subtitle:
-          "Defesa jurídica de militares na esfera judicial e administrativa.",
+        title: "Aposentadoria por Contribuição",
+        subtitle: "Cálculo e revisão do tempo para o melhor benefício.",
         description: (
           <div>
             A_Definir
@@ -222,9 +213,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-icon lucide-shield"
+            class="lucide lucide-badge-percent-icon lucide-badge-percent"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
+            <path d="m15 9-6 6" />
+            <path d="M9 9h.01" />
+            <path d="M15 15h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -232,8 +226,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Previdenciário Militar",
-        subtitle: "Garantia de benefícios e proteção social para militares.",
+        title: "Aposentadoria por Idade",
+        subtitle: "Entrada segura e correta na sua aposentadoria.",
         description: (
           <div>
             A_Definir
@@ -254,11 +248,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-badge-dollar-sign-icon lucide-badge-dollar-sign"
+            class="lucide lucide-calendar-clock-icon lucide-calendar-clock"
           >
-            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5" />
+            <path d="M16 2v4" />
+            <path d="M8 2v4" />
+            <path d="M3 10h5" />
+            <path d="M17.5 17.5 16 16.3V14" />
+            <circle cx="16" cy="16" r="6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -266,8 +263,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Administrativo Militar",
-        subtitle: "Regulação das relações e sanções na administração militar.",
+        title: "Benefício por Incapacidade",
+        subtitle: "Apoio em auxílio-doença e aposentadoria.",
         description: (
           <div>
             A_Definir <br />
@@ -287,10 +284,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            class="lucide lucide-stethoscope-icon lucide-stethoscope"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="M11 2v2" />
+            <path d="M5 2v2" />
+            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
+            <path d="M8 15a6 6 0 0 0 12 0v-3" />
+            <circle cx="20" cy="10" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -298,9 +298,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Defesa dos Direitos de Servidores Públicos",
-        subtitle:
-          "Assistência jurídica para assegurar direitos dos servidores.",
+        title: "Pensão e Auxílio-Reclusão",
+        subtitle: "Garantia de direitos para dependentes do INSS.",
         description: (
           <div>
             A_Definir
@@ -396,53 +395,62 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. HUMBERTO SANTANA",
-      title: "Minha trajetória",
+      miniTag: "QUEM É A RS ADVOCACIA PREVIDENCIÁRIA",
+      title: "Nossa trajetória",
       subtitle:
-        "Experiência e compromisso com a justiça militar e do servidor público",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+        "Compromisso real com quem busca seus direitos no INSS, com clareza e respeito.",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Advogado em São Luís – MA, com atuação em todo o Brasil. Oficial
-          Superior da Reserva, dediquei mais de três décadas à Força Estadual de
-          Segurança Pública e transformei minha experiência em uma missão: lutar
-          pelos direitos de militares e servidores públicos.
+          A RS Advocacia Previdenciária nasceu com um propósito muito claro:
+          tornar mais fácil, justo e humano o caminho de quem busca seus
+          direitos no INSS. Entendemos que, para muitas pessoas, lidar com o
+          sistema previdenciário é sinônimo de frustração, burocracia e
+          insegurança.
           <br />
+          Foi justamente ouvindo essas histórias que decidimos fazer diferente —
+          com acolhimento, transparência e uma escuta atenta desde o primeiro
+          contato.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Advogado em São Luís – MA, com atuação em todo o Brasil. Oficial
-          Superior da Reserva, dediquei mais de três décadas à Força Estadual de
-          Segurança Pública e transformei minha experiência em uma missão: lutar
-          pelos direitos de militares e servidores públicos.
+          A RS Advocacia Previdenciária nasceu com um propósito muito claro:
+          tornar mais fácil, justo e humano o caminho de quem busca seus
+          direitos no INSS. Entendemos que, para muitas pessoas, lidar com o
+          sistema previdenciário é sinônimo de frustração, burocracia e
+          insegurança.
           <br />
           <br />
-          Especializei-me em Direito Militar, com pós-graduação em Direito
-          Administrativo, Direito Público com ênfase em Gestão Pública, e Gestão
-          Administrativa Militar.
+          Foi justamente ouvindo essas histórias que decidimos fazer diferente —
+          com acolhimento, transparência e uma escuta atenta desde o primeiro
+          contato.
           <br />
           <br />
-          Minha atuação é focada, prática e eficaz, tanto na esfera judicial
-          quanto administrativa ou extrajudicial.
+          Desde o início, nosso foco foi construir um atendimento próximo,
+          direto e especializado. Aqui, cada cliente é tratado com respeito,
+          atenção e linguagem acessível — nada de termos complicados ou
+          respostas vazias.
           <br />
           <br />
-          Acredito que cada cliente merece respeito, transparência e
-          comprometimento. Por isso, ofereço uma assessoria jurídica acessível e
-          de alta qualidade, combatendo abusos da Administração Pública e
-          buscando sempre justiça.
+          Acreditamos que você tem o direito de entender cada etapa do seu
+          processo e tomar decisões com confiança. Por isso, explicamos tudo com
+          clareza e estamos sempre prontos para tirar dúvidas, revisar
+          documentos e buscar a melhor solução para o seu caso.
           <br />
           <br />
-          Meu propósito é ser reconhecido nacionalmente pela excelência e por
-          resgatar a dignidade de quem serve à nação.
+          Nosso trabalho vai além da advocacia: queremos ser um suporte real na
+          sua caminhada. Atuamos exclusivamente com Direito Previdenciário, o
+          que nos permite ter mais precisão e segurança nas orientações.
           <br />
           <br />
-          Não sou apenas um advogado — sou um defensor dos que dedicam sua vida
-          à pátria. Se você é militar ou servidor público, pode contar comigo.
+          Sabemos o quanto um benefício pode mudar uma vida — e é isso que nos
+          move todos os dias. Conte com a gente para enfrentar o INSS com
+          tranquilidade, seriedade e a certeza de que você não está sozinho.
           <br />
           <br />
         </p>
@@ -456,15 +464,14 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -485,27 +492,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta com especialista",
+          cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma conversa inicial para entender sua situação como militar ou servidor e identificar a melhor forma de atuação jurídica.",
+            "Conversa para entender seu histórico e quais benefícios previdenciários você pode ter direito.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise do caso",
+          cardTitle: "Análise detalhada",
           cardDescription:
-            "Estudamos seu histórico, documentos e atos administrativos para identificar ilegalidades e possibilidades de defesa.",
+            "Revisamos documentos, contribuições e decisões do INSS para mapear o melhor caminho para seu caso.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Estratégia jurídica definida",
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Montamos uma estratégia precisa e personalizada para garantir seus direitos e reverter injustiças da Administração Pública.",
+            "Definimos um plano jurídico personalizado para garantir seus direitos com foco na aprovação do benefício.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Atuação firme e técnica",
+          cardTitle: "Ação legal",
           cardDescription:
-            "Entramos com ações judiciais e/ou requerimentos administrativos para buscar a reparação e justiça que você merece.",
+            "Entramos com os recursos ou processos necessários para assegurar que seu benefício seja concedido ou revisado.",
         },
       },
     },
@@ -528,22 +535,22 @@ const content = {
         question1: {
           question: "Como posso contratar seus serviços?",
           answer:
-            "É simples! Basta nos chamar pelo WhatsApp, agendar uma consulta e conversar diretamente comigo sobre o seu caso.",
+            "Agende sua consulta pelo WhatsApp. Conversaremos sobre suas necessidades e custos envolvidos.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolver meu caso?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Depende da complexidade e do tipo de ação. Na consulta, avalio seu caso e explico as etapas e prazos estimados.",
+            "O prazo depende da complexidade do seu caso, mas explicaremos uma estimativa na consulta inicial.",
         },
         question3: {
-          question: "Quais documentos preciso levar para a consulta?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Leve tudo que envolva seu caso: atos administrativos, boletins, ofícios, negativações, identidade, CPF e comprovante de residência.",
+            "Traga documentos como comprovantes de contribuição, decisões do INSS, documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Vocês prestam consultoria preventiva?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Sim. Atuo de forma preventiva para evitar injustiças e orientar militares e servidores sobre seus direitos antes de problemas maiores surgirem.",
+            "Sim! Também ajudamos a prevenir problemas futuros com orientação especializada em Direito Previdenciário.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -896,7 +903,6 @@ const content = {
       officeHours: infos.expediente,
       year: currentYear,
       footerexpediente: infos.expediente,
-      footerexpedientesecond: infos.expedienteSecond,
       obsFooter: infos.obs,
       footerNavegacaoText: "NAVEGAÇÃO",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
