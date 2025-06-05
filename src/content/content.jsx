@@ -53,19 +53,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "LIM Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "limadv.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "96105", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7324", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "2021", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6063", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -74,10 +74,9 @@ export const infos = {
   },
   endereco: (
     <div>
-      <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Paulista 1636,</p>
+      <p>Jardim Paulista São Paulo - SP,</p>
+      <p>CEP: 01310-200.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -90,15 +89,13 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>Atendimento 24h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "lim_advocacia", // Sem o @
   facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
+  linkeDinProfile: "lílian-oliveira-advogada/",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
