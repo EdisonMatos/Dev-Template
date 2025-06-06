@@ -157,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento com dias e horários flexíveis que melhor se encaixe na sua rotina.",
+        text: "Atendimento com dias e horários flexíveis que melhor se encaixem na sua rotina.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
