@@ -191,7 +191,8 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Assessoria jurídica para projetos culturais",
-        subtitle: "A_Definir",
+        subtitle:
+          "Atuação estratégica na área cultural com foco em segurança jurídica para projetos, instituições e iniciativas criativas.",
         description: (
           <div>
             ▪ Due Diligence Contratual
@@ -224,7 +225,8 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Soluções jurídicas para artistas",
-        subtitle: "A_Definir",
+        subtitle:
+          "Proteção dos direitos de artistas, criadores e produtores, com suporte jurídico ágil e personalizado para enfrentar desafios da carreira artística.",
         description: (
           <div>
             ▪ Recursos administrativos;
@@ -258,13 +260,17 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Consultoria Jurídica",
+        subtitle:
+          "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais com segurança, clareza e estratégias personalizadas para cada necessidade.",
         description: (
           <div>
-            A_Definir <br />
-            <br />
-            A_Definir
+            ▪ Diagnóstico jurídico personalizado
+            <br />▪ Consultas jurídicas por demanda ou recorrentes
+            <br />▪ Estratégias de prevenção de litígios
+            <br />▪ Acompanhamento jurídico contínuo
+            <br />▪ Resolução de dúvidas e análise documental
+            <br />▪ Planejamento jurídico preventivo
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
