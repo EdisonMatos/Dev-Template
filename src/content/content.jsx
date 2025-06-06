@@ -392,33 +392,52 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A HAMÚ OPA ADVOCACIA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Advocacia autônoma que une técnica, empatia e comunicação clara.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Fundei meu escritório em 2018 e, após experiências em sociedades, hoje
+          atuo de forma autônoma, prezando por um atendimento personalizado e
+          dedicado.
           <br />
-          A_Definir
+          Apesar de valorizar a tradição da advocacia, incorporo modernidade
+          para oferecer soluções jurídicas eficazes e atualizadas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Fundei meu escritório em 2018 e, após experiências em sociedades, hoje
+          atuo de forma autônoma, prezando por um atendimento personalizado e
+          dedicado.
           <br />
           <br />
-          A_Definir
+          Apesar de valorizar a tradição da advocacia, incorporo modernidade
+          para oferecer soluções jurídicas eficazes e atualizadas.
           <br />
           <br />
-          A_Definir
+          Acredito que meu diferencial está na combinação da técnica rigorosa
+          com uma empatia verdadeira, colocando o cliente no centro de tudo.
           <br />
           <br />
-          A_Definir
+          Entender suas necessidades e dificuldades é fundamental para construir
+          estratégias que realmente façam a diferença na vida de cada pessoa
+          atendida.
+          <br />
+          <br />
+          Além disso, prezo por uma comunicação acessível e transparente,
+          eliminando o juridiquês e garantindo que todos compreendam o processo
+          e as opções disponíveis.
+          <br />
+          <br />
+          Meu compromisso é acompanhar cada etapa com clareza, confiança e
+          respeito.
           <br />
           <br />
         </p>
@@ -432,10 +451,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle: "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
