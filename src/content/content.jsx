@@ -391,33 +391,52 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA. LÍLIAN ASSUMPÇÃO",
+      title: "Minha trajetória",
+      subtitle:
+        "Atendimento humano e estratégico para quem busca acolhimento e confiança",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Escolhi atuar no Direito do Trabalho por acreditar que ninguém deve
+          enfrentar injustiças sozinho.
           <br />
-          A_Definir
+          Aqui, o atendimento vai além do processo: é feito com escuta ativa,
+          empatia e um olhar humano para cada história. Acredito que entender o
+          caso começa por entender quem está por trás dele.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Escolhi atuar no Direito do Trabalho por acreditar que ninguém deve
+          enfrentar injustiças sozinho.
           <br />
           <br />
-          A_Definir
+          Aqui, o atendimento vai além do processo: é feito com escuta ativa,
+          empatia e um olhar humano para cada história. Acredito que entender o
+          caso começa por entender quem está por trás dele.
           <br />
           <br />
-          A_Definir
+          Ofereço uma atuação estratégica, com explicações claras e acessíveis,
+          sem juridiquês. Sei que muitos chegam com dúvidas, inseguranças ou até
+          traumas de atendimentos anteriores.
           <br />
           <br />
-          A_Definir
+          Por isso, faço questão de construir uma relação de confiança, onde o
+          cliente se sinta acolhido do início ao fim.
+          <br />
+          <br />
+          Meu escritório une tradição e proximidade, com um atendimento
+          personalizado, pensado para quem busca não só resultados, mas também
+          respeito e atenção.
+          <br />
+          <br />
+          Aqui, você encontra alguém que se importa de verdade com sua causa — e
+          com você.
           <br />
           <br />
         </p>
@@ -431,14 +450,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
