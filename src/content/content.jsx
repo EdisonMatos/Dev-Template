@@ -1,9 +1,9 @@
-import logo from "../assets/imgs/logo/logo.webp";
-import heroImgPhone from "../assets/imgs/hero/personImg.webp";
-import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import logo from "../assets/imgs/logo/logo.png";
+import heroImgPhone from "../assets/imgs/hero/personImg.png";
+import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
-import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
+import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -14,10 +14,10 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -25,9 +25,9 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
-import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
-import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
@@ -53,19 +53,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "LIM Advocacia",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "limadv.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "96105", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7324", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "11",
-    firstPart: "2021", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6063", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -74,9 +74,10 @@ export const infos = {
   },
   endereco: (
     <div>
-      <p>Av. Paulista 1636,</p>
-      <p>Jardim Paulista São Paulo - SP,</p>
-      <p>CEP: 01310-200.</p>
+      <p>Endereço:</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -89,13 +90,15 @@ export const infos = {
   ),
   expediente: (
     <div>
-      <p>Atendimento 24h</p>
+      <p>Horário de expediente:</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "lim_advocacia", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
-  linkeDinProfile: "lílian-oliveira-advogada/",
+  linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -120,21 +123,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO FULL SERVICE EM SÃO PAULO - SP",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          E se a Justiça
-          <span className="text-primary"> nunca </span>te enxergar?
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Você tem direitos. Tenha alguém que realmente lute por eles como deveria.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero ser ouvido",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -154,7 +156,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento 24h. Presencial e on-line para todo Brasil.",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -180,28 +182,21 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREA DE ATUAÇÃO",
-      title: "Especialização jurídica no setor cultural e artístico",
-      subtitle:
-        "Apoio jurídico para impulsionar projetos culturais com segurança.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Assessoria jurídica para projetos culturais",
-        subtitle:
-          "Atuação estratégica na área cultural com foco em segurança jurídica para projetos, instituições e iniciativas criativas.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            ▪ Due Diligence Contratual
-            <br />▪ Elaboração de Contratos
-            <br />▪ Constituição de empresas, associações, institutos e ONGs{" "}
-            <br />▪ Certificações
-            <br />▪ Registro e licenciamento de Marcas
-            <br />▪ Estruturação de editais
-            <br />▪ Parecer jurídico sobre a legislação cultural, Lei de
-            direitos autorais e legislação conexa
-            <br />▪ Recursos administrativos e judiciais
+            A_Definir
+            <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -222,22 +217,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Soluções jurídicas para artistas",
-        subtitle:
-          "Proteção dos direitos de artistas, criadores e produtores, com suporte jurídico ágil e personalizado para enfrentar desafios da carreira artística.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            ▪ Recursos administrativos;
-            <br />▪ Mandado de Segurança;
-            <br />▪ Ação Anulatória;
-            <br />▪ Tutelas de Urgência;
-            <br />▪ Habeas Corpus; dentre outras medidas que serão analisadas
-            caso a caso.
+            A_Definir
             <br />
             <br />
-            Elaboração e análise de contratos, Due Diligence, certificações,
-            alteração contratual, constituição de empresas, associações, dentre
-            outros serviços de natureza jurídica.
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -258,17 +245,13 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Consultoria Jurídica",
-        subtitle:
-          "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais com segurança, clareza e estratégias personalizadas para cada necessidade.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            ▪ Diagnóstico jurídico personalizado
-            <br />▪ Consultas jurídicas por demanda ou recorrentes
-            <br />▪ Estratégias de prevenção de litígios
-            <br />▪ Acompanhamento jurídico contínuo
-            <br />▪ Resolução de dúvidas e análise documental
-            <br />▪ Planejamento jurídico preventivo
+            A_Definir <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -379,56 +362,33 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A LIM ADVOCACIA FULL SERVICE",
-      title: "Nossa trajetória",
-      subtitle:
-        "Atuação técnica com acolhimento, clareza e foco na sua necessidade.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Na LIM Advocacia, acreditamos que cada cliente tem uma história única
-          — e que o papel do direito é justamente garantir que essa história
-          seja respeitada.
+          A_Definir
           <br />
-          Em um cenário onde muitos se sentem apenas mais um, nosso compromisso
-          é oferecer um atendimento artesanal, humanizado e direto, sem excesso
-          de juridiquês, mas com toda a seriedade e técnica que cada caso exige.
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Na LIM Advocacia, acreditamos que cada cliente tem uma história única
-          — e que o papel do direito é justamente garantir que essa história
-          seja respeitada.
+          A_Definir
           <br />
           <br />
-          Em um cenário onde muitos se sentem apenas mais um, nosso compromisso
-          é oferecer um atendimento artesanal, humanizado e direto, sem excesso
-          de juridiquês, mas com toda a seriedade e técnica que cada caso exige.
+          A_Definir
           <br />
           <br />
-          Somos especialistas em litígios complexos e sabemos que, muitas vezes,
-          a jornada jurídica começa em meio à dor, à dúvida e ao medo.
+          A_Definir
           <br />
           <br />
-          É por isso que tratamos cada demanda com empatia, escuta ativa e
-          precisão estratégica. Valorizamos a confiança depositada em nosso
-          trabalho e devolvemos isso com transparência, excelência e clareza em
-          cada etapa do processo.
-          <br />
-          <br />
-          Mais do que resolver problemas jurídicos, nossa missão é acolher
-          pessoas e construir soluções duradouras.
-          <br />
-          <br />
-          Aliamos a tradição do atendimento personalizado com o uso de
-          tecnologias como a inteligência artificial, para entregar agilidade e
-          eficiência sem perder o toque humano. Na LIM, você é prioridade — do
-          início ao fim.
+          A_Definir
           <br />
           <br />
         </p>
@@ -442,11 +402,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
@@ -455,43 +414,37 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "A_Definir",
+      title: "A_Definir",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "Consulta inicial",
-          cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "Análise detalhada",
-          cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "Elaboração da estratégia",
-          cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
-          cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+          cardTitle: "A_Definir",
+          cardDescription: "A_Definir",
         },
       },
     },
@@ -507,29 +460,25 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
-          answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
-          answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question: "A_Definir",
+          answer: "A_Definir",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
