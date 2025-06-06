@@ -64,7 +64,7 @@ export default function About({
           />
         </MotionDivDownToUp> */}
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          <div className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[740px] desktop1:h-[467px] rounded-xl">
+          <div className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-auto desktop1:h-[467px] rounded-xl">
             <ImageGallery
               items={images}
               showNav={false} // Ativando a navegação
@@ -86,7 +86,7 @@ export default function About({
 
                      @media (min-width: 640px) and (max-width: 1023px) {
                         .custom-gallery .image-gallery-slide img {
-                          height: 800px;
+                          height: 740px;
                         }
                       }
 
