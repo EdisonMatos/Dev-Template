@@ -123,8 +123,8 @@ const content = {
       miniTag: "ESCRITÓRIO FULL SERVICE EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          E se a Justiça nunca
-          <span className="text-primary"> te enxergar?</span>
+          E se a Justiça
+          <span className="text-primary"> nunca </span>te enxergar?
         </h1>
       ),
       subtitle:
