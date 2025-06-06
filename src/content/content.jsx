@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Hamú Opa Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "hamuopa.adv.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "9132", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9007", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -74,10 +74,9 @@ export const infos = {
   },
   endereco: (
     <div>
-      <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Visconde de Porto Seguro, nº 655,</p>
+      <p>sala 106, Centro Formosa - GO,</p>
+      <p>CEP: 73801-010.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,11 +91,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>9h às 18h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  obs: <span className="italic">A Trabalhamos em regime de plantão 24h</span>,
+  instagramProfile: "hamuopa.adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
