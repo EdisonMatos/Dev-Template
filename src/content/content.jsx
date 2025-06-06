@@ -55,7 +55,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Hamú Opa Advocacia",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "advocacia@hamuopa.adv.br", // Email desejado pelo cliente
   domain: "hamuopa.adv.br", // Sem "www"
   phone: {
     ddd: "61",
