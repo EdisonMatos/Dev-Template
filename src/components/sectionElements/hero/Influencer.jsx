@@ -16,7 +16,6 @@ export default function Influencer({ appDownloadButtons }) {
     <>
       <div
         className="w-full bg-center bg-repeat bg-cover font-mainFont desktop1:pt-[45px] desktop1:hidden"
-        id="home"
         style={{
           backgroundImage: `url(${content.texts.hero.backgroundPerson})`,
         }}
