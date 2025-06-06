@@ -114,7 +114,7 @@ export default function NavbarSocial({ colorMode }) {
               alt={content.texts.navbar.logo.alt}
               className={`bg-transparent max-h-[90px] ${
                 scrolling
-                  ? "w-[90%] tablet1:w-[80%] tablet2:w-[40%] desktop1:w-[70%] desktop2:w-[30%]"
+                  ? "w-[90%] tablet1:w-[80%] tablet2:w-[40%] desktop1:w-[40%] desktop2:w-[30%]"
                   : "my-[20px] w-[70%] desktop2:w-[50%]"
               } transition-all duration-1000`}
             />
