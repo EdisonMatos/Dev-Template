@@ -40,7 +40,7 @@ export default function Influencer({ appDownloadButtons }) {
                 </MotionDivDownToUp>
                 <MotionDivDownToUp>
                   <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                    <p className="text-colorWhite mb-[32px] ">
+                    <p className="text-primary mb-[32px] ">
                       {content.texts.hero.subtitle}
                     </p>
                   </div>
@@ -147,7 +147,7 @@ export default function Influencer({ appDownloadButtons }) {
                     </MotionDivDownToUp>
                     <MotionDivDownToUp>
                       <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                        <p className="text-colorWhite mb-[32px] ">
+                        <p className="text-primary mb-[32px] ">
                           {content.texts.hero.subtitle}
                         </p>
                       </div>
