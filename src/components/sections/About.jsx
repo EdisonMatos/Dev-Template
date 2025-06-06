@@ -11,9 +11,9 @@ import ParagraphSemFading from "../sectionElements/about/ParagraphSemFading";
 import ParagraphWithFading from "../sectionElements/about/ParagraphWithFading";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import img1 from "../../assets/imgs/about/imgGaleria1.jpg";
-import img2 from "../../assets/imgs/about/imgGaleria2.jpg";
-import img3 from "../../assets/imgs/about/imgGaleria3.jpg";
+import img1 from "../../assets/imgs/about/imgGaleria1.webp";
+import img2 from "../../assets/imgs/about/imgGaleria2.webp";
+import img3 from "../../assets/imgs/about/imgGaleria3.webp";
 
 export default function About({
   modal = true,
