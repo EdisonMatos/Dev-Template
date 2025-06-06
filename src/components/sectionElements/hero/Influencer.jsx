@@ -34,13 +34,13 @@ export default function Influencer({ appDownloadButtons }) {
                   </div>
                 </MotionDivDownToUp>
                 <MotionDivDownToUp>
-                  <div className="text-colorWhite flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                  <div className="text-lighter flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                     <h1 className="">{content.texts.hero.title}</h1>
                   </div>
                 </MotionDivDownToUp>
                 <MotionDivDownToUp>
                   <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                    <p className="text-primary mb-[32px] ">
+                    <p className="text-lighter mb-[32px] ">
                       {content.texts.hero.subtitle}
                     </p>
                   </div>
@@ -59,7 +59,7 @@ export default function Influencer({ appDownloadButtons }) {
                     <div className="flex justify-center desktop1:justify-start pb-[36px]">
                       <div className="flex flex-col items-center desktop1:flex-row text-primary">
                         {content.texts.hero.obsHero.icon}
-                        <p className="text-colorWhite  ml-[10px] text-center mt-[12px] desktop1:mt-0">
+                        <p className="text-lighter  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                           {content.texts.hero.obsHero.text}
                         </p>
                       </div>
@@ -141,13 +141,13 @@ export default function Influencer({ appDownloadButtons }) {
                       </div>
                     </MotionDivDownToUp>
                     <MotionDivDownToUp>
-                      <div className="text-colorWhite flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                      <div className="text-lighter flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                         <h1 className="">{content.texts.hero.title}</h1>
                       </div>
                     </MotionDivDownToUp>
                     <MotionDivDownToUp>
                       <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
-                        <p className="text-primary mb-[32px] ">
+                        <p className="text-lighter mb-[32px] ">
                           {content.texts.hero.subtitle}
                         </p>
                       </div>
@@ -166,7 +166,7 @@ export default function Influencer({ appDownloadButtons }) {
                         <div className="flex justify-center desktop1:justify-start">
                           <div className="flex flex-col items-center desktop1:flex-row text-primary">
                             {content.texts.hero.obsHero.icon}
-                            <p className="text-colorWhite  ml-[10px] text-start mt-[12px] desktop1:mt-0">
+                            <p className="text-lighter  ml-[10px] text-start mt-[12px] desktop1:mt-0">
                               {content.texts.hero.obsHero.text}
                             </p>
                           </div>
@@ -175,7 +175,7 @@ export default function Influencer({ appDownloadButtons }) {
                       {appDownloadButtons && (
                         <MotionDivDownToUp>
                           <div className="flex flex-col items-center desktop1:items-start">
-                            <p className="mb-[20px] mt-[60px] text-colorWhite  text-center">
+                            <p className="mb-[20px] mt-[60px] text-lighter  text-center">
                               {content.texts.hero.app.description}
                             </p>
                             <div className="">
