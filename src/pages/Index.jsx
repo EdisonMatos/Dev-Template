@@ -32,8 +32,8 @@ export default function Index() {
       {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
-        button={true}
+        defaultFeature={true}
+        button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
