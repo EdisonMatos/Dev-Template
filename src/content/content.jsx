@@ -123,20 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADA TRABALHISTA EM SÃO JOÃO DO MERITI - RJ",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Você tem certeza que seus direitos estão{" "}
+          <span className="text-primary"> em dia?</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "A maioria só descobre que foi lesada quando já é tarde. Não espere o prejuízo bater à porta.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Investigue sua situação",
       obsHero: {
         icon: (
           <svg
@@ -156,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento com dias e horários flexíveis que melhor se encaixe na sua rotina.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
