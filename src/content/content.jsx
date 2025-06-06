@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogada Lílian Assumpção",
+  name: "Hamú Opa Advocacia",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "lilianassumpcao.com.br", // Sem "www"
+  emailSecundario: "advocacia@hamuopa.adv.br", // Email desejado pelo cliente
+  domain: "hamuopa.adv.br", // Sem "www"
   phone: {
-    ddd: "21",
-    firstPart: "96490", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "8556", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "9132", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9007", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -74,10 +74,9 @@ export const infos = {
   },
   endereco: (
     <div>
-      <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Visconde de Porto Seguro, nº 655,</p>
+      <p>sala 106, Centro Formosa - GO,</p>
+      <p>CEP: 73801-010.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,11 +91,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>9h às 18h</p>
     </div>
   ),
-  obs: <span className="italic">A Definir</span>,
-  instagramProfile: "adv.lilianassumpcao", // Sem o @
+  obs: <span className="italic">A Trabalhamos em regime de plantão 24h</span>,
+  instagramProfile: "hamuopa.adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +122,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA TRABALHISTA EM SÃO JOÃO DO MERITI - RJ",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM FORMOSA - GO",
       title: (
         <h1 className="mb-[16px]">
-          Você tem certeza que seus direitos estão{" "}
-          <span className="text-primary"> em dia?</span>
+          Você sabe o que está arriscando ao deixar
+          <span className="text-primary"> pra depois?</span>
         </h1>
       ),
       subtitle:
-        "A maioria só descobre que foi lesada quando já é tarde. Não espere o prejuízo bater à porta.",
+        "Problemas legais crescem quando ignorados. Vamos resolver antes que piore.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Investigue sua situação",
+      ctaButtonText: "Quero resolver agora",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +156,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento com dias e horários flexíveis que melhor se encaixem na sua rotina.",
+        text: "Atendimento presencial e online para todo o Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +182,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREA DE ATUAÇÃO",
-      title: "Defesa dos direitos do trabalhador",
+      miniTag: "ESPECIALIDADES",
+      title: "Nossas áreas de atuação",
       subtitle:
-        "Atuação especializada para garantir justiça nas relações de trabalho",
+        "Experiência em diferentes ramos do Direito para atender você com excelência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Verbas rescisórias e reconhecimento de vínculo",
-        subtitle: "Ações por verbas devidas e vínculo sem registro formal",
+        title: "Direito Público",
+        subtitle: "Atuação em questões do interesse coletivo e público.",
         description: (
           <div>
             A_Definir
@@ -213,13 +212,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +226,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direitos trabalhistas não pagos",
-        subtitle: "Cobrança de horas extras, adicionais e benefícios",
+        title: "Direito Penal",
+        subtitle: "Defesa em processos criminais para garantir justiça.",
         description: (
           <div>
             A_Definir
@@ -249,11 +248,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-badge-dollar-sign-icon lucide-badge-dollar-sign"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -261,8 +262,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Assédio e danos morais no ambiente de trabalho",
-        subtitle: "Reparação por assédio moral e ambiente abusivo",
+        title: "Direito Civil e Familiar",
+        subtitle: "Soluções jurídicas para família, sucessões e civil.",
         description: (
           <div>
             A_Definir <br />
@@ -282,10 +283,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-icon lucide-user"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-            <circle cx="12" cy="7" r="4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -293,8 +296,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria e defesa em reclamatórias trabalhistas",
-        subtitle: "Atuação estratégica em ações e defesas trabalhistas",
+        title: "Direito Bancário e Financeiro",
+        subtitle: "Assessoria em contratos, financiamentos e bancos.",
         description: (
           <div>
             A_Definir
@@ -315,13 +318,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-banknote-icon lucide-banknote"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <rect width="20" height="12" x="2" y="6" rx="2" />
+            <circle cx="12" cy="12" r="2" />
+            <path d="M6 12h.01M18 12h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -391,52 +392,52 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. LÍLIAN ASSUMPÇÃO",
-      title: "Minha trajetória",
+      miniTag: "QUEM É A HAMÚ OPA ADVOCACIA",
+      title: "Nossa trajetória",
       subtitle:
-        "Atendimento humano e estratégico para quem busca acolhimento e confiança",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+        "Advocacia autônoma que une técnica, empatia e comunicação clara.",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Escolhi atuar no Direito do Trabalho por acreditar que ninguém deve
-          enfrentar injustiças sozinho.
+          Fundei meu escritório em 2018 e, após experiências em sociedades, hoje
+          atuo de forma autônoma, prezando por um atendimento personalizado e
+          dedicado.
           <br />
-          Aqui, o atendimento vai além do processo: é feito com escuta ativa,
-          empatia e um olhar humano para cada história. Acredito que entender o
-          caso começa por entender quem está por trás dele.
+          Apesar de valorizar a tradição da advocacia, incorporo modernidade
+          para oferecer soluções jurídicas eficazes e atualizadas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Escolhi atuar no Direito do Trabalho por acreditar que ninguém deve
-          enfrentar injustiças sozinho.
+          Fundei meu escritório em 2018 e, após experiências em sociedades, hoje
+          atuo de forma autônoma, prezando por um atendimento personalizado e
+          dedicado.
           <br />
           <br />
-          Aqui, o atendimento vai além do processo: é feito com escuta ativa,
-          empatia e um olhar humano para cada história. Acredito que entender o
-          caso começa por entender quem está por trás dele.
+          Apesar de valorizar a tradição da advocacia, incorporo modernidade
+          para oferecer soluções jurídicas eficazes e atualizadas.
           <br />
           <br />
-          Ofereço uma atuação estratégica, com explicações claras e acessíveis,
-          sem juridiquês. Sei que muitos chegam com dúvidas, inseguranças ou até
-          traumas de atendimentos anteriores.
+          Acredito que meu diferencial está na combinação da técnica rigorosa
+          com uma empatia verdadeira, colocando o cliente no centro de tudo.
           <br />
           <br />
-          Por isso, faço questão de construir uma relação de confiança, onde o
-          cliente se sinta acolhido do início ao fim.
+          Entender suas necessidades e dificuldades é fundamental para construir
+          estratégias que realmente façam a diferença na vida de cada pessoa
+          atendida.
           <br />
           <br />
-          Meu escritório une tradição e proximidade, com um atendimento
-          personalizado, pensado para quem busca não só resultados, mas também
-          respeito e atenção.
+          Além disso, prezo por uma comunicação acessível e transparente,
+          eliminando o juridiquês e garantindo que todos compreendam o processo
+          e as opções disponíveis.
           <br />
           <br />
-          Aqui, você encontra alguém que se importa de verdade com sua causa — e
-          com você.
+          Meu compromisso é acompanhar cada etapa com clareza, confiança e
+          respeito.
           <br />
           <br />
         </p>
@@ -455,17 +456,17 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema trabalhista? Deixe que cuidamos disso para você!",
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
         "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",

@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://www.lilianassumpcao.com.br/sitemap.xml
+Sitemap: https://www.hamuopa.adv.br/sitemap.xml
 
