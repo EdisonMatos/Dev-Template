@@ -182,21 +182,27 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREA DE ATUAÇÃO",
+      title: "Especialização jurídica no setor cultural e artístico",
+      subtitle:
+        "Apoio jurídico para impulsionar projetos culturais com segurança.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
+        title: "Assessoria jurídica para projetos culturais",
         subtitle: "A_Definir",
         description: (
           <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
+            ▪ Due Diligence Contratual
+            <br />▪ Elaboração de Contratos
+            <br />▪ Constituição de empresas, associações, institutos e ONGs{" "}
+            <br />▪ Certificações
+            <br />▪ Registro e licenciamento de Marcas
+            <br />▪ Estruturação de editais
+            <br />▪ Parecer jurídico sobre a legislação cultural, Lei de
+            direitos autorais e legislação conexa
+            <br />▪ Recursos administrativos e judiciais
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -217,14 +223,21 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
+        title: "Soluções jurídicas para artistas",
         subtitle: "A_Definir",
         description: (
           <div>
-            A_Definir
+            ▪ Recursos administrativos;
+            <br />▪ Mandado de Segurança;
+            <br />▪ Ação Anulatória;
+            <br />▪ Tutelas de Urgência;
+            <br />▪ Habeas Corpus; dentre outras medidas que serão analisadas
+            caso a caso.
             <br />
             <br />
-            A_Definir
+            Elaboração e análise de contratos, Due Diligence, certificações,
+            alteração contratual, constituição de empresas, associações, dentre
+            outros serviços de natureza jurídica.
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -362,33 +375,56 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A LIM ADVOCACIA FULL SERVICE",
+      title: "Nossa trajetória",
+      subtitle:
+        "Atuação técnica com acolhimento, clareza e foco na sua necessidade.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Na LIM Advocacia, acreditamos que cada cliente tem uma história única
+          — e que o papel do direito é justamente garantir que essa história
+          seja respeitada.
           <br />
-          A_Definir
+          Em um cenário onde muitos se sentem apenas mais um, nosso compromisso
+          é oferecer um atendimento artesanal, humanizado e direto, sem excesso
+          de juridiquês, mas com toda a seriedade e técnica que cada caso exige.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Na LIM Advocacia, acreditamos que cada cliente tem uma história única
+          — e que o papel do direito é justamente garantir que essa história
+          seja respeitada.
           <br />
           <br />
-          A_Definir
+          Em um cenário onde muitos se sentem apenas mais um, nosso compromisso
+          é oferecer um atendimento artesanal, humanizado e direto, sem excesso
+          de juridiquês, mas com toda a seriedade e técnica que cada caso exige.
           <br />
           <br />
-          A_Definir
+          Somos especialistas em litígios complexos e sabemos que, muitas vezes,
+          a jornada jurídica começa em meio à dor, à dúvida e ao medo.
           <br />
           <br />
-          A_Definir
+          É por isso que tratamos cada demanda com empatia, escuta ativa e
+          precisão estratégica. Valorizamos a confiança depositada em nosso
+          trabalho e devolvemos isso com transparência, excelência e clareza em
+          cada etapa do processo.
+          <br />
+          <br />
+          Mais do que resolver problemas jurídicos, nossa missão é acolher
+          pessoas e construir soluções duradouras.
+          <br />
+          <br />
+          Aliamos a tradição do atendimento personalizado com o uso de
+          tecnologias como a inteligência artificial, para entregar agilidade e
+          eficiência sem perder o toque humano. Na LIM, você é prioridade — do
+          início ao fim.
           <br />
           <br />
         </p>
@@ -402,10 +438,11 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
