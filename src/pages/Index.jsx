@@ -25,38 +25,40 @@ export default function Index() {
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
-        defaultHero={true}
-        influencer={false}
+        defaultHero={false}
+        influencer={true}
         mesclado={false}
       />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}
-        defaultFeature={true}
-        button={false}
+        defaultFeature={false}
+        button={true}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      {/* <AboutInstagram
+      <AboutInstagram
         colorMode={colorMode}
         instagram={true}
         socialPrint={true}
-      /> */}
+        linkedin={true}
+      />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addres={false}
-        phoneSecundario={false}
+        addres={true}
+        phoneSecundario={true}
         phoneTerciario={false}
         emailSecundario={false}
         addresSecundario={false}
-        instagram={false}
+        instagram={true}
+        linkedin={true}
         expedientesecond={false}
       />
       <FloatingWhatsappButton />

@@ -37,13 +37,15 @@ export default function ListGroupSocial({ colorMode = "default" }) {
     return "bg-white";
   };
 
-  const textShadow = colorMode === "dark" || colorMode === "default"
-    ? "[text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-    : "";
+  const textShadow =
+    colorMode === "dark" || colorMode === "default"
+      ? "[text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+      : "";
 
   return (
-
-    <ul className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${getTextColor()}`}>
+    <ul
+      className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${getTextColor()}`}
+    >
       {["home", "service", "about", "faq"].map((section, index) => (
         <li key={section} className="transition group h-[24px]">
           <Link
@@ -51,13 +53,18 @@ export default function ListGroupSocial({ colorMode = "default" }) {
             className="relative font-semibold cursor-pointer"
             spy={true}
             smooth={true}
+            
             duration={500}
             offset={-50}
           >
-            <span className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}>
+            <span
+              className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+            >
               {content.texts.navbar.menuItems[index]}
             </span>
-            <div className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`} />
+            <div
+              className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
+            />
           </Link>
         </li>
       ))}
