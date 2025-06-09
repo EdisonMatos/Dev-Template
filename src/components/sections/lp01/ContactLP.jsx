@@ -27,11 +27,11 @@ export default function ContactLP() {
               description={content.texts.infos.email}
             />
 
-            <ContactCardLP
+            {/* <ContactCardLP
               label={contentLp01.contact.card1.title}
               icon={contentLp01.contact.card1.icon}
               description="mdxcapitaloficial"
-            />
+            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>
