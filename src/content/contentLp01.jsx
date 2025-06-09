@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import logo from "../assets/imgs/logo/logo.webp";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import logo from "../assets/imgs/logo/logo.png";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
