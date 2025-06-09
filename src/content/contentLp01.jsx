@@ -17,9 +17,13 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title:
+      "Jonas Araújo Advocacia | Especialista em Direito para Concursos Públicos em São Paulo - SP",
+    description:
+      "Defenda seus direitos em concursos públicos com a Jonas Araújo Advocacia, especialista em São Paulo. Atendimento dedicado e soluções jurídicas rápidas para garantir sua vaga com segurança.",
+
+    keywords:
+      "Jonas Araujo Advocacia, Concursos Públicos São Paulo, Advogado para Concursos, Direito Administrativo São Paulo, Defesa em Concursos Públicos, Advocacia para Candidatos, Soluções Jurídicas Concursos, Especialista em Direito para Concursos, Consultoria Jurídica Concursos, Advogado Concursos Públicos SP, Direito Previdenciário Concursos, Impugnação de Concursos, Recursos em Concursos Públicos, Assessoria Jurídica Concursos, Advocacia em São Paulo, Jonas Araujo Concursos, Advogado de Direito Público, Concurso Público com Apoio Jurídico, Acompanhamento Jurídico Concursos, Defesa Legal para Concursos. ",
   },
   hero: {
     bgImg: bgImg,
