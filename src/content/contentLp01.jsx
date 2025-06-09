@@ -1,13 +1,16 @@
 import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import logo from "../assets/imgs/logo/logo.png";
+import imagemAbout from "../assets/imgs/about/aboutImg.png";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
 import { Banknote } from "lucide-react";
+import { FileKey2 } from "lucide-react";
 import { Scale } from "lucide-react";
 import { Gavel } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { BadgeDollarSign } from "lucide-react";
+import { Accessibility } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
@@ -87,7 +90,7 @@ const contentLp01 = {
         },
       },
       card3: {
-        icon: <Banknote width={32} height={32} />,
+        icon: <FileKey2 width={32} height={32} />,
         title: "Recursos Pós-Concurso e Mandado de Segurança",
         description:
           "Concurso já acabou, mas te prejudicaram? Ainda dá tempo de agir.",
@@ -97,7 +100,7 @@ const contentLp01 = {
         },
       },
       card4: {
-        icon: <Scale width={32} height={32} />,
+        icon: <Accessibility width={32} height={32} />,
         title: "Direitos de Candidatos com Necessidades Especiais",
         description:
           "Seus direitos não foram respeitados? Nós garantimos sua participação.",
@@ -114,6 +117,9 @@ const contentLp01 = {
       imagem1: img1,
       imagem2: img2,
       imagem3: img3,
+    },
+    imgAbout: {
+      img: imagemAbout,
     },
     logo: {
       logoImg: logo,
