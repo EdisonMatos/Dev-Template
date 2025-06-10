@@ -1,5 +1,5 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import logo from "../assets/imgs/logo/logo.webp";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import logo from "../assets/imgs/logo/logo.png";
 import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
@@ -35,9 +35,14 @@ const contentLp01 = {
       alt: "logomarca",
     },
     textArea: {
-      title: <h1>Aprovado, mas injustiçado? Isso não acaba aqui.</h1>,
+      title: (
+        <h1>
+          Aprovado, mas <span className="text-primary">injustiçado</span>? Isso
+          não acaba aqui.
+        </h1>
+      ),
       subtitle:
-        "Especialistas em reverter injustiças em concursos públicos.Você pode ter sido eliminado, mas seus direitos ainda estão vivos.",
+        "Especialistas em reverter injustiças em concursos públicos. Você pode ter sido eliminado, mas seus direitos ainda estão vivos.",
       buttonLabel: "Quero justiça agora",
       obsHero: {
         icon: (
