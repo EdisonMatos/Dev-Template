@@ -39,12 +39,12 @@ export default function Index() {
         sixCards={false}
         paragraphsModal={false}
       />
-      {/* <About modal={true} showGallery={false} colorMode={colorMode} /> */}
-      <AboutInstagram
+      <About modal={true} showGallery={false} colorMode={colorMode} />
+      {/* <AboutInstagram
         colorMode={colorMode}
         instagram={true}
         socialPrint={true}
-      />
+      /> */}
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
@@ -54,11 +54,9 @@ export default function Index() {
         phoneSecundario={false}
         addres={true}
         phoneTerciario={false}
-        emailSecundario={true}
         addresSecundario={false}
         instagram={true}
         expedientesecond={false}
-        obs={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
