@@ -26,7 +26,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
 
   const bgClasses = {
     ddark: "bg-bgSectionOpacityDark",
-    light: "bg-lighter",
+    light: "bg-bgSectionOpacityLight",
     default: "squares",
   };
   const textClasses = {

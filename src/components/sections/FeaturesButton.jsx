@@ -26,7 +26,7 @@ export default function FeaturesButton({ colorMode }) {
   // Definir classes de cor para SectionArea
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
-    light: "bg-lighter",
+    light: "bg-bgSectionOpacityLight",
     default: "squares",
   };
   const textClasses = {
