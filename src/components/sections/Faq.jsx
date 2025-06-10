@@ -12,7 +12,7 @@ export default function Faq({ colorMode }) {
   const navigate = useNavigate();
   // Classes de tema
   const bgClasses = {
-    dark: "bg-darker",
+    dark: "bg-bgSectionOpacityDark",
     light: "bg-lighter",
     default: "squares",
   };

@@ -11,7 +11,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 export default function Features6cards({ modal, colorMode }) {
   // Classes de tema
   const bgClasses = {
-    dark: "bg-darker",
+    dark: "bg-bgSectionOpacityDark",
     light: "bg-lighter",
     default: "squares",
   };
