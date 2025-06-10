@@ -11,8 +11,8 @@ import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 export default function FeaturesParagraphs({ modal, colorMode }) {
   // Classes de tema
   const bgClasses = {
-    dark: "bg-darker",
-    light: "bg-lighter",
+    dark: "bg-bgSectionOpacityDark",
+    light: "bg-bgSectionOpacityLight",
     default: "squares",
   };
   const textClasses = {

@@ -11,8 +11,8 @@ export default function Cta({ colorMode = "default" }) {
 
   // Definir classes de tema
   const bgClasses = {
-    dark: "bg-darker",
-    light: "bg-lighter",
+    dark: "bg-bgSectionOpacityDark",
+    light: "bg-bgSectionOpacityLight",
     default: "squares",
   };
   const textClasses = {
@@ -40,7 +40,6 @@ export default function Cta({ colorMode = "default" }) {
             label={content.texts.cta.ctaButtonText}
             animation
             icon={<FaWhatsapp size={24} />}
-            className={`${textClass}`}
           />
         </SectionWrapper>
       </SectionArea>

@@ -25,8 +25,8 @@ export default function DefaultModals({ modal = "true", colorMode }) {
   };
 
   const bgClasses = {
-    ddark: "bg-darker",
-    light: "bg-lighter",
+    ddark: "bg-bgSectionOpacityDark",
+    light: "bg-bgSectionOpacityLight",
     default: "squares",
   };
   const textClasses = {
@@ -271,7 +271,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                   />
                 )}
               </MotionDivDownToUp>{" "}
-               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card5.icon}
                   title={content.texts.features.card5.title}
