@@ -47,7 +47,7 @@ export default function Index() {
       /> */}
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      {/* <Maps colorMode={colorMode} /> */}
+      <Maps colorMode={colorMode} />
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
@@ -55,7 +55,6 @@ export default function Index() {
         addres={true}
         phoneTerciario={false}
         addresSecundario={false}
-        instagram={true}
         expedientesecond={false}
       />
       <FloatingWhatsappButton />
