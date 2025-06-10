@@ -399,33 +399,63 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A AF ADVOGADOS ASSOCIADOS",
+      title: "Nossa trajetória",
+      subtitle:
+        "15 anos de história, justiça e compromisso com quem confia em nosso trabalho.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Há 15 anos, nasceu o AF Advogados Associados com um propósito claro:
+          transformar o conhecimento jurídico em uma ferramenta acessível, firme
+          e eficaz.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Há 15 anos, nasceu o AF Advogados Associados com um propósito claro:
+          transformar o conhecimento jurídico em uma ferramenta acessível, firme
+          e eficaz.
           <br />
           <br />
-          A_Definir
+          Começamos de forma humilde, com poucos recursos, mas com um ideal
+          inabalável: defender os direitos dos nossos clientes com ética,
+          coragem e excelência técnica. Foram muitos dias de estudo, audiências
+          desafiadoras e conquistas que moldaram nossa história.
           <br />
           <br />
-          A_Definir
+          Superamos obstáculos como a morosidade do sistema, decisões difíceis e
+          clientes em momentos delicados. E foi justamente nesses desafios que
+          nos fortalecemos.
           <br />
           <br />
-          A_Definir
+          Expandimos nossas áreas de atuação — Previdenciário, Criminal,
+          Consumidor, Trabalhista, Cível e Família — sempre olhando para o ser
+          humano por trás de cada processo.
+          <br />
+          <br />
+          Nos destacamos por um atendimento humanizado, comunicação acessível,
+          tecnologia a favor do cliente e atenção até após o fim do processo.
+          <br />
+          <br />
+          Construímos uma equipe coesa, preparada e apaixonada pelo que faz.
+          Investimos em tecnologia, atualização constante e, acima de tudo, em
+          relações de confiança.
+          <br />
+          <br />
+          Hoje, somos reconhecidos pela agilidade, proximidade e compromisso
+          real com resultados. E seguimos firmes, com a mesma missão: trilhar
+          com ética e dedicação os caminhos da justiça.
+          <br />
+          <br />
+          <strong>
+            AF Advogados Associados – 15 anos defendendo histórias, construindo
+            vitórias.
+          </strong>
           <br />
           <br />
         </p>
