@@ -63,6 +63,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
                     animation
                     className="w-[100%]"
                     icon={<FaWhatsapp size={24} />}
+                    colorMode={colorMode}
                   />
                 </div>
 

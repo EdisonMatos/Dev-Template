@@ -47,6 +47,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
+                  colorMode={colorMode}
                   label={content.texts.features.card1.labelButton}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
@@ -78,6 +79,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
+                  colorMode={colorMode}
                   label={content.texts.features.card2.labelButton}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
@@ -109,6 +111,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
+                  colorMode={colorMode}
                   label={content.texts.features.card3.labelButton}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
@@ -140,6 +143,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
+                  colorMode={colorMode}
                   label={content.texts.features.card4.labelButton}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
@@ -170,6 +174,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
+                  colorMode={colorMode}
                   label="Saber Mais"
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
@@ -200,6 +205,8 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
+                                      colorMode={colorMode}
+
                   label="Saber Mais"
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
@@ -230,6 +237,8 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
+                                      colorMode={colorMode}
+
                   label="Saber Mais"
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
@@ -260,6 +269,8 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
+                                      colorMode={colorMode}
+
                   label="Saber Mais"
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={

@@ -9,6 +9,7 @@ import { MoveRight } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import "react-image-gallery/styles/css/image-gallery.css";
+import { color } from "framer-motion";
 
 export default function AboutModal() {
   const navigate = useNavigate();
@@ -41,7 +42,7 @@ export default function AboutModal() {
   return (
     <div>
       <Button
-        className="mt-[48px] text-colorBlack"
+        className="mt-[48px]"
         label={content.texts.about.buttonModalLabelAbout}
         onClick={onClick}
         removeAnchor={true}

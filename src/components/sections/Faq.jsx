@@ -48,7 +48,6 @@ export default function Faq({ colorMode }) {
                 className="hoover:scale-0 desktop1:hover:scale-105"
                 color="bg-transparent"
                 label={content.texts.faq.paragraph}
-                textclassName={titleColor}
                 colorMode={colorMode}
               />
             </Paragraphs>

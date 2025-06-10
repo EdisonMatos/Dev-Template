@@ -61,6 +61,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 />
                 {modal && (
                   <Button
+                    colorMode={colorMode}
                     size="small"
                     label={content.texts.features.card1.buttonLabel}
                     onClick={() =>
@@ -73,6 +74,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                           </p>
                           <div>
                             <Button
+                              colorMode={colorMode}
                               aria-label={
                                 content.texts.about.ctaButtonAriaLabel
                               }
@@ -116,6 +118,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 />
                 {modal && (
                   <Button
+                    colorMode={colorMode}
                     size="small"
                     label={content.texts.features.card2.buttonLabel}
                     onClick={() =>
@@ -128,6 +131,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                           </p>
                           <div>
                             <Button
+                              colorMode={colorMode}
                               aria-label={
                                 content.texts.about.ctaButtonAriaLabel
                               }
@@ -171,6 +175,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 />
                 {modal && (
                   <Button
+                    colorMode={colorMode}
                     size="small"
                     label={content.texts.features.card3.buttonLabel}
                     onClick={() =>
@@ -183,6 +188,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                           </p>
                           <div>
                             <Button
+                              colorMode={colorMode}
                               aria-label={
                                 content.texts.about.ctaButtonAriaLabel
                               }
@@ -227,6 +233,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 {modal && (
                   <Button
                     size="small"
+                    colorMode={colorMode}
                     label={content.texts.features.card4.buttonLabel}
                     onClick={() =>
                       onClick(
@@ -246,6 +253,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                               animation={false}
                               className="hover:scale-105"
                               icon={<FaWhatsapp size={24} />}
+                              colorMode={colorMode}
                             />
                           </div>
                         </>
@@ -282,6 +290,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                 {modal && (
                   <Button
                     size="small"
+                    colorMode={colorMode}
                     label={content.texts.features.card5.buttonLabel}
                     onClick={() =>
                       onClick(
@@ -293,6 +302,7 @@ export default function DefaultModals({ modal = "true", colorMode }) {
                           </p>
                           <div>
                             <Button
+                              colorMode={colorMode}
                               aria-label={
                                 content.texts.about.ctaButtonAriaLabel
                               }
