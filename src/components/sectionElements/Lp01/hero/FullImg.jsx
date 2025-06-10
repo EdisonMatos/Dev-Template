@@ -30,7 +30,7 @@ function FullImg({ obs }) {
               <img
                 src={contentLp01.hero.logo.logoImg}
                 alt={contentLp01.hero.logo.alt}
-                className="ml-[5%] max-w-[40%] mt-[15%] p-[10px] rounded-lg"
+                className="ml-[5%] max-w-[50%] mt-[15%] p-[5px] bg-white rounded-lg"
               />
             </MotionDivDownToUp>
 
@@ -113,7 +113,7 @@ function FullImg({ obs }) {
       >
         <SectionArea
           paddingTopAndBottom={false}
-          className="h-full bg-colorBlack bg-opacity-60"
+          className="h-full bg-black bg-opacity-60"
         >
           <SectionWrapper className="">
             <div className="flex w-full">

@@ -1,13 +1,16 @@
 import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import logo from "../assets/imgs/logo/logo.webp";
+import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
 import { Banknote } from "lucide-react";
+import { FileKey2 } from "lucide-react";
 import { Scale } from "lucide-react";
 import { Gavel } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { BadgeDollarSign } from "lucide-react";
+import { Accessibility } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
@@ -18,31 +21,32 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "MDX CAPITAL | Antecipação de Precatórios com Segurança Jurídica no Brasil",
+      "Jonas Araújo Advocacia | Especialista em Direito para Concursos Públicos em São Paulo - SP",
     description:
-      "A MDX CAPITAL oferece soluções inteligentes para antecipação de precatórios no Brasil. Atuação transparente, segurança jurídica e atendimento personalizado para transformar seu direito em capital imediato.",
+      "Defenda seus direitos em concursos públicos com a Jonas Araújo Advocacia, especialista em São Paulo. Atendimento dedicado e soluções jurídicas rápidas para garantir sua vaga com segurança.",
+
     keywords:
-      "MDX Capital,Antecipação de Precatórios,Precatórios no Brasil,Segurança Jurídica,Investimento em Precatórios,Antecipação Financeira,Precatórios Federais,Precatórios Estaduais,Assessoria em Precatórios,Compra de Precatórios,Venda de Precatórios,Liquidez para Precatórios,Consultoria Jurídica,Soluções Financeiras,Antecipação Segura,Rentabilidade em Precatórios,Financiamento com Precatórios,MDX Capital Precatórios,Antecipação Rápida,Serviços de Precatórios.",
+      "Jonas Araujo Advocacia, Concursos Públicos São Paulo, Advogado para Concursos, Direito Administrativo São Paulo, Defesa em Concursos Públicos, Advocacia para Candidatos, Soluções Jurídicas Concursos, Especialista em Direito para Concursos, Consultoria Jurídica Concursos, Advogado Concursos Públicos SP, Direito Previdenciário Concursos, Impugnação de Concursos, Recursos em Concursos Públicos, Assessoria Jurídica Concursos, Advocacia em São Paulo, Jonas Araujo Concursos, Advogado de Direito Público, Concurso Público com Apoio Jurídico, Acompanhamento Jurídico Concursos, Defesa Legal para Concursos. ",
   },
   hero: {
     bgImg: bgImg,
     logo: {
       logoImg: logo,
-      alt: "Logomarca",
+      alt: "logomarca",
     },
     textArea: {
       title: (
         <h1>
-          <span className="text-primary">Você esperou anos</span> pelo
-          precatório. Agora, não precisa esperar{" "}
-          <span className="text-primary">nem mais um dia.</span>
+          Aprovado, mas <span className="text-primary">injustiçado</span>? Isso
+          não acaba aqui.
         </h1>
       ),
       subtitle:
-        "Antecipe seu precatório com segurança e sem burocracia. Seu dinheiro, agora.",
-      buttonLabel: "Quero antecipar meu precatório",
+        "Especialistas em reverter injustiças em concursos públicos. Você pode ter sido eliminado, mas seus direitos ainda estão vivos.",
+      buttonLabel: "Quero justiça agora",
       obsHero: {
         icon: (
+          // Ícone mantido
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -50,10 +54,10 @@ const contentLp01 = {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-map-pin-check"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="lucide lucide-map-pin-check"
           >
             <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
             <circle cx="12" cy="10" r="3" />
@@ -62,55 +66,52 @@ const contentLp01 = {
         ),
         text: "A_Definir",
       },
-      ctaButtonAriaLabel:
-        "Botão para chamada de ação para contato pelo whatsapp",
+      ctaButtonAriaLabel: "A_Definir",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "RECEBA AGORA",
-      title:
-        "Você tem precatórios a receber? Descubra se pode antecipar e transformar seu direito em capital imediato.",
+      miniTag: "SE SENTIU PREJUDICADO?",
+      title: "Descubra em quais situações você pode entrar com ação.",
     },
     cards: {
       card1: {
         icon: <Shield width={32} height={32} />,
-        title: "Venda seu precatório",
-        description:
-          "Antecipação segura, jurídica e rentável de precatórios federais e estaduais.",
+        title: "Editais Irregulares e Mudanças Injustas",
+        description: "Mudaram as regras no meio do jogo? A gente resolve.",
         modal1: {
-          title: <p></p>,
+          title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
         },
       },
       card2: {
         icon: <File width={32} height={32} />,
-        title: "Sem burocracia",
+        title: "Erros em Provas e Testes Físicos",
         description:
-          "Saia da fila de espera e antecipe seu recebimento em 7 dias.",
+          "Questão errada, gabarito confuso, teste sem resultado? Dá pra recorrer.",
         modal2: {
           title: <p>A_Definir</p>,
-          subtitle: <p></p>,
+          subtitle: <p>A_Definir</p>,
         },
       },
       card3: {
-        icon: <Banknote width={32} height={32} />,
-        title: "Processo rápido",
+        icon: <FileKey2 width={32} height={32} />,
+        title: "Recursos Pós-Concurso e Mandado de Segurança",
         description:
-          "Análise do processo, elaboração do contrato, assinatura e pagamento",
+          "Concurso já acabou, mas te prejudicaram? Ainda dá tempo de agir.",
         modal3: {
-          title: <p></p>,
-          subtitle: <p></p>,
+          title: <p>A_Definir</p>,
+          subtitle: <p>A_Definir</p>,
         },
       },
       card4: {
-        icon: <Scale width={32} height={32} />,
-        title: "Oferta personalizada",
+        icon: <Accessibility width={32} height={32} />,
+        title: "Direitos de Candidatos com Necessidades Especiais",
         description:
-          "Receba uma proposta sob medida, com transparência e segurança jurídica.",
+          "Seus direitos não foram respeitados? Nós garantimos sua participação.",
         modal4: {
-          title: <p></p>,
-          subtitle: <p></p>,
+          title: <p>A_Definir</p>,
+          subtitle: <p>A_Definir</p>,
         },
       },
     },
@@ -122,38 +123,41 @@ const contentLp01 = {
       imagem2: img2,
       imagem3: img3,
     },
+    imgAbout: {
+      img: imagemAbout,
+    },
     logo: {
       logoImg: logo,
-      alt: "Logomarca",
+      alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA EM PRECATÓRIOS",
-      title:
-        "Soluções inteligentes para um futuro financeiro seguro e rentável",
+      miniTag: "EXCELÊNCIA EM DEFESA ADMINISTRATIVA",
+      title: "Comprometidos com sua aprovação — e com sua justiça.",
     },
     paragraph: (
       <p>
-        Na MDX CAPITAL – Soluções Inteligentes, oferecemos excelência, segurança
-        jurídica e atendimento personalizado. Atuamos com transparência, foco em
-        resultados e estratégias eficientes, sempre respeitando as necessidades
-        exclusivas de cada cliente.
+        Nossa equipe é especializada na defesa jurídica de candidatos em
+        concursos públicos. Atuamos em diversas áreas do Direito, sempre com
+        foco nas reais necessidades de cada cliente.
         <br />
         <br />
-        Com uma abordagem humanizada e estratégica, combinamos criatividade,
-        profissionalismo e iniciativa para entregar valor real, construir
-        confiança e gerar resultados consistentes.
+        Unimos técnica, inovação e estratégia para entregar resultados
+        concretos. Desde a fundação, somos reconhecidos por nossa atuação firme,
+        próxima e eficiente.
         <br />
         <br />
+        Se você busca um escritório que entende seu caso e luta por ele de
+        verdade, chegou ao lugar certo.
       </p>
     ),
-    buttonLabel: "Quero antecipar meu precatório",
-    ctaButtonAriaLabel: "Botão de levar pro Whatsapp",
+    buttonLabel: "Fale agora com um advogado especialista",
+    ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
     miniTag: "A_Definir",
     title: "A_Definir",
-    subtitle: "",
-    alt: "",
+    subtitle: "A_Definir",
+    alt: "A_Definir",
     cards: {
       card1: {
         stepNumber: 1,
@@ -171,63 +175,63 @@ const contentLp01 = {
         cardDescription: "A_Definir",
       },
       buttonLabel: "A_Definir",
-      ariaLabel: "Botão de contato",
+      ariaLabel: "A_Definir",
     },
   },
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "Por que nos escolher para lutar por seu precatório?",
+      title: "O que nos torna a melhor opção para defender seus direitos?",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "Segurança jurídica e confiabilidade",
+        title: "Especialista em concursos públicos",
         description:
-          "Operações 100% legais, transparentes e com total respaldo jurídico.",
+          "Entendemos as regras e particularidades que só quem atua nessa área conhece.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "Rentabilidade com inteligência",
+        title: "Experiência comprovada e atualizada",
         description:
-          "Soluções inteligentes para maximizar seus ganhos com precatórios.",
+          "Anos de atuação em concursos públicos, participando dos principais congressos e eventos jurídicos para manter conhecimento atualizado e estratégias eficazes.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Atendimento personalizado",
+        title: "Presença ativa nas principais bancas e tribunais",
         description:
-          "Suporte próximo, humanizado e focado nas suas necessidades.",
+          "Nossa equipe acompanha julgamentos e atualizações das bancas e tribunais, garantindo que sua defesa esteja alinhada às últimas decisões.",
       },
       card4: {
         icon: <BadgeDollarSign width={32} height={32} />,
-        title: "Experiência, eficiência e resultados",
+        title: "Estratégias exclusivas para concursos públicos",
         description:
-          "Equipe experiente, processos ágeis e resultados consistentes.",
+          "Aplicamos técnicas personalizadas para acelerar seu reconhecimento e aprovação, com histórico comprovado em liminares e mandados de segurança.",
       },
     },
   },
   video: {
     sectionHeader: {
-      miniTag: "EXPLICANDO",
-      title: "Entenda como funciona a isenção do Imposto de Renda",
-      subtitle:
-        "Assista ao vídeo e veja de forma simples como garantir sua isenção e restituição sem complicações!",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
     },
   },
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO ESPERE MAIS",
-      title: "Receba seu precatório agora mesmo!",
+      miniTag: "NÃO PERCA TEMPO",
+      title: "Seus direitos no concurso ao seu alcance!",
       subtitle: (
         <p className="opacity-80">
-          Transforme seu precatório em dinheiro com segurança e as melhores
-          condições do mercado.
+          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a superar
+          qualquer problema jurídico no seu concurso público. Conte com nossa
+          equipe especializada para garantir sua vaga com segurança e agilidade.
         </p>
       ),
     },
-    buttonLabel: "Fale com um especialista agora",
-    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+    buttonLabel: "Vamos resolver seu problema",
+    ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
     card1: {
@@ -288,6 +292,26 @@ const contentLp01 = {
       ),
       title: "Whatsapp",
       description: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+    },
+    card4: {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-phone-icon lucide-phone"
+        >
+          <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
+        </svg>
+      ),
+      title: "Fixo",
+      description: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
     },
   },
   footer: {

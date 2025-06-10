@@ -53,19 +53,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Hamú Opa Advocacia",
+  name: "Jonas Araújo Advocacia",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "advocacia@hamuopa.adv.br", // Email desejado pelo cliente
-  domain: "hamuopa.adv.br", // Sem "www"
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "jonasaraujoadv.com.br", // Sem "www"
   phone: {
-    ddd: "61",
-    firstPart: "9132", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9007", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "95393", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4337", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "4570", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1050", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",

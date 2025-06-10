@@ -28,10 +28,16 @@ export default function ContactLP() {
             />
 
             <ContactCardLP
+              label={contentLp01.contact.card4.title}
+              icon={contentLp01.contact.card4.icon}
+              description={contentLp01.contact.card4.description}
+            />
+
+            {/* <ContactCardLP
               label={contentLp01.contact.card1.title}
               icon={contentLp01.contact.card1.icon}
               description="mdxcapitaloficial"
-            />
+            /> */}
           </div>
         </SectionWrapper>
       </SectionArea>
