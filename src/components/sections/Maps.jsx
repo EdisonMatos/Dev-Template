@@ -24,7 +24,7 @@ export default function Maps({ colorMode }) {
   // Classes de tema
   const bgClasses = {
     dark: "bg-black",
-    light: "bg-white",
+    light: "bg-black/10",
     default: "bg-bgSectionDark",
   };
   const textClasses = {

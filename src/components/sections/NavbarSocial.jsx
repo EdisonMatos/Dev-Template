@@ -81,8 +81,8 @@ export default function NavbarSocial({ colorMode }) {
   const getNavbarClasses = () => {
     if (colorMode === "light") {
       return scrolling
-        ? "bg-white shadow-md"
-        : "desktop1:bg-white/20";
+        ? "bg-bgSectionOpacityLight shadow-md"
+        : "bg-transparent desktop1:bg-transparent";
     }
     if (colorMode === "dark") {
       return scrolling

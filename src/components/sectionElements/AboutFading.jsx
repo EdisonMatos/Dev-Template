@@ -2,8 +2,16 @@ import content from "../../content/content";
 
 export default function AboutFading({ colorMode = "default" }) {
   // Classes de tema
-  const textClasses = { dark: "text-white", light: "text-black", default: "text-white" };
-  const fadeClasses = { dark: "to-black", light: "to-white", default: "to-bgSectionDark" };
+  const textClasses = {
+    dark: "text-white",
+    light: "text-black",
+    default: "text-white",
+  };
+  const fadeClasses = {
+    dark: "to-black",
+    light: "to-bgSectionOpacityLight",
+    default: "to-bgSectionDark",
+  };
 
   const textClass = textClasses[colorMode] || textClasses.default;
   const fadeClass = fadeClasses[colorMode] || fadeClasses.default;
