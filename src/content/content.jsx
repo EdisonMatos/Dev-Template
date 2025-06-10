@@ -14,7 +14,7 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
@@ -53,19 +53,19 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Jonas Araújo Advocacia",
+  name: "AF Advogados Associados",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "jonasaraujoadv.com.br", // Sem "www"
+  domain: "afadvogadosassociados.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "95393", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "4337", // Apenas os 4 últimos números
+    ddd: "71",
+    firstPart: "98225", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8575", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "11",
-    firstPart: "4570", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1050", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "A_Definir",
@@ -74,9 +74,10 @@ export const infos = {
   },
   endereco: (
     <div>
-      <p>Rua Visconde de Porto Seguro, nº 655,</p>
-      <p>sala 106, Centro Formosa - GO,</p>
-      <p>CEP: 73801-010.</p>
+      <p>Endereço:</p>
+      <p>Rua Delegado Clayton Leão,</p>
+      <p>nº 34, Centro Camaçari - BA,</p>
+      <p>CEP: 42800-085.</p>
     </div>
   ),
   enderecoSecundario: (
@@ -91,11 +92,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 18h</p>
+      <p>8h às 17h</p>
     </div>
   ),
-  obs: <span className="italic">A Trabalhamos em regime de plantão 24h</span>,
-  instagramProfile: "hamuopa.adv", // Sem o @
+  obs: <span className="italic">A Definir</span>,
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -122,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM FORMOSA - GO",
+      miniTag: <p>ESCRITÓRIO DE ADVOGADOS EM CAMAÇARI - BA</p>,
       title: (
         <h1 className="mb-[16px]">
-          Você sabe o que está arriscando ao deixar
-          <span className="text-primary"> pra depois?</span>
+          Quantos direitos seus já foram
+          <span className="text-primary"> ignorados?</span>
         </h1>
       ),
       subtitle:
-        "Problemas legais crescem quando ignorados. Vamos resolver antes que piore.",
+        "Você não precisa esperar mais uma injustiça acontecer para buscar quem realmente te defenda.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero resolver agora",
+      ctaButtonText: "Quero proteger meus direitos",
       obsHero: {
         icon: (
           <svg
@@ -156,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo o Brasil",
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -182,16 +183,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Nossas áreas de atuação",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas ao seu alcance",
       subtitle:
-        "Experiência em diferentes ramos do Direito para atender você com excelência.",
+        "Conheça as áreas do Direito em que oferecemos suporte especializado para defender seus interesses.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Público",
-        subtitle: "Atuação em questões do interesse coletivo e público.",
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias, pensões e benefícios do INSS.",
         description: (
           <div>
             A_Definir
@@ -226,8 +227,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Penal",
-        subtitle: "Defesa em processos criminais para garantir justiça.",
+        title: "Direito do Consumidor",
+        subtitle: "Defesa contra abusos e cobranças indevidas.",
         description: (
           <div>
             A_Definir
@@ -248,13 +249,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-handshake-icon lucide-handshake"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,8 +263,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Civil e Familiar",
-        subtitle: "Soluções jurídicas para família, sucessões e civil.",
+        title: "Direito do Trabalho",
+        subtitle: "Reclamações trabalhistas e direitos do empregado.",
         description: (
           <div>
             A_Definir <br />
@@ -283,12 +284,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-baggage-claim-icon lucide-baggage-claim"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2" />
+            <path d="M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10" />
+            <rect width="13" height="8" x="8" y="6" rx="1" />
+            <circle cx="18" cy="20" r="2" />
+            <circle cx="9" cy="20" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -296,8 +298,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Bancário e Financeiro",
-        subtitle: "Assessoria em contratos, financiamentos e bancos.",
+        title: "Direito Criminal",
+        subtitle: "Atuação em defesa criminal e acompanhamento legal.",
         description: (
           <div>
             A_Definir
@@ -318,11 +320,16 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-banknote-icon lucide-banknote"
+            class="lucide lucide-siren-icon lucide-siren"
           >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
+            <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
+            <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
+            <path d="M21 12h1" />
+            <path d="M18.5 4.5 18 5" />
+            <path d="M2 12h1" />
+            <path d="M12 2v1" />
+            <path d="m4.929 4.929.707.707" />
+            <path d="M12 12v6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -381,63 +388,75 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Camaçari",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3892.150305166932!2d-38.3193333!3d-12.7036111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDQyJzEzLjAiUyAzOMKwMTknMDkuNiJX!5e0!3m2!1spt-BR!2sbr!4v1749563998556!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A HAMÚ OPA ADVOCACIA",
+      miniTag: "QUEM É A AF ADVOGADOS ASSOCIADOS",
       title: "Nossa trajetória",
       subtitle:
-        "Advocacia autônoma que une técnica, empatia e comunicação clara.",
+        "15 anos de história, justiça e compromisso com quem confia em nosso trabalho.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Fundei meu escritório em 2018 e, após experiências em sociedades, hoje
-          atuo de forma autônoma, prezando por um atendimento personalizado e
-          dedicado.
-          <br />
-          Apesar de valorizar a tradição da advocacia, incorporo modernidade
-          para oferecer soluções jurídicas eficazes e atualizadas.
+          Há 15 anos, nasceu o AF Advogados Associados com um propósito claro:
+          transformar o conhecimento jurídico em uma ferramenta acessível, firme
+          e eficaz.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Fundei meu escritório em 2018 e, após experiências em sociedades, hoje
-          atuo de forma autônoma, prezando por um atendimento personalizado e
-          dedicado.
+          Há 15 anos, nasceu o AF Advogados Associados com um propósito claro:
+          transformar o conhecimento jurídico em uma ferramenta acessível, firme
+          e eficaz.
           <br />
           <br />
-          Apesar de valorizar a tradição da advocacia, incorporo modernidade
-          para oferecer soluções jurídicas eficazes e atualizadas.
+          Começamos de forma humilde, com poucos recursos, mas com um ideal
+          inabalável: defender os direitos dos nossos clientes com ética,
+          coragem e excelência técnica. Foram muitos dias de estudo, audiências
+          desafiadoras e conquistas que moldaram nossa história.
           <br />
           <br />
-          Acredito que meu diferencial está na combinação da técnica rigorosa
-          com uma empatia verdadeira, colocando o cliente no centro de tudo.
+          Superamos obstáculos como a morosidade do sistema, decisões difíceis e
+          clientes em momentos delicados. E foi justamente nesses desafios que
+          nos fortalecemos.
           <br />
           <br />
-          Entender suas necessidades e dificuldades é fundamental para construir
-          estratégias que realmente façam a diferença na vida de cada pessoa
-          atendida.
+          Expandimos nossas áreas de atuação — Previdenciário, Criminal,
+          Consumidor, Trabalhista, Cível e Família — sempre olhando para o ser
+          humano por trás de cada processo.
           <br />
           <br />
-          Além disso, prezo por uma comunicação acessível e transparente,
-          eliminando o juridiquês e garantindo que todos compreendam o processo
-          e as opções disponíveis.
+          Nos destacamos por um atendimento humanizado, comunicação acessível,
+          tecnologia a favor do cliente e atenção até após o fim do processo.
           <br />
           <br />
-          Meu compromisso é acompanhar cada etapa com clareza, confiança e
-          respeito.
+          Construímos uma equipe coesa, preparada e apaixonada pelo que faz.
+          Investimos em tecnologia, atualização constante e, acima de tudo, em
+          relações de confiança.
+          <br />
+          <br />
+          Hoje, somos reconhecidos pela agilidade, proximidade e compromisso
+          real com resultados. E seguimos firmes, com a mesma missão: trilhar
+          com ética e dedicação os caminhos da justiça.
+          <br />
+          <br />
+          <strong>
+            AF Advogados Associados – 15 anos defendendo histórias, construindo
+            vitórias.
+          </strong>
           <br />
           <br />
         </p>
@@ -451,11 +470,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",

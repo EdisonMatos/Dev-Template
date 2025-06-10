@@ -12,6 +12,8 @@ export const theme = {
       lighter: "#FFFFFF",
       darker: "#000000",
       labelsIcons: "#000000",
+      lpvHeroGradientTop: "#000",
+      lpvHeroGradientBot: "#000",
     },
     boxShadow: {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
