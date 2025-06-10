@@ -36,9 +36,9 @@ export default function Button({
   const CustomTagName = removeAnchor ? "div" : tagName || "a";
 
   const buttonColors = {
-    dark: "text-white",
-    light: "text-black",
-    default: "text-whi",
+    dark: "text-labelButtons",
+    light: "text-labelButtons",
+    default: "text-labelButtons",
   };
   const buttonColor = buttonColors[colorMode] || buttonColors.default;
 
@@ -58,7 +58,7 @@ export default function Button({
         <MotionDivDownToUp className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} bg-primary flex-row items-center justify-around transition ${color} text-secondary desktop1:hover:scale-110`}
+            className={`flex ${className} ${sizeFeatures} bg-primary flex-row items-center justify-around transition ${color} text-labelButtons desktop1:hover:scale-110`}
           >
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
@@ -76,7 +76,7 @@ export default function Button({
         <div className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} bg-primary flex-row items-center justify-around transition ${color} text-secondary desktop1:hover:scale-110`}
+            className={`flex ${className} ${sizeFeatures} bg-primary flex-row items-center justify-around transition ${color} text-labelButtons desktop1:hover:scale-110`}
           >
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
