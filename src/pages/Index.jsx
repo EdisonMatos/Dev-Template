@@ -39,7 +39,7 @@ export default function Index() {
         sixCards={false}
         paragraphsModal={false}
       />
-      <About modal={true} showGallery={false} colorMode={colorMode} />
+      {/* <About modal={true} showGallery={false} colorMode={colorMode} /> */}
       <AboutInstagram
         colorMode={colorMode}
         instagram={true}
