@@ -8,7 +8,7 @@ export default function AboutFading({ colorMode = "default" }) {
     default: "text-white",
   };
   const fadeClasses = {
-    dark: "to-black",
+    dark: "to-bgFixedDark",
     light: "to-lighter",
     default: "to-bgSectionDark",
   };

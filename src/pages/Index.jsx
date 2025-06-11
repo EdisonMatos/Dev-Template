@@ -16,7 +16,7 @@ import BlogPosts from "../components/sections/BlogPosts";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "default";
+  const colorMode = "dark";
 
   return (
     <>
@@ -29,7 +29,7 @@ export default function Index() {
         influencer={false}
         mesclado={false}
       />
-      <BlogPosts />
+      {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}
         defaultFeature={true}

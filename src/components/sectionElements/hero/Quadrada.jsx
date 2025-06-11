@@ -7,8 +7,8 @@ import "../../../styles/shapeDivs.css";
 export default function Quadrada({ appDownloadButtons, colorMode }) {
   // Definindo cores de fundo com base no tema
   const backgroundClasses = {
-    dark: "from-black to-black",
-    light: "from-white to-white",
+    dark: "bg-bgFixedDark",
+    light: "bg-bgFixedLight",
     default: "from-bgSectionDark to-darker",
   };
 

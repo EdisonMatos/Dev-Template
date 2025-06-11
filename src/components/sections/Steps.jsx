@@ -9,7 +9,7 @@ import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 export default function Steps({ colorMode }) {
   // Classes de tema
   const bgClasses = {
-    dark: "bg-black",
+    dark: "bg-bgFixedDark",
     light: "bg-lighter",
     default: "bg-bgSectionDark",
   };
