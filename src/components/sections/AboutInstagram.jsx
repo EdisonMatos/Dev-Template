@@ -38,7 +38,7 @@ export default function AboutInstagram({
 
   return (
     <SectionArea id="about" className={`${bgClass}`} paddingtop={false}>
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between">
+      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between ">
         {socialPrint ? (
           <SocialPrint colorMode={colorMode} />
         ) : (
