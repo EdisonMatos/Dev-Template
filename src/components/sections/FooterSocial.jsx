@@ -45,11 +45,11 @@ export default function FooterSocial({
 
   switch (colorMode) {
     case "dark":
-      footerBackground = "bg-black";
+      footerBackground = "bg-bgFixedDark";
       textColor = "text-white";
       break;
     case "light":
-      footerBackground = "bg-lighter";
+      footerBackground = "bg-bgFixedLight";
       textColor = "text-black";
       break;
     default:

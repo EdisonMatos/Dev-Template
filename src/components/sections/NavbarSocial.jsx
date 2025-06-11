@@ -86,7 +86,7 @@ export default function NavbarSocial({ colorMode }) {
     }
     if (colorMode === "dark") {
       return scrolling
-        ? "bg-black shadow-lg border-b-[1px] border-primary"
+        ? "bg-gradient-to-b from-black to-bgFixedDark shadow-lg border-b-[1px] border-primary"
         : "bg-gradient-to-b from-black to-transparent border-b-[1px] border-none";
     }
     // default

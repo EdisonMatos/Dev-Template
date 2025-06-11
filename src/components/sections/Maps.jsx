@@ -23,8 +23,8 @@ export default function Maps({ colorMode }) {
 
   // Classes de tema
   const bgClasses = {
-    dark: "bg-black",
-    light: "bg-lighter",
+    dark: "bg-bgFixedDark",
+    light: "bg-bgFixedLight",
     default: "bg-bgSectionDark",
   };
   const textClasses = {
@@ -49,7 +49,7 @@ export default function Maps({ colorMode }) {
             titleColorSet={titleColor}
             subtitleColorSet={titleColor}
           />
-          <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-darker/25 desktop1:bg-center tablet1:w-full rounded-xl">
+          <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-shadowMaps/50 desktop1:bg-center tablet1:w-full rounded-xl">
             <div className="opacity-90">
               <iframe
                 src={content.texts.maps.embedsrc}

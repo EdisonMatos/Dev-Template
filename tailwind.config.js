@@ -3,18 +3,43 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
+      // Principais
+
       primary: "#FADC87",
       secondary: "#000000",
+
+      // Fundos de Seção
+
       bgSectionLight: "#FFFFFF",
       bgSectionDark: "#09102A",
-      bgSectionOpacityLight: "#E5E5E5",
+      bgSectionOpacityLight: "#F7F7F7",
+      bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
+      bgFixedDark: "#181818",
+
+      // Degradê da Lpv
+
       lpvHeroGradientTop: "#000",
       lpvHeroGradientBot: "#000",
+
+      // Botões e Links
+
       links: "#0189BB",
       buttonColor: "#DBB14C",
-      iconButtons: "#04978a",
-      labelButtons: "#04978a",
+      iconButtons: "#000",
+      labelButtons: "#000",
+
+      // Sombras
+
+      shadowHero: "#000000",
+      shadowFeatures: "#FADC87",
+      shadowAbouts: "#000000",
+      shadowSteps: "#000000",
+      shadowMaps: "#000000",
+      shadowBlogs: "#000000",
+
+      // Outros
+
       lighter: "#FFFFFF",
       darker: "#000000",
     },
