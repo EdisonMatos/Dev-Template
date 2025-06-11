@@ -25,7 +25,7 @@ export default function AboutInstagram({
   // Definir classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
-    light: "bg-white",
+    light: "bg-bgFixedLight",
     default: "bg-bgSectionDark",
   };
   const textClasses = {

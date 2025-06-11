@@ -49,7 +49,7 @@ export default function FooterSocial({
       textColor = "text-white";
       break;
     case "light":
-      footerBackground = "bg-lighter";
+      footerBackground = "bg-bgFixedLight";
       textColor = "text-black";
       break;
     default:

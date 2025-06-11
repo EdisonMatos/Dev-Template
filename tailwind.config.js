@@ -13,7 +13,7 @@ export const theme = {
       bgSectionLight: "#FFFFFF",
       bgSectionDark: "#09102A",
       bgSectionOpacityLight: "#F7F7F7",
-      bgFixedLight: "#DBB14C",
+      bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
       bgFixedDark: "#181818",
 

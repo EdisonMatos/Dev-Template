@@ -23,7 +23,7 @@ export default function About({
   // Definir classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
-    light: "bg-lighter",
+    light: "bg-bgFixedLight",
     default: "bg-bgSectionDark",
   };
   const textClasses = {

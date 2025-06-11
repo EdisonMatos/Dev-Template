@@ -9,7 +9,7 @@ export default function AboutFading({ colorMode = "default" }) {
   };
   const fadeClasses = {
     dark: "to-bgFixedDark",
-    light: "to-lighter",
+    light: "to-bgFixedLight",
     default: "to-bgSectionDark",
   };
 
