@@ -24,8 +24,8 @@ export const theme = {
 
       links: "#0189BB",
       buttonColor: "#DBB14C",
-      iconButtons: "#04978a",
-      labelButtons: "#04978a",
+      iconButtons: "#000",
+      labelButtons: "#000",
 
       // Sombras
 
