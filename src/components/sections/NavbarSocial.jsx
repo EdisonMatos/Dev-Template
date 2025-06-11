@@ -97,8 +97,9 @@ export default function NavbarSocial({ colorMode }) {
 
   return (
     <div className="w-full">
-
-      <div className={`fixed z-20 w-full transition-colors duration-1000 ${getNavbarClasses()}`}>
+      <div
+        className={`fixed z-20 w-full transition-colors duration-1000 ${getNavbarClasses()}`}
+      >
         <Navbar>
           <ScrollLink
             to="home"
@@ -127,6 +128,7 @@ export default function NavbarSocial({ colorMode }) {
                 label={content.texts.navbar.ctaButtonTextResponsive}
                 size="small"
                 icon={<FaWhatsapp />}
+                colorMode={colorMode}
               />
             </div>
             <div className="flex items-center desktop1:hidden">
@@ -140,4 +142,3 @@ export default function NavbarSocial({ colorMode }) {
     </div>
   );
 }
-

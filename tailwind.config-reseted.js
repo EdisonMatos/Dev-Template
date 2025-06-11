@@ -3,19 +3,20 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      primary: "#E6007E",
+      primary: "#FADC87",
       secondary: "#000000",
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#008F39",
-      links: "#0189BB",
-      buttonColor: "#DBB14C",
-      lighter: "#FFFFFF",
-      darker: "#000000",
-      labelsIcons: "#000000",
-      lpvHeroGradientTop: "#000",
-      lpvHeroGradientBot: "#000",
+      bgSectionDark: "#09102A",
       bgSectionOpacityLight: "#E5E5E5",
       bgSectionOpacityDark: "#111111",
+      lpvHeroGradientTop: "#000",
+      lpvHeroGradientBot: "#000",
+      links: "#0189BB",
+      buttonColor: "#DBB14C",
+      iconButtons: "#04978a",
+      labelButtons: "#04978a",
+      lighter: "#FFFFFF",
+      darker: "#000000",
     },
     boxShadow: {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
