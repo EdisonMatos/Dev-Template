@@ -103,7 +103,7 @@ export default function NavbarSocial({ colorMode }) {
         <Navbar>
           <ScrollLink
             to="home"
-            className="cursor-pointer w-[70%] phone2:w-[70%] phone3:max-w-[267px] tablet1:max-w-[300px] tablet2:w-[400px] desktop1:w-[32%] desktop2:min-w-[400px]"
+            className="cursor-pointer w-[70%] phone2:w-auto"
             spy={true}
             smooth={true}
             duration={500}
@@ -113,10 +113,10 @@ export default function NavbarSocial({ colorMode }) {
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
-              className={`bg-transparent max-h-[90px] ${
+              className={`bg-transparent max-h-[200px] ${
                 scrolling
-                  ? "w-[50%] phone3:w-[40%] tablet1:w-[40%] tablet2:w-[40%] desktop1:w-[40%] desktop2:w-[40%]"
-                  : "my-[20px] w-[80%] phone2:w-[70%] phone3:w-[60%] tablet1:w-[60%] tablet2:w-[70%] desktop2:w-[60%]"
+                  ? "w-[50%] phone2:w-[60%] phone3:w-[60%] tablet1:w-[70%] tablet2:w-[80%] desktop1:w-[70%] desktop3:w-[80%]"
+                  : "my-[20px] w-[60%] h-auto phone2:w-[70%] phone3:w-[80%] tablet1:w-[100%] tablet2:w-[100%] desktop1:w-[100%] desktop3:w-full"
               } transition-all duration-1000`}
             />
           </ScrollLink>
@@ -137,6 +137,7 @@ export default function NavbarSocial({ colorMode }) {
           </div>
 
           {showListGroup && <ListGroupSocial colorMode={colorMode} />}
+          
         </Navbar>
       </div>
     </div>
