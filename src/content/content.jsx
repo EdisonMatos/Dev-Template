@@ -390,16 +390,19 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA. ADRIANA SERENO",
+      title: "Minha trajetória",
+      subtitle:
+        "15 anos de experiência com uma advocacia próxima, justa e objetiva.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Atuo há cerca de 15 anos nas áreas trabalhista e previdenciária,
+          sempre com o propósito de oferecer um atendimento humano, eficiente e
+          personalizado.
           <br />
           A_Definir
         </div>
@@ -407,16 +410,25 @@ const content = {
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Atuo há cerca de 15 anos nas áreas trabalhista e previdenciária,
+          sempre com o propósito de oferecer um atendimento humano, eficiente e
+          personalizado.
           <br />
           <br />
-          A_Definir
+          Meu foco é entender a realidade de cada cliente e construir soluções
+          claras, com empatia e proximidade. Aqui, cada caso é tratado com
+          atenção aos detalhes, porque sei que, por trás de cada processo,
+          existe uma história real — muitas vezes marcada por desafios
+          financeiros, como demissões ou dificuldades na aposentadoria.
           <br />
           <br />
-          A_Definir
+          O escritório está mais moderno, mas minha essência continua a mesma:
+          compromisso com resultados, comunicação simples e um atendimento
+          direto, sem enrolação.
           <br />
           <br />
-          A_Definir
+          Se você procura uma advogada acessível, experiente e que realmente se
+          importa, está no lugar certo.
           <br />
           <br />
         </p>
@@ -430,14 +442,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
