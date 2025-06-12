@@ -402,33 +402,53 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA. THAÍS MARA",
+      title: "Minha trajetória",
+      subtitle:
+        "Do RH à advocacia: experiência real que protege empresas de verdade.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Cursei Direito após viver na pele violações trabalhistas. Trabalhando
+          com folha de pagamento em escritórios contábeis, descobri minha paixão
+          pelo Direito do Trabalho.
           <br />
-          A_Definir
+          No início, atuei para empregados, mas percebi que minha visão sempre
+          apontava soluções que poderiam ter evitado os processos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Cursei Direito após viver na pele violações trabalhistas. Trabalhando
+          com folha de pagamento em escritórios contábeis, descobri minha paixão
+          pelo Direito do Trabalho.
           <br />
           <br />
-          A_Definir
+          No início, atuei para empregados, mas percebi que minha visão sempre
+          apontava soluções que poderiam ter evitado os processos.
           <br />
           <br />
-          A_Definir
+          Hoje, dedico-me exclusivamente à assessoria preventiva para empresas.
+          Minha missão é oferecer consultoria jurídica com excelência, foco na
+          conformidade legal e segurança jurídica.
           <br />
           <br />
-          A_Definir
+          Utilizo linguagem clara, responsabilidade técnica e soluções práticas
+          alinhadas ao dia a dia das empresas.
+          <br />
+          <br />
+          Com ética, domínio técnico e uma vivência profunda nas rotinas
+          trabalhistas, transformo conhecimento em prevenção jurídica
+          estratégica.
+          <br />
+          <br />
+          Meu diferencial é saber, na prática, o que realmente funciona. Meu
+          objetivo é um só: fortalecer empresas com decisões inteligentes e
+          sustentáveis.
           <br />
           <br />
         </p>
@@ -442,14 +462,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
