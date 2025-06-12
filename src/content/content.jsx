@@ -404,7 +404,6 @@ const content = {
           sempre com o propósito de oferecer um atendimento humano, eficiente e
           personalizado.
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
