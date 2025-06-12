@@ -5,13 +5,13 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#FADC87",
+      primary: "#E1C032",
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#09102A",
+      bgSectionDark: "#1C2A52",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",

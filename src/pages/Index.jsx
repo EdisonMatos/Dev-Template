@@ -16,7 +16,7 @@ import BlogPosts from "../components/sections/BlogPosts";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "light";
+  const colorMode = "default";
 
   return (
     <>
@@ -47,7 +47,7 @@ export default function Index() {
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
@@ -56,6 +56,7 @@ export default function Index() {
         phoneTerciario={false}
         addresSecundario={false}
         expedientesecond={false}
+        instagram={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
