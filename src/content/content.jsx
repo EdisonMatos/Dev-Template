@@ -392,33 +392,44 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. EMERSON CABRAL",
+      title: "Minha trajetória",
+      subtitle:
+        "Uma jornada guiada pelo compromisso com a justiça e o bem comum.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Minha trajetória no Direito é marcada pela dedicação constante à
+          justiça e ao bem-estar daqueles que confiam no meu trabalho. Desde o
+          início da minha formação, entendi que a advocacia não é apenas uma
+          profissão, mas uma missão de representar, proteger e orientar com
+          responsabilidade.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha trajetória no Direito é marcada pela dedicação constante à
+          justiça e ao bem-estar daqueles que confiam no meu trabalho. Desde o
+          início da minha formação, entendi que a advocacia não é apenas uma
+          profissão, mas uma missão de representar, proteger e orientar com
+          responsabilidade.
           <br />
           <br />
-          A_Definir
+          Ao longo dos anos, tive a oportunidade de atuar em diversas áreas do
+          Direito, sempre buscando soluções eficazes e personalizadas para cada
+          situação. Acredito que cada caso é único e merece atenção, escuta
+          ativa e estratégia. Mais do que oferecer conhecimento técnico, procuro
+          construir relações de confiança com meus clientes.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Com ética, empatia e profissionalismo, sigo comprometido em oferecer
+          um atendimento humanizado, claro e acessível. Minha atuação é guiada
+          por valores sólidos, onde a busca pela justiça caminha lado a lado com
+          o respeito às pessoas e às suas histórias.
           <br />
           <br />
         </p>
@@ -432,10 +443,11 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
