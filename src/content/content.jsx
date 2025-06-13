@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Thaís Mara",
+  name: "Cabral Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "thaismaraadvocacia.com.br", // Sem "www"
+  domain: "cabralinstitucionaladv.com.br", // Sem "www"
   phone: {
-    ddd: "49",
-    firstPart: "99971", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "5130", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "91195", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2525", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Alameda Terracota, nº 185,</p>
+      <p>Cerâmica São Caetano do Sul - SP,</p>
+      <p>CEP : 09531-190</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,12 +92,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 18h</p>
+      <p>9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "thaismara_advogada", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "advocaciacabral_oficial", // Sem o @
+  facebookProfile: "emerson.batistacabral",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -123,21 +123,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM PINHALZINHO - SC",
+      miniTag: "ESCRITÓRIO EM SÃO CAETANO DO SUL - SP",
       title: (
         <h1 className="mb-[16px]">
-          E se o risco trabalhista
-          <span className="text-primary"> já estiver aí?</span>
+          Seus direitos, nossa
+          <span className="text-primary"> prioridade!</span>
         </h1>
       ),
-      subtitle:
-        "Cuidando da sua segurança jurídica para que você cuide do seu negócio e prospere com confiança.",
+      subtitle: "Excelência no presente, tranquilidade no futuro.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Descubra onde sua empresa pode estar falhando",
+      ctaButtonText: "Fale conosco",
       obsHero: {
         icon: (
           <svg
@@ -157,11 +156,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: (
-          <p>
-            Atendimento on-line, <i>in loco</i> (na empresa do cliente).
-          </p>
-        ),
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -187,16 +182,17 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Direito Trabalhista Empresarial",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades que fazem a diferença",
       subtitle:
-        "Soluções jurídicas estratégicas para empresas prevenirem riscos e atuarem com segurança.",
+        "Conheça as áreas onde oferecemos expertise para garantir seus direitos com excelência.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Adequação de Regimento Interno para empresas",
-        subtitle: "Atualização de normas internas conforme a lei.",
+        title: "Direito Previdenciário",
+        subtitle:
+          "Planejamento e benefícios para garantir segurança no presente e no futuro.",
         description: (
           <div>
             A_Definir
@@ -217,13 +213,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
+            class="lucide lucide-shield-check-icon lucide-shield-check"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -231,8 +224,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Emissão de pareceres",
-        subtitle: "Análises jurídicas claras para decisões seguras.",
+        title: "Aposentadorias e Revisões",
+        subtitle:
+          "Auxílio especializado para conquistar ou revisar sua aposentadoria com justiça.",
         description: (
           <div>
             A_Definir
@@ -253,11 +247,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-pen-line-icon lucide-file-pen-line"
+            class="lucide lucide-calendar-check-icon lucide-calendar-check"
           >
-            <path d="m18 5-2.414-2.414A2 2 0 0 0 14.172 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2" />
-            <path d="M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
-            <path d="M8 18h1" />
+            <path d="M8 2v4" />
+            <path d="M16 2v4" />
+            <rect width="18" height="18" x="3" y="4" rx="2" />
+            <path d="M3 10h18" />
+            <path d="m9 16 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -265,8 +261,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Auditoria Trabalhista",
-        subtitle: "Identificação de riscos e correções preventivas.",
+        title: "Direito Trabalhista",
+        subtitle:
+          "Defesa dos direitos do trabalhador em relações empregatícias e demissionais.",
         description: (
           <div>
             A_Definir <br />
@@ -286,11 +283,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-search-check-icon lucide-search-check"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="m8 11 2 2 4-4" />
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -298,8 +296,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Adaptação da empresa à legislação trabalhista",
-        subtitle: "Ajustes legais completos nas rotinas da empresa.",
+        title: "Verbas Rescisórias e Indenizações",
+        subtitle:
+          "Atuação firme na cobrança de valores devidos após demissão ou injustiças no trabalho.",
         description: (
           <div>
             A_Definir
@@ -320,19 +319,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-building-icon lucide-building"
+            class="lucide lucide-wallet-icon lucide-wallet"
           >
-            <rect width="16" height="20" x="4" y="2" rx="2" ry="2" />
-            <path d="M9 22v-4h6v4" />
-            <path d="M8 6h.01" />
-            <path d="M16 6h.01" />
-            <path d="M12 6h.01" />
-            <path d="M12 10h.01" />
-            <path d="M12 14h.01" />
-            <path d="M16 10h.01" />
-            <path d="M16 14h.01" />
-            <path d="M8 10h.01" />
-            <path d="M8 14h.01" />
+            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -402,53 +392,44 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. THAÍS MARA",
+      miniTag: "QUEM É O DR. EMERSON CABRAL",
       title: "Minha trajetória",
       subtitle:
-        "Do RH à advocacia: experiência real que protege empresas de verdade.",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+        "Uma jornada guiada pelo compromisso com a justiça e o bem comum.",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Cursei Direito após viver na pele violações trabalhistas. Trabalhando
-          com folha de pagamento em escritórios contábeis, descobri minha paixão
-          pelo Direito do Trabalho.
-          <br />
-          No início, atuei para empregados, mas percebi que minha visão sempre
-          apontava soluções que poderiam ter evitado os processos.
+          Minha trajetória no Direito é marcada pela dedicação constante à
+          justiça e ao bem-estar daqueles que confiam no meu trabalho. Desde o
+          início da minha formação, entendi que a advocacia não é apenas uma
+          profissão, mas uma missão de representar, proteger e orientar com
+          responsabilidade.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Cursei Direito após viver na pele violações trabalhistas. Trabalhando
-          com folha de pagamento em escritórios contábeis, descobri minha paixão
-          pelo Direito do Trabalho.
+          Minha trajetória no Direito é marcada pela dedicação constante à
+          justiça e ao bem-estar daqueles que confiam no meu trabalho. Desde o
+          início da minha formação, entendi que a advocacia não é apenas uma
+          profissão, mas uma missão de representar, proteger e orientar com
+          responsabilidade.
           <br />
           <br />
-          No início, atuei para empregados, mas percebi que minha visão sempre
-          apontava soluções que poderiam ter evitado os processos.
+          Ao longo dos anos, tive a oportunidade de atuar em diversas áreas do
+          Direito, sempre buscando soluções eficazes e personalizadas para cada
+          situação. Acredito que cada caso é único e merece atenção, escuta
+          ativa e estratégia. Mais do que oferecer conhecimento técnico, procuro
+          construir relações de confiança com meus clientes.
           <br />
           <br />
-          Hoje, dedico-me exclusivamente à assessoria preventiva para empresas.
-          Minha missão é oferecer consultoria jurídica com excelência, foco na
-          conformidade legal e segurança jurídica.
-          <br />
-          <br />
-          Utilizo linguagem clara, responsabilidade técnica e soluções práticas
-          alinhadas ao dia a dia das empresas.
-          <br />
-          <br />
-          Com ética, domínio técnico e uma vivência profunda nas rotinas
-          trabalhistas, transformo conhecimento em prevenção jurídica
-          estratégica.
-          <br />
-          <br />
-          Meu diferencial é saber, na prática, o que realmente funciona. Meu
-          objetivo é um só: fortalecer empresas com decisões inteligentes e
-          sustentáveis.
+          Com ética, empatia e profissionalismo, sigo comprometido em oferecer
+          um atendimento humanizado, claro e acessível. Minha atuação é guiada
+          por valores sólidos, onde a busca pela justiça caminha lado a lado com
+          o respeito às pessoas e às suas histórias.
           <br />
           <br />
         </p>
@@ -467,10 +448,10 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -511,7 +492,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
     },
