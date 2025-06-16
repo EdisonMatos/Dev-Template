@@ -52,7 +52,7 @@ export default function Index() {
       <FooterSocial
         colorMode={colorMode}
         addres={true}
-        addresSecundario={true}
+        addresSecundario={false}
         phoneSecundario={false}
         phoneTerciario={false}
         expedientesecond={false}
