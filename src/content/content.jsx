@@ -2,7 +2,7 @@ import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Cabral Advocacia",
+  name: "Dr. Silvio Aureliano",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "cabralinstitucionaladv.com.br", // Sem "www"
+  domain: "aurelianoadv.com.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "91195", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2525", // Apenas os 4 últimos números
+    firstPart: "97640", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4662", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,29 +75,31 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Alameda Terracota, nº 185,</p>
-      <p>Cerâmica São Caetano do Sul - SP,</p>
-      <p>CEP : 09531-190</p>
+      <p>Av. Brigadeiro Faria Lima,</p>
+      <p>nº 1768, 8 andar, </p>
+      <p>Jd. Paulistano São Paulo - SP,</p>
+      <p>CEP: 01451-001</p>
     </div>
   ),
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Francisco Rodrigues Seckler,</p>
+      <p>nº 727, </p>
+      <p>Vila Taquari São Paulo - SP,</p>
+      <p>CEP: 08230-125</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advocaciacabral_oficial", // Sem o @
-  facebookProfile: "emerson.batistacabral",
+  instagramProfile: "dr.silvioaureliano", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -123,20 +125,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO EM SÃO CAETANO DO SUL - SP",
+      miniTag: "ADVOGADO ESPECIALIZADO EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Seus direitos, nossa
-          <span className="text-primary"> prioridade!</span>
+          A segurança do seu direito
+          <span className="text-primary"> está em jogo?</span>
         </h1>
       ),
-      subtitle: "Excelência no presente, tranquilidade no futuro.",
+      subtitle:
+        "Contratos, trabalho, tributos e empresas: a estratégia certa para proteger seu patrimônio.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Fale conosco",
+      ctaButtonText: "Proteja-se agora",
       obsHero: {
         icon: (
           <svg
@@ -156,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil",
+        text: "Atendimento presencial e online para todo o território nacional.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +186,15 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades que fazem a diferença",
+      title: "Atuação estratégica e multidisciplinar",
       subtitle:
-        "Conheça as áreas onde oferecemos expertise para garantir seus direitos com excelência.",
+        "Soluções jurídicas completas nas principais áreas do Direito, com eficiência e precisão.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
-        subtitle:
-          "Planejamento e benefícios para garantir segurança no presente e no futuro.",
+        title: "Direito Contratual",
+        subtitle: "Revisão e elaboração de contratos empresariais",
         description: (
           <div>
             A_Definir
@@ -213,10 +215,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-check-icon lucide-shield-check"
+            class="lucide lucide-handshake-icon lucide-handshake"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="m9 12 2 2 4-4" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -224,9 +229,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Aposentadorias e Revisões",
-        subtitle:
-          "Auxílio especializado para conquistar ou revisar sua aposentadoria com justiça.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa e prevenção de ações trabalhistas",
         description: (
           <div>
             A_Definir
@@ -247,13 +251,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-calendar-check-icon lucide-calendar-check"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M8 2v4" />
-            <path d="M16 2v4" />
-            <rect width="18" height="18" x="3" y="4" rx="2" />
-            <path d="M3 10h18" />
-            <path d="m9 16 2 2 4-4" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -261,9 +265,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle:
-          "Defesa dos direitos do trabalhador em relações empregatícias e demissionais.",
+        title: "Direito Tributário",
+        subtitle: "Consultoria e defesa em questões tributárias",
         description: (
           <div>
             A_Definir <br />
@@ -283,12 +286,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-banknote-icon lucide-banknote"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <rect width="20" height="12" x="2" y="6" rx="2" />
+            <circle cx="12" cy="12" r="2" />
+            <path d="M6 12h.01M18 12h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -296,9 +298,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Verbas Rescisórias e Indenizações",
-        subtitle:
-          "Atuação firme na cobrança de valores devidos após demissão ou injustiças no trabalho.",
+        title: "Direito Societário",
+        subtitle: "Apoio jurídico na gestão e estrutura societária",
         description: (
           <div>
             A_Definir
@@ -319,10 +320,19 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-wallet-icon lucide-wallet"
+            class="lucide lucide-building-icon lucide-building"
           >
-            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
-            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
+            <rect width="16" height="20" x="4" y="2" rx="2" ry="2" />
+            <path d="M9 22v-4h6v4" />
+            <path d="M8 6h.01" />
+            <path d="M16 6h.01" />
+            <path d="M12 6h.01" />
+            <path d="M12 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M16 10h.01" />
+            <path d="M16 14h.01" />
+            <path d="M8 10h.01" />
+            <path d="M8 14h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -392,44 +402,54 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. EMERSON CABRAL",
+      miniTag: "QUEM É O DR. SILVIO AURELIANO",
       title: "Minha trajetória",
       subtitle:
-        "Uma jornada guiada pelo compromisso com a justiça e o bem comum.",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Mais de 27 anos de experiência e atuação estratégica em diversas áreas do Direito.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Minha trajetória no Direito é marcada pela dedicação constante à
-          justiça e ao bem-estar daqueles que confiam no meu trabalho. Desde o
-          início da minha formação, entendi que a advocacia não é apenas uma
-          profissão, mas uma missão de representar, proteger e orientar com
-          responsabilidade.
+          Atuo na advocacia há mais de 27 anos, com ampla experiência nas áreas
+          Cível, Trabalhista, Penal, Tributária, Empresarial e do Consumidor.
+          <br />
+          Ao longo da minha trajetória, sempre busquei unir conhecimento técnico
+          e visão estratégica para oferecer soluções jurídicas eficazes,
+          conduzindo processos do início à execução com foco em resultados.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha trajetória no Direito é marcada pela dedicação constante à
-          justiça e ao bem-estar daqueles que confiam no meu trabalho. Desde o
-          início da minha formação, entendi que a advocacia não é apenas uma
-          profissão, mas uma missão de representar, proteger e orientar com
-          responsabilidade.
+          Atuo na advocacia há mais de 27 anos, com ampla experiência nas áreas
+          Cível, Trabalhista, Penal, Tributária, Empresarial e do Consumidor.
           <br />
           <br />
-          Ao longo dos anos, tive a oportunidade de atuar em diversas áreas do
-          Direito, sempre buscando soluções eficazes e personalizadas para cada
-          situação. Acredito que cada caso é único e merece atenção, escuta
-          ativa e estratégia. Mais do que oferecer conhecimento técnico, procuro
-          construir relações de confiança com meus clientes.
+          Ao longo da minha trajetória, sempre busquei unir conhecimento técnico
+          e visão estratégica para oferecer soluções jurídicas eficazes,
+          conduzindo processos do início à execução com foco em resultados.
           <br />
           <br />
-          Com ética, empatia e profissionalismo, sigo comprometido em oferecer
-          um atendimento humanizado, claro e acessível. Minha atuação é guiada
-          por valores sólidos, onde a busca pela justiça caminha lado a lado com
-          o respeito às pessoas e às suas histórias.
+          Fui sócio fundador da Aureliano Sociedade de Advocacia por mais de 11
+          anos, liderando equipes e representando clientes em todo o território
+          nacional.
+          <br />
+          <br />
+          Também tive a oportunidade de atuar no setor corporativo, onde
+          implantei departamentos jurídicos internos e participei de processos
+          de due diligence, reestruturações societárias e auditorias de
+          compliance.
+          <br />
+          <br />
+          Sou pós-graduado em áreas como Direito Corporativo, Compliance,
+          Direito do Trabalho, Penal, Processo Tributário e Empresarial.
+          <br />
+          <br />
+          Hoje, integro o escritório Motoyama & Ferreira Advogados, mantendo meu
+          compromisso com uma advocacia ética, moderna e centrada nas
+          necessidades de cada cliente.
           <br />
           <br />
         </p>
@@ -448,10 +468,10 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -492,7 +512,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
