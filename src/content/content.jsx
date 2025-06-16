@@ -402,33 +402,54 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. SILVIO AURELIANO",
+      title: "Minha trajetória",
+      subtitle:
+        "Mais de 27 anos de experiência e atuação estratégica em diversas áreas do Direito.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Atuo na advocacia há mais de 27 anos, com ampla experiência nas áreas
+          Cível, Trabalhista, Penal, Tributária, Empresarial e do Consumidor.
           <br />
-          A_Definir
+          Ao longo da minha trajetória, sempre busquei unir conhecimento técnico
+          e visão estratégica para oferecer soluções jurídicas eficazes,
+          conduzindo processos do início à execução com foco em resultados.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Atuo na advocacia há mais de 27 anos, com ampla experiência nas áreas
+          Cível, Trabalhista, Penal, Tributária, Empresarial e do Consumidor.
           <br />
           <br />
-          A_Definir
+          Ao longo da minha trajetória, sempre busquei unir conhecimento técnico
+          e visão estratégica para oferecer soluções jurídicas eficazes,
+          conduzindo processos do início à execução com foco em resultados.
           <br />
           <br />
-          A_Definir
+          Fui sócio fundador da Aureliano Sociedade de Advocacia por mais de 11
+          anos, liderando equipes e representando clientes em todo o território
+          nacional.
           <br />
           <br />
-          A_Definir
+          Também tive a oportunidade de atuar no setor corporativo, onde
+          implantei departamentos jurídicos internos e participei de processos
+          de due diligence, reestruturações societárias e auditorias de
+          compliance.
+          <br />
+          <br />
+          Sou pós-graduado em áreas como Direito Corporativo, Compliance,
+          Direito do Trabalho, Penal, Processo Tributário e Empresarial.
+          <br />
+          <br />
+          Hoje, integro o escritório Motoyama & Ferreira Advogados, mantendo meu
+          compromisso com uma advocacia ética, moderna e centrada nas
+          necessidades de cada cliente.
           <br />
           <br />
         </p>
@@ -442,14 +463,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
