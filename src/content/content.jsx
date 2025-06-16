@@ -396,33 +396,51 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. RAPHAEL PALHARES",
+      title: "Minha trajetória",
+      subtitle:
+        "Compromisso com a justiça, o campo e o meio ambiente há mais de 13 anos.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
+          Com mais de 13 anos de atuação no Direito Ambiental e Agrário, Dr.
+          Raphael Palhares lidera um escritório moderno e exclusivo, dedicado a
+          oferecer soluções jurídicas eficazes para empresas, produtores rurais
+          e instituições.
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com mais de 13 anos de atuação no Direito Ambiental e Agrário, Dr.
+          Raphael Palhares lidera um escritório moderno e exclusivo, dedicado a
+          oferecer soluções jurídicas eficazes para empresas, produtores rurais
+          e instituições.
           <br />
           <br />
-          A_Definir
+          Especialista em Direito Civil, Público e Privado, acumula sólida
+          formação e vasta experiência em processos judiciais e administrativos,
+          com forte atuação na redução de multas ambientais e defesa em autos de
+          infração.
           <br />
           <br />
-          A_Definir
+          Sua prática alia conhecimento técnico, ética e estratégia,
+          proporcionando segurança jurídica e sustentabilidade para seus
+          clientes.
           <br />
           <br />
-          A_Definir
+          A missão do escritório é clara: equilibrar a produção agrária com a
+          preservação ambiental, sempre com foco na legalidade, prevenção de
+          litígios e eficiência na gestão de riscos.
+          <br />
+          <br />
+          Com uma abordagem consultiva, preventiva e litigiosa, o trabalho é
+          pautado na excelência, responsabilidade e respeito às necessidades
+          reais de quem vive do campo e do cuidado com o meio ambiente.
           <br />
           <br />
         </p>
@@ -436,14 +454,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
