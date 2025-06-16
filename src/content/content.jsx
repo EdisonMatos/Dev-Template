@@ -159,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo território nacional.",
+        text: "Atendimento presencial e online para todo o território nacional.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
