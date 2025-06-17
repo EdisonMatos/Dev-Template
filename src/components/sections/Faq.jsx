@@ -28,6 +28,7 @@ export default function Faq({ colorMode }) {
     <>
       <SectionArea id="faq" className={`${bgClass}`}>
         <SectionHeader
+          colorMode="dark"
           className="text-center"
           miniTitle={content.texts.faq.miniTag}
           sectionHeaderTitle={content.texts.faq.title}

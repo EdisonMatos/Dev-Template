@@ -9,7 +9,7 @@ export default function SectionHeader({
   miniTitle,
   miniTitleSpace,
   colorMode,
-  miniTitleBgColor = true,
+  miniTitleBgColor = true, // true = usar padrão, false = nenhum bg, string = classe custom
   miniTitleTextColor,
   usage,
   type,
@@ -24,19 +24,22 @@ export default function SectionHeader({
   // Configurações baseadas no colorMode
   switch (colorMode) {
     case "dark":
-      miniTitleTextColor = "text-white";
+      miniTitleTextColor = miniTitleTextColor ?? "text-white";
       titleColor = titleColorSet ?? "text-white";
       subtitleColor = subtitleColorSet ?? "text-white";
-      if (miniTitleBgColor) miniTitleBgColor = "bg-bgSectionDark";
+      if (miniTitleBgColor === true) miniTitleBgColor = "bg-bgSectionDark";
       break;
     case "light":
     default:
-      miniTitleTextColor = "text-labelIcons";
+      miniTitleTextColor = miniTitleTextColor ?? "text-labelIcons";
       titleColor = titleColorSet ?? "text-white";
       subtitleColor = subtitleColorSet ?? "text-white";
-      if (miniTitleBgColor) miniTitleBgColor = "bg-minititle";
+      if (miniTitleBgColor === true) miniTitleBgColor = "bg-minititle";
       break;
   }
+
+  // Caso false, zera a classe
+  if (miniTitleBgColor === false) miniTitleBgColor = "";
 
   // Configurações baseadas no tipo
   if (type === "article") {
@@ -50,13 +53,9 @@ export default function SectionHeader({
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
   }
 
-  if (!miniTitleBgColor) {
-    miniTitleBgColor = "";
-  }
-
   const Content = (
     <div className={`${usage} ${className}`}>
-      <div className="">
+      <div>
         <div className={`${miniTitleSpace}`}>
           <div
             className={`py-[4px] font-semibold px-[12px] font-mainFont text-paragraph2 rounded-md inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
