@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Auler Advocacia",
+  name: "LAS Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "auleradvocacia.com.br", // Sem "www"
+  domain: "lourivalalmeida.com.br", // Sem "www"
   phone: {
-    ddd: "49",
-    firstPart: "99997", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6503", // Apenas os 4 últimos números
+    ddd: "71",
+    firstPart: "98714", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1724", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,12 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Minas Gerais, nº 533 E</p>
-      <p>Presidente Médici Chapecó - SC,</p>
-      <p>CEP: 89801-200</p>
+      <p>Av. Tancredo Neves,</p>
+      <p>nº 1222, sala 508,</p>
+      <p>Ed Catabas Tower,</p>
+      <p>Caminho das Árvores</p>
+      <p>Salvador - BA,</p>
+      <p>CEP: 41820-020</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,8 +95,7 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h30 às 12h</p>
-      <p>13h30 às 18h</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -124,21 +126,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM CHAPECÓ - SC",
+      miniTag: "PREVIDENCIÁRIO, TRABALHISTA E CONSUMERISTA EM SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          Se o seu trabalho tem cobrado da sua saúde mais
-          <span className="text-primary"> do que deveria</span>
+          O sistema conta com
+          <span className="text-primary"> seu silêncio</span>
         </h1>
       ),
       subtitle:
-        "Talvez seja hora de entender o que a lei tem a dizer sobre isso",
+        "Enquanto você espera, seus direitos seguem sendo deixados pra trás. Chega disso.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Saiba seus direitos",
+      ctaButtonText: "Atue com quem resolve",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +160,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online via WhatsApp",
+        text: "Atendimento presencial e online para todo território nacional.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,16 +186,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Foco em Direito do Trabalho",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Compromisso com a justiça em diversas frentes",
       subtitle:
-        "Atuação focada nas principais demandas trabalhistas com clareza e eficiência",
+        "Atuação firme e acessível em defesa dos seus direitos, onde for preciso",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Acidente e Doença do Trabalho",
-        subtitle: "Defesa dos seus direitos em casos de acidente laboral.",
+        title: "Direito Previdenciário e do Trabalho",
+        subtitle: "Aposentadorias, benefícios e direitos do trabalhador.",
         description: (
           <div>
             A_Definir
@@ -214,15 +216,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-ambulance-icon lucide-ambulance"
+            class="lucide lucide-stethoscope-icon lucide-stethoscope"
           >
-            <path d="M10 10H6" />
-            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
-            <path d="M19 18h2a1 1 0 0 0 1-1v-3.28a1 1 0 0 0-.684-.948l-1.923-.641a1 1 0 0 1-.578-.502l-1.539-3.076A1 1 0 0 0 16.382 8H14" />
-            <path d="M8 8v4" />
-            <path d="M9 18h6" />
-            <circle cx="17" cy="18" r="2" />
-            <circle cx="7" cy="18" r="2" />
+            <path d="M11 2v2" />
+            <path d="M5 2v2" />
+            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
+            <path d="M8 15a6 6 0 0 0 12 0v-3" />
+            <circle cx="20" cy="10" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -230,8 +230,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Adicionais de Insalubridade e Periculosidade",
-        subtitle: "Garantia dos adicionais por riscos e condições nocivas.",
+        title: "Direito do Consumidor e Administrativo",
+        subtitle: "Defesa do consumidor e atuação na esfera pública.",
         description: (
           <div>
             A_Definir
@@ -252,18 +252,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-biohazard-icon lucide-biohazard"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <circle cx="12" cy="11.9" r="2" />
-            <path d="M6.7 3.4c-.9 2.5 0 5.2 2.2 6.7C6.5 9 3.7 9.6 2 11.6" />
-            <path d="m8.9 10.1 1.4.8" />
-            <path d="M17.3 3.4c.9 2.5 0 5.2-2.2 6.7 2.4-1.2 5.2-.6 6.9 1.5" />
-            <path d="m15.1 10.1-1.4.8" />
-            <path d="M16.7 20.8c-2.6-.4-4.6-2.6-4.7-5.3-.2 2.6-2.1 4.8-4.7 5.2" />
-            <path d="M12 13.9v1.6" />
-            <path d="M13.5 5.4c-1-.2-2-.2-3 0" />
-            <path d="M17 16.4c.7-.7 1.2-1.6 1.5-2.5" />
-            <path d="M5.5 13.9c.3.9.8 1.8 1.5 2.5" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -271,8 +266,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Rescisão Indireta",
-        subtitle: "Auxílio na rescisão por falta grave do empregador.",
+        title: "Direito de Família e Sucessões",
+        subtitle: "Divórcios, pensões, guarda e inventários judiciais.",
         description: (
           <div>
             A_Definir <br />
@@ -292,12 +287,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-x-icon lucide-user-x"
+            class="lucide lucide-users-icon lucide-users"
           >
             <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
             <circle cx="9" cy="7" r="4" />
-            <line x1="17" x2="22" y1="8" y2="13" />
-            <line x1="22" x2="17" y1="8" y2="13" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -305,8 +300,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Horas Extras e Jornada de Trabalho",
-        subtitle: "Cobrança justa por horas trabalhadas além do horário.",
+        title: "Direito Penal, Processual Penal e Propriedade",
+        subtitle: "Defesas criminais e proteção de bens e patrimônios.",
         description: (
           <div>
             A_Definir
@@ -327,11 +322,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-timer-icon lucide-timer"
+            class="lucide lucide-shield-icon lucide-shield"
           >
-            <line x1="10" x2="14" y1="2" y2="2" />
-            <line x1="12" x2="15" y1="14" y2="11" />
-            <circle cx="12" cy="14" r="8" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -390,55 +383,54 @@ const content = {
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Chapecó - SC",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14207.590223989728!2d-52.6116439!3d-27.0965259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b5d96d26f269%3A0xfdcf4834fdab1e5!2sChapec%C3%B3%20Multas!5e0!3m2!1spt-BR!2sbr!4v1750168671846!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A AULER ADVOCACIA",
-      title: "Nossa trajetória",
-      subtitle: "Atendimento direto, claro e focado na solução do seu problema",
+      miniTag: "QUEM É O DR. LOURIVAL ALMEIDA",
+      title: "Minha trajetória",
+      subtitle:
+        "Justiça com coragem, empatia e compromisso com quem mais precisa",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Na Auler Advocacia, cada cliente é atendido com atenção individual e
-          orientação clara.
+          Minha atuação é guiada por valores firmes: transparência, coragem
+          diante dos desafios e compromisso com o resultado.
           <br />
-          Aqui, acreditamos que um trabalhador bem orientado sabe o que fazer —
-          e é isso que oferecemos: direcionamento jurídico objetivo, sem
-          complicações.
+          Acredito que a justiça deve ser acessível a todos — por isso, ofereço
+          condições que facilitam o acesso jurídico, sem burocracia e sem
+          discriminação.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Na Auler Advocacia, cada cliente é atendido com atenção individual e
-          orientação clara.
+          Minha atuação é guiada por valores firmes: transparência, coragem
+          diante dos desafios e compromisso com o resultado.
           <br />
           <br />
-          Aqui, acreditamos que um trabalhador bem orientado sabe o que fazer —
-          e é isso que oferecemos: direcionamento jurídico objetivo, sem
-          complicações.
+          Acredito que a justiça deve ser acessível a todos — por isso, ofereço
+          condições que facilitam o acesso jurídico, sem burocracia e sem
+          discriminação.
           <br />
           <br />
-          Atuamos com foco na realidade de cada caso, especialmente em questões
-          trabalhistas, buscando sempre a solução mais justa dentro do que prevê
-          o direito.
+          Aqui, cada cliente é tratado com respeito, clareza e linguagem direta,
+          independentemente da posição social.
           <br />
           <br />
-          Nossa comunicação é acessível, direta e sem juridiquês, porque
-          entendemos que o mais importante é você saber exatamente onde está
-          pisando.
+          Assumo cada causa com garra, sempre buscando a melhor solução — porque
+          sim, tudo tem solução. E quando você confia sua defesa ou seus
+          direitos ao meu trabalho, saiba: eu vou até o fim por você.
           <br />
           <br />
         </p>
@@ -500,7 +492,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
