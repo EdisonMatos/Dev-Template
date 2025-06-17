@@ -28,12 +28,12 @@ export const theme = {
       buttonColor: "#DBB14C",
       iconButtons: "#000",
       labelButtons: "#000",
-      minititle: "#57A595",
+      minititle: "#DBB14C",
 
       // Sombras
 
       shadowHero: "#000000",
-      shadowFeatures: "#FADC87",
+      shadowFeatures: "#000000",
       shadowAbouts: "#000000",
       shadowSteps: "#000000",
       shadowMaps: "#000000",
