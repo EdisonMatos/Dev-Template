@@ -75,7 +75,7 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Minas Gerais nº 533 E,</p>
+      <p>Rua Minas Gerais, nº 533 E</p>
       <p>Presidente Médici Chapecó - SC,</p>
       <p>CEP: 89801-200</p>
     </div>
@@ -92,8 +92,8 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8:30 às 12h</p>
-      <p>13:30 às 18h</p>
+      <p>8h30 às 12h</p>
+      <p>13h30 às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
