@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
@@ -14,7 +14,7 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Raphael Palhares",
+  name: "Auler Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "raphaelpalhares.com.br", // Sem "www"
+  domain: "auleradvocacia.com.br", // Sem "www"
   phone: {
-    ddd: "86",
-    firstPart: "99519", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6446", // Apenas os 4 últimos números
+    ddd: "49",
+    firstPart: "99997", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6503", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Raul Lopes,</p>
-      <p>nº 880, Edifício Poty Premier, </p>
-      <p>sala 1104, Jóquei, Teresina - PI,</p>
-      <p> CEP 64048-065</p>
+      <p>Rua Minas Gerais, nº 533 E</p>
+      <p>Presidente Médici Chapecó - SC,</p>
+      <p>CEP: 89801-200</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,12 +91,13 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>Segunda a Sexta-feira</p>
+      <p>8h30 às 12h</p>
+      <p>13h30 às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "advraphaelpalhares", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -124,21 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO AMBIENTAL E AGRÁRIO EM TERESINA - PI",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM CHAPECÓ - SC",
       title: (
         <h1 className="mb-[16px]">
-          Sua terra e o futuro do planeta
-          <span className="text-primary"> estão em jogo</span>
+          Se o seu trabalho tem cobrado da sua saúde mais
+          <span className="text-primary"> do que deveria</span>
         </h1>
       ),
       subtitle:
-        "Descubra como proteger seus direitos e o meio ambiente sem complicações ou burocracia.",
+        "Talvez seja hora de entender o que a lei tem a dizer sobre isso",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero entender melhor",
+      ctaButtonText: "Saiba seus direitos",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial ou videoconferência para todo Brasil.",
+        text: "Atendimento online via WhatsApp",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,16 +184,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Direito Ambiental e Agrário com foco em resultados",
+      miniTag: "ESPECIALIDADE",
+      title: "Foco em Direito do Trabalho",
       subtitle:
-        "Protegendo seu meio ambiente e garantindo sua terra com segurança.",
+        "Atuação focada nas principais demandas trabalhistas com clareza e eficiência",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Ambiental",
-        subtitle: "Consultoria para proteger o meio ambiente e evitar multas.",
+        title: "Acidente e Doença do Trabalho",
+        subtitle: "Defesa dos seus direitos em casos de acidente laboral.",
         description: (
           <div>
             A_Definir
@@ -214,12 +214,15 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-earth-icon lucide-earth"
+            class="lucide lucide-ambulance-icon lucide-ambulance"
           >
-            <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54" />
-            <path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17" />
-            <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05" />
-            <circle cx="12" cy="12" r="10" />
+            <path d="M10 10H6" />
+            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+            <path d="M19 18h2a1 1 0 0 0 1-1v-3.28a1 1 0 0 0-.684-.948l-1.923-.641a1 1 0 0 1-.578-.502l-1.539-3.076A1 1 0 0 0 16.382 8H14" />
+            <path d="M8 8v4" />
+            <path d="M9 18h6" />
+            <circle cx="17" cy="18" r="2" />
+            <circle cx="7" cy="18" r="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +230,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Licenciamento Ambiental",
-        subtitle: "Regularização e emissão de licenças ambientais.",
+        title: "Adicionais de Insalubridade e Periculosidade",
+        subtitle: "Garantia dos adicionais por riscos e condições nocivas.",
         description: (
           <div>
             A_Definir
@@ -249,11 +252,18 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-clipboard-check-icon lucide-clipboard-check"
+            class="lucide lucide-biohazard-icon lucide-biohazard"
           >
-            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
-            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
-            <path d="m9 14 2 2 4-4" />
+            <circle cx="12" cy="11.9" r="2" />
+            <path d="M6.7 3.4c-.9 2.5 0 5.2 2.2 6.7C6.5 9 3.7 9.6 2 11.6" />
+            <path d="m8.9 10.1 1.4.8" />
+            <path d="M17.3 3.4c.9 2.5 0 5.2-2.2 6.7 2.4-1.2 5.2-.6 6.9 1.5" />
+            <path d="m15.1 10.1-1.4.8" />
+            <path d="M16.7 20.8c-2.6-.4-4.6-2.6-4.7-5.3-.2 2.6-2.1 4.8-4.7 5.2" />
+            <path d="M12 13.9v1.6" />
+            <path d="M13.5 5.4c-1-.2-2-.2-3 0" />
+            <path d="M17 16.4c.7-.7 1.2-1.6 1.5-2.5" />
+            <path d="M5.5 13.9c.3.9.8 1.8 1.5 2.5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -261,8 +271,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Agrário",
-        subtitle: "Orientação sobre uso e propriedade de terras rurais.",
+        title: "Rescisão Indireta",
+        subtitle: "Auxílio na rescisão por falta grave do empregador.",
         description: (
           <div>
             A_Definir <br />
@@ -282,17 +292,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-tractor-icon lucide-tractor"
+            class="lucide lucide-user-x-icon lucide-user-x"
           >
-            <path d="m10 11 11 .9a1 1 0 0 1 .8 1.1l-.665 4.158a1 1 0 0 1-.988.842H20" />
-            <path d="M16 18h-5" />
-            <path d="M18 5a1 1 0 0 0-1 1v5.573" />
-            <path d="M3 4h8.129a1 1 0 0 1 .99.863L13 11.246" />
-            <path d="M4 11V4" />
-            <path d="M7 15h.01" />
-            <path d="M8 10.1V4" />
-            <circle cx="18" cy="18" r="2" />
-            <circle cx="7" cy="15" r="5" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <line x1="17" x2="22" y1="8" y2="13" />
+            <line x1="22" x2="17" y1="8" y2="13" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -300,8 +305,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Conflitos Fundiários",
-        subtitle: "Resolução de disputas sobre posse e propriedade rural.",
+        title: "Horas Extras e Jornada de Trabalho",
+        subtitle: "Cobrança justa por horas trabalhadas além do horário.",
         description: (
           <div>
             A_Definir
@@ -322,11 +327,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-map-icon lucide-map"
+            class="lucide lucide-timer-icon lucide-timer"
           >
-            <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" />
-            <path d="M15 5.764v15" />
-            <path d="M9 3.236v15" />
+            <line x1="10" x2="14" y1="2" y2="2" />
+            <line x1="12" x2="15" y1="14" y2="11" />
+            <circle cx="12" cy="14" r="8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -385,62 +390,55 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Chapecó - SC",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14207.590223989728!2d-52.6116439!3d-27.0965259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b5d96d26f269%3A0xfdcf4834fdab1e5!2sChapec%C3%B3%20Multas!5e0!3m2!1spt-BR!2sbr!4v1750168671846!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. RAPHAEL PALHARES",
-      title: "Minha trajetória",
-      subtitle:
-        "Compromisso com a justiça, o campo e o meio ambiente há mais de 13 anos.",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+      miniTag: "QUEM É A AULER ADVOCACIA",
+      title: "Nossa trajetória",
+      subtitle: "Atendimento direto, claro e focado na solução do seu problema",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Com mais de 13 anos de atuação no Direito Ambiental e Agrário, Dr.
-          Raphael Palhares lidera um escritório moderno e exclusivo, dedicado a
-          oferecer soluções jurídicas eficazes para empresas, produtores rurais
-          e instituições.
+          Na Auler Advocacia, cada cliente é atendido com atenção individual e
+          orientação clara.
           <br />
+          Aqui, acreditamos que um trabalhador bem orientado sabe o que fazer —
+          e é isso que oferecemos: direcionamento jurídico objetivo, sem
+          complicações.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com mais de 13 anos de atuação no Direito Ambiental e Agrário, Dr.
-          Raphael Palhares lidera um escritório moderno e exclusivo, dedicado a
-          oferecer soluções jurídicas eficazes para empresas, produtores rurais
-          e instituições.
+          Na Auler Advocacia, cada cliente é atendido com atenção individual e
+          orientação clara.
           <br />
           <br />
-          Especialista em Direito Civil, Público e Privado, acumula sólida
-          formação e vasta experiência em processos judiciais e administrativos,
-          com forte atuação na redução de multas ambientais e defesa em autos de
-          infração.
+          Aqui, acreditamos que um trabalhador bem orientado sabe o que fazer —
+          e é isso que oferecemos: direcionamento jurídico objetivo, sem
+          complicações.
           <br />
           <br />
-          Sua prática alia conhecimento técnico, ética e estratégia,
-          proporcionando segurança jurídica e sustentabilidade para seus
-          clientes.
+          Atuamos com foco na realidade de cada caso, especialmente em questões
+          trabalhistas, buscando sempre a solução mais justa dentro do que prevê
+          o direito.
           <br />
           <br />
-          A missão do escritório é clara: equilibrar a produção agrária com a
-          preservação ambiental, sempre com foco na legalidade, prevenção de
-          litígios e eficiência na gestão de riscos.
-          <br />
-          <br />
-          Com uma abordagem consultiva, preventiva e litigiosa, o trabalho é
-          pautado na excelência, responsabilidade e respeito às necessidades
-          reais de quem vive do campo e do cuidado com o meio ambiente.
+          Nossa comunicação é acessível, direta e sem juridiquês, porque
+          entendemos que o mais importante é você saber exatamente onde está
+          pisando.
           <br />
           <br />
         </p>
@@ -454,15 +452,14 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -503,7 +500,7 @@ const content = {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
+            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
     },
@@ -524,25 +521,24 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question:
-            "O que devo fazer ao receber um auto de infração ambiental?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "O ideal é buscar orientação jurídica imediatamente. Com uma boa defesa técnica, é possível reduzir ou até anular multas e sanções, dependendo do caso e das provas apresentadas.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "Quando é necessário o licenciamento ambiental?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Toda atividade que possa causar impacto ao meio ambiente precisa de licenciamento. Isso vale para empreendimentos rurais, industriais, construções e até pequenas intervenções em áreas protegidas.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "Como funciona a regularização de imóveis rurais?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "A regularização envolve análise documental, georreferenciamento, cumprimento das normas ambientais (como reserva legal e APP), além do registro nos órgãos competentes. Isso garante segurança jurídica e evita problemas futuros.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Qual a diferença entre arrendamento e parceria rural?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "No arrendamento, o proprietário cede a terra mediante pagamento fixo. Na parceria, os lucros e riscos da produção são divididos. Um contrato bem feito evita conflitos e garante direitos para ambas as partes.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

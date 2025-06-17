@@ -49,7 +49,7 @@ export default function Faq({ colorMode }) {
                 color="bg-transparent"
                 label={content.texts.faq.paragraph}
                 colorMode={colorMode}
-                labelColor="text-primary"
+                labelColor="text-secondary"
               />
             </Paragraphs>
           </MotionDivDownToUp>
