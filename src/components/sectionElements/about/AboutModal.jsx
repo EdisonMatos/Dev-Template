@@ -30,8 +30,9 @@ export default function AboutModal() {
             aria-label={content.texts.about.ctaButtonAriaLabel}
             label={content.texts.about.ctaButtonText}
             animation={false}
-            className="hover:scale-105"
-            icon={<FaWhatsapp size={24} />}
+            className="hover:scale-105 bg-darker"
+            icon={<FaWhatsapp color="white" size={24} />}
+            labelColor="text-white"
           />
         </div>
       </p>

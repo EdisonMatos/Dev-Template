@@ -432,33 +432,39 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR HIKSON GOMES",
+      title: "Minha trajetória",
+      subtitle:
+        "Experiência, escuta ativa e estratégia para cuidar do que realmente importa",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Com mais de 10 anos de atuação no Direito, construí uma jornada sólida
+          e estratégica no contencioso e consultivo, sempre voltado a entregar
+          soluções reais para quem confia em meu trabalho.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Com mais de 10 anos de atuação no Direito, construí uma jornada sólida
+          e estratégica no contencioso e consultivo, sempre voltado a entregar
+          soluções reais para quem confia em meu trabalho.
           <br />
           <br />
-          A_Definir
+          Atuo de forma moderna, com atendimento personalizado, detalhista e
+          próximo. Acredito que cada cliente carrega uma história única — por
+          isso, a escuta ativa e a comunicação direta são pilares no meu dia a
+          dia.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Mais do que resolver problemas jurídicos, minha missão é proporcionar
+          segurança, clareza e confiança em cada etapa do processo. Aqui, você
+          encontra comprometimento, resistência e um olhar atento aos detalhes
+          que fazem a diferença.
           <br />
           <br />
         </p>
