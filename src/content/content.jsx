@@ -524,24 +524,25 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question:
+            "O que devo fazer ao receber um auto de infração ambiental?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "O ideal é buscar orientação jurídica imediatamente. Com uma boa defesa técnica, é possível reduzir ou até anular multas e sanções, dependendo do caso e das provas apresentadas.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Quando é necessário o licenciamento ambiental?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Toda atividade que possa causar impacto ao meio ambiente precisa de licenciamento. Isso vale para empreendimentos rurais, industriais, construções e até pequenas intervenções em áreas protegidas.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Como funciona a regularização de imóveis rurais?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "A regularização envolve análise documental, georreferenciamento, cumprimento das normas ambientais (como reserva legal e APP), além do registro nos órgãos competentes. Isso garante segurança jurídica e evita problemas futuros.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Qual a diferença entre arrendamento e parceria rural?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "No arrendamento, o proprietário cede a terra mediante pagamento fixo. Na parceria, os lucros e riscos da produção são divididos. Um contrato bem feito evita conflitos e garante direitos para ambas as partes.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
