@@ -390,11 +390,12 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Chapecó - SC",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14207.590223989728!2d-52.6116439!3d-27.0965259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b5d96d26f269%3A0xfdcf4834fdab1e5!2sChapec%C3%B3%20Multas!5e0!3m2!1spt-BR!2sbr!4v1750168671846!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
