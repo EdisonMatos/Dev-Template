@@ -394,33 +394,43 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. LOURIVAL ALMEIDA",
+      title: "Minha trajetória",
+      subtitle:
+        "Justiça com coragem, empatia e compromisso com quem mais precisa",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Minha atuação é guiada por valores firmes: transparência, coragem
+          diante dos desafios e compromisso com o resultado.
           <br />
-          A_Definir
+          Acredito que a justiça deve ser acessível a todos — por isso, ofereço
+          condições que facilitam o acesso jurídico, sem burocracia e sem
+          discriminação.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Minha atuação é guiada por valores firmes: transparência, coragem
+          diante dos desafios e compromisso com o resultado.
           <br />
           <br />
-          A_Definir
+          Acredito que a justiça deve ser acessível a todos — por isso, ofereço
+          condições que facilitam o acesso jurídico, sem burocracia e sem
+          discriminação.
           <br />
           <br />
-          A_Definir
+          Aqui, cada cliente é tratado com respeito, clareza e linguagem direta,
+          independentemente da posição social.
           <br />
           <br />
-          A_Definir
+          Assumo cada causa com garra, sempre buscando a melhor solução — porque
+          sim, tudo tem solução. E quando você confia sua defesa ou seus
+          direitos ao meu trabalho, saiba: eu vou até o fim por você.
           <br />
           <br />
         </p>
