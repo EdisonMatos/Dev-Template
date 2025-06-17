@@ -77,7 +77,7 @@ export const infos = {
       <p>Endereço:</p>
       <p>Av. Raul Lopes,</p>
       <p>nº 880, Edifício Poty Premier, </p>
-      <p>sala 1104, Jóquei Teresina - PI,</p>
+      <p>sala 1104, Jóquei, Teresina - PI,</p>
       <p> CEP 64048-065</p>
     </div>
   ),
@@ -92,7 +92,7 @@ export const infos = {
   expediente: (
     <div>
       <p>Horário de expediente:</p>
-      <p>Segunda a Sexta-feira</p>
+      <p>Segunda a sexta-feira</p>
       <p>8h às 18h</p>
     </div>
   ),
