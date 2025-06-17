@@ -10,7 +10,7 @@ export default function Button({
   buttonLink,
   className,
   textclassName,
-  labelColor, // ✅ Adicionado
+  labelColor,
   size,
   sizeFeatures,
   gap,
