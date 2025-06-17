@@ -126,20 +126,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "PREVIDENCIÁRIO, TRABALHISTA E CONSUMERISTA EM SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          O sistema conta com
+          <span className="text-primary"> seu silêncio</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Enquanto você espera, seus direitos seguem sendo deixados pra trás. Chega disso.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Atue com quem resolve",
       obsHero: {
         icon: (
           <svg
@@ -159,7 +160,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento presencial e online para todo território nacional.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
