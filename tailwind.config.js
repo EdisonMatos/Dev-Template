@@ -5,7 +5,7 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#455A62",
+      primary: "#57A595",
       secondary: "#000000",
 
       // Fundos de Seção
