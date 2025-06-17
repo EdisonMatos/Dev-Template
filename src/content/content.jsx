@@ -401,33 +401,43 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A AULER ADVOCACIA",
+      title: "Nossa trajetória",
+      subtitle: "Atendimento direto, claro e focado na solução do seu problema",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Na Auler Advocacia, cada cliente é atendido com atenção individual e
+          orientação clara.
           <br />
-          A_Definir
+          Aqui, acreditamos que um trabalhador bem orientado sabe o que fazer —
+          e é isso que oferecemos: direcionamento jurídico objetivo, sem
+          complicações.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Na Auler Advocacia, cada cliente é atendido com atenção individual e
+          orientação clara.
           <br />
           <br />
-          A_Definir
+          Aqui, acreditamos que um trabalhador bem orientado sabe o que fazer —
+          e é isso que oferecemos: direcionamento jurídico objetivo, sem
+          complicações.
           <br />
           <br />
-          A_Definir
+          Atuamos com foco na realidade de cada caso, especialmente em questões
+          trabalhistas, buscando sempre a solução mais justa dentro do que prevê
+          o direito.
           <br />
           <br />
-          A_Definir
+          Nossa comunicação é acessível, direta e sem juridiquês, porque
+          entendemos que o mais importante é você saber exatamente onde está
+          pisando.
           <br />
           <br />
         </p>
