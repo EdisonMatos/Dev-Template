@@ -9,7 +9,8 @@ export default function Button({
   onClick,
   buttonLink,
   className,
-  textclassName = "",
+  textclassName,
+  labelColor, // ✅ Adicionado
   size,
   sizeFeatures,
   gap,
@@ -58,14 +59,16 @@ export default function Button({
         <MotionDivDownToUp className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} bg-primary flex-row items-center justify-around transition ${color} text-labelButtons desktop1:hover:scale-110`}
+            className={`flex ${className} ${sizeFeatures} bg-buttonColor flex-row items-center justify-around transition ${color} text-labelButtons desktop1:hover:scale-110`}
           >
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
               {icon && <div className={`${buttonColor}`}>{icon}</div>}
               <p
-                className={`flex items-center ${textSizeClass} ${textclassName} ${buttonColor}`}
+                className={`flex items-center ${textSizeClass} ${
+                  labelColor || buttonColor
+                } ${textclassName}`}
               >
                 {label}
               </p>
@@ -76,14 +79,16 @@ export default function Button({
         <div className="w-auto">
           <button
             onClick={onClick}
-            className={`flex ${className} ${sizeFeatures} bg-primary flex-row items-center justify-around transition ${color} text-labelButtons desktop1:hover:scale-110`}
+            className={`flex ${className} ${sizeFeatures} bg-buttonColor flex-row items-center justify-around transition ${color} text-labelButtons desktop1:hover:scale-110`}
           >
             <div
               className={`flex items-center text-center ${gap} min-h-[24px]`}
             >
               {icon && <div className={`${buttonColor}`}>{icon}</div>}
               <p
-                className={`flex items-center ${textSizeClass} ${textclassName} ${buttonColor}`}
+                className={`flex items-center ${textSizeClass} ${
+                  labelColor || buttonColor
+                } ${textclassName}`}
               >
                 {label}
               </p>
