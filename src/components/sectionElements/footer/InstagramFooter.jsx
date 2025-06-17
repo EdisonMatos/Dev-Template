@@ -1,8 +1,7 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import IconButton from "../../interactives/IconButton"
+import IconButton from "../../interactives/IconButton";
 import content from "../../../content/content";
-
 
 function InstagramFooter() {
   return (
@@ -21,7 +20,7 @@ function InstagramFooter() {
               width="20"
               height="20"
               viewBox="0 0 24 24"
-              fill=""
+              fill="transparent"
               stroke="currentColor"
               stroke-width="2"
               stroke-linecap="round"

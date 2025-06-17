@@ -5,7 +5,7 @@ export default function IconFeatureCard(props) {
 
   const bgClassesIcon = {
     dark: "bg-primary",
-    light: "bg-primary",
+    light: "bg-minititle",
     default: "bg-primary",
   };
   const textClasses = {
