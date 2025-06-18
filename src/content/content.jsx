@@ -96,7 +96,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "humbertoariza.adv", // Sem o @
+  instagramSecundaryProfile: "monteiroariza.adv", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,20 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM SÃO CAETANO DO SUL - SP",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Ignorar não resolve.
+          <span className="text-primary"> Agir transforma.</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Enquanto o problema cresce, a solução pode estar a uma conversa de distância.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Quero resolver isso agora",
       obsHero: {
         icon: (
           <svg
@@ -156,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento preferencialmente online, presencial com agendamento prévio.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -182,15 +184,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas",
+      subtitle: "Atuação estratégica em diversas frentes do Direito",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle: "Soluções jurídicas em conflitos e responsabilidades.",
         description: (
           <div>
             A_Definir
@@ -217,8 +219,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito de Família e Sucessões",
+        subtitle: "Apoio legal em divórcios, guarda e heranças.",
         description: (
           <div>
             A_Definir
@@ -245,8 +247,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Penal",
+        subtitle: "Defesa em processos criminais e investigações.",
         description: (
           <div>
             A_Definir <br />
@@ -272,8 +274,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Trabalhista",
+        subtitle: "Representação em ações entre empregado e empresa.",
         description: (
           <div>
             A_Definir
@@ -362,33 +364,48 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. HUMBERTO ARIZA",
+      title: "Nossa História e Propósito",
+      subtitle:
+        "Da gestão de bens à advocacia moderna, com foco em soluções práticas",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Desde 1999 atuando no ramo imobiliário e na administração de bens, o
+          fundador do escritório sempre teve uma relação próxima com o Direito.
           <br />
-          A_Definir
+          Essa paixão resultou na decisão de cursar a graduação em Direito,
+          seguida por duas pós-graduações e intensa vivência prática no Tribunal
+          de Justiça do Estado de São Paulo.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Desde 1999 atuando no ramo imobiliário e na administração de bens, o
+          fundador do escritório sempre teve uma relação próxima com o Direito.
           <br />
           <br />
-          A_Definir
+          Essa paixão resultou na decisão de cursar a graduação em Direito,
+          seguida por duas pós-graduações e intensa vivência prática no Tribunal
+          de Justiça do Estado de São Paulo.
           <br />
           <br />
-          A_Definir
+          Com um posicionamento moderno, acessível e diferenciado, o escritório
+          tem como missão oferecer soluções jurídicas com empatia e
+          objetividade.
           <br />
           <br />
-          A_Definir
+          Atuamos de forma estratégica, orientando o cliente com clareza sobre
+          seus direitos, riscos e melhores decisões.
+          <br />
+          <br />
+          Nosso foco é eliminar a insegurança jurídica e resolver conflitos com
+          inteligência, dedicação e proximidade. Aqui, sua causa é tratada com
+          prioridade — sempre com responsabilidade e transparência.
           <br />
           <br />
         </p>
@@ -402,9 +419,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p>A_Definir</p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
@@ -422,31 +440,35 @@ const content = {
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
     },
@@ -462,25 +484,29 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Como posso contratar seus serviços?",
+          answer:
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Qual é o prazo médio para resolução de um caso?",
+          answer:
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
@@ -815,6 +841,7 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      instagramSecundary: `https://www.instagram.com/${infos.instagramSecundaryProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
