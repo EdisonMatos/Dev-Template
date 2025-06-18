@@ -392,33 +392,72 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A RUBENS LOPES ADVOCACIA",
+      title: "Nossa trajetória",
+      subtitle:
+        "Mais de 40 anos de atuação firme no Direito Trabalhista e Aquaviário",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          O Rubens Lopes Advocacia Trabalhista construiu sua história ao longo
+          de mais de quatro décadas, unindo tradição, conhecimento técnico e um
+          atendimento próximo e acessível.
           <br />
-          A_Definir
+          Fundado em 1984 por Raimundo Rubens Lopes, o escritório nasceu de uma
+          trajetória marcada pela superação, pela ética e pelo compromisso com a
+          excelência jurídica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          O Rubens Lopes Advocacia Trabalhista construiu sua história ao longo
+          de mais de quatro décadas, unindo tradição, conhecimento técnico e um
+          atendimento próximo e acessível.
           <br />
           <br />
-          A_Definir
+          Fundado em 1984 por Raimundo Rubens Lopes, o escritório nasceu de uma
+          trajetória marcada pela superação, pela ética e pelo compromisso com a
+          excelência jurídica.
           <br />
           <br />
-          A_Definir
+          Mesmo em um cenário adverso e com recursos limitados, consolidou-se
+          rapidamente no Direito do Trabalho — área que revelou sua verdadeira
+          vocação.
           <br />
           <br />
-          A_Definir
+          Com o tempo, especializou-se profundamente no atendimento a
+          trabalhadores do setor aquaviário, com destaque para a atuação no
+          Direito Marítimo Trabalhista.
+          <br />
+          <br />
+          O escritório tornou-se referência na Região Norte, prestando serviços
+          jurídicos altamente qualificados, tanto em demandas individuais quanto
+          coletivas.
+          <br />
+          <br />
+          Seu maior diferencial está na expertise da equipe: profissionais com
+          sólida formação jurídica e amplo domínio das normas e especificidades
+          do setor aquaviário, capazes de oferecer soluções precisas e
+          eficientes para os desafios enfrentados por trabalhadores que atuam em
+          rios e mares.
+          <br />
+          <br />
+          Hoje, com sede própria e estrutura moderna, o Rubens Lopes Advocacia
+          segue oferecendo um atendimento transparente, acessível e comprometido
+          com os resultados.
+          <br />
+          <br />
+          Cada caso é conduzido com responsabilidade e estratégia, sempre com o
+          objetivo de garantir justiça e reconhecimento de direitos aos
+          profissionais do setor aquaviário.
+          <br />
+          <br />
+          Mais do que um escritório, somos um legado jurídico construído com
+          ética, dedicação e resultados.
           <br />
           <br />
         </p>
