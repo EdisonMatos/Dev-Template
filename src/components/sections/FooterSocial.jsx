@@ -23,6 +23,7 @@ import EmailSecundarioFooter from "../sectionElements/footer/EmailSecundarioFoot
 import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
 import ExpedienteSecondFooter from "../sectionElements/footer/ExpedienteSecondFooter.jsx";
+import InstagramSecundaryFooter from "../sectionElements/footer/InstagramSecundaryFooter.jsx";
 
 export default function FooterSocial({
   colorMode,
@@ -38,6 +39,7 @@ export default function FooterSocial({
   phoneSecundario,
   phoneTerciario,
   expedientesecond,
+  instagramSecundary,
 }) {
   // Define estilos com base no colorMode
   let footerBackground = "";
@@ -88,6 +90,7 @@ export default function FooterSocial({
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
                     {instagram && <InstagramFooter />}
+                    {instagramSecundary && <InstagramSecundaryFooter/>}
                     {tiktok && <TikTokFooter />}
                     {facebook && <FacebookFooter />}
                     {x && <XFooter />}

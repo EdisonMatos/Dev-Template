@@ -5,7 +5,7 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#D3D3D3",
+      primary: "#DFB665",
       secondary: "#000000",
 
       // Fundos de Seção
@@ -25,10 +25,10 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      buttonColor: "#D3D3D3",
+      buttonColor: "#DBB14C",
       iconButtons: "#000",
       labelButtons: "#000",
-      minititle: "#D3D3D3",
+      minititle: "#DFB665",
 
       // Sombras
 

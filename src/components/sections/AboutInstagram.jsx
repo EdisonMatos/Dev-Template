@@ -12,6 +12,7 @@ import InstagramAbout from "../sectionElements/aboutInstagram/InstagramAbout";
 import DefaultInstagram from "../sectionElements/aboutInstagram/DefaultInstagram";
 import ParagraphsAboutSocial from "../sectionElements/aboutInstagram/ParagraphsAboutSocial";
 import TikTokAbout from "../sectionElements/aboutInstagram/TiktokAbout";
+import InstagramSecundaryAbout from "../sectionElements/aboutInstagram/InstagramSecundaryAbout";
 
 export default function AboutInstagram({
   instagram,
@@ -21,6 +22,7 @@ export default function AboutInstagram({
   tiktok,
   socialPrint,
   colorMode,
+  instagramSecundary,
 }) {
   // Definir classes de tema
   const bgClasses = {
@@ -64,6 +66,7 @@ export default function AboutInstagram({
             {x && <XAbout colorMode={colorMode} />}
             {linkedin && <LinkedInAbout colorMode={colorMode} />}
             {tiktok && <TikTokAbout />}
+            {instagramSecundary && <InstagramSecundaryAbout />}
           </div>
         </div>
       </SectionWrapper>
