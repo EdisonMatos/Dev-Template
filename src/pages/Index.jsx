@@ -54,8 +54,8 @@ export default function Index() {
         colorMode={colorMode}
         addres={true}
         addresSecundario={false}
-        phoneSecundario={true}
-        phoneTerciario={true}
+        phoneSecundario={false}
+        phoneTerciario={false}
         expedientesecond={false}
         instagram={true}
         instagramSecundary={true}
