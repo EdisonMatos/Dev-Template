@@ -381,11 +381,12 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Belém - PA",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.9012095868977!2d-48.489304999999995!3d-1.433198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48eb2085dcf9b%3A0x6760c0e3fc6277a6!2sRubens%20Lopes%20%7C%20Advocacia!5e1!3m2!1spt-BR!2sbr!4v1750251431870!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
@@ -483,37 +484,43 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "FALE CONOSCO",
+      title:
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
       subtitle: "",
       img: imgSteps,
       alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Consulta inicial",
+          cardDescription:
+            "Realizamos uma reunião individual para entender sua realidade a bordo e identificar com precisão suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Análise detalhada",
+          cardDescription:
+            "Analisamos documentos, contratos e situações específicas da atividade embarcada, garantindo uma visão técnica e completa do seu caso.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Elaboração da estratégia",
+          cardDescription:
+            "Desenvolvemos uma estratégia jurídica focada no setor aquaviário, com soluções eficazes para proteger seus direitos trabalhistas.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "A_Definir",
-          cardDescription: "A_Definir",
+          cardTitle: "Ação legal",
+          cardDescription:
+            "Damos início às medidas legais ou administrativas necessárias, sempre com foco em resultados reais para quem vive do trabalho sobre as águas.",
         },
       },
     },
@@ -529,25 +536,32 @@ const content = {
       blogLink: "https://blogtestepaper.wordpress.com/",
     },
     faq: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Tenho direito ao vínculo empregatício mesmo trabalhando por escala embarcada?",
+          answer:
+            "Sim. Mesmo em regime de escala, é possível caracterizar vínculo empregatício se houver subordinação, habitualidade, pessoalidade e remuneração. Cada caso precisa ser analisado individualmente.",
         },
         question2: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "A empresa não pagou minhas verbas rescisórias após o desembarque. O que posso fazer?",
+          answer:
+            "Você pode exigir judicialmente o pagamento das verbas rescisórias. Atuamos para garantir que seus direitos sejam reconhecidos e pagos com correção, incluindo possíveis multas e indenizações.",
         },
         question3: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question:
+            "Trabalhei como embarcado sem registro em carteira. Posso buscar meus direitos?",
+          answer:
+            "Sim. O fato de não ter registro não elimina seus direitos. Com provas e documentos, é possível pleitear reconhecimento do vínculo e todos os direitos trabalhistas decorrentes.",
         },
         question4: {
-          question: "A_Definir",
-          answer: "A_Definir",
+          question: "A atuação do escritório é apenas em Belém - PA?",
+          answer:
+            "Apesar da sede ser em Belém - PA, atendemos trabalhadores e empresas de todo o setor aquaviário da Região Norte, inclusive de outros estados, com suporte jurídico remoto ou presencial conforme necessário.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
