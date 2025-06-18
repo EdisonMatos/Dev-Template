@@ -42,9 +42,8 @@ export default function Index() {
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram
         colorMode={colorMode}
-        instagram={true}
-        socialPrint={true}
-        instagramSecundary={true}
+        facebook={true}
+        socialPrint={false}
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
@@ -57,8 +56,7 @@ export default function Index() {
         phoneSecundario={false}
         phoneTerciario={false}
         expedientesecond={false}
-        instagram={true}
-        instagramSecundary={true}
+        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
