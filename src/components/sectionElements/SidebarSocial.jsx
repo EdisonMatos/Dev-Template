@@ -89,7 +89,7 @@ export default function SidebarSocial({ colorMode }) {
                     <img
                       src={content.texts.navbar.solidLogo.img}
                       alt={content.texts.navbar.solidLogo.alt}
-                      className="w-auto h-auto p-[5px]"
+                      className="w-auto h-auto p-[5px] bg-white rounded-md"
                     />
                   </span>
                   <span>

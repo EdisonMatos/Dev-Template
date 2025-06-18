@@ -47,7 +47,8 @@ export default function AboutInstagram({
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
             <SectionHeader
-              className={`text-center ${textClass}`}
+              // className={`text-center ${textClass}`}
+              className={`text-center`}
               miniTitle={content.texts.about.aboutSocial.miniTag}
               sectionHeaderTitle={content.texts.about.aboutSocial.title}
               sectionHeaderSubtitle={content.texts.about.aboutSocial.subtitle}

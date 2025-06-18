@@ -28,6 +28,7 @@ export default function Cta({ colorMode = "default" }) {
       <SectionArea className={`${bgClass}`}>
         <SectionWrapper>
           <SectionHeader
+            colorMode="dark"
             className={`text-center ${textClass}`}
             miniTitle={content.texts.cta.miniTag}
             sectionHeaderTitle={content.texts.cta.title}
@@ -39,7 +40,9 @@ export default function Cta({ colorMode = "default" }) {
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label={content.texts.cta.ctaButtonText}
             animation
-            icon={<FaWhatsapp size={24} />}
+            icon={<FaWhatsapp color="white" size={24} />}
+            labelColor="text-white"
+            className="bg-darker"
           />
         </SectionWrapper>
       </SectionArea>
