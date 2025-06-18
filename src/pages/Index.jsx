@@ -52,13 +52,11 @@ export default function Index() {
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addres={false}
+        addres={true}
         addresSecundario={false}
-        phoneSecundario={false}
-        phoneTerciario={false}
+        phoneSecundario={true}
+        phoneTerciario={true}
         expedientesecond={false}
-        instagram={true}
-        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
