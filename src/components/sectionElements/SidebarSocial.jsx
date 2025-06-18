@@ -76,7 +76,6 @@ export default function SidebarSocial({ colorMode }) {
             <div
               id="app-sidebar-2"
               className={`${
-
                 colorMode
                   ? "bg-bgSectionDark"
                   : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
@@ -89,7 +88,7 @@ export default function SidebarSocial({ colorMode }) {
                     <img
                       src={content.texts.navbar.solidLogo.img}
                       alt={content.texts.navbar.solidLogo.alt}
-                      className="w-auto h-auto p-[5px] bg-white rounded-md"
+                      className="w-auto h-auto p-[5px] "
                     />
                   </span>
                   <span>
@@ -101,7 +100,6 @@ export default function SidebarSocial({ colorMode }) {
                       rounded
                       outlined
                       className={`${
-
                         colorMode
                           ? "text-primary"
                           : "h-2rem w-2rem p-[5px] text-white"
@@ -116,7 +114,6 @@ export default function SidebarSocial({ colorMode }) {
                       {submenuVisible && (
                         <ul
                           className={`${
-
                             colorMode
                               ? "text-primary"
                               : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"

@@ -5,7 +5,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
@@ -14,7 +14,7 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
@@ -53,31 +53,31 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Advogado Hikson",
+  name: "Rubens Lopes Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "hiksongomesadvogado.com.br", // Sem "www"
+  domain: "rubenslopesadv.com.br", // Sem "www"
   phone: {
-    ddd: "94",
-    firstPart: "98169", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7253", // Apenas os 4 últimos números
+    ddd: "91",
+    firstPart: "3233", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "6075", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "91",
+    firstPart: "98120", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8216", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "91",
+    firstPart: "3244", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5304", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Tv. Manoel Evaristo, </p>
+      <p>nº 321 - Umarizal Belém - PA,</p>
+      <p>CEP: 66050-290</p>
     </div>
   ),
   enderecoSecundario: (
@@ -97,8 +97,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "hiksongomes_advogado", // Sem o @
-  facebookProfile: "DrHiksonGomes",
+  instagramProfile: "A_definir", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -124,21 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM PARAUAPEBAS - PA",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM BELÉM - PA",
       title: (
         <h1 className="mb-[16px]">
-          Por trás de cada caso,
-          <span className="text-primary"> um impacto real</span>
+          Advocacia especializada em
+          <span className="text-primary"> direito marítimo</span>
         </h1>
       ),
       subtitle:
-        "Atuação firme, humana e estratégica para transformar conflitos em soluções duradouras.",
+        "Quem vive embarcado merece mais que promessas. É hora de exigir o que é seu por direito.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero saber como isso funciona",
+      ctaButtonText: "A_DefinFaça valer minha jornadair",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Somente atendimento online (videoconferência)",
+        text: "Atendimento especializado à empresas e empregados embarcados.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -185,15 +185,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADES",
-      title: "Direito com foco e precisão",
+      title: "Justiça para quem vive embarcado",
       subtitle:
-        "Conheça os campos do Direito em que oferecemos assessoria especializada",
+        "Atuação jurídica especializada em rotinas do trabalho aquaviário",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Empresarial e Contratual",
-        subtitle: "Soluções jurídicas para empresas e contratos diversos",
+        title: "Direito Marítimo",
+        subtitle: "Defesa jurídica para profissionais do setor aquaviário",
         description: (
           <div>
             A_Definir
@@ -206,20 +206,19 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-anchor-icon lucide-anchor"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M12 22V8" />
+            <path d="M5 12H2a10 10 0 0 0 20 0h-3" />
+            <circle cx="12" cy="5" r="3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +226,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Tributário e Previdenciário",
-        subtitle: "Planejamento fiscal e defesa de direitos previdenciários",
+        title: "Direito Trabalhista",
+        subtitle: "Reconhecimento de vínculo e verbas de tripulantes",
         description: (
           <div>
             A_Definir
@@ -241,21 +240,20 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-hard-hat-icon lucide-hard-hat"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5" />
+            <path d="M14 6a6 6 0 0 1 6 6v3" />
+            <path d="M4 15v-3a6 6 0 0 1 6-6" />
+            <rect x="2" y="15" width="20" height="4" rx="1" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -263,8 +261,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Ações e consultoria em relações de trabalho e emprego",
+        title: "Direito Cível",
+        subtitle: "Consultoria em contratos e conflitos da navegação",
         description: (
           <div>
             A_Definir <br />
@@ -276,8 +274,8 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -298,8 +296,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Cível e Notarial",
-        subtitle: "Atuação em contratos, família, sucessões e cartórios",
+        title: "Direito Previdenciário",
+        subtitle: "Benefícios e aposentadoria para quem navega a trabalho",
         description: (
           <div>
             A_Definir
@@ -312,20 +310,19 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scroll-text-icon lucide-scroll-text"
+            class="lucide lucide-piggy-bank-icon lucide-piggy-bank"
           >
-            <path d="M15 12h-5" />
-            <path d="M15 8h-5" />
-            <path d="M19 17V5a2 2 0 0 0-2-2H4" />
-            <path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3" />
+            <path d="M11 17h3v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3a3.16 3.16 0 0 0 2-2h1a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-1a5 5 0 0 0-2-4V3a4 4 0 0 0-3.2 1.6l-.3.4H11a6 6 0 0 0-6 6v1a5 5 0 0 0 2 4v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1z" />
+            <path d="M16 10h.01" />
+            <path d="M2 8v1a2 2 0 0 0 2 2h1" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -333,8 +330,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "Direito Penal e Eleitoral",
-        subtitle: "Defesa criminal e representação em causas eleitorais",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -347,56 +344,19 @@ const content = {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
+            width="24"
+            height="24"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card6: {
-        img: featuresImg4,
-        title: "Direito Minerário e Bancário",
-        subtitle:
-          "Conflitos minerários e litígios com instituições financeiras",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-banknote-icon lucide-banknote"
-          >
-            <rect width="20" height="12" x="2" y="6" rx="2" />
-            <circle cx="12" cy="12" r="2" />
-            <path d="M6 12h.01M18 12h.01" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -421,50 +381,84 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Belém - PA",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.9012095868977!2d-48.489304999999995!3d-1.433198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48eb2085dcf9b%3A0x6760c0e3fc6277a6!2sRubens%20Lopes%20%7C%20Advocacia!5e1!3m2!1spt-BR!2sbr!4v1750251431870!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR HIKSON GOMES",
-      title: "Minha trajetória",
+      miniTag: "QUEM É A RUBENS LOPES ADVOCACIA",
+      title: "Nossa trajetória",
       subtitle:
-        "Experiência, escuta ativa e estratégia para cuidar do que realmente importa",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+        "Mais de 40 anos de atuação firme no Direito Trabalhista e Aquaviário",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Com mais de 10 anos de atuação no Direito, construí uma jornada sólida
-          e estratégica no contencioso e consultivo, sempre voltado a entregar
-          soluções reais para quem confia em meu trabalho.
+          O Rubens Lopes Advocacia Trabalhista construiu sua história ao longo
+          de mais de quatro décadas, unindo tradição, conhecimento técnico e um
+          atendimento próximo e acessível.
+          <br />
+          Fundado em 1984 por Raimundo Rubens Lopes, o escritório nasceu de uma
+          trajetória marcada pela superação, pela ética e pelo compromisso com a
+          excelência jurídica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com mais de 10 anos de atuação no Direito, construí uma jornada sólida
-          e estratégica no contencioso e consultivo, sempre voltado a entregar
-          soluções reais para quem confia em meu trabalho.
+          O Rubens Lopes Advocacia Trabalhista construiu sua história ao longo
+          de mais de quatro décadas, unindo tradição, conhecimento técnico e um
+          atendimento próximo e acessível.
           <br />
           <br />
-          Atuo de forma moderna, com atendimento personalizado, detalhista e
-          próximo. Acredito que cada cliente carrega uma história única — por
-          isso, a escuta ativa e a comunicação direta são pilares no meu dia a
-          dia.
+          Fundado em 1984 por Raimundo Rubens Lopes, o escritório nasceu de uma
+          trajetória marcada pela superação, pela ética e pelo compromisso com a
+          excelência jurídica.
           <br />
           <br />
-          Mais do que resolver problemas jurídicos, minha missão é proporcionar
-          segurança, clareza e confiança em cada etapa do processo. Aqui, você
-          encontra comprometimento, resistência e um olhar atento aos detalhes
-          que fazem a diferença.
+          Mesmo em um cenário adverso e com recursos limitados, consolidou-se
+          rapidamente no Direito do Trabalho — área que revelou sua verdadeira
+          vocação.
+          <br />
+          <br />
+          Com o tempo, especializou-se profundamente no atendimento a
+          trabalhadores do setor aquaviário, com destaque para a atuação no
+          Direito Marítimo Trabalhista.
+          <br />
+          <br />
+          O escritório tornou-se referência na Região Norte, prestando serviços
+          jurídicos altamente qualificados, tanto em demandas individuais quanto
+          coletivas.
+          <br />
+          <br />
+          Seu maior diferencial está na expertise da equipe: profissionais com
+          sólida formação jurídica e amplo domínio das normas e especificidades
+          do setor aquaviário, capazes de oferecer soluções precisas e
+          eficientes para os desafios enfrentados por trabalhadores que atuam em
+          rios e mares.
+          <br />
+          <br />
+          Hoje, com sede própria e estrutura moderna, o Rubens Lopes Advocacia
+          segue oferecendo um atendimento transparente, acessível e comprometido
+          com os resultados.
+          <br />
+          <br />
+          Cada caso é conduzido com responsabilidade e estratégia, sempre com o
+          objetivo de garantir justiça e reconhecimento de direitos aos
+          profissionais do setor aquaviário.
+          <br />
+          <br />
+          Mais do que um escritório, somos um legado jurídico construído com
+          ética, dedicação e resultados.
           <br />
           <br />
         </p>
@@ -478,15 +472,14 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
-        paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -509,25 +502,25 @@ const content = {
           stepNumber: 1,
           cardTitle: "Consulta inicial",
           cardDescription:
-            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
+            "Realizamos uma reunião individual para entender sua realidade a bordo e identificar com precisão suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
           cardTitle: "Análise detalhada",
           cardDescription:
-            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
+            "Analisamos documentos, contratos e situações específicas da atividade embarcada, garantindo uma visão técnica e completa do seu caso.",
         },
         card3: {
           stepNumber: 3,
           cardTitle: "Elaboração da estratégia",
           cardDescription:
-            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
+            "Desenvolvemos uma estratégia jurídica focada no setor aquaviário, com soluções eficazes para proteger seus direitos trabalhistas.",
         },
         card4: {
           stepNumber: 4,
           cardTitle: "Ação legal",
           cardDescription:
-            "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
+            "Damos início às medidas legais ou administrativas necessárias, sempre com foco em resultados reais para quem vive do trabalho sobre as águas.",
         },
       },
     },
@@ -548,24 +541,27 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question:
+            "Tenho direito ao vínculo empregatício mesmo trabalhando por escala embarcada?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Sim. Mesmo em regime de escala, é possível caracterizar vínculo empregatício se houver subordinação, habitualidade, pessoalidade e remuneração. Cada caso precisa ser analisado individualmente.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question:
+            "A empresa não pagou minhas verbas rescisórias após o desembarque. O que posso fazer?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Você pode exigir judicialmente o pagamento das verbas rescisórias. Atuamos para garantir que seus direitos sejam reconhecidos e pagos com correção, incluindo possíveis multas e indenizações.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question:
+            "Trabalhei como embarcado sem registro em carteira. Posso buscar meus direitos?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Sim. O fato de não ter registro não elimina seus direitos. Com provas e documentos, é possível pleitear reconhecimento do vínculo e todos os direitos trabalhistas decorrentes.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "A atuação do escritório é apenas em Belém - PA?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Apesar da sede ser em Belém - PA, atendemos trabalhadores e empresas de todo o setor aquaviário da Região Norte, inclusive de outros estados, com suporte jurídico remoto ou presencial conforme necessário.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

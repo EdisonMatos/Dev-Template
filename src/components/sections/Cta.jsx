@@ -35,14 +35,14 @@ export default function Cta({ colorMode = "default" }) {
             sectionHeaderSubtitle={content.texts.cta.subtitle}
             titleColorSet={textClass}
             subtitleColorSet={textClass}
+            miniTitleBgColor="bg-minititle"
+            miniTitleTextColor="text-darker"
           />
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label={content.texts.cta.ctaButtonText}
             animation
-            icon={<FaWhatsapp color="white" size={24} />}
-            labelColor="text-white"
-            className="bg-darker"
+            icon={<FaWhatsapp size={24} />}
           />
         </SectionWrapper>
       </SectionArea>
