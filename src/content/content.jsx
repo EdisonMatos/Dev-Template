@@ -14,8 +14,8 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
-import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Humberto Ariza",
+  name: "Barros Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "arizaadvocacia.com.br", // Sem "www"
+  domain: "barrosadvocacia.com.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "97861", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1538", // Apenas os 4 últimos números
+    firstPart: "2037", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2448", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua General Humberto de Alencar Castelo Branco,</p>
-      <p>nº 276, Santa Maria São Caetano do Sul - SP,</p>
-      <p>CEP 09560-380</p>
+      <p>Rua Pico da Neblina,</p>
+      <p>341 - Pq. Cruzeiro do Sul,</p>
+      <p>São Paulo - SP,</p>
+      <p>CEP: 08070-090</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,13 +93,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8:30 às 18:30</p>
+      <p>11h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "humbertoariza.adv", // Sem o @
-  instagramSecundaryProfile: "monteiroariza.adv", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "A_definir", // Sem o @
+  facebookProfile: "barrosadvocacia2",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -124,21 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SÃO CAETANO DO SUL - SP",
+      miniTag: "ADVOGADO EM TODA GRANDE SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Ignorar não resolve.
-          <span className="text-primary"> Agir transforma.</span>
+          O que nenhum advogado
+          <span className="text-primary"> jamais</span> te contou
         </h1>
       ),
       subtitle:
-        "Enquanto o problema cresce, a solução pode estar a uma conversa de distância.",
+        "Descubra como evitar prejuízos silenciosos com decisões jurídicas que não parecem corretas.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero resolver isso agora",
+      ctaButtonText: "Falar com advogado",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento preferencialmente online, presencial com agendamento prévio.",
+        text: "Atendimento presencial e online para todo o Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -185,14 +185,15 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades jurídicas",
-      subtitle: "Atuação estratégica em diversas frentes do Direito",
+      title: "Soluções jurídicas em diversas especialidades",
+      subtitle:
+        "Atendimento completo e estratégico nas principais áreas do Direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Soluções jurídicas em conflitos e responsabilidades.",
+        title: "Direito Previdenciário",
+        subtitle: "Benefícios do INSS e revisão de aposentadorias",
         description: (
           <div>
             A_Definir
@@ -213,13 +214,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +228,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Apoio legal em divórcios, guarda e heranças.",
+        title: "Direito Administrativo",
+        subtitle: "Defesa em concursos, servidores e licitações",
         description: (
           <div>
             A_Definir
@@ -238,40 +239,6 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
-          >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Direito Penal",
-        subtitle: "Defesa em processos criminais e investigações.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -295,10 +262,44 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
+      card3: {
+        img: featuresImg3,
+        title: "Direito de Família e Sucessões",
+        subtitle: "Divórcio, pensão, guarda e inventários",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users-icon lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
       card4: {
         img: featuresImg4,
-        title: "Direito Trabalhista",
-        subtitle: "Representação em ações entre empregado e empresa.",
+        title: "Direito Cível",
+        subtitle: "Contratos, indenizações e responsabilidade civil",
         description: (
           <div>
             A_Definir
@@ -319,12 +320,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-book-open-check-icon lucide-book-open-check"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M12 21V7" />
+            <path d="m16 12 2 2 4-4" />
+            <path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -394,48 +394,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. HUMBERTO ARIZA",
-      title: "Nossa História e Propósito",
+      miniTag: "QUEM É A BARROS ADVOCACIA",
+      title: "Nossa trajetória",
       subtitle:
-        "Da gestão de bens à advocacia moderna, com foco em soluções práticas",
+        "Compromisso com ética, agilidade e atendimento verdadeiramente humano.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Desde 1999 atuando no ramo imobiliário e na administração de bens, o
-          fundador do escritório sempre teve uma relação próxima com o Direito.
+          A Barros Advocacia nasceu com o propósito de oferecer serviços
+          jurídicos pautados na ética, transparência e eficiência.
           <br />
-          Essa paixão resultou na decisão de cursar a graduação em Direito,
-          seguida por duas pós-graduações e intensa vivência prática no Tribunal
-          de Justiça do Estado de São Paulo.
+          Nossa missão é atender cada cliente de forma personalizada, com uma
+          abordagem pró-ativa que busca não apenas solucionar demandas, mas
+          também antecipar oportunidades e proteger interesses futuros.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Desde 1999 atuando no ramo imobiliário e na administração de bens, o
-          fundador do escritório sempre teve uma relação próxima com o Direito.
+          A Barros Advocacia nasceu com o propósito de oferecer serviços
+          jurídicos pautados na ética, transparência e eficiência.
           <br />
           <br />
-          Essa paixão resultou na decisão de cursar a graduação em Direito,
-          seguida por duas pós-graduações e intensa vivência prática no Tribunal
-          de Justiça do Estado de São Paulo.
+          Nossa missão é atender cada cliente de forma personalizada, com uma
+          abordagem pró-ativa que busca não apenas solucionar demandas, mas
+          também antecipar oportunidades e proteger interesses futuros.
           <br />
           <br />
-          Com um posicionamento moderno, acessível e diferenciado, o escritório
-          tem como missão oferecer soluções jurídicas com empatia e
-          objetividade.
+          Com atuação nas áreas Trabalhista, Consumidor, Civil, Família e
+          Previdenciário, prestamos tanto consultoria quanto atuação
+          contenciosa.
           <br />
           <br />
-          Atuamos de forma estratégica, orientando o cliente com clareza sobre
-          seus direitos, riscos e melhores decisões.
+          Contamos ainda com parceiros estratégicos para garantir uma assessoria
+          jurídica completa em todos os ramos do Direito, tanto para pessoas
+          físicas quanto jurídicas.
           <br />
           <br />
-          Nosso foco é eliminar a insegurança jurídica e resolver conflitos com
-          inteligência, dedicação e proximidade. Aqui, sua causa é tratada com
-          prioridade — sempre com responsabilidade e transparência.
+          Priorizamos o relacionamento próximo e direto com nossos clientes,
+          acreditando que a confiança e o diálogo constante são essenciais para
+          resultados mais eficazes.
+          <br />
+          <br />
+          Nosso escritório mantém canais abertos de comunicação, com
+          atualizações contínuas dos processos e reuniões frequentes para
+          alinhar estratégias, traduzindo a complexidade legal em soluções
+          claras, humanas e efetivas.
           <br />
           <br />
         </p>
@@ -871,7 +878,6 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
-      instagramSecundary: `https://www.instagram.com/${infos.instagramSecundaryProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
