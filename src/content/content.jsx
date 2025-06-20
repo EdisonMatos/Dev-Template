@@ -392,33 +392,56 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A ZÖLL JR. ADVOCACIA",
+      title: " Minha trajetória",
+      subtitle:
+        "Atuação desde 2006 com foco em soluções jurídicas rápidas e eficientes",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Desde 2006, venho construindo uma trajetória sólida na advocacia,
+          sempre com foco na objetividade e na resolução prática dos problemas
+          jurídicos que chegam até mim.
           <br />
-          A_Definir
+          Com a experiência adquirida ao longo desses anos, desenvolvi uma
+          abordagem que valoriza o tempo do cliente e evita burocracias
+          desnecessárias, sem abrir mão da seriedade e da técnica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Desde 2006, venho construindo uma trajetória sólida na advocacia,
+          sempre com foco na objetividade e na resolução prática dos problemas
+          jurídicos que chegam até mim.
           <br />
           <br />
-          A_Definir
+          Com a experiência adquirida ao longo desses anos, desenvolvi uma
+          abordagem que valoriza o tempo do cliente e evita burocracias
+          desnecessárias, sem abrir mão da seriedade e da técnica.
           <br />
           <br />
-          A_Definir
+          A Zöll Jr. Advocacia nasceu com o propósito de ser um escritório
+          moderno, funcional e acessível. Aqui, o cliente encontra soluções
+          jurídicas eficientes, com linguagem clara, atendimento próximo e
+          estratégias personalizadas.
           <br />
           <br />
-          A_Definir
+          Cada caso é tratado com atenção e comprometimento, sempre visando
+          resolver com agilidade — sem complicar o que pode ser simples.
+          <br />
+          <br />
+          Mais do que um escritório, construímos uma relação de confiança com
+          quem nos procura. Trabalhamos com transparência, responsabilidade e
+          respeito, buscando não apenas resultados positivos, mas também
+          tranquilidade e segurança para os nossos clientes.
+          <br />
+          <br />
+          Nosso compromisso é entregar o que prometemos: soluções jurídicas
+          eficazes, com clareza e profissionalismo.
           <br />
           <br />
         </p>
