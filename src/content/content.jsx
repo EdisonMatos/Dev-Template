@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Barros Advocacia",
+  name: "Zöll Jr. Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "barrosadvocacia.com.br", // Sem "www"
+  domain: "advocaciazolljr.com.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "2037", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2448", // Apenas os 4 últimos números
+    firstPart: "93341", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0644", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,30 +75,31 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Pico da Neblina,</p>
-      <p>341 - Pq. Cruzeiro do Sul,</p>
+      <p>Av. Brig. Faria Lima,</p>
+      <p>1572, sl. 1022, Jd. Paulistano,</p>
       <p>São Paulo - SP,</p>
-      <p>CEP: 08070-090</p>
+      <p>CEP 01451-917</p>
     </div>
   ),
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Alm. Protógenes,</p>
+      <p>289, sl 122, Bairro Jardim,</p>
+      <p>Santo André - SP,</p>
+      <p>CEP: 09090-760</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>11h às 18h</p>
+      <p>9h às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "barrosadvocacia2",
+  instagramProfile: "zolljr.advocacia", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -124,21 +125,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM TODA GRANDE SÃO PAULO - SP",
+      miniTag: "ESCRITÓRIO NO SÃO PAULO E ABC PAULISTA",
       title: (
         <h1 className="mb-[16px]">
-          O que nenhum advogado
-          <span className="text-primary"> jamais</span> te contou
+          Resolvendo o que outros
+          <span className="text-primary"> complicam</span>
         </h1>
       ),
       subtitle:
-        "Descubra como evitar prejuízos silenciosos com decisões jurídicas que não parecem corretas.",
+        "Desde 2006, soluções jurídicas sem rodeios, com estratégia, clareza e resultado.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Falar com advogado",
+      ctaButtonText: "Veja como posso te ajudar",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo o Brasil",
+        text: "Atendimento online ou presencial apenas com hora marcada.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,16 +185,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Soluções jurídicas em diversas especialidades",
-      subtitle:
-        "Atendimento completo e estratégico nas principais áreas do Direito.",
+      miniTag: "ESPACIALIDADES",
+      title: "Áreas de atuação jurídica",
+      subtitle: "Conheça nossas principais frentes de trabalho no Direito",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Previdenciário",
-        subtitle: "Benefícios do INSS e revisão de aposentadorias",
+        title: "Direito Cível",
+        subtitle: "Soluções jurídicas em conflitos e obrigações civis",
         description: (
           <div>
             A_Definir
@@ -228,8 +228,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Administrativo",
-        subtitle: "Defesa em concursos, servidores e licitações",
+        title: "Responsabilidade Civil e Contratual",
+        subtitle: "Reparação de danos e revisão de contratos",
         description: (
           <div>
             A_Definir
@@ -250,13 +250,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -264,8 +264,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Divórcio, pensão, guarda e inventários",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa e consultoria em relações de trabalho",
         description: (
           <div>
             A_Definir <br />
@@ -285,12 +285,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-file-pen-icon lucide-file-pen"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M12.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v9.5" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -298,8 +297,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito Cível",
-        subtitle: "Contratos, indenizações e responsabilidade civil",
+        title: "Relações Contemporâneas e Vínculos de Emprego",
+        subtitle: "Atuação em vínculos modernos e direitos trabalhistas",
         description: (
           <div>
             A_Definir
@@ -320,11 +319,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-book-open-check-icon lucide-book-open-check"
+            class="lucide lucide-briefcase-icon lucide-briefcase"
           >
-            <path d="M12 21V7" />
-            <path d="m16 12 2 2 4-4" />
-            <path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />
+            <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -394,55 +392,56 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A BARROS ADVOCACIA",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É A ZÖLL JR. ADVOCACIA",
+      title: " Minha trajetória",
       subtitle:
-        "Compromisso com ética, agilidade e atendimento verdadeiramente humano.",
+        "Atuação desde 2006 com foco em soluções jurídicas rápidas e eficientes",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A Barros Advocacia nasceu com o propósito de oferecer serviços
-          jurídicos pautados na ética, transparência e eficiência.
+          Desde 2006, venho construindo uma trajetória sólida na advocacia,
+          sempre com foco na objetividade e na resolução prática dos problemas
+          jurídicos que chegam até mim.
           <br />
-          Nossa missão é atender cada cliente de forma personalizada, com uma
-          abordagem pró-ativa que busca não apenas solucionar demandas, mas
-          também antecipar oportunidades e proteger interesses futuros.
+          Com a experiência adquirida ao longo desses anos, desenvolvi uma
+          abordagem que valoriza o tempo do cliente e evita burocracias
+          desnecessárias, sem abrir mão da seriedade e da técnica.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Barros Advocacia nasceu com o propósito de oferecer serviços
-          jurídicos pautados na ética, transparência e eficiência.
+          Desde 2006, venho construindo uma trajetória sólida na advocacia,
+          sempre com foco na objetividade e na resolução prática dos problemas
+          jurídicos que chegam até mim.
           <br />
           <br />
-          Nossa missão é atender cada cliente de forma personalizada, com uma
-          abordagem pró-ativa que busca não apenas solucionar demandas, mas
-          também antecipar oportunidades e proteger interesses futuros.
+          Com a experiência adquirida ao longo desses anos, desenvolvi uma
+          abordagem que valoriza o tempo do cliente e evita burocracias
+          desnecessárias, sem abrir mão da seriedade e da técnica.
           <br />
           <br />
-          Com atuação nas áreas Trabalhista, Consumidor, Civil, Família e
-          Previdenciário, prestamos tanto consultoria quanto atuação
-          contenciosa.
+          A Zöll Jr. Advocacia nasceu com o propósito de ser um escritório
+          moderno, funcional e acessível. Aqui, o cliente encontra soluções
+          jurídicas eficientes, com linguagem clara, atendimento próximo e
+          estratégias personalizadas.
           <br />
           <br />
-          Contamos ainda com parceiros estratégicos para garantir uma assessoria
-          jurídica completa em todos os ramos do Direito, tanto para pessoas
-          físicas quanto jurídicas.
+          Cada caso é tratado com atenção e comprometimento, sempre visando
+          resolver com agilidade — sem complicar o que pode ser simples.
           <br />
           <br />
-          Priorizamos o relacionamento próximo e direto com nossos clientes,
-          acreditando que a confiança e o diálogo constante são essenciais para
-          resultados mais eficazes.
+          Mais do que um escritório, construímos uma relação de confiança com
+          quem nos procura. Trabalhamos com transparência, responsabilidade e
+          respeito, buscando não apenas resultados positivos, mas também
+          tranquilidade e segurança para os nossos clientes.
           <br />
           <br />
-          Nosso escritório mantém canais abertos de comunicação, com
-          atualizações contínuas dos processos e reuniões frequentes para
-          alinhar estratégias, traduzindo a complexidade legal em soluções
-          claras, humanas e efetivas.
+          Nosso compromisso é entregar o que prometemos: soluções jurídicas
+          eficazes, com clareza e profissionalismo.
           <br />
           <br />
         </p>

@@ -5,7 +5,7 @@ import content from "../../../content/content";
 function LogoFooter() {
   return (
     <MotionDivDownToUp>
-      <div className="h-[115px] bg-white rounded-md p-3 flex justify-start items-center">
+      <div className="h-[115px] flex justify-start items-center">
         <img
           src={content.texts.navbar.logo.img}
           alt={content.texts.navbar.logo.alt}
