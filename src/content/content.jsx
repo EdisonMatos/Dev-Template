@@ -513,24 +513,25 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Qual a diferença entre divórcio consensual e litigioso?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "No consensual, o casal está de acordo sobre questões como partilha, pensão e guarda — é mais rápido e pode ser feito até em cartório. Já o litigioso ocorre quando há divergência entre as partes, exigindo ação judicial e podendo envolver filhos menores.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Quem fica com a guarda dos filhos após a separação?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "A guarda preferencial no Brasil é compartilhada, quando ambos os pais dividem responsabilidades e decisões. Se não houver acordo, o juiz decide o que é melhor para a criança.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "É obrigatório pagar pensão alimentícia, e até quando?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Sim. A pensão é obrigatória, geralmente até os 18 anos e até 24 se o filho estiver estudando. Em caso de desemprego, podem ser fixados valores mínimos, como um percentual do salário mínimo.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question:
+            "A visita pode ser negada se houver atraso no pagamento da pensão?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Não. O atraso na pensão não autoriza a suspensão das visitas. O responsável pode cobrar o atraso judicialmente, mas não pode usar a criança como estratégia de negociação.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
