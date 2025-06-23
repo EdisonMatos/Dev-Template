@@ -390,33 +390,46 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. JÉSSICA FERNANDES",
+      title: "Minha Trajetória",
+      subtitle:
+        "Compromisso, ética e estratégia em cada detalhe da sua causa jurídica",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Atuo com ética, técnica e comprometimento para oferecer soluções
+          jurídicas seguras e eficazes.
           <br />
-          A_Definir
+          Minha missão é orientar cada cliente com clareza e responsabilidade,
+          sempre buscando os melhores resultados.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Atuo com ética, técnica e comprometimento para oferecer soluções
+          jurídicas seguras e eficazes.
           <br />
           <br />
-          A_Definir
+          Minha missão é orientar cada cliente com clareza e responsabilidade,
+          sempre buscando os melhores resultados.
           <br />
           <br />
-          A_Definir
+          Acredito que cada caso é único e merece uma atenção personalizada.
           <br />
           <br />
-          A_Definir
+          Por isso, escuto com empatia, respeito as particularidades de cada
+          situação e trabalho com estratégia e discrição.
+          <br />
+          <br />
+          <p>
+            Mais do que representar juridicamente, estou aqui para apoiar,
+            acolher e construir caminhos justos e equilibrados para você e sua
+            família.
+          </p>
           <br />
           <br />
         </p>
