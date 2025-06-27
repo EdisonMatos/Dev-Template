@@ -401,7 +401,8 @@ const content = {
       },
       miniTag: "QUEM É O DR. ANDRÉ LIMA",
       title: "Minha trajetória",
-      subtitle: "QUEM É O DR. ANDRÉ LIMA",
+      subtitle:
+        "Compromisso com técnica, agilidade e resultados para desbloqueio de contas",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
