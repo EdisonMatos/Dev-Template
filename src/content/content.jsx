@@ -188,21 +188,32 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ESPECIALIDADE",
+      title: "Direito à saúde e defesa contra abusos dos planos de saúde",
+      subtitle:
+        "Atuação jurídica para garantir tratamentos, coberturas e indenizações na área da saúde.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Ações contra Planos de Saúde",
+        subtitle: "Defesa de direitos negados por operadoras de saúde.",
         description: (
           <div>
-            A_Definir
+            Negativa de fornecimento de medicamentos
             <br />
+            Negativa de cobertura por carência
             <br />
-            A_Definir
+            Negativa de cobertura de cirurgias
+            <br />
+            Negativa de atendimento emergencial ou de urgência
+            <br />
+            Negativa de cobertura de doença preexistente
+            <br />
+            Negativa de cobertura de prótese indispensável ao procedimento
+            cirúrgico
+            <br />
+            Limitação de sessões de quimioterapia ou fisioterapia
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -223,14 +234,20 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Indenizações por Danos Morais e Materiais",
+        subtitle:
+          "Reparação de prejuízos causados por condutas abusivas de planos de saúde.",
         description: (
           <div>
-            A_Definir
+            Indenização por danos morais e materiais por negativa de
+            cobertura/atendimento
             <br />
             <br />
-            A_Definir
+            Indenização por recusa de fornecimento de prótese indispensável
+            <br />
+            <br />
+            Indenização para ressarcimento de despesas antecipadas pelo
+            consumidor
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -251,13 +268,18 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Consumidor na Saúde",
+        subtitle:
+          "Garantia de tratamento digno e justo nas relações com planos e seguros de saúde.",
         description: (
           <div>
-            A_Definir <br />
+            Análise de contratos e cláusulas abusivas
             <br />
-            A_Definir
+            <br />
+            Limitação de coberturas
+            <br />
+            <br />
+            Falta de informações claras sobre direitos
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -306,14 +328,18 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Ações de Urgência e Liminares",
+        subtitle:
+          "Garantia rápida de acesso a tratamentos de saúde essenciais.",
         description: (
           <div>
-            A_Definir
+            Liminares para fornecimento de medicamentos
             <br />
             <br />
-            A_Definir
+            Liminares para cirurgias ou internações urgentes
+            <br />
+            <br />
+            Ações imediatas contra negativa de atendimento emergencial
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -357,46 +383,60 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Florianópolis - SC",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4484.707229074214!2d-48.5478564!3d-27.587444500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273923891ebff5%3A0x991d21ebf302d8a2!2sM.O%20Advocacia%20-%20Plano%20de%20sa%C3%BAde!5e1!3m2!1spt-BR!2sbr!4v1751048737636!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. MARCOS OLIVEIRA",
+      title: "Minha trajetória",
+      subtitle:
+        "Do setor público à advocacia, encontrei propósito na defesa da saúde.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
+          propósito claro: defender usuários de planos de saúde que enfrentam
+          negativas injustas de cobertura para medicamentos, exames e cirurgias.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
+          propósito claro: defender usuários de planos de saúde que enfrentam
+          negativas injustas de cobertura para medicamentos, exames e cirurgias.
           <br />
           <br />
-          A_Definir
+          Minha trajetória no Direito começou de forma não tão linear. Trabalhei
+          na saúde pública e, por um tempo, segui o caminho dos concursos, mas
+          algo sempre me faltava. Foi atuando como voluntário em uma ONG que
+          redescobri o que me movia: ajudar pessoas por meio da advocacia.
           <br />
           <br />
-          A_Definir
+          Com o tempo, percebi que todo meu histórico na área da saúde fazia
+          sentido. Eu conhecia os bastidores, entendia as dores do sistema — e
+          decidi transformar esse conhecimento em ação. Me especializei em
+          Direito da Saúde e nunca mais parei.
           <br />
           <br />
-          A_Definir
+          Hoje, cada caso que chega até mim carrega uma urgência real. Meu
+          compromisso é lutar com empatia, técnica e coragem para garantir que
+          nenhum paciente fique desamparado quando mais precisa.
           <br />
           <br />
+          Tenho orgulho de ser advogado. Mais do que isso: orgulho de advogar
+          por uma causa que salva vidas.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -408,14 +448,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -477,24 +518,40 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question:
+            "O que são períodos de carência e quais são os prazos permitidos?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Período de carência é o tempo que o usuário deve aguardar após contratar o plano para usar determinados serviços. Os prazos máximos segundo a ANS são: urgência/emergência em até 24h, consultas e exames em até 180 dias, parto em até 300 dias e até 2 anos para doenças preexistentes.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "O plano pode negar cobertura se o médico não for da rede?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Não. Mesmo que o médico não seja credenciado, o plano não pode recusar a realização de exames ou tratamentos prescritos por ele.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Quando o plano é obrigado a reembolsar despesas?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "O reembolso deve ser garantido quando o plano não oferece o serviço em rede credenciada na região, ou em casos de urgência/emergência. Isso inclui situações como descredenciamento sem aviso, falta de especialistas ou ausência de prestadores próximos.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question:
+            "O que fazer em caso de negativa de cobertura pelo plano de saúde?",
+          answer: (
+            <p>
+              A sequência recomendada é:
+              <br />
+              <br />
+              1. Verificar o motivo da negativa com anexação da documentação
+              médica.
+              <br /> <br />
+              2. Registrar protocolo junto à operadora.
+              <br /> <br />
+              3. Fazer denúncia à ANS se necessário.
+              <br /> <br />
+              4. Buscar orientação ou entrar com ação judicial — tanto para
+              obter a cobertura quanto indenização por danos morais.
+            </p>
+          ),
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
