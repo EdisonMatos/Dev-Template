@@ -22,19 +22,19 @@ export default function ListGroupSocial({ colorMode = "default" }) {
   const getTextColor = () => {
     if (colorMode === "light") return "text-black";
     if (colorMode === "dark") return "text-white";
-    return "text-white"; // default
+    return "text-bgSectionDark"; // default
   };
 
   const getHoverTextColor = () => {
     if (colorMode === "light") return "hover:text-black";
     if (colorMode === "dark") return "hover:text-white";
-    return "hover:text-white";
+    return "hover:text-bgSectionDark";
   };
 
   const getBorderColor = () => {
     if (colorMode === "light") return "bg-black";
     if (colorMode === "dark") return "bg-white";
-    return "bg-white";
+    return "bg-bgSectionDark";
   };
 
   const textShadow =
@@ -53,7 +53,6 @@ export default function ListGroupSocial({ colorMode = "default" }) {
             className="relative font-semibold cursor-pointer"
             spy={true}
             smooth={true}
-            
             duration={500}
             offset={-50}
           >

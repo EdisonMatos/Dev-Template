@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. André Lima",
+  name: "Dr. Marcos Oliveira Advocacia em Saúde",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "andrelimaadvogado.com.br", // Sem "www"
+  domain: "moadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "95684", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9271", // Apenas os 4 últimos números
+    ddd: "48",
+    firstPart: "99671", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9093", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Trompowsky,</p>
+      <p>nº 354 - 5º andar - Centro,</p>
+      <p>Florianópolis - SC, </p>
+      <p>CEP: 88015-300</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,11 +93,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>9h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
+  instagramProfile: "marcosoliveira.advogadoemsaude", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -123,21 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SÃO PAULO - SP",
+      miniTag: "ADVOGADO EM SAÚDE EM FLORIANÓPOLIS - SC",
       title: (
         <h1 className="mb-[16px]">
-          Sua conta travou. <br />
-          <span className="text-primary"> E agora?</span>
+          Negaram seu direito à saúde?
+          <span className="text-primary"> </span>
         </h1>
       ),
       subtitle:
-        "Milhares enfrentam isso todos os dias. Descubra o que fazer antes que o pior aconteça.",
+        "Quando o plano falha, eu entro em ação. Defesa rápida e técnica para quem não pode esperar.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero desbloquear minha conta",
+      ctaButtonText: "Exija seus direitos agora",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +158,11 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento exclusivamente online",
+        text: (
+          <p>
+            Atendimento presencial e online via <i>WhatsApp</i> para todo Brasil
+          </p>
+        ),
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,21 +189,31 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADE",
-      title: "Atuação focada em desbloqueio de contas",
+      title: "Direito à saúde e defesa contra abusos dos planos de saúde",
       subtitle:
-        "Soluções jurídicas para quem teve contas bloqueadas por bancos ou pela Justiça.",
+        "Atuação jurídica para garantir tratamentos, coberturas e indenizações na área da saúde.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Desbloqueio de Contas Bancárias",
-        subtitle: "Reativação do acesso a contas bancárias bloqueadas",
+        title: "Ações contra Planos de Saúde",
+        subtitle: "Defesa de direitos negados por operadoras de saúde.",
         description: (
           <div>
-            A_Definir
+            Negativa de fornecimento de medicamentos
             <br />
+            Negativa de cobertura por carência
             <br />
-            A_Definir
+            Negativa de cobertura de cirurgias
+            <br />
+            Negativa de atendimento emergencial ou de urgência
+            <br />
+            Negativa de cobertura de doença preexistente
+            <br />
+            Negativa de cobertura de prótese indispensável ao procedimento
+            cirúrgico
+            <br />
+            Limitação de sessões de quimioterapia ou fisioterapia
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -213,10 +228,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-key-round-icon lucide-key-round"
+            class="lucide lucide-shield-alert-icon lucide-shield-alert"
           >
-            <path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" />
-            <circle cx="16.5" cy="7.5" r=".5" fill="currentColor" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M12 8v4" />
+            <path d="M12 16h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -224,94 +240,23 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Defesa em Processos de Bloqueio Judicial",
-        subtitle: "Atuação judicial contra bloqueios e penhoras online",
+        title: "Indenizações por Danos Morais e Materiais",
+        subtitle:
+          "Reparação de prejuízos causados por condutas abusivas de planos de saúde.",
         description: (
           <div>
-            A_Definir
+            Indenização por danos morais e materiais por negativa de
+            cobertura/atendimento
             <br />
             <br />
-            A_Definir
+            Indenização por recusa de fornecimento de prótese indispensável
+            <br />
+            <br />
+            Indenização para ressarcimento de despesas antecipadas pelo
+            consumidor
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
-          >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Regularização de CPF ou CNPJ com Pendências",
-        subtitle: "Correção de dados que causam bloqueios bancários",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-cog-icon lucide-file-cog"
-          >
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="m2.305 15.53.923-.382" />
-            <path d="m3.228 12.852-.924-.383" />
-            <path d="M4.677 21.5a2 2 0 0 0 1.313.5H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v2.5" />
-            <path d="m4.852 11.228-.383-.923" />
-            <path d="m4.852 16.772-.383.924" />
-            <path d="m7.148 11.228.383-.923" />
-            <path d="m7.53 17.696-.382-.924" />
-            <path d="m8.772 12.852.923-.383" />
-            <path d="m8.772 15.148.923.383" />
-            <circle cx="6" cy="14" r="3" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card4: {
-        img: featuresImg4,
-        title: "Negociação com Bancos e Instituições Financeiras",
-        subtitle: "Acordos e tratativas diretas com instituições bancárias",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            A_Definir
-            <br />
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -335,16 +280,96 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card5: {
-        img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+      card3: {
+        img: featuresImg3,
+        title: "Direito do Consumidor na Saúde",
+        subtitle:
+          "Garantia de tratamento digno e justo nas relações com planos e seguros de saúde.",
         description: (
           <div>
-            A_Definir
+            Análise de contratos e cláusulas abusivas
             <br />
             <br />
-            A_Definir
+            Limitação de coberturas
+            <br />
+            <br />
+            Falta de informações claras sobre direitos
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-alarm-clock-check-icon lucide-alarm-clock-check"
+          >
+            <circle cx="12" cy="13" r="8" />
+            <path d="M5 3 2 6" />
+            <path d="m22 6-3-3" />
+            <path d="M6.38 18.7 4 21" />
+            <path d="M17.64 18.67 20 21" />
+            <path d="m9 13 2 2 4-4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: featuresImg4,
+        title: "Ações de Urgência e Liminares",
+        subtitle:
+          "Garantia rápida de acesso a tratamentos de saúde essenciais.",
+        description: (
+          <div>
+            Liminares para fornecimento de medicamentos
+            <br />
+            <br />
+            Liminares para cirurgias ou internações urgentes
+            <br />
+            <br />
+            Ações imediatas contra negativa de atendimento emergencial
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card5: {
+        img: featuresImg4,
+        title: "a_Definir",
+        subtitle: "a_Definir",
+        description: (
+          <div>
+            a_Definir
+            <br />
+            <br />
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -388,54 +413,60 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Florianópolis - SC",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4484.707229074214!2d-48.5478564!3d-27.587444500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273923891ebff5%3A0x991d21ebf302d8a2!2sM.O%20Advocacia%20-%20Plano%20de%20sa%C3%BAde!5e1!3m2!1spt-BR!2sbr!4v1751048737636!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. ANDRÉ LIMA",
+      miniTag: "QUEM É O DR. MARCOS OLIVEIRA",
       title: "Minha trajetória",
       subtitle:
-        "Compromisso com técnica, agilidade e resultados para desbloqueio de contas",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Do setor público à advocacia, encontrei propósito na defesa da saúde.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          O escritório nasceu com o propósito de oferecer uma advocacia técnica,
-          ágil e eficaz para quem enfrenta bloqueios bancários.
-          <br />A atuação é voltada a resultados concretos, com atendimento
-          direto e personalizado.
+          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
+          propósito claro: defender usuários de planos de saúde que enfrentam
+          negativas injustas de cobertura para medicamentos, exames e cirurgias.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          O escritório nasceu com o propósito de oferecer uma advocacia técnica,
-          ágil e eficaz para quem enfrenta bloqueios bancários.
+          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
+          propósito claro: defender usuários de planos de saúde que enfrentam
+          negativas injustas de cobertura para medicamentos, exames e cirurgias.
           <br />
           <br />
-          A atuação é voltada a resultados concretos, com atendimento direto e
-          personalizado.
+          Minha trajetória no Direito começou de forma não tão linear. Trabalhei
+          na saúde pública e, por um tempo, segui o caminho dos concursos, mas
+          algo sempre me faltava. Foi atuando como voluntário em uma ONG que
+          redescobri o que me movia: ajudar pessoas por meio da advocacia.
           <br />
           <br />
-          Com ampla experiência em processos de desbloqueio, o Dr. André Lima
-          alia estratégia jurídica, conhecimento técnico e agilidade processual
-          para garantir soluções rápidas e seguras aos clientes.
+          Com o tempo, percebi que todo meu histórico na área da saúde fazia
+          sentido. Eu conhecia os bastidores, entendia as dores do sistema — e
+          decidi transformar esse conhecimento em ação. Me especializei em
+          Direito da Saúde e nunca mais parei.
           <br />
           <br />
-          A missão é clara: tornar o Direito acessível, oferecendo segurança,
-          clareza e total comprometimento em cada caso, sempre com ética,
-          responsabilidade e foco no resultado.
+          Hoje, cada caso que chega até mim carrega uma urgência real. Meu
+          compromisso é lutar com empatia, técnica e coragem para garantir que
+          nenhum paciente fique desamparado quando mais precisa.
           <br />
           <br />
+          Tenho orgulho de ser advogado. Mais do que isso: orgulho de advogar
+          por uma causa que salva vidas.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -447,14 +478,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+        paragraph: <p></p>,
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -516,24 +548,40 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question:
+            "O que são períodos de carência e quais são os prazos permitidos?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Período de carência é o tempo que o usuário deve aguardar após contratar o plano para usar determinados serviços. Os prazos máximos segundo a ANS são: urgência/emergência em até 24h, consultas e exames em até 180 dias, parto em até 300 dias e até 2 anos para doenças preexistentes.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "O plano pode negar cobertura se o médico não for da rede?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Não. Mesmo que o médico não seja credenciado, o plano não pode recusar a realização de exames ou tratamentos prescritos por ele.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "Quando o plano é obrigado a reembolsar despesas?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "O reembolso deve ser garantido quando o plano não oferece o serviço em rede credenciada na região, ou em casos de urgência/emergência. Isso inclui situações como descredenciamento sem aviso, falta de especialistas ou ausência de prestadores próximos.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
-          answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+          question:
+            "O que fazer em caso de negativa de cobertura pelo plano de saúde?",
+          answer: (
+            <p>
+              A sequência recomendada é:
+              <br />
+              <br />
+              1. Verificar o motivo da negativa com anexação da documentação
+              médica.
+              <br /> <br />
+              2. Registrar protocolo junto à operadora.
+              <br /> <br />
+              3. Fazer denúncia à ANS se necessário.
+              <br /> <br />
+              4. Buscar orientação ou entrar com ação judicial — tanto para
+              obter a cobertura quanto indenização por danos morais.
+            </p>
+          ),
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

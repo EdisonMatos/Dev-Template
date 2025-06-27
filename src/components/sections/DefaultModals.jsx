@@ -50,292 +50,251 @@ export default function DefaultModals({ modal = "true", colorMode }) {
 
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
-            <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
-                <IconButtonFeatureCard
-                  icon={content.texts.features.card1.icon}
-                  title={content.texts.features.card1.title}
-                  paragraph={content.texts.features.card1.subtitle}
-                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                  colorMode={colorMode}
-                />
-                {modal && (
-                  <Button
+            <div className="flex flex-wrap items-start justify-center tablet1:justify-evenly w-full gap-4">
+              <div className="col3  desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
+                {" "}
+                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                  <IconButtonFeatureCard
+                    icon={content.texts.features.card1.icon}
+                    title={content.texts.features.card1.title}
+                    paragraph={content.texts.features.card1.subtitle}
+                    className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
-                    size="small"
-                    label={content.texts.features.card1.buttonLabel}
-                    onClick={() =>
-                      onClick(
-                        content.texts.features.card1.title,
-                        content.texts.features.card1.description,
-                        <>
-                          <p className="my-[20px]">
-                            Quer saber mais? Clique abaixo 👇
-                          </p>
-                          <div>
-                            <Button
-                              colorMode={colorMode}
-                              aria-label={
-                                content.texts.about.ctaButtonAriaLabel
-                              }
-                              label={content.texts.about.ctaButtonText}
-                              buttonLink={content.texts.links.ctaWhatsapp}
-                              animation={false}
-                              className="hover:scale-105"
-                              icon={<FaWhatsapp size={24} />}
-                            />
-                          </div>
-                        </>
-                      )
-                    }
-                    icon={
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-corner-down-right"
-                      >
-                        <polyline points="15 10 20 15 15 20" />
-                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                      </svg>
-                    }
                   />
-                )}
+                  {modal && (
+                    <Button
+                      colorMode={colorMode}
+                      size="small"
+                      label={content.texts.features.card1.buttonLabel}
+                      onClick={() =>
+                        onClick(
+                          content.texts.features.card1.title,
+                          content.texts.features.card1.description,
+                          <>
+                            <p className="my-[20px]">
+                              Quer saber mais? Clique abaixo 👇
+                            </p>
+                            <div>
+                              <Button
+                                colorMode={colorMode}
+                                aria-label={
+                                  content.texts.about.ctaButtonAriaLabel
+                                }
+                                label={content.texts.about.ctaButtonText}
+                                buttonLink={content.texts.links.ctaWhatsapp}
+                                animation={false}
+                                className="hover:scale-105"
+                                icon={<FaWhatsapp size={24} />}
+                              />
+                            </div>
+                          </>
+                        )
+                      }
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-corner-down-right"
+                        >
+                          <polyline points="15 10 20 15 15 20" />
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                        </svg>
+                      }
+                    />
+                  )}
+                </MotionDivDownToUp>
+                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                  <IconButtonFeatureCard
+                    icon={content.texts.features.card3.icon}
+                    title={content.texts.features.card3.title}
+                    paragraph={content.texts.features.card3.subtitle}
+                    className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
+                    colorMode={colorMode}
+                  />
+                  {modal && (
+                    <Button
+                      colorMode={colorMode}
+                      size="small"
+                      label={content.texts.features.card3.buttonLabel}
+                      onClick={() =>
+                        onClick(
+                          content.texts.features.card3.title,
+                          content.texts.features.card3.description,
+                          <>
+                            <p className="my-[20px]">
+                              Quer saber mais? Clique abaixo 👇
+                            </p>
+                            <div>
+                              <Button
+                                colorMode={colorMode}
+                                aria-label={
+                                  content.texts.about.ctaButtonAriaLabel
+                                }
+                                label={content.texts.about.ctaButtonText}
+                                buttonLink={content.texts.links.ctaWhatsapp}
+                                animation={false}
+                                className="hover:scale-105"
+                                icon={<FaWhatsapp size={24} />}
+                              />
+                            </div>
+                          </>
+                        )
+                      }
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-corner-down-right"
+                        >
+                          <polyline points="15 10 20 15 15 20" />
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                        </svg>
+                      }
+                    />
+                  )}
+                </MotionDivDownToUp>{" "}
+              </div>
+
+              <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
+                <div
+                  className="hidden desktop1:h-[676px] desktop2:h-[710px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
+                  style={{
+                    backgroundImage: `url(${content.texts.features.imgFeatures})`,
+                  }}
+                ></div>
               </MotionDivDownToUp>
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
-                <IconButtonFeatureCard
-                  icon={content.texts.features.card2.icon}
-                  title={content.texts.features.card2.title}
-                  paragraph={content.texts.features.card2.subtitle}
-                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                  colorMode={colorMode}
-                />
-                {modal && (
-                  <Button
+
+              <div className="col3 desktop1:w-[28%] gap-4 flex flex-col justify-center items-center">
+                {" "}
+                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                  <IconButtonFeatureCard
+                    icon={content.texts.features.card4.icon}
+                    title={content.texts.features.card4.title}
+                    paragraph={content.texts.features.card4.subtitle}
+                    className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
-                    size="small"
-                    label={content.texts.features.card2.buttonLabel}
-                    onClick={() =>
-                      onClick(
-                        content.texts.features.card2.title,
-                        content.texts.features.card2.description,
-                        <>
-                          <p className="my-[20px]">
-                            Quer saber mais? Clique abaixo 👇
-                          </p>
-                          <div>
-                            <Button
-                              colorMode={colorMode}
-                              aria-label={
-                                content.texts.about.ctaButtonAriaLabel
-                              }
-                              label={content.texts.about.ctaButtonText}
-                              buttonLink={content.texts.links.ctaWhatsapp}
-                              animation={false}
-                              className="hover:scale-105"
-                              icon={<FaWhatsapp size={24} />}
-                            />
-                          </div>
-                        </>
-                      )
-                    }
-                    icon={
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-corner-down-right"
-                      >
-                        <polyline points="15 10 20 15 15 20" />
-                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                      </svg>
-                    }
                   />
-                )}
-              </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
-                <IconButtonFeatureCard
-                  icon={content.texts.features.card3.icon}
-                  title={content.texts.features.card3.title}
-                  paragraph={content.texts.features.card3.subtitle}
-                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                  colorMode={colorMode}
-                />
-                {modal && (
-                  <Button
+                  {modal && (
+                    <Button
+                      size="small"
+                      colorMode={colorMode}
+                      label={content.texts.features.card4.buttonLabel}
+                      onClick={() =>
+                        onClick(
+                          content.texts.features.card4.title,
+                          content.texts.features.card4.description,
+                          <>
+                            <p className="my-[20px]">
+                              Quer saber mais? Clique abaixo 👇
+                            </p>
+                            <div>
+                              <Button
+                                aria-label={
+                                  content.texts.about.ctaButtonAriaLabel
+                                }
+                                label={content.texts.about.ctaButtonText}
+                                buttonLink={content.texts.links.ctaWhatsapp}
+                                animation={false}
+                                className="hover:scale-105"
+                                icon={<FaWhatsapp size={24} />}
+                                colorMode={colorMode}
+                              />
+                            </div>
+                          </>
+                        )
+                      }
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-corner-down-right"
+                        >
+                          <polyline points="15 10 20 15 15 20" />
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                        </svg>
+                      }
+                    />
+                  )}
+                </MotionDivDownToUp>{" "}
+                <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
+                  <IconButtonFeatureCard
+                    icon={content.texts.features.card2.icon}
+                    title={content.texts.features.card2.title}
+                    paragraph={content.texts.features.card2.subtitle}
+                    className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
-                    size="small"
-                    label={content.texts.features.card3.buttonLabel}
-                    onClick={() =>
-                      onClick(
-                        content.texts.features.card3.title,
-                        content.texts.features.card3.description,
-                        <>
-                          <p className="my-[20px]">
-                            Quer saber mais? Clique abaixo 👇
-                          </p>
-                          <div>
-                            <Button
-                              colorMode={colorMode}
-                              aria-label={
-                                content.texts.about.ctaButtonAriaLabel
-                              }
-                              label={content.texts.about.ctaButtonText}
-                              buttonLink={content.texts.links.ctaWhatsapp}
-                              animation={false}
-                              className="hover:scale-105"
-                              icon={<FaWhatsapp size={24} />}
-                            />
-                          </div>
-                        </>
-                      )
-                    }
-                    icon={
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-corner-down-right"
-                      >
-                        <polyline points="15 10 20 15 15 20" />
-                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                      </svg>
-                    }
                   />
-                )}
-              </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
-                <IconButtonFeatureCard
-                  icon={content.texts.features.card4.icon}
-                  title={content.texts.features.card4.title}
-                  paragraph={content.texts.features.card4.subtitle}
-                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                  colorMode={colorMode}
-                />
-                {modal && (
-                  <Button
-                    size="small"
-                    colorMode={colorMode}
-                    label={content.texts.features.card4.buttonLabel}
-                    onClick={() =>
-                      onClick(
-                        content.texts.features.card4.title,
-                        content.texts.features.card4.description,
-                        <>
-                          <p className="my-[20px]">
-                            Quer saber mais? Clique abaixo 👇
-                          </p>
-                          <div>
-                            <Button
-                              aria-label={
-                                content.texts.about.ctaButtonAriaLabel
-                              }
-                              label={content.texts.about.ctaButtonText}
-                              buttonLink={content.texts.links.ctaWhatsapp}
-                              animation={false}
-                              className="hover:scale-105"
-                              icon={<FaWhatsapp size={24} />}
-                              colorMode={colorMode}
-                            />
-                          </div>
-                        </>
-                      )
-                    }
-                    icon={
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-corner-down-right"
-                      >
-                        <polyline points="15 10 20 15 15 20" />
-                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                      </svg>
-                    }
-                  />
-                )}
-              </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
-                <IconButtonFeatureCard
-                  icon={content.texts.features.card5.icon}
-                  title={content.texts.features.card5.title}
-                  paragraph={content.texts.features.card5.subtitle}
-                  className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
-                  colorMode={colorMode}
-                />
-                {modal && (
-                  <Button
-                    size="small"
-                    colorMode={colorMode}
-                    label={content.texts.features.card5.buttonLabel}
-                    onClick={() =>
-                      onClick(
-                        content.texts.features.card5.title,
-                        content.texts.features.card5.description,
-                        <>
-                          <p className="my-[20px]">
-                            Quer saber mais? Clique abaixo 👇
-                          </p>
-                          <div>
-                            <Button
-                              colorMode={colorMode}
-                              aria-label={
-                                content.texts.about.ctaButtonAriaLabel
-                              }
-                              label={content.texts.about.ctaButtonText}
-                              buttonLink={content.texts.links.ctaWhatsapp}
-                              animation={false}
-                              className="hover:scale-105"
-                              icon={<FaWhatsapp size={24} />}
-                            />
-                          </div>
-                        </>
-                      )
-                    }
-                    icon={
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-corner-down-right"
-                      >
-                        <polyline points="15 10 20 15 15 20" />
-                        <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                      </svg>
-                    }
-                  />
-                )}
-              </MotionDivDownToUp>{" "}
+                  {modal && (
+                    <Button
+                      colorMode={colorMode}
+                      size="small"
+                      label={content.texts.features.card2.buttonLabel}
+                      onClick={() =>
+                        onClick(
+                          content.texts.features.card2.title,
+                          content.texts.features.card2.description,
+                          <>
+                            <p className="my-[20px]">
+                              Quer saber mais? Clique abaixo 👇
+                            </p>
+                            <div>
+                              <Button
+                                colorMode={colorMode}
+                                aria-label={
+                                  content.texts.about.ctaButtonAriaLabel
+                                }
+                                label={content.texts.about.ctaButtonText}
+                                buttonLink={content.texts.links.ctaWhatsapp}
+                                animation={false}
+                                className="hover:scale-105"
+                                icon={<FaWhatsapp size={24} />}
+                              />
+                            </div>
+                          </>
+                        )
+                      }
+                      icon={
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-corner-down-right"
+                        >
+                          <polyline points="15 10 20 15 15 20" />
+                          <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                        </svg>
+                      }
+                    />
+                  )}
+                </MotionDivDownToUp>{" "}
+              </div>
             </div>
           </div>
         </SectionWrapper>
