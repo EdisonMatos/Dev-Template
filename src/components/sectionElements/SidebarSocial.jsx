@@ -90,7 +90,10 @@ export default function SidebarSocial({ colorMode }) {
                       alt={content.texts.navbar.solidLogo.alt}
                       className="w-auto h-auto p-[5px] "
                     /> */}
-                    <h1 className="text-title4 text-white"> André Lima Advogado</h1>
+                    <h1 className="text-title4 text-white">
+                      {" "}
+                      André Lima Advogado
+                    </h1>
                   </span>
                   <span>
                     <Button
