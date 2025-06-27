@@ -205,32 +205,33 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "O que nos torna a melhor opção para defender seus direitos?",
+      title:
+        "Por que somos a melhor opção para defender seus direitos no trânsito",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "Especialista em concursos públicos",
+        title: "Especialistas em Direito de Trânsito",
         description:
-          "Entendemos as regras e particularidades que só quem atua nessa área conhece.",
+          "Conhecemos as normas e particularidades do Código de Trânsito Brasileiro e suas implicações práticas.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "Experiência comprovada e atualizada",
+        title: "Experiência Comprovada e Atualizada",
         description:
-          "Anos de atuação em concursos públicos, participando dos principais congressos e eventos jurídicos para manter conhecimento atualizado e estratégias eficazes.",
+          "Anos de atuação em defesa administrativa e judicial, com participação em congressos e eventos para estratégias eficazes.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Presença ativa nas principais bancas e tribunais",
+        title: "Atuação Próxima dos Órgãos e Tribunais",
         description:
-          "Nossa equipe acompanha julgamentos e atualizações das bancas e tribunais, garantindo que sua defesa esteja alinhada às últimas decisões.",
+          "Acompanhamos julgamentos e atualizações nas instâncias administrativas e judiciais, garantindo defesas alinhadas às últimas decisões.",
       },
       card4: {
         icon: <BadgeDollarSign width={32} height={32} />,
-        title: "Estratégias exclusivas para concursos públicos",
+        title: "Estratégias Personalizadas para Seu Caso",
         description:
-          "Aplicamos técnicas personalizadas para acelerar seu reconhecimento e aprovação, com histórico comprovado em liminares e mandados de segurança.",
+          "Desenvolvemos técnicas exclusivas para reversão de multas, suspensão de CNH e outros recursos, com histórico de resultados positivos.",
       },
     },
   },
@@ -245,12 +246,13 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA TEMPO",
-      title: "Seus direitos no concurso ao seu alcance!",
+      title: "Seus direitos no trânsito ao seu alcance!",
       subtitle: (
         <p className="opacity-80">
-          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a superar
-          qualquer problema jurídico no seu concurso público. Conte com nossa
-          equipe especializada para garantir sua vaga com segurança e agilidade.
+          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
+          qualquer questão jurídica relacionada ao trânsito. Conte com uma
+          equipe especializada para proteger sua CNH, recorrer de multas e
+          garantir seus direitos com segurança e agilidade.
         </p>
       ),
     },
