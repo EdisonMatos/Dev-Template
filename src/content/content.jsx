@@ -399,33 +399,40 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. ANDRÉ LIMA",
+      title: "Minha trajetória",
+      subtitle: "QUEM É O DR. ANDRÉ LIMA",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          O escritório nasceu com o propósito de oferecer uma advocacia técnica,
+          ágil e eficaz para quem enfrenta bloqueios bancários.
+          <br />A atuação é voltada a resultados concretos, com atendimento
+          direto e personalizado.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          O escritório nasceu com o propósito de oferecer uma advocacia técnica,
+          ágil e eficaz para quem enfrenta bloqueios bancários.
           <br />
           <br />
-          A_Definir
+          A atuação é voltada a resultados concretos, com atendimento direto e
+          personalizado.
           <br />
           <br />
-          A_Definir
+          Com ampla experiência em processos de desbloqueio, o Dr. André Lima
+          alia estratégia jurídica, conhecimento técnico e agilidade processual
+          para garantir soluções rápidas e seguras aos clientes.
           <br />
           <br />
-          A_Definir
+          A missão é clara: tornar o Direito acessível, oferecendo segurança,
+          clareza e total comprometimento em cada caso, sempre com ética,
+          responsabilidade e foco no resultado.
           <br />
           <br />
         </p>
