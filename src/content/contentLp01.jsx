@@ -37,13 +37,13 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Aprovado, mas <span className="text-primary">injustiçado</span>? Isso
-          não acaba aqui.
+          No trânsito, a multa vem rápido.{" "}
+          <span className="text-primary">Seus direitos,</span> nem sempre.
         </h1>
       ),
       subtitle:
-        "Especialistas em reverter injustiças em concursos públicos. Você pode ter sido eliminado, mas seus direitos ainda estão vivos.",
-      buttonLabel: "Quero justiça agora",
+        "Entenda como agir diante de infrações, suspensões, acidentes ou processos de trânsito. ",
+      buttonLabel: "Quero proteger meus direitos",
       obsHero: {
         icon: (
           // Ícone mantido
