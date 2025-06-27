@@ -21,12 +21,12 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Jonas Araújo Advocacia | Especialista em Direito para Concursos Públicos em São Paulo - SP",
+      "Jonas Araújo Advocacia | Especialista em Direito de Trânsito em São Paulo - SP",
     description:
-      "Defenda seus direitos em concursos públicos com a Jonas Araújo Advocacia, especialista em São Paulo. Atendimento dedicado e soluções jurídicas rápidas para garantir sua vaga com segurança.",
+      "Defenda seus direitos no trânsito com a Jonas Araújo Advocacia, referência em São Paulo. Atendimento ágil, especializado e estratégias jurídicas para proteger sua CNH e recorrer de infrações.",
 
     keywords:
-      "Jonas Araujo Advocacia, Concursos Públicos São Paulo, Advogado para Concursos, Direito Administrativo São Paulo, Defesa em Concursos Públicos, Advocacia para Candidatos, Soluções Jurídicas Concursos, Especialista em Direito para Concursos, Consultoria Jurídica Concursos, Advogado Concursos Públicos SP, Direito Previdenciário Concursos, Impugnação de Concursos, Recursos em Concursos Públicos, Assessoria Jurídica Concursos, Advocacia em São Paulo, Jonas Araujo Concursos, Advogado de Direito Público, Concurso Público com Apoio Jurídico, Acompanhamento Jurídico Concursos, Defesa Legal para Concursos. ",
+      "Jonas Araujo Advocacia, Direito de Trânsito São Paulo, Advogado de Trânsito SP, Defesa CNH Suspensa, Recurso de Multa SP, Suspensão de CNH, Cassação de CNH, Especialista em Trânsito, Infração de Trânsito SP, Advogado para Multas, Defesa Administrativa Trânsito, Recurso Detran SP, Advogado Detran São Paulo, Multa Indevida SP, Direito Administrativo Trânsito, Defesa Jurídica no Trânsito, Assessoria Trânsito SP, Consultoria Jurídica Trânsito, Advogado Trânsito São Paulo, Recorrer Multa Trânsito SP.",
   },
   hero: {
     bgImg: bgImg,

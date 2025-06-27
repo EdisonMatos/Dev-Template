@@ -24,7 +24,7 @@ export default function ContactLP() {
             <ContactCardLP
               label={contentLp01.contact.card2.title}
               icon={contentLp01.contact.card2.icon}
-              description={content.texts.infos.email}
+              description="contato@jonasaraujoadv.com"
             />
 
             <ContactCardLP
