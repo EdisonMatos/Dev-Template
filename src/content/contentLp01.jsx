@@ -7,11 +7,14 @@ import { File } from "lucide-react";
 import { Banknote } from "lucide-react";
 import { FileKey2 } from "lucide-react";
 import { Scale } from "lucide-react";
-import { Gavel } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { BadgeDollarSign } from "lucide-react";
 import { Accessibility } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
+import { Ban } from "lucide-react";
+import { IdCard } from "lucide-react";
+import { Gavel } from "lucide-react";
+
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
 import img3 from "../assets/imgs/about/image3.webp";
@@ -21,12 +24,12 @@ const currentYear = new Date().getFullYear();
 const contentLp01 = {
   infos: {
     title:
-      "Jonas Araújo Advocacia | Especialista em Direito para Concursos Públicos em São Paulo - SP",
+      "Jonas Araújo Advocacia | Especialista em Direito de Trânsito em São Paulo - SP",
     description:
-      "Defenda seus direitos em concursos públicos com a Jonas Araújo Advocacia, especialista em São Paulo. Atendimento dedicado e soluções jurídicas rápidas para garantir sua vaga com segurança.",
+      "Defenda seus direitos no trânsito com a Jonas Araújo Advocacia, referência em São Paulo. Atendimento ágil, especializado e estratégias jurídicas para proteger sua CNH e recorrer de infrações.",
 
     keywords:
-      "Jonas Araujo Advocacia, Concursos Públicos São Paulo, Advogado para Concursos, Direito Administrativo São Paulo, Defesa em Concursos Públicos, Advocacia para Candidatos, Soluções Jurídicas Concursos, Especialista em Direito para Concursos, Consultoria Jurídica Concursos, Advogado Concursos Públicos SP, Direito Previdenciário Concursos, Impugnação de Concursos, Recursos em Concursos Públicos, Assessoria Jurídica Concursos, Advocacia em São Paulo, Jonas Araujo Concursos, Advogado de Direito Público, Concurso Público com Apoio Jurídico, Acompanhamento Jurídico Concursos, Defesa Legal para Concursos. ",
+      "Jonas Araujo Advocacia, Direito de Trânsito São Paulo, Advogado de Trânsito SP, Defesa CNH Suspensa, Recurso de Multa SP, Suspensão de CNH, Cassação de CNH, Especialista em Trânsito, Infração de Trânsito SP, Advogado para Multas, Defesa Administrativa Trânsito, Recurso Detran SP, Advogado Detran São Paulo, Multa Indevida SP, Direito Administrativo Trânsito, Defesa Jurídica no Trânsito, Assessoria Trânsito SP, Consultoria Jurídica Trânsito, Advogado Trânsito São Paulo, Recorrer Multa Trânsito SP.",
   },
   hero: {
     bgImg: bgImg,
@@ -37,13 +40,13 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Aprovado, mas <span className="text-primary">injustiçado</span>? Isso
-          não acaba aqui.
+          No trânsito, a multa vem rápido.{" "}
+          <span className="text-primary">Seus direitos,</span> nem sempre.
         </h1>
       ),
       subtitle:
-        "Especialistas em reverter injustiças em concursos públicos. Você pode ter sido eliminado, mas seus direitos ainda estão vivos.",
-      buttonLabel: "Quero justiça agora",
+        "Entenda como agir diante de infrações, suspensões, acidentes ou processos de trânsito. ",
+      buttonLabel: "Quero proteger meus direitos",
       obsHero: {
         icon: (
           // Ícone mantido
@@ -71,44 +74,64 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "SE SENTIU PREJUDICADO?",
-      title: "Descubra em quais situações você pode entrar com ação.",
+      miniTag: "SE SENTIU LESADO NO TRÂNSITO?",
+      title: "Descubra quando você pode recorrer e garantir seus direitos.",
     },
     cards: {
       card1: {
-        icon: <Shield width={32} height={32} />,
-        title: "Editais Irregulares e Mudanças Injustas",
-        description: "Mudaram as regras no meio do jogo? A gente resolve.",
+        icon: <Ban width={32} height={32} />,
+        title: "Multas e Infrações Indevidas",
+        description:
+          "Contestações de multas aplicadas sem justificativa ou erro.",
         modal1: {
           title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
         },
       },
       card2: {
-        icon: <File width={32} height={32} />,
-        title: "Erros em Provas e Testes Físicos",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-id-card-lanyard-icon lucide-id-card-lanyard"
+          >
+            <path d="M13.5 8h-3" />
+            <path d="m15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3" />
+            <path d="M16.899 22A5 5 0 0 0 7.1 22" />
+            <path d="m9 2 3 6" />
+            <circle cx="12" cy="15" r="3" />
+          </svg>
+        ),
+        title: "Suspensão e Cassação da CNH",
         description:
-          "Questão errada, gabarito confuso, teste sem resultado? Dá pra recorrer.",
+          "Defesa em processos que resultam na perda da carteira de habilitação.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
         },
       },
       card3: {
-        icon: <FileKey2 width={32} height={32} />,
-        title: "Recursos Pós-Concurso e Mandado de Segurança",
+        icon: <IdCard width={32} height={32} />,
+        title: "Acidentes e Indenizações",
         description:
-          "Concurso já acabou, mas te prejudicaram? Ainda dá tempo de agir.",
+          "Garantia dos direitos em casos de acidentes e compensações.",
         modal3: {
           title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
         },
       },
       card4: {
-        icon: <Accessibility width={32} height={32} />,
-        title: "Direitos de Candidatos com Necessidades Especiais",
+        icon: <Gavel width={32} height={32} />,
+        title: "Recursos Administrativos e Judiciais",
         description:
-          "Seus direitos não foram respeitados? Nós garantimos sua participação.",
+          "Apoio em recursos e ações para reversão de decisões injustas.",
         modal4: {
           title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
@@ -131,26 +154,27 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA EM DEFESA ADMINISTRATIVA",
-      title: "Comprometidos com sua aprovação — e com sua justiça.",
+      miniTag: "EXCELÊNCIA EM DEFESA ADMINISTRATIVA DE TRÂNSITO",
+      title: "Comprometidos com a proteção dos seus direitos no trânsito.",
     },
     paragraph: (
       <p>
-        Nossa equipe é especializada na defesa jurídica de candidatos em
-        concursos públicos. Atuamos em diversas áreas do Direito, sempre com
-        foco nas reais necessidades de cada cliente.
+        Nossa equipe é especializada na defesa jurídica em casos de infrações,
+        multas, suspensão e cassação de CNH, e demais demandas do Direito de
+        Trânsito. Atuamos com foco nas necessidades específicas de cada cliente,
+        oferecendo atendimento personalizado e estratégico.
         <br />
         <br />
-        Unimos técnica, inovação e estratégia para entregar resultados
-        concretos. Desde a fundação, somos reconhecidos por nossa atuação firme,
-        próxima e eficiente.
+        Unimos técnica, inovação e experiência para garantir resultados
+        concretos e justos. Desde o início, somos reconhecidos pela atuação
+        firme, próxima e eficiente, sempre em defesa dos seus direitos.
         <br />
         <br />
-        Se você busca um escritório que entende seu caso e luta por ele de
-        verdade, chegou ao lugar certo.
+        Se você procura um escritório que realmente entende seu caso e luta por
+        ele, está no lugar certo.
       </p>
     ),
-    buttonLabel: "Fale agora com um advogado especialista",
+    buttonLabel: "Fale agora com um advogado",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
@@ -181,32 +205,33 @@ const contentLp01 = {
   whyUs: {
     sectionHeader: {
       miniTag: "A ESCOLHA CERTA",
-      title: "O que nos torna a melhor opção para defender seus direitos?",
+      title:
+        "Por que somos a melhor opção para defender seus direitos no trânsito",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "Especialista em concursos públicos",
+        title: "Especialistas em Direito de Trânsito",
         description:
-          "Entendemos as regras e particularidades que só quem atua nessa área conhece.",
+          "Conhecemos as normas e particularidades do Código de Trânsito Brasileiro e suas implicações práticas.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "Experiência comprovada e atualizada",
+        title: "Experiência Comprovada e Atualizada",
         description:
-          "Anos de atuação em concursos públicos, participando dos principais congressos e eventos jurídicos para manter conhecimento atualizado e estratégias eficazes.",
+          "Anos de atuação em defesa administrativa e judicial, com participação em congressos e eventos para estratégias eficazes.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Presença ativa nas principais bancas e tribunais",
+        title: "Atuação Próxima dos Órgãos e Tribunais",
         description:
-          "Nossa equipe acompanha julgamentos e atualizações das bancas e tribunais, garantindo que sua defesa esteja alinhada às últimas decisões.",
+          "Acompanhamos julgamentos e atualizações nas instâncias administrativas e judiciais, garantindo defesas alinhadas às últimas decisões.",
       },
       card4: {
         icon: <BadgeDollarSign width={32} height={32} />,
-        title: "Estratégias exclusivas para concursos públicos",
+        title: "Estratégias Personalizadas para Seu Caso",
         description:
-          "Aplicamos técnicas personalizadas para acelerar seu reconhecimento e aprovação, com histórico comprovado em liminares e mandados de segurança.",
+          "Desenvolvemos técnicas exclusivas para reversão de multas, suspensão de CNH e outros recursos, com histórico de resultados positivos.",
       },
     },
   },
@@ -221,12 +246,13 @@ const contentLp01 = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA TEMPO",
-      title: "Seus direitos no concurso ao seu alcance!",
+      title: "Seus direitos no trânsito ao seu alcance!",
       subtitle: (
         <p className="opacity-80">
-          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a superar
-          qualquer problema jurídico no seu concurso público. Conte com nossa
-          equipe especializada para garantir sua vaga com segurança e agilidade.
+          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
+          qualquer questão jurídica relacionada ao trânsito. Conte com uma
+          equipe especializada para proteger sua CNH, recorrer de multas e
+          garantir seus direitos com segurança e agilidade.
         </p>
       ),
     },
