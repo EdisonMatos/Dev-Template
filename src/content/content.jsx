@@ -124,20 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM SAÚDE EM FLORIANÓPOLIS - SC",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Negaram seu direito à saúde?
+          <span className="text-primary"> </span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Quando o plano falha, eu entro em ação. Defesa rápida e técnica para quem não pode esperar.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Exija seus direitos agora",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +158,11 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: (
+          <p>
+            Atendimento presencial e online via <i>WhatsApp</i> para todo Brasil
+          </p>
+        ),
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
