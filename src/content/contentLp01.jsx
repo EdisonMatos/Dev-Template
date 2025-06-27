@@ -154,26 +154,27 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA EM DEFESA ADMINISTRATIVA",
-      title: "Comprometidos com sua aprovação — e com sua justiça.",
+      miniTag: "EXCELÊNCIA EM DEFESA ADMINISTRATIVA DE TRÂNSITO",
+      title: "Comprometidos com a proteção dos seus direitos no trânsito.",
     },
     paragraph: (
       <p>
-        Nossa equipe é especializada na defesa jurídica de candidatos em
-        concursos públicos. Atuamos em diversas áreas do Direito, sempre com
-        foco nas reais necessidades de cada cliente.
+        Nossa equipe é especializada na defesa jurídica em casos de infrações,
+        multas, suspensão e cassação de CNH, e demais demandas do Direito de
+        Trânsito. Atuamos com foco nas necessidades específicas de cada cliente,
+        oferecendo atendimento personalizado e estratégico.
         <br />
         <br />
-        Unimos técnica, inovação e estratégia para entregar resultados
-        concretos. Desde a fundação, somos reconhecidos por nossa atuação firme,
-        próxima e eficiente.
+        Unimos técnica, inovação e experiência para garantir resultados
+        concretos e justos. Desde o início, somos reconhecidos pela atuação
+        firme, próxima e eficiente, sempre em defesa dos seus direitos.
         <br />
         <br />
-        Se você busca um escritório que entende seu caso e luta por ele de
-        verdade, chegou ao lugar certo.
+        Se você procura um escritório que realmente entende seu caso e luta por
+        ele, está no lugar certo.
       </p>
     ),
-    buttonLabel: "Fale agora com um advogado especialista",
+    buttonLabel: "Fale agora com um advogado",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
