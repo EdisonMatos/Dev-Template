@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Zöll Jr. Advocacia",
+  name: "Advogada Jéssica Fernandes",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "advocaciazolljr.com.br", // Sem "www"
+  domain: "jessicafernandesadvogada.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "93341", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0644", // Apenas os 4 últimos números
+    ddd: "31",
+    firstPart: "99548", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5761", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,30 +75,28 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Brig. Faria Lima,</p>
-      <p>1572, sl. 1022, Jd. Paulistano,</p>
-      <p>São Paulo - SP,</p>
-      <p>CEP 01451-917</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>Rua Alm. Protógenes,</p>
-      <p>289, sl 122, Bairro Jardim,</p>
-      <p>Santo André - SP,</p>
-      <p>CEP: 09090-760</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 17h</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "zolljr.advocacia", // Sem o @
+  instagramProfile: "advocaciajfernandes", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -125,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO NO SÃO PAULO E ABC PAULISTA",
+      miniTag: "ADVOGADA EM BELO HORIZONTE - MG",
       title: (
         <h1 className="mb-[16px]">
-          Resolvendo o que outros
-          <span className="text-primary"> complicam</span>
+          Direito de Família que
+          <span className="text-primary"> transforma vidas</span>
         </h1>
       ),
       subtitle:
-        "Desde 2006, soluções jurídicas sem rodeios, com estratégia, clareza e resultado.",
+        "Soluções jurídicas claras, rápidas e feitas para proteger o que importa de verdade",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Veja como posso te ajudar",
+      ctaButtonText: "Quero meu direito garantido",
       obsHero: {
         icon: (
           <svg
@@ -159,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento online ou presencial apenas com hora marcada.",
+        text: "Atendimento 100% online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -185,15 +183,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPACIALIDADES",
-      title: "Áreas de atuação jurídica",
-      subtitle: "Conheça nossas principais frentes de trabalho no Direito",
+      miniTag: "ÁREA DE ATUAÇÃO",
+      title: "Especialização em Direito de Família",
+      subtitle:
+        "Atuação dedicada à proteção dos vínculos e direitos familiares",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Soluções jurídicas em conflitos e obrigações civis",
+        title: "Pensão",
+        subtitle: "Ações para solicitar, revisar ou cobrar pensão.",
         description: (
           <div>
             A_Definir
@@ -214,13 +213,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-wallet-icon lucide-wallet"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -228,8 +224,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Responsabilidade Civil e Contratual",
-        subtitle: "Reparação de danos e revisão de contratos",
+        title: "Guarda",
+        subtitle: "Regulação de guarda e visitas com foco no menor.",
         description: (
           <div>
             A_Definir
@@ -250,13 +246,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -264,8 +259,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa e consultoria em relações de trabalho",
+        title: "Divórcio",
+        subtitle: "Separação amigável ou litigiosa com suporte legal.",
         description: (
           <div>
             A_Definir <br />
@@ -285,11 +280,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-file-pen-icon lucide-file-pen"
+            class="lucide lucide-split-icon lucide-split"
           >
-            <path d="M12.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v9.5" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />
+            <path d="M16 3h5v5" />
+            <path d="M8 3H3v5" />
+            <path d="M12 22v-8.3a4 4 0 0 0-1.172-2.872L3 3" />
+            <path d="m15 9 6-6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -297,8 +293,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Relações Contemporâneas e Vínculos de Emprego",
-        subtitle: "Atuação em vínculos modernos e direitos trabalhistas",
+        title: "Inventário",
+        subtitle: "Partilha de bens e regularização de herança.",
         description: (
           <div>
             A_Definir
@@ -319,10 +315,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-icon lucide-briefcase"
+            class="lucide lucide-folder-archive-icon lucide-folder-archive"
           >
-            <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <circle cx="15" cy="19" r="2" />
+            <path d="M20.9 19.8A2 2 0 0 0 22 18V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h5.1" />
+            <path d="M15 11v-1" />
+            <path d="M15 17v-2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -392,56 +390,46 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A ZÖLL JR. ADVOCACIA",
-      title: " Minha trajetória",
+      miniTag: "QUEM É A DRA. JÉSSICA FERNANDES",
+      title: "Minha Trajetória",
       subtitle:
-        "Atuação desde 2006 com foco em soluções jurídicas rápidas e eficientes",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+        "Compromisso, ética e estratégia em cada detalhe da sua causa jurídica",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Desde 2006, venho construindo uma trajetória sólida na advocacia,
-          sempre com foco na objetividade e na resolução prática dos problemas
-          jurídicos que chegam até mim.
+          Atuo com ética, técnica e comprometimento para oferecer soluções
+          jurídicas seguras e eficazes.
           <br />
-          Com a experiência adquirida ao longo desses anos, desenvolvi uma
-          abordagem que valoriza o tempo do cliente e evita burocracias
-          desnecessárias, sem abrir mão da seriedade e da técnica.
+          Minha missão é orientar cada cliente com clareza e responsabilidade,
+          sempre buscando os melhores resultados.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Desde 2006, venho construindo uma trajetória sólida na advocacia,
-          sempre com foco na objetividade e na resolução prática dos problemas
-          jurídicos que chegam até mim.
+          Atuo com ética, técnica e comprometimento para oferecer soluções
+          jurídicas seguras e eficazes.
           <br />
           <br />
-          Com a experiência adquirida ao longo desses anos, desenvolvi uma
-          abordagem que valoriza o tempo do cliente e evita burocracias
-          desnecessárias, sem abrir mão da seriedade e da técnica.
+          Minha missão é orientar cada cliente com clareza e responsabilidade,
+          sempre buscando os melhores resultados.
           <br />
           <br />
-          A Zöll Jr. Advocacia nasceu com o propósito de ser um escritório
-          moderno, funcional e acessível. Aqui, o cliente encontra soluções
-          jurídicas eficientes, com linguagem clara, atendimento próximo e
-          estratégias personalizadas.
+          Acredito que cada caso é único e merece uma atenção personalizada.
           <br />
           <br />
-          Cada caso é tratado com atenção e comprometimento, sempre visando
-          resolver com agilidade — sem complicar o que pode ser simples.
+          Por isso, escuto com empatia, respeito as particularidades de cada
+          situação e trabalho com estratégia e discrição.
           <br />
           <br />
-          Mais do que um escritório, construímos uma relação de confiança com
-          quem nos procura. Trabalhamos com transparência, responsabilidade e
-          respeito, buscando não apenas resultados positivos, mas também
-          tranquilidade e segurança para os nossos clientes.
-          <br />
-          <br />
-          Nosso compromisso é entregar o que prometemos: soluções jurídicas
-          eficazes, com clareza e profissionalismo.
+          <p>
+            Mais do que representar juridicamente, estou aqui para apoiar,
+            acolher e construir caminhos justos e equilibrados para você e sua
+            família.
+          </p>
           <br />
           <br />
         </p>
@@ -460,10 +448,10 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
@@ -525,24 +513,25 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Qual a diferença entre divórcio consensual e litigioso?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "No consensual, o casal está de acordo sobre questões como partilha, pensão e guarda — é mais rápido e pode ser feito até em cartório. Já o litigioso ocorre quando há divergência entre as partes, exigindo ação judicial e podendo envolver filhos menores.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Quem fica com a guarda dos filhos após a separação?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "A guarda preferencial no Brasil é compartilhada, quando ambos os pais dividem responsabilidades e decisões. Se não houver acordo, o juiz decide o que é melhor para a criança.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
+          question: "É obrigatório pagar pensão alimentícia, e até quando?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Sim. A pensão é obrigatória, geralmente até os 18 anos e até 24 se o filho estiver estudando. Em caso de desemprego, podem ser fixados valores mínimos, como um percentual do salário mínimo.",
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question:
+            "A visita pode ser negada se houver atraso no pagamento da pensão?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Não. O atraso na pensão não autoriza a suspensão das visitas. O responsável pode cobrar o atraso judicialmente, mas não pode usar a criança como estratégia de negociação.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
