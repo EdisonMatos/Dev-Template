@@ -25,9 +25,9 @@ export default function Index() {
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
-        defaultHero={false}
+        defaultHero={true}
         influencer={false}
-        mesclado={true}
+        mesclado={false}
       />
       {/* <BlogPosts /> */}
       <Features
