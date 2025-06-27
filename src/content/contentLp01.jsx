@@ -7,11 +7,14 @@ import { File } from "lucide-react";
 import { Banknote } from "lucide-react";
 import { FileKey2 } from "lucide-react";
 import { Scale } from "lucide-react";
-import { Gavel } from "lucide-react";
 import { Handshake } from "lucide-react";
 import { BadgeDollarSign } from "lucide-react";
 import { Accessibility } from "lucide-react";
 import { ChartNoAxesCombined } from "lucide-react";
+import { Ban } from "lucide-react";
+import { IdCard } from "lucide-react";
+import { Gavel } from "lucide-react";
+
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
 import img3 from "../assets/imgs/about/image3.webp";
@@ -71,44 +74,64 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "SE SENTIU PREJUDICADO?",
-      title: "Descubra em quais situações você pode entrar com ação.",
+      miniTag: "SE SENTIU LESADO NO TRÂNSITO?",
+      title: "Descubra quando você pode recorrer e garantir seus direitos.",
     },
     cards: {
       card1: {
-        icon: <Shield width={32} height={32} />,
-        title: "Editais Irregulares e Mudanças Injustas",
-        description: "Mudaram as regras no meio do jogo? A gente resolve.",
+        icon: <Ban width={32} height={32} />,
+        title: "Multas e Infrações Indevidas",
+        description:
+          "Contestações de multas aplicadas sem justificativa ou erro.",
         modal1: {
           title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
         },
       },
       card2: {
-        icon: <File width={32} height={32} />,
-        title: "Erros em Provas e Testes Físicos",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-id-card-lanyard-icon lucide-id-card-lanyard"
+          >
+            <path d="M13.5 8h-3" />
+            <path d="m15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3" />
+            <path d="M16.899 22A5 5 0 0 0 7.1 22" />
+            <path d="m9 2 3 6" />
+            <circle cx="12" cy="15" r="3" />
+          </svg>
+        ),
+        title: "Suspensão e Cassação da CNH",
         description:
-          "Questão errada, gabarito confuso, teste sem resultado? Dá pra recorrer.",
+          "Defesa em processos que resultam na perda da carteira de habilitação.",
         modal2: {
           title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
         },
       },
       card3: {
-        icon: <FileKey2 width={32} height={32} />,
-        title: "Recursos Pós-Concurso e Mandado de Segurança",
+        icon: <IdCard width={32} height={32} />,
+        title: "Acidentes e Indenizações",
         description:
-          "Concurso já acabou, mas te prejudicaram? Ainda dá tempo de agir.",
+          "Garantia dos direitos em casos de acidentes e compensações.",
         modal3: {
           title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
         },
       },
       card4: {
-        icon: <Accessibility width={32} height={32} />,
-        title: "Direitos de Candidatos com Necessidades Especiais",
+        icon: <Gavel width={32} height={32} />,
+        title: "Recursos Administrativos e Judiciais",
         description:
-          "Seus direitos não foram respeitados? Nós garantimos sua participação.",
+          "Apoio em recursos e ações para reversão de decisões injustas.",
         modal4: {
           title: <p>A_Definir</p>,
           subtitle: <p>A_Definir</p>,
