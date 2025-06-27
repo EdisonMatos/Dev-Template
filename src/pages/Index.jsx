@@ -32,12 +32,12 @@ export default function Index() {
       {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
+        paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram
@@ -52,7 +52,7 @@ export default function Index() {
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addres={true}
+        addres={false}
         addresSecundario={false}
         phoneSecundario={false}
         phoneTerciario={false}
