@@ -25,24 +25,25 @@ export default function Index() {
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
-        defaultHero={false}
+        defaultHero={true}
         influencer={false}
-        mesclado={true}
+        mesclado={false}
       />
       {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}
-        defaultFeature={false}
+        defaultFeature={true}
         button={false}
         modalWithCards={false}
         paragraphs={false}
         sixCards={false}
-        paragraphsModal={true}
+        paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram
         colorMode={colorMode}
         instagram={true}
+        facebook={true}
         socialPrint={true}
       />
       <Cta colorMode={colorMode} />
@@ -51,12 +52,13 @@ export default function Index() {
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addres={true}
+        addres={false}
         addresSecundario={false}
         phoneSecundario={false}
         phoneTerciario={false}
         expedientesecond={false}
         instagram={true}
+        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

@@ -1,8 +1,8 @@
 import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Marcos Oliveira Advocacia em Saúde",
+  name: "Dr. Henrique Jeremias",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "moadvocacia.com.br", // Sem "www"
+  domain: "drhenriquejeremias.com.br", // Sem "www"
   phone: {
-    ddd: "48",
-    firstPart: "99671", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9093", // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "96576", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2551", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Trompowsky,</p>
-      <p>nº 354 - 5º andar - Centro,</p>
-      <p>Florianópolis - SC, </p>
-      <p>CEP: 88015-300</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -93,12 +92,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>9h às 18h</p>
+      <p>8h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "marcosoliveira.advogadoemsaude", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "henriquejeremias.adv", // Sem o @
+  facebookProfile: "henrique.jeremias.adv",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -124,21 +123,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM SAÚDE EM FLORIANÓPOLIS - SC",
+      miniTag: "ESCRITÓRIO DE ADVOCACIA EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          Negaram seu direito à saúde?
-          <span className="text-primary"> </span>
+          Seu problema merece
+          <span className="text-primary"> atenção real</span>
         </h1>
       ),
       subtitle:
-        "Quando o plano falha, eu entro em ação. Defesa rápida e técnica para quem não pode esperar.",
+        "Esqueça os velhos modelos. Aqui, o foco é você e a busca pela melhor solução possível.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Exija seus direitos agora",
+      ctaButtonText: "Conheça uma nova advocacia",
       obsHero: {
         icon: (
           <svg
@@ -158,11 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: (
-          <p>
-            Atendimento presencial e online via <i>WhatsApp</i> para todo Brasil
-          </p>
-        ),
+        text: "Atendimento exclusivamente online",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -188,32 +183,22 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Direito à saúde e defesa contra abusos dos planos de saúde",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas",
       subtitle:
-        "Atuação jurídica para garantir tratamentos, coberturas e indenizações na área da saúde.",
+        "Atendimento completo e estratégico nas principais áreas do Direito.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Ações contra Planos de Saúde",
-        subtitle: "Defesa de direitos negados por operadoras de saúde.",
+        title: "Direito Penal",
+        subtitle: "Defesa em acusações criminais e processos penais.",
         description: (
           <div>
-            Negativa de fornecimento de medicamentos
+            A_Definir
             <br />
-            Negativa de cobertura por carência
             <br />
-            Negativa de cobertura de cirurgias
-            <br />
-            Negativa de atendimento emergencial ou de urgência
-            <br />
-            Negativa de cobertura de doença preexistente
-            <br />
-            Negativa de cobertura de prótese indispensável ao procedimento
-            cirúrgico
-            <br />
-            Limitação de sessões de quimioterapia ou fisioterapia
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
@@ -228,11 +213,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-alert-icon lucide-shield-alert"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M12 8v4" />
-            <path d="M12 16h.01" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -240,20 +227,14 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Indenizações por Danos Morais e Materiais",
-        subtitle:
-          "Reparação de prejuízos causados por condutas abusivas de planos de saúde.",
+        title: "Direito Cível e Consumidor",
+        subtitle: "Soluções em conflitos civis e defesa do consumidor.",
         description: (
           <div>
-            Indenização por danos morais e materiais por negativa de
-            cobertura/atendimento
+            A_Definir
             <br />
             <br />
-            Indenização por recusa de fornecimento de prótese indispensável
-            <br />
-            <br />
-            Indenização para ressarcimento de despesas antecipadas pelo
-            consumidor
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -268,13 +249,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            class="lucide lucide-file-text-icon lucide-file-text"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M10 9H8" />
+            <path d="M16 13H8" />
+            <path d="M16 17H8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -282,18 +263,13 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito do Consumidor na Saúde",
-        subtitle:
-          "Garantia de tratamento digno e justo nas relações com planos e seguros de saúde.",
+        title: "Direito de Família e Sucessões",
+        subtitle: "Acordos, divórcios, pensões e inventários legais.",
         description: (
           <div>
-            Análise de contratos e cláusulas abusivas
+            A_Definir <br />
             <br />
-            <br />
-            Limitação de coberturas
-            <br />
-            <br />
-            Falta de informações claras sobre direitos
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
@@ -308,14 +284,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-alarm-clock-check-icon lucide-alarm-clock-check"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <circle cx="12" cy="13" r="8" />
-            <path d="M5 3 2 6" />
-            <path d="m22 6-3-3" />
-            <path d="M6.38 18.7 4 21" />
-            <path d="M17.64 18.67 20 21" />
-            <path d="m9 13 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -323,18 +297,14 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Ações de Urgência e Liminares",
-        subtitle:
-          "Garantia rápida de acesso a tratamentos de saúde essenciais.",
+        title: "Direito Empresarial e Trabalhista",
+        subtitle: "Suporte jurídico para empresas e relações de trabalho.",
         description: (
           <div>
-            Liminares para fornecimento de medicamentos
+            A_Definir
             <br />
+            A_Definir
             <br />
-            Liminares para cirurgias ou internações urgentes
-            <br />
-            <br />
-            Ações imediatas contra negativa de atendimento emergencial
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -349,13 +319,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -363,13 +332,14 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "a_Definir",
-        subtitle: "a_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
-            a_Definir
+            A_Definir
             <br />
             <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -413,60 +383,52 @@ const content = {
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Florianópolis - SC",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4484.707229074214!2d-48.5478564!3d-27.587444500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273923891ebff5%3A0x991d21ebf302d8a2!2sM.O%20Advocacia%20-%20Plano%20de%20sa%C3%BAde!5e1!3m2!1spt-BR!2sbr!4v1751048737636!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. MARCOS OLIVEIRA",
+      miniTag: "QUEM É O DR. HENRIQUE JEREMIAS",
       title: "Minha trajetória",
       subtitle:
-        "Do setor público à advocacia, encontrei propósito na defesa da saúde.",
+        "Uma advocacia humana, acessível e comprometida com o seu caso.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
-          propósito claro: defender usuários de planos de saúde que enfrentam
-          negativas injustas de cobertura para medicamentos, exames e cirurgias.
+          Minha história na advocacia ainda está sendo escrita. Estou no início
+          da caminhada profissional, mas com uma visão muito clara: construir um
+          escritório acessível, sem formalidades excessivas, onde o cliente se
+          sinta à vontade para expor sua situação com confiança e clareza.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Abri meu escritório em 2018, ao me mudar para Florianópolis, com um
-          propósito claro: defender usuários de planos de saúde que enfrentam
-          negativas injustas de cobertura para medicamentos, exames e cirurgias.
+          Minha história na advocacia ainda está sendo escrita. Estou no início
+          da caminhada profissional, mas com uma visão muito clara: construir um
+          escritório acessível, sem formalidades excessivas, onde o cliente se
+          sinta à vontade para expor sua situação com confiança e clareza.
           <br />
           <br />
-          Minha trajetória no Direito começou de forma não tão linear. Trabalhei
-          na saúde pública e, por um tempo, segui o caminho dos concursos, mas
-          algo sempre me faltava. Foi atuando como voluntário em uma ONG que
-          redescobri o que me movia: ajudar pessoas por meio da advocacia.
+          Acredito que, ao acolher verdadeiramente quem nos procura, conseguimos
+          compreender melhor o problema e buscar soluções mais eficazes. Tenho o
+          compromisso de atuar com empatia, transparência e total dedicação na
+          resolução dos conflitos que me são confiados.
           <br />
           <br />
-          Com o tempo, percebi que todo meu histórico na área da saúde fazia
-          sentido. Eu conhecia os bastidores, entendia as dores do sistema — e
-          decidi transformar esse conhecimento em ação. Me especializei em
-          Direito da Saúde e nunca mais parei.
+          Mais do que advogar, quero caminhar ao lado do cliente, mostrando que
+          ele não está sozinho.
           <br />
           <br />
-          Hoje, cada caso que chega até mim carrega uma urgência real. Meu
-          compromisso é lutar com empatia, técnica e coragem para garantir que
-          nenhum paciente fique desamparado quando mais precisa.
-          <br />
-          <br />
-          Tenho orgulho de ser advogado. Mais do que isso: orgulho de advogar
-          por uma causa que salva vidas.
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -548,40 +510,24 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question:
-            "O que são períodos de carência e quais são os prazos permitidos?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "Período de carência é o tempo que o usuário deve aguardar após contratar o plano para usar determinados serviços. Os prazos máximos segundo a ANS são: urgência/emergência em até 24h, consultas e exames em até 180 dias, parto em até 300 dias e até 2 anos para doenças preexistentes.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "O plano pode negar cobertura se o médico não for da rede?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Não. Mesmo que o médico não seja credenciado, o plano não pode recusar a realização de exames ou tratamentos prescritos por ele.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "Quando o plano é obrigado a reembolsar despesas?",
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            "O reembolso deve ser garantido quando o plano não oferece o serviço em rede credenciada na região, ou em casos de urgência/emergência. Isso inclui situações como descredenciamento sem aviso, falta de especialistas ou ausência de prestadores próximos.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question:
-            "O que fazer em caso de negativa de cobertura pelo plano de saúde?",
-          answer: (
-            <p>
-              A sequência recomendada é:
-              <br />
-              <br />
-              1. Verificar o motivo da negativa com anexação da documentação
-              médica.
-              <br /> <br />
-              2. Registrar protocolo junto à operadora.
-              <br /> <br />
-              3. Fazer denúncia à ANS se necessário.
-              <br /> <br />
-              4. Buscar orientação ou entrar com ação judicial — tanto para
-              obter a cobertura quanto indenização por danos morais.
-            </p>
-          ),
+          question: "Vocês oferecem serviços de consultoria preventiva?",
+          answer:
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
