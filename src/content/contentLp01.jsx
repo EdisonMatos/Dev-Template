@@ -99,21 +99,19 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "EXCELÊNCIA NA DEFESA DOS SEUS DIREITOS",
+      title: "Análise individualizada e adoção de medida estratégica",
     },
     paragraph: (
       <p>
-        A_Definir
+        Se você se identifica com alguma das situações acima, pode ter direito à
+        indenização por falhas na prestação de serviços bancários ou abusos
+        cometidos por instituições financeiras.
         <br />
         <br />
-        A_Definir
-        <br />
-        <br />
-        A_Definir
       </p>
     ),
-    buttonLabel: "A_Definir",
+    buttonLabel: "Converse agora com um especialista",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
