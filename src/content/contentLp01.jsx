@@ -23,9 +23,12 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title: "A_Definir1",
-    description: "A_Definir",
-    keywords: "A_Definir",
+    title:
+      "Dr. Rafael Nascimento | Especialista em Fraude Bancária em Campinas - SP",
+    description:
+      "Foi vítima de fraude bancária? O Dr. Rafael Nascimento, advogado em Campinas - SP, atua com experiência e agilidade na área de Direito Bancário, com foco em defesa contra golpes, transferências indevidas e clonagem de cartão.",
+    keywords:
+      "Fraude Bancária, Golpe PIX, Advogado Fraude Bancária, Clonagem de Cartão, Advogado Campinas, Defesa Contra Golpes Bancários, Transferência Indevida, Direito do Consumidor Bancário, Ação Contra Banco, Recuperação de Valores, Indenização Por Fraude, Danos Morais Por Fraude Bancária, Assessoria Jurídica Campinas, Especialista em Direito Bancário, Advogado Especialista em Golpes Digitais, Consultoria Jurídica em Campinas, Direito Bancário Campinas, Processo Contra Instituições Financeiras, Dr. Rafael Nascimento, Cobrança Indevida Banco",
   },
   hero: {
     bgImg: bgImg,
