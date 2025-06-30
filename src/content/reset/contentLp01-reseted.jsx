@@ -1,6 +1,23 @@
-import bgImg from "../assets/imgs/hero/bgHeroLp01.webp";
-import logo from "../assets/imgs/logo/logoLp.png";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import logo from "../assets/imgs/logo/logo.webp";
+import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
+import { Shield } from "lucide-react";
+import { File } from "lucide-react";
+import { Banknote } from "lucide-react";
+import { FileKey2 } from "lucide-react";
+import { Scale } from "lucide-react";
+import { Handshake } from "lucide-react";
+import { BadgeDollarSign } from "lucide-react";
+import { Accessibility } from "lucide-react";
+import { ChartNoAxesCombined } from "lucide-react";
+import { Ban } from "lucide-react";
+import { IdCard } from "lucide-react";
+import { Gavel } from "lucide-react";
+
+import img1 from "../assets/imgs/about/image1.webp";
+import img2 from "../assets/imgs/about/image2.webp";
+import img3 from "../assets/imgs/about/image3.webp";
 
 const currentYear = new Date().getFullYear();
 
@@ -59,9 +76,17 @@ const contentLp01 = {
   },
   about: {
     bgImg: bgImg,
+    imagesGaleria: {
+      imagem1: img1,
+      imagem2: img2,
+      imagem3: img3,
+    },
+    imgAbout: {
+      img: imagemAbout,
+    },
     logo: {
       logoImg: logo,
-      alt: "Logomarca",
+      alt: "logomarca",
     },
     sectionHeader: {
       miniTag: "A_Definir",
@@ -69,12 +94,42 @@ const contentLp01 = {
     },
     paragraph: (
       <p>
-        A_Definir <br />
-        <br /> A_Definir
+        A_Definir
+        <br />
+        <br />
+        A_Definir
+        <br />
+        <br />
+        A_Definir
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
-    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+    buttonLabel: "A_Definir",
+    ctaButtonAriaLabel: "Botão de Contato",
+  },
+  steps: {
+    miniTag: "A_Definir",
+    title: "A_Definir",
+    subtitle: "A_Definir",
+    alt: "A_Definir",
+    cards: {
+      card1: {
+        stepNumber: 1,
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
+      },
+      card2: {
+        stepNumber: 2,
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
+      },
+      card3: {
+        stepNumber: 3,
+        cardTitle: "A_Definir",
+        cardDescription: "A_Definir",
+      },
+      buttonLabel: "A_Definir",
+      ariaLabel: "A_Definir",
+    },
   },
   whyUs: {
     sectionHeader: {
@@ -83,25 +138,32 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: "A_Definir",
+        icon: <Gavel width={32} height={32} />,
         title: "A_Definir",
         description: "A_Definir",
       },
       card2: {
-        icon: "A_Definir",
+        icon: <ChartNoAxesCombined width={32} height={32} />,
         title: "A_Definir",
         description: "A_Definir",
       },
       card3: {
-        icon: "A_Definir",
+        icon: <Handshake width={32} height={32} />,
         title: "A_Definir",
         description: "A_Definir",
       },
       card4: {
-        icon: "A_Definir",
+        icon: <BadgeDollarSign width={32} height={32} />,
         title: "A_Definir",
         description: "A_Definir",
       },
+    },
+  },
+  video: {
+    sectionHeader: {
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
     },
   },
   cta: {
@@ -109,10 +171,10 @@ const contentLp01 = {
     sectionHeader: {
       miniTag: "A_Definir",
       title: "A_Definir",
-      subtitle: `A_Definir`,
+      subtitle: <p className="opacity-80">A_Definir</p>,
     },
-    buttonLabel: "Quero falar com um especialista",
-    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+    buttonLabel: "A_Definir",
+    ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
     card1: {
@@ -173,6 +235,26 @@ const contentLp01 = {
       ),
       title: "Whatsapp",
       description: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
+    },
+    card4: {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-phone-icon lucide-phone"
+        >
+          <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" />
+        </svg>
+      ),
+      title: "Fixo",
+      description: `(${infos.phoneSecundario.ddd}) ${infos.phoneSecundario.firstPart}-${infos.phoneSecundario.secondPart}`,
     },
   },
   footer: {

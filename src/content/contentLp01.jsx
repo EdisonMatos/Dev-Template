@@ -23,119 +23,54 @@ const currentYear = new Date().getFullYear();
 
 const contentLp01 = {
   infos: {
-    title:
-      "Jonas Araújo Advocacia | Especialista em Direito de Trânsito em São Paulo - SP",
-    description:
-      "Defenda seus direitos no trânsito com a Jonas Araújo Advocacia, referência em São Paulo. Atendimento ágil, especializado e estratégias jurídicas para proteger sua CNH e recorrer de infrações.",
-
-    keywords:
-      "Jonas Araujo Advocacia, Direito de Trânsito São Paulo, Advogado de Trânsito SP, Defesa CNH Suspensa, Recurso de Multa SP, Suspensão de CNH, Cassação de CNH, Especialista em Trânsito, Infração de Trânsito SP, Advogado para Multas, Defesa Administrativa Trânsito, Recurso Detran SP, Advogado Detran São Paulo, Multa Indevida SP, Direito Administrativo Trânsito, Defesa Jurídica no Trânsito, Assessoria Trânsito SP, Consultoria Jurídica Trânsito, Advogado Trânsito São Paulo, Recorrer Multa Trânsito SP.",
+    title: "A_Definir1",
+    description: "A_Definir",
+    keywords: "A_Definir",
   },
   hero: {
     bgImg: bgImg,
     logo: {
       logoImg: logo,
-      alt: "logomarca",
+      alt: "Logomarca",
     },
     textArea: {
       title: (
         <h1>
-          No trânsito, a multa vem rápido.{" "}
-          <span className="text-primary">Seus direitos,</span> nem sempre.
+          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
+          <span className="text-lpTitle"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "Entenda como agir diante de infrações, suspensões, acidentes ou processos de trânsito. ",
-      buttonLabel: "Quero proteger meus direitos",
-      obsHero: {
-        icon: (
-          // Ícone mantido
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="lucide lucide-map-pin-check"
-          >
-            <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
-            <circle cx="12" cy="10" r="3" />
-            <path d="m16 18 2 2 4-4" />
-          </svg>
-        ),
-        text: "A_Definir",
-      },
-      ctaButtonAriaLabel: "A_Definir",
+      subtitle: "A_Definir",
+      buttonLabel: "Quero falar com um especialista",
+      ctaButtonAriaLabel:
+        "Botão para chamada de ação para contato pelo whatsapp",
     },
   },
   features: {
     sectionHeader: {
-      miniTag: "SE SENTIU LESADO NO TRÂNSITO?",
-      title: "Descubra quando você pode recorrer e garantir seus direitos.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
-        icon: <Ban width={32} height={32} />,
-        title: "Multas e Infrações Indevidas",
-        description:
-          "Contestações de multas aplicadas sem justificativa ou erro.",
-        modal1: {
-          title: <p>A_Definir</p>,
-          subtitle: <p>A_Definir</p>,
-        },
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-id-card-lanyard-icon lucide-id-card-lanyard"
-          >
-            <path d="M13.5 8h-3" />
-            <path d="m15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3" />
-            <path d="M16.899 22A5 5 0 0 0 7.1 22" />
-            <path d="m9 2 3 6" />
-            <circle cx="12" cy="15" r="3" />
-          </svg>
-        ),
-        title: "Suspensão e Cassação da CNH",
-        description:
-          "Defesa em processos que resultam na perda da carteira de habilitação.",
-        modal2: {
-          title: <p>A_Definir</p>,
-          subtitle: <p>A_Definir</p>,
-        },
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card3: {
-        icon: <IdCard width={32} height={32} />,
-        title: "Acidentes e Indenizações",
-        description:
-          "Garantia dos direitos em casos de acidentes e compensações.",
-        modal3: {
-          title: <p>A_Definir</p>,
-          subtitle: <p>A_Definir</p>,
-        },
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
-        icon: <Gavel width={32} height={32} />,
-        title: "Recursos Administrativos e Judiciais",
-        description:
-          "Apoio em recursos e ações para reversão de decisões injustas.",
-        modal4: {
-          title: <p>A_Definir</p>,
-          subtitle: <p>A_Definir</p>,
-        },
+        icon: "A_Definir",
+        title: "A_Definir",
+        description: "A_Definir",
       },
     },
   },
@@ -154,27 +89,21 @@ const contentLp01 = {
       alt: "logomarca",
     },
     sectionHeader: {
-      miniTag: "EXCELÊNCIA EM DEFESA ADMINISTRATIVA DE TRÂNSITO",
-      title: "Comprometidos com a proteção dos seus direitos no trânsito.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     paragraph: (
       <p>
-        Nossa equipe é especializada na defesa jurídica em casos de infrações,
-        multas, suspensão e cassação de CNH, e demais demandas do Direito de
-        Trânsito. Atuamos com foco nas necessidades específicas de cada cliente,
-        oferecendo atendimento personalizado e estratégico.
+        A_Definir
         <br />
         <br />
-        Unimos técnica, inovação e experiência para garantir resultados
-        concretos e justos. Desde o início, somos reconhecidos pela atuação
-        firme, próxima e eficiente, sempre em defesa dos seus direitos.
+        A_Definir
         <br />
         <br />
-        Se você procura um escritório que realmente entende seu caso e luta por
-        ele, está no lugar certo.
+        A_Definir
       </p>
     ),
-    buttonLabel: "Fale agora com um advogado",
+    buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   steps: {
@@ -204,34 +133,29 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A ESCOLHA CERTA",
-      title:
-        "Por que somos a melhor opção para defender seus direitos no trânsito",
+      miniTag: "A_Definir",
+      title: "A_Definir",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "Especialistas em Direito de Trânsito",
-        description:
-          "Conhecemos as normas e particularidades do Código de Trânsito Brasileiro e suas implicações práticas.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "Experiência Comprovada e Atualizada",
-        description:
-          "Anos de atuação em defesa administrativa e judicial, com participação em congressos e eventos para estratégias eficazes.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "Atuação Próxima dos Órgãos e Tribunais",
-        description:
-          "Acompanhamos julgamentos e atualizações nas instâncias administrativas e judiciais, garantindo defesas alinhadas às últimas decisões.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
       card4: {
         icon: <BadgeDollarSign width={32} height={32} />,
-        title: "Estratégias Personalizadas para Seu Caso",
-        description:
-          "Desenvolvemos técnicas exclusivas para reversão de multas, suspensão de CNH e outros recursos, com histórico de resultados positivos.",
+        title: "A_Definir",
+        description: "A_Definir",
       },
     },
   },
@@ -245,18 +169,11 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "NÃO PERCA TEMPO",
-      title: "Seus direitos no trânsito ao seu alcance!",
-      subtitle: (
-        <p className="opacity-80">
-          Na Jonas Araújo Advocacia, estamos prontos para ajudar você a resolver
-          qualquer questão jurídica relacionada ao trânsito. Conte com uma
-          equipe especializada para proteger sua CNH, recorrer de multas e
-          garantir seus direitos com segurança e agilidade.
-        </p>
-      ),
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: <p className="opacity-80">A_Definir</p>,
     },
-    buttonLabel: "Vamos resolver seu problema",
+    buttonLabel: "A_Definir",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
