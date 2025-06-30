@@ -141,29 +141,33 @@ const contentLp01 = {
   },
   whyUs: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "A ESCOLHA CERTA",
+      title: "Estratégia personalizada para o seu caso",
     },
     cards: {
       card1: {
         icon: <Gavel width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Estratégia personalizada para o seu caso",
+        description:
+          "Analisamos cada detalhe da cobrança indevida, fraude bancária ou busca e apreensão para construir a melhor estratégia jurídica. Nosso foco é garantir seus direitos com suporte especializado em todas as etapas do processo.",
       },
       card2: {
         icon: <ChartNoAxesCombined width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Soluções sob medida",
+        description:
+          "Cada situação exige um plano de ação exclusivo. Atuamos com rapidez e precisão para buscar a reparação que você merece. Com atenção aos detalhes, aumentam suas chances de um resultado positivo.",
       },
       card3: {
         icon: <Handshake width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Compromisso total com seus direitos",
+        description:
+          "Estamos ao seu lado do início ao fim, com dedicação e responsabilidade. Defendemos seus interesses com firmeza e transparência, sempre em busca da melhor solução jurídica.",
       },
       card4: {
         icon: <BadgeDollarSign width={32} height={32} />,
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Experiência que inspira confiança",
+        description:
+          "Temos sólida experiência em casos contra bancos e financeiras. Com conhecimento técnico e atuação eficiente, garantimos segurança em cada passo e lutamos para que você receba a justiça que merece.",
       },
     },
   },
