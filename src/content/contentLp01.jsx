@@ -181,11 +181,19 @@ const contentLp01 = {
   cta: {
     bgImg: bgImg,
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: <p className="opacity-80">A_Definir</p>,
+      miniTag: "NÃO ESPERE MAIS",
+      title: "Garanta sua indenização agora mesmo!",
+      subtitle: (
+        <p className="opacity-80">
+          Se você foi vítima de cobrança indevida, fraude bancária ou teve seu
+          veículo apreendido de forma abusiva, pode ter direito a uma
+          indenização. Nossa equipe jurídica especializada está pronta para
+          orientar você e buscar a reparação que merece. Não deixe que o
+          prejuízo se prolongue — lute pelos seus direitos!
+        </p>
+      ),
     },
-    buttonLabel: "A_Definir",
+    buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão de Contato",
   },
   contact: {
