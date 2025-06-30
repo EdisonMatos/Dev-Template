@@ -53,29 +53,34 @@ const contentLp01 = {
   },
   features: {
     sectionHeader: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "DEFENDA SEUS DIREITOS FINANCEIROS",
+      title: "Situações em que você pode buscar indenização na Justiça",
     },
     cards: {
       card1: {
-        icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        icon: "",
+        title: "Cobrança indevida em faturas, boletos ou contratos",
+        description:
+          "Valores cobrados indevidamente, seja por erro ou má-fé, devem ser estornados e podem gerar direito a indenização por danos morais.",
       },
       card2: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title:
+          "Golpes e fraudes bancárias: compras, PIX ou transferências não autorizadas",
+        description:
+          "Se você foi vítima de fraude, o banco é responsável pela segurança da conta. Você pode reaver os valores e receber compensação.",
       },
       card3: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Busca e apreensão de veículos com irregularidades",
+        description:
+          "Se o banco ou financeira agiu de forma abusiva na retomada do seu veículo, é possível contestar a ação e buscar reparação judicial.",
       },
       card4: {
         icon: "A_Definir",
-        title: "A_Definir",
-        description: "A_Definir",
+        title: "Negativa de devolução ou atendimento ineficaz pelo banco",
+        description:
+          "Se a instituição financeira não prestou suporte ou negou a resolução de um problema claro, você pode exigir judicialmente seus direitos.",
       },
     },
   },
