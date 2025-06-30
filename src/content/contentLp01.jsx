@@ -39,12 +39,14 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          A_Definir <span className="text-lpTitle"> A_Definir</span> A_Definir
-          <span className="text-lpTitle"> A_Definir</span>
+          Foi vítima de cobrança indevida, fraude bancária ou teve o carro
+          apreendido? <span className="text-lpTitle"></span>
+          <span className="text-lpTitle"></span>
         </h1>
       ),
-      subtitle: "A_Definir",
-      buttonLabel: "Quero falar com um especialista",
+      subtitle:
+        "Você pode ter direito à reparação. Conte com suporte jurídico especializado para defender seus direitos e reverter situações abusivas.",
+      buttonLabel: "Converse agora com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
