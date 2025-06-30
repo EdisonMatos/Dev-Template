@@ -24,14 +24,14 @@ export default function ContactLP() {
             <ContactCardLP
               label={contentLp01.contact.card2.title}
               icon={contentLp01.contact.card2.icon}
-              description="contato@jonasaraujoadv.com"
+              description={contentLp01.contact.card2.description}
             />
 
-            <ContactCardLP
+            {/* <ContactCardLP
               label={contentLp01.contact.card4.title}
               icon={contentLp01.contact.card4.icon}
               description={contentLp01.contact.card4.description}
-            />
+            /> */}
 
             {/* <ContactCardLP
               label={contentLp01.contact.card1.title}
