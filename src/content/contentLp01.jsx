@@ -1,6 +1,6 @@
-import bgImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import logo from "../assets/imgs/logo/logo.png";
-import imagemAbout from "../assets/imgs/about/aboutImg.jpg";
+import bgImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
+import logo from "../assets/imgs/logo/logo.webp";
+import imagemAbout from "../assets/imgs/about/aboutImg.webp";
 import { infos } from "./content";
 import { Shield } from "lucide-react";
 import { File } from "lucide-react";
@@ -14,6 +14,7 @@ import { ChartNoAxesCombined } from "lucide-react";
 import { Ban } from "lucide-react";
 import { IdCard } from "lucide-react";
 import { Gavel } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 
 import img1 from "../assets/imgs/about/image1.webp";
 import img2 from "../assets/imgs/about/image2.webp";
@@ -218,7 +219,7 @@ const contentLp01 = {
     },
     cards: {
       card1: {
-        icon: <Gavel width={32} height={32} />,
+        icon: <ShieldCheck width={32} height={32} />,
         title: "Estratégia personalizada para o seu caso",
         description:
           "Analisamos cada detalhe da cobrança indevida, fraude bancária ou busca e apreensão para construir a melhor estratégia jurídica. Nosso foco é garantir seus direitos com suporte especializado em todas as etapas do processo.",
