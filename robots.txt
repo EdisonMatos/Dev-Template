@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://drhenriquejeremias.com.br/sitemap.xml
+Sitemap: https://rnascimentoadv.com.br/sitemap.xml
 

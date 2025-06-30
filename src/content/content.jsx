@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Henrique Jeremias",
+  name: "Dr. Rafael Nascimento",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "drhenriquejeremias.com.br", // Sem "www"
+  domain: "rnascimentoadv.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "96576", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2551", // Apenas os 4 últimos números
+    ddd: "19",
+    firstPart: "98227", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9369", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -96,8 +96,8 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "henriquejeremias.adv", // Sem o @
-  facebookProfile: "henrique.jeremias.adv",
+  instagramProfile: "dr_rafaelnascimento", // Sem o @
+  facebookProfile: "a_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
