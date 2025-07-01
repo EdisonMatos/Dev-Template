@@ -421,6 +421,26 @@ const content = {
         "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
+    ctaSecondary: {
+      backgroundImg: ctaWhatsappImgBg,
+      // miniTag: "FALE CONOSCO",
+      title: (
+        <h1>
+          <span className="text-primary">Dúvidas?</span> Entre em contato
+          conosco para podermos lhe ajudar,{" "}
+          <span className="text-primary">estamos te esperando.</span>
+        </h1>
+      ),
+      subtitleDireita: (
+        <p className="gap-3 flex font-mainFont opacity-60 mt-1">
+          <span>E N T R E </span> E M <span>C O N T A T O</span> V I A
+        </p>
+      ),
+      titleDireita: (
+        <h1 className="text-title5 my-3 font-mainFont">WhatsApp</h1>
+      ),
+      ctaButtonText: "Falar agora",
+    },
     steps: {
       miniTag: "PASSO A PASSO",
       title: "Como funciona nosso atendimento?",
