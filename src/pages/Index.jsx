@@ -13,6 +13,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import Maps from "../components/sections/Maps";
 import TeamCards from "../components/sections/TeamCards";
 import BlogPosts from "../components/sections/BlogPosts";
+import CtaSecondary from "../components/sections/CtaSecondary";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -46,7 +47,8 @@ export default function Index() {
         facebook={true}
         socialPrint={true}
       />
-      <Cta colorMode={colorMode} />
+      {/* <Cta colorMode={colorMode} /> */}
+      <CtaSecondary />
       <Steps colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
