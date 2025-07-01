@@ -27,11 +27,20 @@ export default function CtaSecondary({ colorMode = "default" }) {
     <>
       <SectionArea className={`${bgClass}`}>
         <SectionWrapper>
-          <div className=" flex justify-evenly">
-            <div className=" w-[45%] ">
+          <div className=" flex flex-col desktop1:flex-row justify-evenly">
+            <div className=" desktop1:w-[45%] ">
               <SectionHeader
                 colorMode="dark"
-                className={`text-center ${textClass}`}
+                className={`text-center desktop1:hidden ${textClass}`}
+                sectionHeaderTitle={content.texts.ctaSecondary.title}
+                titleColorSet={textClass}
+                subtitleColorSet={textClass}
+                miniTitleBgColor={false}
+                type=""
+              />
+              <SectionHeader
+                colorMode="dark"
+                className={`text-center hidden desktop1:flex ${textClass}`}
                 sectionHeaderTitle={content.texts.ctaSecondary.title}
                 titleColorSet={textClass}
                 subtitleColorSet={textClass}
@@ -39,7 +48,7 @@ export default function CtaSecondary({ colorMode = "default" }) {
                 type="article"
               />
             </div>
-            <div className=" w-[45%] flex flex-col items-center justify-evenly">
+            <div className=" desktop1:w-[45%] flex flex-col items-center justify-evenly">
               {" "}
               <FaWhatsapp size={54} className="text-primary" />
               {content.texts.ctaSecondary.subtitleDireita}
