@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Possatti Escola de Jiu-Jitsu em Vila Velha - ES",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "possattiejj.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "27",
+    firstPart: "99775", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0509", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Avenida capixaba,</p>
+      <p>nº 1987,</p>
+      <p>Vila Velha - ES,</p>
+      <p>CEP 29105-795</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,12 +93,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>8h às 21h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "possattiejj", // Sem o @
+  facebookProfile: "possattiejj",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
