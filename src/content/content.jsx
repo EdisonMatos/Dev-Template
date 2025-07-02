@@ -14,10 +14,10 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dra. Catarina Mozarkel",
+  name: "Dr. Raphael Lemos",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "catarinamokarzel.com.br", // Sem "www"
+  domain: "raphaellemosadv.com.br", // Sem "www"
   phone: {
-    ddd: "91",
-    firstPart: "98511", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9782", // Apenas os 4 últimos números
+    ddd: "21",
+    firstPart: "98601", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9059", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,11 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Av. Senador Lemos,</p>
-      <p>Ed. Síntese Plaza,</p>
-      <p>Umarizal, Belém - PA,</p>
-      <p>CEP: 66050-005</p>
+      <p>Avenida Governador Leonel de Moura Brizola,</p>
+      <p>n° 1060, Edifício River,</p>
+      <p>sala 13/14,</p>
+      <p>Centro Duque de Caxias - RJ,</p>
+      <p>CEP: 25010-002</p>
     </div>
   ),
   enderecoSecundario: (
@@ -93,12 +94,11 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 19h</p>
-      <p>19h às 8h em regime de plantão</p>
+      <p>10h às 18h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "catarinamokarzel", // Sem o @
+  instagramProfile: "A_definir", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -125,21 +125,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM BELÉM - PA",
+      miniTag: "ADVOGADO EM DUQUE DE CAXIAS - RJ",
       title: (
         <h1 className="mb-[16px]">
-          Onde a lei falha,
-          <span className=""> eu insisto</span>
+          Seu problema jurídico
+          <span className="text-primary"> não vai</span> sumir
         </h1>
       ),
       subtitle:
-        "Transformo vivência em estratégia para defender quem precisa de força e direção",
+        "Enquanto você adia uma solução, seus direitos podem estar sendo ignorados. Já pensou nisso?",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Proteja o que é seu",
+      ctaButtonText: "Quero resolver isso agora",
       obsHero: {
         icon: (
           <svg
@@ -159,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil",
+        text: "Atendimento presencial e online para todo Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -185,16 +185,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADES",
-      title: "Atuação profissional",
-      subtitle:
-        "Conheça os principais ramos do Direito em que podemos te ajudar.",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas",
+      subtitle: "Direito feito para você, com foco no que realmente importa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito de Família",
-        subtitle: "Resolução de conflitos familiares com sensibilidade.",
+        title: "Direito Cível",
+        subtitle: "Soluções jurídicas para conflitos entre particulares.",
         description: (
           <div>
             A_Definir
@@ -215,13 +214,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-contact-round-icon lucide-contact-round"
+            class="lucide lucide-handshake-icon lucide-handshake"
           >
-            <path d="M16 2v2" />
-            <path d="M17.915 22a6 6 0 0 0-12 0" />
-            <path d="M8 2v2" />
-            <circle cx="12" cy="12" r="4" />
-            <rect x="3" y="4" width="18" height="18" rx="2" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -229,8 +228,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito das Sucessões",
-        subtitle: "Planejamento e partilha de bens com segurança.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa dos direitos trabalhistas e relações laborais.",
         description: (
           <div>
             A_Definir
@@ -240,6 +239,39 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-user-icon lucide-shield-user"
+          >
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M6.376 18.91a6 6 0 0 1 11.249.003" />
+            <circle cx="12" cy="11" r="4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Direito de Família",
+        subtitle: "Orientação em divórcios, guarda e pensão alimentícia.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -262,18 +294,19 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card3: {
-        img: featuresImg3,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa de direitos nas relações de trabalho.",
+      card4: {
+        img: featuresImg4,
+        title: "Direito do Consumidor",
+        subtitle: "Proteção contra práticas abusivas e cobranças indevidas.",
         description: (
           <div>
-            A_Definir <br />
+            A_Definir
             <br />
             A_Definir
+            <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal3,
+        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -285,27 +318,62 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card4: {
+      card5: {
         img: featuresImg4,
         title: "Direito Criminal",
-        subtitle: "Atuação na defesa em processos criminais.",
+        subtitle: "Defesa técnica em processos criminais e penal.",
         description: (
           <div>
             A_Definir
             <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-gavel-icon lucide-gavel"
+          >
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Consultoria Jurídica",
+        subtitle: "Assessoria preventiva para decisões e contratos.",
+        description: (
+          <div>
             A_Definir
             <br />
+            <br />
+            A_Definir
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -327,40 +395,6 @@ const content = {
             <path d="M7 21h10" />
             <path d="M12 3v18" />
             <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card5: {
-        img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-          >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -396,48 +430,40 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. CATARINA MOZARKEL",
+      miniTag: "QUEM É O DR. RAPAHEL LEMOS",
       title: "Minha trajetória",
       subtitle:
-        "Vivência real, técnica e acolhimento em cada etapa da jornada jurídica.",
+        "Defesa ética, atendimento humanizado e foco total nos seus direitos.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Sou advogada desde 2018, atuante nas áreas de Direito de Família,
-          Trabalhista e Criminal. Minha história com o Direito começou ainda na
-          infância, inspirada pela minha avó, que trabalhava no sistema
-          prisional com uma postura que me marcou profundamente.
+          Iniciei minha caminhada na advocacia em 2018, com um escritório no
+          Centro do Rio de Janeiro. Durante a pandemia, precisei fechar as
+          portas, mas recomecei com ainda mais foco e propósito no endereço
+          atual.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Sou advogada desde 2018, atuante nas áreas de Direito de Família,
-          Trabalhista e Criminal. Minha história com o Direito começou ainda na
-          infância, inspirada pela minha avó, que trabalhava no sistema
-          prisional com uma postura que me marcou profundamente.
+          Iniciei minha caminhada na advocacia em 2018, com um escritório no
+          Centro do Rio de Janeiro. Durante a pandemia, precisei fechar as
+          portas, mas recomecei com ainda mais foco e propósito no endereço
+          atual.
           <br />
           <br />
-          Fui a primeira advogada da minha família. Depois de formada, enfrentei
-          desafios pessoais que moldaram minha forma de atuar, como um divórcio
-          difícil que me aproximou, com empatia, das dores de tantas mulheres
-          que hoje atendo.
+          Hoje, além do trabalho no escritório, atuo como Vice-Presidente da
+          Comissão de Mediação e Conflitos da 58ª Subseção da OAB/RJ. Esse papel
+          reforça meu compromisso com a escuta, o diálogo e a resolução justa de
+          conflitos.
           <br />
           <br />
-          No campo trabalhista, acumulei cinco anos de experiência em uma
-          empresa familiar, conhecendo de perto as dificuldades dos
-          trabalhadores. Na área criminal, atuei na Secretaria de Administração
-          Penitenciária do Pará, vivenciando de forma intensa o funcionamento da
-          Vara de Execução Penal.
-          <br />
-          <br />
-          Essas experiências me tornaram uma profissional preparada, humana e
-          real.
-          <br />
-          <br />
-          Acredito que o Direito precisa ser acessível. Por isso, trabalho com
-          empatia, responsabilidade e clareza — para que cada cliente se sinta
-          acolhido, compreendido e seguro para recomeçar com dignidade. Meu
-          compromisso é transformar histórias com estratégia, escuta e respeito.
+          Atendo cada cliente com empatia e atenção total às suas demandas.
+          Minha missão é garantir que seus direitos sejam respeitados, com
+          ética, dedicação e uma abordagem acessível e acolhedora.
           <br />
           <br />
         </p>
@@ -475,10 +501,10 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       // miniTag: "FALE CONOSCO",
       title: (
-        <h1 className="text-primary">
-          <span className="text-black">Enfrentando um</span> problema jurídico?
-          <span className="text-black"> Deixe que cuidamos disso </span>para
-          você!
+        <h1>
+          <span className="text-primary">Dúvidas?</span> Entre em contato
+          conosco para podermos lhe ajudar,{" "}
+          <span className="text-primary">estamos te esperando.</span>
         </h1>
       ),
       subtitleDireita: (
