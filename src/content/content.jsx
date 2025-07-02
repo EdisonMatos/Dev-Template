@@ -184,15 +184,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "NOSSAS AULAS",
+      title: "Para todos os níveis e objetivos",
+      subtitle:
+        "Conheça os diferentes formatos de aulas que oferecemos para homens, mulheres e crianças.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Aulas Particulares",
+        subtitle: "Treinos individuais para homens e mulheres",
         description: (
           <div>
             A_Definir
@@ -219,8 +220,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Aulas para Iniciantes e Avançados",
+        subtitle: "Jiu-jitsu do básico ao avançado para todos",
         description: (
           <div>
             A_Definir
@@ -247,8 +248,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Aulas para Kids",
+        subtitle: "Jiu-jitsu infantil para meninos e meninas",
         description: (
           <div>
             A_Definir <br />
@@ -274,8 +275,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Treinos de Competição",
+        subtitle: "Preparação para competições masculinas e femininas",
         description: (
           <div>
             A_Definir
