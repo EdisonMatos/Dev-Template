@@ -125,20 +125,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ADVOGADO EM DUQUE DE CAXIAS - RJ",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Seu problema jurídico
+          <span className="text-primary"> não vai</span> sumir
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Enquanto você adia uma solução, seus direitos podem estar sendo ignorados. Já pensou nisso?",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Quero resolver isso agora",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento presencial e online para todo Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
