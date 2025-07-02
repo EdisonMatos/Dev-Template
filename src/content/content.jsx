@@ -365,33 +365,55 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A POSSATTI - ESCOLA DE JIU-JITSU",
+      title: "Nossa trajetória",
+      subtitle:
+        "Formamos campeões com valores, técnica e propósito dentro e fora do tatame.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          A Possatti nasceu com o compromisso de transformar vidas por meio do
+          jiu-jitsu. Muito além de uma arte marcial, aqui o esporte é uma
+          ferramenta poderosa de desenvolvimento humano. Cada aula é pensada
+          para fortalecer corpo, mente e espírito, sempre com uma abordagem
+          respeitosa, acolhedora e inclusiva. Ensinamos com base em valores
+          sólidos como liderança, igualdade e respeito, acreditando que o tatame
+          é um espaço democrático, onde todos aprendem, crescem e evoluem
+          juntos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          A Possatti nasceu com o compromisso de transformar vidas por meio do
+          jiu-jitsu. Muito além de uma arte marcial, aqui o esporte é uma
+          ferramenta poderosa de desenvolvimento humano. Cada aula é pensada
+          para fortalecer corpo, mente e espírito, sempre com uma abordagem
+          respeitosa, acolhedora e inclusiva. Ensinamos com base em valores
+          sólidos como liderança, igualdade e respeito, acreditando que o tatame
+          é um espaço democrático, onde todos aprendem, crescem e evoluem
+          juntos.
           <br />
           <br />
-          A_Definir
+          Nossa missão é formar campeões dentro e fora dos tatames. Trabalhamos
+          para potencializar as habilidades motoras, cognitivas e emocionais de
+          cada aluno, motivando-os a nunca desistir de seus objetivos. Ensinamos
+          a enfrentar as adversidades com coragem, a valorizar o trabalho em
+          equipe e a respeitar cada etapa do processo. Mais do que ensinar
+          golpes e técnicas, buscamos despertar a autoconfiança, a disciplina e
+          o senso de responsabilidade que o jiu-jitsu proporciona.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Na Possatti, tratamos todos como parte de uma família. A vitória de um
+          é celebrada por todos, porque acreditamos no poder coletivo da
+          superação. Homens, mulheres e crianças encontram aqui um ambiente
+          seguro, técnico e inspirador, onde cada aluno é respeitado como ser
+          humano único. Seguimos nossa jornada com o propósito de impactar
+          positivamente a vida de quem cruza nosso caminho, sempre com paixão
+          pelo que fazemos e responsabilidade com o que ensinamos.
           <br />
           <br />
         </p>
@@ -494,24 +516,35 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Qualquer pessoa pode treinar na Possatti?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Sim! O jiu-jitsu é uma arte baseada em alavancas, permitindo que pessoas de todas as idades, gêneros, pesos e níveis de condicionamento físico participem com segurança e aproveite os benefícios.Seja você homem, mulher, criança ou terceira idade, todos são bem-vindos para aprender e evoluir.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Preciso estar em forma antes de começar?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Não. A maioria dos alunos ao iniciar não possuem preparo físico especial – e isso não é um problema . O jiu-jitsu é um excelente condicionamento físico por si só: desenvolve resistência cardiovascular, força, agilidade e flexibilidade ao longo do tempo.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "O que devo levar para a primeira aula?",
+          answer: (
+            <p>
+              Para a primeira aula, basta trazer:
+              <br />
+              <br />
+              - Roupa confortável, como camiseta e shorts (treinos "no-gi") ou
+              kimono básico (caso já tenha)
+              <br />
+              - Garrafa de água e higiene pessoal (toalha, desodorante).
+              <br />- Lesões ou ferimentos devem estar cobertos com atadura ou
+              gaze.
+            </p>
+          ),
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Existe risco de me machucar no jiu-jitsu?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Como qualquer atividade de contato, existe risco de lesões leves; porém, isso é raro graças à supervisão atenta dos professores e às técnicas controladas. Cuidamos da segurança por meio de orientações, aquecimentos e ensino gradual para que o treino seja desafiador, porém seguro.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
