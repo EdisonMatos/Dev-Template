@@ -59,9 +59,9 @@ export default function SidebarSocial({ colorMode }) {
           className={`p-button-rounded p-button-outlined lg:hidden ${
             colorMode
               ? scrolled
-                ? "text-bgSectionDark"
-                : "text-bgSectionDark"
-              : "text-bgSectionDark"
+                ? "text-primary"
+                : "text-primary"
+              : "text-primary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -88,7 +88,7 @@ export default function SidebarSocial({ colorMode }) {
                     <img
                       src={content.texts.navbar.solidLogo.img}
                       alt={content.texts.navbar.solidLogo.alt}
-                      className="w-auto h-auto p-[5px] bg-white rounded-md "
+                      className="w-auto h-auto p-[5px] "
                     />
                   </span>
                   <span>
