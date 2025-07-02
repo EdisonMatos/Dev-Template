@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Rafael Nascimento",
+  name: "Dra. Catarina Mozarkel",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "rnascimentoadv.com.br", // Sem "www"
+  domain: "catarinamokarzel.com.br", // Sem "www"
   phone: {
-    ddd: "19",
-    firstPart: "98227", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9369", // Apenas os 4 últimos números
+    ddd: "91",
+    firstPart: "98511", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9782", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,9 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Av. Senador Lemos,</p>
+      <p>Ed. Síntese Plaza,</p>
+      <p>Umarizal, Belém - PA,</p>
+      <p>CEP: 66050-005</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,12 +93,13 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>8h às 19h</p>
+      <p>19h às 8h em regime de plantão</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "dr_rafaelnascimento", // Sem o @
-  facebookProfile: "a_Definir",
+  instagramProfile: "catarinamokarzel", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -123,21 +125,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM SÃO PAULO - SP",
+      miniTag: "ADVOGADA EM BELÉM - PA",
       title: (
         <h1 className="mb-[16px]">
-          Seu problema merece
-          <span className="text-primary"> atenção real</span>
+          Onde a lei falha,
+          <span className=""> eu insisto</span>
         </h1>
       ),
       subtitle:
-        "Esqueça os velhos modelos. Aqui, o foco é você e a busca pela melhor solução possível.",
+        "Transformo vivência em estratégia para defender quem precisa de força e direção",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Conheça uma nova advocacia",
+      ctaButtonText: "Proteja o que é seu",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +159,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento exclusivamente online",
+        text: "Atendimento presencial e online para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -183,16 +185,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades jurídicas",
+      miniTag: "ESPECIALIDADES",
+      title: "Atuação profissional",
       subtitle:
-        "Atendimento completo e estratégico nas principais áreas do Direito.",
+        "Conheça os principais ramos do Direito em que podemos te ajudar.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Penal",
-        subtitle: "Defesa em acusações criminais e processos penais.",
+        title: "Direito de Família",
+        subtitle: "Resolução de conflitos familiares com sensibilidade.",
         description: (
           <div>
             A_Definir
@@ -213,13 +215,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-contact-round-icon lucide-contact-round"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
+            <path d="M16 2v2" />
+            <path d="M17.915 22a6 6 0 0 0-12 0" />
+            <path d="M8 2v2" />
+            <circle cx="12" cy="12" r="4" />
+            <rect x="3" y="4" width="18" height="18" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -227,8 +229,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Cível e Consumidor",
-        subtitle: "Soluções em conflitos civis e defesa do consumidor.",
+        title: "Direito das Sucessões",
+        subtitle: "Planejamento e partilha de bens com segurança.",
         description: (
           <div>
             A_Definir
@@ -238,41 +240,6 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-file-text-icon lucide-file-text"
-          >
-            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
-            <path d="M10 9H8" />
-            <path d="M16 13H8" />
-            <path d="M16 17H8" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card3: {
-        img: featuresImg3,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Acordos, divórcios, pensões e inventários legais.",
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -295,10 +262,44 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
+      card3: {
+        img: featuresImg3,
+        title: "Direito Trabalhista",
+        subtitle: "Defesa de direitos nas relações de trabalho.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+          >
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
       card4: {
         img: featuresImg4,
-        title: "Direito Empresarial e Trabalhista",
-        subtitle: "Suporte jurídico para empresas e relações de trabalho.",
+        title: "Direito Criminal",
+        subtitle: "Atuação na defesa em processos criminais.",
         description: (
           <div>
             A_Definir
@@ -319,12 +320,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -394,39 +396,48 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. HENRIQUE JEREMIAS",
+      miniTag: "QUEM É A DRA. CATARINA MOZARKEL",
       title: "Minha trajetória",
       subtitle:
-        "Uma advocacia humana, acessível e comprometida com o seu caso.",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+        "Vivência real, técnica e acolhimento em cada etapa da jornada jurídica.",
       paragraph: (
         <div>
-          Minha história na advocacia ainda está sendo escrita. Estou no início
-          da caminhada profissional, mas com uma visão muito clara: construir um
-          escritório acessível, sem formalidades excessivas, onde o cliente se
-          sinta à vontade para expor sua situação com confiança e clareza.
+          Sou advogada desde 2018, atuante nas áreas de Direito de Família,
+          Trabalhista e Criminal. Minha história com o Direito começou ainda na
+          infância, inspirada pela minha avó, que trabalhava no sistema
+          prisional com uma postura que me marcou profundamente.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha história na advocacia ainda está sendo escrita. Estou no início
-          da caminhada profissional, mas com uma visão muito clara: construir um
-          escritório acessível, sem formalidades excessivas, onde o cliente se
-          sinta à vontade para expor sua situação com confiança e clareza.
+          Sou advogada desde 2018, atuante nas áreas de Direito de Família,
+          Trabalhista e Criminal. Minha história com o Direito começou ainda na
+          infância, inspirada pela minha avó, que trabalhava no sistema
+          prisional com uma postura que me marcou profundamente.
           <br />
           <br />
-          Acredito que, ao acolher verdadeiramente quem nos procura, conseguimos
-          compreender melhor o problema e buscar soluções mais eficazes. Tenho o
-          compromisso de atuar com empatia, transparência e total dedicação na
-          resolução dos conflitos que me são confiados.
+          Fui a primeira advogada da minha família. Depois de formada, enfrentei
+          desafios pessoais que moldaram minha forma de atuar, como um divórcio
+          difícil que me aproximou, com empatia, das dores de tantas mulheres
+          que hoje atendo.
           <br />
           <br />
-          Mais do que advogar, quero caminhar ao lado do cliente, mostrando que
-          ele não está sozinho.
+          No campo trabalhista, acumulei cinco anos de experiência em uma
+          empresa familiar, conhecendo de perto as dificuldades dos
+          trabalhadores. Na área criminal, atuei na Secretaria de Administração
+          Penitenciária do Pará, vivenciando de forma intensa o funcionamento da
+          Vara de Execução Penal.
+          <br />
+          <br />
+          Essas experiências me tornaram uma profissional preparada, humana e
+          real.
+          <br />
+          <br />
+          Acredito que o Direito precisa ser acessível. Por isso, trabalho com
+          empatia, responsabilidade e clareza — para que cada cliente se sinta
+          acolhido, compreendido e seguro para recomeçar com dignidade. Meu
+          compromisso é transformar histórias com estratégia, escuta e respeito.
           <br />
           <br />
         </p>
@@ -464,10 +475,10 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       // miniTag: "FALE CONOSCO",
       title: (
-        <h1>
-          <span className="text-primary">Dúvidas?</span> Entre em contato
-          conosco para podermos lhe ajudar,{" "}
-          <span className="text-primary">estamos te esperando.</span>
+        <h1 className="text-primary">
+          <span className="text-black">Enfrentando um</span> problema jurídico?
+          <span className="text-black"> Deixe que cuidamos disso </span>para
+          você!
         </h1>
       ),
       subtitleDireita: (

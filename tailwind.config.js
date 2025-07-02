@@ -5,13 +5,13 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#FBA745",
+      primary: "#722630",
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#141414",
+      bgSectionDark: "#2e0f13",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -25,10 +25,10 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      buttonColor: "#FBA745",
-      iconButtons: "#000",
-      labelButtons: "#000",
-      minititle: "#FBA745",
+      buttonColor: "#722630",
+      iconButtons: "#fff",
+      labelButtons: "#fff",
+      minititle: "#722630",
 
       // Sombras
 
@@ -46,6 +46,7 @@ export const theme = {
     },
     boxShadow: {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
+      "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
