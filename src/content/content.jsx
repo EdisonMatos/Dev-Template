@@ -129,7 +129,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">
           Onde a lei falha,
-          <span className="text-primary"> eu insisto</span>
+          <span className=""> eu insisto</span>
         </h1>
       ),
       subtitle:

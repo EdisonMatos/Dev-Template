@@ -59,9 +59,9 @@ export default function SidebarSocial({ colorMode }) {
           className={`p-button-rounded p-button-outlined lg:hidden ${
             colorMode
               ? scrolled
-                ? "text-primary"
-                : "text-primary"
-              : "text-primary"
+                ? "text-labelButtons"
+                : "text-labelButtons"
+              : "text-labelButtons"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
