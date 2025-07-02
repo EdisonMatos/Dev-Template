@@ -124,20 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCOLA DE JIU-JITSU EM VILA VELHA - ES",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          Jiu-Jitsu para todos os níveis
+          <span className="text-primary"></span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "A escola ideal para homens, mulheres e crianças que buscam técnica, saúde e evolução pessoal.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Agende sua aula experimental",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "A primeira aula é gratuita. Venha conhecer nosso tatame e transformar sua rotina!",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
