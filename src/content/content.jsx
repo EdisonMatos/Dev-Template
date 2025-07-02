@@ -405,7 +405,7 @@ const content = {
         miniTag: "A_Definir",
         title: "A_Definir",
         subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
