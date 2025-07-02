@@ -396,33 +396,48 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É A DRA. CATARINA MOZARKEL",
+      title: "Minha trajetória",
+      subtitle:
+        "Vivência real, técnica e acolhimento em cada etapa da jornada jurídica.",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Sou advogada desde 2018, atuante nas áreas de Direito de Família,
+          Trabalhista e Criminal. Minha história com o Direito começou ainda na
+          infância, inspirada pela minha avó, que trabalhava no sistema
+          prisional com uma postura que me marcou profundamente.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Sou advogada desde 2018, atuante nas áreas de Direito de Família,
+          Trabalhista e Criminal. Minha história com o Direito começou ainda na
+          infância, inspirada pela minha avó, que trabalhava no sistema
+          prisional com uma postura que me marcou profundamente.
           <br />
           <br />
-          A_Definir
+          Fui a primeira advogada da minha família. Depois de formada, enfrentei
+          desafios pessoais que moldaram minha forma de atuar, como um divórcio
+          difícil que me aproximou, com empatia, das dores de tantas mulheres
+          que hoje atendo.
           <br />
           <br />
-          A_Definir
+          No campo trabalhista, acumulei cinco anos de experiência em uma
+          empresa familiar, conhecendo de perto as dificuldades dos
+          trabalhadores. Na área criminal, atuei na Secretaria de Administração
+          Penitenciária do Pará, vivenciando de forma intensa o funcionamento da
+          Vara de Execução Penal.
           <br />
           <br />
-          A_Definir
+          Essas experiências me tornaram uma profissional preparada, humana e
+          real.
+          <br />
+          <br />
+          Acredito que o Direito precisa ser acessível. Por isso, trabalho com
+          empatia, responsabilidade e clareza — para que cada cliente se sinta
+          acolhido, compreendido e seguro para recomeçar com dignidade. Meu
+          compromisso é transformar histórias com estratégia, escuta e respeito.
           <br />
           <br />
         </p>
@@ -436,14 +451,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
