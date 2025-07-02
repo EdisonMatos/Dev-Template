@@ -185,15 +185,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Especialidades jurídicas",
+      subtitle: "Direito feito para você, com foco no que realmente importa.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Cível",
+        subtitle: "Soluções jurídicas para conflitos entre particulares.",
         description: (
           <div>
             A_Definir
@@ -220,8 +220,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa dos direitos trabalhistas e relações laborais.",
         description: (
           <div>
             A_Definir
@@ -248,8 +248,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito de Família",
+        subtitle: "Orientação em divórcios, guarda e pensão alimentícia.",
         description: (
           <div>
             A_Definir <br />
@@ -275,8 +275,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito do Consumidor",
+        subtitle: "Proteção contra práticas abusivas e cobranças indevidas.",
         description: (
           <div>
             A_Definir
@@ -303,8 +303,42 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Criminal",
+        subtitle: "Defesa técnica em processos criminais e penal.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Consultoria Jurídica",
+        subtitle: "Assessoria preventiva para decisões e contratos.",
         description: (
           <div>
             A_Definir
@@ -365,33 +399,40 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
-      labelInstagram: "Siga-nos no Instagram",
-      labelFacebook: "Siga-nos no Facebook",
-      labelLinkedin: "Siga-nos no LinkedIn",
-      labelX: "Siga-nos no X",
+      miniTag: "QUEM É O DR. RAPAHEL LEMOS",
+      title: "Minha trajetória",
+      subtitle:
+        "Defesa ética, atendimento humanizado e foco total nos seus direitos.",
+      labelInstagram: "Siga-me no Instagram",
+      labelFacebook: "Siga-me no Facebook",
+      labelLinkedin: "Siga-me no LinkedIn",
+      labelX: "Siga-me no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          Iniciei minha caminhada na advocacia em 2018, com um escritório no
+          Centro do Rio de Janeiro. Durante a pandemia, precisei fechar as
+          portas, mas recomecei com ainda mais foco e propósito no endereço
+          atual.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Iniciei minha caminhada na advocacia em 2018, com um escritório no
+          Centro do Rio de Janeiro. Durante a pandemia, precisei fechar as
+          portas, mas recomecei com ainda mais foco e propósito no endereço
+          atual.
           <br />
           <br />
-          A_Definir
+          Hoje, além do trabalho no escritório, atuo como Vice-Presidente da
+          Comissão de Mediação e Conflitos da 58ª Subseção da OAB/RJ. Esse papel
+          reforça meu compromisso com a escuta, o diálogo e a resolução justa de
+          conflitos.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Atendo cada cliente com empatia e atenção total às suas demandas.
+          Minha missão é garantir que seus direitos sejam respeitados, com
+          ética, dedicação e uma abordagem acessível e acolhedora.
           <br />
           <br />
         </p>
@@ -405,14 +446,15 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-nos no Instagram",
-        labelFacebook: "Siga-nos no Facebook",
-        labelLinkedin: "Siga-nos no LinkedIn",
-        labelX: "Siga-nos no X",
+        labelInstagram: "Siga-me no Instagram",
+        labelFacebook: "Siga-me no Facebook",
+        labelLinkedin: "Siga-me no LinkedIn",
+        labelX: "Siga-me no X",
       },
     },
     cta: {
