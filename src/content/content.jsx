@@ -399,33 +399,43 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. JULIANA FURUCHO",
+      title: "Minha trajetória",
+      subtitle:
+        "Transformando indignação em justiça pela saúde de quem mais precisa",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
+          O escritório da Dra. Juliana Furucho nasceu da indignação diante das
+          negativas injustas de planos de saúde e da omissão do SUS. A cada
+          paciente desamparado, crescia o desejo de transformar a dor em ação.
+          Assim começou uma trajetória marcada pela defesa firme do direito à
+          saúde.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          O escritório da Dra. Juliana Furucho nasceu da indignação diante das
+          negativas injustas de planos de saúde e da omissão do SUS. A cada
+          paciente desamparado, crescia o desejo de transformar a dor em ação.
+          Assim começou uma trajetória marcada pela defesa firme do direito à
+          saúde.
           <br />
           <br />
-          A_Definir
+          Desde então, centenas de pessoas tiveram acesso a medicamentos,
+          terapias e tratamentos antes negados. Casos envolvendo autismo,
+          doenças raras e condições graves passaram a ser tratados com urgência,
+          estratégia e acolhimento humano.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Aqui, cada história é única e tratada com escuta ativa, empatia e
+          dedicação total. Lutamos por resultados concretos, com agilidade e
+          sensibilidade, porque acreditamos que saúde é direito — e justiça, uma
+          missão diária.
           <br />
           <br />
         </p>
