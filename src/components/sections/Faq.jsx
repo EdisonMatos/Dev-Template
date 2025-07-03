@@ -33,7 +33,6 @@ export default function Faq({ colorMode }) {
           miniTitle={content.texts.faq.miniTag}
           sectionHeaderTitle={content.texts.faq.title}
           sectionHeaderSubtitle={content.texts.faq.subtitle}
-          color=""
           titleColorSet={titleColor}
           subtitleColorSet={titleColor}
         />
