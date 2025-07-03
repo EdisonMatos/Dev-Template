@@ -30,6 +30,8 @@ export default function FeaturesWithIcons({ colorMode }) {
         sectionHeaderSubtitle={content.texts.features.subtitle}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
+        colorMode="dark"
+        
       />
       <SectionWrapper>
         <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">

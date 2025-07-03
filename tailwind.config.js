@@ -11,7 +11,7 @@ export const theme = {
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#990000",
+      bgSectionDark: "#000",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -28,7 +28,10 @@ export const theme = {
       buttonColor: "#DBB14C",
       iconButtons: "#000",
       labelButtons: "#000",
-      minititle: "#57A595",
+      minititleLight: "#FFFFFF", //minitag de seções claras
+      minititleDark: "#000", //minitag de seções claras
+      minititle: "#FFFFFF", //minitag de seções escuras
+      minititleDark: "#000", //minitag de seções escuras
 
       // Sombras
 
