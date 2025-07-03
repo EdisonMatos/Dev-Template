@@ -24,7 +24,7 @@ export default function SectionHeader({
   // Configurações baseadas no colorMode
   switch (colorMode) {
     case "dark":
-      miniTitleTextColor = miniTitleTextColor ?? "text-labelButtons";
+      miniTitleTextColor = miniTitleTextColor ?? "text-minititleLight";
       titleColor = titleColorSet ?? "text-white";
       subtitleColor = subtitleColorSet ?? "text-white";
       if (miniTitleBgColor === true) miniTitleBgColor = "bg-bgSectionDark";

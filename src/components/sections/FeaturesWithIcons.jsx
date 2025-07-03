@@ -30,6 +30,8 @@ export default function FeaturesWithIcons({ colorMode }) {
         sectionHeaderSubtitle={content.texts.features.subtitle}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
+        colorMode="dark"
+        
       />
       <SectionWrapper>
         <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
@@ -54,7 +56,7 @@ export default function FeaturesWithIcons({ colorMode }) {
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[40%] desktop2:w-[50%]">
+          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%]">
             <div
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
               style={{

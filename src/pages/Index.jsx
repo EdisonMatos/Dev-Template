@@ -26,8 +26,8 @@ export default function Index() {
       <Hero
         colorMode={colorMode}
         appDownloadButtons={false}
-        defaultHero={false}
-        influencer={true}
+        defaultHero={true}
+        influencer={false}
         mesclado={false}
       />
       {/* <BlogPosts /> */}
@@ -45,22 +45,19 @@ export default function Index() {
         colorMode={colorMode}
         instagram={true}
         socialPrint={true}
-        facebook={true}
       />
       {/* <Cta colorMode={colorMode} /> */}
       <CtaSecondary />
       <Steps colorMode={colorMode} />
-      <Maps colorMode={colorMode} />
+      {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addres={true}
         addresSecundario={false}
         phoneSecundario={false}
         phoneTerciario={false}
         expedientesecond={false}
         instagram={true}
-        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
