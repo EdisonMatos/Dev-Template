@@ -1,8 +1,7 @@
 import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import IconButton from "../../interactives/IconButton"
+import IconButton from "../../interactives/IconButton";
 import content from "../../../content/content";
-
 
 function FacebookFooter() {
   return (
@@ -22,7 +21,7 @@ function FacebookFooter() {
               height="20"
               viewBox="0 0 24 24"
               fill="transparent"
-              stroke="black"
+              stroke="white"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"

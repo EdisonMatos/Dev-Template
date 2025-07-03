@@ -1,14 +1,14 @@
-import logo from "../assets/imgs/logo/logo.webp";
+import logo from "../assets/imgs/logo/logo.png";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Raphael Lemos",
+  name: "Possatti Escola de Jiu-Jitsu em Vila Velha - ES",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "raphaellemosadv.com.br", // Sem "www"
+  domain: "possattiejj.com.br", // Sem "www"
   phone: {
-    ddd: "21",
-    firstPart: "98601", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9059", // Apenas os 4 últimos números
+    ddd: "27",
+    firstPart: "99775", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0509", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,11 +75,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida Governador Leonel de Moura Brizola,</p>
-      <p>n° 1060, Edifício River,</p>
-      <p>sala 13/14,</p>
-      <p>Centro Duque de Caxias - RJ,</p>
-      <p>CEP: 25010-002</p>
+      <p>Avenida capixaba,</p>
+      <p>nº 1987,</p>
+      <p>Vila Velha - ES,</p>
+      <p>CEP 29105-795</p>
     </div>
   ),
   enderecoSecundario: (
@@ -94,12 +93,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>10h às 18h</p>
+      <p>8h às 21h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
+  instagramProfile: "possattiejj", // Sem o @
+  facebookProfile: "possattiejj",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -125,21 +124,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO EM DUQUE DE CAXIAS - RJ",
+      miniTag: "ESCOLA DE JIU-JITSU EM VILA VELHA - ES",
       title: (
         <h1 className="mb-[16px]">
-          Seu problema jurídico
-          <span className="text-primary"> não vai</span> sumir
+          Jiu-Jitsu para todos os níveis
+          <span className="text-primary"></span>
         </h1>
       ),
       subtitle:
-        "Enquanto você adia uma solução, seus direitos podem estar sendo ignorados. Já pensou nisso?",
+        "A escola ideal para homens, mulheres e crianças que buscam técnica, saúde e evolução pessoal.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero resolver isso agora",
+      ctaButtonText: "Agende sua aula experimental",
       obsHero: {
         icon: (
           <svg
@@ -159,7 +158,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial e online para todo Brasil.",
+        text: "A primeira aula é gratuita. Venha conhecer nosso tatame e transformar sua rotina!",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -185,15 +184,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades jurídicas",
-      subtitle: "Direito feito para você, com foco no que realmente importa.",
+      miniTag: "NOSSAS AULAS",
+      title: "Para todos os níveis e objetivos",
+      subtitle:
+        "Conheça os diferentes formatos de aulas que oferecemos para homens, mulheres e crianças.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Soluções jurídicas para conflitos entre particulares.",
+        title: "Aulas Particulares",
+        subtitle: "Treinos individuais para homens e mulheres",
         description: (
           <div>
             A_Definir
@@ -214,13 +214,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-handshake-icon lucide-handshake"
+            class="lucide lucide-user-round-check-icon lucide-user-round-check"
           >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
+            <path d="M2 21a8 8 0 0 1 13.292-6" />
+            <circle cx="10" cy="8" r="5" />
+            <path d="m16 19 2 2 4-4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -228,8 +226,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Trabalhista",
-        subtitle: "Defesa dos direitos trabalhistas e relações laborais.",
+        title: "Aulas para Iniciantes e Avançados",
+        subtitle: "Jiu-jitsu do básico ao avançado para todos",
         description: (
           <div>
             A_Definir
@@ -250,11 +248,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shield-user-icon lucide-shield-user"
+            class="lucide lucide-layers-icon lucide-layers"
           >
-            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
-            <path d="M6.376 18.91a6 6 0 0 1 11.249.003" />
-            <circle cx="12" cy="11" r="4" />
+            <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
+            <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" />
+            <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -262,8 +260,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito de Família",
-        subtitle: "Orientação em divórcios, guarda e pensão alimentícia.",
+        title: "Aulas para Kids",
+        subtitle: "Jiu-jitsu infantil para meninos e meninas",
         description: (
           <div>
             A_Definir <br />
@@ -283,12 +281,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-baby-icon lucide-baby"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
+            <path d="M15 12h.01" />
+            <path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
+            <path d="M9 12h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -296,8 +294,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Direito do Consumidor",
-        subtitle: "Proteção contra práticas abusivas e cobranças indevidas.",
+        title: "Treinos de Competição",
+        subtitle: "Preparação para competições masculinas e femininas",
         description: (
           <div>
             A_Definir
@@ -318,11 +316,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+            class="lucide lucide-medal-icon lucide-medal"
           >
-            <circle cx="8" cy="21" r="1" />
-            <circle cx="19" cy="21" r="1" />
-            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+            <path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15" />
+            <path d="M11 12 5.12 2.2" />
+            <path d="m13 12 5.88-9.8" />
+            <path d="M8 7h8" />
+            <circle cx="12" cy="17" r="5" />
+            <path d="M12 18v-2h-.5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -330,8 +331,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "Direito Criminal",
-        subtitle: "Defesa técnica em processos criminais e penal.",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -352,49 +353,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-gavel-icon lucide-gavel"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
           >
-            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
-            <path d="m16 16 6-6" />
-            <path d="m8 8 6-6" />
-            <path d="m9 7 8 8" />
-            <path d="m21 11-8-8" />
-          </svg>
-        ),
-        buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
-      },
-      card6: {
-        img: featuresImg4,
-        title: "Consultoria Jurídica",
-        subtitle: "Assessoria preventiva para decisões e contratos.",
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal4,
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-scale-icon lucide-scale"
-          >
-            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
-            <path d="M7 21h10" />
-            <path d="M12 3v18" />
-            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -419,51 +382,67 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em Vila Velha - ES",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4666.037288181845!2d-40.308773699999996!3d-20.3571958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83dfff8c61e97%3A0x63b9d3e58f118fb9!2sAv.%20Capixaba%2C%201987%20-%20Cocal%2C%20Vila%20Velha%20-%20ES%2C%2029101-420!5e1!3m2!1spt-BR!2sbr!4v1751489419407!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. RAPAHEL LEMOS",
-      title: "Minha trajetória",
+      miniTag: "QUEM É A POSSATTI - ESCOLA DE JIU-JITSU",
+      title: "Nossa trajetória",
       subtitle:
-        "Defesa ética, atendimento humanizado e foco total nos seus direitos.",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+        "Formamos campeões com valores, técnica e propósito dentro e fora do tatame.",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Iniciei minha caminhada na advocacia em 2018, com um escritório no
-          Centro do Rio de Janeiro. Durante a pandemia, precisei fechar as
-          portas, mas recomecei com ainda mais foco e propósito no endereço
-          atual.
+          A Possatti nasceu com o compromisso de transformar vidas por meio do
+          jiu-jitsu. Muito além de uma arte marcial, aqui o esporte é uma
+          ferramenta poderosa de desenvolvimento humano. Cada aula é pensada
+          para fortalecer corpo, mente e espírito, sempre com uma abordagem
+          respeitosa, acolhedora e inclusiva. Ensinamos com base em valores
+          sólidos como liderança, igualdade e respeito, acreditando que o tatame
+          é um espaço democrático, onde todos aprendem, crescem e evoluem
+          juntos.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Iniciei minha caminhada na advocacia em 2018, com um escritório no
-          Centro do Rio de Janeiro. Durante a pandemia, precisei fechar as
-          portas, mas recomecei com ainda mais foco e propósito no endereço
-          atual.
+          A Possatti nasceu com o compromisso de transformar vidas por meio do
+          jiu-jitsu. Muito além de uma arte marcial, aqui o esporte é uma
+          ferramenta poderosa de desenvolvimento humano. Cada aula é pensada
+          para fortalecer corpo, mente e espírito, sempre com uma abordagem
+          respeitosa, acolhedora e inclusiva. Ensinamos com base em valores
+          sólidos como liderança, igualdade e respeito, acreditando que o tatame
+          é um espaço democrático, onde todos aprendem, crescem e evoluem
+          juntos.
           <br />
           <br />
-          Hoje, além do trabalho no escritório, atuo como Vice-Presidente da
-          Comissão de Mediação e Conflitos da 58ª Subseção da OAB/RJ. Esse papel
-          reforça meu compromisso com a escuta, o diálogo e a resolução justa de
-          conflitos.
+          Nossa missão é formar campeões dentro e fora dos tatames. Trabalhamos
+          para potencializar as habilidades motoras, cognitivas e emocionais de
+          cada aluno, motivando-os a nunca desistir de seus objetivos. Ensinamos
+          a enfrentar as adversidades com coragem, a valorizar o trabalho em
+          equipe e a respeitar cada etapa do processo. Mais do que ensinar
+          golpes e técnicas, buscamos despertar a autoconfiança, a disciplina e
+          o senso de responsabilidade que o jiu-jitsu proporciona.
           <br />
           <br />
-          Atendo cada cliente com empatia e atenção total às suas demandas.
-          Minha missão é garantir que seus direitos sejam respeitados, com
-          ética, dedicação e uma abordagem acessível e acolhedora.
+          Na Possatti, tratamos todos como parte de uma família. A vitória de um
+          é celebrada por todos, porque acreditamos no poder coletivo da
+          superação. Homens, mulheres e crianças encontram aqui um ambiente
+          seguro, técnico e inspirador, onde cada aluno é respeitado como ser
+          humano único. Seguimos nossa jornada com o propósito de impactar
+          positivamente a vida de quem cruza nosso caminho, sempre com paixão
+          pelo que fazemos e responsabilidade com o que ensinamos.
           <br />
           <br />
         </p>
@@ -480,12 +459,12 @@ const content = {
         miniTag: "REDES SOCIAIS",
         title: "Conecte-se conosco",
         subtitle:
-          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+          "Acompanhe nossas redes e fique por dentro de treinos, eventos e novidades do jiu-jitsu.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -567,24 +546,35 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Como posso contratar seus serviços?",
+          question: "Qualquer pessoa pode treinar na Possatti?",
           answer:
-            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
+            "Sim! O jiu-jitsu é uma arte baseada em alavancas, permitindo que pessoas de todas as idades, gêneros, pesos e níveis de condicionamento físico participem com segurança e aproveite os benefícios.Seja você homem, mulher, criança ou terceira idade, todos são bem-vindos para aprender e evoluir.",
         },
         question2: {
-          question: "Qual é o prazo médio para resolução de um caso?",
+          question: "Preciso estar em forma antes de começar?",
           answer:
-            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
+            "Não. A maioria dos alunos ao iniciar não possuem preparo físico especial – e isso não é um problema . O jiu-jitsu é um excelente condicionamento físico por si só: desenvolve resistência cardiovascular, força, agilidade e flexibilidade ao longo do tempo.",
         },
         question3: {
-          question: "Quais documentos devo levar para a consulta?",
-          answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+          question: "O que devo levar para a primeira aula?",
+          answer: (
+            <p>
+              Para a primeira aula, basta trazer:
+              <br />
+              <br />
+              - Roupa confortável, como camiseta e shorts (treinos "no-gi") ou
+              kimono básico (caso já tenha)
+              <br />
+              - Garrafa de água e higiene pessoal (toalha, desodorante).
+              <br />- Lesões ou ferimentos devem estar cobertos com atadura ou
+              gaze.
+            </p>
+          ),
         },
         question4: {
-          question: "Vocês oferecem serviços de consultoria preventiva?",
+          question: "Existe risco de me machucar no jiu-jitsu?",
           answer:
-            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
+            "Como qualquer atividade de contato, existe risco de lesões leves; porém, isso é raro graças à supervisão atenta dos professores e às técnicas controladas. Cuidamos da segurança por meio de orientações, aquecimentos e ensino gradual para que o treino seja desafiador, porém seguro.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
