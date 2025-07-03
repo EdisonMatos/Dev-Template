@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Possatti Escola de Jiu-Jitsu em Vila Velha - ES",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "possattiejj.com.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "27",
-    firstPart: "99775", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0509", // Apenas os 4 últimos números
+    ddd: "A_Definir",
+    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "A_Definir", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -75,10 +75,9 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Avenida capixaba,</p>
-      <p>nº 1987,</p>
-      <p>Vila Velha - ES,</p>
-      <p>CEP 29105-795</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -93,12 +92,12 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 21h</p>
+      <p>A_Definir</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "possattiejj", // Sem o @
-  facebookProfile: "possattiejj",
+  instagramProfile: "A_definir", // Sem o @
+  facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -124,21 +123,20 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCOLA DE JIU-JITSU EM VILA VELHA - ES",
+      miniTag: "A_Definir",
       title: (
         <h1 className="mb-[16px]">
-          Jiu-Jitsu para todos os níveis
-          <span className="text-primary"></span>
+          A_Definir
+          <span className="text-primary"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        "A escola ideal para homens, mulheres e crianças que buscam técnica, saúde e evolução pessoal.",
+      subtitle: "A_Definir",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Agende sua aula experimental",
+      ctaButtonText: "A_Definir",
       obsHero: {
         icon: (
           <svg
@@ -158,7 +156,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A primeira aula é gratuita. Venha conhecer nosso tatame e transformar sua rotina!",
+        text: "A_Definir",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,16 +182,15 @@ const content = {
       },
     },
     features: {
-      miniTag: "NOSSAS AULAS",
-      title: "Para todos os níveis e objetivos",
-      subtitle:
-        "Conheça os diferentes formatos de aulas que oferecemos para homens, mulheres e crianças.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Aulas Particulares",
-        subtitle: "Treinos individuais para homens e mulheres",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -208,17 +205,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-user-round-check-icon lucide-user-round-check"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M2 21a8 8 0 0 1 13.292-6" />
-            <circle cx="10" cy="8" r="5" />
-            <path d="m16 19 2 2 4-4" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -226,8 +217,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Aulas para Iniciantes e Avançados",
-        subtitle: "Jiu-jitsu do básico ao avançado para todos",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -242,17 +233,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-layers-icon lucide-layers"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
-            <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" />
-            <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -260,8 +245,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Aulas para Kids",
-        subtitle: "Jiu-jitsu infantil para meninos e meninas",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir <br />
@@ -275,18 +260,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-baby-icon lucide-baby"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" />
-            <path d="M15 12h.01" />
-            <path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" />
-            <path d="M9 12h.01" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -294,8 +272,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Treinos de Competição",
-        subtitle: "Preparação para competições masculinas e femininas",
+        title: "A_Definir",
+        subtitle: "A_Definir",
         description: (
           <div>
             A_Definir
@@ -310,20 +288,11 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-medal-icon lucide-medal"
+            fill="currentColor"
+            className="bi bi-whatsapp"
+            viewBox="0 0 16 16"
           >
-            <path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15" />
-            <path d="M11 12 5.12 2.2" />
-            <path d="m13 12 5.88-9.8" />
-            <path d="M8 7h8" />
-            <circle cx="12" cy="17" r="5" />
-            <path d="M12 18v-2h-.5" />
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -382,67 +351,44 @@ const content = {
       },
     },
     maps: {
-      minitag: "LOCALIZAÇÃO",
-      title: "Encontre-nos em Vila Velha - ES",
-      subtitle:
-        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
+      minitag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       embedsrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4666.037288181845!2d-40.308773699999996!3d-20.3571958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83dfff8c61e97%3A0x63b9d3e58f118fb9!2sAv.%20Capixaba%2C%201987%20-%20Cocal%2C%20Vila%20Velha%20-%20ES%2C%2029101-420!5e1!3m2!1spt-BR!2sbr!4v1751489419407!5m2!1spt-BR!2sbr",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
     about: {
       imagem: {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A POSSATTI - ESCOLA DE JIU-JITSU",
-      title: "Nossa trajetória",
-      subtitle:
-        "Formamos campeões com valores, técnica e propósito dentro e fora do tatame.",
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A Possatti nasceu com o compromisso de transformar vidas por meio do
-          jiu-jitsu. Muito além de uma arte marcial, aqui o esporte é uma
-          ferramenta poderosa de desenvolvimento humano. Cada aula é pensada
-          para fortalecer corpo, mente e espírito, sempre com uma abordagem
-          respeitosa, acolhedora e inclusiva. Ensinamos com base em valores
-          sólidos como liderança, igualdade e respeito, acreditando que o tatame
-          é um espaço democrático, onde todos aprendem, crescem e evoluem
-          juntos.
+          A_Definir
+          <br />
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A Possatti nasceu com o compromisso de transformar vidas por meio do
-          jiu-jitsu. Muito além de uma arte marcial, aqui o esporte é uma
-          ferramenta poderosa de desenvolvimento humano. Cada aula é pensada
-          para fortalecer corpo, mente e espírito, sempre com uma abordagem
-          respeitosa, acolhedora e inclusiva. Ensinamos com base em valores
-          sólidos como liderança, igualdade e respeito, acreditando que o tatame
-          é um espaço democrático, onde todos aprendem, crescem e evoluem
-          juntos.
+          A_Definir
           <br />
           <br />
-          Nossa missão é formar campeões dentro e fora dos tatames. Trabalhamos
-          para potencializar as habilidades motoras, cognitivas e emocionais de
-          cada aluno, motivando-os a nunca desistir de seus objetivos. Ensinamos
-          a enfrentar as adversidades com coragem, a valorizar o trabalho em
-          equipe e a respeitar cada etapa do processo. Mais do que ensinar
-          golpes e técnicas, buscamos despertar a autoconfiança, a disciplina e
-          o senso de responsabilidade que o jiu-jitsu proporciona.
+          A_Definir
           <br />
           <br />
-          Na Possatti, tratamos todos como parte de uma família. A vitória de um
-          é celebrada por todos, porque acreditamos no poder coletivo da
-          superação. Homens, mulheres e crianças encontram aqui um ambiente
-          seguro, técnico e inspirador, onde cada aluno é respeitado como ser
-          humano único. Seguimos nossa jornada com o propósito de impactar
-          positivamente a vida de quem cruza nosso caminho, sempre com paixão
-          pelo que fazemos e responsabilidade com o que ensinamos.
+          A_Definir
+          <br />
+          <br />
+          A_Definir
           <br />
           <br />
         </p>
@@ -456,11 +402,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Conecte-se conosco",
-        subtitle:
-          "Acompanhe nossas redes e fique por dentro de treinos, eventos e novidades do jiu-jitsu.",
-        paragraph: <p></p>,
+        miniTag: "A_Definir",
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        paragraph: <p>A_Definir</p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
@@ -546,35 +491,24 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Qualquer pessoa pode treinar na Possatti?",
+          question: "Como posso contratar seus serviços?",
           answer:
-            "Sim! O jiu-jitsu é uma arte baseada em alavancas, permitindo que pessoas de todas as idades, gêneros, pesos e níveis de condicionamento físico participem com segurança e aproveite os benefícios.Seja você homem, mulher, criança ou terceira idade, todos são bem-vindos para aprender e evoluir.",
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: "Preciso estar em forma antes de começar?",
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            "Não. A maioria dos alunos ao iniciar não possuem preparo físico especial – e isso não é um problema . O jiu-jitsu é um excelente condicionamento físico por si só: desenvolve resistência cardiovascular, força, agilidade e flexibilidade ao longo do tempo.",
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: "O que devo levar para a primeira aula?",
-          answer: (
-            <p>
-              Para a primeira aula, basta trazer:
-              <br />
-              <br />
-              - Roupa confortável, como camiseta e shorts (treinos "no-gi") ou
-              kimono básico (caso já tenha)
-              <br />
-              - Garrafa de água e higiene pessoal (toalha, desodorante).
-              <br />- Lesões ou ferimentos devem estar cobertos com atadura ou
-              gaze.
-            </p>
-          ),
+          question: "Quais documentos devo levar para a consulta?",
+          answer:
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: "Existe risco de me machucar no jiu-jitsu?",
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            "Como qualquer atividade de contato, existe risco de lesões leves; porém, isso é raro graças à supervisão atenta dos professores e às técnicas controladas. Cuidamos da segurança por meio de orientações, aquecimentos e ensino gradual para que o treino seja desafiador, porém seguro.",
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",
