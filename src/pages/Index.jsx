@@ -45,7 +45,6 @@ export default function Index() {
         colorMode={colorMode}
         instagram={true}
         socialPrint={true}
-        facebook={true}
       />
       {/* <Cta colorMode={colorMode} /> */}
       <CtaSecondary />
@@ -54,13 +53,11 @@ export default function Index() {
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addres={true}
         addresSecundario={false}
         phoneSecundario={false}
         phoneTerciario={false}
         expedientesecond={false}
         instagram={true}
-        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
