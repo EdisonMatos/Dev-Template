@@ -46,6 +46,7 @@ export const theme = {
     },
     boxShadow: {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
+      "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
