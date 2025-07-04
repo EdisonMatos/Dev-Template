@@ -28,10 +28,10 @@ export const theme = {
       buttonColor: "#DBB14C",
       iconButtons: "#000",
       labelButtons: "#000",
-      minititleLight: "#000000", //minitag de seções claras
-      minititleDark: "#000", //minitag de seções claras
-      minititle: "#DBB14C", //minitag de seções escuras
-      minititleDark: "#DBB14C", //minitag de seções escuras
+      minititleLightLabel: "#000", //label das minitag de seções claras
+      minititleDarkLabel: "#000", //label minitag de seções escuras
+      minititleDark: "#DBB14C", //bg minitag de seções claras
+      minititle: "#DBB14C", //bg minitag de seções escuras
 
       // Sombras
 
