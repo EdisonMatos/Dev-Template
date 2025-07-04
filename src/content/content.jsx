@@ -394,33 +394,51 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É A DRA. MAYARA SOUZA",
+      title: "Minha trajetória",
+      subtitle:
+        "Comprometida com ética, excelência e soluções jurídicas personalizadas.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          O escritório liderado pela Dra. Mayara Souza nasceu do desejo de
+          tornar o Direito mais acessível, compreensível e acolhedor para todos.
           <br />
-          A_Definir
+          Com uma atuação pautada na ética, integridade e excelência, o
+          escritório se diferencia por oferecer um atendimento realmente
+          personalizado, atento às necessidades e particularidades de cada
+          cliente.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          O escritório liderado pela Dra. Mayara Souza nasceu do desejo de
+          tornar o Direito mais acessível, compreensível e acolhedor para todos.
           <br />
           <br />
-          A_Definir
+          Com uma atuação pautada na ética, integridade e excelência, o
+          escritório se diferencia por oferecer um atendimento realmente
+          personalizado, atento às necessidades e particularidades de cada
+          cliente.
           <br />
           <br />
-          A_Definir
+          Desde o início, o foco sempre foi tratar cada caso com dedicação única
+          — não apenas buscando resultados positivos, mas também garantindo que
+          o cliente se sinta seguro, ouvido e respeitado durante todo o
+          processo.
           <br />
           <br />
-          A_Definir
+          Acreditamos que a confiança é construída com escuta, transparência e
+          responsabilidade.
+          <br />
+          <br />
+          Mais do que oferecer soluções jurídicas, nossa missão é caminhar lado
+          a lado com o cliente, descomplicando o acesso à Justiça e promovendo
+          um atendimento humanizado e de alta qualidade.
           <br />
           <br />
         </p>
