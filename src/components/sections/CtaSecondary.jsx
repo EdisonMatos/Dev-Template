@@ -50,14 +50,16 @@ export default function CtaSecondary({ colorMode = "default" }) {
             </div>
             <div className=" desktop1:w-[45%] flex flex-col items-center justify-evenly">
               {" "}
-              <FaWhatsapp size={54} className="text-primary" />
+              <FaWhatsapp size={54} className="text-bgSectionDark" />
               {content.texts.ctaSecondary.subtitleDireita}
               {content.texts.ctaSecondary.titleDireita}
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.ctaSecondary.ctaButtonText}
                 animation
-                icon={<FaWhatsapp size={24} />}
+                icon={<FaWhatsapp size={24} color="white" />}
+                color="bg-bgSectionDark"
+                labelColor="text-white"
               />
             </div>
           </div>
