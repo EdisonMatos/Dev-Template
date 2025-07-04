@@ -43,9 +43,9 @@ export default function Faq({ colorMode }) {
             </div>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <Paragraphs className={`text-center transition hover:scale-110`}>
+            <Paragraphs className={`text-center transition `}>
               <Button
-                className="hoover:scale-0 desktop1:hover:scale-105"
+                className="hoover:scale-0 desktop1:hover:scale-10 transition-all duration-300"
                 color=""
                 label={content.texts.faq.paragraph}
                 colorMode={colorMode}

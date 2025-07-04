@@ -1,23 +1,23 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
-import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -53,14 +53,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "JFurucho Advocacia",
+  name: "Dra. Mayara Souza",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "jfuruchoadvocacia.com.br", // Sem "www"
+  domain: "mayarasouzaadv.com.br", // Sem "www"
   phone: {
-    ddd: "67",
-    firstPart: "99911", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "9215", // Apenas os 4 últimos números
+    ddd: "61",
+    firstPart: "98119", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "7144", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
@@ -93,13 +93,10 @@ export const infos = {
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
       <p>8h às 18h</p>
-      <br />
-      <p>Sábados:</p>
-      <p>8h às 12h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "jfurucho.adv", // Sem o @
+  instagramProfile: "mayarasouzadasilva.ms", // Sem o @
   facebookProfile: "A_Definir",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
@@ -121,26 +118,26 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Atuação", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM CAMPO GRANDE - MS",
+      miniTag: "ADVOGADA EM CEILÂNDIA - DF",
       title: (
         <h1 className="mb-[16px]">
-          Quem nega saúde,
-          <span className="text-primary"> nega dignidade</span>
+          Ignorar seus direitos
+          <span className="text-primary"> tem custo</span>
         </h1>
       ),
       subtitle:
-        "Planos recusam, o SUS demora… e quem precisa, sofre. Seu direito à saúde não pode esperar.",
+        "A maioria só descobre quando já é tarde. Aqui, o atendimento é claro, humano e estratégico.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero lutar pelos meus direitos",
+      ctaButtonText: "Quero entender meus direitos",
       obsHero: {
         icon: (
           <svg
@@ -160,7 +157,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial com hora marcada e online para todo Brasil",
+        text: "Atendimento presencial e online para todo Brasil.",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -186,16 +183,16 @@ const content = {
       },
     },
     features: {
-      miniTag: "ESPECIALIDADE",
-      title: "Atuação especializada em Direito à Saúde",
+      miniTag: "ÁREAS DE ATUAÇÃO",
+      title: "Atendimento jurídico em múltiplas especialidades",
       subtitle:
-        "Garantimos seus direitos em saúde, inclusão e acesso a tratamentos.",
+        "Atuação estratégica nas principais áreas do Direito para oferecer soluções completas e eficazes aos clientes.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito à Saúde",
-        subtitle: "Acesso garantido a tratamentos pelo SUS e planos.",
+        title: "Direito Civil e Contratual",
+        subtitle: "Conflitos, contratos, danos e cobranças judiciais.",
         description: (
           <div>
             A_Definir
@@ -216,13 +213,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-stethoscope-icon lucide-stethoscope"
+            class="lucide lucide-handshake-icon lucide-handshake"
           >
-            <path d="M11 2v2" />
-            <path d="M5 2v2" />
-            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
-            <path d="M8 15a6 6 0 0 0 12 0v-3" />
-            <circle cx="20" cy="10" r="2" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -230,8 +227,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Fornecimento de Medicamentos",
-        subtitle: "Obtenção de remédios de alto custo na Justiça.",
+        title: "Direito de Família e Sucessões",
+        subtitle: "Divórcio, pensão, guarda, inventário e testamento.",
         description: (
           <div>
             A_Definir
@@ -252,11 +249,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-pill-bottle-icon lucide-pill-bottle"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="M18 11h-4a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h4" />
-            <path d="M6 7v13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7" />
-            <rect width="16" height="5" x="4" y="2" rx="1" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -264,8 +262,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direitos da Pessoa com Autismo",
-        subtitle: "Defesa por inclusão, terapias e benefícios legais.",
+        title: "Direito Penal e Processual Penal",
+        subtitle: "Defesa em inquéritos, processos e audiências.",
         description: (
           <div>
             A_Definir <br />
@@ -285,9 +283,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-puzzle-icon lucide-puzzle"
+            class="lucide lucide-gavel-icon lucide-gavel"
           >
-            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -295,8 +297,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Doenças Raras e Condições Especiais",
-        subtitle: "Atuação por tratamentos e suporte especializado.",
+        title: "Direito Trabalhista e Previdenciário",
+        subtitle: "Ações trabalhistas, aposentadorias e benefícios.",
         description: (
           <div>
             A_Definir
@@ -317,19 +319,12 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-dna-icon lucide-dna"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
           >
-            <path d="m10 16 1.5 1.5" />
-            <path d="m14 8-1.5-1.5" />
-            <path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993" />
-            <path d="m16.5 10.5 1 1" />
-            <path d="m17 6-2.891-2.891" />
-            <path d="M2 15c6.667-6 13.333 0 20-6" />
-            <path d="m20 9 .891.891" />
-            <path d="M3.109 14.109 4 15" />
-            <path d="m6.5 12.5 1 1" />
-            <path d="m7 18 2.891 2.891" />
-            <path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993" />
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -399,43 +394,51 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A DRA. JULIANA FURUCHO",
+      miniTag: "QUEM É A DRA. MAYARA SOUZA",
       title: "Minha trajetória",
       subtitle:
-        "Transformando indignação em justiça pela saúde de quem mais precisa",
+        "Comprometida com ética, excelência e soluções jurídicas personalizadas.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          O escritório da Dra. Juliana Furucho nasceu da indignação diante das
-          negativas injustas de planos de saúde e da omissão do SUS. A cada
-          paciente desamparado, crescia o desejo de transformar a dor em ação.
-          Assim começou uma trajetória marcada pela defesa firme do direito à
-          saúde.
+          O escritório liderado pela Dra. Mayara Souza nasceu do desejo de
+          tornar o Direito mais acessível, compreensível e acolhedor para todos.
+          <br />
+          Com uma atuação pautada na ética, integridade e excelência, o
+          escritório se diferencia por oferecer um atendimento realmente
+          personalizado, atento às necessidades e particularidades de cada
+          cliente.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          O escritório da Dra. Juliana Furucho nasceu da indignação diante das
-          negativas injustas de planos de saúde e da omissão do SUS. A cada
-          paciente desamparado, crescia o desejo de transformar a dor em ação.
-          Assim começou uma trajetória marcada pela defesa firme do direito à
-          saúde.
+          O escritório liderado pela Dra. Mayara Souza nasceu do desejo de
+          tornar o Direito mais acessível, compreensível e acolhedor para todos.
           <br />
           <br />
-          Desde então, centenas de pessoas tiveram acesso a medicamentos,
-          terapias e tratamentos antes negados. Casos envolvendo autismo,
-          doenças raras e condições graves passaram a ser tratados com urgência,
-          estratégia e acolhimento humano.
+          Com uma atuação pautada na ética, integridade e excelência, o
+          escritório se diferencia por oferecer um atendimento realmente
+          personalizado, atento às necessidades e particularidades de cada
+          cliente.
           <br />
           <br />
-          Aqui, cada história é única e tratada com escuta ativa, empatia e
-          dedicação total. Lutamos por resultados concretos, com agilidade e
-          sensibilidade, porque acreditamos que saúde é direito — e justiça, uma
-          missão diária.
+          Desde o início, o foco sempre foi tratar cada caso com dedicação única
+          — não apenas buscando resultados positivos, mas também garantindo que
+          o cliente se sinta seguro, ouvido e respeitado durante todo o
+          processo.
+          <br />
+          <br />
+          Acreditamos que a confiança é construída com escuta, transparência e
+          responsabilidade.
+          <br />
+          <br />
+          Mais do que oferecer soluções jurídicas, nossa missão é caminhar lado
+          a lado com o cliente, descomplicando o acesso à Justiça e promovendo
+          um atendimento humanizado e de alta qualidade.
           <br />
           <br />
         </p>

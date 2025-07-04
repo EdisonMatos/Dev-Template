@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://jfuruchoadvocacia.com.br/sitemap.xml
+Sitemap: https://www.mayarasouzaadv.com.br/sitemap.xml
 

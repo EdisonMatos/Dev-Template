@@ -5,13 +5,13 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: "#DBB14C",
+      primary: "#3a3a3a",
       secondary: "#000000",
 
       // Fundos de Seção
 
       bgSectionLight: "#FFFFFF",
-      bgSectionDark: "#000",
+      bgSectionDark: "#3a3a3a",
       bgSectionOpacityLight: "#F7F7F7",
       bgFixedLight: "#E8E8E8",
       bgSectionOpacityDark: "#111111",
@@ -25,14 +25,13 @@ export const theme = {
       // Botões e Links
 
       links: "#0189BB",
-      buttonColor: "#DBB14C",
-      iconButtons: "#000",
-      labelButtons: "#000",
-      minititleLightLabel: "#000", //label das minitag de seções claras
-      minititleDarkLabel: "#000", //label minitag de seções escuras
-      minititleDark: "#DBB14C", //bg minitag de seções claras
-      minititle: "#DBB14C", //bg minitag de seções escuras
-
+      buttonColor: "#3a3a3a",
+      iconButtons: "#fff",
+      labelButtons: "#fff",
+      minititleLightLabel: "#fff", //label das minitag de seções claras
+      minititleDarkLabel: "#fff", //label minitag de seções escuras
+      minititleDark: "#3a3a3a", //bg minitag de seções claras
+      minititle: "#3a3a3a", //bg minitag de seções escuras
       // Sombras
 
       shadowHero: "#000000",
@@ -49,6 +48,7 @@ export const theme = {
     },
     boxShadow: {
       "custom-opacity": "-20px 20px 0px", // 30% de opacidade
+      "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
