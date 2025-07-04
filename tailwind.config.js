@@ -30,8 +30,8 @@ export const theme = {
       labelButtons: "#000",
       minititleLightLabel: "#000", //label das minitag de seções claras
       minititleDarkLabel: "#000", //label minitag de seções escuras
-      minititleDark: "#FAE49B", //bg minitag de seções claras
-      minititle: "#FAE49B", //bg minitag de seções escuras
+      minititleDark: "#DBB14C", //bg minitag de seções claras
+      minititle: "#DBB14C", //bg minitag de seções escuras
 
       // Sombras
 
